@@ -13,28 +13,28 @@ EXT:sitepackage/Resources/Private/Language/Klaro/locallang.xlf
 ### Add new Keys for purposes
 
 ```xml
-<trans-unit id="purposes.analytics.title" resname="purposes.analytics.title">
+<trans-unit id="purposes.analytics.title">
     <source>Analytics</source>
 </trans-unit>
-<trans-unit id="purposes.analytics.description" resname="purposes.analytics.description">
+<trans-unit id="purposes.analytics.description">
     <source>These services gather anonymous data for statistical analysis and performance optimization. Enabling analytics services assists website owners in making informed decisions to enhance online services.</source>
 </trans-unit>
-<trans-unit id="purposes.security.title" resname="purposes.security.title">
+<trans-unit id="purposes.security.title">
     <source>Security</source>
 </trans-unit>
-<trans-unit id="purposes.security.description" resname="purposes.security.description">
+<trans-unit id="purposes.security.description">
     <source>Security services are crucial for safeguarding your online experience. These services help protect your data and privacy by detecting and preventing security threats, such as malware, phishing attempts, and unauthorized access. They ensure a safer browsing environment.</source>
 </trans-unit>
-<trans-unit id="purposes.livechat.title" resname="purposes.livechat.title">
+<trans-unit id="purposes.livechat.title">
     <source>Live Chat</source>
 </trans-unit>
-<trans-unit id="purposes.livechat.description" resname="purposes.livechat.description">
+<trans-unit id="purposes.livechat.description">
     <source>Live chat services enable real-time communication with website support teams. They offer a convenient way to ask questions, seek assistance, or engage in discussions while browsing a website. Live chat enhances your online interaction and customer support experience.</source>
 </trans-unit>
-<trans-unit id="purposes.styling.title" resname="purposes.styling.title">
+<trans-unit id="purposes.styling.title">
     <source>Styling</source>
 </trans-unit>
-<trans-unit id="purposes.styling.description" resname="purposes.styling.description">
+<trans-unit id="purposes.styling.description">
     <source>Services related to styling help to improve the appearance of the website. This can also have an impact on usability.</source>
 </trans-unit>
 ```
