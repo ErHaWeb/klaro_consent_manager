@@ -1,0 +1,69 @@
+{
+    "name": "erhaweb/klaro-consent-manager",
+    "type": "typo3-cms-extension",
+    "description": "TYPO3 integration of Klaro! Consent Management. Klaro! is a powerful tool that protects the privacy and data of your visitors and helps you run a GDPR compliant website.",
+    "license": "GPL-2.0-or-later",
+    "require": {
+        "typo3/cms-core": "^10.4 || ^11.5 || ^12.4",
+        "php": "^7.4 || ^8.0 || ^8.1 || ^8.2"
+    },
+    "require-dev": {
+        "roave/security-advisories": "dev-latest",
+        "typo3/testing-framework": "^6.9.0"
+    },
+    "authors": [
+        {
+            "name": "Eric Harrer",
+            "role": "Developer",
+            "email": "info@eric-harrer.de",
+            "homepage": "https://www.eric-harrer.de"
+        }
+    ],
+    "keywords": [
+        "TYPO3",
+        "extension",
+		"Consent Manager",
+		"Klaro",
+		"GDPR"
+    ],
+    "homepage": "https://extensions.typo3.org/extension/klaro_consent_manager",
+    "support": {
+        "source": "https://github.com/ErHaWeb/klaro_consent_manager",
+        "issues": "https://github.com/ErHaWeb/klaro_consent_manager/issues",
+        "docs": "https://github.com/ErHaWeb/klaro_consent_manager#readme"
+    },
+    "funding": [
+        {
+            "type": "other",
+            "url:": "https://www.paypal.com/paypalme/ebode"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "ErHaWeb\\KlaroConsentManager\\": "Classes"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "ErHaWeb\\KlaroConsentManager\\Tests\\": "Tests"
+        }
+    },
+    "replace": {
+        "typo3-ter/klaro-consent-manager": "self.version"
+    },
+    "config": {
+        "vendor-dir": ".Build/vendor",
+        "bin-dir": ".Build/bin"
+    },
+    "scripts": {
+        "post-autoload-dump": [
+            "TYPO3\\TestingFramework\\Composer\\ExtensionTestEnvironment::prepare"
+        ]
+    },
+    "extra": {
+        "typo3/cms": {
+            "web-dir": ".Build/public",
+            "extension-key": "klaro_consent_manager"
+        }
+    }
+}

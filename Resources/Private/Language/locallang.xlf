@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+	<file source-language="en" datatype="plaintext" original="EXT:klaro_consent_manager/Resources/Private/Language/locallang_db.xlf" date="2023-09-24T09:57:24Z" product-name="lang">
+		<body>
+			<trans-unit id="privacyPolicy.name" resname="privacyPolicy.name">
+				<source>privacy policy</source>
+			</trans-unit>
+			<trans-unit id="privacyPolicy.text" resname="privacyPolicy.text">
+				<source>To learn more, please read our {privacyPolicy}.</source>
+			</trans-unit>
+			<trans-unit id="consentModal.title" resname="consentModal.title">
+				<source>Services we would like to use</source>
+			</trans-unit>
+			<trans-unit id="consentModal.description" resname="consentModal.description">
+				<source>Here you can assess and customize the services that we'd like to use on this website. You're in charge! Enable or disable services as you see fit.</source>
+			</trans-unit>
+			<trans-unit id="consentNotice.testing" resname="consentNotice.testing">
+				<source>Testing mode!</source>
+			</trans-unit>
+			<trans-unit id="consentNotice.title" resname="consentNotice.title">
+				<source>Cookie Consent</source>
+			</trans-unit>
+			<trans-unit id="consentNotice.changeDescription" resname="consentNotice.changeDescription">
+				<source>There were changes since your last visit, please renew your consent.</source>
+			</trans-unit>
+			<trans-unit id="consentNotice.description" resname="consentNotice.description">
+				<source>Hi! Could we please enable some additional services for {purposes}? You can always change or withdraw your consent later.</source>
+			</trans-unit>
+			<trans-unit id="consentNotice.learnMore" resname="consentNotice.learnMore">
+				<source>Let me choose</source>
+			</trans-unit>
+			<trans-unit id="purposes.styling.description" resname="purposes.styling.description">
+				<source>These services process personal information to show you personalized or interest-based advertisements.</source>
+			</trans-unit>
+			<trans-unit id="purposeItem.service" resname="purposeItem.service">
+				<source>A simple service that I install on my computer.</source>
+			</trans-unit>
+			<trans-unit id="purposeItem.services" resname="purposeItem.services">
+				<source>Several simple services that I install on my computer.</source>
+			</trans-unit>
+			<trans-unit id="ok" resname="ok">
+				<source>That's ok</source>
+			</trans-unit>
+			<trans-unit id="save" resname="save">
+				<source>save</source>
+			</trans-unit>
+			<trans-unit id="decline" resname="decline">
+				<source>I decline</source>
+			</trans-unit>
+			<trans-unit id="close" resname="close">
+				<source>close</source>
+			</trans-unit>
+			<trans-unit id="acceptAll" resname="acceptAll">
+				<source>accept all</source>
+			</trans-unit>
+			<trans-unit id="acceptSelected" resname="acceptSelected">
+				<source>accept selected</source>
+			</trans-unit>
+			<trans-unit id="service.disableAll.title" resname="service.disableAll.title">
+				<source>Enable or disable all services</source>
+			</trans-unit>
+			<trans-unit id="service.disableAll.description" resname="service.disableAll.description">
+				<source>Use this switch to enable or disable all services.</source>
+			</trans-unit>
+			<trans-unit id="service.optOut.title" resname="service.optOut.title">
+				<source>(opt-out)</source>
+			</trans-unit>
+			<trans-unit id="service.optOut.description" resname="service.optOut.description">
+				<source>This services is loaded by default (but you can opt out)</source>
+			</trans-unit>
+			<trans-unit id="service.required.title" resname="service.required.title">
+				<source>(always required)</source>
+			</trans-unit>
+			<trans-unit id="service.required.description" resname="service.required.description">
+				<source>This services is always required</source>
+			</trans-unit>
+			<trans-unit id="service.purposes" resname="service.purposes">
+				<source>Processing purposes</source>
+			</trans-unit>
+			<trans-unit id="service.purpose" resname="service.purpose">
+				<source>Processing purpose</source>
+			</trans-unit>
+			<trans-unit id="poweredBy" resname="poweredBy">
+				<source>Realized with Klaro!</source>
+			</trans-unit>
+			<trans-unit id="contextualConsent.description" resname="contextualConsent.description">
+				<source>Do you want to load external content supplied by {title}?</source>
+			</trans-unit>
+			<trans-unit id="contextualConsent.acceptOnce" resname="contextualConsent.acceptOnce">
+				<source>Yes</source>
+			</trans-unit>
+			<trans-unit id="contextualConsent.acceptAlways" resname="contextualConsent.acceptAlways">
+				<source>Always</source>
+			</trans-unit>
+
+			<!-- Purposes -->
+			<trans-unit id="purposes.functional.title" resname="purposes.functional.title">
+				<source>Service Provision</source>
+			</trans-unit>
+			<trans-unit id="purposes.functional.description" resname="purposes.functional.description">
+				<source>These services are essential for the correct functioning of this website. You cannot disable them here as the service would not work correctly otherwise.</source>
+			</trans-unit>
+			<trans-unit id="purposes.performance.title" resname="purposes.performance.title">
+				<source>Performance Optimization</source>
+			</trans-unit>
+			<trans-unit id="purposes.performance.description" resname="purposes.performance.description">
+				<source>These services process personal information to optimize the service that this website offers.</source>
+			</trans-unit>
+			<trans-unit id="purposes.marketing.title" resname="purposes.marketing.title">
+				<source>Marketing</source>
+			</trans-unit>
+			<trans-unit id="purposes.marketing.description" resname="purposes.marketing.description">
+				<source>These services process personal information to show you relevant content about products, services, or topics that you might be interested in.</source>
+			</trans-unit>
+			<trans-unit id="purposes.advertising.title" resname="purposes.advertising.title">
+				<source>Advertising</source>
+			</trans-unit>
+			<trans-unit id="purposes.advertising.description" resname="purposes.advertising.description">
+				<source>These services process personal information to show you personalized or interest-based advertisements.</source>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

@@ -1,0 +1,21 @@
+services:
+  _defaults:
+    autowire: true
+    autoconfigure: true
+    public: false
+
+  ErHaWeb\KlaroConsentManager\:
+    resource: '../Classes/*'
+    exclude: '../Classes/Domain/Model/*'
+
+  ErHaWeb\KlaroConsentManager\EventListener\KlaroJavaScript:
+    tags:
+      - name: event.listener
+        identifier: 'KlaroConsentManager/KlaroJavaScript'
+        event: TYPO3\CMS\Core\Page\Event\BeforeJavaScriptsRenderingEvent
+
+  ErHaWeb\KlaroConsentManager\EventListener\KlaroStylesheet:
+    tags:
+      - name: event.listener
+        identifier: 'KlaroConsentManager/KlaroStylesheet'
+        event: TYPO3\CMS\Core\Page\Event\BeforeStylesheetsRenderingEvent
