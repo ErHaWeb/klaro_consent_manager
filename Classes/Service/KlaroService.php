@@ -88,7 +88,7 @@ class KlaroService
 
             $versionInformation = GeneralUtility::makeInstance(Typo3Version::class);
             $languageServiceFactory = GeneralUtility::makeInstance(LanguageServiceFactory::class);
-            $this->languageService = $languageServiceFactory->create($siteLanguage->getLocale());
+            $this->languageService = $languageServiceFactory->create($siteLanguage->getTwoLetterIsoCode());
         }
     }
 
