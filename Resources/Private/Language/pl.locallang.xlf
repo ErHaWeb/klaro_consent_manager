@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+	<file source-language="en" target-language="pl" datatype="plaintext" original="EXT:klaro_consent_manager/Resources/Private/Language/locallang.xlf" date="2023-09-24T09:57:24Z" product-name="klaro_consent_manager">
+		<body>
+			<trans-unit id="acceptAll">
+				<target>Zaakceptuj wszystkie</target>
+			</trans-unit>
+			<trans-unit id="acceptSelected">
+				<target>Zaakceptuj wybrane</target>
+			</trans-unit>
+			<trans-unit id="close">
+				<target>Zamknij</target>
+			</trans-unit>
+			<trans-unit id="consentModal.description">
+				<target>Tutaj mogą Państwo ocenić i dostosować usługi, które chcielibyśmy wykorzystać na tej stronie. Włączaj lub wyłączaj usługi według własnego uznania.</target>
+			</trans-unit>
+			<trans-unit id="consentModal.privacyPolicy.name">
+				<target>polityką prywatności</target>
+			</trans-unit>
+			<trans-unit id="consentModal.privacyPolicy.text">
+				<target>Aby dowiedzieć się więcej, prosimy o zapoznanie się z naszą {privacyPolicy}.</target>
+			</trans-unit>
+			<trans-unit id="consentModal.title">
+				<target>Usługi, z których chcielibyśmy skorzystać</target>
+			</trans-unit>
+			<trans-unit id="consentNotice.changeDescription">
+				<target>Od Twojej ostatniej wizyty nastąpiły zmiany, prosimy o odnowienie zgody.</target>
+			</trans-unit>
+			<trans-unit id="consentNotice.description">
+				<target>Czy możemy włączyć dodatkowe usługi dla {purposes}? W każdej chwili mogą Państwo później zmienić lub wycofać swoją zgodę.</target>
+			</trans-unit>
+			<trans-unit id="consentNotice.imprint.name">
+				<target>Imprint</target>
+			</trans-unit>
+			<trans-unit id="consentNotice.learnMore">
+				<target>Pozwól mi wybrać</target>
+			</trans-unit>
+			<trans-unit id="consentNotice.privacyPolicy.name">
+				<target>polityka prywatności</target>
+			</trans-unit>
+			<trans-unit id="consentNotice.testing">
+				<target>Tryb testowy!</target>
+			</trans-unit>
+			<trans-unit id="consentNotice.title">
+				<target>Cookie Consent</target>
+			</trans-unit>
+			<trans-unit id="consentNotice.learnMore">
+				<target>Let me choose</target>
+			</trans-unit>
+			<trans-unit id="contextualConsent.acceptAlways">
+				<target>Zawsze</target>
+			</trans-unit>
+			<trans-unit id="contextualConsent.acceptOnce">
+				<target>Tak</target>
+			</trans-unit>
+			<trans-unit id="contextualConsent.description">
+				<target>Czy chcą Państwo załadować treści zewnętrzne dostarczane przez {title}?</target>
+			</trans-unit>
+			<trans-unit id="decline">
+				<target>Odmawiam</target>
+			</trans-unit>
+			<trans-unit id="ok">
+				<target>Ok</target>
+			</trans-unit>
+			<trans-unit id="poweredBy">
+				<target>Technologia dostarczona przez Klaro</target>
+			</trans-unit>
+			<trans-unit id="privacyPolicy.name">
+				<target>polityka prywatności</target>
+			</trans-unit>
+			<trans-unit id="privacyPolicy.text">
+				<target>Aby dowiedzieć się więcej, prosimy o zapoznanie się z naszą {privacyPolicy}.</target>
+			</trans-unit>
+			<trans-unit id="purposeItem.service">
+				<target>usługa</target>
+			</trans-unit>
+			<trans-unit id="purposeItem.services">
+				<target>usługi</target>
+			</trans-unit>
+			<trans-unit id="purposes.advertising.description">
+				<target>Usługi te przetwarzają dane osobowe w celu pokazania Państwu spersonalizowanych lub opartych na zainteresowaniach reklam.</target>
+			</trans-unit>
+			<trans-unit id="purposes.advertising.title">
+				<target>Reklama</target>
+			</trans-unit>
+			<trans-unit id="purposes.advertising.title">
+				<target>Advertising</target>
+			</trans-unit>
+			<trans-unit id="purposes.functional.description">
+				<target>Usługi te są niezbędne do prawidłowego funkcjonowania niniejszej strony internetowej. Nie mogą Państwo ich tutaj wyłączyć, ponieważ w przeciwnym razie strona nie działałaby prawidłowo.
+				</target>
+			</trans-unit>
+			<trans-unit id="purposes.functional.title">
+				<target>Świadczenie usług</target>
+			</trans-unit>
+			<trans-unit id="purposes.functional.title">
+				<target>Service Provision</target>
+			</trans-unit>
+			<trans-unit id="purposes.marketing.description">
+				<target>Usługi te przetwarzają dane osobowe w celu pokazania Państwu istotnych treści dotyczących produktów, usług lub tematów, którymi mogą być Państwo zainteresowani.</target>
+			</trans-unit>
+			<trans-unit id="purposes.marketing.title">
+				<target>Marketing</target>
+			</trans-unit>
+			<trans-unit id="purposes.marketing.title">
+				<target>Marketing</target>
+			</trans-unit>
+			<trans-unit id="purposes.performance.description">
+				<target>Usługi te przetwarzają dane osobowe w celu optymalizacji usług oferowanych przez tę stronę.
+				</target>
+			</trans-unit>
+			<trans-unit id="purposes.performance.title">
+				<target>Optymalizacja wydajności</target>
+			</trans-unit>
+			<trans-unit id="purposes.performance.title">
+				<target>Performance Optimization</target>
+			</trans-unit>
+			<trans-unit id="save">
+				<target>Zapisz</target>
+			</trans-unit>
+			<trans-unit id="service.disableAll.description">
+				<target>Za pomocą tego przełącznika można włączać lub wyłączać wszystkie usługi.</target>
+			</trans-unit>
+			<trans-unit id="service.disableAll.title">
+				<target>Włącz lub wyłącz wszystkie usługi</target>
+			</trans-unit>
+			<trans-unit id="service.disableAll.title">
+				<target>enable or disable all services</target>
+			</trans-unit>
+			<trans-unit id="service.optOut.description">
+				<target>Ta usługa jest domyślnie załadowana (ale mogą Państwo z niej zrezygnować)</target>
+			</trans-unit>
+			<trans-unit id="service.optOut.title">
+				<target>(opt-out)</target>
+			</trans-unit>
+			<trans-unit id="service.purpose">
+				<target>Cel</target>
+			</trans-unit>
+			<trans-unit id="service.purposes">
+				<target>Cele</target>
+			</trans-unit>
+			<trans-unit id="service.required.description">
+				<target>Usługi te są zawsze wymagane</target>
+			</trans-unit>
+			<trans-unit id="service.required.title">
+				<target>(zawsze wymagane)</target>
+			</trans-unit>
+			<trans-unit id="ok">
+				<target>That's ok</target>
+			</trans-unit>
+			<trans-unit id="save">
+				<target>save</target>
+			</trans-unit>
+			<trans-unit id="decline">
+				<target>I decline</target>
+			</trans-unit>
+			<trans-unit id="close">
+				<target>close</target>
+			</trans-unit>
+			<trans-unit id="acceptAll">
+				<target>accept all</target>
+			</trans-unit>
+			<trans-unit id="acceptSelected">
+				<target>accept selected</target>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+	<file source-language="en" target-language="el" datatype="plaintext" original="EXT:klaro_consent_manager/Resources/Private/Language/locallang.xlf" date="2023-09-24T09:57:24Z" product-name="klaro_consent_manager">
+		<body>
+			<trans-unit id="acceptAll">
+				<source/>
+			</trans-unit>
+			<trans-unit id="acceptAll_en">
+				<target>Accept all</target>
+			</trans-unit>
+			<trans-unit id="acceptSelected">
+				<source/>
+			</trans-unit>
+			<trans-unit id="acceptSelected_en">
+				<target>Accept selected</target>
+			</trans-unit>
+			<trans-unit id="service.disableAll.description">
+				<target>Χρησιμοποίησε αυτό τον διακόπτη για να ενεργοποιήσεις/απενεργοποιήσεις όλες τις εφαρμογές.</target>
+			</trans-unit>
+			<trans-unit id="service.disableAll.title">
+				<target>Για όλες τις εφαρμογές</target>
+			</trans-unit>
+			<trans-unit id="service.disableAll.title">
+				<target>enable or disable all services</target>
+			</trans-unit>
+			<trans-unit id="service.optOut.description">
+				<target>Είναι προκαθορισμένο να φορτώνεται, άλλα μπορεί να παραληφθεί</target>
+			</trans-unit>
+			<trans-unit id="service.optOut.title">
+				<target>(μη απαιτούμενο)</target>
+			</trans-unit>
+			<trans-unit id="service.purpose">
+				<target>Σκοπός</target>
+			</trans-unit>
+			<trans-unit id="service.purposes">
+				<target>Σκοποί</target>
+			</trans-unit>
+			<trans-unit id="service.required.description">
+				<target>Δεν γίνεται να λειτουργήσει σωστά η εφαρμογή χωρίς αυτό</target>
+			</trans-unit>
+			<trans-unit id="service.required.title">
+				<target>(απαιτούμενο)</target>
+			</trans-unit>
+			<trans-unit id="close">
+				<target>Κλείσιμο</target>
+			</trans-unit>
+			<trans-unit id="consentModal.description">
+				<target>Εδώ μπορείς να δεις και να ρυθμίσεις τις πληροφορίες που συλλέγουμε σχετικά με εσένα.</target>
+			</trans-unit>
+			<trans-unit id="consentModal.privacyPolicy.name">
+				<target>Πολιτική Απορρήτου</target>
+			</trans-unit>
+			<trans-unit id="consentModal.privacyPolicy.text">
+				<target>Για περισσότερες πληροφορίες, παρακαλώ διαβάστε την {privacyPolicy}.</target>
+			</trans-unit>
+			<trans-unit id="consentModal.title">
+				<target>Πληροφορίες που συλλέγουμε</target>
+			</trans-unit>
+			<trans-unit id="consentNotice.changeDescription">
+				<target>Πραγματοποιήθηκαν αλλαγές μετά την τελευταία σας επίσκεψη παρακαλούμε ανανεώστε την συγκατάθεση σας.</target>
+			</trans-unit>
+			<trans-unit id="consentNotice.description">
+				<target>Συγκεντρώνουμε και επεξεργαζόμαστε τα προσωπικά δεδομένα σας για τους παρακάτω λόγους: {purposes}.</target>
+			</trans-unit>
+			<trans-unit id="consentNotice.imprint.name">
+				<source/>
+			</trans-unit>
+			<trans-unit id="consentNotice.imprint.name_en">
+				<target>imprint</target>
+			</trans-unit>
+			<trans-unit id="consentNotice.learnMore">
+				<target>Περισσότερα</target>
+			</trans-unit>
+			<trans-unit id="consentNotice.privacyPolicy.name">
+				<target>Πολιτική Απορρήτου</target>
+			</trans-unit>
+			<trans-unit id="consentNotice.testing">
+				<target>Testing mode!</target>
+			</trans-unit>
+			<trans-unit id="consentNotice.title">
+				<target>Cookie Consent</target>
+			</trans-unit>
+			<trans-unit id="consentNotice.learnMore">
+				<target>Let me choose</target>
+			</trans-unit>
+			<trans-unit id="decline">
+				<target>Απόρριπτω</target>
+			</trans-unit>
+			<trans-unit id="ok">
+				<target>OK</target>
+			</trans-unit>
+			<trans-unit id="poweredBy">
+				<target>Υποστηρίζεται από το Klaro!</target>
+			</trans-unit>
+			<trans-unit id="purposeItem.service">
+				<source/>
+			</trans-unit>
+			<trans-unit id="purposeItem.services">
+				<source/>
+			</trans-unit>
+			<trans-unit id="save">
+				<target>Αποθήκευση</target>
+			</trans-unit>
+			<trans-unit id="privacyPolicy.name">
+				<target>privacy policy</target>
+			</trans-unit>
+			<trans-unit id="privacyPolicy.text">
+				<target>To learn more, please read our {privacyPolicy}.</target>
+			</trans-unit>
+			<trans-unit id="purposes.functional.title">
+				<target>Service Provision</target>
+			</trans-unit>
+			<trans-unit id="purposes.functional.description">
+				<target>These services are essential for the correct functioning of this website. You cannot disable them here as the service would not work correctly otherwise.
+				</target>
+			</trans-unit>
+			<trans-unit id="purposes.performance.title">
+				<target>Performance Optimization</target>
+			</trans-unit>
+			<trans-unit id="purposes.performance.description">
+				<target>These services process personal information to optimize the service that this website offers.
+				</target>
+			</trans-unit>
+			<trans-unit id="purposes.marketing.title">
+				<target>Marketing</target>
+			</trans-unit>
+			<trans-unit id="purposes.marketing.description">
+				<target>These services process personal information to show you relevant content about products, services or topics that you might be interested in.</target>
+			</trans-unit>
+			<trans-unit id="purposes.advertising.title">
+				<target>Advertising</target>
+			</trans-unit>
+			<trans-unit id="purposes.advertising.description">
+				<target>These services process personal information to show you personalized or interest-based advertisements.</target>
+			</trans-unit>
+			<trans-unit id="ok">
+				<target>That's ok</target>
+			</trans-unit>
+			<trans-unit id="save">
+				<target>save</target>
+			</trans-unit>
+			<trans-unit id="decline">
+				<target>I decline</target>
+			</trans-unit>
+			<trans-unit id="close">
+				<target>close</target>
+			</trans-unit>
+			<trans-unit id="acceptAll">
+				<target>accept all</target>
+			</trans-unit>
+			<trans-unit id="acceptSelected">
+				<target>accept selected</target>
+			</trans-unit>
+			<trans-unit id="contextualConsent.description">
+				<target>Do you want to load external content supplied by {title}?</target>
+			</trans-unit>
+			<trans-unit id="contextualConsent.acceptOnce">
+				<target>True</target>
+			</trans-unit>
+			<trans-unit id="contextualConsent.acceptAlways">
+				<target>Always</target>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

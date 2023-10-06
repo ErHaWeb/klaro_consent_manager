@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+	<file source-language="en" target-language="ca" datatype="plaintext" original="EXT:klaro_consent_manager/Resources/Private/Language/locallang.xlf" date="2023-09-24T09:57:24Z" product-name="klaro_consent_manager">
+		<body>
+			<trans-unit id="acceptAll">
+				<target>Accepta-les totes</target>
+			</trans-unit>
+			<trans-unit id="acceptSelected">
+				<target>Accepta les escollides</target>
+			</trans-unit>
+			<trans-unit id="service.disableAll.description">
+				<target>Useu aquest botó per a habilitar o deshabilitar totes les aplicacions.</target>
+			</trans-unit>
+			<trans-unit id="service.disableAll.title">
+				<target>Habilita/deshabilita totes les aplicacions</target>
+			</trans-unit>
+			<trans-unit id="service.disableAll.title">
+				<target>enable or disable all services</target>
+			</trans-unit>
+			<trans-unit id="service.optOut.description">
+				<target>Aquesta aplicació es carrega per defecte, però podeu desactivar-la</target>
+			</trans-unit>
+			<trans-unit id="service.optOut.title">
+				<target>(opt-out)</target>
+			</trans-unit>
+			<trans-unit id="service.purpose">
+				<target>Finalitat</target>
+			</trans-unit>
+			<trans-unit id="service.purposes">
+				<target>Finalitats</target>
+			</trans-unit>
+			<trans-unit id="service.required.description">
+				<target>Aquesta aplicació es necessita sempre</target>
+			</trans-unit>
+			<trans-unit id="service.required.title">
+				<target>(necessària)</target>
+			</trans-unit>
+			<trans-unit id="close">
+				<target>Tanca</target>
+			</trans-unit>
+			<trans-unit id="consentModal.description">
+				<target>Aquí podeu veure i personalitzar la informació que recopilem sobre vós.</target>
+			</trans-unit>
+			<trans-unit id="consentModal.privacyPolicy.name">
+				<target>política de privadesa</target>
+			</trans-unit>
+			<trans-unit id="consentModal.privacyPolicy.text">
+				<target>Per a més informació, consulteu la nostra {privacyPolicy}.</target>
+			</trans-unit>
+			<trans-unit id="consentModal.title">
+				<target>Informació que recopilem</target>
+			</trans-unit>
+			<trans-unit id="consentNotice.changeDescription">
+				<target>Hi ha hagut canvis des de la vostra darrera visita. Actualitzeu el vostre consentiment.</target>
+			</trans-unit>
+			<trans-unit id="consentNotice.description">
+				<target>Recopilem i processem la vostra informació personal amb les següents finalitats: {purposes}.
+				</target>
+			</trans-unit>
+			<trans-unit id="consentNotice.imprint.name">
+				<target>Empremta</target>
+			</trans-unit>
+			<trans-unit id="consentNotice.learnMore">
+				<target>Saber-ne més</target>
+			</trans-unit>
+			<trans-unit id="consentNotice.privacyPolicy.name">
+				<target>política de privadesa</target>
+			</trans-unit>
+			<trans-unit id="consentNotice.testing">
+				<target>Testing mode!</target>
+			</trans-unit>
+			<trans-unit id="consentNotice.title">
+				<target>Cookie Consent</target>
+			</trans-unit>
+			<trans-unit id="consentNotice.learnMore">
+				<target>Let me choose</target>
+			</trans-unit>
+			<trans-unit id="decline">
+				<target>Rebutja</target>
+			</trans-unit>
+			<trans-unit id="ok">
+				<target>Accepta</target>
+			</trans-unit>
+			<trans-unit id="poweredBy">
+				<target>Funciona amb Klaro!</target>
+			</trans-unit>
+			<trans-unit id="purposeItem.service">
+				<target>aplicació</target>
+			</trans-unit>
+			<trans-unit id="purposeItem.services">
+				<target>aplicacions</target>
+			</trans-unit>
+			<trans-unit id="save">
+				<target>Desa</target>
+			</trans-unit>
+			<trans-unit id="privacyPolicy.name">
+				<target>privacy policy</target>
+			</trans-unit>
+			<trans-unit id="privacyPolicy.text">
+				<target>To learn more, please read our {privacyPolicy}.</target>
+			</trans-unit>
+			<trans-unit id="purposes.functional.title">
+				<target>Service Provision</target>
+			</trans-unit>
+			<trans-unit id="purposes.functional.description">
+				<target>These services are essential for the correct functioning of this website. You cannot disable
+					them here as the service would not work correctly otherwise.
+				</target>
+			</trans-unit>
+			<trans-unit id="purposes.performance.title">
+				<target>Performance Optimization</target>
+			</trans-unit>
+			<trans-unit id="purposes.performance.description">
+				<target>These services process personal information to optimize the service that this website offers.
+				</target>
+			</trans-unit>
+			<trans-unit id="purposes.marketing.title">
+				<target>Marketing</target>
+			</trans-unit>
+			<trans-unit id="purposes.marketing.description">
+				<target>These services process personal information to show you relevant content about products,
+					services or topics that you might be interested in.
+				</target>
+			</trans-unit>
+			<trans-unit id="purposes.advertising.title">
+				<target>Advertising</target>
+			</trans-unit>
+			<trans-unit id="purposes.advertising.description">
+				<target>These services process personal information to show you personalized or interest-based
+					advertisements.
+				</target>
+			</trans-unit>
+			<trans-unit id="ok">
+				<target>That's ok</target>
+			</trans-unit>
+			<trans-unit id="save">
+				<target>save</target>
+			</trans-unit>
+			<trans-unit id="decline">
+				<target>I decline</target>
+			</trans-unit>
+			<trans-unit id="close">
+				<target>close</target>
+			</trans-unit>
+			<trans-unit id="acceptAll">
+				<target>accept all</target>
+			</trans-unit>
+			<trans-unit id="acceptSelected">
+				<target>accept selected</target>
+			</trans-unit>
+			<trans-unit id="contextualConsent.description">
+				<target>Do you want to load external content supplied by {title}?</target>
+			</trans-unit>
+			<trans-unit id="contextualConsent.acceptOnce">
+				<target>True</target>
+			</trans-unit>
+			<trans-unit id="contextualConsent.acceptAlways">
+				<target>Always</target>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

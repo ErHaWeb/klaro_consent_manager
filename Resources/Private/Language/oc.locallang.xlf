@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+	<file source-language="en" target-language="oc" datatype="plaintext" original="EXT:klaro_consent_manager/Resources/Private/Language/locallang.xlf" date="2023-09-24T09:57:24Z" product-name="klaro_consent_manager">
+		<body>
+			<trans-unit id="acceptAll">
+				<target>Tot acceptar</target>
+			</trans-unit>
+			<trans-unit id="acceptSelected">
+				<target>Acceptar çò seleccionat</target>
+			</trans-unit>
+			<trans-unit id="close">
+				<target>Tampar</target>
+			</trans-unit>
+			<trans-unit id="consentModal.description">
+				<target>Aquí podètz mesurar e personalizar los servicis que volriam utilizar sus aqueste site web. Avètz lo darrièr mot ! Activatz o desactivatz segon vòstra causida.</target>
+			</trans-unit>
+			<trans-unit id="consentModal.title">
+				<target>Servicis que volriam utilizar</target>
+			</trans-unit>
+			<trans-unit id="consentNotice.changeDescription">
+				<target>I aguèt de modificacions dempuèi vòstra darrièra visita, mercés de repassar vòstre consentiment.</target>
+			</trans-unit>
+			<trans-unit id="consentNotice.description">
+				<target>Adieu ! Poiriam activar mai de servici per {purposes} ? Podètz totjorn modificar o tirar vòstre consentiment mai tard.</target>
+			</trans-unit>
+			<trans-unit id="consentNotice.learnMore">
+				<target>Me daissar causir</target>
+			</trans-unit>
+			<trans-unit id="consentNotice.testing">
+				<target>Mòde tèst !</target>
+			</trans-unit>
+			<trans-unit id="consentNotice.title">
+				<target>Cookie Consent</target>
+			</trans-unit>
+			<trans-unit id="consentNotice.learnMore">
+				<target>Let me choose</target>
+			</trans-unit>
+			<trans-unit id="contextualConsent.acceptAlways">
+				<target>Totjorn</target>
+			</trans-unit>
+			<trans-unit id="contextualConsent.acceptOnce">
+				<target>Òc</target>
+			</trans-unit>
+			<trans-unit id="contextualConsent.description">
+				<target>Volètz cargar de contenguts extèrn provesits per {title} ?</target>
+			</trans-unit>
+			<trans-unit id="decline">
+				<target>Refusi</target>
+			</trans-unit>
+			<trans-unit id="ok">
+				<target>Es bon</target>
+			</trans-unit>
+			<trans-unit id="poweredBy">
+				<target>Realizat amb Klaro !</target>
+			</trans-unit>
+			<trans-unit id="privacyPolicy.name">
+				<target>politica de confidencialitat</target>
+			</trans-unit>
+			<trans-unit id="privacyPolicy.text">
+				<target>Per ne saber mai, vejatz nòstra {privacyPolicy}.</target>
+			</trans-unit>
+			<trans-unit id="purposeItem.service">
+				<target>servici</target>
+			</trans-unit>
+			<trans-unit id="purposeItem.services">
+				<target>servicis</target>
+			</trans-unit>
+			<trans-unit id="purposes.advertising.description">
+				<target>Aquestes servicis tractan d’informacions personalas per vos mostrar de reclamas personalizadas o basadas suls interèsses.</target>
+			</trans-unit>
+			<trans-unit id="purposes.advertising.title">
+				<target>Reclama</target>
+			</trans-unit>
+			<trans-unit id="purposes.advertising.title">
+				<target>Advertising</target>
+			</trans-unit>
+			<trans-unit id="purposes.functional.description">
+				<target>Aquestes servicis son essencials pel foncionament corrèct d’aqueste site web. Los podètz pas desactivar aquí pr’amor que lo servici foncionariá pas coma cal autrament.
+				</target>
+			</trans-unit>
+			<trans-unit id="purposes.functional.title">
+				<target>Servici de provision</target>
+			</trans-unit>
+			<trans-unit id="purposes.functional.title">
+				<target>Service Provision</target>
+			</trans-unit>
+			<trans-unit id="purposes.marketing.description">
+				<target>Aquestes servicis tractan d’informacions personalas per vos mostrar de contenguts a prepaus de produits, de servicis o tèmas que poirián vos interessar.</target>
+			</trans-unit>
+			<trans-unit id="purposes.marketing.title">
+				<target>Marketing</target>
+			</trans-unit>
+			<trans-unit id="purposes.marketing.title">
+				<target>Marketing</target>
+			</trans-unit>
+			<trans-unit id="purposes.performance.description">
+				<target>Aquestes servicis tractan d’informacions per optimizar lo servici qu’aqueste site web prepausa.
+				</target>
+			</trans-unit>
+			<trans-unit id="purposes.performance.title">
+				<target>Optimizacion de las performanças</target>
+			</trans-unit>
+			<trans-unit id="purposes.performance.title">
+				<target>Performance Optimization</target>
+			</trans-unit>
+			<trans-unit id="save">
+				<target>Salvar</target>
+			</trans-unit>
+			<trans-unit id="service.disableAll.description">
+				<target>Utilizatz aqueste alternator per activar o desactivar totes los servicis.</target>
+			</trans-unit>
+			<trans-unit id="service.disableAll.title">
+				<target>Activar o desactivar totes los servicis</target>
+			</trans-unit>
+			<trans-unit id="service.disableAll.title">
+				<target>enable or disable all services</target>
+			</trans-unit>
+			<trans-unit id="service.optOut.description">
+				<target>Aqueste servici es cargar per defaut (mas lo podètz desactivar)</target>
+			</trans-unit>
+			<trans-unit id="service.optOut.title">
+				<target>(opt-out)</target>
+			</trans-unit>
+			<trans-unit id="service.purpose">
+				<target>finalitat</target>
+			</trans-unit>
+			<trans-unit id="service.purposes">
+				<target>finalitat</target>
+			</trans-unit>
+			<trans-unit id="service.required.description">
+				<target>Aqueste servici es totjorn requesit</target>
+			</trans-unit>
+			<trans-unit id="service.required.title">
+				<target>(totjorn requesit)</target>
+			</trans-unit>
+			<trans-unit id="ok">
+				<target>That's ok</target>
+			</trans-unit>
+			<trans-unit id="save">
+				<target>save</target>
+			</trans-unit>
+			<trans-unit id="decline">
+				<target>I decline</target>
+			</trans-unit>
+			<trans-unit id="close">
+				<target>close</target>
+			</trans-unit>
+			<trans-unit id="acceptAll">
+				<target>accept all</target>
+			</trans-unit>
+			<trans-unit id="acceptSelected">
+				<target>accept selected</target>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

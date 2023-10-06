@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+	<file source-language="en" target-language="hu" datatype="plaintext" original="EXT:klaro_consent_manager/Resources/Private/Language/locallang.xlf" date="2023-09-24T09:57:24Z" product-name="klaro_consent_manager">
+		<body>
+			<trans-unit id="acceptAll">
+				<target>Mind elfogad</target>
+			</trans-unit>
+			<trans-unit id="acceptAll_en">
+				<target>Accept all</target>
+			</trans-unit>
+			<trans-unit id="acceptSelected">
+				<target>Kiválasztottat elfogad</target>
+			</trans-unit>
+			<trans-unit id="acceptSelected_en">
+				<target>Accept selected</target>
+			</trans-unit>
+			<trans-unit id="service.disableAll.description">
+				<target>Használja ezt a kapcsolót az összes alkalmazás engedélyezéséhez/letiltásához.</target>
+			</trans-unit>
+			<trans-unit id="service.disableAll.title">
+				<target>Összes app átkapcsolása</target>
+			</trans-unit>
+			<trans-unit id="service.disableAll.title">
+				<target>enable or disable all services</target>
+			</trans-unit>
+			<trans-unit id="service.optOut.description">
+				<target>Ez az alkalmazás alapértelmezés szerint betöltött (de ki lehet kapcsolni)</target>
+			</trans-unit>
+			<trans-unit id="service.optOut.title">
+				<target>(leiratkozás)</target>
+			</trans-unit>
+			<trans-unit id="service.purpose">
+				<target>Cél</target>
+			</trans-unit>
+			<trans-unit id="service.purposes">
+				<target>Célok</target>
+			</trans-unit>
+			<trans-unit id="service.required.description">
+				<target>Ez az alkalmazás mindig szükséges</target>
+			</trans-unit>
+			<trans-unit id="service.required.title">
+				<target>(mindig szükséges)</target>
+			</trans-unit>
+			<trans-unit id="close">
+				<target>Elvet</target>
+			</trans-unit>
+			<trans-unit id="consentModal.description">
+				<target>Itt láthatja és testreszabhatja az önről gyűjtött információkat.</target>
+			</trans-unit>
+			<trans-unit id="consentModal.privacyPolicy.name">
+				<target>adatvédelmi irányelveinket</target>
+			</trans-unit>
+			<trans-unit id="consentModal.privacyPolicy.text">
+				<target>További információért kérjük, olvassa el az {privacyPolicy}.</target>
+			</trans-unit>
+			<trans-unit id="consentModal.title">
+				<target>Információk, amiket gyűjtünk</target>
+			</trans-unit>
+			<trans-unit id="consentNotice.changeDescription">
+				<target>Az utolsó látogatás óta változások történtek, kérjük, frissítse a hozzájárulását.</target>
+			</trans-unit>
+			<trans-unit id="consentNotice.description">
+				<target>Személyes adatait összegyűjtjük és feldolgozzuk az alábbi célokra: {purposes}.</target>
+			</trans-unit>
+			<trans-unit id="consentNotice.imprint.name">
+				<target>impresszum</target>
+			</trans-unit>
+			<trans-unit id="consentNotice.imprint.name_en">
+				<target>imprint</target>
+			</trans-unit>
+			<trans-unit id="consentNotice.learnMore">
+				<target>Tudjon meg többet</target>
+			</trans-unit>
+			<trans-unit id="consentNotice.privacyPolicy.name">
+				<target>adatvédelmi irányelveinket</target>
+			</trans-unit>
+			<trans-unit id="consentNotice.testing">
+				<target>Testing mode!</target>
+			</trans-unit>
+			<trans-unit id="consentNotice.title">
+				<target>Cookie Consent</target>
+			</trans-unit>
+			<trans-unit id="consentNotice.learnMore">
+				<target>Let me choose</target>
+			</trans-unit>
+			<trans-unit id="contextualConsent.acceptAlways">
+				<target>Mindig</target>
+			</trans-unit>
+			<trans-unit id="contextualConsent.acceptOnce">
+				<target>Igen</target>
+			</trans-unit>
+			<trans-unit id="contextualConsent.description">
+				<target>Be akarod tölteni a {title} által szolgáltatott külső tartalmakat?</target>
+			</trans-unit>
+			<trans-unit id="decline">
+				<target>Elutasít</target>
+			</trans-unit>
+			<trans-unit id="ok">
+				<target>Elfogad</target>
+			</trans-unit>
+			<trans-unit id="poweredBy">
+				<target>Powered by Klaro!</target>
+			</trans-unit>
+			<trans-unit id="purposeItem.service">
+				<source/>
+			</trans-unit>
+			<trans-unit id="purposeItem.services">
+				<source/>
+			</trans-unit>
+			<trans-unit id="save">
+				<target>Mentés</target>
+			</trans-unit>
+			<trans-unit id="privacyPolicy.name">
+				<target>privacy policy</target>
+			</trans-unit>
+			<trans-unit id="privacyPolicy.text">
+				<target>To learn more, please read our {privacyPolicy}.</target>
+			</trans-unit>
+			<trans-unit id="purposes.functional.title">
+				<target>Service Provision</target>
+			</trans-unit>
+			<trans-unit id="purposes.functional.description">
+				<target>These services are essential for the correct functioning of this website. You cannot disable them here as the service would not work correctly otherwise.
+				</target>
+			</trans-unit>
+			<trans-unit id="purposes.performance.title">
+				<target>Performance Optimization</target>
+			</trans-unit>
+			<trans-unit id="purposes.performance.description">
+				<target>These services process personal information to optimize the service that this website offers.
+				</target>
+			</trans-unit>
+			<trans-unit id="purposes.marketing.title">
+				<target>Marketing</target>
+			</trans-unit>
+			<trans-unit id="purposes.marketing.description">
+				<target>These services process personal information to show you relevant content about products, services or topics that you might be interested in.</target>
+			</trans-unit>
+			<trans-unit id="purposes.advertising.title">
+				<target>Advertising</target>
+			</trans-unit>
+			<trans-unit id="purposes.advertising.description">
+				<target>These services process personal information to show you personalized or interest-based advertisements.</target>
+			</trans-unit>
+			<trans-unit id="ok">
+				<target>That's ok</target>
+			</trans-unit>
+			<trans-unit id="save">
+				<target>save</target>
+			</trans-unit>
+			<trans-unit id="decline">
+				<target>I decline</target>
+			</trans-unit>
+			<trans-unit id="close">
+				<target>close</target>
+			</trans-unit>
+			<trans-unit id="acceptAll">
+				<target>accept all</target>
+			</trans-unit>
+			<trans-unit id="acceptSelected">
+				<target>accept selected</target>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>
