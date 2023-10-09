@@ -102,10 +102,10 @@
 				<target>Powered by Klaro!</target>
 			</trans-unit>
 			<trans-unit id="purposeItem.service">
-				<source/>
+				<target/>
 			</trans-unit>
 			<trans-unit id="purposeItem.services">
-				<source/>
+				<target/>
 			</trans-unit>
 			<trans-unit id="save">
 				<target>Mentés</target>
@@ -120,15 +120,13 @@
 				<target>Service Provision</target>
 			</trans-unit>
 			<trans-unit id="purposes.functional.description">
-				<target>These services are essential for the correct functioning of this website. You cannot disable them here as the service would not work correctly otherwise.
-				</target>
+				<target>These services are essential for the correct functioning of this website. You cannot disable them here as the service would not work correctly otherwise.</target>
 			</trans-unit>
 			<trans-unit id="purposes.performance.title">
 				<target>Performance Optimization</target>
 			</trans-unit>
 			<trans-unit id="purposes.performance.description">
-				<target>These services process personal information to optimize the service that this website offers.
-				</target>
+				<target>These services process personal information to optimize the service that this website offers.</target>
 			</trans-unit>
 			<trans-unit id="purposes.marketing.title">
 				<target>Marketing</target>
@@ -141,24 +139,6 @@
 			</trans-unit>
 			<trans-unit id="purposes.advertising.description">
 				<target>These services process personal information to show you personalized or interest-based advertisements.</target>
-			</trans-unit>
-			<trans-unit id="ok">
-				<target>That's ok</target>
-			</trans-unit>
-			<trans-unit id="save">
-				<target>save</target>
-			</trans-unit>
-			<trans-unit id="decline">
-				<target>I decline</target>
-			</trans-unit>
-			<trans-unit id="close">
-				<target>close</target>
-			</trans-unit>
-			<trans-unit id="acceptAll">
-				<target>accept all</target>
-			</trans-unit>
-			<trans-unit id="acceptSelected">
-				<target>accept selected</target>
 			</trans-unit>
 		</body>
 	</file>

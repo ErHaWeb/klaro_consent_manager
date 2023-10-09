@@ -57,7 +57,7 @@
 				<target>Мы собираем и обрабатываем вашу личную информацию для следующих целей: {purposes}.</target>
 			</trans-unit>
 			<trans-unit id="consentNotice.imprint.name">
-				<source/>
+				<target/>
 			</trans-unit>
 			<trans-unit id="consentNotice.imprint.name_en">
 				<target>imprint</target>
@@ -87,10 +87,10 @@
 				<target>Работает на Кларо!</target>
 			</trans-unit>
 			<trans-unit id="purposeItem.service">
-				<source/>
+				<target/>
 			</trans-unit>
 			<trans-unit id="purposeItem.services">
-				<source/>
+				<target/>
 			</trans-unit>
 			<trans-unit id="save">
 				<target>Сохранить</target>
@@ -105,15 +105,13 @@
 				<target>Service Provision</target>
 			</trans-unit>
 			<trans-unit id="purposes.functional.description">
-				<target>These services are essential for the correct functioning of this website. You cannot disable them here as the service would not work correctly otherwise.
-				</target>
+				<target>These services are essential for the correct functioning of this website. You cannot disable them here as the service would not work correctly otherwise.</target>
 			</trans-unit>
 			<trans-unit id="purposes.performance.title|capitalize">
 				<target>Performance Optimization</target>
 			</trans-unit>
 			<trans-unit id="purposes.performance.description">
-				<target>These services process personal information to optimize the service that this website offers.
-				</target>
+				<target>These services process personal information to optimize the service that this website offers.</target>
 			</trans-unit>
 			<trans-unit id="purposes.marketing.title|capitalize">
 				<target>Marketing</target>
