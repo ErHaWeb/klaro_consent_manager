@@ -1,14 +1,14 @@
 <?php
 
 $EM_CONF[$_EXTKEY] = [
-    'title' => 'Klaro! Consent Management',
-    'description' => 'Functionally complete, flexible TYPO3 integration of Klaro! Consent Management. Klaro! is a powerful tool that protects your visitors\' privacy and data and helps you run a GDPR compliant website.',
+    'title' => 'Klaro! Consent Manager',
+    'description' => 'Functionally complete, flexible TYPO3 integration of Klaro! Consent Management by KIProtect. Klaro! is a powerful tool that protects your visitors\' privacy and data and helps you run a GDPR compliant website.',
     'category' => 'fe',
     'author' => 'Eric Harrer',
     'author_email' => 'info@eric-harrer.de',
     'author_company' => 'eric-harrer.de',
-    'state' => 'beta',
-    'version' => '0.1.0',
+    'state' => 'stable',
+    'version' => '1.0.0',
     'constraints' => [
         'depends' => [
             'typo3' => '10.4.0-12.4.99',
