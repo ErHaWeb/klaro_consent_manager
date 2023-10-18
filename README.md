@@ -52,18 +52,21 @@ Open the Klaro! configuration, go to `Display` → `Translations` → `Locallang
 
 ### Add new items with TSconfig
 ```
-TCEFORM.tx_klaroconsentmanager_service.purposes.addItems {
-    analytics = LLL:EXT:sitepackage/Resources/Private/Language/Klaro/locallang.xlf:purposes.analytics.title
-    analytics.group = custom
-
-    security = LLL:EXT:sitepackage/Resources/Private/Language/Klaro/locallang.xlf:purposes.security.title
-    security.group = custom
-
-    livechat = LLL:EXT:sitepackage/Resources/Private/Language/Klaro/locallang.xlf:purposes.livechat.title
-    livechat.group = custom
-
-    styling = LLL:EXT:sitepackage/Resources/Private/Language/Klaro/locallang.xlf:purposes.styling.title
-    styling.group = custom
+TCEFORM {
+    tx_klaroconsentmanager_service.purposes.addItems {
+        analytics = LLL:EXT:sitepackage/Resources/Private/Language/Klaro/locallang.xlf:purposes.analytics.title
+        analytics.group = custom
+    
+        security = LLL:EXT:sitepackage/Resources/Private/Language/Klaro/locallang.xlf:purposes.security.title
+        security.group = custom
+    
+        livechat = LLL:EXT:sitepackage/Resources/Private/Language/Klaro/locallang.xlf:purposes.livechat.title
+        livechat.group = custom
+    
+        styling = LLL:EXT:sitepackage/Resources/Private/Language/Klaro/locallang.xlf:purposes.styling.title
+        styling.group = custom
+    }
+    tx_klaroconsentmanager_configuration.purpose_order.addItems < .tx_klaroconsentmanager_service.purposes.addItems
 }
 ```
 

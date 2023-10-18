@@ -351,6 +351,20 @@ return [
                 ],
             ],
         ],
+        'purpose_order' => [
+            'label' => 'LLL:EXT:klaro_consent_manager/Resources/Private/Language/locallang_db.xlf:tx_klaroconsentmanager_configuration.purpose_order.label',
+            'description' => 'LLL:EXT:klaro_consent_manager/Resources/Private/Language/locallang_db.xlf:tx_klaroconsentmanager_configuration.purpose_order.description',
+            'config' => [
+                'type' => 'select',
+                'renderType' => 'selectMultipleSideBySide',
+                'default' => '',
+                'items' => [],
+                'itemGroups' => [
+                    'custom' => 'Custom',
+                    'default' => 'Default',
+                ],
+            ],
+        ],
         'callback' => [
             'label' => 'LLL:EXT:klaro_consent_manager/Resources/Private/Language/locallang_db.xlf:tx_klaroconsentmanager_configuration.callback.label',
             'description' => 'LLL:EXT:klaro_consent_manager/Resources/Private/Language/locallang_db.xlf:tx_klaroconsentmanager_configuration.callback.description',
@@ -440,7 +454,7 @@ return [
     'palettes' => [
         'general_palette' => [
             'label' => 'LLL:EXT:klaro_consent_manager/Resources/Private/Language/locallang_db.xlf:tx_klaroconsentmanager_configuration.palettes.general_palette',
-            'showitem' => 'title'
+            'showitem' => 'title, --linebreak--, purpose_order'
         ],
         'setup_palette' => [
             'label' => 'LLL:EXT:klaro_consent_manager/Resources/Private/Language/locallang_db.xlf:tx_klaroconsentmanager_configuration.palettes.setup_palette',

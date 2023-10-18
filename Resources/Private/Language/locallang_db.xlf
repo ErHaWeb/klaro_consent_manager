@@ -211,6 +211,12 @@
             <trans-unit id="tx_klaroconsentmanager_configuration.services.description">
                 <source>Here you specify the third-party services that Klaro will manage for you.</source>
             </trans-unit>
+            <trans-unit id="tx_klaroconsentmanager_configuration.purpose_order.label">
+                <source>Purpose Order</source>
+            </trans-unit>
+            <trans-unit id="tx_klaroconsentmanager_configuration.purpose_order.description">
+                <source>The order in which purposes appear in the notice and modal can be changed via the `purposeOrder` parameter, which can be given a list with purpose names and will display those purposes in the order in which they appear in the list.</source>
+            </trans-unit>
             <trans-unit id="tx_klaroconsentmanager_configuration.callback.label">
                 <source>Callback</source>
             </trans-unit>
