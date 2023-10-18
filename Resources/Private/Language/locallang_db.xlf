@@ -70,15 +70,25 @@
 			<trans-unit id="tx_klaroconsentmanager_configuration.testing.description">
 				<source>Setting 'testing' to 'true' will cause Klaro to not show the consent notice or modal by default, except if a special hash tag is appended to the URL (#klaro-testing). This makes it possible to test Klaro on your live website without affecting normal visitors.</source>
 			</trans-unit>
-			<trans-unit id="tx_klaroconsentmanager_configuration.element_id.label">
+			<trans-unit id="tx_klaroconsentmanager_configuration.element_i_d.label">
 				<source>Element ID</source>
 			</trans-unit>
-			<trans-unit id="tx_klaroconsentmanager_configuration.element_id.description">
+			<trans-unit id="tx_klaroconsentmanager_configuration.element_i_d.description">
 				<source>You can customize the ID of the DIV element that Klaro will create when starting up. By default, Klaro will use 'klaro'.</source>
 			</trans-unit>
-			<trans-unit id="tx_klaroconsentmanager_configuration.element_id.placeholder">
+			<trans-unit id="tx_klaroconsentmanager_configuration.element_i_d.placeholder">
 				<source>klaro</source>
 			</trans-unit>
+			<trans-unit id="tx_klaroconsentmanager_configuration.additional_class.label">
+				<source>Additional Class</source>
+			</trans-unit>
+			<trans-unit id="tx_klaroconsentmanager_configuration.additional_class.description">
+				<source>You can specify an additional class (or classes) that will be added to the Klaro `div`</source>
+			</trans-unit>
+			<trans-unit id="tx_klaroconsentmanager_configuration.additional_class.placeholder">
+				<source>my-klaro</source>
+			</trans-unit>
+
 			<trans-unit id="tx_klaroconsentmanager_configuration.storage_method.label">
 				<source>Storage Method</source>
 			</trans-unit>
@@ -109,6 +119,18 @@
 			<trans-unit id="tx_klaroconsentmanager_configuration.html_texts.description">
 				<source>If set to `true`, Klaro will render the texts given in the `consentModal.description` and `consentNotice.description` translations as HTML. This enables you to e.g. add custom links or interactive content.</source>
 			</trans-unit>
+			<trans-unit id="tx_klaroconsentmanager_configuration.embedded.label">
+				<source>Embedded</source>
+			</trans-unit>
+			<trans-unit id="tx_klaroconsentmanager_configuration.embedded.description">
+				<source>Setting 'embedded' to true will render the Klaro modal and notice without the modal background, allowing you to e.g. embed them into a specific element of your website, such as your privacy notice.</source>
+			</trans-unit>
+			<trans-unit id="tx_klaroconsentmanager_configuration.group_by_purpose.label">
+				<source>Group by purpose</source>
+			</trans-unit>
+			<trans-unit id="tx_klaroconsentmanager_configuration.group_by_purpose.description">
+				<source>You can group services by their purpose in the modal. This is advisable if you have a large number of services. Users can then enable or disable entire groups of services instead of having to enable or disable every service.</source>
+			</trans-unit>
 			<trans-unit id="tx_klaroconsentmanager_configuration.cookie_domain.label">
 				<source>Cookie Domain</source>
 			</trans-unit>
@@ -118,11 +140,20 @@
 			<trans-unit id="tx_klaroconsentmanager_configuration.cookie_domain.placeholder">
 				<source>.example.com</source>
 			</trans-unit>
+			<trans-unit id="tx_klaroconsentmanager_configuration.cookie_path.label">
+				<source>Cookie Path</source>
+			</trans-unit>
+			<trans-unit id="tx_klaroconsentmanager_configuration.cookie_path.description">
+				<source>Provide a path if you have services that set cookies for a path that is not "/"</source>
+			</trans-unit>
+			<trans-unit id="tx_klaroconsentmanager_configuration.cookie_path.placeholder">
+				<source>/</source>
+			</trans-unit>
 			<trans-unit id="tx_klaroconsentmanager_configuration.cookie_expires_after_days.label">
 				<source>Cookie expires after days</source>
 			</trans-unit>
 			<trans-unit id="tx_klaroconsentmanager_configuration.cookie_expires_after_days.description">
-				<source>You can also set a custom expiration time for the Klaro cookie. By default, it will expire after 30 days. Only relevant if 'storageMethod' is set to 'cookie'.</source>
+				<source>You can also set a custom expiration time for the Klaro cookie. By default, it will expire after 60 days. Only relevant if 'storageMethod' is set to 'cookie'.</source>
 			</trans-unit>
 			<trans-unit id="tx_klaroconsentmanager_configuration.cookie_expires_after_days.placeholder">
 				<source>30</source>
@@ -157,6 +188,24 @@
 			<trans-unit id="tx_klaroconsentmanager_configuration.hide_learn_more.description">
 				<source>Setting 'hideLearnMore' to 'true' will hide the "learn more / customize" link in the consent notice. We strongly advise against using this under most circumstances, as it keeps the user from customizing his/her consent choices.</source>
 			</trans-unit>
+			<trans-unit id="tx_klaroconsentmanager_configuration.hide_toggle_all.label">
+				<source>Hide Toggle All</source>
+			</trans-unit>
+			<trans-unit id="tx_klaroconsentmanager_configuration.hide_toggle_all.description">
+				<source>Setting 'hideToggleAll' to 'true' will hide the "toggle all" link in the consent notice. (Attention: This option is not supported in the current Klaro release. Once this is fixed, this option will be enabled again.)</source>
+			</trans-unit>
+			<trans-unit id="tx_klaroconsentmanager_configuration.notice_as_modal.label">
+				<source>Notice As Modal</source>
+			</trans-unit>
+			<trans-unit id="tx_klaroconsentmanager_configuration.notice_as_modal.description">
+				<source>Show cookie notice as modal</source>
+			</trans-unit>
+			<trans-unit id="tx_klaroconsentmanager_configuration.disable_powered_by.label">
+				<source>Disable Powered By</source>
+			</trans-unit>
+			<trans-unit id="tx_klaroconsentmanager_configuration.disable_powered_by.description">
+				<source>You can also remove the 'Realized with Klaro!' text in the consent modal. Please don't do this! We provide Klaro as a free open source tool. Placing a link to our website helps us spread the word about it, which ultimately enables us to make Klaro! better for everyone. So please be fair and keep the link enabled. Thanks :)</source>
+			</trans-unit>
 			<trans-unit id="tx_klaroconsentmanager_configuration.services.label">
 				<source>Services</source>
 			</trans-unit>
@@ -177,6 +226,57 @@
 			</trans-unit>
 			<trans-unit id="tx_klaroconsentmanager_configuration.locallang_path.placeholder">
 				<source>EXT:sitepackage/Resources/Private/Language/Klaro/locallang.xlf</source>
+			</trans-unit>
+			<trans-unit id="tx_klaroconsentmanager_configuration.alignment.label">
+				<source>Alignment</source>
+			</trans-unit>
+			<trans-unit id="tx_klaroconsentmanager_configuration.alignment.description">
+				<source>Determines the alignment of the Consent box if `mustConsent`is disabled.</source>
+			</trans-unit>
+			<trans-unit id="tx_klaroconsentmanager_configuration.alignment.I.top-left">
+				<source>Top-Left</source>
+			</trans-unit>
+			<trans-unit id="tx_klaroconsentmanager_configuration.alignment.I.top-right">
+				<source>Top-Right</source>
+			</trans-unit>
+			<trans-unit id="tx_klaroconsentmanager_configuration.alignment.I.top-wide">
+				<source>Top-Wide</source>
+			</trans-unit>
+			<trans-unit id="tx_klaroconsentmanager_configuration.alignment.I.bottom-left">
+				<source>Bottom-Left</source>
+			</trans-unit>
+			<trans-unit id="tx_klaroconsentmanager_configuration.alignment.I.bottom-right">
+				<source>Bottom-Right</source>
+			</trans-unit>
+			<trans-unit id="tx_klaroconsentmanager_configuration.alignment.I.bottom-wide">
+				<source>Bottom-Wide</source>
+			</trans-unit>
+			<trans-unit id="tx_klaroconsentmanager_configuration.alignment.I.top">
+				<source>Top</source>
+			</trans-unit>
+			<trans-unit id="tx_klaroconsentmanager_configuration.alignment.I.bottom">
+				<source>Bottom</source>
+			</trans-unit>
+			<trans-unit id="tx_klaroconsentmanager_configuration.alignment.I.left">
+				<source>left</source>
+			</trans-unit>
+			<trans-unit id="tx_klaroconsentmanager_configuration.alignment.I.right">
+				<source>right</source>
+			</trans-unit>
+			<trans-unit id="tx_klaroconsentmanager_configuration.alignment.I.wide">
+				<source>wide</source>
+			</trans-unit>
+			<trans-unit id="tx_klaroconsentmanager_configuration.color_scheme.label">
+				<source>Color Scheme</source>
+			</trans-unit>
+			<trans-unit id="tx_klaroconsentmanager_configuration.color_scheme.description">
+				<source>Default color scheme used for the display. The colors can also be overridden later via CSS variables.</source>
+			</trans-unit>
+			<trans-unit id="tx_klaroconsentmanager_configuration.color_scheme.I.light">
+				<source>Light</source>
+			</trans-unit>
+			<trans-unit id="tx_klaroconsentmanager_configuration.color_scheme.I.dark">
+				<source>Dark</source>
 			</trans-unit>
 
 			<!-- Service -->
@@ -278,13 +378,13 @@
 			<trans-unit id="tx_klaroconsentmanager_cookie">
 				<source>Cookie</source>
 			</trans-unit>
-			<trans-unit id="tx_klaroconsentmanager_cookie.name.label">
+			<trans-unit id="tx_klaroconsentmanager_cookie.pattern.label">
 				<source>Name</source>
 			</trans-unit>
-			<trans-unit id="tx_klaroconsentmanager_cookie.name.description">
+			<trans-unit id="tx_klaroconsentmanager_cookie.pattern.description">
 				<source>Name or regular expression (regex)</source>
 			</trans-unit>
-			<trans-unit id="tx_klaroconsentmanager_cookie.name.placeholder">
+			<trans-unit id="tx_klaroconsentmanager_cookie.pattern.placeholder">
 				<source>/^_pk_.*$/</source>
 			</trans-unit>
 			<trans-unit id="tx_klaroconsentmanager_cookie.path.label">
@@ -296,13 +396,13 @@
 			<trans-unit id="tx_klaroconsentmanager_cookie.path.placeholder">
 				<source>/</source>
 			</trans-unit>
-			<trans-unit id="tx_klaroconsentmanager_cookie.cookie_domain.label">
-				<source>Cookie Domain</source>
+			<trans-unit id="tx_klaroconsentmanager_cookie.domain.label">
+				<source>Domain</source>
 			</trans-unit>
-			<trans-unit id="tx_klaroconsentmanager_cookie.cookie_domain.description">
+			<trans-unit id="tx_klaroconsentmanager_cookie.domain.description">
 				<source>Provide a domain if you have services that set cookies for a domain that is not the current domain.</source>
 			</trans-unit>
-			<trans-unit id="tx_klaroconsentmanager_cookie.cookie_domain.placeholder">
+			<trans-unit id="tx_klaroconsentmanager_cookie.domain.placeholder">
 				<source>klaro.kiprotect.com</source>
 			</trans-unit>
 		</body>

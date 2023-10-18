@@ -22,7 +22,7 @@ return [
             'config' => [
                 'type' => 'check',
                 'renderType' => 'checkboxToggle',
-                'default' => 1,
+                'default' => 0,
                 'items' => [
                     [
                         0 => '',
@@ -38,37 +38,19 @@ return [
             'config' => [
                 'type' => 'input',
                 'size' => 48,
-                'eval' => 'nospace,lower,required',
+                'eval' => 'nospace,lower,alphanum,required',
                 'placeholder' => 'LLL:EXT:klaro_consent_manager/Resources/Private/Language/locallang_db.xlf:tx_klaroconsentmanager_service.name.placeholder',
                 'valuePicker' => [
                     'items' => [
                         ['Matomo/Piwik', 'matomo'],
-                        ['Google Analytics', 'google-analytics'],
-                        ['Google Tag Manager', 'google-tag-manager'],
-                        ['Facebook Pixel', 'facebook-pixel'],
+                        ['Google Analytics', 'googleanalytics'],
+                        ['Google Tag Manager', 'googletagmanager'],
+                        ['Facebook Pixel', 'facebookpixel'],
                         ['Vimeo', 'vimeo'],
                         ['YouTube', 'youtube'],
                     ],
                 ],
             ],
-        ],
-        'default' => [
-            'label' => 'LLL:EXT:klaro_consent_manager/Resources/Private/Language/locallang_db.xlf:tx_klaroconsentmanager_service.default.label',
-            'description' => 'LLL:EXT:klaro_consent_manager/Resources/Private/Language/locallang_db.xlf:tx_klaroconsentmanager_service.default.description',
-            'config' => [
-                'type' => 'check',
-                'renderType' => 'checkboxLabeledToggle',
-                'default' => 0,
-                'items' => [
-                    [
-                        0 => '',
-                        1 => '',
-                        'label' => '',
-                        'labelChecked' => 'LLL:EXT:klaro_consent_manager/Resources/Private/Language/locallang_db.xlf:tx_klaroconsentmanager_service.I.enabled',
-                        'labelUnchecked' => 'LLL:EXT:klaro_consent_manager/Resources/Private/Language/locallang_db.xlf:tx_klaroconsentmanager_service.I.disabled',
-                    ]
-                ],
-            ]
         ],
         'purposes' => [
             'label' => 'LLL:EXT:klaro_consent_manager/Resources/Private/Language/locallang_db.xlf:tx_klaroconsentmanager_service.purposes.label',
@@ -106,28 +88,22 @@ return [
                 ],
             ],
         ],
-        'cookies' => [
-            'label' => 'LLL:EXT:klaro_consent_manager/Resources/Private/Language/locallang_db.xlf:tx_klaroconsentmanager_service.cookies.label',
-            'description' => 'LLL:EXT:klaro_consent_manager/Resources/Private/Language/locallang_db.xlf:tx_klaroconsentmanager_service.cookies.description',
+        'default' => [
+            'label' => 'LLL:EXT:klaro_consent_manager/Resources/Private/Language/locallang_db.xlf:tx_klaroconsentmanager_service.default.label',
+            'description' => 'LLL:EXT:klaro_consent_manager/Resources/Private/Language/locallang_db.xlf:tx_klaroconsentmanager_service.default.description',
             'config' => [
-                'type' => 'inline',
-                'foreign_table' => 'tx_klaroconsentmanager_cookie',
-                'foreign_field' => 'parentid',
-                'foreign_table_field' => 'parenttable',
-                'appearance' => [
-                    'showSynchronizationLink' => true,
-                    'showAllLocalizationLink' => true,
-                    'showPossibleLocalizationRecords' => true,
+                'type' => 'check',
+                'renderType' => 'checkboxLabeledToggle',
+                'default' => 0,
+                'items' => [
+                    [
+                        0 => '',
+                        1 => '',
+                        'label' => '',
+                        'labelChecked' => 'LLL:EXT:klaro_consent_manager/Resources/Private/Language/locallang_db.xlf:tx_klaroconsentmanager_service.I.enabled',
+                        'labelUnchecked' => 'LLL:EXT:klaro_consent_manager/Resources/Private/Language/locallang_db.xlf:tx_klaroconsentmanager_service.I.disabled',
+                    ]
                 ],
-            ],
-        ],
-        'callback' => [
-            'label' => 'LLL:EXT:klaro_consent_manager/Resources/Private/Language/locallang_db.xlf:tx_klaroconsentmanager_service.callback.label',
-            'description' => 'LLL:EXT:klaro_consent_manager/Resources/Private/Language/locallang_db.xlf:tx_klaroconsentmanager_service.callback.description',
-            'config' => [
-                'type' => 'text',
-                'cols' => 80,
-                'rows' => 15,
             ]
         ],
         'required' => [
@@ -182,6 +158,31 @@ return [
                         'labelUnchecked' => 'LLL:EXT:klaro_consent_manager/Resources/Private/Language/locallang_db.xlf:tx_klaroconsentmanager_service.I.disabled',
                     ]
                 ],
+            ]
+        ],
+        'cookies' => [
+            'label' => 'LLL:EXT:klaro_consent_manager/Resources/Private/Language/locallang_db.xlf:tx_klaroconsentmanager_service.cookies.label',
+            'description' => 'LLL:EXT:klaro_consent_manager/Resources/Private/Language/locallang_db.xlf:tx_klaroconsentmanager_service.cookies.description',
+            'config' => [
+                'type' => 'inline',
+                'foreign_table' => 'tx_klaroconsentmanager_cookie',
+                'foreign_field' => 'parentid',
+                'foreign_table_field' => 'parenttable',
+                'appearance' => [
+                    'showSynchronizationLink' => true,
+                    'showAllLocalizationLink' => true,
+                    'showPossibleLocalizationRecords' => true,
+                ],
+            ],
+        ],
+        'callback' => [
+            'label' => 'LLL:EXT:klaro_consent_manager/Resources/Private/Language/locallang_db.xlf:tx_klaroconsentmanager_service.callback.label',
+            'description' => 'LLL:EXT:klaro_consent_manager/Resources/Private/Language/locallang_db.xlf:tx_klaroconsentmanager_service.callback.description',
+            'config' => [
+                'type' => 'text',
+                'renderType' => 't3editor',
+                'format' => 'javascript',
+                'rows' => 10,
             ]
         ],
         'contextual_consent_only' => [
