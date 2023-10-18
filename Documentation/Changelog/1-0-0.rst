@@ -1,0 +1,36 @@
+.. include:: /Includes.rst.txt
+
+1.0.0 - October 18, 2023
+========================
+
+
+.. only:: html
+
+   .. contents::
+        :local:
+        :depth: 3
+
+Breaking changes
+----------------
+No breaking changes!
+
+All Changes
+-----------
+This is a list of all changes in this release: ::
+
+    2023-10-18 [TASK] Add Crowdin configuration and remove unnecessary XLIFF files (Commit 64c0455 by Eric Harrer)
+    2023-10-18 [TASK] Update meta information (Commit 629dcfe by Eric Harrer)
+    2023-10-18 [TASK] Update default service values (Commit e219ea8 by Eric Harrer)
+    2023-10-18 [TASK] Update icons (Commit 0b4881d by Eric Harrer)
+    2023-10-18 [TASK] Add Klaro assets from latest build (Commit b5f8cc6 by Eric Harrer)
+    2023-10-18 [TASK] Add missing "purposeOrder" option (Commit b90130e by Eric Harrer)
+    2023-10-18 [BUGFIX] Fix output of privacy policy link (Commit 288f89f by Eric Harrer)
+    2023-10-18 [TASK] Refactor locallang files (Commit 01f2931 by Eric Harrer)
+    2023-10-18 [TASK] Refactor KlaroService class (Commit 8cc918a by Eric Harrer)
+    2023-10-18 [TASK] Add all configuration options (Commit a3b67e4 by Eric Harrer)
+    2023-10-09 [TASK] Refactor locallang files (Commit 9956f5c by Eric Harrer)
+    2023-10-06 [BUGFIX] Fix translation based on current language (Commit 56fc891 by Eric Harrer)
+    2023-10-06 [TASK] Add official current translations (Commit c817bf5 by Eric Harrer)
+    2023-10-05 [TASK] Remove unnecessary resname attributes from XLIFF files (Commit ce86154 by Eric Harrer)
+
+This list has been created by using `git log $(git describe --tags --abbrev=0)..HEAD --abbrev-commit --pretty='%ad %s (Commit %h by %an)' --date=short`.
