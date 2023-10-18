@@ -20,16 +20,75 @@ namespace ErHaWeb\KlaroConsentManager\Service;
 use Doctrine\DBAL\Exception;
 use Psr\Http\Message\ServerRequestInterface;
 use TYPO3\CMS\Core\Database\ConnectionPool;
+use TYPO3\CMS\Core\Information\Typo3Version;
 use TYPO3\CMS\Core\Localization\LanguageService;
 use TYPO3\CMS\Core\Localization\LanguageServiceFactory;
+use TYPO3\CMS\Core\Site\Entity\Site;
 use TYPO3\CMS\Core\Site\Entity\SiteLanguage;
 use TYPO3\CMS\Core\Utility\GeneralUtility;
-use TYPO3\CMS\Core\Site\Entity\Site;
-use TYPO3\CMS\Core\Information\Typo3Version;
 use TYPO3\CMS\Frontend\ContentObject\ContentObjectRenderer;
 
 class KlaroService
 {
+    private const COOKIE_CONFIG = [
+        'pattern' => ['type' => 'string', 'default' => ''],
+        'path' => ['type' => 'string', 'default' => ''],
+        'domain' => ['type' => 'string', 'default' => ''],
+    ];
+    private const SERVICE_CONFIG = [
+        'name' => ['type' => 'string', 'default' => ''],
+        'purposes' => ['type' => 'list', 'default' => ''],
+        'default' => ['type' => 'boolean', 'default' => false],
+        'required' => ['type' => 'boolean', 'default' => false],
+        'opt_out' => ['type' => 'boolean', 'default' => false],
+        'only_once' => ['type' => 'boolean', 'default' => false],
+        'cookies' => ['type' => 'list', 'default' => ''],
+        'callback' => ['type' => 'callback', 'default' => ''],
+    ];
+    private const GLOBAL_CONFIG = [
+        'testing' => ['type' => 'boolean', 'default' => false],
+        'element_i_d' => ['type' => 'string', 'default' => ''],
+        'additional_class' => ['type' => 'string', 'default' => ''],
+        'storage_method' => ['type' => 'string', 'default' => 'cookie'],
+        'storage_name' => ['type' => 'string', 'default' => ''],
+        'cookie_domain' => ['type' => 'string', 'default' => ''],
+        'cookie_path' => ['type' => 'string', 'default' => ''],
+        'html_texts' => ['type' => 'boolean', 'default' => false],
+        'embedded' => ['type' => 'boolean', 'default' => false],
+        'group_by_purpose' => ['type' => 'boolean', 'default' => true],
+        'cookie_expires_after_days' => ['type' => 'integer', 'default' => 60],
+        'default' => ['type' => 'boolean', 'default' => false],
+        'must_consent' => ['type' => 'boolean', 'default' => false],
+        'accept_all' => ['type' => 'boolean', 'default' => false],
+        'hide_decline_all' => ['type' => 'boolean', 'default' => false],
+        'hide_learn_more' => ['type' => 'boolean', 'default' => false],
+        'hide_toggle_all' => ['type' => 'boolean', 'default' => false],
+        'notice_as_modal' => ['type' => 'boolean', 'default' => false],
+        'disable_powered_by' => ['type' => 'boolean', 'default' => false],
+        'purpose_order' => ['type' => 'list', 'default' => ''],
+        'callback' => ['type' => 'callback', 'default' => ''],
+
+        // Special properties
+        'color_scheme' => ['type' => 'string', 'default' => 'dark'],
+        'alignment' => ['type' => 'string', 'default' => 'bottom-right'],
+        'locallang_path' => ['type' => 'string', 'default' => ''],
+    ];
+    private const GLOBAL_LABELS = [
+        'privacyPolicy' => ['name', 'text'],
+        'consentModal' => ['title', 'description'],
+        'consentNotice' => ['testing', 'title', 'changeDescription', 'description', 'learnMore'],
+        'purposeItem' => ['service', 'services'],
+        'ok',
+        'save',
+        'decline',
+        'close',
+        'acceptAll',
+        'acceptSelected',
+        'service' => ['disableAll' => ['title', 'description'], 'optOut' => ['title', 'description'], 'required' => ['title', 'description'], 'purposes', 'purpose'],
+        'poweredBy',
+        'contextualConsent' => ['description', 'acceptOnce', 'acceptAlways']
+    ];
+
     /**
      * @var int
      */
@@ -68,9 +127,7 @@ class KlaroService
     /**
      * @param ServerRequestInterface $request
      */
-    public function __construct(
-        ServerRequestInterface $request
-    )
+    public function __construct(ServerRequestInterface $request)
     {
         $this->connectionPool = GeneralUtility::makeInstance(ConnectionPool::class);
 
@@ -85,17 +142,16 @@ class KlaroService
 
         /** @var SiteLanguage $siteLanguage */
         if ($siteLanguage = $request->getAttribute('language')) {
-
-            $versionInformation = GeneralUtility::makeInstance(Typo3Version::class);
             $languageServiceFactory = GeneralUtility::makeInstance(LanguageServiceFactory::class);
-            $this->languageService = $languageServiceFactory->create($siteLanguage->getTwoLetterIsoCode());
+            $this->languageService = $languageServiceFactory->create($siteLanguage->getTypo3Language());
         }
     }
 
     /**
      * @return array
      */
-    public function getConfiguration() : array{
+    public function getConfiguration(): array
+    {
         return $this->configuration;
     }
 
@@ -104,130 +160,202 @@ class KlaroService
      */
     public function getConfigurationInlineJavaScript(): string
     {
-        $return = '';
-        $purposesTranslations = [];
+        $configurationArray = [];
 
         if ($this->configuration) {
-            $return .= 'testing:' . (($this->configuration['testing']) ? 'true' : 'false') . ',';
-            $return .= 'elementID:\'' . (($this->configuration['element_id']) ?: 'klaro') . '\',';
-            $return .= 'storageMethod:\'' . (($this->configuration['storage_method']) ?: 'cookie') . '\',';
-            $return .= 'storageName:\'' . (($this->configuration['storage_name']) ?: 'klaro') . '\',';
-            $return .= 'htmlTexts:' . (($this->configuration['html_texts']) ? 'true' : 'false') . ',';
-            $return .= 'cookieDomain:\'' . (($this->configuration['cookie_domain']) ?: '') . '\',';
-            $return .= 'cookieExpiresAfterDays:' . (($this->configuration['cookie_expires_after_days']) ?: 30) . ',';
-            $return .= 'default:' . (($this->configuration['default']) ? 'true' : 'false') . ',';
-            $return .= 'mustConsent:' . (($this->configuration['must_consent']) ? 'true' : 'false') . ',';
-            $return .= 'acceptAll:' . (($this->configuration['accept_all']) ? 'true' : 'false') . ',';
-            $return .= 'hideDeclineAll:' . (($this->configuration['hide_decline_all']) ? 'true' : 'false') . ',';
-            $return .= 'hideLearnMore:' . (($this->configuration['hide_learn_more']) ? 'true' : 'false') . ',';
-            if($this->configuration['callback']) {
-                $return .=      'callback: function(consent, service) {';
-                $return .=          $this->configuration['callback'];
-                $return .=      '},';
+            $colorScheme = [];
+            $alignment = [];
+
+            foreach (self::GLOBAL_CONFIG as $key => $field) {
+                $value = $this->getConfigurationValue($this->configuration, $key, $field['type']);
+
+                if ($value === $field['default']) {
+                    continue;
+                }
+                if ($key === 'locallang_path') {
+                    continue;
+                }
+                if ($key === 'color_scheme') {
+                    $colorScheme = $value;
+                    continue;
+                }
+                if ($key === 'alignment') {
+                    $alignment = GeneralUtility::trimExplode('-', $value);
+                    continue;
+                }
+
+                $lccKey = GeneralUtility::underscoredToLowerCamelCase($key);
+                $configurationArray[$lccKey] = $this->modifyValueByType($value, $field['type']);
             }
-            $return .= 'services: [';
 
-            foreach ($this->configuration['services'] as $serviceKey => $service) {
-
-                $return .= ($serviceKey > 0 ? ',' : '') . '{';
-                $return .=      'name:\'' . $service['name'] . '\',';
-                $return .=      'default:' . ($service['default'] ? 'true' : 'false') . ',';
-                $return .=      'required:' . (($service['required']) ? 'true' : 'false') . ',';
-                $return .=      'optOut:' . (($service['opt_out']) ? 'true' : 'false') . ',';
-                $return .=      'onlyOnce:' . (($service['only_once']) ? 'true' : 'false') . ',';
-                $return .=      'contextualConsentOnly:' . (($service['contextual_consent_only']) ? 'true' : 'false') . ',';
-                $return .=      'purposes:[';
-
-                foreach (GeneralUtility::trimExplode(',', $service['purposes']) as $purposeKey => $purpose) {
-                    $return .= ($purposeKey > 0 ? ',' : '') . '\'' . $purpose . '\'';
-                    $purposesTranslations[$purpose] = $purpose . ':{';
-                    $purposesTranslations[$purpose] .=      'title:\'' . $this->getLabel('purposes.' . $purpose . '.title') . '\',';
-                    $purposesTranslations[$purpose] .=      'description:\'' . $this->getLabel('purposes.' . $purpose . '.description') . '\'';
-                    $purposesTranslations[$purpose] .= '}';
-                }
-
-                $return .=      '],';
-                $return .=      'cookies:[';
-
-                foreach ($service['cookies'] as $cookie) {
-                    $return .=      '[';
-                    $return .=          '\'' . $cookie['name'] . '\'';
-                    $return .=          ($cookie['path'] ? ',\'' . $cookie['path'] . '\'' : '');
-                    $return .=          ($cookie['cookie_domain'] ? ',\'' . $cookie['cookie_domain'] . '\'' : '');
-                    $return .=      ']';
-                }
-                $return .=      '],';
-                if($service['callback']) {
-                    $return .=      'callback: function(consent, service) {';
-                    $return .=          $service['callback'];
-                    $return .=      '},';
-                }
-                $return .=      'translations:{';
-                $return .=          'zz:{';
-                $return .=              'title:\'' . $this->getLabel('services.' . $service['name'] . '.title') . '\',';
-                $return .=              'description:\'' . $this->getLabel('services.' . $service['name'] . '.description') . '\',';
-                $return .=          '}';
-                $return .=      '}';
-                $return .= '}';
-
+            $theme = array_merge([$colorScheme], $alignment);
+            if ($theme) {
+                $configurationArray['styling']['theme'] = $theme;
             }
-            $return .= '],';
-            $return .= 'translations:{';
-            $return .=    'zz:{';
-            $return .=        'privacyPolicyUrl:\'' . $this->getUrlFromTypoLink($this->privacyPolicyTypoLink) . '\',';
-            $return .=        'privacyPolicy:{';
-            $return .=            'name:\'' . $this->getLabel('privacyPolicy.name') . '\',';
-            $return .=            'text:\'' . $this->getLabel('privacyPolicy.text') . '\'';
-            $return .=        '},';
-            $return .=        'consentModal:{';
-            $return .=            'title:\'' . $this->getLabel('consentModal.title') . '\',';
-            $return .=            'description:\'' . $this->getLabel('consentModal.description') . '\'';
-            $return .=        '},';
-            $return .=        'consentNotice:{';
-            $return .=            'testing:\'' . $this->getLabel('consentNotice.testing') . '\',';
-            $return .=            'changeDescription:\'' . $this->getLabel('consentNotice.changeDescription') . '\',';
-            $return .=            'description:\'' . $this->getLabel('consentNotice.description') . '\',';
-            $return .=            'learnMore:\'' . $this->getLabel('consentNotice.learnMore') . '\'';
-            $return .=        '},';
-            $return .=        'purposes:{' . implode(',', $purposesTranslations) . '},';
-            $return .=        'purposeItem:{';
-            $return .=            'service:\'' . $this->getLabel('purposeItem.service') . '\',';
-            $return .=            'services:\'' . $this->getLabel('purposeItem.services') . '\'';
-            $return .=        '},';
-            $return .=        'ok:\'' . $this->getLabel('ok') . '\',';
-            $return .=        'save:\'' . $this->getLabel('save') . '\',';
-            $return .=        'decline:\'' . $this->getLabel('decline') . '\',';
-            $return .=        'close:\'' . $this->getLabel('close') . '\',';
-            $return .=        'acceptAll:\'' . $this->getLabel('acceptAll') . '\',';
-            $return .=        'acceptSelected:\'' . $this->getLabel('acceptSelected') . '\',';
-            $return .=        'service:{';
-            $return .=            'disableAll:{';
-            $return .=                'title:\'' . $this->getLabel('service.disableAll.title') . '\',';
-            $return .=                'description:\'' . $this->getLabel('service.disableAll.description') . '\'';
-            $return .=            '},';
-            $return .=            'optOut:{';
-            $return .=                'title:\'' . $this->getLabel('service.optOut.title') . '\',';
-            $return .=                'description:\'' . $this->getLabel('service.optOut.description') . '\'';
-            $return .=            '},';
-            $return .=            'required:{';
-            $return .=                'title:\'' . $this->getLabel('service.required.title') . '\',';
-            $return .=                'description:\'' . $this->getLabel('service.required.description') . '\'';
-            $return .=            '},';
-            $return .=            'purposes:\'' . $this->getLabel('service.purposes') . '\',';
-            $return .=            'purpose:\'' . $this->getLabel('service.purpose') . '\',';
-            $return .=        '},';
-            $return .=        'poweredBy:\'' . $this->getLabel('poweredBy') . '\',';
-            $return .=        'contextualConsent:{';
-            $return .=            'description:\'' . $this->getLabel('contextualConsent.description') . '\',';
-            $return .=            'acceptOnce:\'' . $this->getLabel('contextualConsent.acceptOnce') . '\',';
-            $return .=            'acceptAlways:\'' . $this->getLabel('contextualConsent.acceptAlways') . '\'';
-            $return .=        '}';
-            $return .=    '}';
-            $return .= '}';
-            $return = 'var klaroConfig={' . $return . '};';
+
+            $configurationArray['translations']['zz'] = $this->getTranslations(self::GLOBAL_LABELS);
+            $configurationArray['services'] = $this->getServices();
+        }
+
+        return 'var klaroConfig=' . $this->arrayToJavaScriptObject($configurationArray) . ';';
+    }
+
+    /**
+     * @return array
+     */
+    private function getServices(): array
+    {
+        $return = [];
+        foreach ($this->configuration['services'] as $service) {
+            $serviceConfiguration = [
+                'title' => $this->getLabel('services.' . $service['name'] . '.title'),
+                'description' => $this->getLabel('services.' . $service['name'] . '.description'),
+            ];
+
+            foreach (self::SERVICE_CONFIG as $key => $field) {
+                $value = $this->getConfigurationValue($service, $key, $field['type']);
+                if ($value === $field['default']) {
+                    continue;
+                }
+
+                if ($key === 'cookies') {
+                    $cookieConfiguration = [];
+                    foreach ($service['cookies'] as $cookie) {
+                        $pattern = $cookie['pattern'] ?? '';
+                        $path = ($cookie['path'] !== '' && $cookie['path'] !== '/') ? $cookie['path'] : '/';
+                        $domain = $cookie['domain'] ?? '';
+
+                        if (!$pattern) {
+                            continue;
+                        }
+                        if ($path !== '/' || $domain) {
+                            $cookieConfiguration[] = [
+                                $pattern, $path, $domain
+                            ];
+                        } else {
+                            $cookieConfiguration[] = $pattern;
+                        }
+                    }
+                    $serviceConfiguration['cookies'] = $cookieConfiguration;
+                    continue;
+                }
+
+                $lccKey = GeneralUtility::underscoredToLowerCamelCase($key);
+                $serviceConfiguration[$lccKey] = $this->modifyValueByType($value, $field['type']);
+            }
+            $return[] = $serviceConfiguration;
+        }
+        return $return;
+    }
+
+    /**
+     * @param mixed $value
+     * @param string $type
+     * @return mixed
+     */
+    private function modifyValueByType(mixed $value, string $type): mixed
+    {
+        switch ($type) {
+            case 'callback':
+                $value = 'function(consent,service){' . $value . '}';
+                break;
+            case 'list':
+                $value = GeneralUtility::trimExplode(',', $value);
+                break;
+        }
+        return $value;
+    }
+
+    /**
+     * @param array $keys
+     * @param string $prepend
+     * @return array
+     */
+    private function getTranslations(array $keys = [], string $prepend = ''): array
+    {
+        $return = [];
+        foreach ($keys as $key => $label) {
+            if (is_array($label)) {
+                $return[$key] = $this->getTranslations($label, ($prepend !== '' ? $prepend . '.' : '') . $key);
+            } else {
+                $return[$label] = $this->getLabel(($prepend !== '' ? $prepend . '.' : '') . $label);
+            }
+        }
+
+        if ($prepend === '') {
+            if ($this->privacyPolicyTypoLink) {
+                $return['privacyPolicyUrl'] = $this->getUrlFromTypoLink($this->privacyPolicyTypoLink);
+            }
+
+            $return['purposes'] = [];
+            foreach ($this->configuration['services'] as $service) {
+                $purposes = GeneralUtility::trimExplode(',', $service['purposes']);
+                foreach ($purposes as $purpose) {
+                    if (!($return['purposes'][$purpose] ?? false)) {
+                        $return['purposes'][$purpose] = [
+                            'title' => $this->getLabel('purposes.' . $purpose . '.title'),
+                            'description' => $this->getLabel('purposes.' . $purpose . '.description'),
+                        ];
+                    }
+                }
+            }
         }
 
         return $return;
+    }
+
+    /**
+     * @param array $configuration
+     * @param string $field
+     * @param string $type
+     * @return mixed
+     */
+    private function getConfigurationValue(array $configuration, string $field, string $type): mixed
+    {
+        switch ($type) {
+            case 'boolean':
+                return (bool)$configuration[$field];
+            case 'integer':
+                return (int)$configuration[$field];
+            default:
+                return $configuration[$field];
+        }
+    }
+
+    /**
+     * @param array $array
+     * @return string
+     */
+    private function arrayToJavaScriptObject(array $array): string
+    {
+        $isAssociative = $this->arrayIsAssociative($array);
+        $return = $isAssociative ? '{' : '[';
+        foreach ($array as $key => $value) {
+            $return .= $isAssociative ? $key . ':' : '';
+            if (is_array($value)) {
+                $return .= $this->arrayToJavaScriptObject($value);
+            } else if (is_bool($value)) {
+                $return .= $value ? 'true' : 'false';
+            } else if ($key !== 'callback' && is_string($value)) {
+                $return .= '\'' . $value . '\'';
+            } else {
+                $return .= $value;
+            }
+            if (array_key_last($array) !== $key) {
+                $return .= ',';
+            }
+        }
+        $return .= $isAssociative ? '}' : ']';
+        return $return;
+    }
+
+    /**
+     * @param array $array
+     * @return bool
+     */
+    private function arrayIsAssociative(array $array): bool
+    {
+        return count(array_filter(array_keys($array), 'is_string')) > 0;
     }
 
     /**
@@ -243,38 +371,18 @@ class KlaroService
             return $this->configuration;
         }
 
-        $queryBuilder = $this->connectionPool->getQueryBuilderForTable('tx_klaroconsentmanager_configuration');
-        $result = $queryBuilder
-            ->select(
-                'uid',
-                'title',
-                'testing',
-                'element_id',
-                'storage_method',
-                'storage_name',
-                'html_texts',
-                'cookie_domain',
-                'cookie_expires_after_days',
-                'default',
-                'must_consent',
-                'accept_all',
-                'hide_decline_all',
-                'hide_learn_more',
-                'callback',
-                'locallang_path'
-            )
-            ->from('tx_klaroconsentmanager_configuration')
-            ->where($queryBuilder->expr()->eq('uid', $queryBuilder->createNamedParameter($this->configurationId)))
-            ->execute();
-
-        try {
-            if ($return = $result->fetchAssociative()) {
-                $return['services'] = $this->fetchServices($return['uid']);
-                $this->configuration = $return;
-                return $this->configuration;
-            }
-        } catch (Exception|\Doctrine\DBAL\Driver\Exception $e) {
+        if ($return = $this->fetchResults(
+            'tx_klaroconsentmanager_configuration',
+            array_keys(self::GLOBAL_CONFIG),
+            [
+                'uid' => $this->configurationId
+            ]
+        )) {
+            $return['services'] = $this->fetchServices($return['uid']);
+            $this->configuration = $return;
+            return $this->configuration;
         }
+
         return [];
     }
 
@@ -282,61 +390,69 @@ class KlaroService
      * @param int $configurationId
      * @return array
      */
-    private function fetchServices(int $configurationId): array {
-        $queryBuilder = $this->connectionPool->getQueryBuilderForTable('tx_klaroconsentmanager_service');
-        $result = $queryBuilder
-            ->select(
-                'uid',
-                'name',
-                'default',
-                'purposes',
-                'callback',
-                'required',
-                'opt_out',
-                'only_once',
-                'contextual_consent_only'
-            )
-            ->from('tx_klaroconsentmanager_service')
-            ->where(
-                $queryBuilder->expr()->eq('parentid', $queryBuilder->createNamedParameter($configurationId)),
-                $queryBuilder->expr()->eq('parenttable', $queryBuilder->createNamedParameter('tx_klaroconsentmanager_configuration'))
-            )
-            ->execute();
-        try {
-            if ($return = $result->fetchAllAssociative()) {
-                foreach ($return as &$service) {
-                    $service['cookies'] = $this->fetchCookies((int)$service['uid']);
-                }
-                return $return;
-            }
-        } catch (Exception|\Doctrine\DBAL\Driver\Exception $e) {
+    private function fetchServices(int $configurationId): array
+    {
+        $return = $this->fetchResults(
+            'tx_klaroconsentmanager_service',
+            array_keys(self::SERVICE_CONFIG),
+            [
+                'parentid' => $configurationId,
+                'parenttable' => 'tx_klaroconsentmanager_configuration'
+            ],
+            true
+        );
+
+        foreach ($return as &$service) {
+            $service['cookies'] = $this->fetchCookies((int)$service['uid']);
         }
-        return [];
+
+        return $return;
     }
 
     /**
      * @param int $serviceId
      * @return array
      */
-    private function fetchCookies(int $serviceId): array {
-        $queryBuilder = $this->connectionPool->getQueryBuilderForTable('tx_klaroconsentmanager_cookie');
+    private function fetchCookies(int $serviceId): array
+    {
+        return $this->fetchResults(
+            'tx_klaroconsentmanager_cookie',
+            array_keys(self::COOKIE_CONFIG),
+            [
+                'parentid' => $serviceId,
+                'parenttable' => 'tx_klaroconsentmanager_service'
+            ],
+            true
+        );
+    }
+
+    /**
+     * @param string $table
+     * @param array $select
+     * @param array $where
+     * @param bool $multiple
+     * @return array
+     */
+    private function fetchResults(string $table, array $select, array $where = [], bool $multiple = false): array
+    {
+        $queryBuilder = $this->connectionPool->getQueryBuilderForTable($table);
+
+        $whereStatements = [];
+        foreach ($where as $key => $value) {
+            $whereStatements[] = $queryBuilder->expr()->eq($key, $queryBuilder->createNamedParameter($value));
+        }
+
         $result = $queryBuilder
-            ->select(
-                'name',
-                'path',
-                'cookie_domain'
-            )
-            ->from('tx_klaroconsentmanager_cookie')
-            ->where(
-                $queryBuilder->expr()->eq('parentid', $queryBuilder->createNamedParameter($serviceId)),
-                $queryBuilder->expr()->eq('parenttable', $queryBuilder->createNamedParameter('tx_klaroconsentmanager_service'))
-            )
+            ->select(...array_merge(['uid'], $select))
+            ->from($table)
+            ->where(...$whereStatements)
             ->execute();
+
         try {
-            if ($return = $result->fetchAllAssociative()) {
+            if ($return = ($multiple) ? $result->fetchAllAssociative() : $result->fetchAssociative()) {
                 return $return;
             }
-        } catch (Exception|\Doctrine\DBAL\Driver\Exception $e) {
+        } catch (Exception $e) {
         }
         return [];
     }
@@ -365,7 +481,8 @@ class KlaroService
      * @param string $typoLink
      * @return string
      */
-    private function getUrlFromTypoLink(string $typoLink): string {
+    private function getUrlFromTypoLink(string $typoLink): string
+    {
         /** @var ContentObjectRenderer $contentObject */
         $contentObject = GeneralUtility::makeInstance(ContentObjectRenderer::class);
         $versionInformation = GeneralUtility::makeInstance(Typo3Version::class);
