@@ -38,14 +38,14 @@ return [
             'config' => [
                 'type' => 'input',
                 'size' => 48,
-                'eval' => 'nospace,lower,alphanum,required',
+                'eval' => 'nospace,lower,alphanum_x,required',
                 'placeholder' => 'LLL:EXT:klaro_consent_manager/Resources/Private/Language/locallang_db.xlf:tx_klaroconsentmanager_service.name.placeholder',
                 'valuePicker' => [
                     'items' => [
                         ['Matomo/Piwik', 'matomo'],
-                        ['Google Analytics', 'googleanalytics'],
-                        ['Google Tag Manager', 'googletagmanager'],
-                        ['Facebook Pixel', 'facebookpixel'],
+                        ['Google Analytics', 'google-analytics'],
+                        ['Google Tag Manager', 'google-tag-manager'],
+                        ['Facebook Pixel', 'facebook-pixel'],
                         ['Vimeo', 'vimeo'],
                         ['YouTube', 'youtube'],
                     ],
