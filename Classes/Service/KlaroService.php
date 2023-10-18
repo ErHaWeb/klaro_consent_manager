@@ -253,7 +253,7 @@ class KlaroService
      * @param string $type
      * @return mixed
      */
-    private function modifyValueByType(mixed $value, string $type): mixed
+    private function modifyValueByType($value, string $type)
     {
         switch ($type) {
             case 'callback':
@@ -310,7 +310,8 @@ class KlaroService
      * @param string $type
      * @return mixed
      */
-    private function getConfigurationValue(array $configuration, string $field, string $type): mixed
+
+    private function getConfigurationValue(array $configuration, string $field, string $type)
     {
         switch ($type) {
             case 'boolean':
