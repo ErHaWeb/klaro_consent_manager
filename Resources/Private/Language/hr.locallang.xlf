@@ -1,145 +1,79 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
-	<file source-language="en" target-language="hr" datatype="plaintext" original="EXT:klaro_consent_manager/Resources/Private/Language/locallang.xlf" date="2023-09-24T09:57:24Z" product-name="klaro_consent_manager">
-		<body>
-			<trans-unit id="acceptAll">
-				<target/>
-			</trans-unit>
-			<trans-unit id="acceptAll_en">
-				<target>Prihvati sve</target>
-			</trans-unit>
-			<trans-unit id="acceptSelected">
-				<target/>
-			</trans-unit>
-			<trans-unit id="acceptSelected_en">
-				<target>Prihvati odabrane</target>
-			</trans-unit>
-			<trans-unit id="service.disableAll.description">
-				<target>Koristite ovaj prekidač da omogućite/onemogućite sve aplikacije odjednom.</target>
-			</trans-unit>
-			<trans-unit id="service.disableAll.title">
-				<target>Izmeijeni sve</target>
-			</trans-unit>
-			<trans-unit id="service.disableAll.title">
-				<target>enable or disable all services</target>
-			</trans-unit>
-			<trans-unit id="service.optOut.description">
-				<target>Ova aplikacija je učitana automatski (ali je možete onemogućiti)</target>
-			</trans-unit>
-			<trans-unit id="service.optOut.title">
-				<target>(onemogućite)</target>
-			</trans-unit>
-			<trans-unit id="service.purpose">
-				<target>Svrha</target>
-			</trans-unit>
-			<trans-unit id="service.purposes">
-				<target>Svrhe</target>
-			</trans-unit>
-			<trans-unit id="service.required.description">
-				<target>Ova aplikacija je uvijek obavezna</target>
-			</trans-unit>
-			<trans-unit id="service.required.title">
-				<target>(obavezna)</target>
-			</trans-unit>
-			<trans-unit id="close">
-				<target>Zatvori</target>
-			</trans-unit>
-			<trans-unit id="consentModal.description">
-				<target>Ovdje možete vidjeti i podesiti informacije koje prikupljamo o Vama.</target>
-			</trans-unit>
-			<trans-unit id="consentModal.privacyPolicy.name">
-				<target>pravila privatnosti</target>
-			</trans-unit>
-			<trans-unit id="consentModal.privacyPolicy.text">
-				<target>Za više informacije pročitajte naša {privacyPolicy}.</target>
-			</trans-unit>
-			<trans-unit id="consentModal.title">
-				<target>Informacije koje prikupljamo</target>
-			</trans-unit>
-			<trans-unit id="consentNotice.changeDescription">
-				<target>Došlo je do promjena od Vaše posljednjeg posjećivanja web stranice, molimo Vas da ažurirate svoja odobrenja.</target>
-			</trans-unit>
-			<trans-unit id="consentNotice.description">
-				<target>Mi prikupljamo i procesiramo Vaše osobne podatke radi slijedećeg: {purposes}.</target>
-			</trans-unit>
-			<trans-unit id="consentNotice.imprint.name">
-				<target/>
-			</trans-unit>
-			<trans-unit id="consentNotice.imprint.name_en">
-				<target>imprint</target>
-			</trans-unit>
-			<trans-unit id="consentNotice.learnMore">
-				<target>Saznajte više</target>
-			</trans-unit>
-			<trans-unit id="consentNotice.privacyPolicy.name">
-				<target>pravila privatnosti</target>
-			</trans-unit>
-			<trans-unit id="consentNotice.testing">
-				<target>Testing mode!</target>
-			</trans-unit>
-			<trans-unit id="consentNotice.title">
-				<target>Cookie Consent</target>
-			</trans-unit>
-			<trans-unit id="consentNotice.learnMore">
-				<target>Let me choose</target>
-			</trans-unit>
-			<trans-unit id="decline">
-				<target>Odbij</target>
-			</trans-unit>
-			<trans-unit id="ok">
-				<target>U redu</target>
-			</trans-unit>
-			<trans-unit id="poweredBy">
-				<target>Pokreće Klaro!</target>
-			</trans-unit>
-			<trans-unit id="purposeItem.service">
-				<target/>
-			</trans-unit>
-			<trans-unit id="purposeItem.services">
-				<target/>
-			</trans-unit>
-			<trans-unit id="save">
-				<target>Spremi</target>
-			</trans-unit>
-			<trans-unit id="privacyPolicy.name">
-				<target>privacy policy</target>
-			</trans-unit>
-			<trans-unit id="privacyPolicy.text">
-				<target>To learn more, please read our {privacyPolicy}.</target>
-			</trans-unit>
-			<trans-unit id="purposes.functional.title">
-				<target>Service Provision</target>
-			</trans-unit>
-			<trans-unit id="purposes.functional.description">
-				<target>These services are essential for the correct functioning of this website. You cannot disable them here as the service would not work correctly otherwise.</target>
-			</trans-unit>
-			<trans-unit id="purposes.performance.title">
-				<target>Performance Optimization</target>
-			</trans-unit>
-			<trans-unit id="purposes.performance.description">
-				<target>These services process personal information to optimize the service that this website offers.</target>
-			</trans-unit>
-			<trans-unit id="purposes.marketing.title">
-				<target>Marketing</target>
-			</trans-unit>
-			<trans-unit id="purposes.marketing.description">
-				<target>These services process personal information to show you relevant content about products, services or topics that you might be interested in.</target>
-			</trans-unit>
-			<trans-unit id="purposes.advertising.title">
-				<target>Advertising</target>
-			</trans-unit>
-			<trans-unit id="purposes.advertising.description">
-				<target>These services process personal information to show you personalized or interest-based advertisements.</target>
-			</trans-unit>
-			<trans-unit id="contextualConsent.description">
-				<target>Do you want to load external content supplied by {title}?</target>
-			</trans-unit>
-			<trans-unit id="contextualConsent.acceptOnce">
-				<target>True</target>
-			</trans-unit>
-			<trans-unit id="contextualConsent.acceptAlways">
-				<target>Always</target>
-			</trans-unit>
-		</body>
-	</file>
+    <file source-language="en" target-language="hr" datatype="plaintext" original="EXT:klaro_consent_manager/Resources/Private/Language/locallang.xlf" date="2023-09-24T09:57:24Z" product-name="klaro_consent_manager">
+        <body>
+            <trans-unit id="acceptAll">
+                <target/>
+            </trans-unit>
+            <trans-unit id="acceptAll_en">
+                <target>Prihvati sve</target>
+            </trans-unit>
+            <trans-unit id="acceptSelected_en">
+                <target>Prihvati odabrane</target>
+            </trans-unit>
+            <trans-unit id="service.disableAll.description">
+                <target>Koristite ovaj prekidač da omogućite/onemogućite sve aplikacije odjednom.</target>
+            </trans-unit>
+            <trans-unit id="service.disableAll.title">
+                <target>Izmeijeni sve</target>
+            </trans-unit>
+            <trans-unit id="service.optOut.description">
+                <target>Ova aplikacija je učitana automatski (ali je možete onemogućiti)</target>
+            </trans-unit>
+            <trans-unit id="service.optOut.title">
+                <target>(onemogućite)</target>
+            </trans-unit>
+            <trans-unit id="service.purpose">
+                <target>Svrha</target>
+            </trans-unit>
+            <trans-unit id="service.purposes">
+                <target>Svrhe</target>
+            </trans-unit>
+            <trans-unit id="service.required.description">
+                <target>Ova aplikacija je uvijek obavezna</target>
+            </trans-unit>
+            <trans-unit id="service.required.title">
+                <target>(obavezna)</target>
+            </trans-unit>
+            <trans-unit id="close">
+                <target>Zatvori</target>
+            </trans-unit>
+            <trans-unit id="consentModal.description">
+                <target>Ovdje možete vidjeti i podesiti informacije koje prikupljamo o Vama.</target>
+            </trans-unit>
+            <trans-unit id="consentModal.privacyPolicy.name">
+                <target>pravila privatnosti</target>
+            </trans-unit>
+            <trans-unit id="consentModal.privacyPolicy.text">
+                <target>Za više informacije pročitajte naša {privacyPolicy}.</target>
+            </trans-unit>
+            <trans-unit id="consentModal.title">
+                <target>Informacije koje prikupljamo</target>
+            </trans-unit>
+            <trans-unit id="consentNotice.changeDescription">
+                <target>Došlo je do promjena od Vaše posljednjeg posjećivanja web stranice, molimo Vas da ažurirate svoja odobrenja.</target>
+            </trans-unit>
+            <trans-unit id="consentNotice.description">
+                <target>Mi prikupljamo i procesiramo Vaše osobne podatke radi slijedećeg: {purposes}.</target>
+            </trans-unit>
+            <trans-unit id="consentNotice.learnMore">
+                <target>Saznajte više</target>
+            </trans-unit>
+            <trans-unit id="consentNotice.privacyPolicy.name">
+                <target>pravila privatnosti</target>
+            </trans-unit>
+            <trans-unit id="decline">
+                <target>Odbij</target>
+            </trans-unit>
+            <trans-unit id="ok">
+                <target>U redu</target>
+            </trans-unit>
+            <trans-unit id="poweredBy">
+                <target>Pokreće Klaro!</target>
+            </trans-unit>
+            <trans-unit id="save">
+                <target>Spremi</target>
+            </trans-unit>
+        </body>
+    </file>
 </xliff>

@@ -1,148 +1,124 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
-	<file source-language="en" target-language="es" datatype="plaintext" original="EXT:klaro_consent_manager/Resources/Private/Language/locallang.xlf" date="2023-09-24T09:57:24Z" product-name="klaro_consent_manager">
-		<body>
-			<trans-unit id="acceptAll">
-				<target>Aceptar todas</target>
-			</trans-unit>
-			<trans-unit id="acceptSelected">
-				<target>Aceptar seleccionadas</target>
-			</trans-unit>
-			<trans-unit id="close">
-				<target>Cerrar</target>
-			</trans-unit>
-			<trans-unit id="consentModal.description">
-				<target>Aquí puede evaluar y personalizar los servicios que nos gustaría utilizar en este sitio web. ¡Usted decide! Habilite o deshabilite los servicios como considere oportuno.</target>
-			</trans-unit>
-			<trans-unit id="consentModal.privacyPolicy.name">
-				<target>política de privacidad</target>
-			</trans-unit>
-			<trans-unit id="consentModal.privacyPolicy.text">
-				<target>Para saber más, por favor lea nuestra {privacyPolicy}.</target>
-			</trans-unit>
-			<trans-unit id="consentModal.title">
-				<target>Servicios que nos gustaría utilizar</target>
-			</trans-unit>
-			<trans-unit id="consentNotice.changeDescription">
-				<target>Ha habido cambios en las cookies desde su última visita. Debe renovar su consentimiento.</target>
-			</trans-unit>
-			<trans-unit id="consentNotice.description">
-				<target>¡Hola! ¿Podríamos habilitar algunos servicios adicionales para {purposes}? Siempre podrá cambiar o retirar su consentimiento más tarde.</target>
-			</trans-unit>
-			<trans-unit id="consentNotice.imprint.name">
-				<target>Imprimir</target>
-			</trans-unit>
-			<trans-unit id="consentNotice.learnMore">
-				<target>Quiero elegir</target>
-			</trans-unit>
-			<trans-unit id="consentNotice.privacyPolicy.name">
-				<target>política de privacidad</target>
-			</trans-unit>
-			<trans-unit id="consentNotice.testing">
-				<target>¡Modo de prueba!</target>
-			</trans-unit>
-			<trans-unit id="consentNotice.title">
-				<target>Cookie Consent</target>
-			</trans-unit>
-			<trans-unit id="consentNotice.learnMore">
-				<target>Let me choose</target>
-			</trans-unit>
-			<trans-unit id="contextualConsent.acceptAlways">
-				<target>Siempre</target>
-			</trans-unit>
-			<trans-unit id="contextualConsent.acceptOnce">
-				<target>Sí</target>
-			</trans-unit>
-			<trans-unit id="contextualConsent.description">
-				<target>¿Quieres cargar el contenido externo suministrado por {title}?</target>
-			</trans-unit>
-			<trans-unit id="decline">
-				<target>Descartar todas</target>
-			</trans-unit>
-			<trans-unit id="ok">
-				<target>De acuerdo</target>
-			</trans-unit>
-			<trans-unit id="poweredBy">
-				<target>¡Realizado con Klaro!</target>
-			</trans-unit>
-			<trans-unit id="privacyPolicy.name">
-				<target>política de privacidad</target>
-			</trans-unit>
-			<trans-unit id="privacyPolicy.text">
-				<target>Para saber más, por favor lea nuestra {privacyPolicy}.</target>
-			</trans-unit>
-			<trans-unit id="purposeItem.service">
-				<target>servicio</target>
-			</trans-unit>
-			<trans-unit id="purposeItem.services">
-				<target>servicios</target>
-			</trans-unit>
-			<trans-unit id="purposes.advertising.description">
-				<target>Estos servicios procesan información personal para mostrarle anuncios personalizados o basados en intereses.</target>
-			</trans-unit>
-			<trans-unit id="purposes.advertising.title">
-				<target>Publicidad</target>
-			</trans-unit>
-			<trans-unit id="purposes.advertising.title">
-				<target>Advertising</target>
-			</trans-unit>
-			<trans-unit id="purposes.functional.description">
-				<target>Estos servicios son esenciales para el correcto funcionamiento de este sitio web. No puede desactivarlos ya que la página no funcionaría correctamente.</target>
-			</trans-unit>
-			<trans-unit id="purposes.functional.title">
-				<target>Prestación de servicios</target>
-			</trans-unit>
-			<trans-unit id="purposes.functional.title">
-				<target>Service Provision</target>
-			</trans-unit>
-			<trans-unit id="purposes.marketing.description">
-				<target>Estos servicios procesan información personal para mostrarle contenido relevante sobre productos, servicios o temas que puedan interesarle.</target>
-			</trans-unit>
-			<trans-unit id="purposes.marketing.title">
-				<target>Marketing</target>
-			</trans-unit>
-			<trans-unit id="purposes.marketing.title">
-				<target>Marketing</target>
-			</trans-unit>
-			<trans-unit id="purposes.performance.description">
-				<target>Estos servicios procesan información personal para optimizar el servicio que ofrece este sitio.</target>
-			</trans-unit>
-			<trans-unit id="purposes.performance.title">
-				<target>Optimización del rendimiento</target>
-			</trans-unit>
-			<trans-unit id="purposes.performance.title">
-				<target>Performance Optimization</target>
-			</trans-unit>
-			<trans-unit id="save">
-				<target>Guardar</target>
-			</trans-unit>
-			<trans-unit id="service.disableAll.description">
-				<target>Utilice este interruptor para activar o desactivar todos los servicios.</target>
-			</trans-unit>
-			<trans-unit id="service.disableAll.title">
-				<target>Activar o desactivar todos los servicios</target>
-			</trans-unit>
-			<trans-unit id="service.disableAll.title">
-				<target>enable or disable all services</target>
-			</trans-unit>
-			<trans-unit id="service.optOut.description">
-				<target>Este servicio está habilitado por defecto (pero puede optar por lo contrario)</target>
-			</trans-unit>
-			<trans-unit id="service.optOut.title">
-				<target>(desactivar)</target>
-			</trans-unit>
-			<trans-unit id="service.purpose">
-				<target>Finalidad</target>
-			</trans-unit>
-			<trans-unit id="service.purposes">
-				<target>Finalidades</target>
-			</trans-unit>
-			<trans-unit id="service.required.description">
-				<target>Este servicio es necesario siempre</target>
-			</trans-unit>
-			<trans-unit id="service.required.title">
-				<target>(siempre requerido)</target>
-			</trans-unit>
-		</body>
-	</file>
+    <file source-language="en" target-language="es" datatype="plaintext" original="EXT:klaro_consent_manager/Resources/Private/Language/locallang.xlf" date="2023-09-24T09:57:24Z" product-name="klaro_consent_manager">
+        <body>
+            <trans-unit id="acceptAll">
+                <target>Aceptar todas</target>
+            </trans-unit>
+            <trans-unit id="acceptSelected">
+                <target>Aceptar seleccionadas</target>
+            </trans-unit>
+            <trans-unit id="close">
+                <target>Cerrar</target>
+            </trans-unit>
+            <trans-unit id="consentModal.description">
+                <target>Aquí puede evaluar y personalizar los servicios que nos gustaría utilizar en este sitio web. ¡Usted decide! Habilite o deshabilite los servicios como considere oportuno.</target>
+            </trans-unit>
+            <trans-unit id="consentModal.privacyPolicy.name">
+                <target>política de privacidad</target>
+            </trans-unit>
+            <trans-unit id="consentModal.privacyPolicy.text">
+                <target>Para saber más, por favor lea nuestra {privacyPolicy}.</target>
+            </trans-unit>
+            <trans-unit id="consentModal.title">
+                <target>Servicios que nos gustaría utilizar</target>
+            </trans-unit>
+            <trans-unit id="consentNotice.changeDescription">
+                <target>Ha habido cambios en las cookies desde su última visita. Debe renovar su consentimiento.</target>
+            </trans-unit>
+            <trans-unit id="consentNotice.description">
+                <target>¡Hola! ¿Podríamos habilitar algunos servicios adicionales para {purposes}? Siempre podrá cambiar o retirar su consentimiento más tarde.</target>
+            </trans-unit>
+            <trans-unit id="consentNotice.imprint.name">
+                <target>Imprimir</target>
+            </trans-unit>
+            <trans-unit id="consentNotice.learnMore">
+                <target>Quiero elegir</target>
+            </trans-unit>
+            <trans-unit id="consentNotice.privacyPolicy.name">
+                <target>política de privacidad</target>
+            </trans-unit>
+            <trans-unit id="consentNotice.testing">
+                <target>¡Modo de prueba!</target>
+            </trans-unit>
+            <trans-unit id="contextualConsent.acceptAlways">
+                <target>Siempre</target>
+            </trans-unit>
+            <trans-unit id="contextualConsent.acceptOnce">
+                <target>Sí</target>
+            </trans-unit>
+            <trans-unit id="contextualConsent.description">
+                <target>¿Quieres cargar el contenido externo suministrado por {title}?</target>
+            </trans-unit>
+            <trans-unit id="decline">
+                <target>Descartar todas</target>
+            </trans-unit>
+            <trans-unit id="ok">
+                <target>De acuerdo</target>
+            </trans-unit>
+            <trans-unit id="poweredBy">
+                <target>¡Realizado con Klaro!</target>
+            </trans-unit>
+            <trans-unit id="privacyPolicy.name">
+                <target>política de privacidad</target>
+            </trans-unit>
+            <trans-unit id="privacyPolicy.text">
+                <target>Para saber más, por favor lea nuestra {privacyPolicy}.</target>
+            </trans-unit>
+            <trans-unit id="purposeItem.service">
+                <target>servicio</target>
+            </trans-unit>
+            <trans-unit id="purposeItem.services">
+                <target>servicios</target>
+            </trans-unit>
+            <trans-unit id="purposes.advertising.description">
+                <target>Estos servicios procesan información personal para mostrarle anuncios personalizados o basados en intereses.</target>
+            </trans-unit>
+            <trans-unit id="purposes.advertising.title">
+                <target>Publicidad</target>
+            </trans-unit>
+            <trans-unit id="purposes.functional.description">
+                <target>Estos servicios son esenciales para el correcto funcionamiento de este sitio web. No puede desactivarlos ya que la página no funcionaría correctamente.</target>
+            </trans-unit>
+            <trans-unit id="purposes.functional.title">
+                <target>Prestación de servicios</target>
+            </trans-unit>
+            <trans-unit id="purposes.marketing.description">
+                <target>Estos servicios procesan información personal para mostrarle contenido relevante sobre productos, servicios o temas que puedan interesarle.</target>
+            </trans-unit>
+            <trans-unit id="purposes.performance.description">
+                <target>Estos servicios procesan información personal para optimizar el servicio que ofrece este sitio.</target>
+            </trans-unit>
+            <trans-unit id="purposes.performance.title">
+                <target>Optimización del rendimiento</target>
+            </trans-unit>
+            <trans-unit id="save">
+                <target>Guardar</target>
+            </trans-unit>
+            <trans-unit id="service.disableAll.description">
+                <target>Utilice este interruptor para activar o desactivar todos los servicios.</target>
+            </trans-unit>
+            <trans-unit id="service.disableAll.title">
+                <target>Activar o desactivar todos los servicios</target>
+            </trans-unit>
+            <trans-unit id="service.optOut.description">
+                <target>Este servicio está habilitado por defecto (pero puede optar por lo contrario)</target>
+            </trans-unit>
+            <trans-unit id="service.optOut.title">
+                <target>(desactivar)</target>
+            </trans-unit>
+            <trans-unit id="service.purpose">
+                <target>Finalidad</target>
+            </trans-unit>
+            <trans-unit id="service.purposes">
+                <target>Finalidades</target>
+            </trans-unit>
+            <trans-unit id="service.required.description">
+                <target>Este servicio es necesario siempre</target>
+            </trans-unit>
+            <trans-unit id="service.required.title">
+                <target>(siempre requerido)</target>
+            </trans-unit>
+        </body>
+    </file>
 </xliff>
