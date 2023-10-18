@@ -1,16 +1,18 @@
 # Klaro Consent Manager
 
-TYPO3 integration of Klaro! Consent Management. Klaro! is a powerful tool that protects the privacy and data of your visitors and helps you run a GDPR compliant website.
+Functionally complete, flexible TYPO3 integration of Klaro! Consent Management. Klaro! is a powerful tool that protects your visitors' privacy and data and helps you run a GDPR compliant website.
 
-## Add custom purposes
+## Tutorials
 
-### Create custom XLIFF file(s)
+### Add custom purposes
+
+#### Create custom XLIFF file(s)
 
 ```
 EXT:sitepackage/Resources/Private/Language/Klaro/locallang.xlf
 ```
 
-### Add new Keys for purposes
+#### Add new Keys for purposes
 
 ```xml
 <trans-unit id="purposes.analytics.title">
@@ -50,7 +52,7 @@ Open the Klaro! configuration, go to `Display` → `Translations` → `Locallang
 
 ![Locallang Path](Documentation/Images/configuration-locallang_path.png)
 
-### Add new items with TSconfig
+#### Add new items with TSconfig
 ```
 TCEFORM {
     tx_klaroconsentmanager_service.purposes.addItems {
@@ -70,7 +72,7 @@ TCEFORM {
 }
 ```
 
-### Finished!
+#### Finished!
 
 Now you are able to select the new purposes in the configuration.
 
