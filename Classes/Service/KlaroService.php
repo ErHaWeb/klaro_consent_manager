@@ -283,8 +283,8 @@ class KlaroService
         }
 
         if ($prepend === '') {
-            if ($this->privacyPolicyTypoLink) {
-                $return['privacyPolicyUrl'] = $this->getUrlFromTypoLink($this->privacyPolicyTypoLink);
+            if ($privacyPolicyTypoLink = $this->getUrlFromTypoLink($this->privacyPolicyTypoLink)) {
+                $return['privacyPolicyUrl'] = $privacyPolicyTypoLink;
             }
 
             $return['purposes'] = [];
