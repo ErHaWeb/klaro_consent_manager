@@ -337,9 +337,9 @@ class KlaroService
             $return .= $isAssociative ? $key . ':' : '';
             if (is_array($value)) {
                 $return .= $this->arrayToJavaScriptObject($value);
-            } else if (is_bool($value)) {
+            } elseif (is_bool($value)) {
                 $return .= $value ? 'true' : 'false';
-            } else if ($key !== 'callback' && is_string($value)) {
+            } elseif ($key !== 'callback' && is_string($value)) {
                 $return .= '\'' . $value . '\'';
             } else {
                 $return .= $value;
