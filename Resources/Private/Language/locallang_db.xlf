@@ -182,7 +182,7 @@
                 <source>Must consent</source>
             </trans-unit>
             <trans-unit id="tx_klaroconsentmanager_configuration.must_consent.description">
-                <source>Setting 'acceptAll' to 'true' will show an "accept all" button in the notice and modal, which will enable all third-party services if the user clicks on it. If set to 'false', there will be an "accept" button that will only enable the services that are enabled in the consent modal.</source>
+                <source>If "mustConsent" is set to true, Klaro will directly display the consent manager modal and not allow the user to close it before having actively consented or declines the use of third-party services.</source>
             </trans-unit>
             <trans-unit id="tx_klaroconsentmanager_configuration.accept_all.label">
                 <source>Accept all</source>
