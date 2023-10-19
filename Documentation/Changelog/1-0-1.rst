@@ -1,0 +1,28 @@
+.. include:: /Includes.rst.txt
+
+1.0.1 - October 19, 2023
+========================
+
+
+.. only:: html
+
+   .. contents::
+        :local:
+        :depth: 3
+
+Breaking changes
+----------------
+No breaking changes!
+
+All Changes
+-----------
+This is a list of all changes in this release: ::
+
+    2023-10-19 [TASK] Add additional purposes and service presets (Commit a8728dc by Eric Harrer)
+    2023-10-19 [BUGFIX] Fix purpose item display in TYPO3 10.4 (Commit 95374b1 by Eric Harrer)
+    2023-10-19 [TASK] Remove unnecessary keys in klaro configuration (Commit af3a05e by Eric Harrer)
+    2023-10-19 [TASK] Use "elseif" instead of "else if" (Commit 18a5f5c by Eric Harrer)
+    2023-10-19 [BUGFIX] Fix handling of string field types and related JS errors (Commit ba64d24 by Eric Harrer)
+    2023-10-18 [BUGFIX] Fix mixed type errors in PHP 7.4 (Commit 73c0473 by Eric Harrer)
+
+This list has been created by using `git log $(git describe --tags --abbrev=0)..HEAD --abbrev-commit --pretty='%ad %s (Commit %h by %an)' --date=short`.
