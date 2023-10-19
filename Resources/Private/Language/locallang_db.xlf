@@ -302,6 +302,27 @@
             <trans-unit id="tx_klaroconsentmanager_service.name.description">
                 <source>Each service must have a unique name. Klaro will look for HTML elements with a matching 'data-name' attribute to identify elements that belong to this service.</source>
             </trans-unit>
+
+            <!-- Service presets -->
+            <trans-unit id="tx_klaroconsentmanager_service.name.I.matomo" resname="contextualConsent.acceptAlways">
+                <source>Matomo/Piwik</source>
+            </trans-unit>
+            <trans-unit id="tx_klaroconsentmanager_service.name.I.google-analytics" resname="contextualConsent.acceptAlways">
+                <source>Google Analytics</source>
+            </trans-unit>
+            <trans-unit id="tx_klaroconsentmanager_service.name.I.google-tag-manager" resname="contextualConsent.acceptAlways">
+                <source>Google Tag Manager</source>
+            </trans-unit>
+            <trans-unit id="tx_klaroconsentmanager_service.name.I.facebook-pixel" resname="contextualConsent.acceptAlways">
+                <source>Facebook Pixel</source>
+            </trans-unit>
+            <trans-unit id="tx_klaroconsentmanager_service.name.I.vimeo" resname="contextualConsent.acceptAlways">
+                <source>Vimeo</source>
+            </trans-unit>
+            <trans-unit id="tx_klaroconsentmanager_service.name.I.youtube" resname="contextualConsent.acceptAlways">
+                <source>YouTube</source>
+            </trans-unit>
+
             <trans-unit id="tx_klaroconsentmanager_service.name.placeholder">
                 <source>matomo</source>
             </trans-unit>
@@ -323,6 +344,11 @@
             <trans-unit id="tx_klaroconsentmanager_service.purposes.optgroup.default">
                 <source>Default</source>
             </trans-unit>
+            <trans-unit id="tx_klaroconsentmanager_service.purposes.optgroup.additional">
+                <source>Additional</source>
+            </trans-unit>
+
+            <!-- Klaro! Default Purposes -->
             <trans-unit id="tx_klaroconsentmanager_service.purposes.I.functional">
                 <source>Functional</source>
             </trans-unit>
@@ -347,6 +373,21 @@
             <trans-unit id="tx_klaroconsentmanager_service.purposes.I.styling">
                 <source>Styling</source>
             </trans-unit>
+
+            <!-- Additional Purposes -->
+            <trans-unit id="tx_klaroconsentmanager_service.purposes.I.analytics">
+                <source>Analytics</source>
+            </trans-unit>
+            <trans-unit id="tx_klaroconsentmanager_service.purposes.I.security">
+                <source>Security</source>
+            </trans-unit>
+            <trans-unit id="tx_klaroconsentmanager_service.purposes.I.livechat">
+                <source>Live Chat</source>
+            </trans-unit>
+            <trans-unit id="tx_klaroconsentmanager_service.purposes.I.styling">
+                <source>Styling</source>
+            </trans-unit>
+
             <trans-unit id="tx_klaroconsentmanager_service.cookies.label">
                 <source>Cookies</source>
             </trans-unit>

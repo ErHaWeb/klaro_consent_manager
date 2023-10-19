@@ -29,6 +29,8 @@
             <trans-unit id="consentNotice.learnMore">
                 <source>Let me choose</source>
             </trans-unit>
+
+            <!-- Klaro! Default Purposes -->
             <trans-unit id="purposes.functional.title">
                 <source>Service Provision</source>
             </trans-unit>
@@ -53,6 +55,33 @@
             <trans-unit id="purposes.advertising.description">
                 <source>These services process personal information to show you personalized or interest-based advertisements.</source>
             </trans-unit>
+
+            <!-- Additional Purposes -->
+            <trans-unit id="purposes.analytics.title" resname="purposes.analytics.title">
+                <source>Analytics</source>
+            </trans-unit>
+            <trans-unit id="purposes.analytics.description" resname="purposes.analytics.description">
+                <source>These services gather anonymous data for statistical analysis and performance optimization. Enabling analytics services assists website owners in making informed decisions to enhance online services.</source>
+            </trans-unit>
+            <trans-unit id="purposes.security.title" resname="purposes.security.title">
+                <source>Security</source>
+            </trans-unit>
+            <trans-unit id="purposes.security.description" resname="purposes.security.description">
+                <source>Security services are crucial for safeguarding your online experience. These services help protect your data and privacy by detecting and preventing security threats, such as malware, phishing attempts, and unauthorized access. They ensure a safer browsing environment.</source>
+            </trans-unit>
+            <trans-unit id="purposes.livechat.title" resname="purposes.livechat.title">
+                <source>Live Chat</source>
+            </trans-unit>
+            <trans-unit id="purposes.livechat.description" resname="purposes.livechat.description">
+                <source>Live chat services enable real-time communication with website support teams. They offer a convenient way to ask questions, seek assistance, or engage in discussions while browsing a website. Live chat enhances your online interaction and customer support experience.</source>
+            </trans-unit>
+            <trans-unit id="purposes.styling.title" resname="purposes.styling.title">
+                <source>Styling</source>
+            </trans-unit>
+            <trans-unit id="purposes.styling.description" resname="purposes.styling.description">
+                <source>Services related to styling help to improve the appearance of the website. This can also have an impact on usability.</source>
+            </trans-unit>
+
             <trans-unit id="purposeItem.service">
                 <source>A simple service that I install on my computer.</source>
             </trans-unit>
@@ -112,6 +141,44 @@
             </trans-unit>
             <trans-unit id="contextualConsent.acceptAlways">
                 <source>Always</source>
+            </trans-unit>
+
+            <!-- Services -->
+            <trans-unit id="services.matomo.title" resname="contextualConsent.acceptAlways">
+                <source>Matomo/Piwik</source>
+            </trans-unit>
+            <trans-unit id="services.matomo.description" resname="contextualConsent.acceptAlways">
+                <source>Open source software for statistical analysis of visitor accesses</source>
+            </trans-unit>
+            <trans-unit id="services.google-analytics.title" resname="contextualConsent.acceptAlways">
+                <source>Google Analytics</source>
+            </trans-unit>
+            <trans-unit id="services.google-analytics.description" resname="contextualConsent.acceptAlways">
+                <source>Web analytics service provided by Google, Inc. ("Google")</source>
+            </trans-unit>
+            <trans-unit id="services.google-tag-manager.title" resname="contextualConsent.acceptAlways">
+                <source>Google Tag Manager</source>
+            </trans-unit>
+            <trans-unit id="services.google-tag-manager.description" resname="contextualConsent.acceptAlways">
+                <source>Google Tag Manager streamlines web tracking and code management, ensuring data compliance and control for developers.</source>
+            </trans-unit>
+            <trans-unit id="services.facebook-pixel.title" resname="contextualConsent.acceptAlways">
+                <source>Facebook Pixel</source>
+            </trans-unit>
+            <trans-unit id="services.facebook-pixel.description" resname="contextualConsent.acceptAlways">
+                <source>Simplifies web tracking for analytics and marketing while ensuring data compliance and control.</source>
+            </trans-unit>
+            <trans-unit id="services.vimeo.title" resname="contextualConsent.acceptAlways">
+                <source>Vimeo</source>
+            </trans-unit>
+            <trans-unit id="services.vimeo.description" resname="contextualConsent.acceptAlways">
+                <source>Popular video-sharing platform that offers a range of features for creators and developers to enhance video content on websites.</source>
+            </trans-unit>
+            <trans-unit id="services.youtube.title" resname="contextualConsent.acceptAlways">
+                <source>YouTube</source>
+            </trans-unit>
+            <trans-unit id="services.youtube.description" resname="contextualConsent.acceptAlways">
+                <source>The leading video-sharing platform for content creators and developers to enhance user experiences on websites.</source>
             </trans-unit>
         </body>
     </file>

@@ -42,12 +42,12 @@ return [
                 'placeholder' => 'LLL:EXT:klaro_consent_manager/Resources/Private/Language/locallang_db.xlf:tx_klaroconsentmanager_service.name.placeholder',
                 'valuePicker' => [
                     'items' => [
-                        ['Matomo/Piwik', 'matomo'],
-                        ['Google Analytics', 'google-analytics'],
-                        ['Google Tag Manager', 'google-tag-manager'],
-                        ['Facebook Pixel', 'facebook-pixel'],
-                        ['Vimeo', 'vimeo'],
-                        ['YouTube', 'youtube'],
+                        ['LLL:EXT:klaro_consent_manager/Resources/Private/Language/locallang_db.xlf:tx_klaroconsentmanager_service.name.I.matomo', 'matomo'],
+                        ['LLL:EXT:klaro_consent_manager/Resources/Private/Language/locallang_db.xlf:tx_klaroconsentmanager_service.name.I.google-analytics', 'google-analytics'],
+                        ['LLL:EXT:klaro_consent_manager/Resources/Private/Language/locallang_db.xlf:tx_klaroconsentmanager_service.name.I.google-tag-manager', 'google-tag-manager'],
+                        ['LLL:EXT:klaro_consent_manager/Resources/Private/Language/locallang_db.xlf:tx_klaroconsentmanager_service.name.I.facebook-pixel', 'facebook-pixel'],
+                        ['LLL:EXT:klaro_consent_manager/Resources/Private/Language/locallang_db.xlf:tx_klaroconsentmanager_service.name.I.vimeo', 'vimeo'],
+                        ['LLL:EXT:klaro_consent_manager/Resources/Private/Language/locallang_db.xlf:tx_klaroconsentmanager_service.name.I.youtube', 'youtube'],
                     ],
                 ],
             ],
@@ -61,13 +61,21 @@ return [
                 'default' => '',
                 'minitems' => 1,
                 'items' => [
+                    // Klaro! Default Purposes
                     ['LLL:EXT:klaro_consent_manager/Resources/Private/Language/locallang_db.xlf:tx_klaroconsentmanager_service.purposes.I.functional', 'functional', '', 'default'],
                     ['LLL:EXT:klaro_consent_manager/Resources/Private/Language/locallang_db.xlf:tx_klaroconsentmanager_service.purposes.I.performance', 'performance', '', 'default'],
                     ['LLL:EXT:klaro_consent_manager/Resources/Private/Language/locallang_db.xlf:tx_klaroconsentmanager_service.purposes.I.marketing', 'marketing', '', 'default'],
                     ['LLL:EXT:klaro_consent_manager/Resources/Private/Language/locallang_db.xlf:tx_klaroconsentmanager_service.purposes.I.advertising', 'advertising', '', 'default'],
+
+                    // Additional Purposes
+                    ['LLL:EXT:klaro_consent_manager/Resources/Private/Language/locallang_db.xlf:tx_klaroconsentmanager_service.purposes.I.analytics', 'analytics', '', 'additional'],
+                    ['LLL:EXT:klaro_consent_manager/Resources/Private/Language/locallang_db.xlf:tx_klaroconsentmanager_service.purposes.I.security', 'security', '', 'additional'],
+                    ['LLL:EXT:klaro_consent_manager/Resources/Private/Language/locallang_db.xlf:tx_klaroconsentmanager_service.purposes.I.livechat', 'livechat', '', 'additional'],
+                    ['LLL:EXT:klaro_consent_manager/Resources/Private/Language/locallang_db.xlf:tx_klaroconsentmanager_service.purposes.I.styling', 'styling', '', 'additional'],
                 ],
                 'itemGroups' => [
                     'custom' => 'LLL:EXT:klaro_consent_manager/Resources/Private/Language/locallang_db.xlf:tx_klaroconsentmanager_service.purposes.optgroup.custom',
+                    'additional' => 'LLL:EXT:klaro_consent_manager/Resources/Private/Language/locallang_db.xlf:tx_klaroconsentmanager_service.purposes.optgroup.additional',
                     'default' => 'LLL:EXT:klaro_consent_manager/Resources/Private/Language/locallang_db.xlf:tx_klaroconsentmanager_service.purposes.optgroup.default',
                 ],
             ],
