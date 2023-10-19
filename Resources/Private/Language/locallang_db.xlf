@@ -317,6 +317,12 @@
             <trans-unit id="tx_klaroconsentmanager_service.purposes.description">
                 <source>The purpose(s) of this service that will be listed on the consent notice. Do not forget to add translations for all purposes you list here.</source>
             </trans-unit>
+            <trans-unit id="tx_klaroconsentmanager_service.purposes.optgroup.custom">
+                <source>Custom</source>
+            </trans-unit>
+            <trans-unit id="tx_klaroconsentmanager_service.purposes.optgroup.default">
+                <source>Default</source>
+            </trans-unit>
             <trans-unit id="tx_klaroconsentmanager_service.purposes.I.functional">
                 <source>Functional</source>
             </trans-unit>

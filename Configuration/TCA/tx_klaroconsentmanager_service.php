@@ -61,30 +61,14 @@ return [
                 'default' => '',
                 'minitems' => 1,
                 'items' => [
-                    [
-                        'label' => 'LLL:EXT:klaro_consent_manager/Resources/Private/Language/locallang_db.xlf:tx_klaroconsentmanager_service.purposes.I.functional',
-                        'value' => 'functional',
-                        'group' => 'default',
-                    ],
-                    [
-                        'label' => 'LLL:EXT:klaro_consent_manager/Resources/Private/Language/locallang_db.xlf:tx_klaroconsentmanager_service.purposes.I.performance',
-                        'value' => 'performance',
-                        'group' => 'default',
-                    ],
-                    [
-                        'label' => 'LLL:EXT:klaro_consent_manager/Resources/Private/Language/locallang_db.xlf:tx_klaroconsentmanager_service.purposes.I.marketing',
-                        'value' => 'marketing',
-                        'group' => 'default',
-                    ],
-                    [
-                        'label' => 'LLL:EXT:klaro_consent_manager/Resources/Private/Language/locallang_db.xlf:tx_klaroconsentmanager_service.purposes.I.advertising',
-                        'value' => 'advertising',
-                        'group' => 'default',
-                    ],
+                    ['LLL:EXT:klaro_consent_manager/Resources/Private/Language/locallang_db.xlf:tx_klaroconsentmanager_service.purposes.I.functional', 'functional', '', 'default'],
+                    ['LLL:EXT:klaro_consent_manager/Resources/Private/Language/locallang_db.xlf:tx_klaroconsentmanager_service.purposes.I.performance', 'performance', '', 'default'],
+                    ['LLL:EXT:klaro_consent_manager/Resources/Private/Language/locallang_db.xlf:tx_klaroconsentmanager_service.purposes.I.marketing', 'marketing', '', 'default'],
+                    ['LLL:EXT:klaro_consent_manager/Resources/Private/Language/locallang_db.xlf:tx_klaroconsentmanager_service.purposes.I.advertising', 'advertising', '', 'default'],
                 ],
                 'itemGroups' => [
-                    'custom' => 'Custom',
-                    'default' => 'Default',
+                    'custom' => 'LLL:EXT:klaro_consent_manager/Resources/Private/Language/locallang_db.xlf:tx_klaroconsentmanager_service.purposes.optgroup.custom',
+                    'default' => 'LLL:EXT:klaro_consent_manager/Resources/Private/Language/locallang_db.xlf:tx_klaroconsentmanager_service.purposes.optgroup.default',
                 ],
             ],
         ],

@@ -19,7 +19,8 @@ defined('TYPO3') || die();
 
 (static function () {
     \TYPO3\CMS\Core\Utility\ArrayUtility::mergeRecursiveWithOverrule(
-        $GLOBALS['TCA']['tx_klaroconsentmanager_configuration']['columns']['purpose_order']['config']['items'],
-        $GLOBALS['TCA']['tx_klaroconsentmanager_service']['columns']['purposes']['config']['items']
+        $GLOBALS['TCA']['tx_klaroconsentmanager_configuration']['columns']['purpose_order']['config'],
+        $GLOBALS['TCA']['tx_klaroconsentmanager_service']['columns']['purposes']['config'],
     );
+    unset($GLOBALS['TCA']['tx_klaroconsentmanager_configuration']['columns']['purpose_order']['config']['minitems']);
 })();

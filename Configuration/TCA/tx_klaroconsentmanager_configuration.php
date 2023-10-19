@@ -354,16 +354,7 @@ return [
         'purpose_order' => [
             'label' => 'LLL:EXT:klaro_consent_manager/Resources/Private/Language/locallang_db.xlf:tx_klaroconsentmanager_configuration.purpose_order.label',
             'description' => 'LLL:EXT:klaro_consent_manager/Resources/Private/Language/locallang_db.xlf:tx_klaroconsentmanager_configuration.purpose_order.description',
-            'config' => [
-                'type' => 'select',
-                'renderType' => 'selectMultipleSideBySide',
-                'default' => '',
-                'items' => [],
-                'itemGroups' => [
-                    'custom' => 'Custom',
-                    'default' => 'Default',
-                ],
-            ],
+            'config' => []
         ],
         'callback' => [
             'label' => 'LLL:EXT:klaro_consent_manager/Resources/Private/Language/locallang_db.xlf:tx_klaroconsentmanager_configuration.callback.label',
