@@ -76,6 +76,9 @@ class KlaroService
         'color_scheme' => ['type' => 'bypass', 'default' => 'dark'],
         'alignment' => ['type' => 'bypass', 'default' => 'bottom-right'],
         'locallang_path' => ['type' => 'bypass', 'default' => ''],
+
+        // Relations
+        'services' => ['type' => 'bypass', 'default' => ''],
     ];
     private const GLOBAL_LABELS = [
         'privacyPolicy' => ['name', 'text'],
@@ -201,7 +204,6 @@ class KlaroService
 
                 $elementId = $this->configuration['element_i_d'] ?: 'klaro';
                 $configVariableName = $this->configuration['config_variable_name'] ?: 'klaroConfig';
-
                 $return = 'var ' . $configVariableName . '=' . $this->arrayToJavaScriptObject($configurationArray) . ';';
 
                 $appendJavaScript = '';
@@ -433,7 +435,7 @@ class KlaroService
                 'uid' => $this->configurationId
             ]
         )) {
-            $return['services'] = $this->fetchServices($return['uid']);
+            $return['services'] = $this->fetchServices($return['services']);
             $this->configuration = $return;
             return $this->configuration;
         }
@@ -442,23 +444,25 @@ class KlaroService
     }
 
     /**
-     * @param int $configurationId
+     * @param string $serviceUidsList
      * @return array
      */
-    private function fetchServices(int $configurationId): array
+    private function fetchServices(string $serviceUidsList): array
     {
-        $return = $this->fetchResults(
-            'tx_klaroconsentmanager_service',
-            array_keys(self::SERVICE_CONFIG),
-            [
-                'parentid' => $configurationId,
-                'parenttable' => 'tx_klaroconsentmanager_configuration'
-            ],
-            true
-        );
+        $serviceUids = GeneralUtility::intExplode(',', $serviceUidsList);
+        $return = [];
 
-        foreach ($return as &$service) {
-            $service['cookies'] = $this->fetchCookies((int)$service['uid']);
+        foreach ($serviceUids as $serviceUid) {
+            if ($result = $this->fetchResults(
+                'tx_klaroconsentmanager_service',
+                array_keys(self::SERVICE_CONFIG),
+                [
+                    'uid' => $serviceUid
+                ]
+            )) {
+                $result['cookies'] = $this->fetchCookies($serviceUid);
+                $return[] = $result;
+            }
         }
 
         return $return;

@@ -313,10 +313,7 @@
 
             <!-- Service -->
             <trans-unit id="tx_klaroconsentmanager_service">
-                <source>Service</source>
-            </trans-unit>
-            <trans-unit id="tx_klaroconsentmanager_service">
-                <source>Service</source>
+                <source>Klaro! Service</source>
             </trans-unit>
             <trans-unit id="tx_klaroconsentmanager_service.I.enabled">
                 <source>Enabled</source>
@@ -329,6 +326,18 @@
             </trans-unit>
             <trans-unit id="tx_klaroconsentmanager_service.name.description">
                 <source>Each service must have a unique name. Klaro will look for HTML elements with a matching 'data-name' attribute to identify elements that belong to this service.</source>
+            </trans-unit>
+            <trans-unit id="tx_klaroconsentmanager_service.name.placeholder">
+                <source>matomo</source>
+            </trans-unit>
+            <trans-unit id="tx_klaroconsentmanager_service.title.label">
+                <source>Title</source>
+            </trans-unit>
+            <trans-unit id="tx_klaroconsentmanager_service.title.description">
+                <source>The title defined here is not mandatory and is intended for backend display only.</source>
+            </trans-unit>
+            <trans-unit id="tx_klaroconsentmanager_service.title.placeholder">
+                <source>Matomo/Piwik</source>
             </trans-unit>
 
             <!-- Service presets -->
@@ -387,9 +396,6 @@
                 <source>YouTube</source>
             </trans-unit>
 
-            <trans-unit id="tx_klaroconsentmanager_service.name.placeholder">
-                <source>matomo</source>
-            </trans-unit>
             <trans-unit id="tx_klaroconsentmanager_service.default.label">
                 <source>Default</source>
             </trans-unit>

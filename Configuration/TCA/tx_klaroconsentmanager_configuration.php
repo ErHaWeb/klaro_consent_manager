@@ -316,7 +316,7 @@ return [
                 'type' => 'check',
                 'renderType' => 'checkboxLabeledToggle',
                 'default' => 0,
-                //'readOnly' => 1,
+                'readOnly' => 1,
                 'items' => [
                     [
                         0 => '',
@@ -368,14 +368,24 @@ return [
             'label' => 'LLL:EXT:klaro_consent_manager/Resources/Private/Language/locallang_db.xlf:tx_klaroconsentmanager_configuration.services.label',
             'description' => 'LLL:EXT:klaro_consent_manager/Resources/Private/Language/locallang_db.xlf:tx_klaroconsentmanager_configuration.services.description',
             'config' => [
-                'type' => 'inline',
+                'type' => 'select',
+                'renderType' => 'selectMultipleSideBySide',
                 'foreign_table' => 'tx_klaroconsentmanager_service',
                 'foreign_field' => 'parentid',
                 'foreign_table_field' => 'parenttable',
-                'appearance' => [
-                    'showSynchronizationLink' => true,
-                    'showAllLocalizationLink' => true,
-                    'showPossibleLocalizationRecords' => true,
+                'size' => 5,
+                'autoSizeMax' => 10,
+                'minitems' => 0,
+                'fieldControl' => [
+                    'addRecord' => [
+                        'disabled' => false,
+                    ],
+                    'editPopup' => [
+                        'disabled' => false,
+                    ],
+                    'listModule' => [
+                        'disabled' => false,
+                    ]
                 ],
             ],
         ],

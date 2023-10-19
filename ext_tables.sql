@@ -32,7 +32,7 @@ CREATE TABLE tx_klaroconsentmanager_configuration
     `alignment`                 tinytext,
     `callback`                  mediumtext,
     `locallang_path`            varchar(255)     DEFAULT ''  NOT NULL,
-    `services`                  int(11) unsigned DEFAULT '0' NOT NULL
+    `services`                  varchar(255)     DEFAULT ''  NOT NULL
 );
 
 #
@@ -40,6 +40,7 @@ CREATE TABLE tx_klaroconsentmanager_configuration
 #
 CREATE TABLE tx_klaroconsentmanager_service
 (
+    `title`                   tinytext,
     `name`                    tinytext,
     `default`                 tinyint(4)       DEFAULT '0' NOT NULL,
     `purposes`                varchar(255)     DEFAULT ''  NOT NULL,
@@ -48,9 +49,7 @@ CREATE TABLE tx_klaroconsentmanager_service
     `required`                tinyint(4)       DEFAULT '0' NOT NULL,
     `opt_out`                 tinyint(4)       DEFAULT '0' NOT NULL,
     `only_once`               tinyint(4)       DEFAULT '0' NOT NULL,
-    `contextual_consent_only` tinyint(4)       DEFAULT '0' NOT NULL,
-    `parentid`                int(11)          DEFAULT '0' NOT NULL,
-    `parenttable`             varchar(255)     DEFAULT ''  NOT NULL
+    `contextual_consent_only` tinyint(4)       DEFAULT '0' NOT NULL
 );
 
 #

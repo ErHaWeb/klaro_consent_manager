@@ -3,7 +3,8 @@
 return [
     'ctrl' => [
         'title' => 'LLL:EXT:klaro_consent_manager/Resources/Private/Language/locallang_db.xlf:tx_klaroconsentmanager_service',
-        'label' => 'name',
+        'label' => 'title',
+        'label_alt' => 'name',
         'tstamp' => 'tstamp',
         'crdate' => 'crdate',
         'cruser_id' => 'cruser_id',
@@ -14,7 +15,6 @@ return [
         'enablecolumns' => [
             'disabled' => 'hidden',
         ],
-        'hideTable' => true,
     ],
     'columns' => [
         'hidden' => [
@@ -31,6 +31,37 @@ return [
                     ]
                 ],
             ]
+        ],
+        'title' => [
+            'label' => 'LLL:EXT:klaro_consent_manager/Resources/Private/Language/locallang_db.xlf:tx_klaroconsentmanager_service.title.label',
+            'description' => 'LLL:EXT:klaro_consent_manager/Resources/Private/Language/locallang_db.xlf:tx_klaroconsentmanager_service.title.description',
+            'config' => [
+                'type' => 'input',
+                'size' => 48,
+                'placeholder' => 'LLL:EXT:klaro_consent_manager/Resources/Private/Language/locallang_db.xlf:tx_klaroconsentmanager_service.title.placeholder',
+                'valuePicker' => [
+                    'items' => [
+                        ['Google AdSense', 'Google AdSense'],
+                        ['Surveillance Camera', 'Surveillance Camera'],
+                        ['Microsoft Clarity', 'Microsoft Clarity'],
+                        ['Cloudflare', 'Cloudflare'],
+                        ['External Tracker', 'External Tracker'],
+                        ['Facebook Pixel', 'Facebook Pixel'],
+                        ['Google Analytics', 'Google Analytics'],
+                        ['Google Fonts', 'Google Fonts'],
+                        ['Google Maps', 'Google Maps'],
+                        ['Google Tag Manager', 'Google Tag Manager'],
+                        ['Inline Tracker', 'Inline Tracker'],
+                        ['Intercom', 'Intercom'],
+                        ['Matomo/Piwik', 'Matomo/Piwik'],
+                        ['Mouseflow', 'Mouseflow'],
+                        ['X (formerly Twitter)', 'X (formerly Twitter)'],
+                        ['Userlike', 'Userlike'],
+                        ['Vimeo', 'Vimeo'],
+                        ['YouTube', 'YouTube'],
+                    ],
+                ],
+            ],
         ],
         'name' => [
             'label' => 'LLL:EXT:klaro_consent_manager/Resources/Private/Language/locallang_db.xlf:tx_klaroconsentmanager_service.name.label',
@@ -72,6 +103,8 @@ return [
                 'renderType' => 'selectMultipleSideBySide',
                 'default' => '',
                 'minitems' => 1,
+                'size' => 5,
+                'autoSizeMax' => 10,
                 'items' => [
                     // Klaro! Default Purposes
                     ['LLL:EXT:klaro_consent_manager/Resources/Private/Language/locallang_db.xlf:tx_klaroconsentmanager_service.purposes.I.functional', 'functional', '', 'default'],
@@ -236,7 +269,7 @@ return [
     ],
     'palettes' => [
         'general_palette' => [
-            'showitem' => 'name, default, --linebreak--, purposes, --linebreak--, cookies',
+            'showitem' => 'title, --linebreak--, name, --linebreak--, default, --linebreak--, purposes, --linebreak--, cookies',
         ],
         'toggles_palette' => [
             'showitem' => 'required, opt_out, --linebreak--, only_once, contextual_consent_only'
