@@ -56,7 +56,7 @@ class KlaroService
         'html_texts' => ['type' => 'boolean', 'default' => false],
         'embedded' => ['type' => 'boolean', 'default' => false],
         'group_by_purpose' => ['type' => 'boolean', 'default' => true],
-        'cookie_expires_after_days' => ['type' => 'integer', 'default' => 60],
+        'cookie_expires_after_days' => ['type' => 'integer', 'default' => 0],
         'default' => ['type' => 'boolean', 'default' => false],
         'must_consent' => ['type' => 'boolean', 'default' => false],
         'accept_all' => ['type' => 'boolean', 'default' => false],
@@ -188,16 +188,20 @@ class KlaroService
                 $configurationArray[$lccKey] = $this->modifyValueByType($value, $field['type']);
             }
 
-            $theme = array_merge([$colorScheme], $alignment);
-            if ($theme) {
+            if ($theme = array_merge(($colorScheme ? [$colorScheme] : []), $alignment)) {
                 $configurationArray['styling']['theme'] = $theme;
             }
+            if ($translations = $this->getTranslations(self::GLOBAL_LABELS)) {
+                $configurationArray['translations']['zz'] = $translations;
+            }
+            if ($services = $this->getServices()) {
+                $configurationArray['services'] = $services;
 
-            $configurationArray['translations']['zz'] = $this->getTranslations(self::GLOBAL_LABELS);
-            $configurationArray['services'] = $this->getServices();
+                return 'var klaroConfig=' . $this->arrayToJavaScriptObject($configurationArray) . ';';
+            }
         }
 
-        return 'var klaroConfig=' . $this->arrayToJavaScriptObject($configurationArray) . ';';
+        return '';
     }
 
     /**
@@ -298,6 +302,9 @@ class KlaroService
                         ];
                     }
                 }
+            }
+            if (!$return['purposes']) {
+                unset($return['purposes']);
             }
         }
 

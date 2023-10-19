@@ -39,8 +39,8 @@ class KlaroJavaScript
 
         if ($event->isInline()) {
             $asset = $event->getAssetCollector()->getInlineJavaScripts();
-            if (!($asset['klaroConfig'] ?? false)) {
-                $event->getAssetCollector()->addInlineJavaScript('klaroConfig', $klaroService->getConfigurationInlineJavaScript(), ['defer' => 'defer'], ['priority' => true]);
+            if (!($asset['klaroConfig'] ?? false) && $configurationInlineJavaScript = $klaroService->getConfigurationInlineJavaScript()) {
+                $event->getAssetCollector()->addInlineJavaScript('klaroConfig', $configurationInlineJavaScript, ['defer' => 'defer'], ['priority' => true]);
             }
             return;
         }
