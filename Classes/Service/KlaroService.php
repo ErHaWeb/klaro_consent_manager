@@ -318,6 +318,8 @@ class KlaroService
                 return (bool)$configuration[$field];
             case 'integer':
                 return (int)$configuration[$field];
+            case 'string':
+                return (string)$configuration[$field];
             default:
                 return $configuration[$field];
         }
