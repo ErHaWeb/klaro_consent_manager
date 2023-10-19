@@ -310,17 +310,44 @@
             </trans-unit>
 
             <!-- Service presets -->
-            <trans-unit id="tx_klaroconsentmanager_service.name.I.matomo">
-                <source>Matomo/Piwik</source>
+            <trans-unit id="tx_klaroconsentmanager_service.name.I.adsense">
+                <source>Google AdSense</source>
+            </trans-unit>
+            <trans-unit id="tx_klaroconsentmanager_service.name.I.camera">
+                <source>Surveillance Camera</source>
+            </trans-unit>
+            <trans-unit id="tx_klaroconsentmanager_service.name.I.cloudflare">
+                <source>Cloudflare</source>
+            </trans-unit>
+            <trans-unit id="tx_klaroconsentmanager_service.name.I.external-tracker">
+                <source>External Tracker</source>
+            </trans-unit>
+            <trans-unit id="tx_klaroconsentmanager_service.name.I.facebook-pixel">
+                <source>Facebook Pixel</source>
             </trans-unit>
             <trans-unit id="tx_klaroconsentmanager_service.name.I.google-analytics">
                 <source>Google Analytics</source>
             </trans-unit>
+            <trans-unit id="tx_klaroconsentmanager_service.name.I.google-fonts">
+                <source>Google Fonts</source>
+            </trans-unit>
             <trans-unit id="tx_klaroconsentmanager_service.name.I.google-tag-manager">
                 <source>Google Tag Manager</source>
             </trans-unit>
-            <trans-unit id="tx_klaroconsentmanager_service.name.I.facebook-pixel">
-                <source>Facebook Pixel</source>
+            <trans-unit id="tx_klaroconsentmanager_service.name.I.inline-tracker">
+                <source>Inline Tracker</source>
+            </trans-unit>
+            <trans-unit id="tx_klaroconsentmanager_service.name.I.intercom">
+                <source>Intercom</source>
+            </trans-unit>
+            <trans-unit id="tx_klaroconsentmanager_service.name.I.matomo">
+                <source>Matomo/Piwik</source>
+            </trans-unit>
+            <trans-unit id="tx_klaroconsentmanager_service.name.I.mouseflow">
+                <source>Mouseflow</source>
+            </trans-unit>
+            <trans-unit id="tx_klaroconsentmanager_service.name.I.twitter">
+                <source>X (formerly Twitter)</source>
             </trans-unit>
             <trans-unit id="tx_klaroconsentmanager_service.name.I.vimeo">
                 <source>Vimeo</source>

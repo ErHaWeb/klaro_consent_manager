@@ -144,11 +144,35 @@
             </trans-unit>
 
             <!-- Services -->
-            <trans-unit id="services.matomo.title">
-                <source>Matomo/Piwik</source>
+            <trans-unit id="services.adsense.title">
+                <source>Google AdSense</source>
             </trans-unit>
-            <trans-unit id="services.matomo.description">
-                <source>Open source software for statistical analysis of visitor accesses</source>
+            <trans-unit id="services.adsense.description">
+                <source>Google AdSense enables personalized ads on websites while respecting user privacy. By consenting, you allow relevant ads and help support free content.</source>
+            </trans-unit>
+            <trans-unit id="services.camera.title">
+                <source>Surveillance Camera</source>
+            </trans-unit>
+            <trans-unit id="services.camera.description">
+                <source>Consent to the use of surveillance camera images for security and safety purposes, in compliance with applicable data privacy regulations.</source>
+            </trans-unit>
+            <trans-unit id="services.cloudflare.title">
+                <source>Cloudflare</source>
+            </trans-unit>
+            <trans-unit id="services.cloudflare.description">
+                <source>Cloudflare helps protect and optimize websites. By using this website, you consent to Cloudflare's data processing practices as described in its Privacy Policy.</source>
+            </trans-unit>
+            <trans-unit id="services.external-tracker.title">
+                <source>External Tracker</source>
+            </trans-unit>
+            <trans-unit id="services.external-tracker.description">
+                <source>External tracking script</source>
+            </trans-unit>
+            <trans-unit id="services.facebook-pixel.title">
+                <source>Facebook Pixel</source>
+            </trans-unit>
+            <trans-unit id="services.facebook-pixel.description">
+                <source>Simplifies web tracking for analytics and marketing while ensuring data compliance and control.</source>
             </trans-unit>
             <trans-unit id="services.google-analytics.title">
                 <source>Google Analytics</source>
@@ -156,17 +180,47 @@
             <trans-unit id="services.google-analytics.description">
                 <source>Web analytics service provided by Google, Inc. ("Google")</source>
             </trans-unit>
+            <trans-unit id="services.google-fonts.title">
+                <source>Google Fonts</source>
+            </trans-unit>
+            <trans-unit id="services.google-fonts.description">
+                <source>Web fonts hosted by Google</source>
+            </trans-unit>
             <trans-unit id="services.google-tag-manager.title">
                 <source>Google Tag Manager</source>
             </trans-unit>
             <trans-unit id="services.google-tag-manager.description">
                 <source>Google Tag Manager streamlines web tracking and code management, ensuring data compliance and control for developers.</source>
             </trans-unit>
-            <trans-unit id="services.facebook-pixel.title">
-                <source>Facebook Pixel</source>
+            <trans-unit id="services.inline-tracker.title">
+                <source>Inline Tracker</source>
             </trans-unit>
-            <trans-unit id="services.facebook-pixel.description">
-                <source>Simplifies web tracking for analytics and marketing while ensuring data compliance and control.</source>
+            <trans-unit id="services.inline-tracker.description">
+                <source>Inline tracking script</source>
+            </trans-unit>
+            <trans-unit id="services.intercom.title">
+                <source>Intercom</source>
+            </trans-unit>
+            <trans-unit id="services.intercom.description">
+                <source>Chat widget &amp; collecting of visitor statistics</source>
+            </trans-unit>
+            <trans-unit id="services.matomo.title">
+                <source>Matomo/Piwik</source>
+            </trans-unit>
+            <trans-unit id="services.matomo.description">
+                <source>Open source software for statistical analysis of visitor accesses</source>
+            </trans-unit>
+            <trans-unit id="services.mouseflow.title">
+                <source>Mouseflow</source>
+            </trans-unit>
+            <trans-unit id="services.mouseflow.description">
+                <source>Real-time user analytics service that helps to understand how visitors interact with our website.</source>
+            </trans-unit>
+            <trans-unit id="services.twitter.title">
+                <source>X (formerly Twitter)</source>
+            </trans-unit>
+            <trans-unit id="services.twitter.description">
+                <source>X (formerly Twitter) is social media platform that allows users to share and interact with short messages and multimedia content. Developers can integrate Twitter features into websites to enhance user engagement and real-time updates while maintaining data privacy compliance and adhering to coding guidelines.</source>
             </trans-unit>
             <trans-unit id="services.vimeo.title">
                 <source>Vimeo</source>
