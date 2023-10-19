@@ -48,6 +48,7 @@ class KlaroService
     private const GLOBAL_CONFIG = [
         'testing' => ['type' => 'boolean', 'default' => false],
         'element_i_d' => ['type' => 'string', 'default' => ''],
+        'no_auto_load' => ['type' => 'boolean', 'default' => false],
         'additional_class' => ['type' => 'string', 'default' => ''],
         'storage_method' => ['type' => 'string', 'default' => 'cookie'],
         'storage_name' => ['type' => 'string', 'default' => ''],

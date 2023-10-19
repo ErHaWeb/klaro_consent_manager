@@ -79,6 +79,12 @@
             <trans-unit id="tx_klaroconsentmanager_configuration.element_i_d.placeholder">
                 <source>klaro</source>
             </trans-unit>
+            <trans-unit id="tx_klaroconsentmanager_configuration.no_auto_load.label">
+                <source>No Auto-Load</source>
+            </trans-unit>
+            <trans-unit id="tx_klaroconsentmanager_configuration.no_auto_load.description">
+                <source>Setting this to true will keep Klaro from automatically loading itself when the page is being loaded.</source>
+            </trans-unit>
             <trans-unit id="tx_klaroconsentmanager_configuration.additional_class.label">
                 <source>Additional Class</source>
             </trans-unit>

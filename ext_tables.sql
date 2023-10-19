@@ -24,6 +24,7 @@ CREATE TABLE tx_klaroconsentmanager_configuration
     `notice_as_modal`           tinyint(4)       DEFAULT '0' NOT NULL,
     `disable_powered_by`        tinyint(4)       DEFAULT '0' NOT NULL,
     `purpose_order`             varchar(255)     DEFAULT ''  NOT NULL,
+    `no_auto_load`              tinyint(4)       DEFAULT '0' NOT NULL,
     `color_scheme`              tinytext,
     `alignment`                 tinytext,
     `callback`                  mediumtext,
