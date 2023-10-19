@@ -46,6 +46,9 @@ class KlaroService
         'callback' => ['type' => 'callback', 'default' => ''],
     ];
     private const GLOBAL_CONFIG = [
+        'config_variable_name' => ['type' => 'bypass', 'default' => ''],
+        'append_show_button' => ['type' => 'bypass', 'default' => false],
+        'append_reset_button' => ['type' => 'bypass', 'default' => false],
         'testing' => ['type' => 'boolean', 'default' => false],
         'element_i_d' => ['type' => 'string', 'default' => ''],
         'no_auto_load' => ['type' => 'boolean', 'default' => false],
@@ -70,9 +73,9 @@ class KlaroService
         'callback' => ['type' => 'callback', 'default' => ''],
 
         // Special properties
-        'color_scheme' => ['type' => 'string', 'default' => 'dark'],
-        'alignment' => ['type' => 'string', 'default' => 'bottom-right'],
-        'locallang_path' => ['type' => 'string', 'default' => ''],
+        'color_scheme' => ['type' => 'bypass', 'default' => 'dark'],
+        'alignment' => ['type' => 'bypass', 'default' => 'bottom-right'],
+        'locallang_path' => ['type' => 'bypass', 'default' => ''],
     ];
     private const GLOBAL_LABELS = [
         'privacyPolicy' => ['name', 'text'],
@@ -173,15 +176,13 @@ class KlaroService
                 if ($value === $field['default']) {
                     continue;
                 }
-                if ($key === 'locallang_path') {
-                    continue;
-                }
                 if ($key === 'color_scheme') {
                     $colorScheme = $value;
-                    continue;
                 }
                 if ($key === 'alignment') {
                     $alignment = GeneralUtility::trimExplode('-', $value);
+                }
+                if ($field['type'] === 'bypass') {
                     continue;
                 }
 
@@ -198,11 +199,54 @@ class KlaroService
             if ($services = $this->getServices()) {
                 $configurationArray['services'] = $services;
 
-                return 'var klaroConfig=' . $this->arrayToJavaScriptObject($configurationArray) . ';';
+                $elementId = $this->configuration['element_i_d'] ?: 'klaro';
+                $configVariableName = $this->configuration['config_variable_name'] ?: 'klaroConfig';
+
+                $return = 'var ' . $configVariableName . '=' . $this->arrayToJavaScriptObject($configurationArray) . ';';
+
+                $appendJavaScript = '';
+                if ($this->configuration['append_show_button']) {
+                    $appendJavaScript .= $this->createAppendShowButtonScript($elementId, 'ShowButton', $configVariableName, false);
+                }
+                if ($this->configuration['append_reset_button']) {
+                    $appendJavaScript .= $this->createAppendShowButtonScript($elementId, 'ResetButton', $configVariableName);
+                }
+                if ($appendJavaScript) {
+                    $return .= 'document.addEventListener("DOMContentLoaded",function(){' . $appendJavaScript . '});';
+                }
+
+                return $return;
             }
         }
 
         return '';
+    }
+
+    /**
+     * @param string $elementId
+     * @param string $elementIdAppend
+     * @param string $configVariableName
+     * @param bool $reset
+     * @return string
+     */
+    private function createAppendShowButtonScript(string $elementId, string $elementIdAppend, string $configVariableName, bool $reset = true): string
+    {
+        $id = $elementId . $elementIdAppend;
+        $calls = '';
+
+        if ($reset) {
+            $calls .= 'klaro.getManager(' . $configVariableName . ').resetConsents();';
+        }
+        $calls .= 'klaro.show(' . $configVariableName . ',!0);';
+
+        return
+            'var ' . $id . '=document.createElement("button");' .
+            $id . '.id = "' . $id . '";' .
+            $id . '.textContent="' . $this->getLabel('consentManager.' . ($reset ? 'reset' : 'show')) . '";' .
+            $id . '.addEventListener("click",function(){' .
+            $calls .
+            'return;});' .
+            'document.body.appendChild(' . $id . ');';
     }
 
     /**

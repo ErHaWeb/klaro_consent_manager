@@ -59,6 +59,16 @@ return [
                 ],
             ]
         ],
+        'config_variable_name' => [
+            'label' => 'LLL:EXT:klaro_consent_manager/Resources/Private/Language/locallang_db.xlf:tx_klaroconsentmanager_configuration.config_variable_name.label',
+            'description' => 'LLL:EXT:klaro_consent_manager/Resources/Private/Language/locallang_db.xlf:tx_klaroconsentmanager_configuration.config_variable_name.description',
+            'config' => [
+                'type' => 'input',
+                'eval' => 'nospace,alphanum',
+                'default' => '',
+                'placeholder' => 'LLL:EXT:klaro_consent_manager/Resources/Private/Language/locallang_db.xlf:tx_klaroconsentmanager_configuration.config_variable_name.placeholder',
+            ]
+        ],
         'element_i_d' => [
             'label' => 'LLL:EXT:klaro_consent_manager/Resources/Private/Language/locallang_db.xlf:tx_klaroconsentmanager_configuration.element_i_d.label',
             'description' => 'LLL:EXT:klaro_consent_manager/Resources/Private/Language/locallang_db.xlf:tx_klaroconsentmanager_configuration.element_i_d.description',
@@ -306,7 +316,7 @@ return [
                 'type' => 'check',
                 'renderType' => 'checkboxLabeledToggle',
                 'default' => 0,
-                'readOnly' => 1,
+                //'readOnly' => 1,
                 'items' => [
                     [
                         0 => '',
@@ -438,6 +448,42 @@ return [
                     ],
                 ],
             ]
+        ],
+        'append_show_button' => [
+            'label' => 'LLL:EXT:klaro_consent_manager/Resources/Private/Language/locallang_db.xlf:tx_klaroconsentmanager_configuration.append_show_button.label',
+            'description' => 'LLL:EXT:klaro_consent_manager/Resources/Private/Language/locallang_db.xlf:tx_klaroconsentmanager_configuration.append_show_button.description',
+            'config' => [
+                'type' => 'check',
+                'renderType' => 'checkboxLabeledToggle',
+                'default' => 0,
+                'items' => [
+                    [
+                        0 => '',
+                        1 => '',
+                        'label' => '',
+                        'labelChecked' => 'LLL:EXT:klaro_consent_manager/Resources/Private/Language/locallang_db.xlf:tx_klaroconsentmanager_configuration.I.enabled',
+                        'labelUnchecked' => 'LLL:EXT:klaro_consent_manager/Resources/Private/Language/locallang_db.xlf:tx_klaroconsentmanager_configuration.I.disabled',
+                    ]
+                ]
+            ]
+        ],
+        'append_reset_button' => [
+            'label' => 'LLL:EXT:klaro_consent_manager/Resources/Private/Language/locallang_db.xlf:tx_klaroconsentmanager_configuration.append_reset_button.label',
+            'description' => 'LLL:EXT:klaro_consent_manager/Resources/Private/Language/locallang_db.xlf:tx_klaroconsentmanager_configuration.append_reset_button.description',
+            'config' => [
+                'type' => 'check',
+                'renderType' => 'checkboxLabeledToggle',
+                'default' => 0,
+                'items' => [
+                    [
+                        0 => '',
+                        1 => '',
+                        'label' => '',
+                        'labelChecked' => 'LLL:EXT:klaro_consent_manager/Resources/Private/Language/locallang_db.xlf:tx_klaroconsentmanager_configuration.I.enabled',
+                        'labelUnchecked' => 'LLL:EXT:klaro_consent_manager/Resources/Private/Language/locallang_db.xlf:tx_klaroconsentmanager_configuration.I.disabled',
+                    ]
+                ]
+            ]
         ]
     ],
     'types' => [
@@ -468,6 +514,7 @@ return [
         'setup_palette' => [
             'label' => 'LLL:EXT:klaro_consent_manager/Resources/Private/Language/locallang_db.xlf:tx_klaroconsentmanager_configuration.palettes.setup_palette',
             'showitem' => '
+                config_variable_name, --linebreak--,
                 testing, no_auto_load, --linebreak--,
                 element_i_d, additional_class'
         ],
@@ -507,6 +554,7 @@ return [
                 hide_learn_more, embedded, --linebreak--,
                 group_by_purpose, hide_toggle_all, --linebreak--,
                 notice_as_modal, disable_powered_by, --linebreak--,
+                append_show_button, append_reset_button, --linebreak--,
                 color_scheme, alignment'
         ],
         'access' => [

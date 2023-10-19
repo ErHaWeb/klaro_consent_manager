@@ -33,7 +33,8 @@ class KlaroJavaScript
         }
 
         $klaroService = GeneralUtility::makeInstance(KlaroService::class, $request);
-        if (!$klaroService->getConfiguration()) {
+        $configuration = $klaroService->getConfiguration();
+        if (!$configuration) {
             return;
         }
 
@@ -47,7 +48,16 @@ class KlaroJavaScript
 
         $asset = $event->getAssetCollector()->getJavaScripts();
         if (!($asset['klaro'] ?? false)) {
-            $event->getAssetCollector()->addJavaScript('klaro', 'EXT:klaro_consent_manager/Resources/Public/JavaScript/klaro-no-translations-no-css.js', ['defer' => 'defer'], ['priority' => true]);
+            $attributes = ['defer' => 'defer'];
+            if ($configuration['config_variable_name']) {
+                $attributes['data-klaro-config'] = $configuration['config_variable_name'];
+            }
+            $event->getAssetCollector()->addJavaScript(
+                'klaro',
+                'EXT:klaro_consent_manager/Resources/Public/JavaScript/klaro-no-translations-no-css.js',
+                $attributes,
+                ['priority' => true]
+            );
         }
     }
 

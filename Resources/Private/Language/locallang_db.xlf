@@ -70,6 +70,15 @@
             <trans-unit id="tx_klaroconsentmanager_configuration.testing.description">
                 <source>Setting 'testing' to 'true' will cause Klaro to not show the consent notice or modal by default, except if a special hash tag is appended to the URL (#klaro-testing). This makes it possible to test Klaro on your live website without affecting normal visitors.</source>
             </trans-unit>
+            <trans-unit id="tx_klaroconsentmanager_configuration.config_variable_name.label">
+                <source>Config Variable Name</source>
+            </trans-unit>
+            <trans-unit id="tx_klaroconsentmanager_configuration.config_variable_name.description">
+                <source>By default, Klaro loads the configuration from a global variable "klaroConfig". You can change this here. Specifying this field will cause the attribute data-klaro-config="yourConfigVariableName" to be set.</source>
+            </trans-unit>
+            <trans-unit id="tx_klaroconsentmanager_configuration.config_variable_name.placeholder">
+                <source>klaroConfig</source>
+            </trans-unit>
             <trans-unit id="tx_klaroconsentmanager_configuration.element_i_d.label">
                 <source>Element ID</source>
             </trans-unit>
@@ -289,6 +298,19 @@
             <trans-unit id="tx_klaroconsentmanager_configuration.color_scheme.I.dark">
                 <source>Dark</source>
             </trans-unit>
+            <trans-unit id="tx_klaroconsentmanager_configuration.append_show_button.label">
+                <source>Append Show Button</source>
+            </trans-unit>
+            <trans-unit id="tx_klaroconsentmanager_configuration.append_show_button.description">
+                <source>If this option is set, a button is created in the frontend (via JavaScript) directly in front of the closing body tag, which triggers the opening of the Klaro consent management.</source>
+            </trans-unit>
+            <trans-unit id="tx_klaroconsentmanager_configuration.append_reset_button.label">
+                <source>Append Reset Button</source>
+            </trans-unit>
+            <trans-unit id="tx_klaroconsentmanager_configuration.append_reset_button.description">
+                <source>If this option is set, a button is generated in the frontend (via JavaScript) directly in front of the closing body tag, which triggers the resetting of all settings and the opening of the Klaro consent management.</source>
+            </trans-unit>
+
             <!-- Service -->
             <trans-unit id="tx_klaroconsentmanager_service">
                 <source>Service</source>

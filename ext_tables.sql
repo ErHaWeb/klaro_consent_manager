@@ -5,6 +5,9 @@ CREATE TABLE tx_klaroconsentmanager_configuration
 (
     `title`                     tinytext,
     `testing`                   tinyint(4)       DEFAULT '0' NOT NULL,
+    `config_variable_name`      varchar(255)     DEFAULT ''  NOT NULL,
+    `append_show_button`        tinyint(4)       DEFAULT '0' NOT NULL,
+    `append_reset_button`       tinyint(4)       DEFAULT '0' NOT NULL,
     `element_i_d`               varchar(255)     DEFAULT ''  NOT NULL,
     `additional_class`          tinytext,
     `storage_method`            varchar(255)     DEFAULT ''  NOT NULL,
