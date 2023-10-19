@@ -371,8 +371,6 @@ return [
                 'type' => 'select',
                 'renderType' => 'selectMultipleSideBySide',
                 'foreign_table' => 'tx_klaroconsentmanager_service',
-                'foreign_field' => 'parentid',
-                'foreign_table_field' => 'parenttable',
                 'size' => 5,
                 'autoSizeMax' => 10,
                 'minitems' => 0,
