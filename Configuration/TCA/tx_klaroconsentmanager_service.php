@@ -10,7 +10,7 @@ return [
         'default_sortby' => 'ORDER BY name',
         'delete' => 'deleted',
         'iconfile' => 'EXT:klaro_consent_manager/Resources/Public/Icons/tx_klaroconsentmanager_service.svg',
-        'rootLevel' => 1,
+        'rootLevel' => -1,
         'enablecolumns' => [
             'disabled' => 'hidden',
         ],
