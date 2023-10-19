@@ -1,0 +1,31 @@
+.. include:: /Includes.rst.txt
+
+1.1.1 - October 19, 2023
+========================
+
+
+.. only:: html
+
+   .. contents::
+        :local:
+        :depth: 3
+
+Breaking changes
+----------------
+Services are not IRRE records anymore. Please make a DB compare and reassign the services to the configuration.
+
+All Changes
+-----------
+This is a list of all changes in this release: ::
+
+    2023-10-19 [FEATURE] Replace service IRRE relation by standalone records (Commit 76a98ec by Eric Harrer)
+    2023-10-19 [TASK] Allow tables on page tree, root and standard pages (Commit aadf777 by Eric Harrer)
+    2023-10-19 [TASK] Add more service presets (Commit 9d74448 by Eric Harrer)
+    2023-10-19 [TASK] Add show/reset buttons and "klaro configuration name" options (Commit a95f04b by Eric Harrer)
+    2023-10-19 [BUGFIX] Fix null pointer error in klaro script (Commit b14d786 by Eric Harrer)
+    2023-10-19 [TASK] Add more service presets (Commit 5030593 by Eric Harrer)
+    2023-10-19 [TASK] Update label for "cookie" item (Commit 06b6dc4 by Eric Harrer)
+    2023-10-19 [TASK] Remove unnecessary "resname" attributes from XLIFF files (Commit e3a8bf9 by Eric Harrer)
+    2023-10-19 [TASK] Add missing option "noAutoLoad" (Commit 811b7e7 by Eric Harrer)
+
+This list has been created by using `git log $(git describe --tags --abbrev=0)..HEAD --abbrev-commit --pretty='%ad %s (Commit %h by %an)' --date=short`.
