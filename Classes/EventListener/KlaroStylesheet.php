@@ -18,6 +18,7 @@ declare(strict_types=1);
 namespace ErHaWeb\KlaroConsentManager\EventListener;
 
 use ErHaWeb\KlaroConsentManager\Service\KlaroService;
+use ErHaWeb\KlaroConsentManager\Utility\CspUtility;
 use Psr\Http\Message\ServerRequestInterface;
 use TYPO3\CMS\Core\Http\ApplicationType;
 use TYPO3\CMS\Core\Page\Event\BeforeStylesheetsRenderingEvent;
@@ -43,7 +44,10 @@ class KlaroStylesheet
 
         $asset = $event->getAssetCollector()->getStyleSheets($event->isPriority());
         if (!($asset['klaro'] ?? false)) {
-            $event->getAssetCollector()->addStyleSheet('klaro', 'EXT:klaro_consent_manager/Resources/Public/Css/klaro.min.css', [], ['priority' => true]);
+            $attributes = [
+                'nonce' => CspUtility::getNonceValue($request)
+            ];
+            $event->getAssetCollector()->addStyleSheet('klaro', 'EXT:klaro_consent_manager/Resources/Public/Css/klaro.min.css', $attributes, ['priority' => true]);
         }
     }
 

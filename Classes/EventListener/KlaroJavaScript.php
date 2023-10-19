@@ -18,6 +18,7 @@ declare(strict_types=1);
 namespace ErHaWeb\KlaroConsentManager\EventListener;
 
 use ErHaWeb\KlaroConsentManager\Service\KlaroService;
+use ErHaWeb\KlaroConsentManager\Utility\CspUtility;
 use Psr\Http\Message\ServerRequestInterface;
 use TYPO3\CMS\Core\Http\ApplicationType;
 use TYPO3\CMS\Core\Page\Event\BeforeJavaScriptsRenderingEvent;
@@ -41,17 +42,25 @@ class KlaroJavaScript
         if ($event->isInline()) {
             $asset = $event->getAssetCollector()->getInlineJavaScripts();
             if (!($asset['klaroConfig'] ?? false) && $configurationInlineJavaScript = $klaroService->getConfigurationInlineJavaScript()) {
-                $event->getAssetCollector()->addInlineJavaScript('klaroConfig', $configurationInlineJavaScript, ['defer' => 'defer'], ['priority' => true]);
+                $attributes = [
+                    'defer' => 'defer',
+                    'nonce' => CspUtility::getNonceValue($request)
+                ];
+                $event->getAssetCollector()->addInlineJavaScript('klaroConfig', $configurationInlineJavaScript, $attributes, ['priority' => true]);
             }
             return;
         }
 
         $asset = $event->getAssetCollector()->getJavaScripts();
         if (!($asset['klaro'] ?? false)) {
-            $attributes = ['defer' => 'defer'];
+            $attributes = [
+                'defer' => 'defer',
+                'nonce' => CspUtility::getNonceValue($request)
+            ];
             if ($configuration['config_variable_name']) {
                 $attributes['data-klaro-config'] = $configuration['config_variable_name'];
             }
+
             $event->getAssetCollector()->addJavaScript(
                 'klaro',
                 'EXT:klaro_consent_manager/Resources/Public/JavaScript/klaro-no-translations-no-css.js',
