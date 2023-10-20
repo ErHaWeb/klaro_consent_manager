@@ -10,13 +10,13 @@
         <source>To learn more, please read our {privacyPolicy}.</source>
         <target state="needs-translation">To learn more, please read our {privacyPolicy}.</target>
       </trans-unit>
-      <trans-unit id="consentModal.title" resname="consentModal.title">
+      <trans-unit id="consentModal.title" resname="consentModal.title" approved="yes">
         <source>Services we would like to use</source>
-        <target state="needs-translation">Services we would like to use</target>
+        <target state="final">Informațiile pe care le colectăm</target>
       </trans-unit>
-      <trans-unit id="consentModal.description" resname="consentModal.description">
+      <trans-unit id="consentModal.description" resname="consentModal.description" approved="yes">
         <source>Here you can assess and customize the services that we'd like to use on this website. You're in charge! Enable or disable services as you see fit.</source>
-        <target state="needs-translation">Here you can assess and customize the services that we'd like to use on this website. You're in charge! Enable or disable services as you see fit.</target>
+        <target state="final">Aici puteți vedea și personaliza informațiile pe care le colectăm despre dvs.</target>
       </trans-unit>
       <trans-unit id="consentNotice.testing" resname="consentNotice.testing">
         <source>Testing mode!</source>
@@ -26,17 +26,17 @@
         <source>Cookie Consent</source>
         <target state="needs-translation">Cookie Consent</target>
       </trans-unit>
-      <trans-unit id="consentNotice.changeDescription" resname="consentNotice.changeDescription">
+      <trans-unit id="consentNotice.changeDescription" resname="consentNotice.changeDescription" approved="yes">
         <source>There were changes since your last visit, please renew your consent.</source>
-        <target state="needs-translation">There were changes since your last visit, please renew your consent.</target>
+        <target state="final">Au existat modificări de la ultima vizită, vă rugăm să actualizați consimțământul.</target>
       </trans-unit>
-      <trans-unit id="consentNotice.description" resname="consentNotice.description">
+      <trans-unit id="consentNotice.description" resname="consentNotice.description" approved="yes">
         <source>Hi! Could we please enable some additional services for {purposes}? You can always change or withdraw your consent later.</source>
-        <target state="needs-translation">Hi! Could we please enable some additional services for {purposes}? You can always change or withdraw your consent later.</target>
+        <target state="final">Colectăm și procesăm informațiile dvs. personale în următoarele scopuri: {purposes}.</target>
       </trans-unit>
-      <trans-unit id="consentNotice.learnMore" resname="consentNotice.learnMore">
+      <trans-unit id="consentNotice.learnMore" resname="consentNotice.learnMore" approved="yes">
         <source>Let me choose</source>
-        <target state="needs-translation">Let me choose</target>
+        <target state="final">Află mai multe</target>
       </trans-unit>
       <trans-unit id="purposes.functional.title" resname="purposes.functional.title">
         <source>Service Provision</source>
@@ -114,13 +114,13 @@
         <source>That's ok</source>
         <target state="needs-translation">That's ok</target>
       </trans-unit>
-      <trans-unit id="save" resname="save">
+      <trans-unit id="save" resname="save" approved="yes">
         <source>save</source>
-        <target state="needs-translation">save</target>
+        <target state="final">Salvează</target>
       </trans-unit>
-      <trans-unit id="decline" resname="decline">
+      <trans-unit id="decline" resname="decline" approved="yes">
         <source>I decline</source>
-        <target state="needs-translation">I decline</target>
+        <target state="final">Renunță</target>
       </trans-unit>
       <trans-unit id="close" resname="close">
         <source>close</source>
@@ -134,41 +134,41 @@
         <source>accept selected</source>
         <target state="needs-translation">accept selected</target>
       </trans-unit>
-      <trans-unit id="service.disableAll.title" resname="service.disableAll.title">
+      <trans-unit id="service.disableAll.title" resname="service.disableAll.title" approved="yes">
         <source>Enable or disable all services</source>
-        <target state="needs-translation">Enable or disable all services</target>
+        <target state="final">Comutați între toate aplicațiile</target>
       </trans-unit>
-      <trans-unit id="service.disableAll.description" resname="service.disableAll.description">
+      <trans-unit id="service.disableAll.description" resname="service.disableAll.description" approved="yes">
         <source>Use this switch to enable or disable all services.</source>
-        <target state="needs-translation">Use this switch to enable or disable all services.</target>
+        <target state="final">Utilizați acest switch pentru a activa/dezactiva toate aplicațiile.</target>
       </trans-unit>
       <trans-unit id="service.optOut.title" resname="service.optOut.title">
         <source>(opt-out)</source>
         <target state="needs-translation">(opt-out)</target>
       </trans-unit>
-      <trans-unit id="service.optOut.description" resname="service.optOut.description">
+      <trans-unit id="service.optOut.description" resname="service.optOut.description" approved="yes">
         <source>This services is loaded by default (but you can opt out)</source>
-        <target state="needs-translation">This services is loaded by default (but you can opt out)</target>
+        <target state="final">Această aplicație este încărcată în mod implicit (dar puteți renunța)</target>
       </trans-unit>
-      <trans-unit id="service.required.title" resname="service.required.title">
+      <trans-unit id="service.required.title" resname="service.required.title" approved="yes">
         <source>(always required)</source>
-        <target state="needs-translation">(always required)</target>
+        <target state="final">(întotdeauna necesar)</target>
       </trans-unit>
-      <trans-unit id="service.required.description" resname="service.required.description">
+      <trans-unit id="service.required.description" resname="service.required.description" approved="yes">
         <source>This services is always required</source>
-        <target state="needs-translation">This services is always required</target>
+        <target state="final">Această aplicație este întotdeauna necesară</target>
       </trans-unit>
-      <trans-unit id="service.purposes" resname="service.purposes">
+      <trans-unit id="service.purposes" resname="service.purposes" approved="yes">
         <source>Processing purposes</source>
-        <target state="needs-translation">Processing purposes</target>
+        <target state="final">Scopuri</target>
       </trans-unit>
-      <trans-unit id="service.purpose" resname="service.purpose">
+      <trans-unit id="service.purpose" resname="service.purpose" approved="yes">
         <source>Processing purpose</source>
-        <target state="needs-translation">Processing purpose</target>
+        <target state="final">Scop</target>
       </trans-unit>
-      <trans-unit id="poweredBy" resname="poweredBy">
+      <trans-unit id="poweredBy" resname="poweredBy" approved="yes">
         <source>Realized with Klaro!</source>
-        <target state="needs-translation">Realized with Klaro!</target>
+        <target state="final">Realizat de Klaro!</target>
       </trans-unit>
       <trans-unit id="contextualConsent.description" resname="contextualConsent.description">
         <source>Do you want to load external content supplied by {title}?</source>
@@ -334,21 +334,21 @@
         <source>The leading video-sharing platform for content creators and developers to enhance user experiences on websites.</source>
         <target state="needs-translation">The leading video-sharing platform for content creators and developers to enhance user experiences on websites.</target>
       </trans-unit>
-      <trans-unit id="consentModal.privacyPolicy.name" resname="consentModal.privacyPolicy.name">
+      <trans-unit id="consentModal.privacyPolicy.name" resname="consentModal.privacyPolicy.name" approved="yes">
         <source>Privacy policy</source>
-        <target state="needs-translation">Privacy policy</target>
+        <target state="final">politica privacy</target>
       </trans-unit>
-      <trans-unit id="consentModal.privacyPolicy.text" resname="consentModal.privacyPolicy.text">
+      <trans-unit id="consentModal.privacyPolicy.text" resname="consentModal.privacyPolicy.text" approved="yes">
         <source>To learn more, please read our {privacyPolicy}.</source>
-        <target state="needs-translation">To learn more, please read our {privacyPolicy}.</target>
+        <target state="final">Pentru a afla mai multe, vă rugăm să citiți {privacyPolicy}.</target>
       </trans-unit>
       <trans-unit id="consentNotice.imprint.name" resname="consentNotice.imprint.name">
         <source>Imprint</source>
         <target state="needs-translation">Imprint</target>
       </trans-unit>
-      <trans-unit id="consentNotice.privacyPolicy.name" resname="consentNotice.privacyPolicy.name">
+      <trans-unit id="consentNotice.privacyPolicy.name" resname="consentNotice.privacyPolicy.name" approved="yes">
         <source>Privacy policy</source>
-        <target state="needs-translation">Privacy policy</target>
+        <target state="final">politica privacy</target>
       </trans-unit>
     </body>
   </file>
