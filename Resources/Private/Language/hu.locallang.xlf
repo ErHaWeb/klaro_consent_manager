@@ -10,13 +10,13 @@
         <source>To learn more, please read our {privacyPolicy}.</source>
         <target state="needs-translation">To learn more, please read our {privacyPolicy}.</target>
       </trans-unit>
-      <trans-unit id="consentModal.title" resname="consentModal.title">
+      <trans-unit id="consentModal.title" resname="consentModal.title" approved="yes">
         <source>Services we would like to use</source>
-        <target state="needs-translation">Services we would like to use</target>
+        <target state="final">Információk, amiket gyűjtünk</target>
       </trans-unit>
-      <trans-unit id="consentModal.description" resname="consentModal.description">
+      <trans-unit id="consentModal.description" resname="consentModal.description" approved="yes">
         <source>Here you can assess and customize the services that we'd like to use on this website. You're in charge! Enable or disable services as you see fit.</source>
-        <target state="needs-translation">Here you can assess and customize the services that we'd like to use on this website. You're in charge! Enable or disable services as you see fit.</target>
+        <target state="final">Itt láthatja és testreszabhatja az önről gyűjtött információkat.</target>
       </trans-unit>
       <trans-unit id="consentNotice.testing" resname="consentNotice.testing">
         <source>Testing mode!</source>
@@ -26,17 +26,17 @@
         <source>Cookie Consent</source>
         <target state="needs-translation">Cookie Consent</target>
       </trans-unit>
-      <trans-unit id="consentNotice.changeDescription" resname="consentNotice.changeDescription">
+      <trans-unit id="consentNotice.changeDescription" resname="consentNotice.changeDescription" approved="yes">
         <source>There were changes since your last visit, please renew your consent.</source>
-        <target state="needs-translation">There were changes since your last visit, please renew your consent.</target>
+        <target state="final">Az utolsó látogatás óta változások történtek, kérjük, frissítse a hozzájárulását.</target>
       </trans-unit>
-      <trans-unit id="consentNotice.description" resname="consentNotice.description">
+      <trans-unit id="consentNotice.description" resname="consentNotice.description" approved="yes">
         <source>Hi! Could we please enable some additional services for {purposes}? You can always change or withdraw your consent later.</source>
-        <target state="needs-translation">Hi! Could we please enable some additional services for {purposes}? You can always change or withdraw your consent later.</target>
+        <target state="final">Személyes adatait összegyűjtjük és feldolgozzuk az alábbi célokra: {purposes}.</target>
       </trans-unit>
-      <trans-unit id="consentNotice.learnMore" resname="consentNotice.learnMore">
+      <trans-unit id="consentNotice.learnMore" resname="consentNotice.learnMore" approved="yes">
         <source>Let me choose</source>
-        <target state="needs-translation">Let me choose</target>
+        <target state="final">Tudjon meg többet</target>
       </trans-unit>
       <trans-unit id="purposes.functional.title" resname="purposes.functional.title">
         <source>Service Provision</source>
@@ -110,77 +110,77 @@
         <source>Several simple services that I install on my computer.</source>
         <target state="needs-translation">Several simple services that I install on my computer.</target>
       </trans-unit>
-      <trans-unit id="ok" resname="ok">
+      <trans-unit id="ok" resname="ok" approved="yes">
         <source>That's ok</source>
-        <target state="needs-translation">That's ok</target>
+        <target state="final">Elfogad</target>
       </trans-unit>
-      <trans-unit id="save" resname="save">
+      <trans-unit id="save" resname="save" approved="yes">
         <source>save</source>
-        <target state="needs-translation">save</target>
+        <target state="final">Mentés</target>
       </trans-unit>
-      <trans-unit id="decline" resname="decline">
+      <trans-unit id="decline" resname="decline" approved="yes">
         <source>I decline</source>
-        <target state="needs-translation">I decline</target>
+        <target state="final">Elutasít</target>
       </trans-unit>
-      <trans-unit id="close" resname="close">
+      <trans-unit id="close" resname="close" approved="yes">
         <source>close</source>
-        <target state="needs-translation">close</target>
+        <target state="final">Elvet</target>
       </trans-unit>
-      <trans-unit id="acceptAll" resname="acceptAll">
+      <trans-unit id="acceptAll" resname="acceptAll" approved="yes">
         <source>accept all</source>
-        <target state="needs-translation">accept all</target>
+        <target state="final">Mind elfogad</target>
       </trans-unit>
-      <trans-unit id="acceptSelected" resname="acceptSelected">
+      <trans-unit id="acceptSelected" resname="acceptSelected" approved="yes">
         <source>accept selected</source>
-        <target state="needs-translation">accept selected</target>
+        <target state="final">Kiválasztottat elfogad</target>
       </trans-unit>
-      <trans-unit id="service.disableAll.title" resname="service.disableAll.title">
+      <trans-unit id="service.disableAll.title" resname="service.disableAll.title" approved="yes">
         <source>Enable or disable all services</source>
-        <target state="needs-translation">Enable or disable all services</target>
+        <target state="final">Összes app átkapcsolása</target>
       </trans-unit>
-      <trans-unit id="service.disableAll.description" resname="service.disableAll.description">
+      <trans-unit id="service.disableAll.description" resname="service.disableAll.description" approved="yes">
         <source>Use this switch to enable or disable all services.</source>
-        <target state="needs-translation">Use this switch to enable or disable all services.</target>
+        <target state="final">Használja ezt a kapcsolót az összes alkalmazás engedélyezéséhez/letiltásához.</target>
       </trans-unit>
-      <trans-unit id="service.optOut.title" resname="service.optOut.title">
+      <trans-unit id="service.optOut.title" resname="service.optOut.title" approved="yes">
         <source>(opt-out)</source>
-        <target state="needs-translation">(opt-out)</target>
+        <target state="final">(leiratkozás)</target>
       </trans-unit>
-      <trans-unit id="service.optOut.description" resname="service.optOut.description">
+      <trans-unit id="service.optOut.description" resname="service.optOut.description" approved="yes">
         <source>This services is loaded by default (but you can opt out)</source>
-        <target state="needs-translation">This services is loaded by default (but you can opt out)</target>
+        <target state="final">Ez az alkalmazás alapértelmezés szerint betöltött (de ki lehet kapcsolni)</target>
       </trans-unit>
-      <trans-unit id="service.required.title" resname="service.required.title">
+      <trans-unit id="service.required.title" resname="service.required.title" approved="yes">
         <source>(always required)</source>
-        <target state="needs-translation">(always required)</target>
+        <target state="final">(mindig szükséges)</target>
       </trans-unit>
-      <trans-unit id="service.required.description" resname="service.required.description">
+      <trans-unit id="service.required.description" resname="service.required.description" approved="yes">
         <source>This services is always required</source>
-        <target state="needs-translation">This services is always required</target>
+        <target state="final">Ez az alkalmazás mindig szükséges</target>
       </trans-unit>
-      <trans-unit id="service.purposes" resname="service.purposes">
+      <trans-unit id="service.purposes" resname="service.purposes" approved="yes">
         <source>Processing purposes</source>
-        <target state="needs-translation">Processing purposes</target>
+        <target state="final">Célok</target>
       </trans-unit>
-      <trans-unit id="service.purpose" resname="service.purpose">
+      <trans-unit id="service.purpose" resname="service.purpose" approved="yes">
         <source>Processing purpose</source>
-        <target state="needs-translation">Processing purpose</target>
+        <target state="final">Cél</target>
       </trans-unit>
-      <trans-unit id="poweredBy" resname="poweredBy">
+      <trans-unit id="poweredBy" resname="poweredBy" approved="yes">
         <source>Realized with Klaro!</source>
-        <target state="needs-translation">Realized with Klaro!</target>
+        <target state="final">Powered by Klaro!</target>
       </trans-unit>
-      <trans-unit id="contextualConsent.description" resname="contextualConsent.description">
+      <trans-unit id="contextualConsent.description" resname="contextualConsent.description" approved="yes">
         <source>Do you want to load external content supplied by {title}?</source>
-        <target state="needs-translation">Do you want to load external content supplied by {title}?</target>
+        <target state="final">Be akarod tölteni a {title} által szolgáltatott külső tartalmakat?</target>
       </trans-unit>
-      <trans-unit id="contextualConsent.acceptOnce" resname="contextualConsent.acceptOnce">
+      <trans-unit id="contextualConsent.acceptOnce" resname="contextualConsent.acceptOnce" approved="yes">
         <source>Yes</source>
-        <target state="needs-translation">Yes</target>
+        <target state="final">Igen</target>
       </trans-unit>
-      <trans-unit id="contextualConsent.acceptAlways" resname="contextualConsent.acceptAlways">
+      <trans-unit id="contextualConsent.acceptAlways" resname="contextualConsent.acceptAlways" approved="yes">
         <source>Always</source>
-        <target state="needs-translation">Always</target>
+        <target state="final">Mindig</target>
       </trans-unit>
       <trans-unit id="consentManager.show" resname="consentManager.show">
         <source>Show Consent Manager</source>
@@ -334,21 +334,21 @@
         <source>The leading video-sharing platform for content creators and developers to enhance user experiences on websites.</source>
         <target state="needs-translation">The leading video-sharing platform for content creators and developers to enhance user experiences on websites.</target>
       </trans-unit>
-      <trans-unit id="consentModal.privacyPolicy.name" resname="consentModal.privacyPolicy.name">
+      <trans-unit id="consentModal.privacyPolicy.name" resname="consentModal.privacyPolicy.name" approved="yes">
         <source>Privacy policy</source>
-        <target state="needs-translation">Privacy policy</target>
+        <target state="final">adatvédelmi irányelveinket</target>
       </trans-unit>
-      <trans-unit id="consentModal.privacyPolicy.text" resname="consentModal.privacyPolicy.text">
+      <trans-unit id="consentModal.privacyPolicy.text" resname="consentModal.privacyPolicy.text" approved="yes">
         <source>To learn more, please read our {privacyPolicy}.</source>
-        <target state="needs-translation">To learn more, please read our {privacyPolicy}.</target>
+        <target state="final">További információért kérjük, olvassa el az {privacyPolicy}.</target>
       </trans-unit>
-      <trans-unit id="consentNotice.imprint.name" resname="consentNotice.imprint.name">
+      <trans-unit id="consentNotice.imprint.name" resname="consentNotice.imprint.name" approved="yes">
         <source>Imprint</source>
-        <target state="needs-translation">Imprint</target>
+        <target state="final">impresszum</target>
       </trans-unit>
-      <trans-unit id="consentNotice.privacyPolicy.name" resname="consentNotice.privacyPolicy.name">
+      <trans-unit id="consentNotice.privacyPolicy.name" resname="consentNotice.privacyPolicy.name" approved="yes">
         <source>Privacy policy</source>
-        <target state="needs-translation">Privacy policy</target>
+        <target state="final">adatvédelmi irányelveinket</target>
       </trans-unit>
     </body>
   </file>
