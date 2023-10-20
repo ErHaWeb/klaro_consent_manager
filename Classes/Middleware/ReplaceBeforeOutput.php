@@ -35,10 +35,10 @@ class ReplaceBeforeOutput implements MiddlewareInterface
      */
     public function process(ServerRequestInterface $request, RequestHandlerInterface $handler): ResponseInterface
     {
-        $configVariableName = $this->getConfigVariableName($request);
+        $elementId = $this->getElementId($request);
         $searchAndReplacements = [
-            'href="https://KLARO_CONSENT.com"' => 'href="#" onClick="return klaro.show(' . $configVariableName . ')"',
-            'href="https://KLARO_RESET.com"' => 'href="#" onClick="klaro.getManager(' . $configVariableName . ').resetConsents();return klaro.show(' . $configVariableName . ')"',
+            'href="https://KLARO_CONSENT.com"' => 'href="#" data-' . $elementId . '-trigger="show"',
+            'href="https://KLARO_RESET.com"' => 'href="#" data-' . $elementId . '-trigger="reset"',
         ];
 
         if (!($GLOBALS['TSFE'] ?? [])) {
@@ -68,9 +68,10 @@ class ReplaceBeforeOutput implements MiddlewareInterface
      * @param ServerRequestInterface $request
      * @return string
      */
-    private function getConfigVariableName(ServerRequestInterface $request): string
+    private function getElementId(ServerRequestInterface $request): string
     {
-        $return = 'klaroConfig';
+        $return = 'klaro';
+
         $connectionPool = GeneralUtility::makeInstance(ConnectionPool::class);
         $configurationId = 0;
 
@@ -90,13 +91,13 @@ class ReplaceBeforeOutput implements MiddlewareInterface
 
         $queryBuilder = $connectionPool->getQueryBuilderForTable('tx_klaroconsentmanager_configuration');
         $result = $queryBuilder
-            ->select('config_variable_name')
+            ->select('element_i_d')
             ->from('tx_klaroconsentmanager_configuration')
             ->where($queryBuilder->expr()->eq('uid', $queryBuilder->createNamedParameter($configurationId)))
             ->execute();
 
         try {
-            $return = $result->fetchAssociative()['config_variable_name'];
+            $return = ($result->fetchAssociative()['element_i_d'] ?? $return) ?: $return;
         } catch (Exception $e) {
         }
 

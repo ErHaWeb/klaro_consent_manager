@@ -204,18 +204,35 @@ class KlaroService
 
                 $elementId = $this->configuration['element_i_d'] ?: 'klaro';
                 $configVariableName = $this->configuration['config_variable_name'] ?: 'klaroConfig';
-                $return = 'var ' . $configVariableName . '=' . $this->arrayToJavaScriptObject($configurationArray) . ';';
+                $return = 'const ' . $configVariableName . '=' . $this->arrayToJavaScriptObject($configurationArray) . ';';
 
                 $appendJavaScript = '';
                 if ($this->configuration['append_show_button']) {
-                    $appendJavaScript .= $this->createAppendShowButtonScript($elementId, 'ShowButton', $configVariableName, false);
+                    $appendJavaScript .= $this->createAppendShowButtonScript($elementId, $configVariableName, false);
                 }
                 if ($this->configuration['append_reset_button']) {
-                    $appendJavaScript .= $this->createAppendShowButtonScript($elementId, 'ResetButton', $configVariableName);
+                    $appendJavaScript .= $this->createAppendShowButtonScript($elementId, $configVariableName);
                 }
-                if ($appendJavaScript) {
-                    $return .= 'document.addEventListener("DOMContentLoaded",function(){' . $appendJavaScript . '});';
-                }
+
+                $appendJavaScript .=
+                    'const ' . $elementId . 'ShowElements = document.querySelectorAll("[data-' . $elementId . '-trigger=\'show\']");' .
+                    'const ' . $elementId . 'ResetElements = document.querySelectorAll("[data-' . $elementId . '-trigger=\'reset\']");' .
+                    $elementId . 'ShowElements.forEach(function (element) {' .
+                    'element.addEventListener("click", function (e) {' .
+                    'e.preventDefault();' .
+                    'if (typeof ' . $configVariableName . ' !== "undefined") {' .
+                    'klaro.show(' . $configVariableName . ', !0);' .
+                    '}' . '});' . '});' .
+
+                    $elementId . 'ResetElements.forEach(function (element) {' .
+                    'element.addEventListener("click", function (e) {' .
+                    'e.preventDefault();' .
+                    'if (typeof ' . $configVariableName . ' !== "undefined") {' .
+                    'klaro.show(' . $configVariableName . ', !0);' .
+                    'klaro.getManager(' . $configVariableName . ').resetConsents();' .
+                    '}' . '});' . '});';
+
+                $return .= 'document.addEventListener("DOMContentLoaded",function(){"use strict";' . $appendJavaScript . '});';
 
                 return $return;
             }
@@ -226,28 +243,17 @@ class KlaroService
 
     /**
      * @param string $elementId
-     * @param string $elementIdAppend
      * @param string $configVariableName
      * @param bool $reset
      * @return string
      */
-    private function createAppendShowButtonScript(string $elementId, string $elementIdAppend, string $configVariableName, bool $reset = true): string
+    private function createAppendShowButtonScript(string $elementId, string $configVariableName, bool $reset = true): string
     {
-        $id = $elementId . $elementIdAppend;
-        $calls = '';
-
-        if ($reset) {
-            $calls .= 'klaro.getManager(' . $configVariableName . ').resetConsents();';
-        }
-        $calls .= 'klaro.show(' . $configVariableName . ',!0);';
-
+        $id = $elementId . ($reset ? 'Reset' : 'Show');
         return
-            'var ' . $id . '=document.createElement("button");' .
-            $id . '.id = "' . $id . '";' .
+            'const ' . $id . '=document.createElement("button");' .
+            $id . '.setAttribute("data-klaro-trigger", "' . ($reset ? 'reset' : 'show') . '");' .
             $id . '.textContent="' . $this->getLabel('consentManager.' . ($reset ? 'reset' : 'show')) . '";' .
-            $id . '.addEventListener("click",function(){' .
-            $calls .
-            'return;});' .
             'document.body.appendChild(' . $id . ');';
     }
 
