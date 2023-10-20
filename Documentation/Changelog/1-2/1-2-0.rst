@@ -1,0 +1,24 @@
+.. include:: /Includes.rst.txt
+
+1.2.0 - October 20, 2023
+========================
+
+
+.. only:: html
+
+   .. contents::
+        :local:
+        :depth: 3
+
+Breaking changes
+----------------
+No breaking changes!
+
+All Changes
+-----------
+This is a list of all changes in this release: ::
+
+    2023-10-20 [BUGFIX] Avoid CSP issues by moving onClick functionality to inlineJS (Commit 7f8c68a by Eric Harrer)
+    2023-10-20 [FEATURE] Add dynamic Replace-URLs "https://KLARO_CONSENT.com" and "https://KLARO_RESET.com" to trigger Klaro from any link (Thanks to Georg Ringer) (Commit ed2c240 by Eric Harrer)
+
+This list has been created by using `git log $(git describe --tags --abbrev=0)..HEAD --abbrev-commit --pretty='%ad %s (Commit %h by %an)' --date=short`.
