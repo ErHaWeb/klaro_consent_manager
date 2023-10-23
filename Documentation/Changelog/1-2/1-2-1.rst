@@ -1,0 +1,25 @@
+.. include:: /Includes.rst.txt
+
+1.2.1 - October 23, 2023
+========================
+
+
+.. only:: html
+
+   .. contents::
+        :local:
+        :depth: 3
+
+Breaking changes
+----------------
+No breaking changes!
+
+All Changes
+-----------
+This is a list of all changes in this release: ::
+
+    2023-10-23 [BUGFIX] Fix error strict_types declaration error in TYPO3 10.4 (Commit ac7e3d6 by Eric Harrer)
+    2023-10-23 [DOCS] Add YouTube videos for demonstration (Commit a7552fc by Eric Harrer)
+    2023-10-20 [TASK] Add automatically generated locallang.xlf (Commit 30a3b3e by Eric Harrer)
+
+This list has been created by using `git log $(git describe --tags --abbrev=0)..HEAD --abbrev-commit --pretty='%ad %s (Commit %h by %an)' --date=short`.
