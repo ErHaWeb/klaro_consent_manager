@@ -23,6 +23,7 @@ use Psr\Http\Message\ServerRequestInterface;
 use TYPO3\CMS\Core\Http\ApplicationType;
 use TYPO3\CMS\Core\Page\Event\BeforeStylesheetsRenderingEvent;
 use TYPO3\CMS\Core\Utility\GeneralUtility;
+use TYPO3\CMS\Extbase\Configuration\ConfigurationManagerInterface;
 
 class KlaroStylesheet
 {
@@ -34,7 +35,7 @@ class KlaroStylesheet
         }
 
         $klaroService = GeneralUtility::makeInstance(KlaroService::class, $request);
-        if (!$klaroService->getConfiguration()) {
+        if (!$klaroService->getRawConfiguration()) {
             return;
         }
 
@@ -42,12 +43,16 @@ class KlaroStylesheet
             return;
         }
 
-        $asset = $event->getAssetCollector()->getStyleSheets($event->isPriority());
-        if (!($asset['klaro'] ?? false)) {
-            $attributes = [
-                'nonce' => CspUtility::getNonceValue($request)
-            ];
-            $event->getAssetCollector()->addStyleSheet('klaro', 'EXT:klaro_consent_manager/Resources/Public/Css/klaro.min.css', $attributes, ['priority' => true]);
+        $configurationManager = GeneralUtility::makeInstance(ConfigurationManagerInterface::class);
+        $settings = $configurationManager->getConfiguration(
+            ConfigurationManagerInterface::CONFIGURATION_TYPE_SETTINGS,
+            'KlaroConsentManager'
+        );
+        $attributes = ['defer' => 'defer', 'nonce' => CspUtility::getNonceValue($request)];
+        foreach (($settings['css'] ?? []) as $key => $css) {
+            if (!($asset[$key] ?? false)) {
+                $event->getAssetCollector()->addStyleSheet($key, $css, $attributes, ['priority' => true]);
+            }
         }
     }
 

@@ -1,0 +1,36 @@
+.klaro .cookie-modal .cm-modal .cm-body span .table {
+    display: table;
+    width: 100%;
+    border: 1px solid;
+}
+
+.klaro .cookie-modal .cm-modal .cm-body span .table > .tr {
+    display: table-row;
+}
+
+.klaro .cookie-modal .cm-modal .cm-body span .table > .tr > .th,
+.klaro .cookie-modal .cm-modal .cm-body span .table > .tr > .td {
+    padding: 0.25rem 0.5rem;
+    display: table-cell;
+    border-bottom: 1px solid;
+    border-left: 1px solid;
+}
+
+.klaro .cookie-modal .cm-modal .cm-body span .table > .tr:last-child > .th,
+.klaro .cookie-modal .cm-modal .cm-body span .table > .tr:last-child > .td {
+    border-bottom: none;
+}
+
+.klaro .cookie-modal .cm-modal .cm-body span .table > .tr > .th:first-child,
+.klaro .cookie-modal .cm-modal .cm-body span .table > .tr > .td:first-child {
+    border-left: none;
+}
+
+.klaro .cookie-modal .cm-modal .cm-body span .table > .tr > .th {
+    font-weight: bold;
+}
+
+.klaro .cookie-modal .cm-modal .cm-footer .cm-powered-by.d-flex {
+    display: flex;
+    justify-content: space-between;
+}

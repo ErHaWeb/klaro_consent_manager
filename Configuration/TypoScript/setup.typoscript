@@ -1,3 +1,37 @@
+plugin.tx_klaroconsentmanager {
+    view {
+        templateRootPaths {
+            0 = EXT:klaro_consent_manager/Resources/Private/Templates/
+            1 = {$plugin.tx_klaroconsentmanager.view.templateRootPath}
+        }
+
+        partialRootPaths {
+            0 = EXT:klaro_consent_manager/Resources/Private/Partials/
+            1 = {$plugin.tx_klaroconsentmanager.view.partialRootPath}
+        }
+
+        layoutRootPaths {
+            0 = EXT:klaro_consent_manager/Resources/Private/Layouts/
+            1 = {$plugin.tx_klaroconsentmanager.view.layoutRootPath}
+        }
+    }
+
+    settings {
+        css {
+            klaro-default = {$plugin.tx_klaroconsentmanager.settings.css.klaro-default}
+            klaro-custom = {$plugin.tx_klaroconsentmanager.settings.css.klaro-custom}
+        }
+
+        javascript {
+            klaro-default = {$plugin.tx_klaroconsentmanager.settings.javascript.klaro-default}
+        }
+
+        configuration {
+            poweredBy = https://kiprotect.com/klaro
+        }
+    }
+}
+
 tt_content.stdWrap.outerWrap {
     cObject = COA
     cObject {

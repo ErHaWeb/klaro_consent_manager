@@ -23,6 +23,7 @@ use Psr\Http\Message\ServerRequestInterface;
 use TYPO3\CMS\Core\Http\ApplicationType;
 use TYPO3\CMS\Core\Page\Event\BeforeJavaScriptsRenderingEvent;
 use TYPO3\CMS\Core\Utility\GeneralUtility;
+use TYPO3\CMS\Extbase\Configuration\ConfigurationManagerInterface;
 
 class KlaroJavaScript
 {
@@ -34,39 +35,38 @@ class KlaroJavaScript
         }
 
         $klaroService = GeneralUtility::makeInstance(KlaroService::class, $request);
-        $configuration = $klaroService->getConfiguration();
+        $configuration = $klaroService->getRawConfiguration();
         if (!$configuration) {
             return;
         }
 
         if ($event->isInline()) {
+            $configVariableName = $configuration['config_variable_name'] ?: 'klaroConfig';
             $asset = $event->getAssetCollector()->getInlineJavaScripts();
-            if (!($asset['klaroConfig'] ?? false) && $configurationInlineJavaScript = $klaroService->getConfigurationInlineJavaScript()) {
+            if (!($asset[$configVariableName] ?? false) && $configurationInlineJavaScript = $klaroService->getConfigurationInlineJavaScript()) {
                 $attributes = [
                     'defer' => 'defer',
                     'nonce' => CspUtility::getNonceValue($request)
                 ];
-                $event->getAssetCollector()->addInlineJavaScript('klaroConfig', $configurationInlineJavaScript, $attributes, ['priority' => true]);
+                $event->getAssetCollector()->addInlineJavaScript($configVariableName, $configurationInlineJavaScript, $attributes, ['priority' => true]);
             }
             return;
         }
 
         $asset = $event->getAssetCollector()->getJavaScripts();
-        if (!($asset['klaro'] ?? false)) {
-            $attributes = [
-                'defer' => 'defer',
-                'nonce' => CspUtility::getNonceValue($request)
-            ];
-            if ($configuration['config_variable_name']) {
-                $attributes['data-klaro-config'] = $configuration['config_variable_name'];
+        $configurationManager = GeneralUtility::makeInstance(ConfigurationManagerInterface::class);
+        $settings = $configurationManager->getConfiguration(
+            ConfigurationManagerInterface::CONFIGURATION_TYPE_SETTINGS,
+            'KlaroConsentManager'
+        );
+        $attributes = ['defer' => 'defer', 'nonce' => CspUtility::getNonceValue($request)];
+        foreach (($settings['javascript'] ?? []) as $key => $javascript) {
+            if (!($asset[$key] ?? false)) {
+                if ($key === 'klaro-default') {
+                    $attributes['data-klaro-config'] = $configuration['config_variable_name'];
+                }
+                $event->getAssetCollector()->addJavaScript($key, $javascript, $attributes, ['priority' => true]);
             }
-
-            $event->getAssetCollector()->addJavaScript(
-                'klaro',
-                'EXT:klaro_consent_manager/Resources/Public/JavaScript/klaro-no-translations-no-css.js',
-                $attributes,
-                ['priority' => true]
-            );
         }
     }
 

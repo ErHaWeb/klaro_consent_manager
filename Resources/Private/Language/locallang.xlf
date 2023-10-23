@@ -263,6 +263,12 @@
             <trans-unit id="consentNotice.privacyPolicy.name" resname="consentNotice.privacyPolicy.name">
                 <source>Privacy policy</source>
             </trans-unit>
+            <trans-unit id="cookies.title">
+                <source>Cookies</source>
+            </trans-unit>
+            <trans-unit id="cookies.description">
+                <source>Below you will find a list of all cookies used by %s</source>
+            </trans-unit>
         </body>
     </file>
 </xliff>
