@@ -46,7 +46,7 @@ The keys are structured according to the following scheme:
 - Title of the Purpose: `purposes.<PURPOSE-IDENTIFIER>.title`
 - Description of the Purpose: `purposes.<PURPOSE-IDENTIFIER>.description`
 
-### Add reference in configuration record
+#### Add reference in configuration record
 
 Open the Klaro! configuration, go to `Display` → `Translations` → `Locallang Path` and enter the path to your newly created XLIFF file.
 

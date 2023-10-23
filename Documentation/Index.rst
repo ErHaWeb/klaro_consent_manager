@@ -40,8 +40,15 @@ Many thanks to KIProtect GmbH for providing this great open source product.
 
 **Table of Contents:**
 
+..  toctree::
+    :maxdepth: 2
+    :titlesonly:
+
+    Introduction/Index
+
 ..  note::
-    Please be patient, the documentation still needs to be completed.
+    Please be patient, the documentation still need to be completed. Until then, I have already provided you with videos
+    on the introduction page to give you a first overview.
 
 ..  Meta Menu
 
