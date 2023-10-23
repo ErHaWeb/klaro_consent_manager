@@ -350,6 +350,14 @@
         <source>Privacy policy</source>
         <target state="final">informativa sulla privacy</target>
       </trans-unit>
+      <trans-unit id="cookies.title">
+        <source>Cookies</source>
+        <target state="needs-translation">Cookies</target>
+      </trans-unit>
+      <trans-unit id="cookies.description">
+        <source>Below you will find a list of all cookies used by %s</source>
+        <target state="needs-translation">Below you will find a list of all cookies used by %s</target>
+      </trans-unit>
     </body>
   </file>
 </xliff>
