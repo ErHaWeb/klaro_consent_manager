@@ -51,3 +51,15 @@ contextual consent controlled by Klaro! Consent Management.
 
 ..  note::
     Please make sure to add the static TypoScript to use this feature.
+
+..  _videos-feature-fluidenrichedlabels:
+
+Feature: Labels enriched with Fluid
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Demonstration of the possibility to enrich any Klaro! label with Fluid. After setting the template paths, the labels as
+a whole can be replaced with Fluid Content or Fluid Content service/purpose can be prepended/appended. The template path
+under "Templates/Labels/" is an UpperCamelCase representation of the label key. Dots "." are replaced by directory
+separator "/".
+
+..  youtube:: NYb42MKC5hw
