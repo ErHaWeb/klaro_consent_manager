@@ -1,0 +1,23 @@
+.. include:: /Includes.rst.txt
+
+1.2.2 - October 23, 2023
+========================
+
+
+.. only:: html
+
+   .. contents::
+        :local:
+        :depth: 3
+
+Breaking changes
+----------------
+No breaking changes!
+
+All Changes
+-----------
+This is a list of all changes in this release: ::
+
+    2023-10-23 [BUGFIX] Fix klaroConfig declaration (var instead of const) (Commit 935068b by Eric Harrer)
+
+This list has been created by using `git log $(git describe --tags --abbrev=0)..HEAD --abbrev-commit --pretty='%ad %s (Commit %h by %an)' --date=short`.
