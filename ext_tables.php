@@ -13,12 +13,6 @@
  * The TYPO3 project - inspiring people to share!
  */
 
-declare(strict_types=1);
-
-/**
- * https://docs.typo3.org/m/typo3/reference-coreapi/12.4/en-us/ExtensionArchitecture/FileStructure/ExtTables.html
- */
-
 (static function () {
     foreach (['configuration', 'service', 'cookie'] as $table) {
         \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::allowTableOnStandardPages('tx_klaroconsentmanager_' . $table);
