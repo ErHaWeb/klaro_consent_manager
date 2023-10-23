@@ -525,6 +525,15 @@
             <trans-unit id="tx_klaroconsentmanager_cookie.domain.placeholder">
                 <source>klaro.kiprotect.com</source>
             </trans-unit>
+            <trans-unit id="sys_template.TypoScript.klaro_consent_manager.title">
+                <source>Klaro! Consent Manager: Static TypoScript Include (feed_display)</source>
+            </trans-unit>
+            <trans-unit id="tt_content.tx_klaroconsentmanager_service.label">
+                <source>Contextual Consent</source>
+            </trans-unit>
+            <trans-unit id="tt_content.tx_klaroconsentmanager_service.description">
+                <source>When a service is selected in this field, the content item is displayed via contextual consent only if the user has agreed to use the selected service in the Klaro! Consent Manager. Please make sure that the static TypoScript template of the Klaro! Consent Manager has been added to use this feature.</source>
+            </trans-unit>
         </body>
     </file>
 </xliff>

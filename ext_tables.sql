@@ -63,3 +63,11 @@ CREATE TABLE tx_klaroconsentmanager_cookie
     `parentid`    int(11)      DEFAULT '0' NOT NULL,
     `parenttable` varchar(255) DEFAULT ''  NOT NULL
 );
+
+#
+# Table structure for table 'tt_content'
+#
+CREATE TABLE tt_content
+(
+    `tx_klaroconsentmanager_service` tinytext
+);

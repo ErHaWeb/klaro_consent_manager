@@ -38,3 +38,16 @@ Consent Management settings ("https://KLARO_CONSENT.com") and reset the settings
 The link targets are replaced with CSP-compliant JavaScript functionality in the final HTML output.
 
 ..  youtube:: V4u4v0QS93s
+
+..  _videos-feature-contextualconsent:
+
+Feature: Contextual Consent
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Demonstration of the contextual consent feature. Using this setting it is possible to hide any content element behind a
+contextual consent controlled by Klaro! Consent Management.
+
+..  youtube:: bK_XeJrlyW8
+
+..  note::
+    Please make sure to add the static TypoScript to use this feature.
