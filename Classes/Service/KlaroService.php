@@ -204,7 +204,7 @@ class KlaroService
 
                 $elementId = $this->configuration['element_i_d'] ?: 'klaro';
                 $configVariableName = $this->configuration['config_variable_name'] ?: 'klaroConfig';
-                $return = 'const ' . $configVariableName . '=' . $this->arrayToJavaScriptObject($configurationArray) . ';';
+                $return = 'var ' . $configVariableName . '=' . $this->arrayToJavaScriptObject($configurationArray) . ';';
 
                 $appendJavaScript = '';
                 if ($this->configuration['append_show_button']) {
