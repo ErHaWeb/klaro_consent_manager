@@ -685,9 +685,21 @@
         <source>Cookie</source>
         <target state="needs-translation">Cookie</target>
       </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_cookie.title.label">
+        <source>Title</source>
+        <target state="needs-translation">Title</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_cookie.title.description">
+        <source>If set, this title will be used in the frontend/backend for displaying the cookie. This title has no technical relevance (contrary to the "pattern" field).</source>
+        <target state="needs-translation">If set, this title will be used in the frontend/backend for displaying the cookie. This title has no technical relevance (contrary to the "pattern" field).</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_cookie.title.placeholder">
+        <source>mf_[&lt;Session&gt;]</source>
+        <target state="needs-translation">mf_[&lt;Session&gt;]</target>
+      </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_cookie.pattern.label">
-        <source>Name</source>
-        <target state="needs-translation">Name</target>
+        <source>Name / Pattern</source>
+        <target state="needs-translation">Name / Pattern</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_cookie.pattern.description">
         <source>Name or regular expression (regex)</source>
@@ -720,6 +732,50 @@
       <trans-unit id="tx_klaroconsentmanager_cookie.domain.placeholder">
         <source>klaro.kiprotect.com</source>
         <target state="needs-translation">klaro.kiprotect.com</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_cookie.expires_after.label">
+        <source>Expires after</source>
+        <target state="needs-translation">Expires after</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_cookie.expires_after.description">
+        <source>Number of years/months/days/hours/minutes/seconds that will elapse before this cookie expires.</source>
+        <target state="needs-translation">Number of years/months/days/hours/minutes/seconds that will elapse before this cookie expires.</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_cookie.expires_after.placeholder">
+        <source>60</source>
+        <target state="needs-translation">60</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_cookie.expires_after_unit.label">
+        <source>Expires after unit</source>
+        <target state="needs-translation">Expires after unit</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_cookie.expires_after_unit.description">
+        <source>Unit used for the "Expires after" specification.</source>
+        <target state="needs-translation">Unit used for the "Expires after" specification.</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_cookie.expires_after_unit.I.years">
+        <source>Years</source>
+        <target state="needs-translation">Years</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_cookie.expires_after_unit.I.months">
+        <source>Months</source>
+        <target state="needs-translation">Months</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_cookie.expires_after_unit.I.days">
+        <source>Days</source>
+        <target state="needs-translation">Days</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_cookie.expires_after_unit.I.hours">
+        <source>Hours</source>
+        <target state="needs-translation">Hours</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_cookie.expires_after_unit.I.minutes">
+        <source>Minutes</source>
+        <target state="needs-translation">Minutes</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_cookie.expires_after_unit.I.seconds">
+        <source>Seconds</source>
+        <target state="needs-translation">Seconds</target>
       </trans-unit>
       <trans-unit id="sys_template.TypoScript.klaro_consent_manager.title">
         <source>Klaro! Consent Manager: Static TypoScript Include (feed_display)</source>
