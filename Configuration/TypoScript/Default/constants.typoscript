@@ -1,0 +1,19 @@
+plugin.tx_klaroconsentmanager {
+    view {
+        # cat=plugin.tx_klaroconsentmanager/file/100; type=string; label=Path to template root (FE)
+        templateRootPath = EXT:klaro_consent_manager/Resources/Private/Templates/
+        # cat=plugin.tx_klaroconsentmanager/file/110; type=string; label=Path to template partials (FE)
+        partialRootPath = EXT:klaro_consent_manager/Resources/Private/Partials/
+        # cat=plugin.tx_klaroconsentmanager/file/120; type=string; label=Path to template layouts (FE)
+        layoutRootPath = EXT:klaro_consent_manager/Resources/Private/Layouts/
+    }
+    settings {
+        css {
+            klaro-default = EXT:klaro_consent_manager/Resources/Public/Css/klaro.min.css
+            klaro-custom = EXT:klaro_consent_manager/Resources/Public/Css/klaro-custom.min.css
+        }
+        javascript {
+            klaro-default = EXT:klaro_consent_manager/Resources/Public/JavaScript/klaro-no-translations-no-css.js
+        }
+    }
+}
