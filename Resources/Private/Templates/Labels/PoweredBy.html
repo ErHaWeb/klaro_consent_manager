@@ -1,13 +1,23 @@
 <html xmlns:f="http://typo3.org/ns/TYPO3/CMS/Fluid/ViewHelpers" data-namespace-typo3-fluid="true" lang="en">
-<p class="cm-powered-by{f:if(condition: links.imprintLink, then:' d-flex')}">
-    <f:if condition="{links.imprintLink}">
-        <f:link.typolink parameter="{links.imprintLink}" class="imprintLink" target="_blank" additionalAttributes="{rel:'noopener'}"/>
-    </f:if>
-    {f:translate(
-    key: locallang.fullKey
-    )-> f:link.typolink(
-    parameter: configuration.poweredBy,
-    additionalAttributes: '{rel:\'noopener\'}',
-    target: '_blank')}
-</p>
+<f:if condition="{configuration.poweredBy}">
+    <f:then>
+        <f:variable name="poweredByLink" value="{f:uri.typolink(parameter: configuration.poweredBy)}"/>
+    </f:then>
+    <f:else>
+        <f:variable name="poweredByLink" value="https://kiprotect.com/klaro"/>
+    </f:else>
+</f:if>
+<f:if condition="{configuration.htmlTexts}">
+    <f:then>
+        <p class="cm-powered-by{f:if(condition: links.imprintLink, then:' d-flex')}">
+            <f:if condition="{links.imprintLink}">
+                <f:link.typolink parameter="{links.imprintLink}" class="imprintLink" target="_blank" additionalAttributes="{rel:'noopener'}"/>
+            </f:if>
+            <a href="{poweredByLink}" rel="noopener" target="_blank">{f:translate(key: locallang.fullKey)}</a>
+        </p>
+    </f:then>
+    <f:else>
+        {f:translate(key: locallang.fullKey)} [{poweredByLink}]
+    </f:else>
+</f:if>
 </html>

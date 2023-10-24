@@ -34,3 +34,13 @@
     display: flex;
     justify-content: space-between;
 }
+
+.klaro .cookie-modal .cm-modal .cm-footer > span:last-child {
+    display: block;
+    font-size: 0.8em;
+    padding-top: 4px;
+    text-align: right;
+    padding-right: 8px;
+    color: #5c5c5c;
+    color: var(--dark2, #5c5c5c);
+}
