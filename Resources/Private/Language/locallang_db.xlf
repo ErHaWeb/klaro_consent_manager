@@ -468,7 +468,7 @@
                 <source>Callback</source>
             </trans-unit>
             <trans-unit id="tx_klaroconsentmanager_service.callback.description">
-                <source>You can define an optional callback function that will be called each time the consent state for the given service changes. The consent value will be passed as the first parameter to the function (true=consented). The `service` config will be passed as the second parameter. The content of this field is wrapped with `callback: function(consent, service) { }`</source>
+                <source>You can define an optional callback function that will be called each time the consent state for the given service changes. The consent value will be passed as the first parameter to the function (true=consented). The `service` config will be passed as the second parameter. The content of this field is wrapped with `callback: function(consent, service) { }`. `consent` is a bool that reflects the current state. service` holds all information about the currently selected service. When you enter something here, you need to know what you are doing. It is your responsibility that no JavaScript errors occur.</source>
             </trans-unit>
             <trans-unit id="tx_klaroconsentmanager_service.required.label">
                 <source>Required</source>
@@ -493,6 +493,30 @@
             </trans-unit>
             <trans-unit id="tx_klaroconsentmanager_service.contextual_consent_only.description">
                 <source>Content can be excluded from general consent by setting contextualConsentOnly to true. In this case, the consent must be contextual.</source>
+            </trans-unit>
+            <trans-unit id="tx_klaroconsentmanager_service.on_accept.label">
+                <source>"onAccept" callback function</source>
+            </trans-unit>
+            <trans-unit id="tx_klaroconsentmanager_service.on_accept.description">
+                <source>Here you can define JavaScript code that will be called each time the service was accepted. The content of this field is wrapped with `callback: function(handlerOpts) { }`. The object `handlerOpts` contains the objects `config` (the current Klaro! configuration), `service` (the current service) and possibly `vars` (any values defined by object notation in the vars field in the backend). When you enter something here, you need to know what you are doing. It is your responsibility that no JavaScript errors occur.</source>
+            </trans-unit>
+            <trans-unit id="tx_klaroconsentmanager_service.on_init.label">
+                <source>"onInit" callback function</source>
+            </trans-unit>
+            <trans-unit id="tx_klaroconsentmanager_service.on_init.description">
+                <source>Here you can define JavaScript code that will be called once per page-load. The content of this field is wrapped with `callback: function(handlerOpts) { }`. The object `handlerOpts` contains the objects `config` (the current Klaro! configuration), `service` (the current service) and possibly `vars` (any values defined by object notation in the vars field in the backend). When you enter something here, you need to know what you are doing. It is your responsibility that no JavaScript errors occur.</source>
+            </trans-unit>
+            <trans-unit id="tx_klaroconsentmanager_service.on_decline.label">
+                <source>"onDecline" callback function</source>
+            </trans-unit>
+            <trans-unit id="tx_klaroconsentmanager_service.on_decline.description">
+                <source>Here you can define JavaScript code that will be called each time the service was declined. The content of this field is wrapped with `callback: function(handlerOpts) { }`. The object `handlerOpts` contains the objects `config` (the current Klaro! configuration), `service` (the current service) and possibly `vars` (any values defined by object notation in the vars field in the backend). When you enter something here, you need to know what you are doing. It is your responsibility that no JavaScript errors occur.</source>
+            </trans-unit>
+            <trans-unit id="tx_klaroconsentmanager_service.vars.label">
+                <source>Variables</source>
+            </trans-unit>
+            <trans-unit id="tx_klaroconsentmanager_service.vars.description">
+                <source>Variables that can be used in callback functions. The content of this field is enclosed in curly brackets. The JavaScript object notation is expected in them. When you enter something here, you need to know what you are doing. It is your responsibility that no JavaScript errors occur.</source>
             </trans-unit>
             <!-- Cookie -->
             <trans-unit id="tx_klaroconsentmanager_cookie">

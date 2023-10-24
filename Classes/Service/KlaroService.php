@@ -50,6 +50,10 @@ class KlaroService
         'only_once' => ['type' => 'boolean', 'default' => false],
         'cookies' => ['type' => 'list', 'default' => ''],
         'callback' => ['type' => 'callback', 'default' => ''],
+        'on_accept' => ['type' => 'javascript', 'default' => ''],
+        'on_init' => ['type' => 'javascript', 'default' => ''],
+        'on_decline' => ['type' => 'javascript', 'default' => ''],
+        'vars' => ['type' => 'object', 'default' => '']
     ];
     private const GLOBAL_CONFIG = [
         'config_variable_name' => ['type' => 'bypass', 'default' => ''],
@@ -415,6 +419,12 @@ class KlaroService
             case 'callback':
                 $value = 'function(consent,service){' . $value . '}';
                 break;
+            case 'javascript':
+                $value = 'function(handlerOpts){' . $value . '}';
+                break;
+            case 'object':
+                $value = '{' . $value . '}';
+                break;
             case 'list':
                 $value = GeneralUtility::trimExplode(',', $value);
                 break;
@@ -505,7 +515,13 @@ class KlaroService
                 $return .= $this->arrayToJavaScriptObject($value);
             } elseif (is_bool($value)) {
                 $return .= $value ? 'true' : 'false';
-            } elseif ($key !== 'callback' && is_string($value)) {
+            } elseif (
+                //$key !== 'callback' &&
+                is_string($value) &&
+                substr( $value, 0, 1 ) !== "{" &&
+                substr( $value, 0, 9 ) !== "function("
+                //$value[0] !== '`'
+            ) {
                 $return .= '\'' . $value . '\'';
             } else {
                 $return .= $value;

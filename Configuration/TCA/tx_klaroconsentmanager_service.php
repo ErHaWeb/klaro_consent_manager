@@ -240,6 +240,46 @@ return [
                 ],
             ]
         ],
+        'on_accept' => [
+            'label' => 'LLL:EXT:klaro_consent_manager/Resources/Private/Language/locallang_db.xlf:tx_klaroconsentmanager_service.on_accept.label',
+            'description' => 'LLL:EXT:klaro_consent_manager/Resources/Private/Language/locallang_db.xlf:tx_klaroconsentmanager_service.on_accept.description',
+            'config' => [
+                'type' => 'text',
+                'renderType' => 't3editor',
+                'format' => 'javascript',
+                'rows' => 10,
+            ]
+        ],
+        'on_init' => [
+            'label' => 'LLL:EXT:klaro_consent_manager/Resources/Private/Language/locallang_db.xlf:tx_klaroconsentmanager_service.on_init.label',
+            'description' => 'LLL:EXT:klaro_consent_manager/Resources/Private/Language/locallang_db.xlf:tx_klaroconsentmanager_service.on_init.description',
+            'config' => [
+                'type' => 'text',
+                'renderType' => 't3editor',
+                'format' => 'javascript',
+                'rows' => 10,
+            ]
+        ],
+        'on_decline' => [
+            'label' => 'LLL:EXT:klaro_consent_manager/Resources/Private/Language/locallang_db.xlf:tx_klaroconsentmanager_service.on_decline.label',
+            'description' => 'LLL:EXT:klaro_consent_manager/Resources/Private/Language/locallang_db.xlf:tx_klaroconsentmanager_service.on_decline.description',
+            'config' => [
+                'type' => 'text',
+                'renderType' => 't3editor',
+                'format' => 'javascript',
+                'rows' => 10,
+            ]
+        ],
+        'vars' => [
+            'label' => 'LLL:EXT:klaro_consent_manager/Resources/Private/Language/locallang_db.xlf:tx_klaroconsentmanager_service.vars.label',
+            'description' => 'LLL:EXT:klaro_consent_manager/Resources/Private/Language/locallang_db.xlf:tx_klaroconsentmanager_service.vars.description',
+            'config' => [
+                'type' => 'text',
+                'renderType' => 't3editor',
+                'format' => 'javascript',
+                'rows' => 10,
+            ]
+        ],
         'parentid' => [
             'label' => '',
             'config' => [
@@ -275,7 +315,7 @@ return [
             'showitem' => 'required, opt_out, --linebreak--, only_once, contextual_consent_only'
         ],
         'advanced_palette' => [
-            'showitem' => 'callback',
+            'showitem' => 'callback, --linebreak--, on_accept, --linebreak--, on_init, --linebreak--, on_decline, --linebreak--, vars',
         ],
         'access' => [
             'label' => 'LLL:EXT:klaro_consent_manager/Resources/Private/Language/locallang_db.xlf:tx_klaroconsentmanager_configuration.palettes.access_palette',

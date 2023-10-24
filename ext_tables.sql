@@ -49,7 +49,11 @@ CREATE TABLE tx_klaroconsentmanager_service
     `required`                tinyint(4)       DEFAULT '0' NOT NULL,
     `opt_out`                 tinyint(4)       DEFAULT '0' NOT NULL,
     `only_once`               tinyint(4)       DEFAULT '0' NOT NULL,
-    `contextual_consent_only` tinyint(4)       DEFAULT '0' NOT NULL
+    `contextual_consent_only` tinyint(4)       DEFAULT '0' NOT NULL,
+    `on_accept`               mediumtext,
+    `on_init`                 mediumtext,
+    `on_decline`              mediumtext,
+    `vars`                    mediumtext
 );
 
 #
