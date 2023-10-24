@@ -270,6 +270,7 @@ class KlaroService
                     $beUserPreName = GeneralUtility::trimExplode(' ', $GLOBALS['BE_USER']->user['realName'])[0] ?:
                         ucfirst($GLOBALS['BE_USER']->user['username'])
                 ) {
+                    $beUserPreName = addslashes(strip_tags($beUserPreName));
                     $label = vsprintf($this->getLabel('warning.noServicesPersonalized'), [$beUserPreName]);
                     return 'console.warn("' . $label . '")';
                 }
