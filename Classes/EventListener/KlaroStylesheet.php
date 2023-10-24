@@ -60,7 +60,7 @@ class KlaroStylesheet
         $attributes = ['defer' => 'defer', 'nonce' => CspUtility::getNonceValue($request)];
 
         foreach (($settings['css'] ?? []) as $key => $css) {
-            if (!($asset[$key] ?? false)) {
+            if (!($asset[$key] ?? false) && $css) {
                 $event->getAssetCollector()->addStyleSheet($key, $css, $attributes, ['priority' => true]);
             }
         }

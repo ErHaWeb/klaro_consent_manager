@@ -69,7 +69,7 @@ class KlaroJavaScript
         $attributes = ['defer' => 'defer', 'nonce' => CspUtility::getNonceValue($request)];
 
         foreach (($settings['javascript'] ?? []) as $key => $javascript) {
-            if (!($asset[$key] ?? false)) {
+            if (!($asset[$key] ?? false) && $javascript) {
                 if ($key === 'klaro-default') {
                     $attributes['data-klaro-config'] = $configuration['config_variable_name'];
                 }
