@@ -137,6 +137,11 @@ class KlaroService
     private string $privacyPolicyLink = '';
 
     /**
+     * @var SiteLanguage
+     */
+    private SiteLanguage $siteLanguage;
+
+    /**
      * @var string
      */
     private string $locallangPath = 'EXT:klaro_consent_manager/Resources/Private/Language/locallang.xlf';
@@ -158,6 +163,7 @@ class KlaroService
 
     /**
      * @param ServerRequestInterface $request
+     * @throws InvalidConfigurationTypeException
      */
     public function __construct(ServerRequestInterface $request)
     {
@@ -282,10 +288,9 @@ class KlaroService
      */
     private function initLanguage(ServerRequestInterface $request): void
     {
-        /** @var SiteLanguage $siteLanguage */
-        if ($siteLanguage = $request->getAttribute('language')) {
+        if ($this->siteLanguage = $request->getAttribute('language')) {
             $languageServiceFactory = GeneralUtility::makeInstance(LanguageServiceFactory::class);
-            $this->languageService = $languageServiceFactory->create($siteLanguage->getTypo3Language());
+            $this->languageService = $languageServiceFactory->create($this->siteLanguage->getTypo3Language());
         }
     }
 
@@ -662,7 +667,8 @@ class KlaroService
                 'fullKey' => $fullKey,
                 'label' => $label,
                 'defaultPath' => $this->locallangPath,
-                'overridePath' => $this->locallangPathOverride
+                'overridePath' => $this->locallangPathOverride,
+                'languageKey' => $this->siteLanguage->getTypo3Language()
             ],
             'rawConfiguration' => $this->rawConfiguration,
             'configuration' => $this->configuration,

@@ -63,3 +63,12 @@ under "Templates/Labels/" is an UpperCamelCase representation of the label key. 
 separator "/".
 
 ..  youtube:: NYb42MKC5hw
+
+..  note::
+    In multi-language instances, please use the label partial instead of the translate ViewHelper (contrary to the
+    video). This ensures (outside the Extbase context) that the correct language key is used.
+
+    ::
+
+        {f:render(partial: 'Label', arguments: '{locallang:locallang}')}
+

@@ -1,9 +1,12 @@
 <html xmlns:f="http://typo3.org/ns/TYPO3/CMS/Fluid/ViewHelpers" data-namespace-typo3-fluid="true" lang="en">
+<f:if condition="!({key})">
+    <f:variable name="key" value="{locallang.key}"/>
+</f:if>
 <f:if condition="{locallang.overridePath}">
-    <f:variable name="label" value="{f:translate(key: 'LLL:{locallang.overridePath}:{key}', arguments: arguments)}"/>
+    <f:variable name="label" value="{f:translate(key: 'LLL:{locallang.overridePath}:{key}', arguments: arguments, languageKey: locallang.languageKey)}"/>
 </f:if>
 <f:if condition="{locallang.defaultPath} && {label} == ''">
-    <f:variable name="label" value="{f:translate(key: 'LLL:{locallang.defaultPath}:{key}', arguments: arguments)}"/>
+    <f:variable name="label" value="{f:translate(key: 'LLL:{locallang.defaultPath}:{key}', arguments: arguments, languageKey: locallang.languageKey)}"/>
 </f:if>
 <f:if condition="{label} == ''">
     <f:then>[missing translation: {key}]</f:then>
