@@ -44,3 +44,9 @@
     color: #5c5c5c;
     color: var(--dark2, #5c5c5c);
 }
+
+.klaro .cookie-modal .cm-modal .cm-footer .cm-powered-by {
+    font-size: inherit;
+    padding-top: 0;
+    padding-right: 0;
+}
