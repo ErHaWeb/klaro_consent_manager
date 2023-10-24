@@ -278,6 +278,45 @@
             <trans-unit id="cookies.headline.domain">
                 <source>Domain</source>
             </trans-unit>
+            <trans-unit id="cookies.headline.expiresAfter">
+                <source>Expires after</source>
+            </trans-unit>
+            <trans-unit id="year">
+                <source>Year</source>
+            </trans-unit>
+            <trans-unit id="years">
+                <source>Years</source>
+            </trans-unit>
+            <trans-unit id="month">
+                <source>Month</source>
+            </trans-unit>
+            <trans-unit id="months">
+                <source>Months</source>
+            </trans-unit>
+            <trans-unit id="day">
+                <source>Day</source>
+            </trans-unit>
+            <trans-unit id="days">
+                <source>Days</source>
+            </trans-unit>
+            <trans-unit id="hour">
+                <source>Hour</source>
+            </trans-unit>
+            <trans-unit id="hours">
+                <source>Hours</source>
+            </trans-unit>
+            <trans-unit id="minute">
+                <source>Minute</source>
+            </trans-unit>
+            <trans-unit id="minutes">
+                <source>Minutes</source>
+            </trans-unit>
+            <trans-unit id="second">
+                <source>Seconds</source>
+            </trans-unit>
+            <trans-unit id="seconds">
+                <source>Seconds</source>
+            </trans-unit>
             <trans-unit id="warning.noServices">
                 <source>Why don't I see a Klaro! Modal? → You must assign at least 1 service to the Klaro! configuration! Without services we don't need consent management at all.</source>
             </trans-unit>

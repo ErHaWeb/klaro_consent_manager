@@ -61,11 +61,14 @@ CREATE TABLE tx_klaroconsentmanager_service
 #
 CREATE TABLE tx_klaroconsentmanager_cookie
 (
-    `pattern`     tinytext,
-    `path`        tinytext,
-    `domain`      tinytext,
-    `parentid`    int(11)      DEFAULT '0' NOT NULL,
-    `parenttable` varchar(255) DEFAULT ''  NOT NULL
+    `title`              tinytext,
+    `pattern`            tinytext,
+    `path`               tinytext,
+    `domain`             tinytext,
+    `expires_after`      int(11) unsigned DEFAULT '0' NOT NULL,
+    `expires_after_unit` tinytext,
+    `parentid`           int(11)          DEFAULT '0' NOT NULL,
+    `parenttable`        varchar(255)     DEFAULT ''  NOT NULL
 );
 
 #

@@ -37,9 +37,12 @@ use TYPO3\CMS\Frontend\ContentObject\ContentObjectRenderer;
 class KlaroService
 {
     private const COOKIE_CONFIG = [
+        'title' => ['type' => 'bypass', 'default' => ''],
         'pattern' => ['type' => 'string', 'default' => ''],
         'path' => ['type' => 'string', 'default' => ''],
         'domain' => ['type' => 'string', 'default' => ''],
+        'expires_after' => ['type' => 'bypass', 'default' => 0],
+        'expires_after_unit' => ['type' => 'bypass', 'default' => '']
     ];
     private const SERVICE_CONFIG = [
         'name' => ['type' => 'string', 'default' => ''],
