@@ -23,10 +23,15 @@ use Psr\Http\Message\ServerRequestInterface;
 use TYPO3\CMS\Core\Http\ApplicationType;
 use TYPO3\CMS\Core\Page\Event\BeforeJavaScriptsRenderingEvent;
 use TYPO3\CMS\Core\Utility\GeneralUtility;
+use TYPO3\CMS\Extbase\Configuration\ConfigurationManager;
 use TYPO3\CMS\Extbase\Configuration\ConfigurationManagerInterface;
+use TYPO3\CMS\Extbase\Configuration\Exception\InvalidConfigurationTypeException;
 
 class KlaroJavaScript
 {
+    /**
+     * @throws InvalidConfigurationTypeException
+     */
     public function __invoke(BeforeJavaScriptsRenderingEvent $event): void
     {
         $request = $this->getRequest();
@@ -54,12 +59,15 @@ class KlaroJavaScript
         }
 
         $asset = $event->getAssetCollector()->getJavaScripts();
-        $configurationManager = GeneralUtility::makeInstance(ConfigurationManagerInterface::class);
+        $configurationManager = GeneralUtility::makeInstance(ConfigurationManager::class);
+
         $settings = $configurationManager->getConfiguration(
             ConfigurationManagerInterface::CONFIGURATION_TYPE_SETTINGS,
             'KlaroConsentManager'
         );
+
         $attributes = ['defer' => 'defer', 'nonce' => CspUtility::getNonceValue($request)];
+
         foreach (($settings['javascript'] ?? []) as $key => $javascript) {
             if (!($asset[$key] ?? false)) {
                 if ($key === 'klaro-default') {

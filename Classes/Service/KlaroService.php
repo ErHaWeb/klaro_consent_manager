@@ -27,7 +27,9 @@ use TYPO3\CMS\Core\Site\Entity\Site;
 use TYPO3\CMS\Core\Site\Entity\SiteLanguage;
 use TYPO3\CMS\Core\Utility\ArrayUtility;
 use TYPO3\CMS\Core\Utility\GeneralUtility;
+use TYPO3\CMS\Extbase\Configuration\ConfigurationManager;
 use TYPO3\CMS\Extbase\Configuration\ConfigurationManagerInterface;
+use TYPO3\CMS\Extbase\Configuration\Exception\InvalidConfigurationTypeException;
 use TYPO3\CMS\Fluid\View\StandaloneView;
 use TYPO3\CMS\Frontend\ContentObject\ContentObjectRenderer;
 
@@ -179,7 +181,7 @@ class KlaroService
     public function getConfigurationInlineJavaScript(): string
     {
         if ($this->rawConfiguration) {
-            $this->configuration = $this->settings['configuration'];
+            $this->configuration = $this->settings['configuration'] ?? [];
             $colorScheme = [];
             $alignment = [];
 
@@ -217,7 +219,7 @@ class KlaroService
             if ($services = $this->getServices()) {
                 $this->configuration['services'] = $services;
                 // Merge final configuration array with TypoScript overrules
-                ArrayUtility::mergeRecursiveWithOverrule($this->configuration, $this->settings['configuration']);
+                ArrayUtility::mergeRecursiveWithOverrule($this->configuration, $this->settings['configuration'] ?? []);
 
                 $elementId = $this->rawConfiguration['element_i_d'] ?: 'klaro';
                 $configVariableName = $this->rawConfiguration['config_variable_name'] ?: 'klaroConfig';
@@ -289,10 +291,11 @@ class KlaroService
 
     /**
      * @return void
+     * @throws InvalidConfigurationTypeException
      */
     private function initConfigurationManager(): void
     {
-        $configurationManager = GeneralUtility::makeInstance(ConfigurationManagerInterface::class);
+        $configurationManager = GeneralUtility::makeInstance(ConfigurationManager::class);
 
         $framework = $configurationManager->getConfiguration(
             ConfigurationManagerInterface::CONFIGURATION_TYPE_FRAMEWORK,
@@ -305,9 +308,9 @@ class KlaroService
         );
 
         $this->view = GeneralUtility::makeInstance(StandaloneView::class);
-        $this->view->setLayoutRootPaths($framework['view']['layoutRootPaths']);
-        $this->view->setPartialRootPaths($framework['view']['partialRootPaths']);
-        $this->view->setTemplateRootPaths($framework['view']['templateRootPaths']);
+        $this->view->setLayoutRootPaths($framework['view']['layoutRootPaths'] ?? []);
+        $this->view->setPartialRootPaths($framework['view']['partialRootPaths'] ?? []);
+        $this->view->setTemplateRootPaths($framework['view']['templateRootPaths'] ?? []);
     }
 
     /**
