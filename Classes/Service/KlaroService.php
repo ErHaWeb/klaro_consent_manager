@@ -19,6 +19,7 @@ namespace ErHaWeb\KlaroConsentManager\Service;
 
 use Doctrine\DBAL\Exception;
 use Psr\Http\Message\ServerRequestInterface;
+use TYPO3\CMS\Core\Core\Environment;
 use TYPO3\CMS\Core\Database\ConnectionPool;
 use TYPO3\CMS\Core\Information\Typo3Version;
 use TYPO3\CMS\Core\Localization\LanguageService;
@@ -260,6 +261,11 @@ class KlaroService
                 $return .= 'document.addEventListener("DOMContentLoaded",function(){"use strict";' . $appendJavaScript . '});';
 
                 return $return;
+            }
+
+            $applicationContext = Environment::getContext();
+            if ($applicationContext->isDevelopment() || $applicationContext->isTesting()) {
+                return 'console.warn("' . $this->getLabel('warning.noServices') . '")';
             }
         }
 
