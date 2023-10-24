@@ -736,7 +736,12 @@ class KlaroService
         $string = str_replace(array("\r", "\n"), '', $string);
 
         // Remove whitespaces and linebreaks
-        $string = preg_replace('/>\\s+</', '><', $string);
+        $string = preg_replace('/\s+/', ' ', $string);
+        $string = preg_replace('/>\s/', '>', $string);
+        $string = preg_replace('/\s</', '<', $string);
+
+        // Remove spaces before commas
+        $string = str_replace(' , ', ', ', $string);
 
         // Escape quotes
         return $string;
