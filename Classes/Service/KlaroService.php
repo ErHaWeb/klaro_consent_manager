@@ -265,6 +265,15 @@ class KlaroService
 
             $applicationContext = Environment::getContext();
             if ($applicationContext->isDevelopment() || $applicationContext->isTesting()) {
+                if (
+                    ($GLOBALS['BE_USER'] ?? []) &&
+                    $beUserPreName = GeneralUtility::trimExplode(' ', $GLOBALS['BE_USER']->user['realName'])[0] ?:
+                        ucfirst($GLOBALS['BE_USER']->user['username'])
+                ) {
+                    $label = vsprintf($this->getLabel('warning.noServicesPersonalized'), [$beUserPreName]);
+                    return 'console.warn("' . $label . '")';
+                }
+
                 return 'console.warn("' . $this->getLabel('warning.noServices') . '")';
             }
         }
