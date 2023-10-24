@@ -1,0 +1,141 @@
+/*
+We declare all variables here as default so that they are easy to override...
+*/
+
+/* Border, shadows, ... */
+$cm-box-shadow-dark-md: 0 4px 6px 0 rgba(0, 0, 0, 0.2), 5px 5px 10px 0 rgba(0, 0, 0, 0.19) !default;
+$cm-box-shadow-light-sm: 0 2px 5px 0 rgba(0, 0, 0, 0.11) !default;
+$cm-box-shadow-dark-sm: 0 2px 5px 0 rgba(0, 0, 0, 0.33) !default;
+
+/*
+Variables that begin with $var- should NEVER be used directly in CSS rules.
+they should only be included via the "@include var(property, var-name)"
+mechanism.
+*/
+
+/* Border styles */
+$var-border-radius: 4px !default;
+$var-border-style: solid !default;
+$var-border-width: 1px !default;
+
+/* Cookie notice positioning */
+$var-notice-right: 20px !default;
+$var-notice-left: auto !default;
+$var-notice-top: auto !default;
+$var-notice-bottom: 20px !default;
+$var-notice-max-width: 400px !default;
+$var-notice-position: fixed !default;
+
+/* Text colors */
+$var-button-text-color: #fff !default;
+
+/* Font Families */
+$var-font-family: inherit !default;
+$var-title-font-family: inherit !default;
+$var-font-size: 14px !default;
+
+/* White */
+$var-white1: #fff !default;
+$var-white2: scale-color($var-white1, $lightness: -5%) !default;
+$var-white3: scale-color($var-white2, $lightness: -5%) !default;
+
+/* Differently shaded colors */
+
+// light gray
+$var-light1: #fafafa !default;
+$var-light2: scale-color($var-light1, $lightness: -20%) !default;
+$var-light3: scale-color($var-light2, $lightness: -20%) !default;
+
+// dark gray
+$var-dark1: #333 !default;
+$var-dark2: scale-color($var-dark1, $lightness: 20%) !default;
+$var-dark3: scale-color($var-dark2, $lightness: 20%) !default;
+
+// blue
+$var-blue1: #2581c4 !default;
+$var-blue2: scale-color($var-blue1, $lightness: 20%) !default;
+$var-blue3: scale-color($var-blue2, $lightness: 20%) !default;
+
+// green
+$var-green1: #1a936f !default;
+$var-green2: scale-color($var-green1, $lightness: 20%) !default;
+$var-green3: scale-color($var-green2, $lightness: 20%) !default;
+
+// red
+$var-red1: #da2c43 !default;
+$var-red2: scale-color($var-red1, $lightness: 20%) !default;
+$var-red3: scale-color($var-red2, $lightness: 20%) !default;
+
+// all these variables can be tweaked at runtime by specifying them via the
+// 'styling' config parameter.
+$vars: (
+    button-text-color: $var-button-text-color,
+
+    font-size: $var-font-size,
+    font-family: $var-font-family,
+    title-font-family: $var-title-font-family,
+
+    green1: $var-green1,
+    green2: $var-green2,
+    green3: $var-green3,
+
+    blue1: $var-blue1,
+    blue2: $var-blue2,
+    blue3: $var-blue3,
+
+    red1: $var-red1,
+    red2: $var-red2,
+    red3: $var-red3,
+
+    light1: $var-light1,
+    light2: $var-light2,
+    light3: $var-light3,
+
+    dark1: $var-dark1,
+    dark2: $var-dark2,
+    dark3: $var-dark3,
+
+    white1: $var-white1,
+    white2: $var-white2,
+    white3: $var-white3,
+
+    // non-color options
+
+    border-radius: $var-border-radius,
+    border-style: $var-border-style,
+    border-width: $var-border-width,
+    notice-left: $var-notice-left,
+    notice-right: $var-notice-right,
+    notice-top: $var-notice-top,
+    notice-bottom: $var-notice-bottom,
+    notice-max-width: $var-notice-max-width,
+    notice-position: $var-notice-position,
+);
+
+/*
+Use @include var(property, varname) to include a variable, e.g.
+  
+    @include var(background-color, white1);
+
+to create a white background.
+*/
+@mixin var($property, $varName) {
+    #{$property}: map-get($vars, $varName);
+    #{$property}: var(--#{$varName}, map-get($vars, $varName));
+}
+
+/* Spacing */
+$cm-space: (
+    xs: 4px,
+    sm: 8px,
+    md: 12px,
+    lg: 24px,
+    xl: 48px,
+    xxl: 96px
+) !default;
+
+/* Breakpoints */
+$cm-desktop: 1024px !default;
+$cm-mobile: 384px !default;
+$cm-tablet: 768px !default;
+

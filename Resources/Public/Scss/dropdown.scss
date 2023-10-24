@@ -1,0 +1,83 @@
+.cm-dropdown {
+    position: relative;
+
+    > button {
+        display: inline-flex;
+        vertical-align: middle;
+        align-items: center;
+        justify-content: center;
+        width: 2em;
+        height: 2em;
+        font-size: 1em;
+
+        // reset button
+        border: 0;
+        background-color: transparent;
+
+        &:focus,
+        &:hover {
+            @include var(background-color, light1);
+            border-radius: 25px;
+        }
+    }
+
+    > .cm-dropdowncontent {
+        @include var(background-color, white1);
+        display: none;
+        box-shadow: $cm-box-shadow-dark-sm;
+        width: auto;
+
+        &.cm-dropdownexpanded {
+            @include var(border-radius, border-radius);
+            display: block;
+            position: absolute;
+            top: 35px;
+            z-index: 100;
+            left: 0;
+        }
+
+        ul.cm-dropdownmenu {
+
+            @include var(border-radius, border-radius);
+            @include var(border-style, border-style);
+            @include var(border-width, border-width);
+            @include var(border-color, dark2);
+
+            list-style: none;
+            text-align: left;
+            max-width: 300px;
+            min-width: 200px;
+            padding-top: 0.25rem;
+            padding-bottom: 0.25rem;
+
+            li {
+                height: auto;
+
+                a {
+                    display: block;
+                    padding: map-get($cm-space, sm);
+                    padding-left: 16px;
+
+                    span {
+                        display: inline-flex;
+                        align-items: center;
+                    }
+
+                    .icon {
+                        margin-right: 0.45em;
+                    }
+
+                    &:hover {
+                        @include var(background-color, blue1);
+                        @include var(color, white1);
+                    }
+                }
+            }
+        }
+    }
+
+    &.is-right .cm-dropdowncontent.cm-dropdownexpanded {
+        right: 0;
+        left: auto;
+    }
+}
