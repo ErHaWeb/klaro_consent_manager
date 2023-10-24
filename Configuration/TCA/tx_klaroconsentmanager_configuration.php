@@ -214,7 +214,7 @@ return [
             'description' => 'LLL:EXT:klaro_consent_manager/Resources/Private/Language/locallang_db.xlf:tx_klaroconsentmanager_configuration.cookie_expires_after_days.description',
             'config' => [
                 'type' => 'input',
-                'eval' => 'trim',
+                'eval' => 'trim,num',
                 'default' => 60,
                 'placeholder' => 'LLL:EXT:klaro_consent_manager/Resources/Private/Language/locallang_db.xlf:tx_klaroconsentmanager_configuration.cookie_expires_after_days.placeholder',
             ]
