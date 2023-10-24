@@ -362,6 +362,10 @@
         <source>Why don't I see a Klaro! Modal? → You must assign at least 1 service to the Klaro! configuration! Without services we don't need consent management at all.</source>
         <target state="needs-translation">Why don't I see a Klaro! Modal? → You must assign at least 1 service to the Klaro! configuration! Without services we don't need consent management at all.</target>
       </trans-unit>
+      <trans-unit id="warning.noServicesPersonalized">
+        <source>Hey %s! You missed a service in the config! Without services we don't need consent management at all.</source>
+        <target state="needs-translation">Hey %s! You missed a service in the config! Without services we don't need consent management at all.</target>
+      </trans-unit>
     </body>
   </file>
 </xliff>
