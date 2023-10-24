@@ -162,12 +162,17 @@ class KlaroService
     /**
      * @var array
      */
+    private array $framework = [];
+
+    /**
+     * @var array
+     */
     private array $settings = [];
 
     /**
      * @var StandaloneView
      */
-    private StandaloneView $view;
+    private StandaloneView $standaloneView;
 
     /**
      * @param ServerRequestInterface $request
@@ -325,20 +330,17 @@ class KlaroService
     {
         $configurationManager = GeneralUtility::makeInstance(ConfigurationManager::class);
 
-        $framework = $configurationManager->getConfiguration(
+        $this->framework = $configurationManager->getConfiguration(
             ConfigurationManagerInterface::CONFIGURATION_TYPE_FRAMEWORK,
             'KlaroConsentManager'
         );
 
-        $this->settings = $configurationManager->getConfiguration(
-            ConfigurationManagerInterface::CONFIGURATION_TYPE_SETTINGS,
-            'KlaroConsentManager'
-        );
+        $this->settings = $this->framework['settings'] ?? [];
 
-        $this->view = GeneralUtility::makeInstance(StandaloneView::class);
-        $this->view->setLayoutRootPaths($framework['view']['layoutRootPaths'] ?? []);
-        $this->view->setPartialRootPaths($framework['view']['partialRootPaths'] ?? []);
-        $this->view->setTemplateRootPaths($framework['view']['templateRootPaths'] ?? []);
+        $this->standaloneView = GeneralUtility::makeInstance(StandaloneView::class);
+        $this->standaloneView->setLayoutRootPaths($this->framework['view']['layoutRootPaths'] ?? []);
+        $this->standaloneView->setPartialRootPaths($this->framework['view']['partialRootPaths'] ?? []);
+        $this->standaloneView->setTemplateRootPaths($this->framework['view']['templateRootPaths'] ?? []);
     }
 
     /**
@@ -648,13 +650,13 @@ class KlaroService
 
     private function getFluidContent(string $template = '', array $additionalArguments = []): string
     {
-        $templateRootPaths = array_reverse($this->view->getTemplateRootPaths());
+        $templateRootPaths = array_reverse($this->standaloneView->getTemplateRootPaths());
 
         //Check if a standalone template is available and extend the label accordingly
         foreach ($templateRootPaths as $templateRootPath) {
             $templateReference = $templateRootPath . $template . '.html';
             if ($templateReference !== 'php://stdin' && file_exists($templateReference)) {
-                $this->view->setTemplate($template);
+                $this->standaloneView->setTemplate($template);
                 $arguments = [
                     'locallang' => [
                         'defaultPath' => $this->locallangPath
@@ -662,9 +664,9 @@ class KlaroService
                     'configuration' => $this->configuration
                 ];
                 ArrayUtility::mergeRecursiveWithOverrule($arguments, $additionalArguments);
-                $this->view->assignMultiple($arguments);
+                $this->standaloneView->assignMultiple($arguments);
 
-                if ($return = $this->view->render()) {
+                if ($return = $this->standaloneView->render()) {
                     return $this->prepareStringForJavaScript($return);
                 }
             }
@@ -710,7 +712,8 @@ class KlaroService
             'links' => [
                 'privacyPolicyLink' => $this->privacyPolicyLink,
                 'imprintLink' => $this->imprintLink
-            ]
+            ],
+            'framework' => $this->framework
         ];
         ArrayUtility::mergeRecursiveWithOverrule($arguments, $additionalArguments);
 
