@@ -657,13 +657,24 @@ class KlaroService
             $templateReference = $templateRootPath . $template . '.html';
             if ($templateReference !== 'php://stdin' && file_exists($templateReference)) {
                 $this->standaloneView->setTemplate($template);
+
                 $arguments = [
                     'locallang' => [
-                        'defaultPath' => $this->locallangPath
+                        'defaultPath' => $this->locallangPath,
+                        'overridePath' => $this->locallangPathOverride,
+                        'languageKey' => $this->siteLanguage->getTypo3Language()
                     ],
-                    'configuration' => $this->configuration
+                    'rawConfiguration' => $this->rawConfiguration,
+                    'configuration' => $this->configuration,
+                    'links' => [
+                        'privacyPolicyLink' => $this->privacyPolicyLink,
+                        'imprintLink' => $this->imprintLink
+                    ],
+                    'framework' => $this->framework
                 ];
+
                 ArrayUtility::mergeRecursiveWithOverrule($arguments, $additionalArguments);
+
                 $this->standaloneView->assignMultiple($arguments);
 
                 if ($return = $this->standaloneView->render()) {
@@ -703,18 +714,9 @@ class KlaroService
                 'key' => $key,
                 'fullKey' => $fullKey,
                 'label' => $label,
-                'defaultPath' => $this->locallangPath,
-                'overridePath' => $this->locallangPathOverride,
-                'languageKey' => $this->siteLanguage->getTypo3Language()
-            ],
-            'rawConfiguration' => $this->rawConfiguration,
-            'configuration' => $this->configuration,
-            'links' => [
-                'privacyPolicyLink' => $this->privacyPolicyLink,
-                'imprintLink' => $this->imprintLink
-            ],
-            'framework' => $this->framework
+            ]
         ];
+
         ArrayUtility::mergeRecursiveWithOverrule($arguments, $additionalArguments);
 
         if ($fluidLabel = $this->getFluidContent($template, $arguments)) {
