@@ -61,6 +61,7 @@ CREATE TABLE tx_klaroconsentmanager_service
 #
 CREATE TABLE tx_klaroconsentmanager_cookie
 (
+    `identifier`         tinytext,
     `title`              tinytext,
     `pattern`            tinytext,
     `path`               tinytext,

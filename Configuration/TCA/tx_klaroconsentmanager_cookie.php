@@ -4,7 +4,7 @@ return [
     'ctrl' => [
         'title' => 'LLL:EXT:klaro_consent_manager/Resources/Private/Language/locallang_db.xlf:tx_klaroconsentmanager_cookie',
         'label' => 'title',
-        'label_alt' => 'pattern',
+        'label_alt' => 'identifier, pattern',
         'tstamp' => 'tstamp',
         'crdate' => 'crdate',
         'cruser_id' => 'cruser_id',
@@ -31,6 +31,15 @@ return [
                     ]
                 ],
             ]
+        ],
+        'identifier' => [
+            'label' => 'LLL:EXT:klaro_consent_manager/Resources/Private/Language/locallang_db.xlf:tx_klaroconsentmanager_cookie.identifier.label',
+            'description' => 'LLL:EXT:klaro_consent_manager/Resources/Private/Language/locallang_db.xlf:tx_klaroconsentmanager_cookie.identifier.description',
+            'config' => [
+                'type' => 'input',
+                'eval' => 'nospace,lower,alphanum_x,unique',
+                'placeholder' => 'LLL:EXT:klaro_consent_manager/Resources/Private/Language/locallang_db.xlf:tx_klaroconsentmanager_cookie.identifier.placeholder',
+            ],
         ],
         'title' => [
             'label' => 'LLL:EXT:klaro_consent_manager/Resources/Private/Language/locallang_db.xlf:tx_klaroconsentmanager_cookie.title.label',
@@ -116,7 +125,7 @@ return [
     ],
     'palettes' => [
         'general_palette' => [
-            'showitem' => 'title, pattern,  path, --linebreak--, domain, expires_after, expires_after_unit'
+            'showitem' => 'identifier, --linebreak--, title, pattern,  path, --linebreak--, domain, expires_after, expires_after_unit'
         ],
         'access' => [
             'label' => 'LLL:EXT:klaro_consent_manager/Resources/Private/Language/locallang_db.xlf:tx_klaroconsentmanager_configuration.palettes.access_palette',
