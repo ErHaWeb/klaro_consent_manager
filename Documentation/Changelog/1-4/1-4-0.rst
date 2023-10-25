@@ -1,0 +1,44 @@
+.. include:: /Includes.rst.txt
+
+1.4.0 - October 26, 2023
+========================
+
+
+.. only:: html
+
+   .. contents::
+        :local:
+        :depth: 3
+
+Breaking changes
+----------------
+Please make a DB compare to add a new field for cookies and services
+
+All Changes
+-----------
+This is a list of all changes in this release: ::
+
+    2023-10-26 [TASK] Update custom styles (Commit be08984 by Eric Harrer)
+    2023-10-25 [TASK] SCSS and compiled version of custom styles (Commit 4faf2b2 by Eric Harrer)
+    2023-10-25 [TASK] Add "white-space: nowrap" for table headings (Commit 904bf8f by Eric Harrer)
+    2023-10-25 [TASK] Add special cookie expiration unit "end-of-session" (Commit cc04da7 by Eric Harrer)
+    2023-10-25 [FEATURE] Add Fluid root path field in Klaro configuration (Commit 5c35dc4 by Eric Harrer)
+    2023-10-25 [TASK] Update TCA to improve FormEngine forms (Commit 01add15 by Eric Harrer)
+    2023-10-25 [FEATURE] Add unique identifier for cookies (Commit e55019c by Eric Harrer)
+    2023-10-25 [TASK] Assign more vars to appended/prepended fluid content (Commit 143911c by Eric Harrer)
+    2023-10-24 [TASK] Remove p tag around modal description if label is empty (Commit a9982e6 by Eric Harrer)
+    2023-10-24 [TASK] Assign framework data to label StandaloneView (Commit b91e1d8 by Eric Harrer)
+    2023-10-24 [TASK] Allow removing default assets by empty value (Commit 2da77a2 by Eric Harrer)
+    2023-10-24 [TASK] Add default SCSS files (Commit 8364344 by Eric Harrer)
+    2023-10-24 [FEATURE] Add title and expiration time for cookies (Commit 9ca0e16 by Eric Harrer)
+    2023-10-24 [TASK] Remove excess spaces between words (Commit f9056fc by Eric Harrer)
+    2023-10-24 [TASK] Eval num input on field „cookie_expires_after_days" (Commit c22bca2 by Eric Harrer)
+    2023-10-24 [FEATURE] Advanced callback functions for services (Commit facbbaf by Eric Harrer)
+    2023-10-24 [TASK] Stabilize personalized error message (Commit 42d5c45 by Eric Harrer)
+    2023-10-24 [TASK] Add license information (Commit fb699f3 by Eric Harrer)
+    2023-10-24 [BUGFIX] Fix service description append if "htmlTexts" is false (Commit 71488aa by Eric Harrer)
+    2023-10-24 [TASK] Add personalized JavaScript warning if no service is assigned (Commit 7c2a704 by Eric Harrer)
+    2023-10-24 [TASK] Add JavaScript warning in console if no service is assigned (Commit 2c8198d by Eric Harrer)
+    2023-10-24 [BUGFIX] Consider Language Key in Fluid (Commit bdbae84 by Eric Harrer)
+
+This list has been created by using `git log $(git describe --tags --abbrev=0)..HEAD --abbrev-commit --pretty='%ad %s (Commit %h by %an)' --date=short`.
