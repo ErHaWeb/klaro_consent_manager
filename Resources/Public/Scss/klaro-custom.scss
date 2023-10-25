@@ -1,4 +1,6 @@
 @use "sass:map";
+@import './vars';
+
 $var-border-color: #000 !default;
 $vars: map.merge($vars, ("border-color": $var-border-color));
 .klaro {
