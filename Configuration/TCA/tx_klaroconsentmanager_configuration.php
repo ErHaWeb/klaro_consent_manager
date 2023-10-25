@@ -406,6 +406,16 @@ return [
                 'rows' => 10,
             ]
         ],
+        'fluidtemplate_rootpath' => [
+            'label' => 'LLL:EXT:klaro_consent_manager/Resources/Private/Language/locallang_db.xlf:tx_klaroconsentmanager_configuration.fluidtemplate_rootpath.label',
+            'description' => 'LLL:EXT:klaro_consent_manager/Resources/Private/Language/locallang_db.xlf:tx_klaroconsentmanager_configuration.fluidtemplate_rootpath.description',
+            'config' => [
+                'type' => 'input',
+                'eval' => 'trim',
+                'default' => '',
+                'placeholder' => 'LLL:EXT:klaro_consent_manager/Resources/Private/Language/locallang_db.xlf:tx_klaroconsentmanager_configuration.fluidtemplate_rootpath.placeholder',
+            ]
+        ],
         'locallang_path' => [
             'label' => 'LLL:EXT:klaro_consent_manager/Resources/Private/Language/locallang_db.xlf:tx_klaroconsentmanager_configuration.locallang_path.label',
             'description' => 'LLL:EXT:klaro_consent_manager/Resources/Private/Language/locallang_db.xlf:tx_klaroconsentmanager_configuration.locallang_path.description',
@@ -559,7 +569,7 @@ return [
         ],
         'translations_palette' => [
             'label' => 'LLL:EXT:klaro_consent_manager/Resources/Private/Language/locallang_db.xlf:tx_klaroconsentmanager_configuration.palettes.translations_palette',
-            'showitem' => 'locallang_path'
+            'showitem' => 'fluidtemplate_rootpath, locallang_path'
         ],
         'callback_palette' => [
             'label' => 'LLL:EXT:klaro_consent_manager/Resources/Private/Language/locallang_db.xlf:tx_klaroconsentmanager_configuration.palettes.callback_palette',

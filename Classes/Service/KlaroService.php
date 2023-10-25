@@ -89,6 +89,7 @@ class KlaroService
         // Special properties
         'color_scheme' => ['type' => 'bypass', 'default' => 'dark'],
         'alignment' => ['type' => 'bypass', 'default' => 'bottom-right'],
+        'fluidtemplate_rootpath' => ['type' => 'bypass', 'default' => ''],
         'locallang_path' => ['type' => 'bypass', 'default' => ''],
 
         // Relations
@@ -337,11 +338,28 @@ class KlaroService
         );
 
         $this->settings = $this->framework['settings'] ?? [];
-
         $this->standaloneView = GeneralUtility::makeInstance(StandaloneView::class);
-        $this->standaloneView->setLayoutRootPaths($this->framework['view']['layoutRootPaths'] ?? []);
-        $this->standaloneView->setPartialRootPaths($this->framework['view']['partialRootPaths'] ?? []);
-        $this->standaloneView->setTemplateRootPaths($this->framework['view']['templateRootPaths'] ?? []);
+
+        $layoutRootPaths = [];
+        $partialRootPaths = [];
+        $templateRootPaths = [];
+
+        $fluidRootPath = $this->rawConfiguration['fluidtemplate_rootpath'];
+
+        if ($fluidRootPath) {
+            $layoutRootPaths = [$fluidRootPath . 'Layouts/'];
+            $partialRootPaths = [$fluidRootPath . 'Partials/'];
+            $templateRootPaths = [$fluidRootPath . 'Templates/'];
+        }
+
+        $layoutRootPaths = array_merge($this->framework['view']['layoutRootPaths'] ?? [], $layoutRootPaths);
+        $this->standaloneView->setLayoutRootPaths($layoutRootPaths);
+
+        $partialRootPaths = array_merge($this->framework['view']['partialRootPaths'] ?? [], $partialRootPaths);
+        $this->standaloneView->setPartialRootPaths($partialRootPaths);
+
+        $templateRootPaths = array_merge($this->framework['view']['templateRootPaths'] ?? [], $templateRootPaths);
+        $this->standaloneView->setTemplateRootPaths($templateRootPaths);
     }
 
     /**

@@ -268,6 +268,15 @@
             <trans-unit id="tx_klaroconsentmanager_configuration.locallang_path.placeholder">
                 <source>EXT:sitepackage/Resources/Private/Language/Klaro/locallang.xlf</source>
             </trans-unit>
+            <trans-unit id="tx_klaroconsentmanager_configuration.fluidtemplate_rootpath.label">
+                <source>Fluid Template Root Path</source>
+            </trans-unit>
+            <trans-unit id="tx_klaroconsentmanager_configuration.fluidtemplate_rootpath.description">
+                <source>As an alternative to the usual TypoScript configuration via constants under `plugin.tx_klaroconsentmanager.view`, a Fluid root path can be defined here, which has a higher priority than the paths configured in TypoScript. The three default directories `/Layouts/`, `/Partials/` and `/Templates/` are expected under this path. Fluid templates created here are used to enrich Locallang labels with additional functionality or to replace them completely. In this way, dynamic content or more complex HTML structures can be provided in a simple way. Fluid templates that are to override labels are expected in the subdirectory `/Templates/Labels/`.</source>
+            </trans-unit>
+            <trans-unit id="tx_klaroconsentmanager_configuration.fluidtemplate_rootpath.placeholder">
+                <source>EXT:sitepackage/Resources/Private/</source>
+            </trans-unit>
             <trans-unit id="tx_klaroconsentmanager_configuration.alignment.label">
                 <source>Alignment</source>
             </trans-unit>
