@@ -685,6 +685,18 @@
         <source>Cookie</source>
         <target state="needs-translation">Cookie</target>
       </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_cookie.identifier.label">
+        <source>Identifier</source>
+        <target state="needs-translation">Identifier</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_cookie.identifier.description">
+        <source>This is a unique identifier for this cookie. It must be written in lower case and must not contain any spaces, only the characters a-z, 0-9 and "-" or "_". The identifier can be used in Fluid, for example.</source>
+        <target state="needs-translation">This is a unique identifier for this cookie. It must be written in lower case and must not contain any spaces, only the characters a-z, 0-9 and "-" or "_". The identifier can be used in Fluid, for example.</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_cookie.identifier.placeholder">
+        <source>lowercase_alphanum-x</source>
+        <target state="needs-translation">lowercase_alphanum-x</target>
+      </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_cookie.title.label">
         <source>Title</source>
         <target state="needs-translation">Title</target>
