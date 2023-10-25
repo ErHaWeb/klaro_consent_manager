@@ -1,0 +1,79 @@
+@use "sass:map";
+$var-border-color: #000 !default;
+$vars: map.merge($vars, ("border-color": $var-border-color));
+.klaro {
+  .cookie-modal {
+    .cm-modal {
+      .cm-body {
+        .table {
+          display: table;
+          width: 100%;
+          @include var(border-style, border-style);
+          @include var(border-color, border-color);
+          @include var(border-width, border-width);
+
+          > .tr {
+            display: table-row;
+
+            > .th {
+              white-space: nowrap;
+              font-weight: bold;
+            }
+
+            > .th,
+            > .td {
+              padding: 0.25rem 0.5rem;
+              display: table-cell;
+              @include var(border-bottom-style, border-style);
+              @include var(border-bottom-color, border-color);
+              @include var(border-bottom-width, border-width);
+              @include var(border-left-style, border-style);
+              @include var(border-left-color, border-color);
+              @include var(border-left-width, border-width);
+            }
+
+            &:last-child {
+              > .th,
+              > .td {
+                border-bottom: none;
+              }
+            }
+
+            > .th,
+            > .td {
+              &:first-child {
+                border-left: none;
+              }
+            }
+          }
+        }
+      }
+
+      .cm-footer {
+        .cm-powered-by {
+          .d-flex {
+            display: flex;
+            justify-content: space-between;
+          }
+        }
+
+        > span {
+          &:last-child {
+            display: block;
+            font-size: 0.8em;
+            padding-top: 4px;
+            text-align: right;
+            padding-right: 8px;
+            @include var(color, dark2);
+          }
+        }
+
+        .cm-powered-by {
+          font-size: inherit;
+          padding-top: 0;
+          padding-right: 0;
+        }
+      }
+    }
+  }
+}
