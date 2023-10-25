@@ -14,7 +14,7 @@
                 <f:if condition="{cookie.domain}">
                     <f:variable name="domainExists" value="1"/>
                 </f:if>
-                <f:if condition="{cookie.expires_after} > 0">
+                <f:if condition="{cookie.expires_after} > 0 || {cookie.expires_after_unit} == 'end-of-session'">
                     <f:variable name="expiresAfterExists" value="1"/>
                 </f:if>
             </f:for>
@@ -47,8 +47,9 @@
                         </f:if>
                         <f:if condition="{expiresAfterExists}">
                             <span class="td">
-                                <f:if condition="{cookie.expires_after} > 0">
-                                    {cookie.expires_after} {f:render(section: 'Unit', arguments: _all)}
+                                <f:if condition="{cookie.expires_after} > 0 || {cookie.expires_after_unit} == 'end-of-session'">
+                                    <f:if condition="{cookie.expires_after_unit} != 'end-of-session'">{cookie.expires_after}</f:if>
+                                    <f:render section="Unit" arguments="{_all}"/>
                                 </f:if>
                             </span>
                         </f:if>
@@ -73,9 +74,10 @@
                     , {f:render(partial: 'Label', arguments:'{key:\'cookies.headline.domain\', locallang:locallang}')}:
                     {cookie.domain}
                 </f:if>
-                <f:if condition="{cookie.expires_after} > 0">
+                <f:if condition="{cookie.expires_after} > 0 || {cookie.expires_after_unit} == 'end-of-session'">
                     , {f:render(partial: 'Label', arguments: '{key:\'cookies.headline.expiresAfter\', locallang:locallang}')}:
-                    {cookie.expires_after} {f:render(section: 'Unit', arguments: _all)}
+                    <f:if condition="{cookie.expires_after_unit} != 'end-of-session'">{cookie.expires_after}</f:if>
+                    <f:render section="Unit" arguments="{_all}"/>
                 </f:if>
             </f:for>
         </f:else>
@@ -84,7 +86,7 @@
 
 <f:section name="Unit">
     <f:variable name="unit"/>
-    <f:if condition="{cookie.expires_after} == 1">
+    <f:if condition="{cookie.expires_after} == 1 && {cookie.expires_after_unit} != 'end-of-session'">
         <f:then>
             <f:switch expression="{cookie.expires_after_unit}">
                 <f:case value="years"><f:variable name="unit" value="{f:render(partial: 'Label', arguments: '{key:\'year\', locallang:locallang}')}"/></f:case>

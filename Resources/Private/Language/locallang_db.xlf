@@ -661,7 +661,7 @@
                 <source>Expires after unit</source>
             </trans-unit>
             <trans-unit id="tx_klaroconsentmanager_cookie.expires_after_unit.description">
-                <source>Unit used for the "Expires after" specification.</source>
+                <source>Unit used for the "Expires after" specification. The special value "end-of-session" does not need a numeric value and hides the "Expires after" field accordingly.</source>
             </trans-unit>
             <trans-unit id="tx_klaroconsentmanager_cookie.expires_after_unit.I.years">
                 <source>Years</source>
@@ -680,6 +680,9 @@
             </trans-unit>
             <trans-unit id="tx_klaroconsentmanager_cookie.expires_after_unit.I.seconds">
                 <source>Seconds</source>
+            </trans-unit>
+            <trans-unit id="tx_klaroconsentmanager_cookie.expires_after_unit.I.end-of-session">
+                <source>End of session</source>
             </trans-unit>
             <trans-unit id="sys_template.TypoScript.klaro_consent_manager.title">
                 <source>Klaro! Consent Manager: Static TypoScript Include (feed_display)</source>
