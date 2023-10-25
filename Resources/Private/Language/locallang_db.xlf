@@ -19,6 +19,15 @@
             <trans-unit id="tx_klaroconsentmanager_configuration.tabs.display">
                 <source>Display</source>
             </trans-unit>
+            <trans-unit id="tx_klaroconsentmanager_configuration.tabs.layout">
+                <source>Layout</source>
+            </trans-unit>
+            <trans-unit id="tx_klaroconsentmanager_configuration.tabs.content">
+                <source>Content</source>
+            </trans-unit>
+            <trans-unit id="tx_klaroconsentmanager_configuration.tabs.cookie">
+                <source>Cookie</source>
+            </trans-unit>
             <trans-unit id="tx_klaroconsentmanager_configuration.tabs.advanced">
                 <source>Advanced</source>
             </trans-unit>
@@ -48,6 +57,18 @@
             </trans-unit>
             <trans-unit id="tx_klaroconsentmanager_configuration.palettes.display_palette">
                 <source>Other display settings</source>
+            </trans-unit>
+            <trans-unit id="tx_klaroconsentmanager_configuration.palettes.layout_palette">
+                <source>Layout settings</source>
+            </trans-unit>
+            <trans-unit id="tx_klaroconsentmanager_configuration.palettes.behavior_palette">
+                <source>Behavior</source>
+            </trans-unit>
+            <trans-unit id="tx_klaroconsentmanager_configuration.palettes.hide_buttons_palette">
+                <source>Hide Buttons</source>
+            </trans-unit>
+            <trans-unit id="tx_klaroconsentmanager_configuration.palettes.append_buttons_palette">
+                <source>Append Buttons</source>
             </trans-unit>
             <trans-unit id="tx_klaroconsentmanager_configuration.palettes.access_palette">
                 <source>Access</source>
@@ -131,7 +152,7 @@
                 <source>HTML Texts</source>
             </trans-unit>
             <trans-unit id="tx_klaroconsentmanager_configuration.html_texts.description">
-                <source>If set to `true`, Klaro will render the texts given in the `consentModal.description` and `consentNotice.description` translations as HTML. This enables you to e.g. add custom links or interactive content.</source>
+                <source>If set to `true`, Klaro will render the texts given in the `consentModal.description` and `consentNotice.description` translations as HTML. This enables you to e.g. add custom links or interactive content. If you want to be able to output HTML tags via fluid-enriched labels (see "Content" > "Translations"), this option must be enabled.</source>
             </trans-unit>
             <trans-unit id="tx_klaroconsentmanager_configuration.embedded.label">
                 <source>Embedded</source>
@@ -242,7 +263,7 @@
                 <source>Locallang Path</source>
             </trans-unit>
             <trans-unit id="tx_klaroconsentmanager_configuration.locallang_path.description">
-                <source>Optional path to an additional XLIFF file that overwrites the default labels or adds new labels (e.g. for custom purposes or services).</source>
+                <source>Optional path to an additional XLIFF file that overwrites the default labels or adds new labels (e.g. for custom purposes or services). If fluid templates have been stored for the labels created in this file (see the "Fluid Template Root Path" field), these will overwrite the classic labels from the Locallang file. Nevertheless, it is possible and common to reference the locallang file from the respective fluid template and obtain the actual label there (the label key is passed to the fluid template).</source>
             </trans-unit>
             <trans-unit id="tx_klaroconsentmanager_configuration.locallang_path.placeholder">
                 <source>EXT:sitepackage/Resources/Private/Language/Klaro/locallang.xlf</source>
@@ -314,6 +335,36 @@
             <!-- Service -->
             <trans-unit id="tx_klaroconsentmanager_service">
                 <source>Klaro! Service</source>
+            </trans-unit>
+            <trans-unit id="tx_klaroconsentmanager_service.tabs.general">
+                <source>General</source>
+            </trans-unit>
+            <trans-unit id="tx_klaroconsentmanager_service.tabs.cookies">
+                <source>Cookies</source>
+            </trans-unit>
+            <trans-unit id="tx_klaroconsentmanager_service.tabs.toggles">
+                <source>Toggles</source>
+            </trans-unit>
+            <trans-unit id="tx_klaroconsentmanager_service.tabs.advanced">
+                <source>Advanced</source>
+            </trans-unit>
+            <trans-unit id="tx_klaroconsentmanager_service.tabs.access">
+                <source>Access</source>
+            </trans-unit>
+            <trans-unit id="tx_klaroconsentmanager_service.palettes.general_palette">
+                <source>General Settings</source>
+            </trans-unit>
+            <trans-unit id="tx_klaroconsentmanager_service.palettes.cookie_palette">
+                <source>Cookie Settings</source>
+            </trans-unit>
+            <trans-unit id="tx_klaroconsentmanager_service.palettes.toggles_palette">
+                <source>Toggles</source>
+            </trans-unit>
+            <trans-unit id="tx_klaroconsentmanager_service.palettes.advanced_palette">
+                <source>Advanced Settings</source>
+            </trans-unit>
+            <trans-unit id="tx_klaroconsentmanager_service.palettes.access_palette">
+                <source>Access</source>
             </trans-unit>
             <trans-unit id="tx_klaroconsentmanager_service.I.enabled">
                 <source>Enabled</source>
@@ -521,6 +572,27 @@
             <!-- Cookie -->
             <trans-unit id="tx_klaroconsentmanager_cookie">
                 <source>Cookie</source>
+            </trans-unit>
+            <trans-unit id="tx_klaroconsentmanager_cookie.tabs.general">
+                <source>General</source>
+            </trans-unit>
+            <trans-unit id="tx_klaroconsentmanager_cookie.tabs.access">
+                <source>Access</source>
+            </trans-unit>
+            <trans-unit id="tx_klaroconsentmanager_cookie.palettes.identification_palette">
+                <source>Identification and presentation of the cookie</source>
+            </trans-unit>
+            <trans-unit id="tx_klaroconsentmanager_cookie.palettes.technic_palette">
+                <source>Technically relevant settings</source>
+            </trans-unit>
+            <trans-unit id="tx_klaroconsentmanager_cookie.palettes.technic_palette.description">
+                <source>This information is technically evaluated by Klaro! to manipulate the cookie.</source>
+            </trans-unit>
+            <trans-unit id="tx_klaroconsentmanager_cookie.palettes.expiration_palette">
+                <source>Expiration Time</source>
+            </trans-unit>
+            <trans-unit id="tx_klaroconsentmanager_cookie.palettes.access_palette">
+                <source>Access</source>
             </trans-unit>
             <trans-unit id="tx_klaroconsentmanager_cookie.identifier.label">
                 <source>Identifier</source>

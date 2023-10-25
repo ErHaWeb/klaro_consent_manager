@@ -238,6 +238,8 @@ return [
             ]
         ],
         'must_consent' => [
+            'onChange' => 'reload',
+            'displayCond' => 'FIELD:notice_as_modal:=:0',
             'label' => 'LLL:EXT:klaro_consent_manager/Resources/Private/Language/locallang_db.xlf:tx_klaroconsentmanager_configuration.must_consent.label',
             'description' => 'LLL:EXT:klaro_consent_manager/Resources/Private/Language/locallang_db.xlf:tx_klaroconsentmanager_configuration.must_consent.description',
             'config' => [
@@ -329,6 +331,8 @@ return [
             ]
         ],
         'notice_as_modal' => [
+            'onChange' => 'reload',
+            'displayCond' => 'FIELD:must_consent:=:0',
             'label' => 'LLL:EXT:klaro_consent_manager/Resources/Private/Language/locallang_db.xlf:tx_klaroconsentmanager_configuration.notice_as_modal.label',
             'description' => 'LLL:EXT:klaro_consent_manager/Resources/Private/Language/locallang_db.xlf:tx_klaroconsentmanager_configuration.notice_as_modal.description',
             'config' => [
@@ -431,6 +435,12 @@ return [
             ]
         ],
         'alignment' => [
+            'displayCond' => [
+                'AND' => [
+                    'FIELD:must_consent:=:0',
+                    'FIELD:notice_as_modal:=:0',
+                ],
+            ],
             'label' => 'LLL:EXT:klaro_consent_manager/Resources/Private/Language/locallang_db.xlf:tx_klaroconsentmanager_configuration.alignment.label',
             'description' => 'LLL:EXT:klaro_consent_manager/Resources/Private/Language/locallang_db.xlf:tx_klaroconsentmanager_configuration.alignment.description',
             'config' => [
@@ -501,13 +511,20 @@ return [
                     --palette--;;general_palette,
                     --palette--;;services_palette,
                 --div--;LLL:EXT:klaro_consent_manager/Resources/Private/Language/locallang_db.xlf:tx_klaroconsentmanager_configuration.tabs.display,
+                --div--;LLL:EXT:klaro_consent_manager/Resources/Private/Language/locallang_db.xlf:tx_klaroconsentmanager_configuration.tabs.layout,
+                    --palette--;;layout_palette,
                     --palette--;;consent_palette,
+                    --palette--;;behavior_palette,
                     --palette--;;display_palette,
+                --div--;LLL:EXT:klaro_consent_manager/Resources/Private/Language/locallang_db.xlf:tx_klaroconsentmanager_configuration.tabs.content,
+                    --palette--;;hide_buttons_palette,
+                    --palette--;;append_buttons_palette,
                     --palette--;;translations_palette,
+                --div--;LLL:EXT:klaro_consent_manager/Resources/Private/Language/locallang_db.xlf:tx_klaroconsentmanager_configuration.tabs.cookie,
+                    --palette--;;cookie_palette,
                 --div--;LLL:EXT:klaro_consent_manager/Resources/Private/Language/locallang_db.xlf:tx_klaroconsentmanager_configuration.tabs.advanced,
                     --palette--;;setup_palette,
                     --palette--;;storage_palette,
-                    --palette--;;cookie_palette,
                     --palette--;;callback_palette,
                 --div--;LLL:EXT:klaro_consent_manager/Resources/Private/Language/locallang_db.xlf:tx_klaroconsentmanager_configuration.tabs.access,
                     --palette--;;access
@@ -523,7 +540,6 @@ return [
             'label' => 'LLL:EXT:klaro_consent_manager/Resources/Private/Language/locallang_db.xlf:tx_klaroconsentmanager_configuration.palettes.setup_palette',
             'showitem' => '
                 config_variable_name, --linebreak--,
-                testing, no_auto_load, --linebreak--,
                 element_i_d, additional_class'
         ],
         'storage_palette' => [
@@ -552,18 +568,41 @@ return [
         'consent_palette' => [
             'label' => 'LLL:EXT:klaro_consent_manager/Resources/Private/Language/locallang_db.xlf:tx_klaroconsentmanager_configuration.palettes.consent_palette',
             'showitem' => '
-                default, --linebreak--,
-                must_consent, accept_all'
+                default, accept_all
+            '
         ],
         'display_palette' => [
             'label' => 'LLL:EXT:klaro_consent_manager/Resources/Private/Language/locallang_db.xlf:tx_klaroconsentmanager_configuration.palettes.display_palette',
             'showitem' => '
-                html_texts, hide_decline_all, --linebreak--,
-                hide_learn_more, embedded, --linebreak--,
-                group_by_purpose, hide_toggle_all, --linebreak--,
-                notice_as_modal, disable_powered_by, --linebreak--,
-                append_show_button, append_reset_button, --linebreak--,
-                color_scheme, alignment'
+                group_by_purpose, disable_powered_by
+            '
+        ],
+        'layout_palette' => [
+            'label' => 'LLL:EXT:klaro_consent_manager/Resources/Private/Language/locallang_db.xlf:tx_klaroconsentmanager_configuration.palettes.layout_palette',
+            'showitem' => '
+                color_scheme, alignment
+            '
+        ],
+        'behavior_palette' => [
+            'label' => 'LLL:EXT:klaro_consent_manager/Resources/Private/Language/locallang_db.xlf:tx_klaroconsentmanager_configuration.palettes.behavior_palette',
+            'showitem' => '
+                must_consent, notice_as_modal, --linebreak--,
+                html_texts, embedded, --linebreak--,
+                testing, no_auto_load
+            '
+        ],
+        'hide_buttons_palette' => [
+            'label' => 'LLL:EXT:klaro_consent_manager/Resources/Private/Language/locallang_db.xlf:tx_klaroconsentmanager_configuration.palettes.hide_buttons_palette',
+            'showitem' => '
+                hide_decline_all, hide_learn_more, --linebreak--,
+                hide_toggle_all, 
+            '
+        ],
+        'append_buttons_palette' => [
+            'label' => 'LLL:EXT:klaro_consent_manager/Resources/Private/Language/locallang_db.xlf:tx_klaroconsentmanager_configuration.palettes.append_buttons_palette',
+            'showitem' => '
+                append_show_button, append_reset_button
+            '
         ],
         'access' => [
             'label' => 'LLL:EXT:klaro_consent_manager/Resources/Private/Language/locallang_db.xlf:tx_klaroconsentmanager_configuration.palettes.access_palette',

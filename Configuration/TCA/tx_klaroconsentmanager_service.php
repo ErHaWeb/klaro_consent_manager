@@ -296,29 +296,52 @@ return [
     'types' => [
         0 => [
             'showitem' => '
-                --div--;General,
+                --div--;LLL:EXT:klaro_consent_manager/Resources/Private/Language/locallang_db.xlf:tx_klaroconsentmanager_service.tabs.general,
                     --palette--;;general_palette,
-                --div--;Toggles,
+                --div--;LLL:EXT:klaro_consent_manager/Resources/Private/Language/locallang_db.xlf:tx_klaroconsentmanager_service.tabs.cookies,
+                    --palette--;;cookie_palette,
+                --div--;LLL:EXT:klaro_consent_manager/Resources/Private/Language/locallang_db.xlf:tx_klaroconsentmanager_service.tabs.toggles,
                     --palette--;;toggles_palette,
-                --div--;Advanced,
+                --div--;LLL:EXT:klaro_consent_manager/Resources/Private/Language/locallang_db.xlf:tx_klaroconsentmanager_service.tabs.advanced,
                     --palette--;;advanced_palette,
-                --div--;Access,
+                --div--;LLL:EXT:klaro_consent_manager/Resources/Private/Language/locallang_db.xlf:tx_klaroconsentmanager_service.tabs.access,
                     --palette--;;access
             '
         ],
     ],
     'palettes' => [
         'general_palette' => [
-            'showitem' => 'title, --linebreak--, name, --linebreak--, default, --linebreak--, purposes, --linebreak--, cookies',
+            'label' => 'LLL:EXT:klaro_consent_manager/Resources/Private/Language/locallang_db.xlf:tx_klaroconsentmanager_service.palettes.general_palette',
+            'showitem' => '
+                title, default, --linebreak--,
+                name, --linebreak--, purposes
+            ',
+        ],
+        'cookie_palette' => [
+            'label' => 'LLL:EXT:klaro_consent_manager/Resources/Private/Language/locallang_db.xlf:tx_klaroconsentmanager_service.palettes.cookie_palette',
+            'showitem' => '
+                cookies
+            ',
         ],
         'toggles_palette' => [
-            'showitem' => 'required, opt_out, --linebreak--, only_once, contextual_consent_only'
+            'label' => 'LLL:EXT:klaro_consent_manager/Resources/Private/Language/locallang_db.xlf:tx_klaroconsentmanager_service.palettes.toggles_palette',
+            'showitem' => '
+                required, opt_out, --linebreak--,
+                only_once, contextual_consent_only
+            '
         ],
         'advanced_palette' => [
-            'showitem' => 'callback, --linebreak--, on_accept, --linebreak--, on_init, --linebreak--, on_decline, --linebreak--, vars',
+            'label' => 'LLL:EXT:klaro_consent_manager/Resources/Private/Language/locallang_db.xlf:tx_klaroconsentmanager_service.palettes.advanced_palette',
+            'showitem' => '
+                callback, --linebreak--,
+                on_accept, --linebreak--,
+                on_init, --linebreak--,
+                on_decline, --linebreak--,
+                vars
+            ',
         ],
         'access' => [
-            'label' => 'LLL:EXT:klaro_consent_manager/Resources/Private/Language/locallang_db.xlf:tx_klaroconsentmanager_configuration.palettes.access_palette',
+            'label' => 'LLL:EXT:klaro_consent_manager/Resources/Private/Language/locallang_db.xlf:tx_klaroconsentmanager_service.palettes.access_palette',
             'showitem' => 'hidden',
         ],
     ],

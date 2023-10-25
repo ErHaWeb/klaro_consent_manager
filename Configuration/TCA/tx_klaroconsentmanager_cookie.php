@@ -116,18 +116,36 @@ return [
     'types' => [
         0 => [
             'showitem' => '
-                --div--;General,
-                    --palette--;;general_palette,
-                --div--;Access,
-                    --palette--;;access
+                --div--;LLL:EXT:klaro_consent_manager/Resources/Private/Language/locallang_db.xlf:tx_klaroconsentmanager_cookie.tabs.general,
+                    --palette--;;identification_palette,
+                    --palette--;;technic_palette,
+                    --palette--;;expiration_palette,
+                --div--;LLL:EXT:klaro_consent_manager/Resources/Private/Language/locallang_db.xlf:tx_klaroconsentmanager_cookie.tabs.access,
+                    --palette--;;access_palette
             '
         ],
     ],
     'palettes' => [
-        'general_palette' => [
-            'showitem' => 'identifier, --linebreak--, title, pattern,  path, --linebreak--, domain, expires_after, expires_after_unit'
+        'identification_palette' => [
+            'label' => 'LLL:EXT:klaro_consent_manager/Resources/Private/Language/locallang_db.xlf:tx_klaroconsentmanager_cookie.palettes.identification_palette',
+            'showitem' => '
+                identifier, title
+            '
         ],
-        'access' => [
+        'technic_palette' => [
+            'label' => 'LLL:EXT:klaro_consent_manager/Resources/Private/Language/locallang_db.xlf:tx_klaroconsentmanager_cookie.palettes.technic_palette',
+            'description' => 'LLL:EXT:klaro_consent_manager/Resources/Private/Language/locallang_db.xlf:tx_klaroconsentmanager_cookie.palettes.technic_palette.description',
+            'showitem' => '
+                pattern, path, domain
+            '
+        ],
+        'expiration_palette' => [
+            'label' => 'LLL:EXT:klaro_consent_manager/Resources/Private/Language/locallang_db.xlf:tx_klaroconsentmanager_cookie.palettes.expiration_palette',
+            'showitem' => '
+                expires_after, expires_after_unit
+            '
+        ],
+        'access_palette' => [
             'label' => 'LLL:EXT:klaro_consent_manager/Resources/Private/Language/locallang_db.xlf:tx_klaroconsentmanager_configuration.palettes.access_palette',
             'showitem' => 'hidden',
         ],
