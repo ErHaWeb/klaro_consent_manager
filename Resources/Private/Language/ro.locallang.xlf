@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xliff xmlns:t3="http://typo3.org/schemas/xliff" xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
-  <file source-language="en" original="EXT:klaro_consent_manager/Resources/Private/Language/locallang.xlf" datatype="plaintext" product-name="klaro_consent_manager" date="2023-10-20T18:41:07+02:00" target-language="ro">
+  <file source-language="en" original="EXT:klaro_consent_manager/Resources/Private/Language/locallang.xlf" datatype="plaintext" product-name="klaro_consent_manager" date="2023-10-26T11:08:41+02:00" target-language="ro">
     <body>
       <trans-unit id="privacyPolicy.name" resname="privacyPolicy.name">
         <source>privacy policy</source>
@@ -283,8 +283,8 @@
         <target state="needs-translation">Intercom</target>
       </trans-unit>
       <trans-unit id="services.intercom.description" resname="services.intercom.description">
-        <source>Chat widget &amp; collecting of visitor statistics</source>
-        <target state="needs-translation">Chat widget &amp; collecting of visitor statistics</target>
+        <source>Chat widget and collecting of visitor statistics</source>
+        <target state="needs-translation">Chat widget and collecting of visitor statistics</target>
       </trans-unit>
       <trans-unit id="services.matomo.title" resname="services.matomo.title">
         <source>Matomo/Piwik</source>
@@ -350,87 +350,87 @@
         <source>Privacy policy</source>
         <target state="final">politica privacy</target>
       </trans-unit>
-      <trans-unit id="cookies.title">
+      <trans-unit id="cookies.title" resname="cookies.title">
         <source>Cookies</source>
         <target state="needs-translation">Cookies</target>
       </trans-unit>
-      <trans-unit id="cookies.description">
+      <trans-unit id="cookies.description" resname="cookies.description">
         <source>Below you will find a list of all cookies used by %s</source>
         <target state="needs-translation">Below you will find a list of all cookies used by %s</target>
       </trans-unit>
-      <trans-unit id="cookies.headline.name">
+      <trans-unit id="cookies.headline.name" resname="cookies.headline.name">
         <source>Name / Pattern</source>
         <target state="needs-translation">Name / Pattern</target>
       </trans-unit>
-      <trans-unit id="cookies.headline.path">
+      <trans-unit id="cookies.headline.path" resname="cookies.headline.path">
         <source>Path</source>
         <target state="needs-translation">Path</target>
       </trans-unit>
-      <trans-unit id="cookies.headline.domain">
+      <trans-unit id="cookies.headline.domain" resname="cookies.headline.domain">
         <source>Domain</source>
         <target state="needs-translation">Domain</target>
       </trans-unit>
-      <trans-unit id="cookies.headline.expiresAfter">
+      <trans-unit id="cookies.headline.expiresAfter" resname="cookies.headline.expiresAfter">
         <source>Expires after</source>
         <target state="needs-translation">Expires after</target>
       </trans-unit>
-      <trans-unit id="year">
+      <trans-unit id="year" resname="year">
         <source>Year</source>
         <target state="needs-translation">Year</target>
       </trans-unit>
-      <trans-unit id="years">
+      <trans-unit id="years" resname="years">
         <source>Years</source>
         <target state="needs-translation">Years</target>
       </trans-unit>
-      <trans-unit id="month">
+      <trans-unit id="month" resname="month">
         <source>Month</source>
         <target state="needs-translation">Month</target>
       </trans-unit>
-      <trans-unit id="months">
+      <trans-unit id="months" resname="months">
         <source>Months</source>
         <target state="needs-translation">Months</target>
       </trans-unit>
-      <trans-unit id="day">
+      <trans-unit id="day" resname="day">
         <source>Day</source>
         <target state="needs-translation">Day</target>
       </trans-unit>
-      <trans-unit id="days">
+      <trans-unit id="days" resname="days">
         <source>Days</source>
         <target state="needs-translation">Days</target>
       </trans-unit>
-      <trans-unit id="hour">
+      <trans-unit id="hour" resname="hour">
         <source>Hour</source>
         <target state="needs-translation">Hour</target>
       </trans-unit>
-      <trans-unit id="hours">
+      <trans-unit id="hours" resname="hours">
         <source>Hours</source>
         <target state="needs-translation">Hours</target>
       </trans-unit>
-      <trans-unit id="minute">
+      <trans-unit id="minute" resname="minute">
         <source>Minute</source>
         <target state="needs-translation">Minute</target>
       </trans-unit>
-      <trans-unit id="minutes">
+      <trans-unit id="minutes" resname="minutes">
         <source>Minutes</source>
         <target state="needs-translation">Minutes</target>
       </trans-unit>
-      <trans-unit id="second">
+      <trans-unit id="second" resname="second">
+        <source>Second</source>
+        <target state="needs-translation">Second</target>
+      </trans-unit>
+      <trans-unit id="seconds" resname="seconds">
         <source>Seconds</source>
         <target state="needs-translation">Seconds</target>
       </trans-unit>
-      <trans-unit id="seconds">
-        <source>Seconds</source>
-        <target state="needs-translation">Seconds</target>
-      </trans-unit>
-      <trans-unit id="end-of-session">
+      <trans-unit id="end-of-session" resname="end-of-session">
         <source>End of session</source>
         <target state="needs-translation">End of session</target>
       </trans-unit>
-      <trans-unit id="warning.noServices">
+      <trans-unit id="warning.noServices" resname="warning.noServices">
         <source>Why don't I see a Klaro! Modal? → You must assign at least 1 service to the Klaro! configuration! Without services we don't need consent management at all.</source>
         <target state="needs-translation">Why don't I see a Klaro! Modal? → You must assign at least 1 service to the Klaro! configuration! Without services we don't need consent management at all.</target>
       </trans-unit>
-      <trans-unit id="warning.noServicesPersonalized">
+      <trans-unit id="warning.noServicesPersonalized" resname="warning.noServicesPersonalized">
         <source>Hey %s! You missed a service in the config! Without services we don't need consent management at all.</source>
         <target state="needs-translation">Hey %s! You missed a service in the config! Without services we don't need consent management at all.</target>
       </trans-unit>
