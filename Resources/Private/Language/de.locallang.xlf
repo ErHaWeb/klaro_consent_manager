@@ -282,9 +282,9 @@
         <source>Intercom</source>
         <target state="final">Intercom</target>
       </trans-unit>
-      <trans-unit id="services.intercom.description" resname="services.intercom.description">
+      <trans-unit id="services.intercom.description" resname="services.intercom.description" approved="yes">
         <source>Chat widget and collecting of visitor statistics</source>
-        <target state="needs-translation">Chat widget and collecting of visitor statistics</target>
+        <target state="final">Chat-Widget und Sammlung von Besucherstatistiken</target>
       </trans-unit>
       <trans-unit id="services.matomo.title" resname="services.matomo.title" approved="yes">
         <source>Matomo/Piwik</source>
@@ -414,9 +414,9 @@
         <source>Minutes</source>
         <target state="final">Minuten</target>
       </trans-unit>
-      <trans-unit id="second" resname="second">
+      <trans-unit id="second" resname="second" approved="yes">
         <source>Second</source>
-        <target state="needs-translation">Second</target>
+        <target state="final">Sekunde</target>
       </trans-unit>
       <trans-unit id="seconds" resname="seconds" approved="yes">
         <source>Seconds</source>
