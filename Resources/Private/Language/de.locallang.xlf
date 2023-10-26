@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xliff xmlns:t3="http://typo3.org/schemas/xliff" xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
-  <file source-language="en" original="EXT:klaro_consent_manager/Resources/Private/Language/locallang.xlf" datatype="plaintext" product-name="klaro_consent_manager" date="2023-10-20T18:41:07+02:00" target-language="de">
+  <file source-language="en" original="EXT:klaro_consent_manager/Resources/Private/Language/locallang.xlf" datatype="plaintext" product-name="klaro_consent_manager" date="2023-10-26T11:08:41+02:00" target-language="de">
     <body>
       <trans-unit id="privacyPolicy.name" resname="privacyPolicy.name" approved="yes">
         <source>privacy policy</source>
@@ -282,9 +282,9 @@
         <source>Intercom</source>
         <target state="final">Intercom</target>
       </trans-unit>
-      <trans-unit id="services.intercom.description" resname="services.intercom.description" approved="yes">
-        <source>Chat widget &amp; collecting of visitor statistics</source>
-        <target state="final">Chat-Widget und Sammlung von Besucherstatistiken</target>
+      <trans-unit id="services.intercom.description" resname="services.intercom.description">
+        <source>Chat widget and collecting of visitor statistics</source>
+        <target state="needs-translation">Chat widget and collecting of visitor statistics</target>
       </trans-unit>
       <trans-unit id="services.matomo.title" resname="services.matomo.title" approved="yes">
         <source>Matomo/Piwik</source>
@@ -350,89 +350,89 @@
         <source>Privacy policy</source>
         <target state="final">Datenschutzerklärung</target>
       </trans-unit>
-      <trans-unit id="cookies.title">
+      <trans-unit id="cookies.title" resname="cookies.title" approved="yes">
         <source>Cookies</source>
-        <target state="needs-translation">Cookies</target>
+        <target state="final">Cookies</target>
       </trans-unit>
-      <trans-unit id="cookies.description">
+      <trans-unit id="cookies.description" resname="cookies.description" approved="yes">
         <source>Below you will find a list of all cookies used by %s</source>
-        <target state="needs-translation">Below you will find a list of all cookies used by %s</target>
+        <target state="final">Nachfolgend finden Sie eine Liste aller von %s verwendeten Cookies</target>
       </trans-unit>
-      <trans-unit id="cookies.headline.name">
+      <trans-unit id="cookies.headline.name" resname="cookies.headline.name" approved="yes">
         <source>Name / Pattern</source>
-        <target state="needs-translation">Name / Pattern</target>
+        <target state="final">Name / Muster</target>
       </trans-unit>
-      <trans-unit id="cookies.headline.path">
+      <trans-unit id="cookies.headline.path" resname="cookies.headline.path" approved="yes">
         <source>Path</source>
-        <target state="needs-translation">Path</target>
+        <target state="final">Pfad</target>
       </trans-unit>
-      <trans-unit id="cookies.headline.domain">
+      <trans-unit id="cookies.headline.domain" resname="cookies.headline.domain" approved="yes">
         <source>Domain</source>
-        <target state="needs-translation">Domain</target>
+        <target state="final">Domain</target>
       </trans-unit>
-      <trans-unit id="cookies.headline.expiresAfter">
+      <trans-unit id="cookies.headline.expiresAfter" resname="cookies.headline.expiresAfter" approved="yes">
         <source>Expires after</source>
-        <target state="needs-translation">Expires after</target>
+        <target state="final">Ablaufzeit</target>
       </trans-unit>
-      <trans-unit id="year">
+      <trans-unit id="year" resname="year" approved="yes">
         <source>Year</source>
-        <target state="needs-translation">Year</target>
+        <target state="final">Jahr</target>
       </trans-unit>
-      <trans-unit id="years">
+      <trans-unit id="years" resname="years" approved="yes">
         <source>Years</source>
-        <target state="needs-translation">Years</target>
+        <target state="final">Jahre</target>
       </trans-unit>
-      <trans-unit id="month">
+      <trans-unit id="month" resname="month" approved="yes">
         <source>Month</source>
-        <target state="needs-translation">Month</target>
+        <target state="final">Monat</target>
       </trans-unit>
-      <trans-unit id="months">
+      <trans-unit id="months" resname="months" approved="yes">
         <source>Months</source>
-        <target state="needs-translation">Months</target>
+        <target state="final">Monate</target>
       </trans-unit>
-      <trans-unit id="day">
+      <trans-unit id="day" resname="day" approved="yes">
         <source>Day</source>
-        <target state="needs-translation">Day</target>
+        <target state="final">Tag</target>
       </trans-unit>
-      <trans-unit id="days">
+      <trans-unit id="days" resname="days" approved="yes">
         <source>Days</source>
-        <target state="needs-translation">Days</target>
+        <target state="final">Tage</target>
       </trans-unit>
-      <trans-unit id="hour">
+      <trans-unit id="hour" resname="hour" approved="yes">
         <source>Hour</source>
-        <target state="needs-translation">Hour</target>
+        <target state="final">Stunde</target>
       </trans-unit>
-      <trans-unit id="hours">
+      <trans-unit id="hours" resname="hours" approved="yes">
         <source>Hours</source>
-        <target state="needs-translation">Hours</target>
+        <target state="final">Stunden</target>
       </trans-unit>
-      <trans-unit id="minute">
+      <trans-unit id="minute" resname="minute" approved="yes">
         <source>Minute</source>
-        <target state="needs-translation">Minute</target>
+        <target state="final">Minute</target>
       </trans-unit>
-      <trans-unit id="minutes">
+      <trans-unit id="minutes" resname="minutes" approved="yes">
         <source>Minutes</source>
-        <target state="needs-translation">Minutes</target>
+        <target state="final">Minuten</target>
       </trans-unit>
-      <trans-unit id="second">
+      <trans-unit id="second" resname="second">
+        <source>Second</source>
+        <target state="needs-translation">Second</target>
+      </trans-unit>
+      <trans-unit id="seconds" resname="seconds" approved="yes">
         <source>Seconds</source>
-        <target state="needs-translation">Seconds</target>
+        <target state="final">Sekunden</target>
       </trans-unit>
-      <trans-unit id="seconds">
-        <source>Seconds</source>
-        <target state="needs-translation">Seconds</target>
-      </trans-unit>
-      <trans-unit id="end-of-session">
+      <trans-unit id="end-of-session" resname="end-of-session" approved="yes">
         <source>End of session</source>
-        <target state="needs-translation">End of session</target>
+        <target state="final">Sitzungsende</target>
       </trans-unit>
-      <trans-unit id="warning.noServices">
+      <trans-unit id="warning.noServices" resname="warning.noServices" approved="yes">
         <source>Why don't I see a Klaro! Modal? → You must assign at least 1 service to the Klaro! configuration! Without services we don't need consent management at all.</source>
-        <target state="needs-translation">Why don't I see a Klaro! Modal? → You must assign at least 1 service to the Klaro! configuration! Without services we don't need consent management at all.</target>
+        <target state="final">Warum sehe ich kein Klaro! Modal? → Sie müssen der Klaro! Konfiguration mindestens 1 Dienst zuweisen! Ohne Dienste brauchen wir überhaupt kein Zustimmungsmanagement.</target>
       </trans-unit>
-      <trans-unit id="warning.noServicesPersonalized">
+      <trans-unit id="warning.noServicesPersonalized" resname="warning.noServicesPersonalized" approved="yes">
         <source>Hey %s! You missed a service in the config! Without services we don't need consent management at all.</source>
-        <target state="needs-translation">Hey %s! You missed a service in the config! Without services we don't need consent management at all.</target>
+        <target state="final">Hallo %s! Du hast einen Dienst in der Konfiguration vergessen! Ohne Dienste brauchen wir überhaupt kein Zustimmungsmanagement.</target>
       </trans-unit>
     </body>
   </file>
