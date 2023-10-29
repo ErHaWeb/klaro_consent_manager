@@ -22,6 +22,9 @@ use Psr\Http\Message\ResponseInterface;
 use Psr\Http\Message\ServerRequestInterface;
 use Psr\Http\Server\MiddlewareInterface;
 use Psr\Http\Server\RequestHandlerInterface;
+use TYPO3\CMS\Core\Configuration\Exception\ExtensionConfigurationExtensionNotConfiguredException;
+use TYPO3\CMS\Core\Configuration\Exception\ExtensionConfigurationPathDoesNotExistException;
+use TYPO3\CMS\Core\Configuration\ExtensionConfiguration;
 use TYPO3\CMS\Core\Database\ConnectionPool;
 use TYPO3\CMS\Core\Http\NullResponse;
 use TYPO3\CMS\Core\Http\Stream;
@@ -30,16 +33,36 @@ use TYPO3\CMS\Core\Utility\GeneralUtility;
 
 class ReplaceBeforeOutput implements MiddlewareInterface
 {
+    public function __construct(
+        private readonly ExtensionConfiguration $extensionConfiguration
+    )
+    {
+    }
+
     /**
      * @inheritDoc
      */
     public function process(ServerRequestInterface $request, RequestHandlerInterface $handler): ResponseInterface
     {
+        $showUrl = '';
+        $resetUrl = '';
+
+        try {
+            $extensionConfiguration = $this->extensionConfiguration->get('klaro_consent_manager');
+            $showUrl = $extensionConfiguration['replaceUrl']['show'] ?? '';
+            $resetUrl = $extensionConfiguration['replaceUrl']['reset'] ?? '';
+        } catch (ExtensionConfigurationExtensionNotConfiguredException|ExtensionConfigurationPathDoesNotExistException $e) {
+        }
+
         $elementId = $this->getElementId($request);
-        $searchAndReplacements = [
-            'href="https://KLARO_CONSENT.com"' => 'href="#" data-' . $elementId . '-trigger="show"',
-            'href="https://KLARO_RESET.com"' => 'href="#" data-' . $elementId . '-trigger="reset"',
-        ];
+        $searchAndReplacements = [];
+
+        if ($showUrl) {
+            $searchAndReplacements['href="' . $showUrl . '"'] = 'href="#" data-' . $elementId . '-trigger="show"';
+        }
+        if ($resetUrl) {
+            $searchAndReplacements['href="' . $resetUrl . '"'] = 'href="#" data-' . $elementId . '-trigger="reset"';
+        }
 
         if (!($GLOBALS['TSFE'] ?? [])) {
             return $handler->handle($request);
