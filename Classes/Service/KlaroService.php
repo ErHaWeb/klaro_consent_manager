@@ -18,6 +18,7 @@ declare(strict_types=1);
 namespace ErHaWeb\KlaroConsentManager\Service;
 
 use Doctrine\DBAL\Exception;
+use ErHaWeb\KlaroConsentManager\Utility\TypoScriptUtility;
 use Psr\Http\Message\ServerRequestInterface;
 use TYPO3\CMS\Core\Core\Environment;
 use TYPO3\CMS\Core\Database\ConnectionPool;
@@ -28,9 +29,6 @@ use TYPO3\CMS\Core\Site\Entity\Site;
 use TYPO3\CMS\Core\Site\Entity\SiteLanguage;
 use TYPO3\CMS\Core\Utility\ArrayUtility;
 use TYPO3\CMS\Core\Utility\GeneralUtility;
-use TYPO3\CMS\Extbase\Configuration\ConfigurationManager;
-use TYPO3\CMS\Extbase\Configuration\ConfigurationManagerInterface;
-use TYPO3\CMS\Extbase\Configuration\Exception\InvalidConfigurationTypeException;
 use TYPO3\CMS\Fluid\View\StandaloneView;
 use TYPO3\CMS\Frontend\ContentObject\ContentObjectRenderer;
 
@@ -178,14 +176,13 @@ class KlaroService
 
     /**
      * @param ServerRequestInterface $request
-     * @throws InvalidConfigurationTypeException
      */
     public function __construct(ServerRequestInterface $request)
     {
         $this->connectionPool = GeneralUtility::makeInstance(ConnectionPool::class);
         $this->initConfiguration($request);
         $this->initLanguage($request);
-        $this->initConfigurationManager();
+        $this->initStandaloneView();
     }
 
     /**
@@ -324,20 +321,15 @@ class KlaroService
         }
     }
 
+
     /**
      * @return void
-     * @throws InvalidConfigurationTypeException
      */
-    private function initConfigurationManager(): void
+    private function initStandaloneView(): void
     {
-        $configurationManager = GeneralUtility::makeInstance(ConfigurationManager::class);
-
-        $this->framework = $configurationManager->getConfiguration(
-            ConfigurationManagerInterface::CONFIGURATION_TYPE_FRAMEWORK,
-            'KlaroConsentManager'
-        );
-
+        $this->framework = TypoScriptUtility::getFramework();
         $this->settings = $this->framework['settings'] ?? [];
+        
         $this->standaloneView = GeneralUtility::makeInstance(StandaloneView::class);
 
         $layoutRootPaths = [];

@@ -19,19 +19,17 @@ namespace ErHaWeb\KlaroConsentManager\EventListener;
 
 use ErHaWeb\KlaroConsentManager\Service\KlaroService;
 use ErHaWeb\KlaroConsentManager\Utility\CspUtility;
+use ErHaWeb\KlaroConsentManager\Utility\TypoScriptUtility;
 use Psr\Http\Message\ServerRequestInterface;
 use TYPO3\CMS\Core\Http\ApplicationType;
 use TYPO3\CMS\Core\Page\Event\BeforeStylesheetsRenderingEvent;
-use TYPO3\CMS\Core\Utility\ArrayUtility;
 use TYPO3\CMS\Core\Utility\GeneralUtility;
-use TYPO3\CMS\Extbase\Configuration\ConfigurationManager;
-use TYPO3\CMS\Extbase\Configuration\ConfigurationManagerInterface;
-use TYPO3\CMS\Extbase\Configuration\Exception\InvalidConfigurationTypeException;
 
 class KlaroStylesheet
 {
     /**
-     * @throws InvalidConfigurationTypeException
+     * @param BeforeStylesheetsRenderingEvent $event
+     * @return void
      */
     public function __invoke(BeforeStylesheetsRenderingEvent $event): void
     {
@@ -50,13 +48,7 @@ class KlaroStylesheet
         }
 
         $asset = $event->getAssetCollector()->getStyleSheets();
-        $configurationManager = GeneralUtility::makeInstance(ConfigurationManager::class);
-
-        $settings = $configurationManager->getConfiguration(
-            ConfigurationManagerInterface::CONFIGURATION_TYPE_SETTINGS,
-            'KlaroConsentManager'
-        );
-
+        $settings = TypoScriptUtility::getSettings();
         $attributes = ['defer' => 'defer', 'nonce' => CspUtility::getNonceValue($request)];
 
         foreach (($settings['css'] ?? []) as $key => $css) {
