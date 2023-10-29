@@ -12,8 +12,13 @@ plugin.tx_klaroconsentmanager {
             klaro-default = EXT:klaro_consent_manager/Resources/Public/Css/klaro.min.css
             klaro-custom = EXT:klaro_consent_manager/Resources/Public/Css/klaro-custom.min.css
         }
+
         javascript {
             klaro-default = EXT:klaro_consent_manager/Resources/Public/JavaScript/klaro-no-translations-no-css.js
+        }
+
+        contextualconsent {
+            mainSectionOnly = 1
         }
     }
 }

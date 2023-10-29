@@ -1,17 +1,22 @@
-tt_content.stdWrap.outerWrap {
-    cObject = COA
-    cObject {
-        10 = TEXT
-        10.value = <div data-name="
-        15 = TEXT
-        15 {
-            data = DB:tx_klaroconsentmanager_service:{field:tx_klaroconsentmanager_service}:name
-            data.insertData = 1
-        }
-
-        20 = TEXT
-        20.value = ">|</div>
+lib.contentElement {
+    layoutRootPaths {
+        100 = EXT:klaro_consent_manager/Resources/Private/Extensions/FluidStyledContent/Layouts/
     }
 
-    if.isTrue.field = tx_klaroconsentmanager_service
+    settings {
+        contextualconsent {
+            enableAttributeReplacement = {$plugin.tx_klaroconsentmanager.settings.contextualconsent.enableAttributeReplacement}
+            replaceAttributes = {$plugin.tx_klaroconsentmanager.settings.contextualconsent.replaceAttributes}
+            mainSectionOnly = {$plugin.tx_klaroconsentmanager.settings.contextualconsent.mainSectionOnly}
+        }
+    }
+
+    dataProcessing.100 = TYPO3\CMS\Frontend\DataProcessing\DatabaseQueryProcessor
+    dataProcessing.100 {
+        if.isTrue.field = tx_klaroconsentmanager_service
+        table = tx_klaroconsentmanager_service
+        uidInList.field = tx_klaroconsentmanager_service
+        pidInList = 0
+        as = contextualconsentService
+    }
 }
