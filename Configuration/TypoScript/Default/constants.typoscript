@@ -18,6 +18,7 @@ plugin.tx_klaroconsentmanager {
         }
 
         contextualconsent {
+            replaceAttributes = src,href
             mainSectionOnly = 1
         }
     }

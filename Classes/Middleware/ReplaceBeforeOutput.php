@@ -77,15 +77,67 @@ class ReplaceBeforeOutput implements MiddlewareInterface
         // extract the content
         $body = $response->getBody();
         $body->rewind();
-        $content = $response->getBody()->getContents();
+        $html = $response->getBody()->getContents();
 
-        $content = str_replace(array_keys($searchAndReplacements), array_values($searchAndReplacements), $content);
+        $html = $this->replaceAttrWithDataAttr($html);
+        $html = str_replace(array_keys($searchAndReplacements), array_values($searchAndReplacements), $html);
 
         // push new content back into the response
         $body = new Stream('php://temp', 'rw');
-        $body->write($content);
+        $body->write($html);
         return $response->withBody($body);
     }
+
+    /**
+     * @param string $html
+     * @param string $pattern
+     * @return string
+     */
+    public function replaceAttrWithDataAttr(string $html, string $pattern = '/(<div\s+data-name="([a-zA-Z0-9\-\_]+)"\s+data-replace="([^"]+)">)((?:.|\n)*?)(<\/div>)/'): string
+    {
+        // Callback function to manipulate the inner HTML
+        $callback = static function ($matches) {
+            $openingTag = $matches[1];
+            $dataName = $matches[2];
+            $dataReplace = $matches[3];
+            $innerHtml = $matches[4];
+            $closingTag = $matches[5];
+
+            // Remove unneeded data-replace attribute
+            $openingTag = preg_replace('/ data-replace="(.*)"/i', '', $openingTag);
+
+            // Extract attributes to replace from data-replace
+            $attributesToReplace = explode(',', $dataReplace);
+            if (!in_array('type', $attributesToReplace)) {
+                $attributesToReplace[] = 'type';
+            }
+
+            $innerHtml = preg_replace('/<script>/', '<script type="text/javascript">', $innerHtml);
+
+            // Loop through each attribute and replace it with "data-" prefixed version, while keeping the value
+            foreach ($attributesToReplace as $attribute) {
+                $replacement = sprintf('data-%s', $attribute);
+                if ($attribute === 'type') {
+                    $replacement = 'type="text/plain" data-type';
+                }
+
+                $innerHtml = preg_replace_callback('/<(\w+)([^>]*?)\b' . preg_quote($attribute, '/') . '="([^"]*)"\s*([^>]*?)>/', static function ($tagMatches) use ($dataName, $replacement) {
+                    $tagName = $tagMatches[1];
+                    $beforeAttr = $tagMatches[2];
+                    $attributeValue = $tagMatches[3];
+                    $afterAttr = $tagMatches[4];
+
+                    return sprintf('<%s data-name="%s"%s%s="%s"%s>', $tagName, $dataName, $beforeAttr, $replacement, $attributeValue, $afterAttr);
+                }, $innerHtml);
+            }
+
+            return $openingTag . $innerHtml . $closingTag;
+        };
+
+        // Apply the callback and get the modified HTML
+        return preg_replace_callback($pattern, $callback, $html);
+    }
+
 
     /**
      * @param ServerRequestInterface $request

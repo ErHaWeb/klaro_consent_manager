@@ -5,7 +5,6 @@ lib.contentElement {
 
     settings {
         contextualconsent {
-            enableAttributeReplacement = {$plugin.tx_klaroconsentmanager.settings.contextualconsent.enableAttributeReplacement}
             replaceAttributes = {$plugin.tx_klaroconsentmanager.settings.contextualconsent.replaceAttributes}
             mainSectionOnly = {$plugin.tx_klaroconsentmanager.settings.contextualconsent.mainSectionOnly}
         }

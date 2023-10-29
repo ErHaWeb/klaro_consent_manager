@@ -1,6 +1,9 @@
 <html xmlns:f="http://typo3.org/ns/TYPO3/CMS/Fluid/ViewHelpers" data-namespace-typo3-fluid="true">
     <f:if condition="{contextualconsentService}">
         <f:variable name="attributes" value=' data-name="{contextualconsentService.0.data.name}"'/>
+        <f:if condition="{settings.contextualconsent.replaceAttributes}">
+            <f:variable name="attributes" value='{attributes} data-replace="{settings.contextualconsent.replaceAttributes}"'/>
+        </f:if>
     </f:if>
 
     <f:if condition="{data.frame_class} != none">
