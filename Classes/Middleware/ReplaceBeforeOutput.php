@@ -33,10 +33,13 @@ use TYPO3\CMS\Core\Utility\GeneralUtility;
 
 class ReplaceBeforeOutput implements MiddlewareInterface
 {
+    private ExtensionConfiguration $extensionConfiguration;
+
     public function __construct(
-        private readonly ExtensionConfiguration $extensionConfiguration
+        ExtensionConfiguration $extensionConfiguration
     )
     {
+        $this->extensionConfiguration = $extensionConfiguration;
     }
 
     /**
