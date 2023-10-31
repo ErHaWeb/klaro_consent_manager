@@ -427,13 +427,21 @@
         <source>Default color scheme used for the display. The colors can also be overridden later via CSS variables.</source>
         <target state="needs-translation">Default color scheme used for the display. The colors can also be overridden later via CSS variables.</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_configuration.color_scheme.I.light" resname="tx_klaroconsentmanager_configuration.color_scheme.I.light">
-        <source>Light</source>
-        <target state="needs-translation">Light</target>
+      <trans-unit id="tx_klaroconsentmanager_configuration.color_scheme.I.dark_neutral" resname="tx_klaroconsentmanager_configuration.color_scheme.I.dark_neutral">
+        <source>Dark (neutral)</source>
+        <target state="needs-translation">Dark (neutral)</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_configuration.color_scheme.I.light_neutral" resname="tx_klaroconsentmanager_configuration.color_scheme.I.light_neutral">
+        <source>Light (neutral)</source>
+        <target state="needs-translation">Light (neutral)</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.color_scheme.I.dark" resname="tx_klaroconsentmanager_configuration.color_scheme.I.dark">
         <source>Dark</source>
         <target state="needs-translation">Dark</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_configuration.color_scheme.I.light" resname="tx_klaroconsentmanager_configuration.color_scheme.I.light">
+        <source>Light</source>
+        <target state="needs-translation">Light</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.append_show_button.label" resname="tx_klaroconsentmanager_configuration.append_show_button.label">
         <source>Append Show Button</source>
