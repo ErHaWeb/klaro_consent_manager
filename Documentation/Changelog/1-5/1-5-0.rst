@@ -1,0 +1,34 @@
+.. include:: /Includes.rst.txt
+
+1.5.0 - October 31, 2023
+========================
+
+
+.. only:: html
+
+   .. contents::
+        :local:
+        :depth: 3
+
+Breaking changes
+----------------
+No breaking changes!
+
+All Changes
+-----------
+This is a list of all changes in this release: ::
+
+    2023-10-31 [TASK] Update dark color scheme colors (Commit a5b8858 by Eric Harrer)
+    2023-10-31 [BUGFIX] Fix default color scheme configuration (Commit 505a78d by Eric Harrer)
+    2023-10-31 [FEATURE] Add neutral color schemes (Commit 1facdaa by Eric Harrer)
+    2023-10-31 [TASK] Keep missing fluid template directories (Commit bef7cd8 by Eric Harrer)
+    2023-10-31 [TASK] Enable option "htmlText" by default (Commit 3e36aa9 by Eric Harrer)
+    2023-10-31 [BUGFIX] Fix undefined array key warning (Commit 9110491 by Eric Harrer)
+    2023-10-29 [BUGFIX] Fix unexpected "private" error in PHP 7.4 (Commit 334dd5f by Eric Harrer)
+    2023-10-29 [FEATURE] Automated attribute substitution in contextual consent (Commit 991dd74 by Eric Harrer)
+    2023-10-29 [FEATURE] Possibility to include only main section in contextual consent (Commit 545ec17 by Eric Harrer)
+    2023-10-29 [TASK] Unify determination of TypoScript settings (Commit 410ff00 by Eric Harrer)
+    2023-10-29 [FEATURE] Add configurable replace URLs (Commit 65c191f by Eric Harrer)
+    2023-10-26 [TASK] Improve locallang source labels (Commit 9110ec6 by Eric Harrer)
+
+This list has been created by using `git log $(git describe --tags --abbrev=0)..HEAD --abbrev-commit --pretty='%ad %s (Commit %h by %an)' --date=short`.
