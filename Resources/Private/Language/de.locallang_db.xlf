@@ -427,13 +427,21 @@
         <source>Default color scheme used for the display. The colors can also be overridden later via CSS variables.</source>
         <target state="final">Standard-Farbschema, das für die Anzeige verwendet wird. Die Farben können auch später über CSS-Variablen überschrieben werden.</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_configuration.color_scheme.I.light" resname="tx_klaroconsentmanager_configuration.color_scheme.I.light" approved="yes">
-        <source>Light</source>
-        <target state="final">Hell</target>
+      <trans-unit id="tx_klaroconsentmanager_configuration.color_scheme.I.dark_neutral" resname="tx_klaroconsentmanager_configuration.color_scheme.I.dark_neutral">
+        <source>Dark (neutral)</source>
+        <target state="needs-translation">Dark (neutral)</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_configuration.color_scheme.I.light_neutral" resname="tx_klaroconsentmanager_configuration.color_scheme.I.light_neutral">
+        <source>Light (neutral)</source>
+        <target state="needs-translation">Light (neutral)</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.color_scheme.I.dark" resname="tx_klaroconsentmanager_configuration.color_scheme.I.dark" approved="yes">
         <source>Dark</source>
         <target state="final">Dunkel</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_configuration.color_scheme.I.light" resname="tx_klaroconsentmanager_configuration.color_scheme.I.light" approved="yes">
+        <source>Light</source>
+        <target state="final">Hell</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.append_show_button.label" resname="tx_klaroconsentmanager_configuration.append_show_button.label" approved="yes">
         <source>Append Show Button</source>
