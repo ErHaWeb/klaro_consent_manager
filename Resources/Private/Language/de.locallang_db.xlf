@@ -427,13 +427,13 @@
         <source>Default color scheme used for the display. The colors can also be overridden later via CSS variables.</source>
         <target state="final">Standard-Farbschema, das für die Anzeige verwendet wird. Die Farben können auch später über CSS-Variablen überschrieben werden.</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_configuration.color_scheme.I.dark_neutral" resname="tx_klaroconsentmanager_configuration.color_scheme.I.dark_neutral">
+      <trans-unit id="tx_klaroconsentmanager_configuration.color_scheme.I.dark_neutral" resname="tx_klaroconsentmanager_configuration.color_scheme.I.dark_neutral" approved="yes">
         <source>Dark (neutral)</source>
-        <target state="needs-translation">Dark (neutral)</target>
+        <target state="final">Dunkel (neutral)</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_configuration.color_scheme.I.light_neutral" resname="tx_klaroconsentmanager_configuration.color_scheme.I.light_neutral">
+      <trans-unit id="tx_klaroconsentmanager_configuration.color_scheme.I.light_neutral" resname="tx_klaroconsentmanager_configuration.color_scheme.I.light_neutral" approved="yes">
         <source>Light (neutral)</source>
-        <target state="needs-translation">Light (neutral)</target>
+        <target state="final">Hell (neutral)</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.color_scheme.I.dark" resname="tx_klaroconsentmanager_configuration.color_scheme.I.dark" approved="yes">
         <source>Dark</source>
