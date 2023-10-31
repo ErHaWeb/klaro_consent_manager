@@ -85,7 +85,7 @@ class KlaroService
         'callback' => ['type' => 'callback', 'default' => ''],
 
         // Special properties
-        'color_scheme' => ['type' => 'bypass', 'default' => 'dark'],
+        'color_scheme' => ['type' => 'bypass', 'default' => 'dark_neutral'],
         'alignment' => ['type' => 'bypass', 'default' => 'bottom-right'],
         'fluidtemplate_rootpath' => ['type' => 'bypass', 'default' => ''],
         'locallang_path' => ['type' => 'bypass', 'default' => ''],
