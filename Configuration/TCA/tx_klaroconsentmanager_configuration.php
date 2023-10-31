@@ -160,7 +160,7 @@ return [
             'config' => [
                 'type' => 'check',
                 'renderType' => 'checkboxLabeledToggle',
-                'default' => 0,
+                'default' => 1,
                 'items' => [
                     [
                         0 => '',
