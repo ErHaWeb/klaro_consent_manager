@@ -148,8 +148,8 @@ to create a white background.
 .klaro .cookie-modal .cm-list-description,
 .klaro .context-notice .cm-list-description,
 .klaro .cookie-notice .cm-list-description {
-  color: #7c7c7c;
-  color: var(--dark3, #7c7c7c);
+  color: #bbb;
+  color: var(--dark3, #bbb);
   font-size: 0.9em;
   padding-top: 4px;
 }
