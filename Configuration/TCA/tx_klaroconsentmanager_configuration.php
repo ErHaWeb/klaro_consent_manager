@@ -432,10 +432,12 @@ return [
             'config' => [
                 'type' => 'select',
                 'renderType' => 'selectSingle',
-                'default' => 'light',
+                'default' => 'dark_neutral',
                 'items' => [
-                    ['LLL:EXT:klaro_consent_manager/Resources/Private/Language/locallang_db.xlf:tx_klaroconsentmanager_configuration.color_scheme.I.light', 'light', 'EXT:klaro_consent_manager/Resources/Public/Icons/color_scheme-light.svg'],
+                    ['LLL:EXT:klaro_consent_manager/Resources/Private/Language/locallang_db.xlf:tx_klaroconsentmanager_configuration.color_scheme.I.dark_neutral', 'dark_neutral', 'EXT:klaro_consent_manager/Resources/Public/Icons/color_scheme-dark_neutral.svg'],
+                    ['LLL:EXT:klaro_consent_manager/Resources/Private/Language/locallang_db.xlf:tx_klaroconsentmanager_configuration.color_scheme.I.light_neutral', 'light_neutral', 'EXT:klaro_consent_manager/Resources/Public/Icons/color_scheme-light_neutral.svg'],
                     ['LLL:EXT:klaro_consent_manager/Resources/Private/Language/locallang_db.xlf:tx_klaroconsentmanager_configuration.color_scheme.I.dark', 'dark', 'EXT:klaro_consent_manager/Resources/Public/Icons/color_scheme-dark.svg'],
+                    ['LLL:EXT:klaro_consent_manager/Resources/Private/Language/locallang_db.xlf:tx_klaroconsentmanager_configuration.color_scheme.I.light', 'light', 'EXT:klaro_consent_manager/Resources/Public/Icons/color_scheme-light.svg'],
                 ],
                 'fieldWizard' => [
                     'selectIcons' => [

@@ -27,8 +27,8 @@ to create a white background.
   width: 100%;
   border-style: solid;
   border-style: var(--border-style, solid);
-  border-color: #000;
-  border-color: var(--border-color, #000);
+  border-color: #7c7c7c;
+  border-color: var(--dark3, #7c7c7c);
   border-width: 1px;
   border-width: var(--border-width, 1px);
 }
@@ -45,14 +45,14 @@ to create a white background.
   display: table-cell;
   border-bottom-style: solid;
   border-bottom-style: var(--border-style, solid);
-  border-bottom-color: #000;
-  border-bottom-color: var(--border-color, #000);
+  border-bottom-color: #7c7c7c;
+  border-bottom-color: var(--dark3, #7c7c7c);
   border-bottom-width: 1px;
   border-bottom-width: var(--border-width, 1px);
   border-left-style: solid;
   border-left-style: var(--border-style, solid);
-  border-left-color: #000;
-  border-left-color: var(--border-color, #000);
+  border-left-color: #7c7c7c;
+  border-left-color: var(--dark3, #7c7c7c);
   border-left-width: 1px;
   border-left-width: var(--border-width, 1px);
 }
@@ -64,7 +64,7 @@ to create a white background.
 .klaro .cookie-modal .cm-modal .cm-body .table > .tr > .td:first-child {
   border-left: none;
 }
-.klaro .cookie-modal .cm-modal .cm-footer .cm-powered-by .d-flex {
+.klaro .cookie-modal .cm-modal .cm-footer .cm-powered-by.d-flex {
   display: flex;
   justify-content: space-between;
 }
@@ -74,8 +74,8 @@ to create a white background.
   padding-top: 4px;
   text-align: right;
   padding-right: 8px;
-  color: #5c5c5c;
-  color: var(--dark2, #5c5c5c);
+  color: #888;
+  color: var(--dark2, #888);
 }
 .klaro .cookie-modal .cm-modal .cm-footer .cm-powered-by {
   font-size: inherit;

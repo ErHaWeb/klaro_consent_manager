@@ -1,8 +1,6 @@
 @use "sass:map";
 @import './vars';
 
-$var-border-color: #000 !default;
-$vars: map.merge($vars, ("border-color": $var-border-color));
 .klaro {
   .cookie-modal {
     .cm-modal {
@@ -11,7 +9,7 @@ $vars: map.merge($vars, ("border-color": $var-border-color));
           display: table;
           width: 100%;
           @include var(border-style, border-style);
-          @include var(border-color, border-color);
+          @include var(border-color, dark3);
           @include var(border-width, border-width);
 
           > .tr {
@@ -27,10 +25,10 @@ $vars: map.merge($vars, ("border-color": $var-border-color));
               padding: 0.25rem 0.5rem;
               display: table-cell;
               @include var(border-bottom-style, border-style);
-              @include var(border-bottom-color, border-color);
+              @include var(border-bottom-color, dark3);
               @include var(border-bottom-width, border-width);
               @include var(border-left-style, border-style);
-              @include var(border-left-color, border-color);
+              @include var(border-left-color, dark3);
               @include var(border-left-width, border-width);
             }
 
@@ -53,7 +51,7 @@ $vars: map.merge($vars, ("border-color": $var-border-color));
 
       .cm-footer {
         .cm-powered-by {
-          .d-flex {
+          &.d-flex {
             display: flex;
             justify-content: space-between;
           }
