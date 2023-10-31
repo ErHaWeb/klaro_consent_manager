@@ -180,9 +180,11 @@ class KlaroService
     public function __construct(ServerRequestInterface $request)
     {
         $this->connectionPool = GeneralUtility::makeInstance(ConnectionPool::class);
-        $this->initConfiguration($request);
-        $this->initLanguage($request);
-        $this->initStandaloneView();
+
+        if ($this->initConfiguration($request)) {
+            $this->initLanguage($request);
+            $this->initStandaloneView();
+        }
     }
 
     /**
@@ -297,16 +299,23 @@ class KlaroService
      * @param ServerRequestInterface $request
      * @return void
      */
-    private function initConfiguration(ServerRequestInterface $request): void
+    private function initConfiguration(ServerRequestInterface $request): bool
     {
         /** @var Site $site */
         if ($site = $request->getAttribute('site')) {
             $siteConfiguration = $site->getConfiguration();
             $this->configurationId = (int)($siteConfiguration['klaroConfiguration'] ?? 0);
-            $this->imprintLink = $siteConfiguration['klaroImprintUrl'] ?? '';
-            $this->rawConfiguration = $this->fetchConfiguration();
-            $this->privacyPolicyLink = $siteConfiguration['klaroPrivacyPolicyUrl'] ?? '';
+
+            if ($this->configurationId > 0) {
+                $this->imprintLink = $siteConfiguration['klaroImprintUrl'] ?? '';
+                $this->privacyPolicyLink = $siteConfiguration['klaroPrivacyPolicyUrl'] ?? '';
+                $this->rawConfiguration = $this->fetchConfiguration();
+
+                return true;
+            }
         }
+
+        return false;
     }
 
     /**
@@ -329,14 +338,14 @@ class KlaroService
     {
         $this->framework = TypoScriptUtility::getFramework();
         $this->settings = $this->framework['settings'] ?? [];
-        
+
         $this->standaloneView = GeneralUtility::makeInstance(StandaloneView::class);
 
         $layoutRootPaths = [];
         $partialRootPaths = [];
         $templateRootPaths = [];
 
-        $fluidRootPath = $this->rawConfiguration['fluidtemplate_rootpath'];
+        $fluidRootPath = $this->rawConfiguration['fluidtemplate_rootpath'] ?? '';
 
         if ($fluidRootPath) {
             $layoutRootPaths = [$fluidRootPath . 'Layouts/'];
@@ -534,8 +543,8 @@ class KlaroService
             } elseif (
                 //$key !== 'callback' &&
                 is_string($value) &&
-                substr( $value, 0, 1 ) !== "{" &&
-                substr( $value, 0, 9 ) !== "function("
+                substr($value, 0, 1) !== "{" &&
+                substr($value, 0, 9) !== "function("
                 //$value[0] !== '`'
             ) {
                 $return .= '\'' . $value . '\'';
