@@ -7,7 +7,7 @@
         <source>Replace-URL to show Klaro! Consent Management:Links targeting this placeholder URL are automatically modified before HTML output. The URL is replaced with CSP-compliant JavaScript to trigger the Klaro! Consent Management modal.</source>
         <target state="final">Ersetzungs-URL zur Anzeige des Klaro! Zustimmungsmanagers:Links, die auf diese Platzhalter-URL verweisen, werden vor der HTML-Ausgabe automatisch geändert. Die URL wird durch CSP-konformes JavaScript ersetzt, um das Klaro! Zustimmungsmanager Modal zu öffnen.</target>
       </trans-unit>
-      <trans-unit id="extmng.replaceUrl.reset" resname="extmng.replaceUrl.show" approved="yes">
+      <trans-unit id="extmng.replaceUrl.reset" resname="extmng.replaceUrl.reset" approved="yes">
         <source>Replace-URL to reset Klaro! Consent Management:Links targeting this placeholder URL are automatically changed before HTML output. The URL is replaced with CSP-compliant JavaScript to reset the Klaro! Consent Management settings and then trigger the modal.</source>
         <target state="final">Ersetzungs-URL zum Zurücksetzen des Klaro! Zustimmungsmanagers:Links, die auf diese Platzhalter-URL verweisen, werden vor der HTML-Ausgabe automatisch geändert. Die URL wird durch CSP-konformes JavaScript ersetzt, um die Klaro! Zustimmungsmanager-Einstellungen zurückzusetzen und anschließend das Modal-Fenster zu öffnen.</target>
       </trans-unit>
