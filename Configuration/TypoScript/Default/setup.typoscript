@@ -31,3 +31,24 @@ plugin.tx_klaroconsentmanager {
         }
     }
 }
+
+klaroConfiguration = PAGE
+klaroConfiguration {
+    typeNum = 1699541845
+    config {
+        cache_period = 900
+        disableAllHeaderCode = 1
+        admPanel = 0
+        removeDefaultJS = 1
+        removeDefaultCss = 1
+        # @deprecated since TYPO3 v12, remove with v13
+        removePageCss = 1
+        additionalHeaders {
+            10.header = Content-Type:text/javascript;charset=utf-8
+            20.header = X-Robots-Tag:noindex
+        }
+    }
+
+    10 = USER
+    10.userFunc = ErHaWeb\KlaroConsentManager\UserFunc\KlaroConfigurationHelper->getKlaroConfiguration
+}
