@@ -18,13 +18,11 @@ declare(strict_types=1);
 namespace ErHaWeb\KlaroConsentManager\Middleware;
 
 use Doctrine\DBAL\Exception;
+use ErHaWeb\KlaroConsentManager\Utility\ExtensionConfigurationUtility;
 use Psr\Http\Message\ResponseInterface;
 use Psr\Http\Message\ServerRequestInterface;
 use Psr\Http\Server\MiddlewareInterface;
 use Psr\Http\Server\RequestHandlerInterface;
-use TYPO3\CMS\Core\Configuration\Exception\ExtensionConfigurationExtensionNotConfiguredException;
-use TYPO3\CMS\Core\Configuration\Exception\ExtensionConfigurationPathDoesNotExistException;
-use TYPO3\CMS\Core\Configuration\ExtensionConfiguration;
 use TYPO3\CMS\Core\Database\ConnectionPool;
 use TYPO3\CMS\Core\Http\NullResponse;
 use TYPO3\CMS\Core\Http\Stream;
@@ -33,29 +31,13 @@ use TYPO3\CMS\Core\Utility\GeneralUtility;
 
 class ReplaceBeforeOutput implements MiddlewareInterface
 {
-    private ExtensionConfiguration $extensionConfiguration;
-
-    public function __construct(
-        ExtensionConfiguration $extensionConfiguration
-    )
-    {
-        $this->extensionConfiguration = $extensionConfiguration;
-    }
-
     /**
      * @inheritDoc
      */
     public function process(ServerRequestInterface $request, RequestHandlerInterface $handler): ResponseInterface
     {
-        $showUrl = '';
-        $resetUrl = '';
-
-        try {
-            $extensionConfiguration = $this->extensionConfiguration->get('klaro_consent_manager');
-            $showUrl = $extensionConfiguration['replaceUrl']['show'] ?? '';
-            $resetUrl = $extensionConfiguration['replaceUrl']['reset'] ?? '';
-        } catch (ExtensionConfigurationExtensionNotConfiguredException|ExtensionConfigurationPathDoesNotExistException $e) {
-        }
+        $showUrl = ExtensionConfigurationUtility::getConfiguration('replaceUrl/show');
+        $resetUrl = ExtensionConfigurationUtility::getConfiguration('replaceUrl/reset');
 
         $elementId = $this->getElementId($request);
         $searchAndReplacements = [];

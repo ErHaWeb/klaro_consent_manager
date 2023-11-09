@@ -6,7 +6,7 @@
             <trans-unit id="extmng.replaceUrl.show" resname="extmng.replaceUrl.show">
                 <source>Replace-URL to show Klaro! Consent Management:Links targeting this placeholder URL are automatically modified before HTML output. The URL is replaced with CSP-compliant JavaScript to trigger the Klaro! Consent Management modal.</source>
             </trans-unit>
-            <trans-unit id="extmng.replaceUrl.reset" resname="extmng.replaceUrl.show">
+            <trans-unit id="extmng.replaceUrl.reset" resname="extmng.replaceUrl.reset">
                 <source>Replace-URL to reset Klaro! Consent Management:Links targeting this placeholder URL are automatically changed before HTML output. The URL is replaced with CSP-compliant JavaScript to reset the Klaro! Consent Management settings and then trigger the modal.</source>
             </trans-unit>
         </body>
