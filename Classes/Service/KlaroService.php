@@ -387,14 +387,18 @@ class KlaroService
         foreach ($this->rawConfiguration['services'] as $service) {
             $arguments = ['service' => $service];
             $serviceConfiguration = [
-                'title' =>
-                    $this->getFluidContent('Prepend/Service/Title', $arguments) .
-                    $this->getLabel('services.' . $service['name'] . '.title', $arguments) .
-                    $this->getFluidContent('Append/Service/Title', $arguments),
-                'description' =>
-                    $this->getFluidContent('Prepend/Service/Description', $arguments) .
-                    $this->getLabel('services.' . $service['name'] . '.description', $arguments) .
-                    $this->getFluidContent('Append/Service/Description', $arguments),
+                'translations' => [
+                    'zz' => [
+                        'title' =>
+                            $this->getFluidContent('Prepend/Service/Title', $arguments) .
+                            $this->getLabel('services.' . $service['name'] . '.title', $arguments) .
+                            $this->getFluidContent('Append/Service/Title', $arguments),
+                        'description' =>
+                            $this->getFluidContent('Prepend/Service/Description', $arguments) .
+                            $this->getLabel('services.' . $service['name'] . '.description', $arguments) .
+                            $this->getFluidContent('Append/Service/Description', $arguments),
+                    ]
+                ]
             ];
 
             foreach (self::SERVICE_CONFIG as $key => $field) {
@@ -430,6 +434,7 @@ class KlaroService
             }
             $return[] = $serviceConfiguration;
         }
+        
         return $return;
     }
 
