@@ -1,0 +1,27 @@
+.. include:: /Includes.rst.txt
+
+1.6.0 - December 04, 2023
+========================
+
+
+.. only:: html
+
+   .. contents::
+        :local:
+        :depth: 3
+
+Breaking changes
+----------------
+No breaking changes!
+
+All Changes
+-----------
+This is a list of all changes in this release: ::
+
+    2023-12-04 [BUGFIX] Move service title/description to tanslations section (Commit 596a557 by Eric Harrer)
+    2023-11-09 [BUGFIX] Fix determination of request object in TYPO3 10.4 (Commit be0f6ee by Eric Harrer)
+    2023-11-09 [FEATURE] Possibility to render plain Klaro configuration (Commit 1469b71 by Eric Harrer)
+    2023-11-09 [TASK] Use utility class for extension configuration calls (Commit ade1ee8 by Eric Harrer)
+    2023-11-02 [TASK] Add missing service "Google Ads" (Commit 5491d9a by Eric Harrer)
+
+This list has been created by using `git log $(git describe --tags --abbrev=0)..HEAD --abbrev-commit --pretty='%ad %s (Commit %h by %an)' --date=short`.
