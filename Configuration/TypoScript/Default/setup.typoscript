@@ -27,6 +27,7 @@ plugin.tx_klaroconsentmanager {
         }
 
         configuration {
+            disabled = {$plugin.tx_klaroconsentmanager.settings.configuration.disabled}
             poweredBy = https://kiprotect.com/klaro
         }
     }

@@ -21,5 +21,9 @@ plugin.tx_klaroconsentmanager {
             replaceAttributes = src,href
             mainSectionOnly = 1
         }
+
+        configuration {
+            disabled = 0
+        }
     }
 }

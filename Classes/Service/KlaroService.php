@@ -192,6 +192,10 @@ class KlaroService
      */
     public function getRawConfiguration(): array
     {
+        if (($this->settings['configuration']['disabled'] ?? '') === '1') {
+            return [];
+        }
+
         return $this->rawConfiguration;
     }
 
@@ -297,7 +301,7 @@ class KlaroService
 
     /**
      * @param ServerRequestInterface $request
-     * @return void
+     * @return bool
      */
     private function initConfiguration(ServerRequestInterface $request): bool
     {
