@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xliff xmlns:t3="http://typo3.org/schemas/xliff" xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
-  <file source-language="en" original="EXT:klaro_consent_manager/Resources/Private/Language/locallang.xlf" datatype="plaintext" product-name="klaro_consent_manager" date="2023-10-26T11:08:41+02:00" target-language="fi">
+  <file source-language="en" original="EXT:klaro_consent_manager/Resources/Private/Language/locallang.xlf" datatype="plaintext" product-name="klaro_consent_manager" date="2024-02-02T15:07:00+01:00" target-language="fi">
     <body>
       <trans-unit id="privacyPolicy.name" resname="privacyPolicy.name">
         <source>privacy policy</source>
@@ -237,6 +237,14 @@
       <trans-unit id="services.facebook-pixel.description" resname="services.facebook-pixel.description">
         <source>Simplifies web tracking for analytics and marketing while ensuring data compliance and control.</source>
         <target state="needs-translation">Simplifies web tracking for analytics and marketing while ensuring data compliance and control.</target>
+      </trans-unit>
+      <trans-unit id="services.fast-fonts.title" resname="services.fast-fonts.title">
+        <source>Fast Fonts</source>
+        <target state="needs-translation">Fast Fonts</target>
+      </trans-unit>
+      <trans-unit id="services.fast-fonts.description" resname="services.fast-fonts.description">
+        <source>Fast Fonts, operated by fonts.com and supplied by fast.fonts.net, is a service for the provision of web fonts. It requires the use of a pixel-code for continuous price calculation.</source>
+        <target state="needs-translation">Fast Fonts, operated by fonts.com and supplied by fast.fonts.net, is a service for the provision of web fonts. It requires the use of a pixel-code for continuous price calculation.</target>
       </trans-unit>
       <trans-unit id="services.google-ads.title" resname="services.google-ads.title">
         <source>Google Ads</source>
