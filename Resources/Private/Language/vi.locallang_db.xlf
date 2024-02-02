@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xliff xmlns:t3="http://typo3.org/schemas/xliff" xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
-  <file source-language="en" original="EXT:klaro_consent_manager/Resources/Private/Language/locallang_db.xlf" datatype="plaintext" product-name="lang" date="2023-10-26T11:09:04+02:00" target-language="vi">
+  <file source-language="en" original="EXT:klaro_consent_manager/Resources/Private/Language/locallang_db.xlf" datatype="plaintext" product-name="lang" date="2024-02-02T15:08:25+01:00" target-language="vi">
     <header/>
     <body>
       <trans-unit id="tx_klaroconsentmanager_configuration" resname="tx_klaroconsentmanager_configuration">
@@ -558,6 +558,10 @@
       <trans-unit id="tx_klaroconsentmanager_service.name.I.facebook-pixel" resname="tx_klaroconsentmanager_service.name.I.facebook-pixel">
         <source>Facebook Pixel</source>
         <target state="needs-translation">Facebook Pixel</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_service.name.I.fast-fonts" resname="tx_klaroconsentmanager_service.name.I.fast-fonts">
+        <source>Fast Fonts</source>
+        <target state="needs-translation">Fast Fonts</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_service.name.I.google-ads" resname="tx_klaroconsentmanager_service.name.I.google-ads">
         <source>Google Ads (formerly AdWords)</source>
