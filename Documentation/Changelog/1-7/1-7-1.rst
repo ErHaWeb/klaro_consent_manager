@@ -1,0 +1,24 @@
+.. include:: /Includes.rst.txt
+
+1.7.1 - February 02, 2024
+=========================
+
+
+.. only:: html
+
+   .. contents::
+        :local:
+        :depth: 3
+
+Breaking changes
+----------------
+No breaking changes!
+
+All Changes
+-----------
+This is a list of all changes in this release: ::
+
+    2024-02-02 [TASK] Improve constant editor configuration (Commit c1fdfe6 by Eric Harrer)
+    2024-02-02 [TASK] Add missing service "Fast Fonts" (Commit b986c68 by Eric Harrer)
+
+This list has been created by using `git log $(git describe --tags --abbrev=0)..HEAD --abbrev-commit --pretty='%ad %s (Commit %h by %an)' --date=short`.
