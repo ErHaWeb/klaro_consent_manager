@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xliff xmlns:t3="http://typo3.org/schemas/xliff" xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
-  <file source-language="en" original="EXT:klaro_consent_manager/Resources/Private/Language/locallang_db.xlf" datatype="plaintext" product-name="lang" date="2023-10-26T11:09:04+02:00" target-language="sr">
+  <file source-language="en" original="EXT:klaro_consent_manager/Resources/Private/Language/locallang_db.xlf" datatype="plaintext" product-name="lang" date="2024-02-02T15:49:29+01:00" target-language="sr">
     <header/>
     <body>
       <trans-unit id="extmng.replaceUrl.show" resname="extmng.replaceUrl.show">
@@ -14,6 +14,22 @@
       <trans-unit id="extmng.klaroConfigurationPath" resname="extmng.klaroConfigurationPath">
         <source>Klaro! Configuration Path:If this path is set, it is used to use the Klaro! configuration by external applications. For example, if a Wordpress installation is to use the configuration created in TYPO3, this path can be called up. Example: "/klaroConfiguration.js"</source>
         <target state="needs-translation">Klaro! Configuration Path:If this path is set, it is used to use the Klaro! configuration by external applications. For example, if a Wordpress installation is to use the configuration created in TYPO3, this path can be called up. Example: "/klaroConfiguration.js"</target>
+      </trans-unit>
+      <trans-unit id="constants.customcategory.plugin.tx_klaroconsentmanager" resname="constants.customcategory.plugin.tx_klaroconsentmanager">
+        <source>Klaro! Consent Manager</source>
+        <target state="needs-translation">Klaro! Consent Manager</target>
+      </trans-unit>
+      <trans-unit id="constants.subcategory.fluidrootpaths" resname="constants.subcategory.fluidrootpaths">
+        <source>Fluid root paths</source>
+        <target state="needs-translation">Fluid root paths</target>
+      </trans-unit>
+      <trans-unit id="constants.subcategory.resources" resname="constants.subcategory.resources">
+        <source>Ressources</source>
+        <target state="needs-translation">Ressources</target>
+      </trans-unit>
+      <trans-unit id="constants.subcategory.settings" resname="constants.subcategory.settings">
+        <source>Settings</source>
+        <target state="needs-translation">Settings</target>
       </trans-unit>
     </body>
   </file>
