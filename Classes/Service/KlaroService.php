@@ -794,7 +794,7 @@ class KlaroService
         $contentObject = GeneralUtility::makeInstance(ContentObjectRenderer::class);
         $versionInformation = GeneralUtility::makeInstance(Typo3Version::class);
 
-        if ($versionInformation->getMajorVersion() < 11) {
+        if ($versionInformation->getMajorVersion() <= 11) {
             return $contentObject->typoLink_URL([
                 'parameter' => $typoLink,
                 'forceAbsoluteUrl' => true,
