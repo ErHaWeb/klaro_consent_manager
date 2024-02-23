@@ -1,0 +1,26 @@
+.. include:: /Includes.rst.txt
+
+1.7.2 - February 23, 2024
+=========================
+
+
+.. only:: html
+
+   .. contents::
+        :local:
+        :depth: 3
+
+Breaking changes
+----------------
+No breaking changes!
+
+All Changes
+-----------
+This is a list of all changes in this release: ::
+
+    2024-02-23 [BUGFIX] Fix link generation in TYPO3 v11 (Commit bfaeac6 by Eric Harrer)
+    2024-02-23 [TASK] Update PHP version requirement (Commit 3b76970 by Eric Harrer)
+    2024-02-05 [TASK] Additions to ext_emconf.php (Commit 7a9b66d by Eric Harrer)
+    2024-02-02 [TASK] Fix typo in label (Commit 42bbd15 by Eric Harrer)
+
+This list has been created by using `git log $(git describe --tags --abbrev=0)..HEAD --abbrev-commit --pretty='%ad %s (Commit %h by %an)' --date=short`.
