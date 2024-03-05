@@ -183,7 +183,7 @@ class KlaroService
 
         if ($this->initConfiguration($request)) {
             $this->initLanguage($request);
-            $this->initStandaloneView();
+            $this->initStandaloneView($request);
         }
     }
 
@@ -336,14 +336,21 @@ class KlaroService
 
 
     /**
+     * @param ServerRequestInterface $request
      * @return void
      */
-    private function initStandaloneView(): void
+    private function initStandaloneView(ServerRequestInterface $request): void
     {
         $this->framework = TypoScriptUtility::getFramework();
         $this->settings = $this->framework['settings'] ?? [];
 
         $this->standaloneView = GeneralUtility::makeInstance(StandaloneView::class);
+
+        // Set request for StandaloneView in TYPO3 >= 12 according to breaking #98377
+        $versionInformation = GeneralUtility::makeInstance(Typo3Version::class);
+        if ($versionInformation->getMajorVersion() >= 12) {
+            $this->standaloneView->setRequest($request);
+        }
 
         $layoutRootPaths = [];
         $partialRootPaths = [];
