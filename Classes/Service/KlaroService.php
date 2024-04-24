@@ -756,7 +756,7 @@ class KlaroService
         ArrayUtility::mergeRecursiveWithOverrule($arguments, $additionalArguments);
 
         if ($fluidLabel = $this->getFluidContent($template, $arguments)) {
-            $label = $fluidLabel;
+            return $fluidLabel;
         }
 
         // If no label has been created up to this point, fall back to an error message.
@@ -764,7 +764,7 @@ class KlaroService
             $label = '[missing translation: ' . $key . ']';
         }
 
-        return addslashes($this->prepareStringForJavaScript($label));
+        return $this->prepareStringForJavaScript($label);
     }
 
     /**
@@ -773,22 +773,25 @@ class KlaroService
      */
     private function prepareStringForJavaScript(string $string): string
     {
-        // Trim string
-        $string = trim($string);
-
-        // Remove linebreaks
-        $string = str_replace(array("\r", "\n"), '', $string);
+        // Remove linebreaks, remove spaces before commas and escape single quotes
+        $string = str_replace(
+            ["\r", "\n", ' , '],
+            ['', '', ', '],
+            $string
+        );
 
         // Remove whitespaces and linebreaks
-        $string = preg_replace('/\s+/', ' ', $string);
-        $string = preg_replace('/>\s/', '>', $string);
-        $string = preg_replace('/\s</', '<', $string);
+        $string = preg_replace(
+            ['/\s+/', '/>\s/', '/\s</'],
+            [' ', '>', '<'],
+            $string
+        );
 
-        // Remove spaces before commas
-        $string = str_replace(' , ', ', ', $string);
+        // Add slashes
+        $string = addslashes($string);
 
-        // Escape quotes
-        return $string;
+        // Trim string
+        return trim($string);
     }
 
     /**
