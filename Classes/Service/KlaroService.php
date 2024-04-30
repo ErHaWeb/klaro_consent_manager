@@ -180,9 +180,9 @@ class KlaroService
     public function __construct(ServerRequestInterface $request)
     {
         $this->connectionPool = GeneralUtility::makeInstance(ConnectionPool::class);
+        $this->initLanguage($request);
 
         if ($this->initConfiguration($request)) {
-            $this->initLanguage($request);
             $this->initStandaloneView($request);
         }
     }
@@ -307,15 +307,28 @@ class KlaroService
     {
         /** @var Site $site */
         if ($site = $request->getAttribute('site')) {
-            $siteConfiguration = $site->getConfiguration();
-            $this->configurationId = (int)($siteConfiguration['klaroConfiguration'] ?? 0);
+            $languageConfiguration = $this->siteLanguage->toArray();
+            $configuration = [];
 
-            if ($this->configurationId > 0) {
-                $this->imprintLink = $siteConfiguration['klaroImprintUrl'] ?? '';
-                $this->privacyPolicyLink = $siteConfiguration['klaroPrivacyPolicyUrl'] ?? '';
-                $this->rawConfiguration = $this->fetchConfiguration();
+            if (array_key_exists('klaroConfiguration', $languageConfiguration)) {
+                $configuration = $languageConfiguration;
+            }
 
-                return true;
+            if (!$configuration) {
+                $siteConfiguration = $site->getConfiguration();
+                if (array_key_exists('klaroConfiguration', $siteConfiguration)) {
+                    $configuration = $siteConfiguration;
+                }
+            }
+
+            if ($configuration) {
+                $this->configurationId = (int)($configuration['klaroConfiguration'] ?? 0);
+                if ($this->configurationId > 0) {
+                    $this->imprintLink = $configuration['klaroImprintUrl'] ?? '';
+                    $this->privacyPolicyLink = $configuration['klaroPrivacyPolicyUrl'] ?? '';
+                    $this->rawConfiguration = $this->fetchConfiguration();
+                    return true;
+                }
             }
         }
 
