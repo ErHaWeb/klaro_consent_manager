@@ -48,6 +48,6 @@ class KlaroTypoScriptConditionProvider extends AbstractProvider
      */
     private function getRequest(): ?ServerRequestInterface
     {
-        return $GLOBALS['TYPO3_REQUEST'];
+        return $GLOBALS['TYPO3_REQUEST'] ?? null;
     }
 }
