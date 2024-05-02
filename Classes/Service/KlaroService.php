@@ -341,12 +341,13 @@ class KlaroService
      */
     private function initLanguage(ServerRequestInterface $request): void
     {
-        if ($this->siteLanguage = $request->getAttribute('language')) {
+        $language = $request->getAttribute('language');
+        if ($language instanceof SiteLanguage) {
+            $this->siteLanguage = $language;
             $languageServiceFactory = GeneralUtility::makeInstance(LanguageServiceFactory::class);
             $this->languageService = $languageServiceFactory->create($this->siteLanguage->getTypo3Language());
         }
     }
-
 
     /**
      * @param ServerRequestInterface $request
@@ -458,7 +459,7 @@ class KlaroService
             }
             $return[] = $serviceConfiguration;
         }
-        
+
         return $return;
     }
 
