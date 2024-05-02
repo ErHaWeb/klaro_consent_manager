@@ -28,7 +28,6 @@ class CspUtility
      */
     public static function getNonceValue(ServerRequestInterface $request): string
     {
-        /** @var ConsumableString|null $nonce */
         $nonceAttribute = $request->getAttribute('nonce');
         if ($nonceAttribute instanceof ConsumableString) {
             return $nonceAttribute->consume();

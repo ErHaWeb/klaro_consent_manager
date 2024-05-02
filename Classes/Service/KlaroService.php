@@ -305,8 +305,8 @@ class KlaroService
      */
     private function initConfiguration(ServerRequestInterface $request): bool
     {
-        /** @var Site $site */
-        if ($site = $request->getAttribute('site')) {
+        $site = $request->getAttribute('site');
+        if ($site instanceof Site) {
             $languageConfiguration = $this->siteLanguage->toArray();
             $configuration = [];
 

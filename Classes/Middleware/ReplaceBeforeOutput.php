@@ -135,8 +135,8 @@ class ReplaceBeforeOutput implements MiddlewareInterface
         $connectionPool = GeneralUtility::makeInstance(ConnectionPool::class);
         $configurationId = 0;
 
-        /** @var Site $site */
-        if ($site = $request->getAttribute('site')) {
+        $site = $request->getAttribute('site');
+        if ($site instanceof Site) {
             $siteConfiguration = $site->getConfiguration();
             $configurationId = (int)($siteConfiguration['klaroConfiguration'] ?? 0);
         }
