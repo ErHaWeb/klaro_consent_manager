@@ -19,5 +19,6 @@ List of versions
     :titlesonly:
     :glob:
 
+    1-8-2
     1-8-1
     1-8-0
