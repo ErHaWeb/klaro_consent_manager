@@ -59,7 +59,7 @@ class KlaroJavaScript
         }
 
         $asset = $event->getAssetCollector()->getJavaScripts();
-        $settings = TypoScriptUtility::getSettings();
+        $settings = TypoScriptUtility::getSettings($request);
         $attributes = ['defer' => 'defer', 'nonce' => CspUtility::getNonceValue($request)];
 
         foreach (($settings['javascript'] ?? []) as $key => $javascript) {

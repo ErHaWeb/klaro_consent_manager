@@ -17,48 +17,77 @@ declare(strict_types=1);
 
 namespace ErHaWeb\KlaroConsentManager\Utility;
 
+use Psr\Http\Message\ServerRequestInterface;
+use TYPO3\CMS\Core\Information\Typo3Version;
+use TYPO3\CMS\Core\TypoScript\FrontendTypoScript;
 use TYPO3\CMS\Core\Utility\GeneralUtility;
-use TYPO3\CMS\Extbase\Configuration\ConfigurationManager;
-use TYPO3\CMS\Extbase\Configuration\ConfigurationManagerInterface;
-use TYPO3\CMS\Extbase\Configuration\Exception\InvalidConfigurationTypeException;
 
 class TypoScriptUtility
 {
     /**
+     * @param ServerRequestInterface $request
      * @param string $extensionName
      * @return array
      */
-    public static function getSettings(string $extensionName = 'KlaroConsentManager'): array
+    public static function getSettings(ServerRequestInterface $request, string $extensionName = 'KlaroConsentManager'): array
     {
-        $configurationManager = GeneralUtility::makeInstance(ConfigurationManager::class);
+        if ($framework = self::getFramework($request, $extensionName)) {
+            return $framework['settings'] ?? [];
+        }
+        return [];
+    }
 
-        try {
-            return $configurationManager->getConfiguration(
-                ConfigurationManagerInterface::CONFIGURATION_TYPE_SETTINGS,
-                $extensionName
-            );
-        } catch (InvalidConfigurationTypeException $e) {
+    /**
+     * @param ServerRequestInterface $request
+     * @param string $extensionName
+     * @return array
+     */
+    public static function getFramework(ServerRequestInterface $request, string $extensionName = 'KlaroConsentManager'): array
+    {
+        $frontendTypoScriptSetupArray = [];
+
+        $versionInformation = GeneralUtility::makeInstance(Typo3Version::class);
+        if ($versionInformation->getMajorVersion() < 12) {
+            $frontendTypoScriptSetupArray = $GLOBALS['TSFE']->tmpl->setup;
+        } else {
+            /** @var FrontendTypoScript $frontendTypoScript */
+            $frontendTypoScript = $request->getAttribute('frontend.typoscript');
+            if ($frontendTypoScript) {
+                $frontendTypoScriptSetupArray = $frontendTypoScript->getSetupArray();
+            }
+        }
+
+        if ($frontendTypoScriptSetupArray) {
+            $pluginSignature = 'tx_' . strtolower($extensionName);
+            if ($frontendTypoScriptSetupArray['plugin.'][$pluginSignature . '.'] ?? []) {
+                return self::convertTypoScriptArrayToPlainArray($frontendTypoScriptSetupArray['plugin.'][$pluginSignature . '.']);
+            }
         }
 
         return [];
     }
 
     /**
-     * @param string $extensionName
+     * @param array $typoScriptArray
      * @return array
      */
-    public static function getFramework(string $extensionName = 'KlaroConsentManager'): array
+    public static function convertTypoScriptArrayToPlainArray(array $typoScriptArray): array
     {
-        $configurationManager = GeneralUtility::makeInstance(ConfigurationManager::class);
-
-        try {
-            return $configurationManager->getConfiguration(
-                ConfigurationManagerInterface::CONFIGURATION_TYPE_FRAMEWORK,
-                $extensionName
-            );
-        } catch (InvalidConfigurationTypeException $e) {
+        foreach ($typoScriptArray as $key => $value) {
+            if (substr((string)$key, -1) === '.') {
+                $keyWithoutDot = substr((string)$key, 0, -1);
+                $typoScriptNodeValue = $typoScriptArray[$keyWithoutDot] ?? null;
+                if (is_array($value)) {
+                    $typoScriptArray[$keyWithoutDot] = self::convertTypoScriptArrayToPlainArray($value);
+                    if ($typoScriptNodeValue !== null) {
+                        $typoScriptArray[$keyWithoutDot]['_typoScriptNodeValue'] = $typoScriptNodeValue;
+                    }
+                    unset($typoScriptArray[$key]);
+                } else {
+                    $typoScriptArray[$keyWithoutDot] = null;
+                }
+            }
         }
-
-        return [];
+        return $typoScriptArray;
     }
 }

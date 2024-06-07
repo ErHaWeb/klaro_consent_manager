@@ -175,16 +175,16 @@ class KlaroService
     private StandaloneView $standaloneView;
 
     /**
+     * @var ServerRequestInterface
+     */
+    protected ServerRequestInterface $request;
+
+    /**
      * @param ServerRequestInterface $request
      */
     public function __construct(ServerRequestInterface $request)
     {
-        $this->connectionPool = GeneralUtility::makeInstance(ConnectionPool::class);
-        $this->initLanguage($request);
-
-        if ($this->initConfiguration($request)) {
-            $this->initStandaloneView($request);
-        }
+        $this->request = $request;
     }
 
     /**
@@ -192,6 +192,13 @@ class KlaroService
      */
     public function getRawConfiguration(): array
     {
+        $this->connectionPool = GeneralUtility::makeInstance(ConnectionPool::class);
+        $this->initLanguage();
+
+        if ($this->initConfiguration()) {
+            $this->initStandaloneView();
+        }
+
         if (($this->settings['configuration']['disabled'] ?? '') === '1') {
             return [];
         }
@@ -300,12 +307,11 @@ class KlaroService
     }
 
     /**
-     * @param ServerRequestInterface $request
      * @return bool
      */
-    private function initConfiguration(ServerRequestInterface $request): bool
+    private function initConfiguration(): bool
     {
-        $site = $request->getAttribute('site');
+        $site = $this->request->getAttribute('site');
         if ($site instanceof Site) {
             $languageConfiguration = $this->siteLanguage->toArray();
             $configuration = [];
@@ -336,12 +342,11 @@ class KlaroService
     }
 
     /**
-     * @param ServerRequestInterface $request
      * @return void
      */
-    private function initLanguage(ServerRequestInterface $request): void
+    private function initLanguage(): void
     {
-        $language = $request->getAttribute('language');
+        $language = $this->request->getAttribute('language');
         if ($language instanceof SiteLanguage) {
             $this->siteLanguage = $language;
             $languageServiceFactory = GeneralUtility::makeInstance(LanguageServiceFactory::class);
@@ -350,12 +355,11 @@ class KlaroService
     }
 
     /**
-     * @param ServerRequestInterface $request
      * @return void
      */
-    private function initStandaloneView(ServerRequestInterface $request): void
+    private function initStandaloneView(): void
     {
-        $this->framework = TypoScriptUtility::getFramework();
+        $this->framework = TypoScriptUtility::getFramework($this->request);
         $this->settings = $this->framework['settings'] ?? [];
 
         $this->standaloneView = GeneralUtility::makeInstance(StandaloneView::class);
@@ -363,7 +367,7 @@ class KlaroService
         // Set request for StandaloneView in TYPO3 >= 12 according to breaking #98377
         $versionInformation = GeneralUtility::makeInstance(Typo3Version::class);
         if ($versionInformation->getMajorVersion() >= 12) {
-            $this->standaloneView->setRequest($request);
+            $this->standaloneView->setRequest($this->request);
         }
 
         $layoutRootPaths = [];
