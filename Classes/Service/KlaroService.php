@@ -1,6 +1,4 @@
-<?php
-
-declare(strict_types=1);
+<?php declare(strict_types=1);
 
 /*
  * This file is part of the TYPO3 CMS project.
@@ -122,7 +120,9 @@ class KlaroService
     private array $settings = [];
     private StandaloneView $standaloneView;
 
-    public function __construct(protected ServerRequestInterface $request) {}
+    public function __construct(
+        protected ServerRequestInterface $request
+    ) {}
 
     public function getRawConfiguration(): array
     {
@@ -180,6 +180,7 @@ class KlaroService
 
             if ($services = $this->getServices()) {
                 $this->configuration['services'] = $services;
+
                 // Merge final configuration array with TypoScript overrules
                 ArrayUtility::mergeRecursiveWithOverrule($this->configuration, $this->settings['configuration'] ?? []);
 
@@ -203,7 +204,7 @@ class KlaroService
                     'e.preventDefault();' .
                     'if (typeof ' . $configVariableName . ' !== "undefined") {' .
                     'klaro.show(' . $configVariableName . ', !0);' .
-                    '}' . '});' . '});' .
+                    '}});});' .
 
                     $elementId . 'ResetElements.forEach(function (element) {' .
                     'element.addEventListener("click", function (e) {' .
@@ -211,7 +212,7 @@ class KlaroService
                     'if (typeof ' . $configVariableName . ' !== "undefined") {' .
                     'klaro.show(' . $configVariableName . ', !0);' .
                     'klaro.getManager(' . $configVariableName . ').resetConsents();' .
-                    '}' . '});' . '});';
+                    '}});});';
 
                 $return .= 'document.addEventListener("DOMContentLoaded",function(){"use strict";' . $appendJavaScript . '});';
 
@@ -312,8 +313,7 @@ class KlaroService
     private function createAppendShowButtonScript(string $elementId, bool $reset = true): string
     {
         $id = $elementId . ($reset ? 'Reset' : 'Show');
-        return
-            'const ' . $id . '=document.createElement("button");' .
+        return 'const ' . $id . '=document.createElement("button");' .
             $id . '.setAttribute("data-klaro-trigger", "' . ($reset ? 'reset' : 'show') . '");' .
             $id . '.textContent="' . $this->getLabel('consentManager.' . ($reset ? 'reset' : 'show'), ['elementId' => $elementId, 'reset' => $reset, 'id' => $id]) . '";' .
             'document.body.appendChild(' . $id . ');';
@@ -451,11 +451,9 @@ class KlaroService
             } elseif (is_bool($value)) {
                 $return .= $value ? 'true' : 'false';
             } elseif (
-                //$key !== 'callback' &&
                 is_string($value) &&
                 !str_starts_with($value, '{') &&
                 !str_starts_with($value, 'function(')
-                //$value[0] !== '`'
             ) {
                 $return .= '\'' . $value . '\'';
             } else {
@@ -548,7 +546,7 @@ class KlaroService
             ->executeQuery();
 
         try {
-            if ($return = ($multiple) ? $result->fetchAllAssociative() : $result->fetchAssociative()) {
+            if ($return = $multiple ? $result->fetchAllAssociative() : $result->fetchAssociative()) {
                 return $return;
             }
         } catch (Exception) {
@@ -560,7 +558,7 @@ class KlaroService
     {
         $templateRootPaths = array_reverse($this->standaloneView->getTemplateRootPaths());
 
-        //Check if a standalone template is available and extend the label accordingly
+        // Check if a standalone template is available and extend the label accordingly
         foreach ($templateRootPaths as $templateRootPath) {
             $templateReference = $templateRootPath . $template . '.html';
             if ($templateReference !== 'php://stdin' && file_exists($templateReference)) {
@@ -659,7 +657,7 @@ class KlaroService
 
     private function getUrlFromTypoLink(string $typoLink): string
     {
-        /** @var ContentObjectRenderer $contentObject */
+
         $contentObject = GeneralUtility::makeInstance(ContentObjectRenderer::class);
 
         return $contentObject->createUrl([

@@ -1,6 +1,4 @@
-<?php
-
-declare(strict_types=1);
+<?php declare(strict_types=1);
 
 /*
  * This file is part of the TYPO3 CMS project.
@@ -34,7 +32,7 @@ class TypoScriptUtility
     {
         $frontendTypoScriptSetupArray = [];
 
-        /** @var FrontendTypoScript $frontendTypoScript */
+        
         $frontendTypoScript = $request->getAttribute('frontend.typoscript');
         if ($frontendTypoScript) {
             $frontendTypoScriptSetupArray = $frontendTypoScript->getSetupArray();
