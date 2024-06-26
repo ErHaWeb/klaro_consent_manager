@@ -24,11 +24,6 @@ use TYPO3\CMS\Core\Utility\GeneralUtility;
 
 class ExtensionConfigurationUtility
 {
-    /**
-     * @param string $path
-     * @param string $extensionKey
-     * @return mixed
-     */
     public static function getConfiguration(string $path = '', string $extensionKey = 'klaro_consent_manager'): mixed
     {
         $extensionConfiguration = GeneralUtility::makeInstance(ExtensionConfiguration::class);

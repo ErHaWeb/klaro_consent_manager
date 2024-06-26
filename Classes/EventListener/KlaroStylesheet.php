@@ -27,9 +27,6 @@ use TYPO3\CMS\Core\Utility\GeneralUtility;
 
 class KlaroStylesheet
 {
-    /**
-     * @param BeforeStylesheetsRenderingEvent $event
-     */
     public function __invoke(BeforeStylesheetsRenderingEvent $event): void
     {
         $request = $this->getRequest();
@@ -57,9 +54,6 @@ class KlaroStylesheet
         }
     }
 
-    /**
-     * @return ServerRequestInterface
-     */
     private function getRequest(): ServerRequestInterface
     {
         return $GLOBALS['TYPO3_REQUEST'];

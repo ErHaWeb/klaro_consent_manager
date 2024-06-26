@@ -108,79 +108,22 @@ class KlaroService
         'contextualConsent' => ['description', 'acceptOnce', 'acceptAlways'],
     ];
 
-    /**
-     * @var int
-     */
     private int $configurationId = 0;
-
-    /**
-     * @var array
-     */
     private array $rawConfiguration = [];
-
-    /**
-     * @var array
-     */
     private array $configuration = [];
-
-    /**
-     * @var LanguageService
-     */
     private LanguageService $languageService;
-
-    /**
-     * @var ConnectionPool
-     */
     private connectionPool $connectionPool;
-
-    /**
-     * @var string
-     */
     private string $imprintLink = '';
-
-    /**
-     * @var string
-     */
     private string $privacyPolicyLink = '';
-
-    /**
-     * @var SiteLanguage
-     */
     private SiteLanguage $siteLanguage;
-
-    /**
-     * @var string
-     */
     private string $locallangPath = 'EXT:klaro_consent_manager/Resources/Private/Language/locallang.xlf';
-
-    /**
-     * @var string
-     */
     private string $locallangPathOverride = '';
-
-    /**
-     * @var array
-     */
     private array $framework = [];
-
-    /**
-     * @var array
-     */
     private array $settings = [];
-
-    /**
-     * @var StandaloneView
-     */
     private StandaloneView $standaloneView;
 
-    /**
-     * @param ServerRequestInterface $request
-     */
     public function __construct(protected ServerRequestInterface $request) {}
 
-    /**
-     * @return array
-     */
     public function getRawConfiguration(): array
     {
         $this->connectionPool = GeneralUtility::makeInstance(ConnectionPool::class);
@@ -197,9 +140,6 @@ class KlaroService
         return $this->rawConfiguration;
     }
 
-    /**
-     * @return string
-     */
     public function getConfigurationInlineJavaScript(): string
     {
         if ($this->rawConfiguration) {
@@ -297,9 +237,6 @@ class KlaroService
         return '';
     }
 
-    /**
-     * @return bool
-     */
     private function initConfiguration(): bool
     {
         $site = $this->request->getAttribute('site');
@@ -372,11 +309,6 @@ class KlaroService
         $this->standaloneView->setTemplateRootPaths($templateRootPaths);
     }
 
-    /**
-     * @param string $elementId
-     * @param bool $reset
-     * @return string
-     */
     private function createAppendShowButtonScript(string $elementId, bool $reset = true): string
     {
         $id = $elementId . ($reset ? 'Reset' : 'Show');
@@ -387,9 +319,6 @@ class KlaroService
             'document.body.appendChild(' . $id . ');';
     }
 
-    /**
-     * @return array
-     */
     private function getServices(): array
     {
         $return = [];
@@ -447,10 +376,6 @@ class KlaroService
         return $return;
     }
 
-    /**
-     * @param string $type
-     * @return mixed
-     */
     private function modifyValueByType(mixed $value, string $type): mixed
     {
         return match ($type) {
@@ -462,11 +387,6 @@ class KlaroService
         };
     }
 
-    /**
-     * @param array $keys
-     * @param string $prepend
-     * @return array
-     */
     private function getTranslations(array $keys = [], string $prepend = ''): array
     {
         $return = [];
@@ -510,12 +430,6 @@ class KlaroService
         return $return;
     }
 
-    /**
-     * @param array $configuration
-     * @param string $field
-     * @param string $type
-     * @return mixed
-     */
     private function getConfigurationValue(array $configuration, string $field, string $type): mixed
     {
         return match ($type) {
@@ -526,10 +440,6 @@ class KlaroService
         };
     }
 
-    /**
-     * @param array $array
-     * @return string
-     */
     private function arrayToJavaScriptObject(array $array): string
     {
         $isAssociative = $this->arrayIsAssociative($array);
@@ -559,18 +469,11 @@ class KlaroService
         return $return;
     }
 
-    /**
-     * @param array $array
-     * @return bool
-     */
     private function arrayIsAssociative(array $array): bool
     {
         return count(array_filter(array_keys($array), 'is_string')) > 0;
     }
 
-    /**
-     * @return array
-     */
     private function fetchConfiguration(): array
     {
         if ($this->configurationId === 0) {
@@ -595,10 +498,6 @@ class KlaroService
         return [];
     }
 
-    /**
-     * @param string $serviceUidsList
-     * @return array
-     */
     private function fetchServices(string $serviceUidsList): array
     {
         $serviceUids = GeneralUtility::intExplode(',', $serviceUidsList);
@@ -620,10 +519,6 @@ class KlaroService
         return $return;
     }
 
-    /**
-     * @param int $serviceId
-     * @return array
-     */
     private function fetchCookies(int $serviceId): array
     {
         return $this->fetchResults(
@@ -637,13 +532,6 @@ class KlaroService
         );
     }
 
-    /**
-     * @param string $table
-     * @param array $select
-     * @param array $where
-     * @param bool $multiple
-     * @return array
-     */
     private function fetchResults(string $table, array $select, array $where = [], bool $multiple = false): array
     {
         $queryBuilder = $this->connectionPool->getQueryBuilderForTable($table);
@@ -706,11 +594,6 @@ class KlaroService
         return '';
     }
 
-    /**
-     * @param string $key
-     * @param array $additionalArguments
-     * @return string
-     */
     private function getLabel(string $key, array $additionalArguments = []): string
     {
         $label = '';
@@ -751,10 +634,6 @@ class KlaroService
         return $this->prepareStringForJavaScript($label);
     }
 
-    /**
-     * @param string $string
-     * @return string
-     */
     private function prepareStringForJavaScript(string $string): string
     {
         // Remove linebreaks, remove spaces before commas and escape single quotes
@@ -778,10 +657,6 @@ class KlaroService
         return trim($string);
     }
 
-    /**
-     * @param string $typoLink
-     * @return string
-     */
     private function getUrlFromTypoLink(string $typoLink): string
     {
         /** @var ContentObjectRenderer $contentObject */

@@ -15,8 +15,6 @@ final class KlaroConfigurationHelper
 {
     /**
      * Reference to the parent (calling) cObject set from TypoScript
-     *
-     * @var ContentObjectRenderer
      */
     public ContentObjectRenderer $cObj;
 
@@ -25,9 +23,6 @@ final class KlaroConfigurationHelper
         $this->cObj = $cObj;
     }
 
-    /**
-     * @return string
-     */
     public function getKlaroConfiguration(): string
     {
         $klaroService = GeneralUtility::makeInstance(KlaroService::class, $this->getRequest());
@@ -39,9 +34,6 @@ final class KlaroConfigurationHelper
         return '';
     }
 
-    /**
-     * @return ServerRequestInterface
-     */
     public function getRequest(): ServerRequestInterface
     {
         if (method_exists($this->cObj, 'getRequest')) {

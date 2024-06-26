@@ -27,9 +27,6 @@ use TYPO3\CMS\Core\Utility\GeneralUtility;
 
 class KlaroJavaScript
 {
-    /**
-     * @param BeforeJavaScriptsRenderingEvent $event
-     */
     public function __invoke(BeforeJavaScriptsRenderingEvent $event): void
     {
         $request = $this->getRequest();
@@ -70,9 +67,6 @@ class KlaroJavaScript
         }
     }
 
-    /**
-     * @return ServerRequestInterface
-     */
     private function getRequest(): ServerRequestInterface
     {
         return $GLOBALS['TYPO3_REQUEST'];

@@ -22,11 +22,6 @@ use TYPO3\CMS\Core\TypoScript\FrontendTypoScript;
 
 class TypoScriptUtility
 {
-    /**
-     * @param ServerRequestInterface $request
-     * @param string $extensionName
-     * @return array
-     */
     public static function getSettings(ServerRequestInterface $request, string $extensionName = 'KlaroConsentManager'): array
     {
         if ($framework = self::getFramework($request, $extensionName)) {
@@ -35,11 +30,6 @@ class TypoScriptUtility
         return [];
     }
 
-    /**
-     * @param ServerRequestInterface $request
-     * @param string $extensionName
-     * @return array
-     */
     public static function getFramework(ServerRequestInterface $request, string $extensionName = 'KlaroConsentManager'): array
     {
         $frontendTypoScriptSetupArray = [];
@@ -60,10 +50,6 @@ class TypoScriptUtility
         return [];
     }
 
-    /**
-     * @param array $typoScriptArray
-     * @return array
-     */
     public static function convertTypoScriptArrayToPlainArray(array $typoScriptArray): array
     {
         foreach ($typoScriptArray as $key => $value) {

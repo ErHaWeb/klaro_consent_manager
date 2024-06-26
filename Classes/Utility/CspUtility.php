@@ -22,10 +22,6 @@ use TYPO3\CMS\Core\Domain\ConsumableString;
 
 class CspUtility
 {
-    /**
-     * @param ServerRequestInterface $request
-     * @return string
-     */
     public static function getNonceValue(ServerRequestInterface $request): string
     {
         $nonceAttribute = $request->getAttribute('nonce');

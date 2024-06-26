@@ -31,9 +31,6 @@ use TYPO3\CMS\Core\Utility\GeneralUtility;
 
 class ReplaceBeforeOutput implements MiddlewareInterface
 {
-    /**
-     * @inheritDoc
-     */
     public function process(ServerRequestInterface $request, RequestHandlerInterface $handler): ResponseInterface
     {
         $showUrl = ExtensionConfigurationUtility::getConfiguration('replaceUrl/show');
@@ -73,11 +70,6 @@ class ReplaceBeforeOutput implements MiddlewareInterface
         return $response->withBody($body);
     }
 
-    /**
-     * @param string $html
-     * @param string $pattern
-     * @return string
-     */
     public function replaceAttrWithDataAttr(string $html, string $pattern = '/(<div\s+data-name="([a-zA-Z0-9\-\_]+)"\s+data-replace="([^"]+)">)((?:.|\n)*?)(<\/div>)/'): string
     {
         // Callback function to manipulate the inner HTML
@@ -115,10 +107,6 @@ class ReplaceBeforeOutput implements MiddlewareInterface
         return preg_replace_callback($pattern, $callback, $html);
     }
 
-    /**
-     * @param ServerRequestInterface $request
-     * @return string
-     */
     private function getElementId(ServerRequestInterface $request): string
     {
         $return = 'klaro';

@@ -31,9 +31,6 @@ class KlaroTypoScriptConditionProvider extends AbstractProvider
         ];
     }
 
-    /**
-     * @return bool
-     */
     private function klaroIsActive(): bool
     {
         $request = $this->getRequest();
@@ -45,9 +42,6 @@ class KlaroTypoScriptConditionProvider extends AbstractProvider
         return false;
     }
 
-    /**
-     * @return ?ServerRequestInterface
-     */
     private function getRequest(): ?ServerRequestInterface
     {
         return $GLOBALS['TYPO3_REQUEST'] ?? null;
