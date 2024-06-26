@@ -34,14 +34,13 @@ defined('TYPO3') || die();
     /**
      * Static TypoScript include title
      */
-    $title = $locallangFilePath . ':sys_template.TypoScript.' . $extKey . '.title';
+    $title = $locallangFilePath . ':sys_template.TypoScript.' . $extKey . '_title';
 
     /**
      * Add static TypoScript (constants and setup) directly through TCA instead of the API function to be able to translate the title
      */
     if (is_array($GLOBALS['TCA']['sys_template']['columns'])) {
         $value = str_replace(',', '', 'EXT:' . $extKey . '/' . $path);
-        $itemArray = [$title, $value];
-        $GLOBALS['TCA']['sys_template']['columns']['include_static_file']['config']['items'][] = $itemArray;
+        $GLOBALS['TCA']['sys_template']['columns']['include_static_file']['config']['items'][] = [$title, $value];
     }
 })();
