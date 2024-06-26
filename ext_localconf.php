@@ -13,18 +13,20 @@
  * The TYPO3 project - inspiring people to share!
  */
 
+use TYPO3\CMS\Core\Utility\ExtensionManagementUtility;
+
 defined('TYPO3') || die();
 
 (static function () {
     $extensionKey = 'klaro_consent_manager';
 
-    \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addTypoScript(
+    ExtensionManagementUtility::addTypoScript(
         $extensionKey,
         'constants',
         "@import 'EXT:" . $extensionKey . "/Configuration/TypoScript/Default/constants.typoscript'"
     );
 
-    \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addTypoScript(
+    ExtensionManagementUtility::addTypoScript(
         $extensionKey,
         'setup',
         "@import 'EXT:" . $extensionKey . "/Configuration/TypoScript/Default/setup.typoscript'"

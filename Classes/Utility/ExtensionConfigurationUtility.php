@@ -29,7 +29,7 @@ class ExtensionConfigurationUtility
      * @param string $extensionKey
      * @return mixed
      */
-    public static function getConfiguration(string $path = '', string $extensionKey = 'klaro_consent_manager')
+    public static function getConfiguration(string $path = '', string $extensionKey = 'klaro_consent_manager'): mixed
     {
         $extensionConfiguration = GeneralUtility::makeInstance(ExtensionConfiguration::class);
         if ($extensionConfiguration) {
@@ -40,7 +40,7 @@ class ExtensionConfigurationUtility
                     $configuration = $extensionConfiguration->get($extensionKey);
                 }
                 return $configuration;
-            } catch (ExtensionConfigurationExtensionNotConfiguredException|ExtensionConfigurationPathDoesNotExistException $e) {
+            } catch (ExtensionConfigurationExtensionNotConfiguredException|ExtensionConfigurationPathDoesNotExistException) {
             }
         }
 

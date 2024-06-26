@@ -7,13 +7,16 @@ return [
         'label_alt' => 'name',
         'tstamp' => 'tstamp',
         'crdate' => 'crdate',
-        'cruser_id' => 'cruser_id',
         'default_sortby' => 'ORDER BY name',
         'delete' => 'deleted',
         'iconfile' => 'EXT:klaro_consent_manager/Resources/Public/Icons/tx_klaroconsentmanager_service.svg',
         'rootLevel' => -1,
         'enablecolumns' => [
             'disabled' => 'hidden',
+        ],
+        'security' => [
+            'ignorePageTypeRestriction' => true,
+            'ignoreRootLevelRestriction' => true,
         ],
     ],
     'columns' => [
@@ -25,12 +28,11 @@ return [
                 'default' => 0,
                 'items' => [
                     [
-                        0 => '',
-                        1 => '',
-                        'invertStateDisplay' => true
-                    ]
+                        'label' => '',
+                        'invertStateDisplay' => true,
+                    ],
                 ],
-            ]
+            ],
         ],
         'title' => [
             'label' => 'LLL:EXT:klaro_consent_manager/Resources/Private/Language/locallang_db.xlf:tx_klaroconsentmanager_service.title.label',
@@ -71,7 +73,7 @@ return [
             'config' => [
                 'type' => 'input',
                 'size' => 48,
-                'eval' => 'nospace,alphanum_x,required',
+                'eval' => 'nospace,alphanum_x',
                 'placeholder' => 'LLL:EXT:klaro_consent_manager/Resources/Private/Language/locallang_db.xlf:tx_klaroconsentmanager_service.name.placeholder',
                 'valuePicker' => [
                     'items' => [
@@ -97,6 +99,7 @@ return [
                         ['LLL:EXT:klaro_consent_manager/Resources/Private/Language/locallang_db.xlf:tx_klaroconsentmanager_service.name.I.youtube', 'youtube'],
                     ],
                 ],
+                'required' => true,
             ],
         ],
         'purposes' => [
@@ -111,16 +114,16 @@ return [
                 'autoSizeMax' => 10,
                 'items' => [
                     // Klaro! Default Purposes
-                    ['LLL:EXT:klaro_consent_manager/Resources/Private/Language/locallang_db.xlf:tx_klaroconsentmanager_service.purposes.I.functional', 'functional', '', 'default'],
-                    ['LLL:EXT:klaro_consent_manager/Resources/Private/Language/locallang_db.xlf:tx_klaroconsentmanager_service.purposes.I.performance', 'performance', '', 'default'],
-                    ['LLL:EXT:klaro_consent_manager/Resources/Private/Language/locallang_db.xlf:tx_klaroconsentmanager_service.purposes.I.marketing', 'marketing', '', 'default'],
-                    ['LLL:EXT:klaro_consent_manager/Resources/Private/Language/locallang_db.xlf:tx_klaroconsentmanager_service.purposes.I.advertising', 'advertising', '', 'default'],
+                    ['label' => 'LLL:EXT:klaro_consent_manager/Resources/Private/Language/locallang_db.xlf:tx_klaroconsentmanager_service.purposes.I.functional', 'value' => 'functional', 'icon' => '', 'group' => 'default'],
+                    ['label' => 'LLL:EXT:klaro_consent_manager/Resources/Private/Language/locallang_db.xlf:tx_klaroconsentmanager_service.purposes.I.performance', 'value' => 'performance', 'icon' => '', 'group' => 'default'],
+                    ['label' => 'LLL:EXT:klaro_consent_manager/Resources/Private/Language/locallang_db.xlf:tx_klaroconsentmanager_service.purposes.I.marketing', 'value' => 'marketing', 'icon' => '', 'group' => 'default'],
+                    ['label' => 'LLL:EXT:klaro_consent_manager/Resources/Private/Language/locallang_db.xlf:tx_klaroconsentmanager_service.purposes.I.advertising', 'value' => 'advertising', 'icon' => '', 'group' => 'default'],
 
                     // Additional Purposes
-                    ['LLL:EXT:klaro_consent_manager/Resources/Private/Language/locallang_db.xlf:tx_klaroconsentmanager_service.purposes.I.analytics', 'analytics', '', 'additional'],
-                    ['LLL:EXT:klaro_consent_manager/Resources/Private/Language/locallang_db.xlf:tx_klaroconsentmanager_service.purposes.I.security', 'security', '', 'additional'],
-                    ['LLL:EXT:klaro_consent_manager/Resources/Private/Language/locallang_db.xlf:tx_klaroconsentmanager_service.purposes.I.livechat', 'livechat', '', 'additional'],
-                    ['LLL:EXT:klaro_consent_manager/Resources/Private/Language/locallang_db.xlf:tx_klaroconsentmanager_service.purposes.I.styling', 'styling', '', 'additional'],
+                    ['label' => 'LLL:EXT:klaro_consent_manager/Resources/Private/Language/locallang_db.xlf:tx_klaroconsentmanager_service.purposes.I.analytics', 'value' => 'analytics', 'icon' => '', 'group' => 'additional'],
+                    ['label' => 'LLL:EXT:klaro_consent_manager/Resources/Private/Language/locallang_db.xlf:tx_klaroconsentmanager_service.purposes.I.security', 'value' => 'security', 'icon' => '', 'group' => 'additional'],
+                    ['label' => 'LLL:EXT:klaro_consent_manager/Resources/Private/Language/locallang_db.xlf:tx_klaroconsentmanager_service.purposes.I.livechat', 'value' => 'livechat', 'icon' => '', 'group' => 'additional'],
+                    ['label' => 'LLL:EXT:klaro_consent_manager/Resources/Private/Language/locallang_db.xlf:tx_klaroconsentmanager_service.purposes.I.styling', 'value' => 'styling', 'icon' => '', 'group' => 'additional'],
                 ],
                 'itemGroups' => [
                     'custom' => 'LLL:EXT:klaro_consent_manager/Resources/Private/Language/locallang_db.xlf:tx_klaroconsentmanager_service.purposes.optgroup.custom',
@@ -138,14 +141,13 @@ return [
                 'default' => 0,
                 'items' => [
                     [
-                        0 => '',
-                        1 => '',
                         'label' => '',
+                        'value' => '',
                         'labelChecked' => 'LLL:EXT:klaro_consent_manager/Resources/Private/Language/locallang_db.xlf:tx_klaroconsentmanager_service.I.enabled',
                         'labelUnchecked' => 'LLL:EXT:klaro_consent_manager/Resources/Private/Language/locallang_db.xlf:tx_klaroconsentmanager_service.I.disabled',
-                    ]
+                    ],
                 ],
-            ]
+            ],
         ],
         'required' => [
             'label' => 'LLL:EXT:klaro_consent_manager/Resources/Private/Language/locallang_db.xlf:tx_klaroconsentmanager_service.required.label',
@@ -156,14 +158,13 @@ return [
                 'default' => 0,
                 'items' => [
                     [
-                        0 => '',
-                        1 => '',
                         'label' => '',
+                        'value' => '',
                         'labelChecked' => 'LLL:EXT:klaro_consent_manager/Resources/Private/Language/locallang_db.xlf:tx_klaroconsentmanager_service.I.enabled',
                         'labelUnchecked' => 'LLL:EXT:klaro_consent_manager/Resources/Private/Language/locallang_db.xlf:tx_klaroconsentmanager_service.I.disabled',
-                    ]
+                    ],
                 ],
-            ]
+            ],
         ],
         'opt_out' => [
             'label' => 'LLL:EXT:klaro_consent_manager/Resources/Private/Language/locallang_db.xlf:tx_klaroconsentmanager_service.opt_out.label',
@@ -174,14 +175,13 @@ return [
                 'default' => 0,
                 'items' => [
                     [
-                        0 => '',
-                        1 => '',
                         'label' => '',
+                        'value' => '',
                         'labelChecked' => 'LLL:EXT:klaro_consent_manager/Resources/Private/Language/locallang_db.xlf:tx_klaroconsentmanager_service.I.enabled',
                         'labelUnchecked' => 'LLL:EXT:klaro_consent_manager/Resources/Private/Language/locallang_db.xlf:tx_klaroconsentmanager_service.I.disabled',
-                    ]
+                    ],
                 ],
-            ]
+            ],
         ],
         'only_once' => [
             'label' => 'LLL:EXT:klaro_consent_manager/Resources/Private/Language/locallang_db.xlf:tx_klaroconsentmanager_service.only_once.label',
@@ -192,14 +192,13 @@ return [
                 'default' => 0,
                 'items' => [
                     [
-                        0 => '',
-                        1 => '',
                         'label' => '',
+                        'value' => '',
                         'labelChecked' => 'LLL:EXT:klaro_consent_manager/Resources/Private/Language/locallang_db.xlf:tx_klaroconsentmanager_service.I.enabled',
                         'labelUnchecked' => 'LLL:EXT:klaro_consent_manager/Resources/Private/Language/locallang_db.xlf:tx_klaroconsentmanager_service.I.disabled',
-                    ]
+                    ],
                 ],
-            ]
+            ],
         ],
         'cookies' => [
             'label' => 'LLL:EXT:klaro_consent_manager/Resources/Private/Language/locallang_db.xlf:tx_klaroconsentmanager_service.cookies.label',
@@ -224,7 +223,7 @@ return [
                 'renderType' => 't3editor',
                 'format' => 'javascript',
                 'rows' => 10,
-            ]
+            ],
         ],
         'contextual_consent_only' => [
             'label' => 'LLL:EXT:klaro_consent_manager/Resources/Private/Language/locallang_db.xlf:tx_klaroconsentmanager_service.contextual_consent_only.label',
@@ -235,14 +234,13 @@ return [
                 'default' => 0,
                 'items' => [
                     [
-                        0 => '',
-                        1 => '',
                         'label' => '',
+                        'value' => '',
                         'labelChecked' => 'LLL:EXT:klaro_consent_manager/Resources/Private/Language/locallang_db.xlf:tx_klaroconsentmanager_service.I.enabled',
                         'labelUnchecked' => 'LLL:EXT:klaro_consent_manager/Resources/Private/Language/locallang_db.xlf:tx_klaroconsentmanager_service.I.disabled',
-                    ]
+                    ],
                 ],
-            ]
+            ],
         ],
         'on_accept' => [
             'label' => 'LLL:EXT:klaro_consent_manager/Resources/Private/Language/locallang_db.xlf:tx_klaroconsentmanager_service.on_accept.label',
@@ -252,7 +250,7 @@ return [
                 'renderType' => 't3editor',
                 'format' => 'javascript',
                 'rows' => 10,
-            ]
+            ],
         ],
         'on_init' => [
             'label' => 'LLL:EXT:klaro_consent_manager/Resources/Private/Language/locallang_db.xlf:tx_klaroconsentmanager_service.on_init.label',
@@ -262,7 +260,7 @@ return [
                 'renderType' => 't3editor',
                 'format' => 'javascript',
                 'rows' => 10,
-            ]
+            ],
         ],
         'on_decline' => [
             'label' => 'LLL:EXT:klaro_consent_manager/Resources/Private/Language/locallang_db.xlf:tx_klaroconsentmanager_service.on_decline.label',
@@ -272,7 +270,7 @@ return [
                 'renderType' => 't3editor',
                 'format' => 'javascript',
                 'rows' => 10,
-            ]
+            ],
         ],
         'vars' => [
             'label' => 'LLL:EXT:klaro_consent_manager/Resources/Private/Language/locallang_db.xlf:tx_klaroconsentmanager_service.vars.label',
@@ -282,19 +280,19 @@ return [
                 'renderType' => 't3editor',
                 'format' => 'javascript',
                 'rows' => 10,
-            ]
+            ],
         ],
         'parentid' => [
             'label' => '',
             'config' => [
-                'type' => 'passthrough'
-            ]
+                'type' => 'passthrough',
+            ],
         ],
         'parenttable' => [
             'label' => '',
             'config' => [
-                'type' => 'passthrough'
-            ]
+                'type' => 'passthrough',
+            ],
         ],
     ],
     'types' => [
@@ -310,7 +308,7 @@ return [
                     --palette--;;advanced_palette,
                 --div--;LLL:EXT:klaro_consent_manager/Resources/Private/Language/locallang_db.xlf:tx_klaroconsentmanager_service.tabs.access,
                     --palette--;;access
-            '
+            ',
         ],
     ],
     'palettes' => [
@@ -332,7 +330,7 @@ return [
             'showitem' => '
                 required, opt_out, --linebreak--,
                 only_once, contextual_consent_only
-            '
+            ',
         ],
         'advanced_palette' => [
             'label' => 'LLL:EXT:klaro_consent_manager/Resources/Private/Language/locallang_db.xlf:tx_klaroconsentmanager_service.palettes.advanced_palette',

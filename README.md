@@ -1,6 +1,6 @@
 # Klaro Consent Manager
 
-Functionally complete, flexible TYPO3 integration of Klaro! Consent Management by KIProtect. Klaro! is a powerful tool that protects your visitors' privacy and data and helps you run a GDPR compliant website.
+Functionally complete, flexible TYPO3 integration of Klaro! Consent Management by KIProtect. Klaro! is a powerful tool that protects your visitors' privacy and data and helps you run a GDPR-compliant website.
 
 ## Tutorials
 
@@ -58,13 +58,13 @@ TCEFORM {
     tx_klaroconsentmanager_service.purposes.addItems {
         analytics = LLL:EXT:sitepackage/Resources/Private/Language/Klaro/locallang.xlf:purposes.analytics.title
         analytics.group = custom
-    
+
         security = LLL:EXT:sitepackage/Resources/Private/Language/Klaro/locallang.xlf:purposes.security.title
         security.group = custom
-    
+
         livechat = LLL:EXT:sitepackage/Resources/Private/Language/Klaro/locallang.xlf:purposes.livechat.title
         livechat.group = custom
-    
+
         styling = LLL:EXT:sitepackage/Resources/Private/Language/Klaro/locallang.xlf:purposes.styling.title
         styling.group = custom
     }

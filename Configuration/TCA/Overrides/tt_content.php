@@ -15,6 +15,8 @@ declare(strict_types=1);
  * The TYPO3 project - inspiring people to share!
  */
 
+use TYPO3\CMS\Core\Utility\ExtensionManagementUtility;
+
 defined('TYPO3') || die();
 
 (static function () {
@@ -30,17 +32,17 @@ defined('TYPO3') || die();
                     [
                         'label' => '',
                         'value' => '0',
-                    ]
+                    ],
                 ],
             ],
         ],
     ];
-    \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addTCAcolumns(
+    ExtensionManagementUtility::addTCAcolumns(
         'tt_content',
         $newFields
     );
 
-    \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addFieldsToPalette(
+    ExtensionManagementUtility::addFieldsToPalette(
         'tt_content',
         'frames',
         '--linebreak--,tx_klaroconsentmanager_service',

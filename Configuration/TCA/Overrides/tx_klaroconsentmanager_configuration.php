@@ -15,10 +15,12 @@ declare(strict_types=1);
  * The TYPO3 project - inspiring people to share!
  */
 
+use TYPO3\CMS\Core\Utility\ArrayUtility;
+
 defined('TYPO3') || die();
 
 (static function () {
-    \TYPO3\CMS\Core\Utility\ArrayUtility::mergeRecursiveWithOverrule(
+    ArrayUtility::mergeRecursiveWithOverrule(
         $GLOBALS['TCA']['tx_klaroconsentmanager_configuration']['columns']['purpose_order']['config'],
         $GLOBALS['TCA']['tx_klaroconsentmanager_service']['columns']['purposes']['config'],
     );

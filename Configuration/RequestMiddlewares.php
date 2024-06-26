@@ -2,10 +2,12 @@
 
 declare(strict_types=1);
 
+use ErHaWeb\KlaroConsentManager\Middleware\ReplaceBeforeOutput;
+
 return [
     'frontend' => [
         'erhaweb/klaro-consent-manager/replace-content' => [
-            'target' => \ErHaWeb\KlaroConsentManager\Middleware\ReplaceBeforeOutput::class,
+            'target' => ReplaceBeforeOutput::class,
             'before' => [
                 'typo3/cms-frontend/output-compression',
                 'typo3/cms-frontend/content-length-headers',

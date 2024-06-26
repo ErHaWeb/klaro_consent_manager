@@ -10,7 +10,7 @@
                 <source>Replace-URL to reset Klaro! Consent Management:Links targeting this placeholder URL are automatically changed before HTML output. The URL is replaced with CSP-compliant JavaScript to reset the Klaro! Consent Management settings and then trigger the modal.</source>
             </trans-unit>
             <trans-unit id="extmng.klaroConfigurationPath" resname="extmng.klaroConfigurationPath">
-                <source>Klaro! Configuration Path:If this path is set, it is used to use the Klaro! configuration by external applications. For example, if a Wordpress installation is to use the configuration created in TYPO3, this path can be called up. Example: &#34;/klaroConfiguration.js&#34;</source>
+                <source>Klaro! Configuration Path:If this path is set, it is used to use the Klaro! configuration by external applications. For example, if a WordPress installation is to use the configuration created in TYPO3, this path can be called up. Example: &#34;/klaroConfiguration.js&#34;</source>
             </trans-unit>
             <trans-unit id="constants.customcategory.plugin.tx_klaroconsentmanager" resname="constants.customcategory.plugin.tx_klaroconsentmanager">
                 <source>Klaro! Consent Manager</source>

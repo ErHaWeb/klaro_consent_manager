@@ -27,10 +27,8 @@ use TYPO3\CMS\Core\Utility\GeneralUtility;
 
 class KlaroJavaScript
 {
-
     /**
      * @param BeforeJavaScriptsRenderingEvent $event
-     * @return void
      */
     public function __invoke(BeforeJavaScriptsRenderingEvent $event): void
     {
@@ -51,7 +49,7 @@ class KlaroJavaScript
             if (!($asset[$configVariableName] ?? false) && $configurationInlineJavaScript = $klaroService->getConfigurationInlineJavaScript()) {
                 $attributes = [
                     'defer' => 'defer',
-                    'nonce' => CspUtility::getNonceValue($request)
+                    'nonce' => CspUtility::getNonceValue($request),
                 ];
                 $event->getAssetCollector()->addInlineJavaScript($configVariableName, $configurationInlineJavaScript, $attributes, ['priority' => true]);
             }

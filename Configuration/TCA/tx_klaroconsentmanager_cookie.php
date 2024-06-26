@@ -7,7 +7,6 @@ return [
         'label_alt' => 'identifier, pattern',
         'tstamp' => 'tstamp',
         'crdate' => 'crdate',
-        'cruser_id' => 'cruser_id',
         'delete' => 'deleted',
         'iconfile' => 'EXT:klaro_consent_manager/Resources/Public/Icons/tx_klaroconsentmanager_cookie.svg',
         'rootLevel' => -1,
@@ -15,6 +14,10 @@ return [
             'disabled' => 'hidden',
         ],
         'hideTable' => true,
+        'security' => [
+            'ignorePageTypeRestriction' => true,
+            'ignoreRootLevelRestriction' => true,
+        ],
     ],
     'columns' => [
         'hidden' => [
@@ -25,12 +28,11 @@ return [
                 'default' => 0,
                 'items' => [
                     [
-                        0 => '',
-                        1 => '',
-                        'invertStateDisplay' => true
-                    ]
+                        'label' => '',
+                        'invertStateDisplay' => true,
+                    ],
                 ],
-            ]
+            ],
         ],
         'identifier' => [
             'label' => 'LLL:EXT:klaro_consent_manager/Resources/Private/Language/locallang_db.xlf:tx_klaroconsentmanager_cookie.identifier.label',
@@ -54,8 +56,8 @@ return [
             'description' => 'LLL:EXT:klaro_consent_manager/Resources/Private/Language/locallang_db.xlf:tx_klaroconsentmanager_cookie.pattern.description',
             'config' => [
                 'type' => 'input',
-                'eval' => 'required',
                 'placeholder' => 'LLL:EXT:klaro_consent_manager/Resources/Private/Language/locallang_db.xlf:tx_klaroconsentmanager_cookie.pattern.placeholder',
+                'required' => true,
             ],
         ],
         'path' => [
@@ -93,27 +95,27 @@ return [
                 'renderType' => 'selectSingle',
                 'default' => 'days',
                 'items' => [
-                    ['LLL:EXT:klaro_consent_manager/Resources/Private/Language/locallang_db.xlf:tx_klaroconsentmanager_cookie.expires_after_unit.I.years', 'years'],
-                    ['LLL:EXT:klaro_consent_manager/Resources/Private/Language/locallang_db.xlf:tx_klaroconsentmanager_cookie.expires_after_unit.I.months', 'months'],
-                    ['LLL:EXT:klaro_consent_manager/Resources/Private/Language/locallang_db.xlf:tx_klaroconsentmanager_cookie.expires_after_unit.I.days', 'days'],
-                    ['LLL:EXT:klaro_consent_manager/Resources/Private/Language/locallang_db.xlf:tx_klaroconsentmanager_cookie.expires_after_unit.I.hours', 'hours'],
-                    ['LLL:EXT:klaro_consent_manager/Resources/Private/Language/locallang_db.xlf:tx_klaroconsentmanager_cookie.expires_after_unit.I.minutes', 'minutes'],
-                    ['LLL:EXT:klaro_consent_manager/Resources/Private/Language/locallang_db.xlf:tx_klaroconsentmanager_cookie.expires_after_unit.I.seconds', 'seconds'],
-                    ['LLL:EXT:klaro_consent_manager/Resources/Private/Language/locallang_db.xlf:tx_klaroconsentmanager_cookie.expires_after_unit.I.end-of-session', 'end-of-session'],
-                ]
-            ]
+                    ['label' => 'LLL:EXT:klaro_consent_manager/Resources/Private/Language/locallang_db.xlf:tx_klaroconsentmanager_cookie.expires_after_unit.I.years', 'value' => 'years'],
+                    ['label' => 'LLL:EXT:klaro_consent_manager/Resources/Private/Language/locallang_db.xlf:tx_klaroconsentmanager_cookie.expires_after_unit.I.months', 'value' => 'months'],
+                    ['label' => 'LLL:EXT:klaro_consent_manager/Resources/Private/Language/locallang_db.xlf:tx_klaroconsentmanager_cookie.expires_after_unit.I.days', 'value' => 'days'],
+                    ['label' => 'LLL:EXT:klaro_consent_manager/Resources/Private/Language/locallang_db.xlf:tx_klaroconsentmanager_cookie.expires_after_unit.I.hours', 'value' => 'hours'],
+                    ['label' => 'LLL:EXT:klaro_consent_manager/Resources/Private/Language/locallang_db.xlf:tx_klaroconsentmanager_cookie.expires_after_unit.I.minutes', 'value' => 'minutes'],
+                    ['label' => 'LLL:EXT:klaro_consent_manager/Resources/Private/Language/locallang_db.xlf:tx_klaroconsentmanager_cookie.expires_after_unit.I.seconds', 'value' => 'seconds'],
+                    ['label' => 'LLL:EXT:klaro_consent_manager/Resources/Private/Language/locallang_db.xlf:tx_klaroconsentmanager_cookie.expires_after_unit.I.end-of-session', 'value' => 'end-of-session'],
+                ],
+            ],
         ],
         'parentid' => [
             'label' => '',
             'config' => [
-                'type' => 'passthrough'
-            ]
+                'type' => 'passthrough',
+            ],
         ],
         'parenttable' => [
             'label' => '',
             'config' => [
-                'type' => 'passthrough'
-            ]
+                'type' => 'passthrough',
+            ],
         ],
     ],
     'types' => [
@@ -125,7 +127,7 @@ return [
                     --palette--;;expiration_palette,
                 --div--;LLL:EXT:klaro_consent_manager/Resources/Private/Language/locallang_db.xlf:tx_klaroconsentmanager_cookie.tabs.access,
                     --palette--;;access_palette
-            '
+            ',
         ],
     ],
     'palettes' => [
@@ -133,20 +135,20 @@ return [
             'label' => 'LLL:EXT:klaro_consent_manager/Resources/Private/Language/locallang_db.xlf:tx_klaroconsentmanager_cookie.palettes.identification_palette',
             'showitem' => '
                 identifier, title
-            '
+            ',
         ],
         'technic_palette' => [
             'label' => 'LLL:EXT:klaro_consent_manager/Resources/Private/Language/locallang_db.xlf:tx_klaroconsentmanager_cookie.palettes.technic_palette',
             'description' => 'LLL:EXT:klaro_consent_manager/Resources/Private/Language/locallang_db.xlf:tx_klaroconsentmanager_cookie.palettes.technic_palette.description',
             'showitem' => '
                 pattern, path, domain
-            '
+            ',
         ],
         'expiration_palette' => [
             'label' => 'LLL:EXT:klaro_consent_manager/Resources/Private/Language/locallang_db.xlf:tx_klaroconsentmanager_cookie.palettes.expiration_palette',
             'showitem' => '
                 expires_after, expires_after_unit
-            '
+            ',
         ],
         'access_palette' => [
             'label' => 'LLL:EXT:klaro_consent_manager/Resources/Private/Language/locallang_db.xlf:tx_klaroconsentmanager_configuration.palettes.access_palette',

@@ -4,8 +4,8 @@
     "description": "Functionally complete, flexible TYPO3 integration of Klaro! Consent Management by KIProtect. Klaro! is a powerful tool that protects your visitors' privacy and data and helps you run a GDPR compliant website.",
     "license": "GPL-2.0-or-later",
     "require": {
-        "typo3/cms-core": "^10.4 || ^11.5 || ^12.4",
-        "php": "^7.4 || ^8.0 || ^8.1 || ^8.2 || ^8.3",
+        "typo3/cms-core": "^12.4 || ^13.0",
+        "php": "^8.1 || ^8.2 || ^8.3",
         "ext-pdo": "*"
     },
     "require-dev": {
@@ -42,11 +42,6 @@
     "autoload": {
         "psr-4": {
             "ErHaWeb\\KlaroConsentManager\\": "Classes"
-        }
-    },
-    "autoload-dev": {
-        "psr-4": {
-            "ErHaWeb\\KlaroConsentManager\\Tests\\": "Tests"
         }
     },
     "replace": {

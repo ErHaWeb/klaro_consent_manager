@@ -8,14 +8,11 @@ use TYPO3\CMS\Core\Utility\GeneralUtility;
 use TYPO3\CMS\Frontend\ContentObject\ContentObjectRenderer;
 use TYPO3\CMS\Frontend\ContentObject\Exception\ContentRenderingException;
 
-
 /**
  * Example of a method in a PHP class to be called from TypoScript
- *
  */
 final class KlaroConfigurationHelper
 {
-
     /**
      * Reference to the parent (calling) cObject set from TypoScript
      *
@@ -50,7 +47,7 @@ final class KlaroConfigurationHelper
         if (method_exists($this->cObj, 'getRequest')) {
             try {
                 return $this->cObj->getRequest();
-            } catch (ContentRenderingException $e) {
+            } catch (ContentRenderingException) {
             }
         }
 

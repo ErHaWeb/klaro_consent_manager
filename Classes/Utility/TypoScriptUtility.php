@@ -18,9 +18,7 @@ declare(strict_types=1);
 namespace ErHaWeb\KlaroConsentManager\Utility;
 
 use Psr\Http\Message\ServerRequestInterface;
-use TYPO3\CMS\Core\Information\Typo3Version;
 use TYPO3\CMS\Core\TypoScript\FrontendTypoScript;
-use TYPO3\CMS\Core\Utility\GeneralUtility;
 
 class TypoScriptUtility
 {
@@ -46,15 +44,10 @@ class TypoScriptUtility
     {
         $frontendTypoScriptSetupArray = [];
 
-        $versionInformation = GeneralUtility::makeInstance(Typo3Version::class);
-        if ($versionInformation->getMajorVersion() < 12) {
-            $frontendTypoScriptSetupArray = $GLOBALS['TSFE']->tmpl->setup;
-        } else {
-            /** @var FrontendTypoScript $frontendTypoScript */
-            $frontendTypoScript = $request->getAttribute('frontend.typoscript');
-            if ($frontendTypoScript) {
-                $frontendTypoScriptSetupArray = $frontendTypoScript->getSetupArray();
-            }
+        /** @var FrontendTypoScript $frontendTypoScript */
+        $frontendTypoScript = $request->getAttribute('frontend.typoscript');
+        if ($frontendTypoScript) {
+            $frontendTypoScriptSetupArray = $frontendTypoScript->getSetupArray();
         }
 
         if ($frontendTypoScriptSetupArray) {
@@ -74,7 +67,7 @@ class TypoScriptUtility
     public static function convertTypoScriptArrayToPlainArray(array $typoScriptArray): array
     {
         foreach ($typoScriptArray as $key => $value) {
-            if (substr((string)$key, -1) === '.') {
+            if (str_ends_with((string)$key, '.')) {
                 $keyWithoutDot = substr((string)$key, 0, -1);
                 $typoScriptNodeValue = $typoScriptArray[$keyWithoutDot] ?? null;
                 if (is_array($value)) {

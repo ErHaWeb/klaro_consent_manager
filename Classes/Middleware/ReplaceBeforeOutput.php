@@ -82,11 +82,7 @@ class ReplaceBeforeOutput implements MiddlewareInterface
     {
         // Callback function to manipulate the inner HTML
         $callback = static function ($matches) {
-            $openingTag = $matches[1];
-            $dataName = $matches[2];
-            $dataReplace = $matches[3];
-            $innerHtml = $matches[4];
-            $closingTag = $matches[5];
+            [$openingTag, $dataName, $dataReplace, $innerHtml, $closingTag] = $matches;
 
             // Remove unneeded data-replace attribute
             $openingTag = preg_replace('/ data-replace="(.*)"/i', '', $openingTag);
@@ -107,11 +103,7 @@ class ReplaceBeforeOutput implements MiddlewareInterface
                 }
 
                 $innerHtml = preg_replace_callback('/<(\w+)([^>]*?)\b' . preg_quote($attribute, '/') . '="([^"]*)"\s*([^>]*?)>/', static function ($tagMatches) use ($dataName, $replacement) {
-                    $tagName = $tagMatches[1];
-                    $beforeAttr = $tagMatches[2];
-                    $attributeValue = $tagMatches[3];
-                    $afterAttr = $tagMatches[4];
-
+                    [$tagName, $beforeAttr, $attributeValue, $afterAttr] = $tagMatches;
                     return sprintf('<%s data-name="%s"%s%s="%s"%s>', $tagName, $dataName, $beforeAttr, $replacement, $attributeValue, $afterAttr);
                 }, $innerHtml);
             }
@@ -122,7 +114,6 @@ class ReplaceBeforeOutput implements MiddlewareInterface
         // Apply the callback and get the modified HTML
         return preg_replace_callback($pattern, $callback, $html);
     }
-
 
     /**
      * @param ServerRequestInterface $request
@@ -154,11 +145,11 @@ class ReplaceBeforeOutput implements MiddlewareInterface
             ->select('element_i_d')
             ->from('tx_klaroconsentmanager_configuration')
             ->where($queryBuilder->expr()->eq('uid', $queryBuilder->createNamedParameter($configurationId)))
-            ->execute();
+            ->executeQuery();
 
         try {
             $return = ($result->fetchAssociative()['element_i_d'] ?? $return) ?: $return;
-        } catch (Exception $e) {
+        } catch (Exception) {
         }
 
         return $return;

@@ -22,7 +22,6 @@ use ErHaWeb\KlaroConsentManager\Utility\TypoScriptUtility;
 use Psr\Http\Message\ServerRequestInterface;
 use TYPO3\CMS\Core\Core\Environment;
 use TYPO3\CMS\Core\Database\ConnectionPool;
-use TYPO3\CMS\Core\Information\Typo3Version;
 use TYPO3\CMS\Core\Localization\LanguageService;
 use TYPO3\CMS\Core\Localization\LanguageServiceFactory;
 use TYPO3\CMS\Core\Site\Entity\Site;
@@ -41,7 +40,7 @@ class KlaroService
         'path' => ['type' => 'string', 'default' => ''],
         'domain' => ['type' => 'string', 'default' => ''],
         'expires_after' => ['type' => 'bypass', 'default' => 0],
-        'expires_after_unit' => ['type' => 'bypass', 'default' => '']
+        'expires_after_unit' => ['type' => 'bypass', 'default' => ''],
     ];
     private const SERVICE_CONFIG = [
         'name' => ['type' => 'string', 'default' => ''],
@@ -55,7 +54,7 @@ class KlaroService
         'on_accept' => ['type' => 'javascript', 'default' => ''],
         'on_init' => ['type' => 'javascript', 'default' => ''],
         'on_decline' => ['type' => 'javascript', 'default' => ''],
-        'vars' => ['type' => 'object', 'default' => '']
+        'vars' => ['type' => 'object', 'default' => ''],
     ];
     private const GLOBAL_CONFIG = [
         'config_variable_name' => ['type' => 'bypass', 'default' => ''],
@@ -106,7 +105,7 @@ class KlaroService
         'acceptSelected',
         'service' => ['disableAll' => ['title', 'description'], 'optOut' => ['title', 'description'], 'required' => ['title', 'description'], 'purposes', 'purpose'],
         'poweredBy',
-        'contextualConsent' => ['description', 'acceptOnce', 'acceptAlways']
+        'contextualConsent' => ['description', 'acceptOnce', 'acceptAlways'],
     ];
 
     /**
@@ -175,17 +174,9 @@ class KlaroService
     private StandaloneView $standaloneView;
 
     /**
-     * @var ServerRequestInterface
-     */
-    protected ServerRequestInterface $request;
-
-    /**
      * @param ServerRequestInterface $request
      */
-    public function __construct(ServerRequestInterface $request)
-    {
-        $this->request = $request;
-    }
+    public function __construct(protected ServerRequestInterface $request) {}
 
     /**
      * @return array
@@ -292,7 +283,7 @@ class KlaroService
                 if (
                     ($GLOBALS['BE_USER'] ?? []) &&
                     $beUserPreName = GeneralUtility::trimExplode(' ', $GLOBALS['BE_USER']->user['realName'])[0] ?:
-                        ucfirst($GLOBALS['BE_USER']->user['username'])
+                        ucfirst((string)$GLOBALS['BE_USER']->user['username'])
                 ) {
                     $beUserPreName = addslashes(strip_tags($beUserPreName));
                     $label = vsprintf($this->getLabel('warning.noServicesPersonalized'), [$beUserPreName]);
@@ -341,9 +332,6 @@ class KlaroService
         return false;
     }
 
-    /**
-     * @return void
-     */
     private function initLanguage(): void
     {
         $language = $this->request->getAttribute('language');
@@ -354,21 +342,13 @@ class KlaroService
         }
     }
 
-    /**
-     * @return void
-     */
     private function initStandaloneView(): void
     {
         $this->framework = TypoScriptUtility::getFramework($this->request);
         $this->settings = $this->framework['settings'] ?? [];
 
         $this->standaloneView = GeneralUtility::makeInstance(StandaloneView::class);
-
-        // Set request for StandaloneView in TYPO3 >= 12 according to breaking #98377
-        $versionInformation = GeneralUtility::makeInstance(Typo3Version::class);
-        if ($versionInformation->getMajorVersion() >= 12) {
-            $this->standaloneView->setRequest($this->request);
-        }
+        $this->standaloneView->setRequest($this->request);
 
         $layoutRootPaths = [];
         $partialRootPaths = [];
@@ -426,8 +406,8 @@ class KlaroService
                             $this->getFluidContent('Prepend/Service/Description', $arguments) .
                             $this->getLabel('services.' . $service['name'] . '.description', $arguments) .
                             $this->getFluidContent('Append/Service/Description', $arguments),
-                    ]
-                ]
+                    ],
+                ],
             ];
 
             foreach (self::SERVICE_CONFIG as $key => $field) {
@@ -448,7 +428,7 @@ class KlaroService
                         }
                         if ($path !== '/' || $domain) {
                             $cookieConfiguration[] = [
-                                $pattern, $path, $domain
+                                $pattern, $path, $domain,
                             ];
                         } else {
                             $cookieConfiguration[] = $pattern;
@@ -468,27 +448,18 @@ class KlaroService
     }
 
     /**
-     * @param mixed $value
      * @param string $type
      * @return mixed
      */
-    private function modifyValueByType($value, string $type)
+    private function modifyValueByType(mixed $value, string $type): mixed
     {
-        switch ($type) {
-            case 'callback':
-                $value = 'function(consent,service){' . $value . '}';
-                break;
-            case 'javascript':
-                $value = 'function(handlerOpts){' . $value . '}';
-                break;
-            case 'object':
-                $value = '{' . $value . '}';
-                break;
-            case 'list':
-                $value = GeneralUtility::trimExplode(',', $value);
-                break;
-        }
-        return $value;
+        return match ($type) {
+            'callback' => 'function(consent,service){' . $value . '}',
+            'javascript' => 'function(handlerOpts){' . $value . '}',
+            'object' => '{' . $value . '}',
+            'list' => GeneralUtility::trimExplode(',', $value),
+            default => $value,
+        };
     }
 
     /**
@@ -545,19 +516,14 @@ class KlaroService
      * @param string $type
      * @return mixed
      */
-
-    private function getConfigurationValue(array $configuration, string $field, string $type)
+    private function getConfigurationValue(array $configuration, string $field, string $type): mixed
     {
-        switch ($type) {
-            case 'boolean':
-                return (bool)$configuration[$field];
-            case 'integer':
-                return (int)$configuration[$field];
-            case 'string':
-                return (string)$configuration[$field];
-            default:
-                return $configuration[$field];
-        }
+        return match ($type) {
+            'boolean' => (bool)$configuration[$field],
+            'integer' => (int)$configuration[$field],
+            'string' => (string)$configuration[$field],
+            default => $configuration[$field],
+        };
     }
 
     /**
@@ -577,8 +543,8 @@ class KlaroService
             } elseif (
                 //$key !== 'callback' &&
                 is_string($value) &&
-                substr($value, 0, 1) !== "{" &&
-                substr($value, 0, 9) !== "function("
+                !str_starts_with($value, '{') &&
+                !str_starts_with($value, 'function(')
                 //$value[0] !== '`'
             ) {
                 $return .= '\'' . $value . '\'';
@@ -619,7 +585,7 @@ class KlaroService
             'tx_klaroconsentmanager_configuration',
             array_keys(self::GLOBAL_CONFIG),
             [
-                'uid' => $this->configurationId
+                'uid' => $this->configurationId,
             ]
         )) {
             $return['services'] = $this->fetchServices($return['services']);
@@ -643,7 +609,7 @@ class KlaroService
                 'tx_klaroconsentmanager_service',
                 array_keys(self::SERVICE_CONFIG),
                 [
-                    'uid' => $serviceUid
+                    'uid' => $serviceUid,
                 ]
             )) {
                 $result['cookies'] = $this->fetchCookies($serviceUid);
@@ -665,7 +631,7 @@ class KlaroService
             array_keys(self::COOKIE_CONFIG),
             [
                 'parentid' => $serviceId,
-                'parenttable' => 'tx_klaroconsentmanager_service'
+                'parenttable' => 'tx_klaroconsentmanager_service',
             ],
             true
         );
@@ -691,13 +657,13 @@ class KlaroService
             ->select(...array_merge(['uid'], $select))
             ->from($table)
             ->where(...$whereStatements)
-            ->execute();
+            ->executeQuery();
 
         try {
             if ($return = ($multiple) ? $result->fetchAllAssociative() : $result->fetchAssociative()) {
                 return $return;
             }
-        } catch (Exception $e) {
+        } catch (Exception) {
         }
         return [];
     }
@@ -716,15 +682,15 @@ class KlaroService
                     'locallang' => [
                         'defaultPath' => $this->locallangPath,
                         'overridePath' => $this->locallangPathOverride,
-                        'languageKey' => $this->siteLanguage->getTypo3Language()
+                        'languageKey' => $this->siteLanguage->getTypo3Language(),
                     ],
                     'rawConfiguration' => $this->rawConfiguration,
                     'configuration' => $this->configuration,
                     'links' => [
                         'privacyPolicyLink' => $this->privacyPolicyLink,
-                        'imprintLink' => $this->imprintLink
+                        'imprintLink' => $this->imprintLink,
                     ],
-                    'framework' => $this->framework
+                    'framework' => $this->framework,
                 ];
 
                 ArrayUtility::mergeRecursiveWithOverrule($arguments, $additionalArguments);
@@ -768,7 +734,7 @@ class KlaroService
                 'key' => $key,
                 'fullKey' => $fullKey,
                 'label' => $label,
-            ]
+            ],
         ];
 
         ArrayUtility::mergeRecursiveWithOverrule($arguments, $additionalArguments);
@@ -806,7 +772,7 @@ class KlaroService
         );
 
         // Add slashes
-        $string = addslashes($string);
+        $string = addslashes((string)$string);
 
         // Trim string
         return trim($string);
@@ -820,14 +786,6 @@ class KlaroService
     {
         /** @var ContentObjectRenderer $contentObject */
         $contentObject = GeneralUtility::makeInstance(ContentObjectRenderer::class);
-        $versionInformation = GeneralUtility::makeInstance(Typo3Version::class);
-
-        if ($versionInformation->getMajorVersion() <= 11) {
-            return $contentObject->typoLink_URL([
-                'parameter' => $typoLink,
-                'forceAbsoluteUrl' => true,
-            ]);
-        }
 
         return $contentObject->createUrl([
             'parameter' => $typoLink,

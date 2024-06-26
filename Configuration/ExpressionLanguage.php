@@ -2,8 +2,10 @@
 
 declare(strict_types=1);
 
+use ErHaWeb\KlaroConsentManager\ExpressionLanguage\KlaroTypoScriptConditionProvider;
+
 return [
     'typoscript' => [
-        \ErHaWeb\KlaroConsentManager\ExpressionLanguage\KlaroTypoScriptConditionProvider::class,
-    ]
+        KlaroTypoScriptConditionProvider::class,
+    ],
 ];

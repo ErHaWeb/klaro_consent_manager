@@ -2,7 +2,9 @@
 
 // Experimental example to add a new field to the site configuration
 
-\TYPO3\CMS\Core\Utility\ArrayUtility::mergeRecursiveWithOverrule(
+use TYPO3\CMS\Core\Utility\ArrayUtility;
+
+ArrayUtility::mergeRecursiveWithOverrule(
     $GLOBALS['SiteConfiguration']['site'],
     [
         'columns' => [
@@ -14,7 +16,7 @@
                     'renderType' => 'selectSingle',
                     'foreign_table' => 'tx_klaroconsentmanager_configuration',
                     'items' => [
-                        ['None', 0, ''],
+                        ['label' => 'None', 'value' => 0, 'icon' => ''],
                     ],
                 ],
             ],
@@ -22,8 +24,7 @@
                 'label' => 'Privacy Policy URL',
                 'description' => 'The link to the privacy policy page is used in the introductory text of the Klaro! Consent Box.',
                 'config' => [
-                    'type' => 'input',
-                    'renderType' => 'inputLink',
+                    'type' => 'link',
                     'allowedTypes' => ['page', 'url', 'record'],
                 ],
             ],
@@ -31,20 +32,18 @@
                 'label' => 'Imprint URL',
                 'description' => 'The link to the imprint page is used in the footer of the Klaro! Consent Box.',
                 'config' => [
-                    'type' => 'input',
-                    'renderType' => 'inputLink',
+                    'type' => 'link',
                     'allowedTypes' => ['page', 'url', 'record'],
                 ],
             ],
         ],
         'palettes' => [
             'klaro' => [
-                'showitem' => 'klaroConfiguration, --linebreak--, klaroPrivacyPolicyUrl, klaroImprintUrl'
+                'showitem' => 'klaroConfiguration, --linebreak--, klaroPrivacyPolicyUrl, klaroImprintUrl',
             ],
         ],
     ],
 );
-
 
 $GLOBALS['SiteConfiguration']['site']['types']['0']['showitem'] .= ',
     --div--;Klaro!,

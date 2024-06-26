@@ -333,10 +333,10 @@
                 <source>End of session</source>
             </trans-unit>
             <trans-unit id="warning.noServices" resname="warning.noServices">
-                <source>Why don&#39;t I see a Klaro! Modal? → You must assign at least 1 service to the Klaro! configuration! Without services we don&#39;t need consent management at all.</source>
+                <source>Why don&#39;t I see a Klaro! Modal? → You must assign at least 1 service to the Klaro! configuration! Without services, we don&#39;t need consent management at all.</source>
             </trans-unit>
             <trans-unit id="warning.noServicesPersonalized" resname="warning.noServicesPersonalized">
-                <source>Hey %s! You missed a service in the config! Without services we don&#39;t need consent management at all.</source>
+                <source>Hey %s! You missed a service in the config! Without services, we don&#39;t need consent management at all.</source>
             </trans-unit>
         </body>
     </file>

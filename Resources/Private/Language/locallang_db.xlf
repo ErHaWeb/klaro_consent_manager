@@ -88,7 +88,7 @@
                 <source>Testing</source>
             </trans-unit>
             <trans-unit id="tx_klaroconsentmanager_configuration.testing.description" resname="tx_klaroconsentmanager_configuration.testing.description">
-                <source>Setting `testing` to `true` will cause Klaro to not show the consent notice or modal by default, except if a special hash tag is appended to the URL (#klaro-testing). This makes it possible to test Klaro on your live website without affecting normal visitors.</source>
+                <source>Setting `testing` to `true` will cause Klaro to not show the consent notice or modal by default, except if a special hashtag is appended to the URL (#klaro-testing). This makes it possible to test Klaro on your live website without affecting normal visitors.</source>
             </trans-unit>
             <trans-unit id="tx_klaroconsentmanager_configuration.config_variable_name.label" resname="tx_klaroconsentmanager_configuration.config_variable_name.label">
                 <source>Config Variable Name</source>
@@ -424,7 +424,7 @@
                 <source>Fast Fonts</source>
             </trans-unit>
             <trans-unit id="tx_klaroconsentmanager_service.name.I.google-ads" resname="tx_klaroconsentmanager_service.name.I.google-ads">
-                <source>Google Ads (formerly AdWords)</source>
+                <source>Google Ads</source>
             </trans-unit>
             <trans-unit id="tx_klaroconsentmanager_service.name.I.google-analytics" resname="tx_klaroconsentmanager_service.name.I.google-analytics">
                 <source>Google Analytics</source>

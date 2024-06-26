@@ -29,7 +29,6 @@ class KlaroStylesheet
 {
     /**
      * @param BeforeStylesheetsRenderingEvent $event
-     * @return void
      */
     public function __invoke(BeforeStylesheetsRenderingEvent $event): void
     {
