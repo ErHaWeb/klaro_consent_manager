@@ -57,7 +57,7 @@ class KlaroJavaScript
 
         foreach (($settings['javascript'] ?? []) as $key => $javascript) {
             if (!($asset[$key] ?? false) && $javascript) {
-                if ($key === 'klaro-default') {
+                if ($key === 'klaro-default' && $configuration['config_variable_name']) {
                     $attributes['data-klaro-config'] = $configuration['config_variable_name'];
                 }
                 $event->getAssetCollector()->addJavaScript($key, $javascript, $attributes, ['priority' => true]);
