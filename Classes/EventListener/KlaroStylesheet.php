@@ -43,8 +43,12 @@ class KlaroStylesheet
             return;
         }
 
-        $asset = $event->getAssetCollector()->getStyleSheets();
         $settings = TypoScriptUtility::getSettings($request);
+        if (!$settings) {
+            return;
+        }
+
+        $asset = $event->getAssetCollector()->getStyleSheets();
         $attributes = ['defer' => 'defer', 'nonce' => CspUtility::getNonceValue($request)];
 
         foreach (($settings['css'] ?? []) as $key => $css) {

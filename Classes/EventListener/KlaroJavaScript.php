@@ -40,6 +40,11 @@ class KlaroJavaScript
             return;
         }
 
+        $settings = TypoScriptUtility::getSettings($request);
+        if (!$settings) {
+            return;
+        }
+
         if ($event->isInline()) {
             $configVariableName = $configuration['config_variable_name'] ?: 'klaroConfig';
             $asset = $event->getAssetCollector()->getInlineJavaScripts();
@@ -54,7 +59,6 @@ class KlaroJavaScript
         }
 
         $asset = $event->getAssetCollector()->getJavaScripts();
-        $settings = TypoScriptUtility::getSettings($request);
         $attributes = ['defer' => 'defer', 'nonce' => CspUtility::getNonceValue($request)];
 
         foreach (($settings['javascript'] ?? []) as $key => $javascript) {
