@@ -115,9 +115,9 @@
         <source>Testing</source>
         <target state="final">Testmodus</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_configuration.testing.description" resname="tx_klaroconsentmanager_configuration.testing.description" approved="yes">
-        <source>Setting `testing` to `true` will cause Klaro to not show the consent notice or modal by default, except if a special hash tag is appended to the URL (#klaro-testing). This makes it possible to test Klaro on your live website without affecting normal visitors.</source>
-        <target state="final">Wenn Sie den Testmodus aktivieren, zeigt Klaro standardmäßig weder den Zustimmungshinweis noch das Modal an, es sei denn, ein spezieller Hashtag wird an die URL angehängt (#klaro-testing). Dies ermöglicht es, Klaro auf Ihrer Live-Website zu testen, ohne dass normale Besucher davon betroffen sind.</target>
+      <trans-unit id="tx_klaroconsentmanager_configuration.testing.description" resname="tx_klaroconsentmanager_configuration.testing.description">
+        <source>Setting `testing` to `true` will cause Klaro to not show the consent notice or modal by default, except if a special hashtag is appended to the URL (#klaro-testing). This makes it possible to test Klaro on your live website without affecting normal visitors.</source>
+        <target state="needs-translation">Setting `testing` to `true` will cause Klaro to not show the consent notice or modal by default, except if a special hashtag is appended to the URL (#klaro-testing). This makes it possible to test Klaro on your live website without affecting normal visitors.</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.config_variable_name.label" resname="tx_klaroconsentmanager_configuration.config_variable_name.label" approved="yes">
         <source>Config Variable Name</source>
@@ -563,9 +563,9 @@
         <source>Fast Fonts</source>
         <target state="final">Fast Fonts</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_service.name.I.google-ads" resname="tx_klaroconsentmanager_service.name.I.google-ads" approved="yes">
-        <source>Google Ads (formerly AdWords)</source>
-        <target state="final">Google Ads (ehemals AdWords)</target>
+      <trans-unit id="tx_klaroconsentmanager_service.name.I.google-ads" resname="tx_klaroconsentmanager_service.name.I.google-ads">
+        <source>Google Ads</source>
+        <target state="needs-translation">Google Ads</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_service.name.I.google-analytics" resname="tx_klaroconsentmanager_service.name.I.google-analytics" approved="yes">
         <source>Google Analytics</source>
@@ -894,10 +894,6 @@
       <trans-unit id="tx_klaroconsentmanager_cookie.expires_after_unit.I.end-of-session" resname="tx_klaroconsentmanager_cookie.expires_after_unit.I.end-of-session" approved="yes">
         <source>End of session</source>
         <target state="final">Sitzungsende</target>
-      </trans-unit>
-      <trans-unit id="sys_template.TypoScript.klaro_consent_manager.title" resname="sys_template.TypoScript.klaro_consent_manager.title" approved="yes">
-        <source>Klaro! Consent Manager: Static TypoScript Include (klaro_consent_manager)</source>
-        <target state="final">Klaro! Zustimmungs-Manager: Statisches TypoScript (klaro_consent_manager)</target>
       </trans-unit>
       <trans-unit id="tt_content.tx_klaroconsentmanager_service.label" resname="tt_content.tx_klaroconsentmanager_service.label" approved="yes">
         <source>Contextual Consent</source>
