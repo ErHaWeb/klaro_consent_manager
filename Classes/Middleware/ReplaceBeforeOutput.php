@@ -24,6 +24,7 @@ use Psr\Http\Message\ServerRequestInterface;
 use Psr\Http\Server\MiddlewareInterface;
 use Psr\Http\Server\RequestHandlerInterface;
 use TYPO3\CMS\Core\Database\ConnectionPool;
+use TYPO3\CMS\Core\Http\ApplicationType;
 use TYPO3\CMS\Core\Http\NullResponse;
 use TYPO3\CMS\Core\Http\Stream;
 use TYPO3\CMS\Core\Site\Entity\Site;
@@ -45,7 +46,7 @@ class ReplaceBeforeOutput implements MiddlewareInterface
             $searchAndReplacements['href="' . $resetUrl . '"'] = 'href="#" data-' . $elementId . '-trigger="reset"';
         }
 
-        if (!($GLOBALS['TSFE'] ?? [])) {
+        if (!ApplicationType::fromRequest($request)->isFrontend()) {
             return $handler->handle($request);
         }
 
