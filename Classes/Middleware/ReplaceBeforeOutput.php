@@ -70,13 +70,15 @@ class ReplaceBeforeOutput implements MiddlewareInterface
         return $response->withBody($body);
     }
 
-    public function replaceAttrWithDataAttr($html)
+    public function replaceAttrWithDataAttr(string $html): string
     {
         // Find all elements with the 'data-replace' attribute
         $pattern = '/<([a-zA-Z0-9]+)([^>]*)data-replace="([^"]+)"([^>]*)>/';
         preg_match_all($pattern, $html, $matches, PREG_SET_ORDER);
 
-        foreach ($matches as [$fullTag, $tagName, $beforeAttributes, $attributesToReplaceString, $afterAttributes]) {
+        foreach ($matches as $match) {
+            [$fullTag, $tagName, $beforeAttributes, $attributesToReplaceString, $afterAttributes] = $match;
+
             // Use TYPO3 GeneralUtility to trim and explode the attribute string
             $attributesToReplace = GeneralUtility::trimExplode(',', $attributesToReplaceString, true);
 
@@ -87,7 +89,6 @@ class ReplaceBeforeOutput implements MiddlewareInterface
             // Remove data-replace attribute and extra space
             $newBeforeAttributes = preg_replace('/\s*data-replace="[^"]+"/', '', $beforeAttributes);
             $newTag = "<$tagName$newBeforeAttributes$afterAttributes>";
-
             // Ensure there's no trailing space before the closing '>'
             $newTag = preg_replace('/\s+>/', '>', $newTag);
 
@@ -103,24 +104,26 @@ class ReplaceBeforeOutput implements MiddlewareInterface
                     $innerHtml = substr($html, $startPos + strlen($newTag), $endPos - $startPos - strlen($newTag));
 
                     // Process attributes within the inner HTML
-                    $innerHtml = preg_replace_callback('/<([a-zA-Z0-9]+)([^>]*)>/', static function ($matches) use ($attributesToReplace, $dataNameAttribute) {
+                    $innerHtml = (string)preg_replace_callback('/<([a-zA-Z0-9]+)([^>]*)>/', static function (array $matches) use ($attributesToReplace, $dataNameAttribute): string {
                         [, $innerTagName, $tagAttributes] = $matches;
                         $attributeReplaced = false;
+
                         foreach ($attributesToReplace as $attribute) {
                             $attributePattern = '/\s' . $attribute . '\s*=\s*"([^"]+)"/';
-                            $tagAttributes = preg_replace_callback($attributePattern, static function ($attrMatches) use ($attribute) {
+                            $tagAttributes = preg_replace_callback($attributePattern, static function (array $attrMatches) use ($attribute): string {
                                 return ' data-' . $attribute . '="' . $attrMatches[1] . '"';
                             }, $tagAttributes, -1, $count);
                             if ($count > 0) {
                                 $attributeReplaced = true;
                             }
                         }
+
                         // Add the data-name attribute to the tag only if an attribute was replaced
                         if ($attributeReplaced) {
                             $tagAttributes .= ' ' . $dataNameAttribute;
                         }
-                        $newInnerTag = '<' . $innerTagName . $tagAttributes . '>';
-                        return preg_replace('/\s+>/', '>', $newInnerTag);
+
+                        return '<' . $innerTagName . $tagAttributes . '>';
                     }, $innerHtml);
 
                     $html = substr_replace($html, $innerHtml, $startPos + strlen($newTag), $endPos - $startPos - strlen($newTag));
