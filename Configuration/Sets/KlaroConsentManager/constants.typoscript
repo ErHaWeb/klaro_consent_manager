@@ -1,1 +1,40 @@
-@import "EXT:klaro_consent_manager/Configuration/TypoScript/constants.typoscript"
+# customcategory=plugin.tx_klaroconsentmanager=LLL:EXT:klaro_consent_manager/Resources/Private/Language/locallang_be.xlf:constants.customcategory.plugin.tx_klaroconsentmanager
+# customsubcategory=100_fluidrootpaths=LLL:EXT:klaro_consent_manager/Resources/Private/Language/locallang_be.xlf:constants.subcategory.fluidrootpaths
+# customsubcategory=200_resources=LLL:EXT:klaro_consent_manager/Resources/Private/Language/locallang_be.xlf:constants.subcategory.resources
+# customsubcategory=300_settings=LLL:EXT:klaro_consent_manager/Resources/Private/Language/locallang_be.xlf:constants.subcategory.settings
+
+plugin.tx_klaroconsentmanager {
+  view {
+    # cat=plugin.tx_klaroconsentmanager/100_fluidrootpaths/100; type=string; label=Path to template root (FE)
+    templateRootPath = EXT:klaro_consent_manager/Resources/Private/Templates/
+    # cat=plugin.tx_klaroconsentmanager/100_fluidrootpaths/110; type=string; label=Path to template partials (FE)
+    partialRootPath = EXT:klaro_consent_manager/Resources/Private/Partials/
+    # cat=plugin.tx_klaroconsentmanager/100_fluidrootpaths/120; type=string; label=Path to template layouts (FE)
+    layoutRootPath = EXT:klaro_consent_manager/Resources/Private/Layouts/
+  }
+  settings {
+    css {
+      # cat=plugin.tx_klaroconsentmanager/200_resources/130; type=string; label=Klaro CSS
+      klaro-default = EXT:klaro_consent_manager/Resources/Public/Css/klaro.min.css
+      # cat=plugin.tx_klaroconsentmanager/200_resources/140; type=string; label=Custom additions for Klaro CSS
+      klaro-custom = EXT:klaro_consent_manager/Resources/Public/Css/klaro-custom.min.css
+    }
+
+    javascript {
+      # cat=plugin.tx_klaroconsentmanager/200_resources/150; type=string; label=Klaro JavaScript
+      klaro-default = EXT:klaro_consent_manager/Resources/Public/JavaScript/klaro-no-translations-no-css.js
+    }
+
+    contextualconsent {
+      # cat=plugin.tx_klaroconsentmanager/300_settings/160; type=string; label=Replace attributes:Comma-separated list of attributes that should be automatically replaced within the content element of the contextual consent
+      replaceAttributes = src,href
+      # cat=plugin.tx_klaroconsentmanager/300_settings/170; type=boolean; label=Main section only:Activate this option if the contextual consent box should only be limited to the main content (without heading and footer).
+      mainSectionOnly = 1
+    }
+
+    configuration {
+      # cat=plugin.tx_klaroconsentmanager/300_settings/180; type=boolean; label=Disable Klaro Consent Management
+      disabled = 0
+    }
+  }
+}
