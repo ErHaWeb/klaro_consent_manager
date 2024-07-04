@@ -34,23 +34,23 @@ plugin.tx_klaroconsentmanager {
 }
 
 lib.contentElement {
-    layoutRootPaths {
-        1720091199 = EXT:klaro_consent_manager/Resources/Private/Extensions/FluidStyledContent/Layouts/
-    }
+  layoutRootPaths {
+    1720091199 = EXT:klaro_consent_manager/Resources/Private/Extensions/FluidStyledContent/Layouts/
+  }
 
-    settings {
-        contextualconsent {
-            replaceAttributes = {$plugin.tx_klaroconsentmanager.settings.contextualconsent.replaceAttributes}
-            mainSectionOnly = {$plugin.tx_klaroconsentmanager.settings.contextualconsent.mainSectionOnly}
-        }
+  settings {
+    contextualconsent {
+      replaceAttributes = {$plugin.tx_klaroconsentmanager.settings.contextualconsent.replaceAttributes}
+      mainSectionOnly = {$plugin.tx_klaroconsentmanager.settings.contextualconsent.mainSectionOnly}
     }
+  }
 
-    dataProcessing.100 = TYPO3\CMS\Frontend\DataProcessing\DatabaseQueryProcessor
-    dataProcessing.100 {
-        if.isTrue.field = tx_klaroconsentmanager_service
-        table = tx_klaroconsentmanager_service
-        uidInList.field = tx_klaroconsentmanager_service
-        pidInList = 0
-        as = contextualconsentService
-    }
+  dataProcessing.100 = TYPO3\CMS\Frontend\DataProcessing\DatabaseQueryProcessor
+  dataProcessing.100 {
+    if.isTrue.field = tx_klaroconsentmanager_service
+    table = tx_klaroconsentmanager_service
+    uidInList.field = tx_klaroconsentmanager_service
+    pidInList = 0
+    as = contextualconsentService
+  }
 }

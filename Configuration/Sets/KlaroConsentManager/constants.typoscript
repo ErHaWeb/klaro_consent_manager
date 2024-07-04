@@ -12,6 +12,7 @@ plugin.tx_klaroconsentmanager {
     # cat=plugin.tx_klaroconsentmanager/100_fluidrootpaths/120; type=string; label=Path to template layouts (FE)
     layoutRootPath = EXT:klaro_consent_manager/Resources/Private/Layouts/
   }
+
   settings {
     css {
       # cat=plugin.tx_klaroconsentmanager/200_resources/130; type=string; label=Klaro CSS
