@@ -564,7 +564,7 @@ class KlaroService
         foreach ($templateRootPaths as $templateRootPath) {
             $templateReference = $templateRootPath . $template . '.html';
             if ($templateReference !== 'php://stdin' && file_exists($templateReference)) {
-                $this->standaloneView->setTemplate($template);
+                $this->standaloneView->getRenderingContext()->setControllerAction($template);
 
                 $arguments = [
                     'locallang' => [
