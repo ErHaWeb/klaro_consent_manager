@@ -1,5 +1,7 @@
 <?php
 
+use ErHaWeb\KlaroConsentManager\Utility\TcaUtility;
+
 return [
     'ctrl' => [
         'title' => 'LLL:EXT:klaro_consent_manager/Resources/Private/Language/locallang_db.xlf:tx_klaroconsentmanager_service',
@@ -220,7 +222,7 @@ return [
             'description' => 'LLL:EXT:klaro_consent_manager/Resources/Private/Language/locallang_db.xlf:tx_klaroconsentmanager_service.callback.description',
             'config' => [
                 'type' => 'text',
-                'renderType' => 't3editor',
+                'renderType' => TcaUtility::getCodeEditorRenderTypeByTypo3Version(),
                 'format' => 'javascript',
                 'rows' => 10,
             ],
@@ -247,7 +249,7 @@ return [
             'description' => 'LLL:EXT:klaro_consent_manager/Resources/Private/Language/locallang_db.xlf:tx_klaroconsentmanager_service.on_accept.description',
             'config' => [
                 'type' => 'text',
-                'renderType' => 't3editor',
+                'renderType' => TcaUtility::getCodeEditorRenderTypeByTypo3Version(),
                 'format' => 'javascript',
                 'rows' => 10,
             ],
@@ -257,7 +259,7 @@ return [
             'description' => 'LLL:EXT:klaro_consent_manager/Resources/Private/Language/locallang_db.xlf:tx_klaroconsentmanager_service.on_init.description',
             'config' => [
                 'type' => 'text',
-                'renderType' => 't3editor',
+                'renderType' => TcaUtility::getCodeEditorRenderTypeByTypo3Version(),
                 'format' => 'javascript',
                 'rows' => 10,
             ],
@@ -267,7 +269,7 @@ return [
             'description' => 'LLL:EXT:klaro_consent_manager/Resources/Private/Language/locallang_db.xlf:tx_klaroconsentmanager_service.on_decline.description',
             'config' => [
                 'type' => 'text',
-                'renderType' => 't3editor',
+                'renderType' => TcaUtility::getCodeEditorRenderTypeByTypo3Version(),
                 'format' => 'javascript',
                 'rows' => 10,
             ],
@@ -277,7 +279,7 @@ return [
             'description' => 'LLL:EXT:klaro_consent_manager/Resources/Private/Language/locallang_db.xlf:tx_klaroconsentmanager_service.vars.description',
             'config' => [
                 'type' => 'text',
-                'renderType' => 't3editor',
+                'renderType' => TcaUtility::getCodeEditorRenderTypeByTypo3Version(),
                 'format' => 'javascript',
                 'rows' => 10,
             ],
