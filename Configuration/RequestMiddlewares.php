@@ -1,4 +1,6 @@
-<?php declare(strict_types=1);
+<?php
+
+declare(strict_types=1);
 
 use ErHaWeb\KlaroConsentManager\Middleware\KlaroConfiguration;
 use ErHaWeb\KlaroConsentManager\Middleware\ReplaceBeforeOutput;
@@ -11,7 +13,7 @@ return [
                 'typo3/cms-frontend/eid',
             ],
             'after' => [
-                'typo3/cms-frontend/site'
+                'typo3/cms-frontend/site',
             ],
         ],
         'erhaweb/klaro-consent-manager/replace-content' => [

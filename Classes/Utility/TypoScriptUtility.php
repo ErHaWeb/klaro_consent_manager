@@ -1,4 +1,6 @@
-<?php declare(strict_types=1);
+<?php
+
+declare(strict_types=1);
 
 /*
  * This file is part of the "klaro_consent_manager" Extension for TYPO3 CMS.
@@ -16,7 +18,6 @@
 namespace ErHaWeb\KlaroConsentManager\Utility;
 
 use Psr\Http\Message\ServerRequestInterface;
-use TYPO3\CMS\Core\TypoScript\FrontendTypoScript;
 
 class TypoScriptUtility
 {
@@ -31,7 +32,6 @@ class TypoScriptUtility
     public static function getFramework(ServerRequestInterface $request, string $extensionName = 'KlaroConsentManager'): array
     {
         $frontendTypoScriptSetupArray = [];
-
 
         $frontendTypoScript = $request->getAttribute('frontend.typoscript');
         if ($frontendTypoScript) {
