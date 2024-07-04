@@ -659,10 +659,7 @@ class KlaroService
 
     private function getUrlFromTypoLink(string $typoLink): string
     {
-
-        $contentObject = GeneralUtility::makeInstance(ContentObjectRenderer::class);
-
-        return $contentObject->createUrl([
+        return (string)GeneralUtility::makeInstance(ContentObjectRenderer::class)?->createUrl([
             'parameter' => $typoLink,
             'forceAbsoluteUrl' => true,
         ]);
