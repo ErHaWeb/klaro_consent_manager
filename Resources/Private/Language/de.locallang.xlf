@@ -442,13 +442,13 @@
         <source>End of session</source>
         <target state="final">Sitzungsende</target>
       </trans-unit>
-      <trans-unit id="warning.noServices" resname="warning.noServices" approved="yes">
-        <source>Why don't I see a Klaro! Modal? → You must assign at least 1 service to the Klaro! configuration! Without services we don't need consent management at all.</source>
-        <target state="final">Warum sehe ich kein Klaro! Modal? → Sie müssen der Klaro! Konfiguration mindestens 1 Dienst zuweisen! Ohne Dienste brauchen wir überhaupt kein Zustimmungsmanagement.</target>
+      <trans-unit id="warning.noServices" resname="warning.noServices">
+        <source>Why don't I see a Klaro! Modal? → You must assign at least 1 service to the Klaro! configuration! Without services, we don't need consent management at all.</source>
+        <target state="needs-translation">Why don't I see a Klaro! Modal? → You must assign at least 1 service to the Klaro! configuration! Without services, we don't need consent management at all.</target>
       </trans-unit>
-      <trans-unit id="warning.noServicesPersonalized" resname="warning.noServicesPersonalized" approved="yes">
-        <source>Hey %s! You missed a service in the config! Without services we don't need consent management at all.</source>
-        <target state="final">Hallo %s! Du hast einen Dienst in der Konfiguration vergessen! Ohne Dienste brauchen wir überhaupt kein Zustimmungsmanagement.</target>
+      <trans-unit id="warning.noServicesPersonalized" resname="warning.noServicesPersonalized">
+        <source>Hey %s! You missed a service in the config! Without services, we don't need consent management at all.</source>
+        <target state="needs-translation">Hey %s! You missed a service in the config! Without services, we don't need consent management at all.</target>
       </trans-unit>
     </body>
   </file>
