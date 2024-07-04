@@ -1,0 +1,41 @@
+.. include:: /Includes.rst.txt
+
+2.0.0 - July 04, 2024
+=====================
+
+
+.. only:: html
+
+   .. contents::
+        :local:
+        :depth: 3
+
+Breaking changes
+----------------
+- Instead of the dedicated TypoScript `PAGE` type `klaroConfiguration` with `typeNum = 1699541845`. If middleware is now used to transfer a standalone configuration to third-party systems. The URL entry point is now uniformly `/klaro-config.js`.
+- The fluid styled content layout `EXT:cms_fluid_styled_content/Resources/Private/Layouts/Default.html` is now overwritten via `lib.contentElement.layoutRootPaths.1720091199`. If you want to make the necessary additions in your own layout file, you must empty the contents of this key via `lib.contentElement.layoutRootPaths.1720091199 >`.
+
+All Changes
+-----------
+This is a list of all changes in this release: ::
+
+    2024-07-04 [TASK] Don't add any assets if no settings are found (Commit 11a0b40 by Eric Harrer)
+    2024-07-04 [BUGFIX] Fix paths in legacy TypoScript files (Commit 0f0706e by Eric Harrer)
+    2024-07-04 [TASK] Add TypoScript files to support deprecated include paths (Commit 05fd01d by Eric Harrer)
+    2024-07-04 [TASK] Add missing html attribute (Commit 1bd7973 by Eric Harrer)
+    2024-07-04 [TASK] Optimize method getUrlFromTypoLink (Commit 869f753 by Eric Harrer)
+    2024-07-04 [TASK] Replace method marked as internal (Commit 35cc854 by Eric Harrer)
+    2024-07-04 [TASK] Optimize automatic attribute replacement (Commit 1e3cc32 by Eric Harrer)
+    2024-07-04 [TASK] Modernize frontend condition (Commit 91683d2 by Eric Harrer)
+    2024-07-04 [BUGFIX] Fix automatic attribute replacement in contextual consent content (Commit 59b975c by Eric Harrer)
+    2024-07-04 [TASK] Run PHP CS Fixer (Commit 3387948 by Eric Harrer)
+    2024-07-04 [TASK] Move TypoScript files to Site Set directory (Commit 310e1ef by Eric Harrer)
+    2024-06-27 [TASK] Optimize javascript attribute assignment (Commit 6546eec by Eric Harrer)
+    2024-06-27 !!![TASK] Modernize retrieval of standalone klaro configuration (Commit f205ab7 by Eric Harrer)
+    2024-06-26 [TASK] Update PHP Prologue (Commit 0eb8d73 by Eric Harrer)
+    2024-06-26 [FEATURE] Add configuration as Site Set (Commit 3f3f1f8 by Eric Harrer)
+    2024-06-26 [TASK] Run extended PHP CS Fixer rules (Commit d4d6ded by Eric Harrer)
+    2024-06-26 [TASK] Remove superfluous type information in PHPDoc comments (Commit 304e1c5 by Eric Harrer)
+    2024-06-26 Establishing compatibility with v13 (Commit fd071d9 by Eric Harrer)
+
+This list has been created by using `git log $(git describe --tags --abbrev=0)..HEAD --abbrev-commit --pretty='%ad %s (Commit %h by %an)' --date=short`.
