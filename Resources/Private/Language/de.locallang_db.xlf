@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
-  <file source-language="en" original="EXT:klaro_consent_manager/Resources/Private/Language/locallang_db.xlf" datatype="plaintext" product-name="lang" date="2024-07-12T10:27:07+02:00" target-language="de">
+  <file source-language="en" original="EXT:klaro_consent_manager/Resources/Private/Language/locallang_db.xlf" datatype="plaintext" product-name="lang" date="2024-07-12T22:22:54+02:00" target-language="de">
     <header/>
     <body>
       <trans-unit id="tx_klaroconsentmanager_configuration" resname="tx_klaroconsentmanager_configuration" approved="yes">
@@ -367,9 +367,9 @@
         <source>Alignment</source>
         <target state="final">Ausrichtung</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_configuration.alignment.description" resname="tx_klaroconsentmanager_configuration.alignment.description" approved="yes">
-        <source>Determines the alignment of the Consent box if `mustConsent`is disabled.</source>
-        <target state="final">Legt die Ausrichtung des Feldes "Zustimmung" fest, wenn "Muss zustimmen" deaktiviert ist.</target>
+      <trans-unit id="tx_klaroconsentmanager_configuration.alignment.description" resname="tx_klaroconsentmanager_configuration.alignment.description">
+        <source>Determines the alignment of the Consent box if `mustConsent` and `noticeAsModal` are disabled.</source>
+        <target state="needs-translation">Determines the alignment of the Consent box if `mustConsent` and `noticeAsModal` are disabled.</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.alignment.I.top-left" resname="tx_klaroconsentmanager_configuration.alignment.I.top-left" approved="yes">
         <source>Top-Left</source>
@@ -691,14 +691,6 @@
         <source>You can either only provide a cookie name or regular expression (regex) or a list consisting of a name or regex, a path and a cookie domain. Providing a path and domain is necessary if you have services that set cookies for a path that is not "/", or a domain that is not the current domain. If you do not set these values properly, the cookie can't be deleted by Klaro, as there is no way to access the path or domain of a cookie in JS. Notice that it is not possible to delete cookies that were set on a third-party domain, or cookies that have the HTTPOnly attribute: https://developer.mozilla.org/en-US/docs/Web/API/Document/cookie#new-cookie_domain</source>
         <target state="final">Sie können entweder nur einen Cookie-Namen oder einen regulären Ausdruck (Regex) angeben oder eine Liste, die aus einem Namen oder Regex, einem Pfad und einer Cookie-Domain besteht. Die Angabe von Pfad und Domäne ist notwendig, wenn Sie Dienste haben, die Cookies für einen Pfad setzen, der nicht "/" ist, oder für eine Domain, die nicht die aktuelle Domain ist. Wenn Sie diese Werte nicht korrekt angeben, kann das Cookie von Klaro nicht gelöscht werden, da es keine Möglichkeit gibt, in JS auf den Pfad oder die Domäne eines Cookies zuzugreifen. Beachten Sie, dass es nicht möglich ist, Cookies zu löschen, die auf einer fremden Domain gesetzt wurden, oder Cookies, die das HTTPOnly-Attribut haben: https://developer.mozilla.org/en-US/docs/Web/API/Document/cookie#new-cookie_domain</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_service.callback.label" resname="tx_klaroconsentmanager_service.callback.label" approved="yes">
-        <source>Callback</source>
-        <target state="final">Callback</target>
-      </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_service.callback.description" resname="tx_klaroconsentmanager_service.callback.description" approved="yes">
-        <source>You can define an optional callback function that will be called each time the consent state for the given service changes. The consent value will be passed as the first parameter to the function (true=consented). The `service` config will be passed as the second parameter. The content of this field is wrapped with `callback: function(consent, service) { }`. `consent` is a bool that reflects the current state. service` holds all information about the currently selected service. When you enter something here, you need to know what you are doing. It is your responsibility that no JavaScript errors occur.</source>
-        <target state="final">Sie können eine optionale Callback-Funktion definieren, die jedes Mal aufgerufen wird, wenn sich der Zustimmungsstatus für den jeweiligen Dienst ändert. Der Zustimmungswert wird als erster Parameter an die Funktion übergeben (true=zustimmend). Die "Service"-Konfiguration wird als zweiter Parameter übergeben. Der Inhalt dieses Feldes wird mit `callback: function(consent, service) { }` umschlossen. `consent` ist ein bool, das den aktuellen Zustand widerspiegelt. `service` enthält alle Informationen über den aktuell ausgewählten Dienst. Wenn Sie hier etwas eingeben, müssen Sie wissen, was Sie tun. Es liegt in Ihrer Verantwortung, dass keine JavaScript-Fehler auftreten.</target>
-      </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_service.required.label" resname="tx_klaroconsentmanager_service.required.label" approved="yes">
         <source>Required</source>
         <target state="final">Erforderlich</target>
@@ -730,6 +722,14 @@
       <trans-unit id="tx_klaroconsentmanager_service.contextual_consent_only.description" resname="tx_klaroconsentmanager_service.contextual_consent_only.description" approved="yes">
         <source>Content can be excluded from general consent by setting contextualConsentOnly to true. In this case, the consent must be contextual.</source>
         <target state="final">Inhalte können von der allgemeinen Zustimmung ausgeschlossen werden, indem diese Einstellung aktiviert wird. In diesem Fall muss die Zustimmung kontextbezogen sein.</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_service.callback.label" resname="tx_klaroconsentmanager_service.callback.label" approved="yes">
+        <source>Callback</source>
+        <target state="final">Callback</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_service.callback.description" resname="tx_klaroconsentmanager_service.callback.description" approved="yes">
+        <source>You can define an optional callback function that will be called each time the consent state for the given service changes. The consent value will be passed as the first parameter to the function (true=consented). The `service` config will be passed as the second parameter. The content of this field is wrapped with `callback: function(consent, service) { }`. `consent` is a bool that reflects the current state. service` holds all information about the currently selected service. When you enter something here, you need to know what you are doing. It is your responsibility that no JavaScript errors occur.</source>
+        <target state="final">Sie können eine optionale Callback-Funktion definieren, die jedes Mal aufgerufen wird, wenn sich der Zustimmungsstatus für den jeweiligen Dienst ändert. Der Zustimmungswert wird als erster Parameter an die Funktion übergeben (true=zustimmend). Die "Service"-Konfiguration wird als zweiter Parameter übergeben. Der Inhalt dieses Feldes wird mit `callback: function(consent, service) { }` umschlossen. `consent` ist ein bool, das den aktuellen Zustand widerspiegelt. `service` enthält alle Informationen über den aktuell ausgewählten Dienst. Wenn Sie hier etwas eingeben, müssen Sie wissen, was Sie tun. Es liegt in Ihrer Verantwortung, dass keine JavaScript-Fehler auftreten.</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_service.on_accept.label" resname="tx_klaroconsentmanager_service.on_accept.label" approved="yes">
         <source>`onAccept` callback function</source>
