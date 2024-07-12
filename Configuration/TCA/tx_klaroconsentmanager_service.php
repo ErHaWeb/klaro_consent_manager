@@ -126,6 +126,9 @@ return [
                     ['label' => 'LLL:EXT:klaro_consent_manager/Resources/Private/Language/locallang_db.xlf:tx_klaroconsentmanager_service.purposes.I.security', 'value' => 'security', 'icon' => '', 'group' => 'additional'],
                     ['label' => 'LLL:EXT:klaro_consent_manager/Resources/Private/Language/locallang_db.xlf:tx_klaroconsentmanager_service.purposes.I.livechat', 'value' => 'livechat', 'icon' => '', 'group' => 'additional'],
                     ['label' => 'LLL:EXT:klaro_consent_manager/Resources/Private/Language/locallang_db.xlf:tx_klaroconsentmanager_service.purposes.I.styling', 'value' => 'styling', 'icon' => '', 'group' => 'additional'],
+                    ['label' => 'LLL:EXT:klaro_consent_manager/Resources/Private/Language/locallang_db.xlf:tx_klaroconsentmanager_service.purposes.I.videos', 'value' => 'videos', 'icon' => '', 'group' => 'additional'],
+                    ['label' => 'LLL:EXT:klaro_consent_manager/Resources/Private/Language/locallang_db.xlf:tx_klaroconsentmanager_service.purposes.I.social', 'value' => 'social', 'icon' => '', 'group' => 'additional'],
+                    ['label' => 'LLL:EXT:klaro_consent_manager/Resources/Private/Language/locallang_db.xlf:tx_klaroconsentmanager_service.purposes.I.misc', 'value' => 'misc', 'icon' => '', 'group' => 'additional'],
                 ],
                 'itemGroups' => [
                     'custom' => 'LLL:EXT:klaro_consent_manager/Resources/Private/Language/locallang_db.xlf:tx_klaroconsentmanager_service.purposes.optgroup.custom',
