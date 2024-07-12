@@ -14,7 +14,7 @@
  */
 $EM_CONF[$_EXTKEY] = [
     'title' => 'Klaro! Consent Manager',
-    'description' => 'Functionally complete, flexible TYPO3 integration of Klaro! Consent Management by KIProtect. Klaro! is a powerful tool that protects your visitors\' privacy and data and helps you run a GDPR compliant website.',
+    'description' => 'Functionally complete, flexible TYPO3 integration of Klaro! Consent Management by KIProtect GmbH, a powerful tool that protects your visitors\' privacy and data.',
     'category' => 'fe',
     'author' => 'Eric Harrer',
     'author_email' => 'info@eric-harrer.de',
