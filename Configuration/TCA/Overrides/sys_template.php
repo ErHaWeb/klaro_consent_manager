@@ -15,20 +15,15 @@ declare(strict_types=1);
  * The TYPO3 project - inspiring people to share!
  */
 
-use TYPO3\CMS\Core\Information\Typo3Version;
 use TYPO3\CMS\Core\Utility\ExtensionManagementUtility;
-use TYPO3\CMS\Core\Utility\GeneralUtility;
 
 defined('TYPO3') || die();
 
 (static function () {
     $extensionKey = 'klaro_consent_manager';
-    $versionInformation = GeneralUtility::makeInstance(Typo3Version::class);
-    if ($versionInformation->getMajorVersion() < 13) {
-        ExtensionManagementUtility::addStaticFile(
-            $extensionKey,
-            'Configuration/Sets/KlaroConsentManager',
-            'Klaro! Consent Manager',
-        );
-    }
+    ExtensionManagementUtility::addStaticFile(
+        $extensionKey,
+        'Configuration/Sets/KlaroConsentManager',
+        'Klaro! Consent Manager',
+    );
 })();
