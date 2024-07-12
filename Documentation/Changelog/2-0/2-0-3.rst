@@ -1,0 +1,28 @@
+.. include:: /Includes.rst.txt
+
+2.0.3 - July 12, 2024
+=====================
+
+
+.. only:: html
+
+   .. contents::
+        :local:
+        :depth: 3
+
+Breaking changes
+----------------
+No breaking changes!
+
+All Changes
+-----------
+This is a list of all changes in this release: ::
+
+    2024-07-12 [DOCS] Add basic documentation (Commit be510f4 by Eric Harrer)
+    2024-07-12 [TASK] Remove unnecessary version check for static TypoScript include (Commit e6b390f by Eric Harrer)
+    2024-07-12 [TASK] Update extension description (Commit 3e7e159 by Eric Harrer)
+    2024-07-12 [TASK] Remove deprecated tab configuration (Commit e1d6ae4 by Eric Harrer)
+    2024-07-12 [TASK] Add new purposes "videos", "social" and "misc" (Commit 48df389 by Eric Harrer)
+    2024-07-04 [DOCS] Update ChangeLog (Commit 7705bf0 by Eric Harrer)
+
+This list has been created by using `git log $(git describe --tags --abbrev=0)..HEAD --abbrev-commit --pretty='%ad %s (Commit %h by %an)' --date=short`.
