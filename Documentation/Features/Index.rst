@@ -91,7 +91,7 @@ This has the disadvantage that considerably more translation code is loaded than
 
 Fortunately, TYPO3 has already integrated a successful principle with XLIFF files with which labels can be integrated depending on the currently selected language. This is used here by the Klaro Extension. No labels are loaded from languages that are not currently needed.
 
-All labels that Klaro otherwise supplies on the JavaScript side were transferred to this format and uploaded to the Crowding translation server so that they can be maintained and expanded there by our active community.
+All labels that Klaro otherwise supplies on the JavaScript side were transferred to this format and uploaded to the Crowdin translation server so that they can be maintained and expanded there by our active community.
 
 ..  note::
     From a technical perspective, these labels are ultimately delivered in the Klaro configuration under the global fallback index `zz`. The Klaro JavaScript knows no other source for labels than the one we provide through TYPO3. A more efficient way that combines the best of both worlds.
