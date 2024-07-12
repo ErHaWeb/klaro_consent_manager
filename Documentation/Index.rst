@@ -1,8 +1,10 @@
 ..  include:: /Includes.rst.txt
 
-================================
+.. _start:
+
+======================
 Klaro! Consent Manager
-================================
+======================
 
 :Extension key:
     klaro_consent_manager
@@ -29,12 +31,7 @@ Klaro! Consent Manager
 
 ----
 
-Functionally complete, flexible TYPO3 integration of `Klaro! Consent Management <https://klaro.org/>`__ by
-`KIProtect GmbH <https://kiprotect.com/>`__.
-
-Klaro! is a powerful tool that protects your visitors' privacy and data and helps you run a GDPR compliant website.
-
-Many thanks to KIProtect GmbH for providing this great open source product.
+This TYPO3 extension provides a functionally complete, flexible TYPO3 integration of `Klaro! Consent Management <https://klaro.org/>`__ by `KIProtect GmbH <https://kiprotect.com/>`__, a powerful tool that protects your visitors' privacy and data and helps you run a GDPR compliant website.
 
 ----
 
@@ -45,10 +42,10 @@ Many thanks to KIProtect GmbH for providing this great open source product.
     :titlesonly:
 
     Introduction/Index
-
-..  note::
-    Please be patient, the documentation still need to be completed. Until then, I have already provided you with videos
-    on the introduction page to give you a first overview.
+    Features/Index
+    Installation/Index
+    QuickStart/Index
+    Editor/Index
 
 ..  Meta Menu
 
@@ -57,4 +54,3 @@ Many thanks to KIProtect GmbH for providing this great open source product.
 
     Changelog/Index
     Sitemap
-    genindex

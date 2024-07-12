@@ -1,83 +1,22 @@
-# Klaro Consent Manager
+# Klaro! Consent Manager
 
-Functionally complete, flexible TYPO3 integration of Klaro! Consent Management by KIProtect. Klaro! is a powerful tool that protects your visitors' privacy and data and helps you run a GDPR-compliant website.
+| Meta          | Value                         |
+|---------------|-------------------------------|
+| Extension key | klaro_consent_manager         |
+| Package name  | erhaweb/klaro-consent-manager |
+| Version       | 2                             |
+| Author        | Eric Harrer                   |
 
-## Tutorials
+## What does it do?
 
-### Add custom purposes
+This TYPO3 extension provides a functionally complete and feature rich, flexible TYPO3 integration of [Klaro! Consent Management](https://klaro.org/) (hereinafter referred to as "Klaro") by [KIProtect GmbH](https://kiprotect.com/), a powerful tool that protects your visitors' privacy and data and helps you run a GDPR compliant website.
 
-#### Create custom XLIFF file(s)
+Klaro itself is fully self-hosted and does not rely on the use of resources from external sources. It gives you full control over services requiring consent, including the cookies associated with them and the purposes they belong to. The styling can be influenced either via supplied (also colour-neutral) schemes or your own CSS.
 
-```
-EXT:sitepackage/Resources/Private/Language/Klaro/locallang.xlf
-```
+If you have already worked with Klaro in TYPO3, you will love this extension because it is much more intuitive to use due to the use of the backend GUI. If not, this extension will make it particularly easy for you to familiarise yourself with Klaro's range of functions.
 
-#### Add new Keys for purposes
+This TYPO3 extension provides a functionally complete, flexible TYPO3 integration of Klaro! Consent Management by KIProtect GmbH, a powerful tool that protects your visitors' privacy and data and helps you run a GDPR compliant website.
 
-```xml
-<trans-unit id="purposes.analytics.title">
-    <source>Analytics</source>
-</trans-unit>
-<trans-unit id="purposes.analytics.description">
-    <source>These services gather anonymous data for statistical analysis and performance optimization. Enabling analytics services assists website owners in making informed decisions to enhance online services.</source>
-</trans-unit>
-<trans-unit id="purposes.security.title">
-    <source>Security</source>
-</trans-unit>
-<trans-unit id="purposes.security.description">
-    <source>Security services are crucial for safeguarding your online experience. These services help protect your data and privacy by detecting and preventing security threats, such as malware, phishing attempts, and unauthorized access. They ensure a safer browsing environment.</source>
-</trans-unit>
-<trans-unit id="purposes.livechat.title">
-    <source>Live Chat</source>
-</trans-unit>
-<trans-unit id="purposes.livechat.description">
-    <source>Live chat services enable real-time communication with website support teams. They offer a convenient way to ask questions, seek assistance, or engage in discussions while browsing a website. Live chat enhances your online interaction and customer support experience.</source>
-</trans-unit>
-<trans-unit id="purposes.styling.title">
-    <source>Styling</source>
-</trans-unit>
-<trans-unit id="purposes.styling.description">
-    <source>Services related to styling help to improve the appearance of the website. This can also have an impact on usability.</source>
-</trans-unit>
-```
+## Further details
 
-The keys are structured according to the following scheme:
-
-- Title of the Purpose: `purposes.<PURPOSE-IDENTIFIER>.title`
-- Description of the Purpose: `purposes.<PURPOSE-IDENTIFIER>.description`
-
-#### Add reference in configuration record
-
-Open the Klaro! configuration, go to `Display` → `Translations` → `Locallang Path` and enter the path to your newly created XLIFF file.
-
-![Locallang Path](Documentation/Images/configuration-locallang_path.png)
-
-#### Add new items with TSconfig
-```
-TCEFORM {
-    tx_klaroconsentmanager_service.purposes.addItems {
-        analytics = LLL:EXT:sitepackage/Resources/Private/Language/Klaro/locallang.xlf:purposes.analytics.title
-        analytics.group = custom
-
-        security = LLL:EXT:sitepackage/Resources/Private/Language/Klaro/locallang.xlf:purposes.security.title
-        security.group = custom
-
-        livechat = LLL:EXT:sitepackage/Resources/Private/Language/Klaro/locallang.xlf:purposes.livechat.title
-        livechat.group = custom
-
-        styling = LLL:EXT:sitepackage/Resources/Private/Language/Klaro/locallang.xlf:purposes.styling.title
-        styling.group = custom
-    }
-    tx_klaroconsentmanager_configuration.purpose_order.addItems < .tx_klaroconsentmanager_service.purposes.addItems
-}
-```
-
-#### Finished!
-
-Now you are able to select the new purposes in the configuration.
-
-![Backend: Custom Purposes](Documentation/Images/service-purposes-custom.png)
-
-When a custom purpose is selected for a service, it is now also displayed in the frontend, including the description text.
-
-![Frontend: Custom Purposes](Documentation/Images/consent-box-custom-purpose.png)
+For detailed information, please visit the [official documentation in the TYPO3 extension repository (TER)](https://docs.typo3.org/p/erhaweb/klaro-consent-manager/main/en-us/).
