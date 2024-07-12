@@ -511,7 +511,6 @@ return [
                 --div--;LLL:EXT:klaro_consent_manager/Resources/Private/Language/locallang_db.xlf:tx_klaroconsentmanager_configuration.tabs.general,
                     --palette--;;general_palette,
                     --palette--;;services_palette,
-                --div--;LLL:EXT:klaro_consent_manager/Resources/Private/Language/locallang_db.xlf:tx_klaroconsentmanager_configuration.tabs.display,
                 --div--;LLL:EXT:klaro_consent_manager/Resources/Private/Language/locallang_db.xlf:tx_klaroconsentmanager_configuration.tabs.layout,
                     --palette--;;layout_palette,
                     --palette--;;consent_palette,
