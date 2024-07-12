@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xliff xmlns:t3="http://typo3.org/schemas/xliff" xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
-  <file source-language="en" original="EXT:klaro_consent_manager/Resources/Private/Language/locallang.xlf" datatype="plaintext" product-name="klaro_consent_manager" date="2024-02-02T15:07:00+01:00" target-language="es-ES">
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file source-language="en" original="EXT:klaro_consent_manager/Resources/Private/Language/locallang.xlf" datatype="plaintext" product-name="klaro_consent_manager" date="2024-07-12T09:09:00+02:00" target-language="es-ES">
     <body>
       <trans-unit id="privacyPolicy.name" resname="privacyPolicy.name" approved="yes">
         <source>privacy policy</source>
@@ -101,6 +101,30 @@
       <trans-unit id="purposes.styling.description" resname="purposes.styling.description">
         <source>Services related to styling help to improve the appearance of the website. This can also have an impact on usability.</source>
         <target state="needs-translation">Services related to styling help to improve the appearance of the website. This can also have an impact on usability.</target>
+      </trans-unit>
+      <trans-unit id="purposes.videos.title" resname="purposes.videos.title">
+        <source>Videos</source>
+        <target state="needs-translation">Videos</target>
+      </trans-unit>
+      <trans-unit id="purposes.videos.description" resname="purposes.videos.description">
+        <source>Embedding videos from external platforms to enrich the content on this website.</source>
+        <target state="needs-translation">Embedding videos from external platforms to enrich the content on this website.</target>
+      </trans-unit>
+      <trans-unit id="purposes.social.title" resname="purposes.social.title">
+        <source>Social Media</source>
+        <target state="needs-translation">Social Media</target>
+      </trans-unit>
+      <trans-unit id="purposes.social.description" resname="purposes.social.description">
+        <source>Embedding social media from external platforms to enrich the content on this website.</source>
+        <target state="needs-translation">Embedding social media from external platforms to enrich the content on this website.</target>
+      </trans-unit>
+      <trans-unit id="purposes.misc.title" resname="purposes.misc.title">
+        <source>Miscellaneous</source>
+        <target state="needs-translation">Miscellaneous</target>
+      </trans-unit>
+      <trans-unit id="purposes.misc.description" resname="purposes.misc.description">
+        <source>This includes services that do not fall under the other purposes.</source>
+        <target state="needs-translation">This includes services that do not fall under the other purposes.</target>
       </trans-unit>
       <trans-unit id="purposeItem.service" resname="purposeItem.service" approved="yes">
         <source>A simple service that I install on my computer.</source>
