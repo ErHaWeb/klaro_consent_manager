@@ -151,7 +151,7 @@ Quick start
 
     #.  Click :guilabel:`Save` and :guilabel:`Close`
 
-#.  Reference the Klaro Configuration via the Site Configuration
+#.  Reference the Klaro Configuration via the :ref:`Site Configuration <for-editors-site-configuration>`
 
     #.  Go to the Sites module under :guilabel:`Site Management` → :guilabel:`Sites`
 
