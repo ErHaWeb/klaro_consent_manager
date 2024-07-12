@@ -1,0 +1,25 @@
+.. include:: /Includes.rst.txt
+
+2.0.4 - July 12, 2024
+=====================
+
+
+.. only:: html
+
+   .. contents::
+        :local:
+        :depth: 3
+
+Breaking changes
+----------------
+No breaking changes!
+
+All Changes
+-----------
+This is a list of all changes in this release: ::
+
+    2024-07-12 [DOCS] Add Site Configuration settings (Commit af80416 by Eric Harrer)
+    2024-07-12 [DOCS] Add internal links (Commit 25fb8c7 by Eric Harrer)
+    2024-07-12 [DOCS] Finalize documentation DB records (Commit 0753ed7 by Eric Harrer)
+
+This list has been created by using `git log $(git describe --tags --abbrev=0)..HEAD --abbrev-commit --pretty='%ad %s (Commit %h by %an)' --date=short`.
