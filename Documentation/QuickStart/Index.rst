@@ -76,7 +76,7 @@ Quick start
 
 #.  **For each service** proceed with the following steps ...
 
-#.  Create Service
+#.  Create a :ref:`Service <for-editors-service>`
 
     #.  Click :guilabel:`Create new record` in the module header of :guilabel:`Web` → :guilabel:`List`
 
@@ -96,7 +96,7 @@ Quick start
 
 #.  **For each cookie** associated with the service proceed with the following steps ...
 
-#.  Create Cookie for Service
+#.  Create a :ref:`Cookie <for-editors-cookie>` for the Service
 
     #.  In the editing mask of the service click Tab :guilabel:`Cookies`
 
@@ -131,7 +131,7 @@ Quick start
     ..  note::
         Prerequisite for the output in the frontend is that **at least one service has been assigned**.
 
-#.  Create the main Klaro Configuration
+#.  Create the main Klaro :ref:`Configuration <for-editors-configuration>`
 
     #.  Click :guilabel:`Create new record` in the module header of :guilabel:`Web` → :guilabel:`List`
 

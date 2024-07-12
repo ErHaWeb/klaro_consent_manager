@@ -6,9 +6,9 @@
 For Editors
 ===========
 
-After installing this extension, you are able to create a Klaro **configuration** that is later referenced via the site configuration of the site for which Consent Management is to be set up.
+After installing this extension, you are able to create a Klaro :ref:`configuration <for-editors-configuration>` that is later referenced via the site configuration of the site for which Consent Management is to be set up.
 
-**Services** are referenced via the Klaro configuration. Services can also be created independently of editing the Klaro configuration. In the context of editing services, information on the **cookies** used by the service in question can be specified inline.
+:ref:`Services <for-editors-service>` are referenced via the Klaro configuration. Services can also be created independently of editing the Klaro configuration. In the context of editing services, information on the :ref:`cookies <for-editors-cookie>` used by the service in question can be specified inline.
 
 General setup
 =============
