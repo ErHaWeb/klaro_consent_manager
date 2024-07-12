@@ -7,6 +7,10 @@
 Advanced
 ========
 
+..  figure:: /Images/Configuration-Advanced.png
+
+    Klaro Configuration - Advanced Tab
+
 .. contents::
    :local:
 
@@ -68,7 +72,7 @@ Storage Name
 ..  confval:: storage_name
 
     :type: string
-    :Default: 'klaro'
+    :Default: ''
 
     You can customize the name of the cookie or localStorage entry that Klaro will use for storing the consent information. By default, Klaro will use "klaro".
 

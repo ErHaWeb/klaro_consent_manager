@@ -26,7 +26,7 @@ You can set up Consent Management in the following way:
 Detailed information
 ====================
 
-Here you will find information about all fields that can be configured for the **configuration**, **services** and **cookies**. The subpages correspond to the tabs that are available in the backend form of the respective record.
+Here you will find information about all fields that can be configured for the **configuration**, **services** and **cookies**.
 
 ..  toctree::
    :maxdepth: 1

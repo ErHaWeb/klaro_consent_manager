@@ -7,6 +7,10 @@
 Content
 =======
 
+..  figure:: /Images/Configuration-Content.png
+
+    Klaro Configuration - Content Tab
+
 .. contents::
    :local:
 
@@ -18,8 +22,8 @@ Hide Decline All
 
 ..  confval:: hide_decline_all
 
-    :type: string
-    :Default: ''
+    :type: boolean
+    :Default: false
 
     Setting `hideDeclineAll` to `true` will hide the "decline" button in the consent modal and force the user to open the modal in order to change his/her consent or disable all third-party services. We strongly advise you to not use this feature, as it opposes the "privacy by default" and "privacy by design" principles of the GDPR (but might be acceptable in other legislations such as under the CCPA)
 
@@ -28,8 +32,8 @@ Hide Learn More
 
 ..  confval:: hide_learn_more
 
-    :type: string
-    :Default: ''
+    :type: boolean
+    :Default: false
 
     Setting `hideLearnMore` to `true` will hide the "learn more / customize" link in the consent notice. We strongly advise against using this under most circumstances, as it keeps the user from customizing his/her consent choices.
 
@@ -38,8 +42,8 @@ Hide Toggle All
 
 ..  confval:: hide_toggle_all
 
-    :type: string
-    :Default: ''
+    :type: boolean
+    :Default: false
 
     Setting `hideToggleAll` to `true` will hide the "toggle all" link in the consent notice. (Attention: This option is not supported in the current Klaro release. Once this is fixed, this option will be enabled again.)
 
@@ -51,8 +55,8 @@ Append Show Button
 
 ..  confval:: append_show_button
 
-    :type: string
-    :Default: ''
+    :type: boolean
+    :Default: false
 
     If this option is set, a button is created in the frontend (via JavaScript) directly in front of the closing body tag, which triggers the opening of the Klaro consent management.
 
@@ -61,8 +65,8 @@ Append Reset Button
 
 ..  confval:: append_reset_button
 
-    :type: string
-    :Default: ''
+    :type: boolean
+    :Default: false
 
     If this option is set, a button is generated in the frontend (via JavaScript) directly in front of the closing body tag, which triggers the resetting of all settings and the opening of the Klaro consent management.
 
