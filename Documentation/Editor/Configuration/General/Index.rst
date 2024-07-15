@@ -39,9 +39,12 @@ Purpose Order
 
     **Options:**
 
-    *   Option Group: Custom
+    *   **Option Group: Custom**
+
         *   Any custom option defined in TSconfig ...
-    *   Option Group: Additional
+
+    *   **Option Group: Additional**
+
         *   Analytics `[analytics]`
         *   Security `[security]`
         *   Live Chat `[livechat]`
@@ -49,7 +52,9 @@ Purpose Order
         *   Videos `[videos]`
         *   Social Media `[social]`
         *   Miscellaneous `[misc]`
-    *   Option Group: Default
+
+    *   **Option Group: Default**
+
         *   Functional `[functional]`
         *   Performance `[performance]`
         *   Marketing `[marketing]`
