@@ -91,3 +91,14 @@ Klaro Service Configuration
 ..  figure:: /Images/Service-Advanced.png
 
     Service Configuration - Advanced Tab
+
+Contextual Consent
+~~~~~~~~~~~~~~~~~~
+
+..  figure:: /Images/Content-ContextualConsent.png
+
+    Backend configuration of the content element
+
+..  figure:: /Images/Frontend-ContextualConsent.png
+
+    Frontend display

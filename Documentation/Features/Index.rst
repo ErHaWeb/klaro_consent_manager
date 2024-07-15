@@ -147,6 +147,14 @@ Using TypoScript Settings `mainSectionOnly` you can also decide whether the enti
 
 A special feature in this context is that using a string-based low-level replacement in the final HTML code, any occurrence of actively loaded resources within contextual content elements (via the `src` or `href` attribute) is automatically prevented. The external resources of Contextual Content will only be loaded after consent. You no longer need to worry about adjusting these attributes by adding `data-` as usual in Klaro. The middleware `ErHaWeb\KlaroConsentManager\Middleware\ReplaceBeforeOutput` is responsible for this.
 
+..  figure:: /Images/Content-ContextualConsent.png
+
+    Backend configuration of the content element
+
+..  figure:: /Images/Frontend-ContextualConsent.png
+
+    Frontend display
+
 ..  youtube:: bK_XeJrlyW8
 
 Standalone configuration
