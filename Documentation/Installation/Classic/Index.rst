@@ -8,13 +8,8 @@ Classic
 
 There are two different ways to install extensions via the Extension Manager in the TYPO3 backend.
 
--   Either the extension is found via the search function in the backend and installed directly
-
-    -   → **Search and install**
-
--   or it is downloaded from the TYPO3 Extension Repository (TER) as a zip file and uploaded in the backend.
-
-    -   → **Upload Extension from TER**
+-   Either the extension is found via the :ref:`search function in the backend <#searchandinstall>` and installed directly
+-   or it is downloaded from the TYPO3 Extension Repository (TER) as a zip file and :ref:`uploaded in the backend <#uploadfromter>`.
 
 Both ways are described here.
 
@@ -32,6 +27,8 @@ Regardless of which of the two ways you have chosen, you must enter the **Extens
     #.  Open the TYPO3 backend.
 
     #.  Go to the **Extension Manager** Module under :guilabel:`Admin Tools` → :guilabel:`Extensions`.
+
+..  _searchandinstall:
 
 Search and install
 ------------------
@@ -56,6 +53,8 @@ Proceed as follows to install the extension based on a TER search in the backend
 
         ..  figure:: /Images/ExtensionManager-SuccessfulInstallationPopUp.png
             :alt: Successful installation PopUp
+
+..  _uploadfromter:
 
 Upload Extension from TER
 -------------------------
