@@ -1,0 +1,32 @@
+.. include:: /Includes.rst.txt
+
+2.0.5 - July 15, 2024
+=====================
+
+
+.. only:: html
+
+   .. contents::
+        :local:
+        :depth: 3
+
+Breaking changes
+----------------
+No breaking changes!
+
+All Changes
+-----------
+This is a list of all changes in this release: ::
+
+    2024-07-15 [DOCS] Add more links to editor main page (Commit 5932c25 by Eric Harrer)
+    2024-07-15 [DOCS] Update installation guides (Commit 790de2d by Eric Harrer)
+    2024-07-15 [DOCS] Update feature documentation (Commit 5e41efd by Eric Harrer)
+    2024-07-15 [DOCS] Add callback code examples (Commit 8c70346 by Eric Harrer)
+    2024-07-15 [DOCS] Fix klaroPrivacyPolicyUrl field description (Commit a46ad5f by Eric Harrer)
+    2024-07-15 [DOCS] Add contextual consent screenshots (Commit 669469d by Eric Harrer)
+    2024-07-15 [DOCS] Update Quick Start Guide (Commit 6bd8653 by Eric Harrer)
+    2024-07-15 [DOCS] Fix purpose display (Commit 2266d7c by Eric Harrer)
+    2024-07-15 [DOCS] Update README file (Commit 8325da9 by Eric Harrer)
+    2024-07-12 [DOCS] Fix typo (Commit 79c980a by Eric Harrer)
+
+This list has been created by using `git log $(git describe --tags --abbrev=0)..HEAD --abbrev-commit --pretty='%ad %s (Commit %h by %an)' --date=short`.
