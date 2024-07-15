@@ -17,16 +17,18 @@ You can set up Consent Management in the following way:
 
 ..  rst-class:: bignums-tip
 
-1.  Create **services** including associated **cookies**
+#.  Create :ref:`Services <for-editors-service>` including associated :ref:`cookies <for-editors-cookie>`
 
-2.  Create a Klaro **configuration** and reference the services
+#.  Create a Klaro :ref:`configuration <for-editors-configuration>` and reference the services
 
-3.  Reference the Klaro configuration in the site configuration
+#.  Reference the Klaro configuration in the :ref:`site configuration <for-editors-site-configuration>`
+
+#.  Modify your third-party scripts as shown in the :ref:`Quick start guide <quickStart>`
 
 Detailed information
 ====================
 
-Here you will find information about all fields that can be configured for the **configuration**, **services** and **cookies**.
+Here you will find detailed information on all fields that can be configured in the site configuration, the klaro configuration, the services and their cookies.
 
 ..  toctree::
    :maxdepth: 1
