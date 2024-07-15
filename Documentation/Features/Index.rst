@@ -135,6 +135,10 @@ Certain link targets can be used to create links that open the Klaro Consent Man
 
 ..  youtube:: V4u4v0QS93s
 
+..  note::
+
+    Thanks to `Georg Ringer <https://www.studiomitte.com/ueber-uns/georg-ringer>`__ and Studio Mitte Digital Media GmbH for this feature idea and the permission to use it from their `Klaro integration <https://github.com/studiomitte/klaro>`__.
+
 Contextual Consent
 ==================
 
@@ -173,3 +177,8 @@ TYPO3 v13 compatibility
 Any deprecations that appeared in v13 have been modernized. The entire code was optimized for PHP 8 and underwent various quality checks.
 
 The TypoScript of this extension can already be integrated TYPO3 v13-compliant via SiteSet. Alternatively, it is still possible to integrate the TypoScript using the old method via static include of the `sys_template` record.
+
+Vanilla JavaScript
+==================
+
+This integration is based exclusively on vanilla/plain JavaScript. No library such as jQuery is required. This way, only the code that is really needed is loaded, and you retain the freedom to decide whether and which library you want to use to run your site, completely independent of this Klaro integration.
