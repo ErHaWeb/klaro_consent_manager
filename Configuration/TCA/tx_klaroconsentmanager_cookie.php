@@ -8,7 +8,9 @@ return [
         'tstamp' => 'tstamp',
         'crdate' => 'crdate',
         'delete' => 'deleted',
-        'iconfile' => 'EXT:klaro_consent_manager/Resources/Public/Icons/tx_klaroconsentmanager_cookie.svg',
+        'typeicon_classes' => [
+            'default' => 'tx-klaroconsentmanager-cookie'
+        ],
         'rootLevel' => -1,
         'enablecolumns' => [
             'disabled' => 'hidden',
