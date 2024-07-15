@@ -6,7 +6,7 @@
 Quick start
 ===========
 
-..  rst-class:: bignums-tip
+..  rst-class:: bignums
 
 #.  :ref:`Install <installation>` the Extension
 
@@ -14,11 +14,12 @@ Quick start
 
     The modern and recommended way to reference the configuration of this extension since TYPO3 v13 is via its **Site Set**. Alternatively, it is still possible to use the **Static TypoScript Include** in the template record.
 
-    Decide here in favour of one of the two ways:
+    ..  accordion::
+        :name: accordionAddConfiguration
 
-    ..  tabs::
-
-        ..  group-tab:: Site Set
+        ..  accordion-item:: Site Set
+            :name: siteSet
+            :header-level: 2
 
             #.  Go to the Sites module under :guilabel:`Site Management` → :guilabel:`Sites`
 
@@ -50,7 +51,9 @@ Quick start
                             mainSectionOnly: 0
 
 
-        ..  group-tab:: Static TypoScript Include
+        ..  accordion-item:: Static TypoScript Include
+            :name: typoScriptInclude
+            :header-level: 2
 
             #.  Go to the Template module under :guilabel:`Site Management` → :guilabel:`TypoScript`
 
@@ -129,6 +132,7 @@ Quick start
 #.  When all services have been created continue with the next steps
 
     ..  note::
+
         Prerequisite for the output in the frontend is that **at least one service has been assigned**.
 
 #.  Create the main Klaro :ref:`Configuration <for-editors-configuration>`
@@ -164,6 +168,58 @@ Quick start
     #.  Define a :guilabel:`Privacy Policy URL` (possibly as an internal link)
 
     #.  Define a :guilabel:`Imprint URL` (possibly as an internal link)
+
+#.  Modify your third-party scripts
+
+    To make sure that no third-party scripts are loaded without consent, you need to modify your HTML code a tiny bit.
+
+    #.  Replace the value of the `type` attribute with `text/plain` (this keeps the browser from executing the script)
+
+    #.  Add a data attribute with the original type, e.g. `data-type="application/javascript"`
+
+    #.  Add a `data-name` attribute that matches the name of the given :ref:`service <for-editors-service>` in your config, e.g. `data-name="google-analytics"`
+
+    #.  In the case of an external script, also replace the `src` attribute with `data-src`
+
+    The required customisation is shown below using the example of a typical gtag.js code for the integration of Google Analytics 4:
+
+    ..  code-block:: html
+        :linenos:
+        :caption: **Before**
+
+        <script
+            async
+            src="https://www.googletagmanager.com/gtag/js?id=TAG_ID"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments)};
+            gtag('js', new Date());
+            gtag('config', 'TAG_ID', {'anonymize_ip':true});
+        </script>
+
+    ..  code-block:: html
+        :linenos:
+        :caption: **After**
+
+        <script
+            async
+            data-src="https://www.googletagmanager.com/gtag/js?id=TAG_ID"
+            type="text/plain"
+            data-type="application/javascript"
+            data-name="google-analytics"></script>
+        <script
+            type="text/plain"
+            data-type="application/javascript"
+            data-name="google-analytics">
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments)};
+            gtag('js', new Date());
+            gtag('config', 'TAG_ID', {'anonymize_ip':true});
+        </script>
+
+    ..  note::
+
+        This also works for other tags such as images or tracking pixels. Just remember to always add a `data-name` attribute that matches the name of the app in your config so that Klaro knows which element belongs to which :ref:`service <for-editors-service>`.
 
 #.  Finished!
 
