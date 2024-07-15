@@ -32,7 +32,7 @@ Privacy Policy URL
     :type: :ref:`Link <t3tca:columns-link>`
     :Default: ''
 
-    Klaro configurations created in the root of this TYPO3 instance can be referenced here. If no configuration has been created yet, switch to the list module, select the root node of the page tree (with uid 0) and create a new configuration via the button "Create new record".
+    The link to the privacy policy page is used in the introductory text of the Klaro! Consent Box.
 
 Imprint URL
 -----------
