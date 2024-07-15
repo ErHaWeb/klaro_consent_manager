@@ -1,7 +1,8 @@
 # Klaro! Consent Manager
 
+
 | Meta          | Value                         |
-|---------------|-------------------------------|
+| ------------- | ----------------------------- |
 | Extension key | klaro_consent_manager         |
 | Package name  | erhaweb/klaro-consent-manager |
 | Version       | 2                             |
@@ -15,7 +16,12 @@ Klaro itself is fully self-hosted and does not rely on the use of resources from
 
 If you have already worked with Klaro in TYPO3, you will love this extension because it is much more intuitive to use due to the use of the backend GUI. If not, this extension will make it particularly easy for you to familiarise yourself with Klaro's range of functions.
 
-This TYPO3 extension provides a functionally complete, flexible TYPO3 integration of Klaro! Consent Management by KIProtect GmbH, a powerful tool that protects your visitors' privacy and data and helps you run a GDPR compliant website.
+## Screenshots
+
+![Initial modal](Documentation/Images/Frontend-Modal.png)
+
+![Dialogue "Let me choose"](Documentation/Images/Frontend-LetMeChoose.png)
+
 
 ## Further details
 
