@@ -10,6 +10,4 @@ Configuration
    :maxdepth: 5
    :titlesonly:
 
-   General
    TypoScriptReference/Index
-
