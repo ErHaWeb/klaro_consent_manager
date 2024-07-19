@@ -161,6 +161,9 @@ A special feature in this context is that using a string-based low-level replace
 
 ..  youtube:: bK_XeJrlyW8
 
+
+.. _klaroIsActive:
+
 Check if Klaro is used in TypoScript condition
 ==============================================
 

@@ -221,6 +221,10 @@ Quick start
 
         This also works for other tags such as images or tracking pixels. Just remember to always add a `data-name` attribute that matches the name of the app in your config so that Klaro knows which element belongs to which :ref:`service <for-editors-service>`.
 
+    ..  tip::
+
+        If the script is integrated via TypoScript and is to be used in the context of both a page requiring consent and a page not requiring consent, take a look at the :ref:`klaroIsActive feature <klaroIsActive>`.
+
 #.  Finished!
 
     **Congratulations, the Klaro configuration has been successfully completed**
