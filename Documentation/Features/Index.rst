@@ -161,8 +161,8 @@ A special feature in this context is that using a string-based low-level replace
 
 ..  youtube:: bK_XeJrlyW8
 
-Check if Klaro is active in TypoScript condition
-================================================
+Check if Klaro is used in TypoScript condition
+==============================================
 
 The variable `klaroIsActive` can be used in TypoScript conditions to check whether Klaro is active. Various conditions form the prerequisite for Klaro to be used:
 
@@ -171,7 +171,7 @@ The variable `klaroIsActive` can be used in TypoScript conditions to check wheth
 - At least one service has been referenced in the Klaro configuration
 - The TypoScript constant `plugin.tx_klaroconsentmanager.settings.configuration.disabled` is `FALSE`.
 
-Sometimes it is desired that sites or certain translations do not use Consent Management. This is the case, for example, if the website is outside the scope of the GDPR. In these cases, Klaro should not be loaded. In addition, the usual script adjustments (e.g. `src` → `data-src`) must not be carried out. The variable `klaroIsActive` helps with the differentiation at TypoScript level.
+Sometimes it is desired that sites or certain translations do not use Consent Management. This is the case, for example, if the website is outside the scope of the GDPR. In these cases, Klaro should not be loaded. In addition, script adjustments (e.g. the Klaro-typical change of the attribute `src` to `data-src`) must not be carried out. The variable `klaroIsActive` helps with the differentiation at TypoScript level.
 
 ..  code-block:: typoscript
     :linenos:
@@ -216,7 +216,6 @@ Sometimes it is desired that sites or certain translations do not use Consent Ma
         )
       }
     [END]
-
 
 Standalone configuration
 ========================
