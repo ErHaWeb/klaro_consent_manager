@@ -1,0 +1,28 @@
+.. include:: /Includes.rst.txt
+
+2.0.6 - July 19, 2024
+=====================
+
+
+.. only:: html
+
+   .. contents::
+        :local:
+        :depth: 3
+
+Breaking changes
+----------------
+No breaking changes!
+
+All Changes
+-----------
+This is a list of all changes in this release: ::
+
+    2024-07-19 [DOCS] Add "For Integrators" section with HowTo and FAQ (Commit 3f53d6f by Eric Harrer)
+    2024-07-19 [DOCS] Add tip in quickstart guide (Commit 05b51df by Eric Harrer)
+    2024-07-19 [DOCS] Update documentation of `klaroIsActive` (Commit b47c657 by Eric Harrer)
+    2024-07-19 [DOCS] Add documentation for `klaroIsActive` in TypoScript conditions (Commit 7c1aa3a by Eric Harrer)
+    2024-07-18 [DOCS] Add TypoScript reference (Commit e839f38 by Eric Harrer)
+    2024-07-15 [TASK] Switch to icon API use (Commit 5101c80 by Eric Harrer)
+
+This list has been created by using `git log $(git describe --tags --abbrev=0)..HEAD --abbrev-commit --pretty='%ad %s (Commit %h by %an)' --date=short`.
