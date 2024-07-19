@@ -47,6 +47,7 @@ This TYPO3 extension provides a functionally complete, flexible TYPO3 integratio
     QuickStart/Index
     Configuration/Index
     Editor/Index
+    Integrator/Index
 
 ..  Meta Menu
 

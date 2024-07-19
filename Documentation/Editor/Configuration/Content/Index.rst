@@ -73,6 +73,8 @@ Append Reset Button
 Translations
 ============
 
+..  _configuration-content-fluidtemplaterootpath:
+
 Fluid Template Root Path
 ------------------------
 
@@ -82,6 +84,8 @@ Fluid Template Root Path
     :Default: ''
 
     As an alternative to the usual TypoScript configuration via constants under `plugin.tx_klaroconsentmanager.view`, a Fluid root path can be defined here, which has a higher priority than the paths configured in TypoScript. The three default directories `/Layouts/`, `/Partials/` and `/Templates/` are expected under this path. Fluid templates created here are used to enrich Locallang labels with additional functionality or to replace them completely. In this way, dynamic content or more complex HTML structures can be provided in a simple way. Fluid templates that are to override labels are expected in the subdirectory `/Templates/Labels/`.
+
+..  _configuration-content-locallangpath:
 
 Locallang Path
 --------------

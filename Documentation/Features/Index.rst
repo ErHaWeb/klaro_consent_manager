@@ -103,16 +103,11 @@ This extension offers the possibility of enriching or replacing any label with t
 
 This also simplifies the use of HTML in labels. Not only can you use the full range of functions of Fluid to achieve dynamic HTML output for description texts, but the necessary character encoding of the texts in JavaScript is also taken care of for you.
 
-After setting the template paths, the labels as a whole can be replaced with Fluid Content or Fluid Content service/purpose can be prepended/appended. The template path under "Templates/Labels/" is an UpperCamelCase representation of the label key. Dots "." are replaced by directory separator "/".
+After setting the template paths, the labels as a whole can be replaced/modified with Fluid Content or Fluid Content service/purpose can be prepended/appended.
+
+The full description of this feature can be found in the `"How To" guide <howto-fluid-enriched-labels>`__.
 
 ..  youtube:: NYb42MKC5hw
-
-..  note::
-    In multi-language instances, please use the label partial instead of the translate ViewHelper (contrary to the video). This ensures (outside the Extbase context) that the correct language key is used.
-
-    ::
-
-        {f:render(partial: 'Label', arguments: '{locallang:locallang}')}
 
 Service presets
 ===============

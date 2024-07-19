@@ -97,6 +97,8 @@ Notice As Modal
 
     Show cookie notice as modal
 
+..  _configuration-layout-htmltexts:
+
 HTML Texts
 ----------
 
