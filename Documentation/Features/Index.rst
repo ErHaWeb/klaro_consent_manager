@@ -161,6 +161,63 @@ A special feature in this context is that using a string-based low-level replace
 
 ..  youtube:: bK_XeJrlyW8
 
+Check if Klaro is active in TypoScript condition
+================================================
+
+The variable `klaroIsActive` can be used in TypoScript conditions to check whether Klaro is active. Various conditions form the prerequisite for Klaro to be used:
+
+- It is a frontend call
+- A configuration record has been referenced in the site configuration
+- At least one service has been referenced in the Klaro configuration
+- The TypoScript constant `plugin.tx_klaroconsentmanager.settings.configuration.disabled` is `FALSE`.
+
+Sometimes it is desired that sites or certain translations do not use Consent Management. This is the case, for example, if the website is outside the scope of the GDPR. In these cases, Klaro should not be loaded. In addition, the usual script adjustments (e.g. `src` → `data-src`) must not be carried out. The variable `klaroIsActive` helps with the differentiation at TypoScript level.
+
+..  code-block:: typoscript
+    :linenos:
+    :caption: **Example**
+
+    [!klaroIsActive]
+    page.headerData.100 = TEXT
+    page.headerData.100 {
+      value (
+    <script
+        async
+        src="https://www.googletagmanager.com/gtag/js?id={$tagId}"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments)};
+        gtag('js', new Date());
+        gtag('config', '{$tagId}', {'anonymize_ip':true});
+    </script>
+      )
+    }
+    [END]
+
+    [klaroIsActive]
+      page.headerData.100 = TEXT
+      page.headerData.100 {
+        value (
+    <script
+        async
+        data-src="https://www.googletagmanager.com/gtag/js?id={$tagId}"
+        type="text/plain"
+        data-type="application/javascript"
+        data-name="google-analytics"></script>
+    <script
+        type="text/plain"
+        data-type="application/javascript"
+        data-name="google-analytics">
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments)};
+        gtag('js', new Date());
+        gtag('config', '{$tagId}', {'anonymize_ip':true});
+    </script>
+        )
+      }
+    [END]
+
+
 Standalone configuration
 ========================
 
