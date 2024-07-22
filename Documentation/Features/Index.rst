@@ -159,7 +159,7 @@ A special feature in this context is that using a string-based low-level replace
 
 .. _klaroIsActive:
 
-Check if Klaro is used in TypoScript condition
+TypoScript condition to check if Klaro is used
 ==============================================
 
 The variable `klaroIsActive` can be used in TypoScript conditions to check whether Klaro is active. Various conditions form the prerequisite for Klaro to be used:
