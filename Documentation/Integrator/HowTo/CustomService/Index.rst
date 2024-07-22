@@ -25,10 +25,10 @@ In you `custom XLIFF <howto-reference-xliff>`__ file now you have to create new 
 ..  code-block:: xml
     :linenos:
 
-    <trans-unit id="services.mycoolservice.title" resname="purposes.mycoolpurpose.title">
+    <trans-unit id="services.mycoolservice.title" resname="services.mycoolservice.title">
         <source>My Cool Service</source>
     </trans-unit>
-    <trans-unit id="services.mycoolservice.description" resname="purposes.mycoolpurpose.description">
+    <trans-unit id="services.mycoolservice.description" resname="services.mycoolservice.description">
         <source>This is the description of the new service.</source>
     </trans-unit>
 
