@@ -16,8 +16,8 @@
         <target state="final">Ersetzungs-URL zum Zurücksetzen des Klaro! Zustimmungsmanagers:Links, die auf diese Platzhalter-URL verweisen, werden vor der HTML-Ausgabe automatisch geändert. Die URL wird durch CSP-konformes JavaScript ersetzt, um die Klaro! Zustimmungsmanager-Einstellungen zurückzusetzen und anschließend das Modal-Fenster zu öffnen.</target>
       </trans-unit>
       <trans-unit id="extmng.klaroConfigurationPath" resname="extmng.klaroConfigurationPath">
-        <source>Klaro! Configuration Path:If this path is set, it is used to use the Klaro! configuration by external applications. For example, if a WordPress installation is to use the configuration created in TYPO3, this path can be called up. Example: "/klaroConfiguration.js"</source>
-        <target state="needs-translation">Klaro! Configuration Path:If this path is set, it is used to use the Klaro! configuration by external applications. For example, if a WordPress installation is to use the configuration created in TYPO3, this path can be called up. Example: "/klaroConfiguration.js"</target>
+        <source>Klaro! Configuration Path:If this path is set, it is used to use the Klaro! configuration by external applications. For example, if a WordPress installation is to use the configuration created in TYPO3, this path can be called up. Example: "/klaro-config.js"</source>
+        <target state="needs-translation">Klaro! Configuration Path:If this path is set, it is used to use the Klaro! configuration by external applications. For example, if a WordPress installation is to use the configuration created in TYPO3, this path can be called up. Example: "/klaro-config.js"</target>
       </trans-unit>
       <trans-unit id="constants.customcategory.plugin.tx_klaroconsentmanager" resname="constants.customcategory.plugin.tx_klaroconsentmanager" approved="yes">
         <source>Klaro! Consent Manager</source>
