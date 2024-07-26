@@ -18,6 +18,7 @@ declare(strict_types=1);
 namespace ErHaWeb\KlaroConsentManager\Middleware;
 
 use ErHaWeb\KlaroConsentManager\Service\KlaroService;
+use ErHaWeb\KlaroConsentManager\Utility\ExtensionConfigurationUtility;
 use Psr\Http\Message\ResponseInterface;
 use Psr\Http\Message\ServerRequestInterface;
 use Psr\Http\Server\MiddlewareInterface;
@@ -30,7 +31,8 @@ class KlaroConfiguration implements MiddlewareInterface
 {
     public function process(ServerRequestInterface $request, RequestHandlerInterface $handler): ResponseInterface
     {
-        if ($request->getRequestTarget() === '/klaro-config.js') {
+        $klaroConfigurationPath = ExtensionConfigurationUtility::getConfiguration('klaroConfigurationPath');
+        if ($klaroConfigurationPath !== '' && $request->getRequestTarget() === $klaroConfigurationPath) {
             $klaroService = GeneralUtility::makeInstance(KlaroService::class, $request);
             $configuration = $klaroService->getRawConfiguration();
             if ($configuration) {
