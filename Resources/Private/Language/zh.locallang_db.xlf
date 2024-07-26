@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
-  <file source-language="en" original="EXT:klaro_consent_manager/Resources/Private/Language/locallang_db.xlf" datatype="plaintext" product-name="lang" date="2024-07-12T22:22:54+02:00" target-language="zh-TW">
+  <file source-language="en" original="EXT:klaro_consent_manager/Resources/Private/Language/locallang_db.xlf" datatype="plaintext" product-name="lang" date="2024-07-26T16:45:49+02:00" target-language="zh-TW">
     <header/>
     <body>
       <trans-unit id="tx_klaroconsentmanager_configuration" resname="tx_klaroconsentmanager_configuration">
         <source>Klaro! Configuration</source>
         <target state="needs-translation">Klaro! Configuration</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_configuration.I.enabled" resname="tx_klaroconsentmanager_configuration.I.enabled">
-        <source>Enabled</source>
-        <target state="needs-translation">Enabled</target>
+      <trans-unit id="tx_klaroconsentmanager_configuration.I.true" resname="tx_klaroconsentmanager_configuration.I.true">
+        <source>true</source>
+        <target state="needs-translation">true</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_configuration.I.disabled" resname="tx_klaroconsentmanager_configuration.I.disabled">
-        <source>Disabled</source>
-        <target state="needs-translation">Disabled</target>
+      <trans-unit id="tx_klaroconsentmanager_configuration.I.false" resname="tx_klaroconsentmanager_configuration.I.false">
+        <source>false</source>
+        <target state="needs-translation">false</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.tabs.general" resname="tx_klaroconsentmanager_configuration.tabs.general">
         <source>General</source>
@@ -144,8 +144,8 @@
         <target state="needs-translation">No Auto-Load</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.no_auto_load.description" resname="tx_klaroconsentmanager_configuration.no_auto_load.description">
-        <source>Setting this to true will keep Klaro from automatically loading itself when the page is being loaded.</source>
-        <target state="needs-translation">Setting this to true will keep Klaro from automatically loading itself when the page is being loaded.</target>
+        <source>Setting this to `true` will keep Klaro from automatically loading itself when the page is being loaded.</source>
+        <target state="needs-translation">Setting this to `true` will keep Klaro from automatically loading itself when the page is being loaded.</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.additional_class.label" resname="tx_klaroconsentmanager_configuration.additional_class.label">
         <source>Additional Class</source>
@@ -204,8 +204,8 @@
         <target state="needs-translation">Embedded</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.embedded.description" resname="tx_klaroconsentmanager_configuration.embedded.description">
-        <source>Setting "embedded" to true will render the Klaro modal and notice without the modal background, allowing you to e.g. embed them into a specific element of your website, such as your privacy notice.</source>
-        <target state="needs-translation">Setting "embedded" to true will render the Klaro modal and notice without the modal background, allowing you to e.g. embed them into a specific element of your website, such as your privacy notice.</target>
+        <source>Setting "embedded" to `true` will render the Klaro modal and notice without the modal background, allowing you to e.g. embed them into a specific element of your website, such as your privacy notice.</source>
+        <target state="needs-translation">Setting "embedded" to `true` will render the Klaro modal and notice without the modal background, allowing you to e.g. embed them into a specific element of your website, such as your privacy notice.</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.group_by_purpose.label" resname="tx_klaroconsentmanager_configuration.group_by_purpose.label">
         <source>Group by purpose</source>
@@ -256,16 +256,16 @@
         <target state="needs-translation">Default</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.default.description" resname="tx_klaroconsentmanager_configuration.default.description">
-        <source>Defines the default state for services in the consent modal (true=enabled by default). If this setting is set to "false", you can override it in any service.</source>
-        <target state="needs-translation">Defines the default state for services in the consent modal (true=enabled by default). If this setting is set to "false", you can override it in any service.</target>
+        <source>Defines the default state for services in the consent modal (`true` = enabled by default). If this setting is set to "false", you can override it in any service.</source>
+        <target state="needs-translation">Defines the default state for services in the consent modal (`true` = enabled by default). If this setting is set to "false", you can override it in any service.</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.must_consent.label" resname="tx_klaroconsentmanager_configuration.must_consent.label">
         <source>Must consent</source>
         <target state="needs-translation">Must consent</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.must_consent.description" resname="tx_klaroconsentmanager_configuration.must_consent.description">
-        <source>If `mustConsent` is set to true, Klaro will directly display the consent manager modal and not allow the user to close it before having actively consented or declines the use of third-party services.</source>
-        <target state="needs-translation">If `mustConsent` is set to true, Klaro will directly display the consent manager modal and not allow the user to close it before having actively consented or declines the use of third-party services.</target>
+        <source>If `mustConsent` is set to `true`, Klaro will directly display the consent manager modal and not allow the user to close it before having actively consented or declines the use of third-party services.</source>
+        <target state="needs-translation">If `mustConsent` is set to `true`, Klaro will directly display the consent manager modal and not allow the user to close it before having actively consented or declines the use of third-party services.</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.accept_all.label" resname="tx_klaroconsentmanager_configuration.accept_all.label">
         <source>Accept all</source>
@@ -336,8 +336,8 @@
         <target state="needs-translation">Callback</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.callback.description" resname="tx_klaroconsentmanager_configuration.callback.description">
-        <source>You can define an optional callback function that will be called each time the consent state for any given service changes. The consent value will be passed as the first parameter to the function (true=consented). The `service` config will be passed as the second parameter. The content of this field is wrapped with `callback: function(consent, service) { }`</source>
-        <target state="needs-translation">You can define an optional callback function that will be called each time the consent state for any given service changes. The consent value will be passed as the first parameter to the function (true=consented). The `service` config will be passed as the second parameter. The content of this field is wrapped with `callback: function(consent, service) { }`</target>
+        <source>You can define an optional callback function that will be called each time the consent state for any given service changes. The consent value will be passed as the first parameter to the function (`true` = consented). The `service` config will be passed as the second parameter. The content of this field is wrapped with `callback: function(consent, service) { }`</source>
+        <target state="needs-translation">You can define an optional callback function that will be called each time the consent state for any given service changes. The consent value will be passed as the first parameter to the function (`true` = consented). The `service` config will be passed as the second parameter. The content of this field is wrapped with `callback: function(consent, service) { }`</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.locallang_path.label" resname="tx_klaroconsentmanager_configuration.locallang_path.label">
         <source>Locallang Path</source>
@@ -444,16 +444,16 @@
         <target state="needs-translation">Append Show Button</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.append_show_button.description" resname="tx_klaroconsentmanager_configuration.append_show_button.description">
-        <source>If this option is set, a button is created in the frontend (via JavaScript) directly in front of the closing body tag, which triggers the opening of the Klaro consent management.</source>
-        <target state="needs-translation">If this option is set, a button is created in the frontend (via JavaScript) directly in front of the closing body tag, which triggers the opening of the Klaro consent management.</target>
+        <source>If this option is set to `true`, a button is created in the frontend (via JavaScript) directly in front of the closing body tag, which triggers the opening of the Klaro consent management.</source>
+        <target state="needs-translation">If this option is set to `true`, a button is created in the frontend (via JavaScript) directly in front of the closing body tag, which triggers the opening of the Klaro consent management.</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.append_reset_button.label" resname="tx_klaroconsentmanager_configuration.append_reset_button.label">
         <source>Append Reset Button</source>
         <target state="needs-translation">Append Reset Button</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.append_reset_button.description" resname="tx_klaroconsentmanager_configuration.append_reset_button.description">
-        <source>If this option is set, a button is generated in the frontend (via JavaScript) directly in front of the closing body tag, which triggers the resetting of all settings and the opening of the Klaro consent management.</source>
-        <target state="needs-translation">If this option is set, a button is generated in the frontend (via JavaScript) directly in front of the closing body tag, which triggers the resetting of all settings and the opening of the Klaro consent management.</target>
+        <source>If this option is set to `true`, a button is generated in the frontend (via JavaScript) directly in front of the closing body tag, which triggers the resetting of all settings and the opening of the Klaro consent management.</source>
+        <target state="needs-translation">If this option is set to `true`, a button is generated in the frontend (via JavaScript) directly in front of the closing body tag, which triggers the resetting of all settings and the opening of the Klaro consent management.</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_service" resname="tx_klaroconsentmanager_service">
         <source>Klaro! Service</source>
@@ -499,13 +499,13 @@
         <source>Access</source>
         <target state="needs-translation">Access</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_service.I.enabled" resname="tx_klaroconsentmanager_service.I.enabled">
-        <source>Enabled</source>
-        <target state="needs-translation">Enabled</target>
+      <trans-unit id="tx_klaroconsentmanager_service.I.true" resname="tx_klaroconsentmanager_service.I.true">
+        <source>true</source>
+        <target state="needs-translation">true</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_service.I.disabled" resname="tx_klaroconsentmanager_service.I.disabled">
-        <source>Disabled</source>
-        <target state="needs-translation">Disabled</target>
+      <trans-unit id="tx_klaroconsentmanager_service.I.false" resname="tx_klaroconsentmanager_service.I.false">
+        <source>false</source>
+        <target state="needs-translation">false</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_service.name.label" resname="tx_klaroconsentmanager_service.name.label">
         <source>Name</source>
@@ -720,16 +720,16 @@
         <target state="needs-translation">Contextual Consent Only</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_service.contextual_consent_only.description" resname="tx_klaroconsentmanager_service.contextual_consent_only.description">
-        <source>Content can be excluded from general consent by setting contextualConsentOnly to true. In this case, the consent must be contextual.</source>
-        <target state="needs-translation">Content can be excluded from general consent by setting contextualConsentOnly to true. In this case, the consent must be contextual.</target>
+        <source>Content can be excluded from general consent by setting contextualConsentOnly to `true`. In this case, the consent must be contextual.</source>
+        <target state="needs-translation">Content can be excluded from general consent by setting contextualConsentOnly to `true`. In this case, the consent must be contextual.</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_service.callback.label" resname="tx_klaroconsentmanager_service.callback.label">
         <source>Callback</source>
         <target state="needs-translation">Callback</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_service.callback.description" resname="tx_klaroconsentmanager_service.callback.description">
-        <source>You can define an optional callback function that will be called each time the consent state for the given service changes. The consent value will be passed as the first parameter to the function (true=consented). The `service` config will be passed as the second parameter. The content of this field is wrapped with `callback: function(consent, service) { }`. `consent` is a bool that reflects the current state. service` holds all information about the currently selected service. When you enter something here, you need to know what you are doing. It is your responsibility that no JavaScript errors occur.</source>
-        <target state="needs-translation">You can define an optional callback function that will be called each time the consent state for the given service changes. The consent value will be passed as the first parameter to the function (true=consented). The `service` config will be passed as the second parameter. The content of this field is wrapped with `callback: function(consent, service) { }`. `consent` is a bool that reflects the current state. service` holds all information about the currently selected service. When you enter something here, you need to know what you are doing. It is your responsibility that no JavaScript errors occur.</target>
+        <source>You can define an optional callback function that will be called each time the consent state for the given service changes. The consent value will be passed as the first parameter to the function (`true` = consented). The `service` config will be passed as the second parameter. The content of this field is wrapped with `callback: function(consent, service) { }`. `consent` is a bool that reflects the current state. service` holds all information about the currently selected service. When you enter something here, you need to know what you are doing. It is your responsibility that no JavaScript errors occur.</source>
+        <target state="needs-translation">You can define an optional callback function that will be called each time the consent state for the given service changes. The consent value will be passed as the first parameter to the function (`true` = consented). The `service` config will be passed as the second parameter. The content of this field is wrapped with `callback: function(consent, service) { }`. `consent` is a bool that reflects the current state. service` holds all information about the currently selected service. When you enter something here, you need to know what you are doing. It is your responsibility that no JavaScript errors occur.</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_service.on_accept.label" resname="tx_klaroconsentmanager_service.on_accept.label">
         <source>`onAccept` callback function</source>
