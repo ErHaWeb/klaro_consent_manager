@@ -1,0 +1,27 @@
+.. include:: /Includes.rst.txt
+
+2.0.7 - July 26, 2024
+=====================
+
+
+.. only:: html
+
+   .. contents::
+        :local:
+        :depth: 3
+
+Breaking changes
+----------------
+No breaking changes!
+
+All Changes
+-----------
+This is a list of all changes in this release: ::
+
+    2024-07-26 [TASK] Use of clearer true/false labels (Commit f67a8e9 by Eric Harrer)
+    2024-07-26 [BUGFIX] Use Klaro configuration path from extension configuration (Commit 9b0c4c2 by Eric Harrer)
+    2024-07-26 [BUGFIX] Set missing request for ContentObjectRenderer (Commit 20e6017 by Eric Harrer)
+    2024-07-22 [DOCS] Improve feature heading (Commit f235c24 by Eric Harrer)
+    2024-07-22 [DOCS] Fix "resname" attribute in XLIFF example (Commit 4d36c1c by Eric Harrer)
+
+This list has been created by using `git log $(git describe --tags --abbrev=0)..HEAD --abbrev-commit --pretty='%ad %s (Commit %h by %an)' --date=short`.
