@@ -1,38 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<guides xmlns="https://www.phpdoc.org/guides"
-        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-        xsi:schemaLocation="https://www.phpdoc.org/guides ../vendor/phpdocumentor/guides-cli/resources/schema/guides.xsd"
-        links-are-relative="true"
->
-    <extension class="\T3Docs\Typo3DocsTheme\DependencyInjection\Typo3DocsThemeExtension"
-               project-home="https://extensions.typo3.org/extension/klaro_consent_manager/"
-               project-contact="https://typo3.slack.com/archives/C07ASG0UVBR"
-               project-repository="https://github.com/ErHaWeb/klaro_consent_manager"
-               project-issues="https://github.com/ErHaWeb/klaro_consent_manager/issues"
-               project-discussions="https://github.com/ErHaWeb/klaro_consent_manager/discussions"
-               edit-on-github-branch="main"
-               edit-on-github="ErHaWeb/klaro_consent_manager"
-               typo3-core-preferred="11.5"
-               interlink-shortcode="erhaweb/klaro-consent-manager"
-    />
-    <project title="Klaro! Consent Manager"
-             release="2.0"
-             version="2.0.7"
-             copyright="2024 by Eric Harrer"
-    />
-    <inventory id="t3coreapi"
-               url="https://docs.typo3.org/m/typo3/reference-coreapi/main/en-us/"
-    />
-    <inventory id="t3sitepackage"
-               url="https://docs.typo3.org/m/typo3/tutorial-sitepackage/main/en-us/"
-    />
-    <inventory id="t3viewhelper"
-               url="https://docs.typo3.org/other/typo3/view-helper-reference/main/en-us/"
-    />
-    <inventory id="t3upgrade"
-               url="https://docs.typo3.org/m/typo3/guide-installation/main/en-us/"
-    />
-    <inventory id="t3tca"
-               url="https://docs.typo3.org/m/typo3/reference-tca/main/en-us/"
-    />
+<guides xmlns="https://www.phpdoc.org/guides" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://www.phpdoc.org/guides ../vendor/phpdocumentor/guides-cli/resources/schema/guides.xsd" links-are-relative="true">
+<extension class="\T3Docs\Typo3DocsTheme\DependencyInjection\Typo3DocsThemeExtension" project-home="https://extensions.typo3.org/extension/klaro_consent_manager/" project-contact="https://typo3.slack.com/archives/C07ASG0UVBR" project-repository="https://github.com/ErHaWeb/klaro_consent_manager" project-issues="https://github.com/ErHaWeb/klaro_consent_manager/issues" project-discussions="https://github.com/ErHaWeb/klaro_consent_manager/discussions" edit-on-github-branch="main" edit-on-github="ErHaWeb/klaro_consent_manager" typo3-core-preferred="11.5" interlink-shortcode="erhaweb/klaro-consent-manager"/>
+<project title="Klaro! Consent Manager" release="2.0" version="2.0.7" copyright="2024 by Eric Harrer"/>
+<inventory id="t3coreapi" url="https://docs.typo3.org/m/typo3/reference-coreapi/main/en-us/"/>
+<inventory id="t3sitepackage" url="https://docs.typo3.org/m/typo3/tutorial-sitepackage/main/en-us/"/>
+<inventory id="t3viewhelper" url="https://docs.typo3.org/other/typo3/view-helper-reference/main/en-us/"/>
+<inventory id="t3upgrade" url="https://docs.typo3.org/m/typo3/guide-installation/main/en-us/"/>
+<inventory id="t3tca" url="https://docs.typo3.org/m/typo3/reference-tca/main/en-us/"/>
 </guides>

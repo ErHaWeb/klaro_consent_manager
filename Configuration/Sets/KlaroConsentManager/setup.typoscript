@@ -4,28 +4,23 @@ plugin.tx_klaroconsentmanager {
       0 = EXT:klaro_consent_manager/Resources/Private/Templates/
       1 = {$plugin.tx_klaroconsentmanager.view.templateRootPath}
     }
-
     partialRootPaths {
       0 = EXT:klaro_consent_manager/Resources/Private/Partials/
       1 = {$plugin.tx_klaroconsentmanager.view.partialRootPath}
     }
-
     layoutRootPaths {
       0 = EXT:klaro_consent_manager/Resources/Private/Layouts/
       1 = {$plugin.tx_klaroconsentmanager.view.layoutRootPath}
     }
   }
-
   settings {
     css {
       klaro-default = {$plugin.tx_klaroconsentmanager.settings.css.klaro-default}
       klaro-custom = {$plugin.tx_klaroconsentmanager.settings.css.klaro-custom}
     }
-
     javascript {
       klaro-default = {$plugin.tx_klaroconsentmanager.settings.javascript.klaro-default}
     }
-
     configuration {
       disabled = {$plugin.tx_klaroconsentmanager.settings.configuration.disabled}
       poweredBy = https://kiprotect.com/klaro
@@ -37,14 +32,12 @@ lib.contentElement {
   layoutRootPaths {
     1720091199 = EXT:klaro_consent_manager/Resources/Private/Extensions/FluidStyledContent/Layouts/
   }
-
   settings {
     contextualconsent {
       replaceAttributes = {$plugin.tx_klaroconsentmanager.settings.contextualconsent.replaceAttributes}
       mainSectionOnly = {$plugin.tx_klaroconsentmanager.settings.contextualconsent.mainSectionOnly}
     }
   }
-
   dataProcessing.100 = TYPO3\CMS\Frontend\DataProcessing\DatabaseQueryProcessor
   dataProcessing.100 {
     if.isTrue.field = tx_klaroconsentmanager_service
