@@ -11,7 +11,7 @@ return [
         'default_sortby' => 'ORDER BY title',
         'delete' => 'deleted',
         'typeicon_classes' => [
-            'default' => 'tx-klaroconsentmanager-configuration'
+            'default' => 'tx-klaroconsentmanager-configuration',
         ],
         'rootLevel' => -1,
         'enablecolumns' => [

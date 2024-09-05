@@ -12,7 +12,7 @@ return [
         'default_sortby' => 'ORDER BY name',
         'delete' => 'deleted',
         'typeicon_classes' => [
-            'default' => 'tx-klaroconsentmanager-service'
+            'default' => 'tx-klaroconsentmanager-service',
         ],
         'rootLevel' => -1,
         'enablecolumns' => [

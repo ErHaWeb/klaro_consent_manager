@@ -9,7 +9,7 @@ return [
         'crdate' => 'crdate',
         'delete' => 'deleted',
         'typeicon_classes' => [
-            'default' => 'tx-klaroconsentmanager-cookie'
+            'default' => 'tx-klaroconsentmanager-cookie',
         ],
         'rootLevel' => -1,
         'enablecolumns' => [

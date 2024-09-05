@@ -125,8 +125,7 @@ class KlaroService
 
     public function __construct(
         protected ServerRequestInterface $request
-    )
-    {
+    ) {
         $this->cObj = new ContentObjectRenderer();
         $this->cObj->setRequest($request);
     }
