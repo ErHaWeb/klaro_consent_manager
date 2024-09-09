@@ -201,26 +201,18 @@ class KlaroService
                 if ($this->rawConfiguration['append_reset_button']) {
                     $appendJavaScript .= $this->createAppendShowButtonScript($elementId);
                 }
-
                 $appendJavaScript .=
-                    'const ' . $elementId . 'ShowElements = document.querySelectorAll("[data-' . $elementId . '-trigger=\'show\']");' .
-                    'const ' . $elementId . 'ResetElements = document.querySelectorAll("[data-' . $elementId . '-trigger=\'reset\']");' .
-                    $elementId . 'ShowElements.forEach(function (element) {' .
-                    'element.addEventListener("click", function (e) {' .
+                    'const ' . $elementId . 'Elements=document.querySelectorAll("[data-' . $elementId . '-trigger]");' .
+                    $elementId . 'Elements.forEach(element=>{' .
+                    'element.addEventListener("click",e=>{' .
                     'e.preventDefault();' .
-                    'if (typeof ' . $configVariableName . ' !== "undefined") {' .
-                    'klaro.show(' . $configVariableName . ', !0);' .
-                    '}});});' .
-
-                    $elementId . 'ResetElements.forEach(function (element) {' .
-                    'element.addEventListener("click", function (e) {' .
-                    'e.preventDefault();' .
-                    'if (typeof ' . $configVariableName . ' !== "undefined") {' .
-                    'klaro.show(' . $configVariableName . ', !0);' .
+                    'if(typeof ' . $configVariableName . '!=="undefined"){' .
+                    'klaro.show(' . $configVariableName . ',true);' .
+                    'if(element.dataset.' . $elementId . 'Trigger==="reset")' .
                     'klaro.getManager(' . $configVariableName . ').resetConsents();' .
                     '}});});';
 
-                $return .= 'document.addEventListener("DOMContentLoaded",function(){"use strict";' . $appendJavaScript . '});';
+                $return .= 'document.addEventListener("DOMContentLoaded",()=>{"use strict";' . $appendJavaScript . '});';
 
                 return $return;
             }
