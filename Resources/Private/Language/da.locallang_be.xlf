@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
-  <file source-language="en" original="EXT:klaro_consent_manager/Resources/Private/Language/locallang_db.xlf" datatype="plaintext" product-name="lang" date="2024-06-26T23:22:26+02:00" target-language="da">
+  <file source-language="en" original="EXT:klaro_consent_manager/Resources/Private/Language/locallang_db.xlf" datatype="plaintext" product-name="lang" date="2024-10-26T11:10:32+02:00" target-language="da">
     <header/>
     <body>
       <trans-unit id="sets.klaroconsentmanager.label" resname="sets.klaroconsentmanager.label">
@@ -24,8 +24,8 @@
         <target state="needs-translation">Klaro! Consent Manager</target>
       </trans-unit>
       <trans-unit id="constants.subcategory.fluidrootpaths" resname="constants.subcategory.fluidrootpaths">
-        <source>Fluid root paths</source>
-        <target state="needs-translation">Fluid root paths</target>
+        <source>Templates</source>
+        <target state="needs-translation">Templates</target>
       </trans-unit>
       <trans-unit id="constants.subcategory.resources" resname="constants.subcategory.resources">
         <source>Resources</source>
@@ -34,6 +34,42 @@
       <trans-unit id="constants.subcategory.settings" resname="constants.subcategory.settings">
         <source>Settings</source>
         <target state="needs-translation">Settings</target>
+      </trans-unit>
+      <trans-unit id="constants.view.templateRootPath" resname="constants.view.templateRootPath">
+        <source>Path to template root (FE)</source>
+        <target state="needs-translation">Path to template root (FE)</target>
+      </trans-unit>
+      <trans-unit id="constants.view.partialRootPath" resname="constants.view.partialRootPath">
+        <source>Path to template partials (FE)</source>
+        <target state="needs-translation">Path to template partials (FE)</target>
+      </trans-unit>
+      <trans-unit id="constants.view.layoutRootPath" resname="constants.view.layoutRootPath">
+        <source>Path to template layouts (FE)</source>
+        <target state="needs-translation">Path to template layouts (FE)</target>
+      </trans-unit>
+      <trans-unit id="constants.settings.css.klaro-default" resname="constants.settings.css.klaro-default">
+        <source>Klaro CSS</source>
+        <target state="needs-translation">Klaro CSS</target>
+      </trans-unit>
+      <trans-unit id="constants.settings.css.klaro-custom" resname="constants.settings.css.klaro-custom">
+        <source>Custom additions for Klaro CSS</source>
+        <target state="needs-translation">Custom additions for Klaro CSS</target>
+      </trans-unit>
+      <trans-unit id="constants.settings.javascript.klaro-default" resname="constants.settings.javascript.klaro-default">
+        <source>Klaro JavaScript</source>
+        <target state="needs-translation">Klaro JavaScript</target>
+      </trans-unit>
+      <trans-unit id="constants.settings.contextualconsent.replaceAttributes" resname="constants.settings.contextualconsent.replaceAttributes">
+        <source>Replace attributes:Comma-separated list of attributes that should be automatically replaced within the content element of the contextual consent</source>
+        <target state="needs-translation">Replace attributes:Comma-separated list of attributes that should be automatically replaced within the content element of the contextual consent</target>
+      </trans-unit>
+      <trans-unit id="constants.settings.contextualconsent.mainSectionOnly" resname="constants.settings.contextualconsent.mainSectionOnly">
+        <source>Main section only:Activate this option if the contextual consent box should only be limited to the main content (without heading and footer).</source>
+        <target state="needs-translation">Main section only:Activate this option if the contextual consent box should only be limited to the main content (without heading and footer).</target>
+      </trans-unit>
+      <trans-unit id="constants.settings.configuration.disabled" resname="constants.settings.configuration.disabled">
+        <source>Disable Klaro Consent Management</source>
+        <target state="needs-translation">Disable Klaro Consent Management</target>
       </trans-unit>
     </body>
   </file>
