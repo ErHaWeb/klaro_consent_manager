@@ -1,37 +1,46 @@
+categories:
+  klaroconsentmanager: ~
+  klaroconsentmanager.templates:
+    parent: klaroconsentmanager
+  klaroconsentmanager.resources:
+    parent: klaroconsentmanager
+  klaroconsentmanager.settings:
+    parent: klaroconsentmanager
+
 settings:
   plugin.tx_klaroconsentmanager.view.templateRootPath:
-    label: 'Path to template root (FE)'
     type: string
     default: 'EXT:klaro_consent_manager/Resources/Private/Templates/'
+    category: klaroconsentmanager.templates
   plugin.tx_klaroconsentmanager.view.partialRootPath:
-    label: 'Path to template partials (FE)'
     type: string
     default: 'EXT:klaro_consent_manager/Resources/Private/Partials/'
+    category: klaroconsentmanager.templates
   plugin.tx_klaroconsentmanager.view.layoutRootPath:
-    label: 'Path to template layouts (FE)'
     type: string
     default: 'EXT:klaro_consent_manager/Resources/Private/Layouts/'
+    category: klaroconsentmanager.templates
   plugin.tx_klaroconsentmanager.settings.css.klaro-default:
-    label: 'Klaro CSS'
     type: string
     default: 'EXT:klaro_consent_manager/Resources/Public/Css/klaro.min.css'
+    category: klaroconsentmanager.templates
   plugin.tx_klaroconsentmanager.settings.css.klaro-custom:
-    label: 'Custom additions for Klaro CSS'
     type: string
     default: 'EXT:klaro_consent_manager/Resources/Public/Css/klaro-custom.min.css'
+    category: klaroconsentmanager.resources
   plugin.tx_klaroconsentmanager.settings.javascript.klaro-default:
-    label: 'Klaro JavaScript'
     type: string
     default: 'EXT:klaro_consent_manager/Resources/Public/JavaScript/klaro-no-translations-no-css.js'
+    category: klaroconsentmanager.resources
   plugin.tx_klaroconsentmanager.settings.contextualconsent.replaceAttributes:
-    label: 'Replace attributes:Comma-separated list of attributes that should be automatically replaced within the content element of the contextual consent'
     type: string
     default: 'src,href'
+    category: klaroconsentmanager.settings
   plugin.tx_klaroconsentmanager.settings.contextualconsent.mainSectionOnly:
-    label: 'Main section only:Activate this option if the contextual consent box should only be limited to the main content (without heading and footer).'
-    type: int
+    type: bool
     default: 1
+    category: klaroconsentmanager.settings
   plugin.tx_klaroconsentmanager.settings.configuration.disabled:
-    label: 'Disable Klaro Consent Management'
-    type: int
+    type: bool
     default: 0
+    category: klaroconsentmanager.settings

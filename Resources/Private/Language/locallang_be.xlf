@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
-    <file source-language="en" original="EXT:klaro_consent_manager/Resources/Private/Language/locallang_db.xlf" datatype="plaintext" product-name="lang" date="2024-06-26T23:22:26+02:00">
+    <file source-language="en" original="EXT:klaro_consent_manager/Resources/Private/Language/locallang_db.xlf" datatype="plaintext" product-name="lang" date="2024-10-26T11:10:32+02:00">
         <header></header>
         <body>
             <trans-unit id="sets.klaroconsentmanager.label" resname="sets.klaroconsentmanager.label">
@@ -19,13 +19,40 @@
                 <source>Klaro! Consent Manager</source>
             </trans-unit>
             <trans-unit id="constants.subcategory.fluidrootpaths" resname="constants.subcategory.fluidrootpaths">
-                <source>Fluid root paths</source>
+                <source>Templates</source>
             </trans-unit>
             <trans-unit id="constants.subcategory.resources" resname="constants.subcategory.resources">
                 <source>Resources</source>
             </trans-unit>
             <trans-unit id="constants.subcategory.settings" resname="constants.subcategory.settings">
                 <source>Settings</source>
+            </trans-unit>
+            <trans-unit id="constants.view.templateRootPath" resname="constants.view.templateRootPath">
+                <source>Path to template root (FE)</source>
+            </trans-unit>
+            <trans-unit id="constants.view.partialRootPath" resname="constants.view.partialRootPath">
+                <source>Path to template partials (FE)</source>
+            </trans-unit>
+            <trans-unit id="constants.view.layoutRootPath" resname="constants.view.layoutRootPath">
+                <source>Path to template layouts (FE)</source>
+            </trans-unit>
+            <trans-unit id="constants.settings.css.klaro-default" resname="constants.settings.css.klaro-default">
+                <source>Klaro CSS</source>
+            </trans-unit>
+            <trans-unit id="constants.settings.css.klaro-custom" resname="constants.settings.css.klaro-custom">
+                <source>Custom additions for Klaro CSS</source>
+            </trans-unit>
+            <trans-unit id="constants.settings.javascript.klaro-default" resname="constants.settings.javascript.klaro-default">
+                <source>Klaro JavaScript</source>
+            </trans-unit>
+            <trans-unit id="constants.settings.contextualconsent.replaceAttributes" resname="constants.settings.contextualconsent.replaceAttributes">
+                <source>Replace attributes:Comma-separated list of attributes that should be automatically replaced within the content element of the contextual consent</source>
+            </trans-unit>
+            <trans-unit id="constants.settings.contextualconsent.mainSectionOnly" resname="constants.settings.contextualconsent.mainSectionOnly">
+                <source>Main section only:Activate this option if the contextual consent box should only be limited to the main content (without heading and footer).</source>
+            </trans-unit>
+            <trans-unit id="constants.settings.configuration.disabled" resname="constants.settings.configuration.disabled">
+                <source>Disable Klaro Consent Management</source>
             </trans-unit>
         </body>
     </file>
