@@ -451,7 +451,9 @@ class KlaroService
             } elseif (
                 is_string($value) &&
                 !str_starts_with($value, '{') &&
-                !str_starts_with($value, 'function(')
+                !str_starts_with($value, 'function(') &&
+                !str_starts_with($value, '/^') &&
+                !str_ends_with($value, '$/')
             ) {
                 $return .= '\'' . $value . '\'';
             } else {
