@@ -24,7 +24,7 @@
       </trans-unit>
       <trans-unit id="consentNotice.title" resname="consentNotice.title">
         <source>Cookie Consent</source>
-        <target state="needs-translation">Cookie Consent</target>
+        <target state="translated">Consentement aux cookies</target>
       </trans-unit>
       <trans-unit id="consentNotice.changeDescription" resname="consentNotice.changeDescription" approved="yes">
         <source>There were changes since your last visit, please renew your consent.</source>
@@ -56,7 +56,7 @@
       </trans-unit>
       <trans-unit id="purposes.marketing.title" resname="purposes.marketing.title">
         <source>Marketing</source>
-        <target state="needs-translation">Marketing</target>
+        <target state="translated">Marketing</target>
       </trans-unit>
       <trans-unit id="purposes.marketing.description" resname="purposes.marketing.description" approved="yes">
         <source>These services process personal information to show you relevant content about products, services or topics that you might be interested in.</source>
@@ -72,31 +72,31 @@
       </trans-unit>
       <trans-unit id="purposes.analytics.title" resname="purposes.analytics.title">
         <source>Analytics</source>
-        <target state="needs-translation">Analytics</target>
+        <target state="translated">Mesure d'audience</target>
       </trans-unit>
       <trans-unit id="purposes.analytics.description" resname="purposes.analytics.description">
         <source>These services gather anonymous data for statistical analysis and performance optimization. Enabling analytics services assists website owners in making informed decisions to enhance online services.</source>
-        <target state="needs-translation">These services gather anonymous data for statistical analysis and performance optimization. Enabling analytics services assists website owners in making informed decisions to enhance online services.</target>
+        <target state="translated">Ces services recueillent des données anonymes pour l'analyse statistique et l'optimisation des performances. L'activation des services d'analyse aide les propriétaires de sites Web à prendre des décisions éclairées pour améliorer les services en ligne.</target>
       </trans-unit>
       <trans-unit id="purposes.security.title" resname="purposes.security.title">
         <source>Security</source>
-        <target state="needs-translation">Security</target>
+        <target state="translated">Sécurité</target>
       </trans-unit>
       <trans-unit id="purposes.security.description" resname="purposes.security.description">
         <source>Security services are crucial for safeguarding your online experience. These services help protect your data and privacy by detecting and preventing security threats, such as malware, phishing attempts, and unauthorized access. They ensure a safer browsing environment.</source>
-        <target state="needs-translation">Security services are crucial for safeguarding your online experience. These services help protect your data and privacy by detecting and preventing security threats, such as malware, phishing attempts, and unauthorized access. They ensure a safer browsing environment.</target>
+        <target state="translated">Les services de sécurité sont essentiels pour protéger votre expérience en ligne. Ces services aident à protéger vos données et votre vie privée en détectant et en prévenant les menaces de sécurité, telles que les logiciels malveillants, les tentatives d'hameçonnage et l'accès non autorisé. Ils assurent un environnement de navigation plus sûr.</target>
       </trans-unit>
       <trans-unit id="purposes.livechat.title" resname="purposes.livechat.title">
         <source>Live Chat</source>
-        <target state="needs-translation">Live Chat</target>
+        <target state="translated">Discussion en temps réel</target>
       </trans-unit>
       <trans-unit id="purposes.livechat.description" resname="purposes.livechat.description">
         <source>Live chat services enable real-time communication with website support teams. They offer a convenient way to ask questions, seek assistance, or engage in discussions while browsing a website. Live chat enhances your online interaction and customer support experience.</source>
-        <target state="needs-translation">Live chat services enable real-time communication with website support teams. They offer a convenient way to ask questions, seek assistance, or engage in discussions while browsing a website. Live chat enhances your online interaction and customer support experience.</target>
+        <target state="translated">Les services de chat en direct permettent une communication en temps réel avec les équipes de support du site Web. Ils offrent un moyen pratique de poser des questions, de solliciter de l'aide ou de participer à des discussions lors de la navigation sur un site Web. Le chat en direct améliore votre interaction en ligne et votre expérience d'assistance client.</target>
       </trans-unit>
       <trans-unit id="purposes.styling.title" resname="purposes.styling.title">
         <source>Styling</source>
-        <target state="needs-translation">Styling</target>
+        <target state="translated">Personnalisation</target>
       </trans-unit>
       <trans-unit id="purposes.styling.description" resname="purposes.styling.description">
         <source>Services related to styling help to improve the appearance of the website. This can also have an impact on usability.</source>
@@ -344,7 +344,7 @@
       </trans-unit>
       <trans-unit id="services.twitter.title" resname="services.twitter.title">
         <source>X (formerly Twitter)</source>
-        <target state="needs-translation">X (formerly Twitter)</target>
+        <target state="translated">X (anciennement Twitter)</target>
       </trans-unit>
       <trans-unit id="services.twitter.description" resname="services.twitter.description">
         <source>X (formerly Twitter) is social media platform that allows users to share and interact with short messages and multimedia content. Developers can integrate Twitter features into websites to enhance user engagement and real-time updates while maintaining data privacy compliance and adhering to coding guidelines.</source>
@@ -372,7 +372,7 @@
       </trans-unit>
       <trans-unit id="services.youtube.description" resname="services.youtube.description">
         <source>The leading video-sharing platform for content creators and developers to enhance user experiences on websites.</source>
-        <target state="needs-translation">The leading video-sharing platform for content creators and developers to enhance user experiences on websites.</target>
+        <target state="translated">La plateforme de partage de vidéos leader pour les créateurs de contenu et les développeurs afin d'améliorer les expériences utilisateur sur les sites Web.</target>
       </trans-unit>
       <trans-unit id="consentModal.privacyPolicy.name" resname="consentModal.privacyPolicy.name" approved="yes">
         <source>Privacy policy</source>
@@ -396,7 +396,7 @@
       </trans-unit>
       <trans-unit id="cookies.description" resname="cookies.description">
         <source>Below you will find a list of all cookies used by %s</source>
-        <target state="needs-translation">Below you will find a list of all cookies used by %s</target>
+        <target state="translated">Vous trouverez ci-dessous une liste de tous les cookies utilisés par %s</target>
       </trans-unit>
       <trans-unit id="cookies.headline.name" resname="cookies.headline.name">
         <source>Name / Pattern</source>
@@ -408,7 +408,7 @@
       </trans-unit>
       <trans-unit id="cookies.headline.domain" resname="cookies.headline.domain">
         <source>Domain</source>
-        <target state="needs-translation">Domain</target>
+        <target state="translated">Domaine</target>
       </trans-unit>
       <trans-unit id="cookies.headline.expiresAfter" resname="cookies.headline.expiresAfter">
         <source>Expires after</source>
@@ -416,51 +416,51 @@
       </trans-unit>
       <trans-unit id="year" resname="year">
         <source>Year</source>
-        <target state="needs-translation">Year</target>
+        <target state="translated">Année</target>
       </trans-unit>
       <trans-unit id="years" resname="years">
         <source>Years</source>
-        <target state="needs-translation">Years</target>
+        <target state="translated">Ans</target>
       </trans-unit>
       <trans-unit id="month" resname="month">
         <source>Month</source>
-        <target state="needs-translation">Month</target>
+        <target state="translated">Mois</target>
       </trans-unit>
       <trans-unit id="months" resname="months">
         <source>Months</source>
-        <target state="needs-translation">Months</target>
+        <target state="translated">Mois</target>
       </trans-unit>
       <trans-unit id="day" resname="day">
         <source>Day</source>
-        <target state="needs-translation">Day</target>
+        <target state="translated">Jour</target>
       </trans-unit>
       <trans-unit id="days" resname="days">
         <source>Days</source>
-        <target state="needs-translation">Days</target>
+        <target state="translated">Jours</target>
       </trans-unit>
       <trans-unit id="hour" resname="hour">
         <source>Hour</source>
-        <target state="needs-translation">Hour</target>
+        <target state="translated">Heure</target>
       </trans-unit>
       <trans-unit id="hours" resname="hours">
         <source>Hours</source>
-        <target state="needs-translation">Hours</target>
+        <target state="translated">Heures</target>
       </trans-unit>
       <trans-unit id="minute" resname="minute">
         <source>Minute</source>
-        <target state="needs-translation">Minute</target>
+        <target state="translated">Minute</target>
       </trans-unit>
       <trans-unit id="minutes" resname="minutes">
         <source>Minutes</source>
-        <target state="needs-translation">Minutes</target>
+        <target state="translated">Minutes</target>
       </trans-unit>
       <trans-unit id="second" resname="second">
         <source>Second</source>
-        <target state="needs-translation">Second</target>
+        <target state="translated">Seconde</target>
       </trans-unit>
       <trans-unit id="seconds" resname="seconds">
         <source>Seconds</source>
-        <target state="needs-translation">Seconds</target>
+        <target state="translated">Secondes</target>
       </trans-unit>
       <trans-unit id="end-of-session" resname="end-of-session">
         <source>End of session</source>
