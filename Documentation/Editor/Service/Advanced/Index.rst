@@ -43,8 +43,8 @@ Callback
 
         // we notify the tag manager about all services that were accepted. You can define
         // a custom event in GTM to load the service if consent was given.
-        for(let k of Object.keys(opts.consents)){
-            if (opts.consents[k]){
+        for(let k of Object.keys(handlerOpts.consents)){
+            if (handlerOpts.consents[k]){
                 let eventName = 'klaro-'+k+'-accepted'
                 dataLayer.push({'event': eventName})
             }
