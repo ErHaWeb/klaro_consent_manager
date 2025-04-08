@@ -134,9 +134,9 @@
         <source>Several simple services that I install on my computer.</source>
         <target state="final">usługi</target>
       </trans-unit>
-      <trans-unit id="ok" resname="ok">
+      <trans-unit id="ok" resname="ok" approved="yes">
         <source>That's ok</source>
-        <target state="needs-translation">That's ok</target>
+        <target state="final">W porządku</target>
       </trans-unit>
       <trans-unit id="save" resname="save" approved="yes">
         <source>save</source>
