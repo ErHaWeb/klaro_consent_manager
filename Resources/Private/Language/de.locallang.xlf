@@ -102,29 +102,29 @@
         <source>Services related to styling help to improve the appearance of the website. This can also have an impact on usability.</source>
         <target state="final">Dienstleistungen im Zusammenhang mit dem Styling tragen dazu bei, das Erscheinungsbild der Website zu verbessern. Dies kann auch Auswirkungen auf die Benutzerfreundlichkeit haben.</target>
       </trans-unit>
-      <trans-unit id="purposes.videos.title">
+      <trans-unit id="purposes.videos.title" approved="yes">
         <source>Videos</source>
-        <target state="needs-translation">Videos</target>
+        <target state="final">Videos</target>
       </trans-unit>
-      <trans-unit id="purposes.videos.description">
+      <trans-unit id="purposes.videos.description" approved="yes">
         <source>Embedding videos from external platforms to enrich the content on this website.</source>
-        <target state="needs-translation">Embedding videos from external platforms to enrich the content on this website.</target>
+        <target state="final">Einbetten von Videos aus externen Plattformen zur Bereicherung der Inhalte dieser Website.</target>
       </trans-unit>
-      <trans-unit id="purposes.social.title">
+      <trans-unit id="purposes.social.title" approved="yes">
         <source>Social Media</source>
-        <target state="needs-translation">Social Media</target>
+        <target state="final">Social Media</target>
       </trans-unit>
-      <trans-unit id="purposes.social.description">
+      <trans-unit id="purposes.social.description" approved="yes">
         <source>Embedding social media from external platforms to enrich the content on this website.</source>
-        <target state="needs-translation">Embedding social media from external platforms to enrich the content on this website.</target>
+        <target state="final">Einbindung sozialer Medien von externen Plattformen zur Bereicherung der Inhalte dieser Website.</target>
       </trans-unit>
-      <trans-unit id="purposes.misc.title">
+      <trans-unit id="purposes.misc.title" approved="yes">
         <source>Miscellaneous</source>
-        <target state="needs-translation">Miscellaneous</target>
+        <target state="final">Verschiedenes</target>
       </trans-unit>
-      <trans-unit id="purposes.misc.description">
+      <trans-unit id="purposes.misc.description" approved="yes">
         <source>This includes services that do not fall under the other purposes.</source>
-        <target state="translated">Diese beinhaltet Dienste, die nicht unter die anderen Zwecke fallen.</target>
+        <target state="final">Diese beinhaltet Dienste, die nicht unter die anderen Zwecke fallen.</target>
       </trans-unit>
       <trans-unit id="purposeItem.service" approved="yes">
         <source>A simple service that I install on my computer.</source>
@@ -318,13 +318,13 @@
         <source>Inline tracking script</source>
         <target state="final">Inline-Tracking-Skript</target>
       </trans-unit>
-      <trans-unit id="services.instagram.title">
+      <trans-unit id="services.instagram.title" approved="yes">
         <source>Instagram</source>
-        <target state="needs-translation">Instagram</target>
+        <target state="final">Instagram</target>
       </trans-unit>
-      <trans-unit id="services.instagram.description">
+      <trans-unit id="services.instagram.description" approved="yes">
         <source>Allows Instagram posts to be embedded. Personal data may be transferred to Instagram (Meta Platforms) in the process.</source>
-        <target state="needs-translation">Allows Instagram posts to be embedded. Personal data may be transferred to Instagram (Meta Platforms) in the process.</target>
+        <target state="final">Ermöglicht das Einbetten von Instagram-Beiträgen. Dabei können personenbezogene Daten an Instagram (Meta Platforms) übertragen werden.</target>
       </trans-unit>
       <trans-unit id="services.intercom.title" approved="yes">
         <source>Intercom</source>
@@ -350,13 +350,13 @@
         <source>Real-time user analytics service that helps to understand how visitors interact with our website.</source>
         <target state="final">Echtzeit-Benutzeranalysedienst, der hilft zu verstehen, wie Besucher mit unserer Website interagieren.</target>
       </trans-unit>
-      <trans-unit id="services.tiktok.title">
+      <trans-unit id="services.tiktok.title" approved="yes">
         <source>TikTok</source>
-        <target state="needs-translation">TikTok</target>
+        <target state="final">TikTok</target>
       </trans-unit>
-      <trans-unit id="services.tiktok.description">
+      <trans-unit id="services.tiktok.description" approved="yes">
         <source>Allows TikTok videos to be embedded. Personal data may be transferred to TikTok and processed in third countries.</source>
-        <target state="needs-translation">Allows TikTok videos to be embedded. Personal data may be transferred to TikTok and processed in third countries.</target>
+        <target state="final">Ermöglicht das Einbetten von TikTok-Videos. Personenbezogene Daten können an TikTok übertragen und in Drittländern verarbeitet werden.</target>
       </trans-unit>
       <trans-unit id="services.twitter.title" approved="yes">
         <source>X (formerly Twitter)</source>
@@ -482,13 +482,13 @@
         <source>End of session</source>
         <target state="final">Sitzungsende</target>
       </trans-unit>
-      <trans-unit id="warning.noServices">
+      <trans-unit id="warning.noServices" approved="yes">
         <source>Why don't I see a Klaro! Modal? → You must assign at least 1 service to the Klaro! configuration! Without services, we don't need consent management at all.</source>
-        <target state="needs-translation">Why don't I see a Klaro! Modal? → You must assign at least 1 service to the Klaro! configuration! Without services, we don't need consent management at all.</target>
+        <target state="final">Warum sehe ich kein Klaro!-Modal? → Sie müssen der Klaro!-Konfiguration mindestens 1 Dienst zuweisen! Ohne Dienste benötigen wir überhaupt keine Einwilligungsmanagement.</target>
       </trans-unit>
-      <trans-unit id="warning.noServicesPersonalized">
+      <trans-unit id="warning.noServicesPersonalized" approved="yes">
         <source>Hey %s! You missed a service in the config! Without services, we don't need consent management at all.</source>
-        <target state="needs-translation">Hey %s! You missed a service in the config! Without services, we don't need consent management at all.</target>
+        <target state="final">Hey %s! Du hast einen Dienst in der Konfiguration vergessen! Ohne Dienste brauchen wir überhaupt keine Einwilligungsverwaltung.</target>
       </trans-unit>
     </body>
   </file>
