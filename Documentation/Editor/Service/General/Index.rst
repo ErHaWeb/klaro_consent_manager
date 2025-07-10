@@ -42,6 +42,7 @@ Title
     *   Google Maps
     *   Google Tag Manager
     *   Inline Tracker
+    *   Instagram
     *   Intercom
     *   Matomo/Piwik
     *   Mouseflow
@@ -85,6 +86,7 @@ Name
     *   Google Maps `[google-maps]`
     *   Google Tag Manager `[google-tag-manager]`
     *   Inline Tracker `[inline-tracker]`
+    *   Instagram `[instagram]`
     *   Intercom `[intercom]`
     *   Matomo/Piwik `[matomo]`
     *   Mouseflow `[mouseflow]`
