@@ -22,9 +22,9 @@
         <source>Testing mode!</source>
         <target state="final">Mode test !</target>
       </trans-unit>
-      <trans-unit id="consentNotice.title" resname="consentNotice.title">
+      <trans-unit id="consentNotice.title" resname="consentNotice.title" approved="yes">
         <source>Cookie Consent</source>
-        <target state="translated">Consentement aux cookies</target>
+        <target state="final">Consentement aux cookies</target>
       </trans-unit>
       <trans-unit id="consentNotice.changeDescription" resname="consentNotice.changeDescription" approved="yes">
         <source>There were changes since your last visit, please renew your consent.</source>
@@ -54,9 +54,9 @@
         <source>These services process personal information to optimize the service that this website offers.</source>
         <target state="final">Ces services traitent les informations personnelles afin d'optimiser le service que ce site Web offre.</target>
       </trans-unit>
-      <trans-unit id="purposes.marketing.title" resname="purposes.marketing.title">
+      <trans-unit id="purposes.marketing.title" resname="purposes.marketing.title" approved="yes">
         <source>Marketing</source>
-        <target state="translated">Marketing</target>
+        <target state="final">Marketing</target>
       </trans-unit>
       <trans-unit id="purposes.marketing.description" resname="purposes.marketing.description" approved="yes">
         <source>These services process personal information to show you relevant content about products, services or topics that you might be interested in.</source>
@@ -70,69 +70,69 @@
         <source>These services process personal information to show you personalized or interest-based advertisements.</source>
         <target state="final">Ces services traitent les informations personnelles pour vous présenter des publicités personnalisées ou basées sur des intérêts.</target>
       </trans-unit>
-      <trans-unit id="purposes.analytics.title" resname="purposes.analytics.title">
+      <trans-unit id="purposes.analytics.title" resname="purposes.analytics.title" approved="yes">
         <source>Analytics</source>
-        <target state="translated">Mesure d'audience</target>
+        <target state="final">Mesure d'audience</target>
       </trans-unit>
-      <trans-unit id="purposes.analytics.description" resname="purposes.analytics.description">
+      <trans-unit id="purposes.analytics.description" resname="purposes.analytics.description" approved="yes">
         <source>These services gather anonymous data for statistical analysis and performance optimization. Enabling analytics services assists website owners in making informed decisions to enhance online services.</source>
-        <target state="translated">Ces services recueillent des données anonymes pour l'analyse statistique et l'optimisation des performances. L'activation des services d'analyse aide les propriétaires de sites Web à prendre des décisions éclairées pour améliorer les services en ligne.</target>
+        <target state="final">Ces services recueillent des données anonymes pour l'analyse statistique et l'optimisation des performances. L'activation des services d'analyse aide les propriétaires de sites Web à prendre des décisions éclairées pour améliorer les services en ligne.</target>
       </trans-unit>
-      <trans-unit id="purposes.security.title" resname="purposes.security.title">
+      <trans-unit id="purposes.security.title" resname="purposes.security.title" approved="yes">
         <source>Security</source>
-        <target state="translated">Sécurité</target>
+        <target state="final">Sécurité</target>
       </trans-unit>
-      <trans-unit id="purposes.security.description" resname="purposes.security.description">
+      <trans-unit id="purposes.security.description" resname="purposes.security.description" approved="yes">
         <source>Security services are crucial for safeguarding your online experience. These services help protect your data and privacy by detecting and preventing security threats, such as malware, phishing attempts, and unauthorized access. They ensure a safer browsing environment.</source>
-        <target state="translated">Les services de sécurité sont essentiels pour protéger votre expérience en ligne. Ces services aident à protéger vos données et votre vie privée en détectant et en prévenant les menaces de sécurité, telles que les logiciels malveillants, les tentatives d'hameçonnage et l'accès non autorisé. Ils assurent un environnement de navigation plus sûr.</target>
+        <target state="final">Les services de sécurité sont essentiels pour protéger votre expérience en ligne. Ces services aident à protéger vos données et votre vie privée en détectant et en prévenant les menaces de sécurité, telles que les logiciels malveillants, les tentatives d'hameçonnage et l'accès non autorisé. Ils assurent un environnement de navigation plus sûr.</target>
       </trans-unit>
-      <trans-unit id="purposes.livechat.title" resname="purposes.livechat.title">
+      <trans-unit id="purposes.livechat.title" resname="purposes.livechat.title" approved="yes">
         <source>Live Chat</source>
-        <target state="translated">Discussion en temps réel</target>
+        <target state="final">Discussion en temps réel</target>
       </trans-unit>
-      <trans-unit id="purposes.livechat.description" resname="purposes.livechat.description">
+      <trans-unit id="purposes.livechat.description" resname="purposes.livechat.description" approved="yes">
         <source>Live chat services enable real-time communication with website support teams. They offer a convenient way to ask questions, seek assistance, or engage in discussions while browsing a website. Live chat enhances your online interaction and customer support experience.</source>
-        <target state="translated">Les services de chat en direct permettent une communication en temps réel avec les équipes de support du site Web. Ils offrent un moyen pratique de poser des questions, de solliciter de l'aide ou de participer à des discussions lors de la navigation sur un site Web. Le chat en direct améliore votre interaction en ligne et votre expérience d'assistance client.</target>
+        <target state="final">Les services de chat en direct permettent une communication en temps réel avec les équipes de support du site Web. Ils offrent un moyen pratique de poser des questions, de solliciter de l'aide ou de participer à des discussions lors de la navigation sur un site Web. Le chat en direct améliore votre interaction en ligne et votre expérience d'assistance client.</target>
       </trans-unit>
-      <trans-unit id="purposes.styling.title" resname="purposes.styling.title">
+      <trans-unit id="purposes.styling.title" resname="purposes.styling.title" approved="yes">
         <source>Styling</source>
-        <target state="translated">Style</target>
+        <target state="final">Style</target>
       </trans-unit>
-      <trans-unit id="purposes.styling.description" resname="purposes.styling.description">
+      <trans-unit id="purposes.styling.description" resname="purposes.styling.description" approved="yes">
         <source>Services related to styling help to improve the appearance of the website. This can also have an impact on usability.</source>
-        <target state="translated">Les services liés au style aident à améliorer l'apparence du site Web, ce qui peut également avoir un impact sur la facilité d'utilisation.</target>
+        <target state="final">Les services liés au style aident à améliorer l'apparence du site Web, ce qui peut également avoir un impact sur la facilité d'utilisation.</target>
       </trans-unit>
-      <trans-unit id="purposes.videos.title" resname="purposes.videos.title">
+      <trans-unit id="purposes.videos.title" resname="purposes.videos.title" approved="yes">
         <source>Videos</source>
-        <target state="translated">Vidéos</target>
+        <target state="final">Vidéos</target>
       </trans-unit>
-      <trans-unit id="purposes.videos.description" resname="purposes.videos.description">
+      <trans-unit id="purposes.videos.description" resname="purposes.videos.description" approved="yes">
         <source>Embedding videos from external platforms to enrich the content on this website.</source>
-        <target state="translated">Intégrer des vidéos à partir de plates-formes externes pour enrichir le contenu de ce site.</target>
+        <target state="final">Intégrer des vidéos à partir de plates-formes externes pour enrichir le contenu de ce site.</target>
       </trans-unit>
-      <trans-unit id="purposes.social.title" resname="purposes.social.title">
+      <trans-unit id="purposes.social.title" resname="purposes.social.title" approved="yes">
         <source>Social Media</source>
-        <target state="translated">Réseaux sociaux</target>
+        <target state="final">Réseaux sociaux</target>
       </trans-unit>
-      <trans-unit id="purposes.social.description" resname="purposes.social.description">
+      <trans-unit id="purposes.social.description" resname="purposes.social.description" approved="yes">
         <source>Embedding social media from external platforms to enrich the content on this website.</source>
-        <target state="translated">Intégrer les réseaux sociaux depuis des plates-formes externes pour enrichir le contenu de ce site.</target>
+        <target state="final">Intégrer les réseaux sociaux depuis des plates-formes externes pour enrichir le contenu de ce site.</target>
       </trans-unit>
-      <trans-unit id="purposes.misc.title" resname="purposes.misc.title">
+      <trans-unit id="purposes.misc.title" resname="purposes.misc.title" approved="yes">
         <source>Miscellaneous</source>
-        <target state="translated">Divers</target>
+        <target state="final">Divers</target>
       </trans-unit>
-      <trans-unit id="purposes.misc.description" resname="purposes.misc.description">
+      <trans-unit id="purposes.misc.description" resname="purposes.misc.description" approved="yes">
         <source>This includes services that do not fall under the other purposes.</source>
-        <target state="translated">Cela inclut les services qui ne relèvent pas des autres finalités.</target>
+        <target state="final">Cela inclut les services qui ne relèvent pas des autres finalités.</target>
       </trans-unit>
-      <trans-unit id="purposeItem.service" resname="purposeItem.service">
+      <trans-unit id="purposeItem.service" resname="purposeItem.service" approved="yes">
         <source>A simple service that I install on my computer.</source>
-        <target state="translated">Un service simple que j'installe sur mon ordinateur.</target>
+        <target state="final">Un service simple que j'installe sur mon ordinateur.</target>
       </trans-unit>
-      <trans-unit id="purposeItem.services" resname="purposeItem.services">
+      <trans-unit id="purposeItem.services" resname="purposeItem.services" approved="yes">
         <source>Several simple services that I install on my computer.</source>
-        <target state="translated">Plusieurs services simples que j'installe sur mon ordinateur.</target>
+        <target state="final">Plusieurs services simples que j'installe sur mon ordinateur.</target>
       </trans-unit>
       <trans-unit id="ok" resname="ok" approved="yes">
         <source>That's ok</source>
@@ -166,9 +166,9 @@
         <source>Use this switch to enable or disable all services.</source>
         <target state="final">Utilisez ce commutateur pour activer ou désactiver tous les services.</target>
       </trans-unit>
-      <trans-unit id="service.optOut.title" resname="service.optOut.title">
+      <trans-unit id="service.optOut.title" resname="service.optOut.title" approved="yes">
         <source>(opt-out)</source>
-        <target state="translated">(se désinscrire)</target>
+        <target state="final">(se désinscrire)</target>
       </trans-unit>
       <trans-unit id="service.optOut.description" resname="service.optOut.description" approved="yes">
         <source>This services is loaded by default (but you can opt out)</source>
@@ -206,29 +206,29 @@
         <source>Always</source>
         <target state="final">Toujours</target>
       </trans-unit>
-      <trans-unit id="consentManager.show" resname="consentManager.show">
+      <trans-unit id="consentManager.show" resname="consentManager.show" approved="yes">
         <source>Show Consent Manager</source>
-        <target state="translated">Afficher le gestionnaire de consentement</target>
+        <target state="final">Afficher le gestionnaire de consentement</target>
       </trans-unit>
-      <trans-unit id="consentManager.reset" resname="consentManager.reset">
+      <trans-unit id="consentManager.reset" resname="consentManager.reset" approved="yes">
         <source>Reset Consent Manager</source>
-        <target state="translated">Réinitialiser le gestionnaire de consentement</target>
+        <target state="final">Réinitialiser le gestionnaire de consentement</target>
       </trans-unit>
       <trans-unit id="services.adsense.title" resname="services.adsense.title">
         <source>Google AdSense</source>
         <target state="needs-translation">Google AdSense</target>
       </trans-unit>
-      <trans-unit id="services.adsense.description" resname="services.adsense.description">
+      <trans-unit id="services.adsense.description" resname="services.adsense.description" approved="yes">
         <source>Google AdSense enables personalized ads on websites while respecting user privacy. By consenting, you allow relevant ads and help support free content.</source>
-        <target state="translated">Google AdSense permet des publicités personnalisées sur des sites Web tout en respectant la vie privée des utilisateurs. En acceptant, vous autorisez les publicités pertinentes et aidez à soutenir le contenu gratuit.</target>
+        <target state="final">Google AdSense permet des publicités personnalisées sur des sites Web tout en respectant la vie privée des utilisateurs. En acceptant, vous autorisez les publicités pertinentes et aidez à soutenir le contenu gratuit.</target>
       </trans-unit>
-      <trans-unit id="services.camera.title" resname="services.camera.title">
+      <trans-unit id="services.camera.title" resname="services.camera.title" approved="yes">
         <source>Surveillance Camera</source>
-        <target state="translated">Caméra de surveillance</target>
+        <target state="final">Caméra de surveillance</target>
       </trans-unit>
-      <trans-unit id="services.camera.description" resname="services.camera.description">
+      <trans-unit id="services.camera.description" resname="services.camera.description" approved="yes">
         <source>Consent to the use of surveillance camera images for security and safety purposes, in compliance with applicable data privacy regulations.</source>
-        <target state="translated">Consentement à l’utilisation d’images de caméras de surveillance à des fins de sécurité et de sécurité, conformément aux règlements applicables en matière de confidentialité des données.</target>
+        <target state="final">Consentement à l’utilisation d’images de caméras de surveillance à des fins de sécurité et de sécurité, conformément aux règlements applicables en matière de confidentialité des données.</target>
       </trans-unit>
       <trans-unit id="services.clarity.title" resname="services.clarity.title">
         <source>Microsoft Clarity</source>
