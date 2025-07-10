@@ -611,9 +611,9 @@
         <source>YouTube</source>
         <target state="needs-translation">YouTube</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_service.default.label" resname="tx_klaroconsentmanager_service.default.label">
+      <trans-unit id="tx_klaroconsentmanager_service.default.label" resname="tx_klaroconsentmanager_service.default.label" approved="yes">
         <source>Default</source>
-        <target state="translated">Par défaut</target>
+        <target state="final">Par défaut</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_service.default.description" resname="tx_klaroconsentmanager_service.default.description">
         <source>If `default` is set to `true`, the service will be enabled by default. This overrides the global `default` setting (if this is set to "false").</source>
