@@ -46,6 +46,7 @@ Title
     *   Intercom
     *   Matomo/Piwik
     *   Mouseflow
+    *   TikTok
     *   X (formerly Twitter)
     *   Userlike
     *   Vimeo
@@ -90,6 +91,7 @@ Name
     *   Intercom `[intercom]`
     *   Matomo/Piwik `[matomo]`
     *   Mouseflow `[mouseflow]`
+    *   TikTok `[tiktok]`
     *   X (formerly Twitter) `[twitter]`
     *   Userlike `[userlike]`
     *   Vimeo `[vimeo]`

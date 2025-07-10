@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
-    <file source-language="en" original="EXT:klaro_consent_manager/Resources/Private/Language/locallang.xlf" datatype="plaintext" product-name="klaro_consent_manager" date="2025-07-10T17:21:53+02:00">
+    <file source-language="en" original="EXT:klaro_consent_manager/Resources/Private/Language/locallang.xlf" datatype="plaintext" product-name="klaro_consent_manager" date="2025-07-10T17:27:57+02:00">
         <body>
             <trans-unit id="privacyPolicy.name">
                 <source>privacy policy</source>
@@ -262,6 +262,12 @@
             </trans-unit>
             <trans-unit id="services.mouseflow.description">
                 <source>Real-time user analytics service that helps to understand how visitors interact with our website.</source>
+            </trans-unit>
+            <trans-unit id="services.tiktok.title">
+                <source>TikTok</source>
+            </trans-unit>
+            <trans-unit id="services.tiktok.description">
+                <source>Allows TikTok videos to be embedded. Personal data may be transferred to TikTok and processed in third countries.</source>
             </trans-unit>
             <trans-unit id="services.twitter.title">
                 <source>X (formerly Twitter)</source>

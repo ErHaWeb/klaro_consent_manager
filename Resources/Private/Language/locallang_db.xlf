@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
-    <file source-language="en" original="EXT:klaro_consent_manager/Resources/Private/Language/locallang_db.xlf" datatype="plaintext" product-name="lang" date="2025-07-10T17:22:27+02:00">
+    <file source-language="en" original="EXT:klaro_consent_manager/Resources/Private/Language/locallang_db.xlf" datatype="plaintext" product-name="lang" date="2025-07-10T17:29:05+02:00">
         <header></header>
         <body>
             <trans-unit id="tx_klaroconsentmanager_configuration">
@@ -449,6 +449,9 @@
             </trans-unit>
             <trans-unit id="tx_klaroconsentmanager_service.name.I.mouseflow">
                 <source>Mouseflow</source>
+            </trans-unit>
+            <trans-unit id="tx_klaroconsentmanager_service.name.I.tiktok">
+                <source>TikTok</source>
             </trans-unit>
             <trans-unit id="tx_klaroconsentmanager_service.name.I.twitter">
                 <source>X (formerly Twitter)</source>
