@@ -20,6 +20,7 @@ namespace ErHaWeb\KlaroConsentManager\ExpressionLanguage;
 use ErHaWeb\KlaroConsentManager\Service\KlaroService;
 use Psr\Http\Message\ServerRequestInterface;
 use TYPO3\CMS\Core\ExpressionLanguage\AbstractProvider;
+use TYPO3\CMS\Core\Http\ApplicationType;
 use TYPO3\CMS\Core\Utility\GeneralUtility;
 
 class KlaroTypoScriptConditionProvider extends AbstractProvider
@@ -35,7 +36,7 @@ class KlaroTypoScriptConditionProvider extends AbstractProvider
     {
         $request = $this->getRequest();
         if ($request instanceof ServerRequestInterface) {
-            return $request->getAttribute('frontend.typoscript') &&
+            return ApplicationType::fromRequest($request)->isFrontend() &&
                 GeneralUtility::makeInstance(KlaroService::class, $request)?->getRawConfiguration();
         }
 
