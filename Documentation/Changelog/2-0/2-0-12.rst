@@ -1,0 +1,24 @@
+.. include:: /Includes.rst.txt
+
+2.0.12 - August 04, 2025
+========================
+
+
+.. only:: html
+
+   .. contents::
+        :local:
+        :depth: 3
+
+Breaking changes
+----------------
+No breaking changes!
+
+All Changes
+-----------
+This is a list of all changes in this release: ::
+
+    2025-08-04 [BUGFIX] Fix detection of trigger buttons if element id is customized (Commit d7ab6dd by Eric Bode)
+    2025-08-04 [BUGFIX] Add missing service property `contextualConsentOnly` (Commit 7d795ae by Eric Bode)
+
+This list has been created by using `git log $(git describe --tags --abbrev=0)..HEAD --abbrev-commit --pretty='%ad %s (Commit %h by %an)' --date=short`.
