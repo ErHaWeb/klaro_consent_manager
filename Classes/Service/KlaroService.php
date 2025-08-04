@@ -49,6 +49,7 @@ class KlaroService
         'required' => ['type' => 'boolean', 'default' => false],
         'opt_out' => ['type' => 'boolean', 'default' => false],
         'only_once' => ['type' => 'boolean', 'default' => false],
+        'contextual_consent_only' => ['type' => 'boolean', 'default' => false],
         'cookies' => ['type' => 'list', 'default' => ''],
         'callback' => ['type' => 'callback', 'default' => ''],
         'on_accept' => ['type' => 'javascript', 'default' => ''],
