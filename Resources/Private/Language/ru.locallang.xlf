@@ -1,30 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
-  <file source-language="en" original="EXT:klaro_consent_manager/Resources/Private/Language/locallang.xlf" datatype="plaintext" product-name="klaro_consent_manager" date="2025-07-10T17:27:57+02:00" target-language="ru">
+  <file source-language="en" original="EXT:klaro_consent_manager/Resources/Private/Language/locallang.xlf" datatype="plaintext" product-name="klaro_consent_manager" date="2025-10-06T10:49:01+02:00" target-language="ru">
     <body>
-      <trans-unit id="privacyPolicy.name">
-        <source>privacy policy</source>
-        <target state="needs-translation">privacy policy</target>
+      <trans-unit id="acceptAll">
+        <source>Accept all</source>
+        <target state="needs-translation">Accept all</target>
       </trans-unit>
-      <trans-unit id="privacyPolicy.text">
-        <source>To learn more, please read our {privacyPolicy}.</source>
-        <target state="needs-translation">To learn more, please read our {privacyPolicy}.</target>
+      <trans-unit id="acceptSelected">
+        <source>Accept selected</source>
+        <target state="needs-translation">Accept selected</target>
       </trans-unit>
-      <trans-unit id="consentModal.title" approved="yes">
-        <source>Services we would like to use</source>
-        <target state="final">Информация, которую мы сохраняем</target>
+      <trans-unit id="close">
+        <source>Close</source>
+        <target state="needs-translation">Close</target>
       </trans-unit>
       <trans-unit id="consentModal.description" approved="yes">
         <source>Here you can assess and customize the services that we'd like to use on this website. You're in charge! Enable or disable services as you see fit.</source>
         <target state="final">Здесь вы можете просмотреть и настроить, какую информацию о вас мы храним.</target>
       </trans-unit>
-      <trans-unit id="consentNotice.testing">
-        <source>Testing mode!</source>
-        <target state="needs-translation">Testing mode!</target>
-      </trans-unit>
-      <trans-unit id="consentNotice.title">
-        <source>Cookie Consent</source>
-        <target state="needs-translation">Cookie Consent</target>
+      <trans-unit id="consentModal.title" approved="yes">
+        <source>Services we would like to use</source>
+        <target state="final">Информация, которую мы сохраняем</target>
       </trans-unit>
       <trans-unit id="consentNotice.changeDescription" approved="yes">
         <source>There were changes since your last visit, please renew your consent.</source>
@@ -38,37 +34,133 @@
         <source>Let me choose</source>
         <target state="final">Настроить</target>
       </trans-unit>
-      <trans-unit id="purposes.functional.title">
-        <source>Service Provision</source>
-        <target state="needs-translation">Service Provision</target>
+      <trans-unit id="consentNotice.testing">
+        <source>Testing mode!</source>
+        <target state="needs-translation">Testing mode!</target>
       </trans-unit>
-      <trans-unit id="purposes.functional.description">
-        <source>These services are essential for the correct functioning of this website. You cannot disable them here as the service would not work correctly otherwise.</source>
-        <target state="needs-translation">These services are essential for the correct functioning of this website. You cannot disable them here as the service would not work correctly otherwise.</target>
+      <trans-unit id="consentNotice.title">
+        <source>Cookie Consent</source>
+        <target state="needs-translation">Cookie Consent</target>
       </trans-unit>
-      <trans-unit id="purposes.performance.title">
-        <source>Performance Optimization</source>
-        <target state="needs-translation">Performance Optimization</target>
+      <trans-unit id="contextualConsent.acceptAlways">
+        <source>Always</source>
+        <target state="needs-translation">Always</target>
       </trans-unit>
-      <trans-unit id="purposes.performance.description">
-        <source>These services process personal information to optimize the service that this website offers.</source>
-        <target state="needs-translation">These services process personal information to optimize the service that this website offers.</target>
+      <trans-unit id="contextualConsent.acceptOnce">
+        <source>Yes</source>
+        <target state="needs-translation">Yes</target>
       </trans-unit>
-      <trans-unit id="purposes.marketing.title">
-        <source>Marketing</source>
-        <target state="needs-translation">Marketing</target>
+      <trans-unit id="contextualConsent.description">
+        <source>Do you want to load external content supplied by {title}?</source>
+        <target state="needs-translation">Do you want to load external content supplied by {title}?</target>
       </trans-unit>
-      <trans-unit id="purposes.marketing.description">
-        <source>These services process personal information to show you relevant content about products, services or topics that you might be interested in.</source>
-        <target state="needs-translation">These services process personal information to show you relevant content about products, services or topics that you might be interested in.</target>
+      <trans-unit id="contextualConsent.descriptionEmptyStore">
+        <source>To agree to this service permanently, you must accept {title} in the {link}.</source>
+        <target state="needs-translation">To agree to this service permanently, you must accept {title} in the {link}.</target>
+      </trans-unit>
+      <trans-unit id="contextualConsent.modalLinkText">
+        <source>Consent Manager</source>
+        <target state="needs-translation">Consent Manager</target>
+      </trans-unit>
+      <trans-unit id="decline" approved="yes">
+        <source>I decline</source>
+        <target state="final">Отклонить</target>
+      </trans-unit>
+      <trans-unit id="ok" approved="yes">
+        <source>That's ok</source>
+        <target state="final">Принять</target>
+      </trans-unit>
+      <trans-unit id="poweredBy" approved="yes">
+        <source>Realized with Klaro!</source>
+        <target state="final">Работает на Кларо!</target>
+      </trans-unit>
+      <trans-unit id="privacyPolicy.name">
+        <source>privacy policy</source>
+        <target state="needs-translation">privacy policy</target>
+      </trans-unit>
+      <trans-unit id="privacyPolicy.text">
+        <source>To learn more, please read our {privacyPolicy}.</source>
+        <target state="needs-translation">To learn more, please read our {privacyPolicy}.</target>
+      </trans-unit>
+      <trans-unit id="purposeItem.service">
+        <source>service</source>
+        <target state="needs-translation">service</target>
+      </trans-unit>
+      <trans-unit id="purposeItem.services">
+        <source>services</source>
+        <target state="needs-translation">services</target>
+      </trans-unit>
+      <trans-unit id="purposes.advertising.description">
+        <source>These services process personal information to show you personalized or interest-based advertisements.</source>
+        <target state="needs-translation">These services process personal information to show you personalized or interest-based advertisements.</target>
       </trans-unit>
       <trans-unit id="purposes.advertising.title">
         <source>Advertising</source>
         <target state="needs-translation">Advertising</target>
       </trans-unit>
-      <trans-unit id="purposes.advertising.description">
-        <source>These services process personal information to show you personalized or interest-based advertisements.</source>
-        <target state="needs-translation">These services process personal information to show you personalized or interest-based advertisements.</target>
+      <trans-unit id="purposes.functional.description">
+        <source>These services are essential for the correct functioning of this website. You cannot disable them here as the service would not work correctly otherwise.
+</source>
+        <target state="needs-translation">These services are essential for the correct functioning of this website. You cannot disable them here as the service would not work correctly otherwise.
+</target>
+      </trans-unit>
+      <trans-unit id="purposes.functional.title">
+        <source>Service Provision</source>
+        <target state="needs-translation">Service Provision</target>
+      </trans-unit>
+      <trans-unit id="purposes.marketing.description">
+        <source>These services process personal information to show you relevant content about products, services or topics that you might be interested in.</source>
+        <target state="needs-translation">These services process personal information to show you relevant content about products, services or topics that you might be interested in.</target>
+      </trans-unit>
+      <trans-unit id="purposes.marketing.title">
+        <source>Marketing</source>
+        <target state="needs-translation">Marketing</target>
+      </trans-unit>
+      <trans-unit id="purposes.performance.description">
+        <source>These services process personal information to optimize the service that this website offers.
+</source>
+        <target state="needs-translation">These services process personal information to optimize the service that this website offers.
+</target>
+      </trans-unit>
+      <trans-unit id="purposes.performance.title">
+        <source>Performance Optimization</source>
+        <target state="needs-translation">Performance Optimization</target>
+      </trans-unit>
+      <trans-unit id="save">
+        <source>Save</source>
+        <target state="needs-translation">Save</target>
+      </trans-unit>
+      <trans-unit id="service.disableAll.description" approved="yes">
+        <source>Use this switch to enable or disable all services.</source>
+        <target state="final">Используйте этот переключатель, чтобы включить/отключить все приложения.</target>
+      </trans-unit>
+      <trans-unit id="service.disableAll.title" approved="yes">
+        <source>Enable or disable all services</source>
+        <target state="final">Переключить все приложения</target>
+      </trans-unit>
+      <trans-unit id="service.optOut.description" approved="yes">
+        <source>This services is loaded by default (but you can opt out)</source>
+        <target state="final">Это приложение включено по умолчанию (но вы можете отказаться)</target>
+      </trans-unit>
+      <trans-unit id="service.optOut.title" approved="yes">
+        <source>(opt-out)</source>
+        <target state="final">(отказаться)</target>
+      </trans-unit>
+      <trans-unit id="service.purpose">
+        <source>purpose</source>
+        <target state="needs-translation">purpose</target>
+      </trans-unit>
+      <trans-unit id="service.purposes">
+        <source>purposes</source>
+        <target state="needs-translation">purposes</target>
+      </trans-unit>
+      <trans-unit id="service.required.description" approved="yes">
+        <source>This services is always required</source>
+        <target state="final">Это обязательное приложение</target>
+      </trans-unit>
+      <trans-unit id="service.required.title" approved="yes">
+        <source>(always required)</source>
+        <target state="final">(всегда обязательный)</target>
       </trans-unit>
       <trans-unit id="purposes.analytics.title">
         <source>Analytics</source>
@@ -125,86 +217,6 @@
       <trans-unit id="purposes.misc.description">
         <source>This includes services that do not fall under the other purposes.</source>
         <target state="needs-translation">This includes services that do not fall under the other purposes.</target>
-      </trans-unit>
-      <trans-unit id="purposeItem.service">
-        <source>A simple service that I install on my computer.</source>
-        <target state="needs-translation">A simple service that I install on my computer.</target>
-      </trans-unit>
-      <trans-unit id="purposeItem.services">
-        <source>Several simple services that I install on my computer.</source>
-        <target state="needs-translation">Several simple services that I install on my computer.</target>
-      </trans-unit>
-      <trans-unit id="ok" approved="yes">
-        <source>That's ok</source>
-        <target state="final">Принять</target>
-      </trans-unit>
-      <trans-unit id="save" approved="yes">
-        <source>save</source>
-        <target state="final">Сохранить</target>
-      </trans-unit>
-      <trans-unit id="decline" approved="yes">
-        <source>I decline</source>
-        <target state="final">Отклонить</target>
-      </trans-unit>
-      <trans-unit id="close" approved="yes">
-        <source>close</source>
-        <target state="final">Закрыть</target>
-      </trans-unit>
-      <trans-unit id="acceptAll" approved="yes">
-        <source>accept all</source>
-        <target state="final">Принять всё</target>
-      </trans-unit>
-      <trans-unit id="acceptSelected" approved="yes">
-        <source>accept selected</source>
-        <target state="final">Принять выбранные</target>
-      </trans-unit>
-      <trans-unit id="service.disableAll.title" approved="yes">
-        <source>Enable or disable all services</source>
-        <target state="final">Переключить все приложения</target>
-      </trans-unit>
-      <trans-unit id="service.disableAll.description" approved="yes">
-        <source>Use this switch to enable or disable all services.</source>
-        <target state="final">Используйте этот переключатель, чтобы включить/отключить все приложения.</target>
-      </trans-unit>
-      <trans-unit id="service.optOut.title" approved="yes">
-        <source>(opt-out)</source>
-        <target state="final">(отказаться)</target>
-      </trans-unit>
-      <trans-unit id="service.optOut.description" approved="yes">
-        <source>This services is loaded by default (but you can opt out)</source>
-        <target state="final">Это приложение включено по умолчанию (но вы можете отказаться)</target>
-      </trans-unit>
-      <trans-unit id="service.required.title" approved="yes">
-        <source>(always required)</source>
-        <target state="final">(всегда обязательный)</target>
-      </trans-unit>
-      <trans-unit id="service.required.description" approved="yes">
-        <source>This services is always required</source>
-        <target state="final">Это обязательное приложение</target>
-      </trans-unit>
-      <trans-unit id="service.purposes" approved="yes">
-        <source>Processing purposes</source>
-        <target state="final">Намерения</target>
-      </trans-unit>
-      <trans-unit id="service.purpose" approved="yes">
-        <source>Processing purpose</source>
-        <target state="final">Намерение</target>
-      </trans-unit>
-      <trans-unit id="poweredBy" approved="yes">
-        <source>Realized with Klaro!</source>
-        <target state="final">Работает на Кларо!</target>
-      </trans-unit>
-      <trans-unit id="contextualConsent.description">
-        <source>Do you want to load external content supplied by {title}?</source>
-        <target state="needs-translation">Do you want to load external content supplied by {title}?</target>
-      </trans-unit>
-      <trans-unit id="contextualConsent.acceptOnce">
-        <source>Yes</source>
-        <target state="needs-translation">Yes</target>
-      </trans-unit>
-      <trans-unit id="contextualConsent.acceptAlways">
-        <source>Always</source>
-        <target state="needs-translation">Always</target>
       </trans-unit>
       <trans-unit id="consentManager.show">
         <source>Show Consent Manager</source>
