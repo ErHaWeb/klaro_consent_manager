@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
-  <file source-language="en" original="EXT:klaro_consent_manager/Resources/Private/Language/locallang.xlf" datatype="plaintext" product-name="klaro_consent_manager" date="2025-10-06T09:38:03+02:00">
+  <file source-language="en" original="EXT:klaro_consent_manager/Resources/Private/Language/locallang.xlf" datatype="plaintext" product-name="klaro_consent_manager" date="2025-10-06T10:49:01+02:00">
     <body>
       <trans-unit id="acceptAll">
-        <source>accept all</source>
+        <source>Accept all</source>
       </trans-unit>
       <trans-unit id="acceptSelected">
-        <source>accept selected</source>
+        <source>Accept selected</source>
       </trans-unit>
       <trans-unit id="close">
-        <source>close</source>
+        <source>Close</source>
       </trans-unit>
       <trans-unit id="consentModal.description">
         <source>Here you can assess and customize the services that we&#39;d like to use on this website. You&#39;re in charge! Enable or disable services as you see fit.</source>
@@ -41,6 +41,12 @@
       <trans-unit id="contextualConsent.description">
         <source>Do you want to load external content supplied by {title}?</source>
       </trans-unit>
+      <trans-unit id="contextualConsent.descriptionEmptyStore">
+        <source>To agree to this service permanently, you must accept {title} in the {link}.</source>
+      </trans-unit>
+      <trans-unit id="contextualConsent.modalLinkText">
+        <source>Consent Manager</source>
+      </trans-unit>
       <trans-unit id="decline">
         <source>I decline</source>
       </trans-unit>
@@ -57,10 +63,10 @@
         <source>To learn more, please read our {privacyPolicy}.</source>
       </trans-unit>
       <trans-unit id="purposeItem.service">
-        <source>A simple service that I install on my computer.</source>
+        <source>service</source>
       </trans-unit>
       <trans-unit id="purposeItem.services">
-        <source>Several simple services that I install on my computer.</source>
+        <source>services</source>
       </trans-unit>
       <trans-unit id="purposes.advertising.description">
         <source>These services process personal information to show you personalized or interest-based advertisements.</source>
@@ -69,7 +75,7 @@
         <source>Advertising</source>
       </trans-unit>
       <trans-unit id="purposes.functional.description">
-        <source>These services are essential for the correct functioning of this website. You cannot disable them here as the service would not work correctly otherwise.</source>
+        <source>These services are essential for the correct functioning of this website. You cannot disable them here as the service would not work correctly otherwise.&#xA;</source>
       </trans-unit>
       <trans-unit id="purposes.functional.title">
         <source>Service Provision</source>
@@ -81,13 +87,13 @@
         <source>Marketing</source>
       </trans-unit>
       <trans-unit id="purposes.performance.description">
-        <source>These services process personal information to optimize the service that this website offers.</source>
+        <source>These services process personal information to optimize the service that this website offers.&#xA;</source>
       </trans-unit>
       <trans-unit id="purposes.performance.title">
         <source>Performance Optimization</source>
       </trans-unit>
       <trans-unit id="save">
-        <source>save</source>
+        <source>Save</source>
       </trans-unit>
       <trans-unit id="service.disableAll.description">
         <source>Use this switch to enable or disable all services.</source>
@@ -102,10 +108,10 @@
         <source>(opt-out)</source>
       </trans-unit>
       <trans-unit id="service.purpose">
-        <source>Processing purpose</source>
+        <source>purpose</source>
       </trans-unit>
       <trans-unit id="service.purposes">
-        <source>Processing purposes</source>
+        <source>purposes</source>
       </trans-unit>
       <trans-unit id="service.required.description">
         <source>This services is always required</source>
