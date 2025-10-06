@@ -97,6 +97,18 @@ Notice As Modal
 
     Show cookie notice as modal
 
+Show title in consent notice
+----------------------------
+
+..  confval:: show_notice_title
+
+    :type: boolean
+    :Default: false
+
+    **Condition:** `must_consent == FALSE`
+
+    When enabled, Klaro shows the notice title.
+
 ..  _configuration-layout-htmltexts:
 
 HTML Texts
