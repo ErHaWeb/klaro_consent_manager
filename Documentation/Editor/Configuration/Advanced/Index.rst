@@ -37,6 +37,16 @@ Element ID
 
     You can customize the ID of the `div` element that Klaro will create when starting up. By default, Klaro will use "klaro".
 
+Style Prefix
+------------
+
+..  confval:: style_prefix
+
+    :type: string
+    :Default: (empty)
+
+    Prefix for CSS classes/container to namespace Klaro styles.
+
 Additional Class
 ----------------
 

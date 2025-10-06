@@ -58,22 +58,27 @@ class KlaroService
         'vars' => ['type' => 'object', 'default' => ''],
     ];
     private const GLOBAL_CONFIG = [
+        // Setup palette (Base & Buttons)
         'config_variable_name' => ['type' => 'bypass', 'default' => ''],
         'append_show_button' => ['type' => 'bypass', 'default' => false],
         'append_reset_button' => ['type' => 'bypass', 'default' => false],
-        'testing' => ['type' => 'boolean', 'default' => false],
         'element_i_d' => ['type' => 'string', 'default' => ''],
-        'no_auto_load' => ['type' => 'boolean', 'default' => false],
-        'show_description_empty_store' => ['type' => 'boolean', 'default' => false],
         'additional_class' => ['type' => 'string', 'default' => ''],
+        'style_prefix' => ['type' => 'string', 'default' => ''],
+
+        // Storage palette (Cookie/LocalStorage)
         'storage_method' => ['type' => 'string', 'default' => 'cookie'],
         'storage_name' => ['type' => 'string', 'default' => ''],
         'cookie_domain' => ['type' => 'string', 'default' => ''],
         'cookie_path' => ['type' => 'string', 'default' => ''],
+        'cookie_expires_after_days' => ['type' => 'integer', 'default' => 0],
+
+        // Behavior palette (Notice & Runtime Behavior)
+        'testing' => ['type' => 'boolean', 'default' => false],
+        'no_auto_load' => ['type' => 'boolean', 'default' => false],
         'html_texts' => ['type' => 'boolean', 'default' => false],
         'embedded' => ['type' => 'boolean', 'default' => false],
         'group_by_purpose' => ['type' => 'boolean', 'default' => true],
-        'cookie_expires_after_days' => ['type' => 'integer', 'default' => 0],
         'default' => ['type' => 'boolean', 'default' => false],
         'must_consent' => ['type' => 'boolean', 'default' => false],
         'accept_all' => ['type' => 'boolean', 'default' => false],
@@ -81,19 +86,28 @@ class KlaroService
         'hide_learn_more' => ['type' => 'boolean', 'default' => false],
         'hide_toggle_all' => ['type' => 'boolean', 'default' => false],
         'notice_as_modal' => ['type' => 'boolean', 'default' => false],
+        'no_notice' => ['type' => 'boolean', 'default' => false],
         'show_notice_title' => ['type' => 'boolean', 'default' => false],
         'auto_focus' => ['type' => 'boolean', 'default' => false],
-        'disable_powered_by' => ['type' => 'boolean', 'default' => false],
-        'purpose_order' => ['type' => 'list', 'default' => ''],
-        'callback' => ['type' => 'callback', 'default' => ''],
+        'show_description_empty_store' => ['type' => 'boolean', 'default' => false],
 
-        // Special properties
+        // Display palette (UI Display & Ordering)
+        'disable_powered_by' => ['type' => 'boolean', 'default' => false],
+        'powered_by' => ['type' => 'string', 'default' => ''],
+        'purpose_order' => ['type' => 'list', 'default' => ''],
+
+        // Styling palette (Theme & Positioning)
         'color_scheme' => ['type' => 'bypass', 'default' => 'dark_neutral'],
         'alignment' => ['type' => 'bypass', 'default' => 'bottom-right'],
+
+        // Advanced palette (Callbacks & Hooks)
+        'callback' => ['type' => 'callback', 'default' => ''],
+
+        // Translations palette (Asset Locations)
         'fluidtemplate_rootpath' => ['type' => 'bypass', 'default' => ''],
         'locallang_path' => ['type' => 'bypass', 'default' => ''],
 
-        // Relations
+        // Relations palette
         'services' => ['type' => 'bypass', 'default' => ''],
     ];
     private const GLOBAL_LABELS = [

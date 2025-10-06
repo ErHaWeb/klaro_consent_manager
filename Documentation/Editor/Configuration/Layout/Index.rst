@@ -97,6 +97,17 @@ Notice As Modal
 
     Show cookie notice as modal
 
+Hide Initial Notice
+-------------------
+
+..  confval:: no_notice
+
+    :type: boolean
+    :Default: false
+
+    Do not show the initial consent notice dialog. The manager can still be
+    opened manually or via contextual consent overlays.
+
 Show title in consent notice
 ----------------------------
 
@@ -199,3 +210,14 @@ Disable Powered By
     :Default: false
 
     You can also remove the "Realized with Klaro!" text in the consent modal. Please don't do this! We provide Klaro as a free open source tool. Placing a link to our website helps us spread the word about it, which ultimately enables us to make Klaro! better for everyone. So please be fair and keep the link enabled. Thanks :)
+
+Powered By URL
+--------------
+
+..  confval:: powered_by
+
+    :type: string (URL)
+    :Default: (empty)
+
+    Override the “powered by” link URL in the consent modal.
+    Leave empty to use Klaro’s default.
