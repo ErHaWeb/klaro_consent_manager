@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
-  <file source-language="en" original="EXT:klaro_consent_manager/Resources/Private/Language/locallang_db.xlf" datatype="plaintext" product-name="lang" date="2025-10-06T13:10:31+02:00" target-language="zh-TW">
+  <file source-language="en" original="EXT:klaro_consent_manager/Resources/Private/Language/locallang_db.xlf" datatype="plaintext" product-name="lang" date="2025-10-06T13:10:31+02:00" target-language="zh-CN">
     <header/>
     <body>
       <trans-unit id="tx_klaroconsentmanager_configuration">
@@ -312,8 +312,8 @@
         <target state="needs-translation">Show title in consent notice</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.show_notice_title.description">
-        <source>When enabled, Klaro shows the notice title.</source>
-        <target state="needs-translation">When enabled, Klaro shows the notice title.</target>
+        <source>When this option is enabled, Klaro displays the title in the notice modal.</source>
+        <target state="needs-translation">When this option is enabled, Klaro displays the title in the notice modal.</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.disable_powered_by.label">
         <source>Disable Powered By</source>
