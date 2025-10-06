@@ -107,7 +107,7 @@ Show title in consent notice
 
     **Condition:** `must_consent == FALSE`
 
-    When enabled, Klaro shows the notice title.
+    When this option is enabled, Klaro displays the title in the notice modal.
 
 ..  _configuration-layout-htmltexts:
 
