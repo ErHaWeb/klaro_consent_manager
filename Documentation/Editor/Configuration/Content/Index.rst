@@ -45,7 +45,7 @@ Hide Toggle All
     :type: boolean
     :Default: false
 
-    Setting `hideToggleAll` to `true` will hide the "toggle all" link in the consent notice. (Attention: This option is not supported in the current Klaro release. Once this is fixed, this option will be enabled again.)
+    Setting `hideToggleAll` to `true` will hide the "toggle all" link in the consent notice.
 
 Append Buttons
 ==============

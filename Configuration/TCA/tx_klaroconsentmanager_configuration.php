@@ -314,7 +314,6 @@ return [
                 'type' => 'check',
                 'renderType' => 'checkboxLabeledToggle',
                 'default' => 0,
-                'readOnly' => 1,
                 'items' => [
                     [
                         'label' => '',
