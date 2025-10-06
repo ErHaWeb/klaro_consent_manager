@@ -3,7 +3,7 @@
 .. the changelog is displayed in the pagetree in Changelog
 .. there are external links to the github files however.
 
-.. _changelog-1-8:
+.. _changelog-2-1:
 
 ===
 2.1
@@ -19,4 +19,5 @@ List of versions
     :titlesonly:
     :glob:
 
+    2-1-1
     2-1-0

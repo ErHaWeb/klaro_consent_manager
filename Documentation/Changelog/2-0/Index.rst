@@ -3,7 +3,7 @@
 .. the changelog is displayed in the pagetree in Changelog
 .. there are external links to the github files however.
 
-.. _changelog-1-8:
+.. _changelog-2-0:
 
 ===
 2.0

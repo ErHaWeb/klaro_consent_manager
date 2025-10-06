@@ -1,0 +1,28 @@
+.. include:: /Includes.rst.txt
+
+2.1.1 - October 06, 2025
+========================
+
+
+.. only:: html
+
+   .. contents::
+        :local:
+        :depth: 3
+
+Breaking changes
+----------------
+Please make a DB compare to add missing fields for klaro configuration
+
+All Changes
+-----------
+This is a list of all changes in this release: ::
+
+    2025-10-06 [BUGFIX] Add missing options "stylePrefix", "noNotice" and "poweredBy" (Commit 5d14355 by Eric Harrer)
+    2025-10-06 [BUGFIX] Add missing option "showDescriptionEmptyStore" (Commit 3494dfc by Eric Harrer)
+    2025-10-06 [BUGFIX] Add missing option "autoFocus" (Commit 957afa6 by Eric Harrer)
+    2025-10-06 [TASK] Improve description for option "showNoticeTitle" (Commit 03f6552 by Eric Harrer)
+    2025-10-06 [DOCS] Add documentation for option "showNoticeTitle" (Commit a86b4cd by Eric Harrer)
+    2025-10-06 [BUGFIX] Add missing option "showNoticeTitle" (Commit ae2bc08 by Eric Harrer)
+
+This list has been created by using `git log $(git describe --tags --abbrev=0)..HEAD --abbrev-commit --pretty='%ad %s (Commit %h by %an)' --date=short`.
