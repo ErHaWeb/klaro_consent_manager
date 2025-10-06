@@ -1,0 +1,27 @@
+.. include:: /Includes.rst.txt
+
+2.1.0 - October 06, 2025
+========================
+
+
+.. only:: html
+
+   .. contents::
+        :local:
+        :depth: 3
+
+Breaking changes
+----------------
+No breaking changes!
+
+All Changes
+-----------
+This is a list of all changes in this release: ::
+
+    2025-10-06 [TASK] Enable option "hideToggleAll" (Commit 802702a by Eric Harrer)
+    2025-10-06 [TASK] Update klaro base script (Commit d8d01ea by Eric Harrer)
+    2025-10-06 [FEATURE] Add command to convert Klaro YAML translations into XLIFF (Commit ddf91aa by Eric Harrer)
+    2025-10-06 [TASK] Update locallang labels (Commit 4deec9d by Eric Harrer)
+    2025-10-06 [TASK] Reformat XLIFF files (Commit 47721da by Eric Harrer)
+
+This list has been created by using `git log $(git describe --tags --abbrev=0)..HEAD --abbrev-commit --pretty='%ad %s (Commit %h by %an)' --date=short`.
