@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
-  <file source-language="en" original="EXT:klaro_consent_manager/Resources/Private/Language/locallang_db.xlf" datatype="plaintext" product-name="lang" date="2025-07-10T17:29:05+02:00" target-language="ko">
+  <file source-language="en" original="EXT:klaro_consent_manager/Resources/Private/Language/locallang_db.xlf" datatype="plaintext" product-name="lang" date="2025-10-06T09:34:16+02:00" target-language="ko">
     <header/>
     <body>
       <trans-unit id="tx_klaroconsentmanager_configuration">
@@ -296,8 +296,8 @@
         <target state="needs-translation">Hide Toggle All</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.hide_toggle_all.description">
-        <source>Setting `hideToggleAll` to `true` will hide the "toggle all" link in the consent notice. (Attention: This option is not supported in the current Klaro release. Once this is fixed, this option will be enabled again.)</source>
-        <target state="needs-translation">Setting `hideToggleAll` to `true` will hide the "toggle all" link in the consent notice. (Attention: This option is not supported in the current Klaro release. Once this is fixed, this option will be enabled again.)</target>
+        <source>Setting `hideToggleAll` to `true` will hide the "toggle all" link in the consent notice.</source>
+        <target state="needs-translation">Setting `hideToggleAll` to `true` will hide the "toggle all" link in the consent notice.</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.notice_as_modal.label">
         <source>Notice As Modal</source>
