@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
-  <file source-language="en" original="EXT:klaro_consent_manager/Resources/Private/Language/locallang_db.xlf" datatype="plaintext" product-name="lang" date="2025-10-06T13:10:31+02:00">
+  <file source-language="en" original="EXT:klaro_consent_manager/Resources/Private/Language/locallang_db.xlf" datatype="plaintext" product-name="lang" date="2025-10-06T16:37:58+02:00">
     <header></header>
     <body>
       <trans-unit id="tx_klaroconsentmanager_configuration">
@@ -236,6 +236,12 @@
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.show_notice_title.description">
         <source>When this option is enabled, Klaro displays the title in the notice modal.</source>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_configuration.auto_focus.label">
+        <source>Auto Focus</source>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_configuration.auto_focus.description">
+        <source>Automatically focus the Klaro consent notice/modal container when it opens to improve keyboard navigation and accessibility.</source>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.disable_powered_by.label">
         <source>Disable Powered By</source>

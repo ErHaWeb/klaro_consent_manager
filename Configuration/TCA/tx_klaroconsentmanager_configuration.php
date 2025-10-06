@@ -362,6 +362,24 @@ return [
                 ],
             ],
         ],
+        'auto_focus' => [
+            'exclude' => 1,
+            'label' => 'LLL:EXT:klaro_consent_manager/Resources/Private/Language/locallang_db.xlf:tx_klaroconsentmanager_configuration.auto_focus.label',
+            'description' => 'LLL:EXT:klaro_consent_manager/Resources/Private/Language/locallang_db.xlf:tx_klaroconsentmanager_configuration.auto_focus.description',
+            'config' => [
+                'type' => 'check',
+                'renderType' => 'checkboxLabeledToggle',
+                'default' => 1,
+                'items' => [
+                    [
+                        'label' => '',
+                        'value' => '',
+                        'labelChecked' => 'LLL:EXT:klaro_consent_manager/Resources/Private/Language/locallang_db.xlf:tx_klaroconsentmanager_configuration.I.true',
+                        'labelUnchecked' => 'LLL:EXT:klaro_consent_manager/Resources/Private/Language/locallang_db.xlf:tx_klaroconsentmanager_configuration.I.false',
+                    ],
+                ],
+            ],
+        ],
         'disable_powered_by' => [
             'label' => 'LLL:EXT:klaro_consent_manager/Resources/Private/Language/locallang_db.xlf:tx_klaroconsentmanager_configuration.disable_powered_by.label',
             'description' => 'LLL:EXT:klaro_consent_manager/Resources/Private/Language/locallang_db.xlf:tx_klaroconsentmanager_configuration.disable_powered_by.description',
@@ -606,8 +624,8 @@ return [
         'behavior_palette' => [
             'label' => 'LLL:EXT:klaro_consent_manager/Resources/Private/Language/locallang_db.xlf:tx_klaroconsentmanager_configuration.palettes.behavior_palette',
             'showitem' => '
-                must_consent, --linebreak--,
-                notice_as_modal, show_notice_title, --linebreak--,
+                must_consent, notice_as_modal, --linebreak--,
+                show_notice_title, auto_focus, --linebreak--,
                 html_texts, embedded, --linebreak--,
                 testing, no_auto_load
             ',

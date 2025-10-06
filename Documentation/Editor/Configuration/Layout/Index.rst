@@ -109,6 +109,16 @@ Show title in consent notice
 
     When this option is enabled, Klaro displays the title in the notice modal.
 
+Auto Focus
+----------
+
+..  confval:: auto_focus
+
+    :type: boolean
+    :Default: false
+
+    Automatically focus the Klaro consent notice/modal container when it opens to improve keyboard navigation and accessibility.
+
 ..  _configuration-layout-htmltexts:
 
 HTML Texts

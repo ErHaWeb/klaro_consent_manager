@@ -26,6 +26,7 @@ CREATE TABLE tx_klaroconsentmanager_configuration
     `hide_toggle_all`           tinyint(4)       DEFAULT '0'  NOT NULL,
     `notice_as_modal`           tinyint(4)       DEFAULT '0'  NOT NULL,
     `show_notice_title`         tinyint(4)       DEFAULT '1'  NOT NULL,
+    `auto_focus`                tinyint(4)       DEFAULT '1'  NOT NULL,
     `disable_powered_by`        tinyint(4)       DEFAULT '0'  NOT NULL,
     `purpose_order`             varchar(255)     DEFAULT ''   NOT NULL,
     `no_auto_load`              tinyint(4)       DEFAULT '0'  NOT NULL,

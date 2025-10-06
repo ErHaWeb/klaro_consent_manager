@@ -81,6 +81,7 @@ class KlaroService
         'hide_toggle_all' => ['type' => 'boolean', 'default' => false],
         'notice_as_modal' => ['type' => 'boolean', 'default' => false],
         'show_notice_title' => ['type' => 'boolean', 'default' => false],
+        'auto_focus' => ['type' => 'boolean', 'default' => false],
         'disable_powered_by' => ['type' => 'boolean', 'default' => false],
         'purpose_order' => ['type' => 'list', 'default' => ''],
         'callback' => ['type' => 'callback', 'default' => ''],
