@@ -362,6 +362,25 @@ return [
                 ],
             ],
         ],
+        'show_description_empty_store' => [
+            'displayCond' => 'FIELD:must_consent:=:0',
+            'exclude' => 1,
+            'label' => 'LLL:EXT:klaro_consent_manager/Resources/Private/Language/locallang_db.xlf:tx_klaroconsentmanager_configuration.show_description_empty_store.label',
+            'description' => 'LLL:EXT:klaro_consent_manager/Resources/Private/Language/locallang_db.xlf:tx_klaroconsentmanager_configuration.show_description_empty_store.description',
+            'config' => [
+                'type' => 'check',
+                'renderType' => 'checkboxLabeledToggle',
+                'default' => 1,
+                'items' => [
+                    [
+                        'label' => '',
+                        'value' => '',
+                        'labelChecked' => 'LLL:EXT:klaro_consent_manager/Resources/Private/Language/locallang_db.xlf:tx_klaroconsentmanager_configuration.I.true',
+                        'labelUnchecked' => 'LLL:EXT:klaro_consent_manager/Resources/Private/Language/locallang_db.xlf:tx_klaroconsentmanager_configuration.I.false',
+                    ],
+                ],
+            ],
+        ],
         'auto_focus' => [
             'exclude' => 1,
             'label' => 'LLL:EXT:klaro_consent_manager/Resources/Private/Language/locallang_db.xlf:tx_klaroconsentmanager_configuration.auto_focus.label',
@@ -627,7 +646,8 @@ return [
                 must_consent, notice_as_modal, --linebreak--,
                 show_notice_title, auto_focus, --linebreak--,
                 html_texts, embedded, --linebreak--,
-                testing, no_auto_load
+                testing, no_auto_load, --linebreak--,
+                show_description_empty_store
             ',
         ],
         'hide_buttons_palette' => [

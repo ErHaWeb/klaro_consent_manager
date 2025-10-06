@@ -64,6 +64,7 @@ class KlaroService
         'testing' => ['type' => 'boolean', 'default' => false],
         'element_i_d' => ['type' => 'string', 'default' => ''],
         'no_auto_load' => ['type' => 'boolean', 'default' => false],
+        'show_description_empty_store' => ['type' => 'boolean', 'default' => false],
         'additional_class' => ['type' => 'string', 'default' => ''],
         'storage_method' => ['type' => 'string', 'default' => 'cookie'],
         'storage_name' => ['type' => 'string', 'default' => ''],
@@ -108,7 +109,7 @@ class KlaroService
         'acceptSelected',
         'service' => ['disableAll' => ['title', 'description'], 'optOut' => ['title', 'description'], 'required' => ['title', 'description'], 'purposes', 'purpose'],
         'poweredBy',
-        'contextualConsent' => ['description', 'acceptOnce', 'acceptAlways'],
+        'contextualConsent' => ['description', 'acceptOnce', 'acceptAlways', 'descriptionEmptyStore', 'modalLinkText'],
     ];
 
     private int $configurationId = 0;

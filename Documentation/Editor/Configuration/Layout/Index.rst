@@ -119,6 +119,22 @@ Auto Focus
 
     Automatically focus the Klaro consent notice/modal container when it opens to improve keyboard navigation and accessibility.
 
+Show Description (Empty Store)
+------------------------------
+
+..  confval:: show_description_empty_store
+
+    :type: boolean
+    :Default: false
+
+    :type: boolean
+    :Default: false
+
+    Show an explanatory text in contextual consent placeholders **when no consent storage exists yet** (first visit / empty store). This informs users that a permanent decision ("Always") requires allowing Klaro to store consent first.
+
+    .. note::
+        Only has an effect in contextual consent widgets/overlays (e.g. for embedded media) and **only** if the consent store (cookie/localStorage) is empty.
+
 ..  _configuration-layout-htmltexts:
 
 HTML Texts

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
-  <file source-language="en" original="EXT:klaro_consent_manager/Resources/Private/Language/locallang_db.xlf" datatype="plaintext" product-name="lang" date="2025-10-06T16:37:58+02:00">
+  <file source-language="en" original="EXT:klaro_consent_manager/Resources/Private/Language/locallang_db.xlf" datatype="plaintext" product-name="lang" date="2025-10-06T17:10:39+02:00">
     <header></header>
     <body>
       <trans-unit id="tx_klaroconsentmanager_configuration">
@@ -236,6 +236,12 @@
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.show_notice_title.description">
         <source>When this option is enabled, Klaro displays the title in the notice modal.</source>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_configuration.show_description_empty_store.label">
+        <source>Show Description (Empty Store)</source>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_configuration.show_description_empty_store.description">
+        <source>Show an explanatory text in contextual consent placeholders when no consent storage exists yet (first visit / empty store). This informs users that a permanent decision (&#34;Always&#34;) requires allowing Klaro to store consent first. This only has an effect in contextual consent widgets/overlays (e.g. for embedded media) and only if the consent store (cookie/localStorage) is empty.</source>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.auto_focus.label">
         <source>Auto Focus</source>
