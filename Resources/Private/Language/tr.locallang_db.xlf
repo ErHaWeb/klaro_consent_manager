@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
-  <file source-language="en" original="EXT:klaro_consent_manager/Resources/Private/Language/locallang_db.xlf" datatype="plaintext" product-name="lang" date="2025-10-06T17:10:39+02:00" target-language="tr">
+  <file source-language="en" original="EXT:klaro_consent_manager/Resources/Private/Language/locallang_db.xlf" datatype="plaintext" product-name="lang" date="2025-10-06T20:53:36+02:00" target-language="tr">
     <header/>
     <body>
       <trans-unit id="tx_klaroconsentmanager_configuration">
@@ -942,6 +942,38 @@
       <trans-unit id="tt_content.tx_klaroconsentmanager_service.description">
         <source>When a service is selected in this field, the content item is displayed via contextual consent only if the user has agreed to use the selected service in the Klaro! Consent Manager. Please make sure that the static TypoScript template of the Klaro! Consent Manager has been added to use this feature.</source>
         <target state="needs-translation">When a service is selected in this field, the content item is displayed via contextual consent only if the user has agreed to use the selected service in the Klaro! Consent Manager. Please make sure that the static TypoScript template of the Klaro! Consent Manager has been added to use this feature.</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_configuration.no_notice.label">
+        <source>Hide initial consent notice</source>
+        <target state="needs-translation">Hide initial consent notice</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_configuration.no_notice.description">
+        <source>Do not show the initial notice. The manager can still be opened manually or via contextual consent.</source>
+        <target state="needs-translation">Do not show the initial notice. The manager can still be opened manually or via contextual consent.</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_configuration.powered_by.label">
+        <source>Powered by URL override</source>
+        <target state="needs-translation">Powered by URL override</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_configuration.powered_by.description">
+        <source>Override the “powered by” link in the consent modal. Leave empty to use Klaro default.</source>
+        <target state="needs-translation">Override the “powered by” link in the consent modal. Leave empty to use Klaro default.</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_configuration.powered_by.placeholder">
+        <source>https://example.com/your-link</source>
+        <target state="needs-translation">https://example.com/your-link</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_configuration.style_prefix.label">
+        <source>Style prefix</source>
+        <target state="needs-translation">Style prefix</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_configuration.style_prefix.description">
+        <source>Prefix for CSS classes/container to namespace Klaro styles.</source>
+        <target state="needs-translation">Prefix for CSS classes/container to namespace Klaro styles.</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_configuration.style_prefix.placeholder">
+        <source>my-klaro</source>
+        <target state="needs-translation">my-klaro</target>
       </trans-unit>
     </body>
   </file>
