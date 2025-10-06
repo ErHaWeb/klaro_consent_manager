@@ -343,6 +343,25 @@ return [
                 ],
             ],
         ],
+        'show_notice_title' => [
+            'displayCond' => 'FIELD:must_consent:=:0',
+            'exclude' => 1,
+            'label' => 'LLL:EXT:klaro_consent_manager/Resources/Private/Language/locallang_db.xlf:tx_klaroconsentmanager_configuration.show_notice_title.label',
+            'description' => 'LLL:EXT:klaro_consent_manager/Resources/Private/Language/locallang_db.xlf:tx_klaroconsentmanager_configuration.show_notice_title.description',
+            'config' => [
+                'type' => 'check',
+                'renderType' => 'checkboxLabeledToggle',
+                'default' => 1,
+                'items' => [
+                    [
+                        'label' => '',
+                        'value' => '',
+                        'labelChecked' => 'LLL:EXT:klaro_consent_manager/Resources/Private/Language/locallang_db.xlf:tx_klaroconsentmanager_configuration.I.true',
+                        'labelUnchecked' => 'LLL:EXT:klaro_consent_manager/Resources/Private/Language/locallang_db.xlf:tx_klaroconsentmanager_configuration.I.false',
+                    ],
+                ],
+            ],
+        ],
         'disable_powered_by' => [
             'label' => 'LLL:EXT:klaro_consent_manager/Resources/Private/Language/locallang_db.xlf:tx_klaroconsentmanager_configuration.disable_powered_by.label',
             'description' => 'LLL:EXT:klaro_consent_manager/Resources/Private/Language/locallang_db.xlf:tx_klaroconsentmanager_configuration.disable_powered_by.description',
@@ -587,7 +606,8 @@ return [
         'behavior_palette' => [
             'label' => 'LLL:EXT:klaro_consent_manager/Resources/Private/Language/locallang_db.xlf:tx_klaroconsentmanager_configuration.palettes.behavior_palette',
             'showitem' => '
-                must_consent, notice_as_modal, --linebreak--,
+                must_consent, --linebreak--,
+                notice_as_modal, show_notice_title, --linebreak--,
                 html_texts, embedded, --linebreak--,
                 testing, no_auto_load
             ',
