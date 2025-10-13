@@ -339,6 +339,10 @@ class KlaroService
     {
         $return = [];
         foreach ($this->rawConfiguration['services'] as $service) {
+            if (!$this->isServiceEnabledByTypoScript($service)) {
+                continue;
+            }
+
             $arguments = ['service' => $service];
             $serviceConfiguration = [
                 'translations' => [
@@ -390,6 +394,41 @@ class KlaroService
         }
 
         return $return;
+    }
+
+    private function isServiceEnabledByTypoScript(array $service): bool
+    {
+        // Read TS settings for service filtering
+        $settings = $this->settings['services'] ?? [];
+
+        $name = (string)($service['name'] ?? '');
+        if ($name === '') {
+            return true; // no name -> do not filter
+        }
+
+        // Convert comma-separated lists to arrays
+        $whitelist = [];
+        if (!empty($settings['whitelist']) && is_string($settings['whitelist'])) {
+            $whitelist = GeneralUtility::trimExplode(',', $settings['whitelist'], true);
+        }
+
+        $blacklist = [];
+        if (!empty($settings['blacklist']) && is_string($settings['blacklist'])) {
+            $blacklist = GeneralUtility::trimExplode(',', $settings['blacklist'], true);
+        }
+
+        // 1) whitelist: if defined, only listed services are allowed
+        if ($whitelist !== []) {
+            return in_array($name, $whitelist, true);
+        }
+
+        // 2) blacklist: deny if listed
+        if ($blacklist !== [] && in_array($name, $blacklist, true)) {
+            return false;
+        }
+
+        // default: enabled
+        return true;
     }
 
     private function modifyValueByType(mixed $value, string $type): mixed

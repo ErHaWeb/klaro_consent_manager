@@ -215,6 +215,35 @@ Sometimes it is desired that sites or certain translations do not use Consent Ma
       }
     [END]
 
+Service Filtering
+=================
+
+With this feature you can enable or disable individual services via TypoScript.
+This is useful for conditions such as language, site identifier, or application context.
+
+- ``plugin.tx_klaroconsentmanager.settings.services.whitelist``
+  Comma-separated list of service names. If defined, only these services are active.
+  Any blacklist is ignored.
+
+- ``plugin.tx_klaroconsentmanager.settings.services.blacklist``
+  Comma-separated list of service names. If no whitelist is defined, all services are active except those listed.
+
+Priority: Whitelist > Blacklist > Default (all active)
+
+**Example:**
+
+.. code-block:: typoscript
+
+    # Restrict the services exclusively to Google Analytics and Matomo if this is the default language
+    [siteLanguage("languageId") === 0]
+    plugin.tx_klaroconsentmanager.settings.services.whitelist = google-analytics, matomo
+    [end]
+
+    # Remove the Facebook Pixel services if the current language has the UID 1
+    [siteLanguage("languageId") === 1]
+    plugin.tx_klaroconsentmanager.settings.services.blacklist = facebook-pixel
+    [end]
+
 Standalone configuration
 ========================
 
