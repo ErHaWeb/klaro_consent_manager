@@ -220,7 +220,6 @@ return [
                 'foreign_field' => 'parentid',
                 'foreign_table_field' => 'parenttable',
                 'foreign_sortby' => 'sorting',
-                'foreign_default_sortby' => 'sorting ASC',
                 'appearance' => [
                     'useSortable' => true,
                     'showSynchronizationLink' => true,
