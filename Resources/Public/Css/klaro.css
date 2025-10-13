@@ -36,6 +36,8 @@ to create a white background.
 }
 .klaro.cm-as-context-notice {
   height: 100%;
+  padding-bottom: 12px;
+  padding-top: 12px;
 }
 .klaro .cookie-modal,
 .klaro .context-notice,
@@ -210,7 +212,7 @@ to create a white background.
 .klaro .cookie-notice .cm-list-label input:focus + .slider {
   box-shadow-color: #888;
   box-shadow-color: var(--green3, #888);
-  box-shadow: 0 0 1px var(color, green3);
+  box-shadow: 0 0 1px var(--box-shadow-color, green3);
 }
 .klaro .cookie-modal .cm-list-label input:checked + .slider::before,
 .klaro .context-notice .cm-list-label input:checked + .slider::before,
@@ -404,6 +406,11 @@ to create a white background.
 }
 .klaro .context-notice p.cm-buttons {
   margin-top: 12px;
+}
+.klaro .context-notice p.ccn-description-empty-store {
+  margin-top: 24px;
+  font-size: 14px;
+  font-size: var(--font-size, 14px);
 }
 .klaro .cookie-modal {
   width: 100%;
@@ -698,6 +705,8 @@ to create a white background.
   margin-top: 0.5em;
 }
 .klaro .cookie-modal-notice {
+  padding: 1em;
+  padding-top: 0.2em;
   background-color: #333;
   background-color: var(--dark1, #333);
   color: #fafafa;
@@ -710,8 +719,6 @@ to create a white background.
   transform: translateY(-50%);
   position: fixed;
   overflow: auto;
-  padding: 1em;
-  padding-top: 0.2em;
 }
 @media (min-width: 400px) {
   .klaro .cookie-modal-notice {

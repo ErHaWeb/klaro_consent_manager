@@ -1,3 +1,6 @@
+@use "sass:map";
+@use 'sass:color';
+
 /*
 We declare all variables here as default so that they are easy to override...
 */
@@ -38,15 +41,15 @@ $var-font-size: 14px !default;
 
 /* White */
 $var-white1: #fff !default;
-$var-white2: scale-color($var-white1, $lightness: -5%) !default;
-$var-white3: scale-color($var-white2, $lightness: -5%) !default;
+$var-white2: color.scale($var-white1, $lightness: -5%) !default;
+$var-white3: color.scale($var-white2, $lightness: -5%) !default;
 
 /* Differently shaded colors */
 
 // light gray
 $var-light1: #fafafa !default;
-$var-light2: scale-color($var-light1, $lightness: -20%) !default;
-$var-light3: scale-color($var-light2, $lightness: -20%) !default;
+$var-light2: color.scale($var-light1, $lightness: -20%) !default;
+$var-light3: color.scale($var-light2, $lightness: -20%) !default;
 
 // dark gray
 $var-dark1: #333 !default;
@@ -116,14 +119,14 @@ $vars: (
 
 /*
 Use @include var(property, varname) to include a variable, e.g.
-  
+
     @include var(background-color, white1);
 
 to create a white background.
 */
 @mixin var($property, $varName) {
-    #{$property}: map-get($vars, $varName);
-    #{$property}: var(--#{$varName}, map-get($vars, $varName));
+    #{$property}: map.get($vars, $varName);
+    #{$property}: var(--#{$varName}, map.get($vars, $varName));
 }
 
 /* Spacing */
