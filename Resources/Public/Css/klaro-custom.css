@@ -22,17 +22,17 @@ to create a white background.
 */
 /* Spacing */
 /* Breakpoints */
-.klaro .cookie-modal .cm-modal .cm-body .cm-purpose .cm-list-description p,
-.klaro .cookie-modal .cm-modal .cm-body .cm-purpose .cm-list-description strong,
-.klaro .cookie-modal .cm-modal .cm-body .cm-purpose .cm-list-description h1,
-.klaro .cookie-modal .cm-modal .cm-body .cm-purpose .cm-list-description h2,
-.klaro .cookie-modal .cm-modal .cm-body .cm-purpose .cm-list-description ul,
-.klaro .cookie-modal .cm-modal .cm-body .cm-purpose .cm-list-description li,
-.klaro .cookie-modal .cm-modal .cm-body .cm-purpose .cm-list-description .table {
+.klaro .cookie-modal .cm-modal .cm-body .cm-list-description p,
+.klaro .cookie-modal .cm-modal .cm-body .cm-list-description strong,
+.klaro .cookie-modal .cm-modal .cm-body .cm-list-description h1,
+.klaro .cookie-modal .cm-modal .cm-body .cm-list-description h2,
+.klaro .cookie-modal .cm-modal .cm-body .cm-list-description ul,
+.klaro .cookie-modal .cm-modal .cm-body .cm-list-description li,
+.klaro .cookie-modal .cm-modal .cm-body .cm-list-description .table {
   color: #bbb;
   color: var(--dark3, #bbb);
 }
-.klaro .cookie-modal .cm-modal .cm-body .cm-purpose .cm-list-description .table {
+.klaro .cookie-modal .cm-modal .cm-body .cm-list-description .table {
   display: table;
   width: 100%;
   border-style: solid;
@@ -42,15 +42,15 @@ to create a white background.
   border-width: 1px;
   border-width: var(--border-width, 1px);
 }
-.klaro .cookie-modal .cm-modal .cm-body .cm-purpose .cm-list-description .table > .tr {
+.klaro .cookie-modal .cm-modal .cm-body .cm-list-description .table > .tr {
   display: table-row;
 }
-.klaro .cookie-modal .cm-modal .cm-body .cm-purpose .cm-list-description .table > .tr > .th {
+.klaro .cookie-modal .cm-modal .cm-body .cm-list-description .table > .tr > .th {
   white-space: nowrap;
   font-weight: bold;
 }
-.klaro .cookie-modal .cm-modal .cm-body .cm-purpose .cm-list-description .table > .tr > .th,
-.klaro .cookie-modal .cm-modal .cm-body .cm-purpose .cm-list-description .table > .tr > .td {
+.klaro .cookie-modal .cm-modal .cm-body .cm-list-description .table > .tr > .th,
+.klaro .cookie-modal .cm-modal .cm-body .cm-list-description .table > .tr > .td {
   padding: 0.25rem 0.5rem;
   display: table-cell;
   border-bottom-style: solid;
@@ -66,12 +66,12 @@ to create a white background.
   border-left-width: 1px;
   border-left-width: var(--border-width, 1px);
 }
-.klaro .cookie-modal .cm-modal .cm-body .cm-purpose .cm-list-description .table > .tr:last-child > .th,
-.klaro .cookie-modal .cm-modal .cm-body .cm-purpose .cm-list-description .table > .tr:last-child > .td {
+.klaro .cookie-modal .cm-modal .cm-body .cm-list-description .table > .tr:last-child > .th,
+.klaro .cookie-modal .cm-modal .cm-body .cm-list-description .table > .tr:last-child > .td {
   border-bottom: none;
 }
-.klaro .cookie-modal .cm-modal .cm-body .cm-purpose .cm-list-description .table > .tr > .th:first-child,
-.klaro .cookie-modal .cm-modal .cm-body .cm-purpose .cm-list-description .table > .tr > .td:first-child {
+.klaro .cookie-modal .cm-modal .cm-body .cm-list-description .table > .tr > .th:first-child,
+.klaro .cookie-modal .cm-modal .cm-body .cm-list-description .table > .tr > .td:first-child {
   border-left: none;
 }
 .klaro .cookie-modal .cm-modal .cm-footer .cm-powered-by.d-flex {

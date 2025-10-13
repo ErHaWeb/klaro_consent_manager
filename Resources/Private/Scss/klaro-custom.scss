@@ -5,57 +5,55 @@
   .cookie-modal {
     .cm-modal {
       .cm-body {
-        .cm-purpose {
-          .cm-list-description {
-            p,
-            strong,
-            h1,
-            h2,
-            ul,
-            li,
-            .table {
-              @include var(color, dark3);
-            }
+        .cm-list-description {
+          p,
+          strong,
+          h1,
+          h2,
+          ul,
+          li,
+          .table {
+            @include var(color, dark3);
+          }
 
-            .table {
-              display: table;
-              width: 100%;
-              @include var(border-style, border-style);
-              @include var(border-color, dark3);
-              @include var(border-width, border-width);
+          .table {
+            display: table;
+            width: 100%;
+            @include var(border-style, border-style);
+            @include var(border-color, dark3);
+            @include var(border-width, border-width);
 
-              > .tr {
-                display: table-row;
+            > .tr {
+              display: table-row;
 
-                > .th {
-                  white-space: nowrap;
-                  font-weight: bold;
-                }
+              > .th {
+                white-space: nowrap;
+                font-weight: bold;
+              }
 
+              > .th,
+              > .td {
+                padding: 0.25rem 0.5rem;
+                display: table-cell;
+                @include var(border-bottom-style, border-style);
+                @include var(border-bottom-color, dark3);
+                @include var(border-bottom-width, border-width);
+                @include var(border-left-style, border-style);
+                @include var(border-left-color, dark3);
+                @include var(border-left-width, border-width);
+              }
+
+              &:last-child {
                 > .th,
                 > .td {
-                  padding: 0.25rem 0.5rem;
-                  display: table-cell;
-                  @include var(border-bottom-style, border-style);
-                  @include var(border-bottom-color, dark3);
-                  @include var(border-bottom-width, border-width);
-                  @include var(border-left-style, border-style);
-                  @include var(border-left-color, dark3);
-                  @include var(border-left-width, border-width);
+                  border-bottom: none;
                 }
+              }
 
-                &:last-child {
-                  > .th,
-                  > .td {
-                    border-bottom: none;
-                  }
-                }
-
-                > .th,
-                > .td {
-                  &:first-child {
-                    border-left: none;
-                  }
+              > .th,
+              > .td {
+                &:first-child {
+                  border-left: none;
                 }
               }
             }
