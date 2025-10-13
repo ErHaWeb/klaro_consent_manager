@@ -8,6 +8,7 @@ return [
         'tstamp' => 'tstamp',
         'crdate' => 'crdate',
         'delete' => 'deleted',
+        'sortby' => 'sorting',
         'typeicon_classes' => [
             'default' => 'tx-klaroconsentmanager-cookie',
         ],
