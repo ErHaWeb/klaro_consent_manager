@@ -103,7 +103,7 @@ Replace attributes
 
 ..  confval:: contextualconsent.replaceAttributes
 
-    :type: string
+    :type: string (comma-separated list)
     :Default: src,href
     :Path: plugin.tx_klaroconsentmanager.settings
 
