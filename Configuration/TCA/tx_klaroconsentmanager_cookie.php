@@ -23,7 +23,7 @@ return [
     ],
     'columns' => [
         'hidden' => [
-            'label' => 'LLL:EXT:core/Resources/Private/Language/locallang_tca.xlf:pages.hidden_toggle',
+            'label' => 'LLL:EXT:klaro_consent_manager/Resources/Private/Language/locallang_db.xlf:tx_klaroconsentmanager_cookie.hidden',
             'config' => [
                 'type' => 'check',
                 'renderType' => 'checkboxToggle',
