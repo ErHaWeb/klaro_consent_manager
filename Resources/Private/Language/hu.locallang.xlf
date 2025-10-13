@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
-  <file source-language="en" original="EXT:klaro_consent_manager/Resources/Private/Language/locallang.xlf" datatype="plaintext" product-name="klaro_consent_manager" date="2025-10-06T10:49:01+02:00" target-language="hu">
+  <file source-language="en" original="EXT:klaro_consent_manager/Resources/Private/Language/locallang.xlf" datatype="plaintext" product-name="klaro_consent_manager" date="2025-10-13T15:15:27+02:00" target-language="hu">
     <body>
       <trans-unit id="acceptAll">
         <source>Accept all</source>
@@ -493,6 +493,10 @@
       <trans-unit id="end-of-session">
         <source>End of session</source>
         <target state="needs-translation">End of session</target>
+      </trans-unit>
+      <trans-unit id="persistent">
+        <source>persistent</source>
+        <target state="needs-translation">persistent</target>
       </trans-unit>
       <trans-unit id="warning.noServices">
         <source>Why don't I see a Klaro! Modal? → You must assign at least 1 service to the Klaro! configuration! Without services, we don't need consent management at all.</source>
