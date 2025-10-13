@@ -14,7 +14,7 @@
                 <f:if condition="{cookie.domain}">
                     <f:variable name="domainExists" value="1"/>
                 </f:if>
-                <f:if condition="{cookie.expires_after} > 0 || {cookie.expires_after_unit} == 'end-of-session'">
+                <f:if condition="{cookie.expires_after} > 0 || {cookie.expires_after_unit} == 'end-of-session' || {cookie.expires_after_unit} == 'persistent'">
                     <f:variable name="expiresAfterExists" value="1"/>
                 </f:if>
             </f:for>
@@ -47,8 +47,8 @@
                         </f:if>
                         <f:if condition="{expiresAfterExists}">
                             <span class="td">
-                                <f:if condition="{cookie.expires_after} > 0 || {cookie.expires_after_unit} == 'end-of-session'">
-                                    <f:if condition="{cookie.expires_after_unit} != 'end-of-session'">{cookie.expires_after}</f:if>
+                                <f:if condition="{cookie.expires_after} > 0 || {cookie.expires_after_unit} == 'end-of-session' || {cookie.expires_after_unit} == 'persistent'">
+                                    <f:if condition="{cookie.expires_after_unit} != 'end-of-session' AND {cookie.expires_after_unit} != 'persistent'">{cookie.expires_after}</f:if>
                                     <f:render section="Unit" arguments="{_all}"/>
                                 </f:if>
                             </span>
