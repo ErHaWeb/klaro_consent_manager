@@ -85,12 +85,12 @@ Expires after
     :type: string
     :Default: ''
 
-    **Condition:** `expires_after_unit != 'end-of-session'`
+    **Condition:** `expires_after_unit != 'end-of-session' AND expires_after_unit != 'persistent'`
 
     Number of years/months/days/hours/minutes/seconds that will elapse before this cookie expires.
 
 Expires after unit
------
+------------------
 
 ..  confval:: expires_after_unit
 
@@ -108,3 +108,12 @@ Expires after unit
     *   Minutes `[minutes]`
     *   Seconds `[seconds]`
     *   End of session `[end-of-session]`
+    *   Persistent `[persistent]`
+
+    .. note::
+
+        The option `persistent` should be used only if external sources
+        (e.g. cookie scanners or provider documentation) list the cookie
+        simply as *persistent* without specifying an exact expiry period.
+        From a GDPR perspective, it is recommended to provide a concrete
+        storage duration whenever possible.

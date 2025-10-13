@@ -79,7 +79,12 @@ return [
             ],
         ],
         'expires_after' => [
-            'displayCond' => 'FIELD:expires_after_unit:!=:end-of-session',
+            'displayCond' => [
+                'AND' => [
+                    'FIELD:expires_after_unit:!=:end-of-session',
+                    'FIELD:expires_after_unit:!=:persistent',
+                ],
+            ],
             'label' => 'LLL:EXT:klaro_consent_manager/Resources/Private/Language/locallang_db.xlf:tx_klaroconsentmanager_cookie.expires_after.label',
             'description' => 'LLL:EXT:klaro_consent_manager/Resources/Private/Language/locallang_db.xlf:tx_klaroconsentmanager_cookie.expires_after.description',
             'config' => [
@@ -104,6 +109,7 @@ return [
                     ['label' => 'LLL:EXT:klaro_consent_manager/Resources/Private/Language/locallang_db.xlf:tx_klaroconsentmanager_cookie.expires_after_unit.I.minutes', 'value' => 'minutes'],
                     ['label' => 'LLL:EXT:klaro_consent_manager/Resources/Private/Language/locallang_db.xlf:tx_klaroconsentmanager_cookie.expires_after_unit.I.seconds', 'value' => 'seconds'],
                     ['label' => 'LLL:EXT:klaro_consent_manager/Resources/Private/Language/locallang_db.xlf:tx_klaroconsentmanager_cookie.expires_after_unit.I.end-of-session', 'value' => 'end-of-session'],
+                    ['label' => 'LLL:EXT:klaro_consent_manager/Resources/Private/Language/locallang_db.xlf:tx_klaroconsentmanager_cookie.expires_after_unit.I.persistent', 'value' => 'persistent'],
                 ],
             ],
         ],
