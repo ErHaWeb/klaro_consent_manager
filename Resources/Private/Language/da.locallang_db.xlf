@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
-  <file source-language="en" original="EXT:klaro_consent_manager/Resources/Private/Language/locallang_db.xlf" datatype="plaintext" product-name="lang" date="2025-10-06T20:53:36+02:00" target-language="da">
+  <file source-language="en" original="EXT:klaro_consent_manager/Resources/Private/Language/locallang_db.xlf" datatype="plaintext" product-name="lang" date="2025-10-13T11:25:43+02:00" target-language="da">
     <header/>
     <body>
       <trans-unit id="tx_klaroconsentmanager_configuration">
@@ -479,6 +479,10 @@
         <source>If this option is set to `true`, a button is generated in the frontend (via JavaScript) directly in front of the closing body tag, which triggers the resetting of all settings and the opening of the Klaro consent management.</source>
         <target state="needs-translation">If this option is set to `true`, a button is generated in the frontend (via JavaScript) directly in front of the closing body tag, which triggers the resetting of all settings and the opening of the Klaro consent management.</target>
       </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_configuration.hidden">
+        <source>Configuration visible</source>
+        <target state="needs-translation">Configuration visible</target>
+      </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_service">
         <source>Klaro! Service</source>
         <target state="needs-translation">Klaro! Service</target>
@@ -795,6 +799,10 @@
         <source>Variables that can be used in callback functions. The content of this field is enclosed in curly brackets. The JavaScript object notation is expected in them. When you enter something here, you need to know what you are doing. It is your responsibility that no JavaScript errors occur.</source>
         <target state="needs-translation">Variables that can be used in callback functions. The content of this field is enclosed in curly brackets. The JavaScript object notation is expected in them. When you enter something here, you need to know what you are doing. It is your responsibility that no JavaScript errors occur.</target>
       </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_service.hidden">
+        <source>Service visible</source>
+        <target state="needs-translation">Service visible</target>
+      </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_cookie">
         <source>Cookie</source>
         <target state="needs-translation">Cookie</target>
@@ -934,6 +942,10 @@
       <trans-unit id="tx_klaroconsentmanager_cookie.expires_after_unit.I.end-of-session">
         <source>End of session</source>
         <target state="needs-translation">End of session</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_cookie.hidden">
+        <source>Cookie visible</source>
+        <target state="needs-translation">Cookie visible</target>
       </trans-unit>
       <trans-unit id="tt_content.tx_klaroconsentmanager_service.label">
         <source>Contextual Consent</source>
