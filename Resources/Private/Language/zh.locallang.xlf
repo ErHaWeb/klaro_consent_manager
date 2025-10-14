@@ -1,30 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
-  <file source-language="en" original="EXT:klaro_consent_manager/Resources/Private/Language/locallang.xlf" datatype="plaintext" product-name="klaro_consent_manager" date="2025-10-13T15:15:27+02:00" target-language="zh-TW">
+  <file source-language="en" original="EXT:klaro_consent_manager/Resources/Private/Language/locallang.xlf" datatype="plaintext" product-name="klaro_consent_manager" date="2025-10-13T15:15:27+02:00" target-language="zh-CN">
     <body>
-      <trans-unit id="acceptAll">
+      <trans-unit id="acceptAll" approved="yes">
         <source>Accept all</source>
-        <target state="needs-translation">Accept all</target>
+        <target state="final">全部同意</target>
       </trans-unit>
-      <trans-unit id="acceptSelected">
+      <trans-unit id="acceptSelected" approved="yes">
         <source>Accept selected</source>
-        <target state="needs-translation">Accept selected</target>
+        <target state="final">接受已选择</target>
       </trans-unit>
-      <trans-unit id="close">
+      <trans-unit id="close" approved="yes">
         <source>Close</source>
-        <target state="needs-translation">Close</target>
+        <target state="final">关闭</target>
       </trans-unit>
       <trans-unit id="consentModal.description" approved="yes">
         <source>Here you can assess and customize the services that we'd like to use on this website. You're in charge! Enable or disable services as you see fit.</source>
-        <target state="final">在这里，您可以评估和定制我们希望在本网站上使用的服务。您是负责人！您可以根据自己的需要启用或禁用服务。启用或禁用您认为合适的服务。</target>
+        <target state="final">在这里，您可以评估和自定义我们想要在此网站上使用的服务。 您正在充电！开启或禁用您认为合适的服务。</target>
       </trans-unit>
       <trans-unit id="consentModal.title" approved="yes">
         <source>Services we would like to use</source>
-        <target state="final">我们想使用的服务</target>
+        <target state="final">我们想要使用的服务</target>
       </trans-unit>
       <trans-unit id="consentNotice.changeDescription" approved="yes">
         <source>There were changes since your last visit, please renew your consent.</source>
-        <target state="final">自上次访问后有变化，请更新您的同意。</target>
+        <target state="final">自您上次访问以来发生了变化，请更新您的同意。</target>
       </trans-unit>
       <trans-unit id="consentNotice.description" approved="yes">
         <source>Hi! Could we please enable some additional services for {purposes}? You can always change or withdraw your consent later.</source>
@@ -32,15 +32,15 @@
       </trans-unit>
       <trans-unit id="consentNotice.learnMore" approved="yes">
         <source>Let me choose</source>
-        <target state="final">让我来选</target>
+        <target state="final">让我选择</target>
       </trans-unit>
       <trans-unit id="consentNotice.testing" approved="yes">
         <source>Testing mode!</source>
         <target state="final">测试模式！</target>
       </trans-unit>
-      <trans-unit id="consentNotice.title">
+      <trans-unit id="consentNotice.title" approved="yes">
         <source>Cookie Consent</source>
-        <target state="needs-translation">Cookie Consent</target>
+        <target state="final">Cookie 政策</target>
       </trans-unit>
       <trans-unit id="contextualConsent.acceptAlways" approved="yes">
         <source>Always</source>
@@ -48,19 +48,19 @@
       </trans-unit>
       <trans-unit id="contextualConsent.acceptOnce" approved="yes">
         <source>Yes</source>
-        <target state="final">是的，是的</target>
+        <target state="final">是</target>
       </trans-unit>
       <trans-unit id="contextualConsent.description" approved="yes">
         <source>Do you want to load external content supplied by {title}?</source>
         <target state="final">你想加载由{title} 提供的外部内容吗？</target>
       </trans-unit>
-      <trans-unit id="contextualConsent.descriptionEmptyStore">
+      <trans-unit id="contextualConsent.descriptionEmptyStore" approved="yes">
         <source>To agree to this service permanently, you must accept {title} in the {link}.</source>
-        <target state="needs-translation">To agree to this service permanently, you must accept {title} in the {link}.</target>
+        <target state="final">要永久同意此服务，您必须在{title}中接受{link}。</target>
       </trans-unit>
-      <trans-unit id="contextualConsent.modalLinkText">
+      <trans-unit id="contextualConsent.modalLinkText" approved="yes">
         <source>Consent Manager</source>
-        <target state="needs-translation">Consent Manager</target>
+        <target state="final">同意管理器</target>
       </trans-unit>
       <trans-unit id="decline" approved="yes">
         <source>I decline</source>
@@ -68,11 +68,11 @@
       </trans-unit>
       <trans-unit id="ok" approved="yes">
         <source>That's ok</source>
-        <target state="final">没事的</target>
+        <target state="final">不过那也没关系</target>
       </trans-unit>
       <trans-unit id="poweredBy" approved="yes">
         <source>Realized with Klaro!</source>
-        <target state="final">与Klaro一起实现!</target>
+        <target state="final">使用 Klaro 实现！</target>
       </trans-unit>
       <trans-unit id="privacyPolicy.name" approved="yes">
         <source>privacy policy</source>
@@ -82,325 +82,324 @@
         <source>To learn more, please read our {privacyPolicy}.</source>
         <target state="final">要了解更多，请阅读我们的{privacyPolicy} 。</target>
       </trans-unit>
-      <trans-unit id="purposeItem.service">
+      <trans-unit id="purposeItem.service" approved="yes">
         <source>service</source>
-        <target state="needs-translation">service</target>
+        <target state="final">服务</target>
       </trans-unit>
-      <trans-unit id="purposeItem.services">
+      <trans-unit id="purposeItem.services" approved="yes">
         <source>services</source>
-        <target state="needs-translation">services</target>
+        <target state="final">经常预算 支助账户</target>
       </trans-unit>
       <trans-unit id="purposes.advertising.description" approved="yes">
         <source>These services process personal information to show you personalized or interest-based advertisements.</source>
-        <target state="final">这些服务处理个人信息，向您展示个性化或基于兴趣的广告。</target>
+        <target state="final">这些服务处理个人信息以显示您个人化或基于兴趣的广告。</target>
       </trans-unit>
       <trans-unit id="purposes.advertising.title" approved="yes">
         <source>Advertising</source>
-        <target state="final">广告宣传</target>
+        <target state="final">广告</target>
       </trans-unit>
-      <trans-unit id="purposes.functional.description">
+      <trans-unit id="purposes.functional.description" approved="yes">
         <source>These services are essential for the correct functioning of this website. You cannot disable them here as the service would not work correctly otherwise.
 </source>
-        <target state="needs-translation">These services are essential for the correct functioning of this website. You cannot disable them here as the service would not work correctly otherwise.
-</target>
+        <target state="final">這些服務對於本網站的正常運作至關重要。您無法在此處停用它們，否則服務將無法正常運作。</target>
       </trans-unit>
       <trans-unit id="purposes.functional.title" approved="yes">
         <source>Service Provision</source>
-        <target state="final">服务提供</target>
+        <target state="final">服务供应</target>
       </trans-unit>
       <trans-unit id="purposes.marketing.description" approved="yes">
         <source>These services process personal information to show you relevant content about products, services or topics that you might be interested in.</source>
-        <target state="final">这些服务会处理个人信息，向您展示您可能感兴趣的产品、服务或主题的相关内容。</target>
+        <target state="final">这些服务处理个人信息，以显示您可能感兴趣的产品、服务或主题的相关内容。</target>
       </trans-unit>
       <trans-unit id="purposes.marketing.title" approved="yes">
         <source>Marketing</source>
-        <target state="final">市场营销</target>
+        <target state="final">市场</target>
       </trans-unit>
-      <trans-unit id="purposes.performance.description">
+      <trans-unit id="purposes.performance.description" approved="yes">
         <source>These services process personal information to optimize the service that this website offers.
 </source>
-        <target state="needs-translation">These services process personal information to optimize the service that this website offers.
+        <target state="final">这些服务处理个人信息以优化此网站提供的服务。
 </target>
       </trans-unit>
       <trans-unit id="purposes.performance.title" approved="yes">
         <source>Performance Optimization</source>
-        <target state="final">性能优化</target>
+        <target state="final">优化了播放性能</target>
       </trans-unit>
-      <trans-unit id="save">
+      <trans-unit id="save" approved="yes">
         <source>Save</source>
-        <target state="needs-translation">Save</target>
+        <target state="final">儲存</target>
       </trans-unit>
       <trans-unit id="service.disableAll.description" approved="yes">
         <source>Use this switch to enable or disable all services.</source>
-        <target state="final">使用此开关可启用或禁用所有服务。</target>
+        <target state="final">使用此切换来启用或禁用所有服务。</target>
       </trans-unit>
       <trans-unit id="service.disableAll.title" approved="yes">
         <source>Enable or disable all services</source>
-        <target state="final">启用或停用所有服务</target>
+        <target state="final">启用或禁用所有服务</target>
       </trans-unit>
       <trans-unit id="service.optOut.description" approved="yes">
         <source>This services is loaded by default (but you can opt out)</source>
-        <target state="final">这个服务是默认加载的(但你可以选择退出)</target>
+        <target state="final">此服务默认加载(但您可以选择退出)</target>
       </trans-unit>
       <trans-unit id="service.optOut.title" approved="yes">
         <source>(opt-out)</source>
         <target state="final">(选择退出)</target>
       </trans-unit>
-      <trans-unit id="service.purpose">
+      <trans-unit id="service.purpose" approved="yes">
         <source>purpose</source>
-        <target state="needs-translation">purpose</target>
+        <target state="final">目的</target>
       </trans-unit>
-      <trans-unit id="service.purposes">
+      <trans-unit id="service.purposes" approved="yes">
         <source>purposes</source>
-        <target state="needs-translation">purposes</target>
+        <target state="final">目 的</target>
       </trans-unit>
       <trans-unit id="service.required.description" approved="yes">
         <source>This services is always required</source>
-        <target state="final">这种服务是必须的</target>
+        <target state="final">此服务总是必需的</target>
       </trans-unit>
       <trans-unit id="service.required.title" approved="yes">
         <source>(always required)</source>
-        <target state="final">(总是需要)</target>
+        <target state="final">(总是必需)</target>
       </trans-unit>
-      <trans-unit id="purposes.analytics.title">
+      <trans-unit id="purposes.analytics.title" approved="yes">
         <source>Analytics</source>
-        <target state="needs-translation">Analytics</target>
+        <target state="final">分析</target>
       </trans-unit>
-      <trans-unit id="purposes.analytics.description">
+      <trans-unit id="purposes.analytics.description" approved="yes">
         <source>These services gather anonymous data for statistical analysis and performance optimization. Enabling analytics services assists website owners in making informed decisions to enhance online services.</source>
-        <target state="needs-translation">These services gather anonymous data for statistical analysis and performance optimization. Enabling analytics services assists website owners in making informed decisions to enhance online services.</target>
+        <target state="final">这些服务收集匿名数据以便进行统计分析和优化业绩；扶持性分析服务有助于网站所有者作出知情决定，加强在线服务。</target>
       </trans-unit>
-      <trans-unit id="purposes.security.title">
+      <trans-unit id="purposes.security.title" approved="yes">
         <source>Security</source>
-        <target state="needs-translation">Security</target>
+        <target state="final">安全性</target>
       </trans-unit>
-      <trans-unit id="purposes.security.description">
+      <trans-unit id="purposes.security.description" approved="yes">
         <source>Security services are crucial for safeguarding your online experience. These services help protect your data and privacy by detecting and preventing security threats, such as malware, phishing attempts, and unauthorized access. They ensure a safer browsing environment.</source>
-        <target state="needs-translation">Security services are crucial for safeguarding your online experience. These services help protect your data and privacy by detecting and preventing security threats, such as malware, phishing attempts, and unauthorized access. They ensure a safer browsing environment.</target>
+        <target state="final">安全服务对于保护您的在线体验至关重要。 这些服务通过侦测和防止恶意、钓鱼尝试和未经授权的访问等安全威胁来保护您的数据和隐私。 它们确保了一个更安全的浏览环境。</target>
       </trans-unit>
-      <trans-unit id="purposes.livechat.title">
+      <trans-unit id="purposes.livechat.title" approved="yes">
         <source>Live Chat</source>
-        <target state="needs-translation">Live Chat</target>
+        <target state="final">在线客服</target>
       </trans-unit>
-      <trans-unit id="purposes.livechat.description">
+      <trans-unit id="purposes.livechat.description" approved="yes">
         <source>Live chat services enable real-time communication with website support teams. They offer a convenient way to ask questions, seek assistance, or engage in discussions while browsing a website. Live chat enhances your online interaction and customer support experience.</source>
-        <target state="needs-translation">Live chat services enable real-time communication with website support teams. They offer a convenient way to ask questions, seek assistance, or engage in discussions while browsing a website. Live chat enhances your online interaction and customer support experience.</target>
+        <target state="final">实时聊天服务能够与网站支持团队进行实时通信。 他们提供了一种方便的方式，在浏览网站时提问、寻求帮助或参与讨论。 实时聊天增强了您的在线互动和客户支持体验。</target>
       </trans-unit>
-      <trans-unit id="purposes.styling.title">
+      <trans-unit id="purposes.styling.title" approved="yes">
         <source>Styling</source>
-        <target state="needs-translation">Styling</target>
+        <target state="final">样式</target>
       </trans-unit>
-      <trans-unit id="purposes.styling.description">
+      <trans-unit id="purposes.styling.description" approved="yes">
         <source>Services related to styling help to improve the appearance of the website. This can also have an impact on usability.</source>
-        <target state="needs-translation">Services related to styling help to improve the appearance of the website. This can also have an impact on usability.</target>
+        <target state="final">与样式有关的服务有助于改善网站的外观，这也会对可用性产生影响。</target>
       </trans-unit>
-      <trans-unit id="purposes.videos.title">
+      <trans-unit id="purposes.videos.title" approved="yes">
         <source>Videos</source>
-        <target state="needs-translation">Videos</target>
+        <target state="final">视频</target>
       </trans-unit>
-      <trans-unit id="purposes.videos.description">
+      <trans-unit id="purposes.videos.description" approved="yes">
         <source>Embedding videos from external platforms to enrich the content on this website.</source>
-        <target state="needs-translation">Embedding videos from external platforms to enrich the content on this website.</target>
+        <target state="final">嵌入外部平台的视频以丰富本网站的内容。</target>
       </trans-unit>
-      <trans-unit id="purposes.social.title">
+      <trans-unit id="purposes.social.title" approved="yes">
         <source>Social Media</source>
-        <target state="needs-translation">Social Media</target>
+        <target state="final">社交媒体</target>
       </trans-unit>
-      <trans-unit id="purposes.social.description">
+      <trans-unit id="purposes.social.description" approved="yes">
         <source>Embedding social media from external platforms to enrich the content on this website.</source>
-        <target state="needs-translation">Embedding social media from external platforms to enrich the content on this website.</target>
+        <target state="final">从外部平台嵌入社交媒体以丰富该网站的内容。</target>
       </trans-unit>
-      <trans-unit id="purposes.misc.title">
+      <trans-unit id="purposes.misc.title" approved="yes">
         <source>Miscellaneous</source>
-        <target state="needs-translation">Miscellaneous</target>
+        <target state="final">其他界面选项</target>
       </trans-unit>
-      <trans-unit id="purposes.misc.description">
+      <trans-unit id="purposes.misc.description" approved="yes">
         <source>This includes services that do not fall under the other purposes.</source>
-        <target state="needs-translation">This includes services that do not fall under the other purposes.</target>
+        <target state="final">这包括不属于其他目的的服务。</target>
       </trans-unit>
-      <trans-unit id="consentManager.show">
+      <trans-unit id="consentManager.show" approved="yes">
         <source>Show Consent Manager</source>
-        <target state="needs-translation">Show Consent Manager</target>
+        <target state="final">显示同意管理器</target>
       </trans-unit>
-      <trans-unit id="consentManager.reset">
+      <trans-unit id="consentManager.reset" approved="yes">
         <source>Reset Consent Manager</source>
-        <target state="needs-translation">Reset Consent Manager</target>
+        <target state="final">重置同意管理器</target>
       </trans-unit>
-      <trans-unit id="services.adsense.title">
+      <trans-unit id="services.adsense.title" approved="yes">
         <source>Google AdSense</source>
-        <target state="needs-translation">Google AdSense</target>
+        <target state="final">Google AdSense</target>
       </trans-unit>
-      <trans-unit id="services.adsense.description">
+      <trans-unit id="services.adsense.description" approved="yes">
         <source>Google AdSense enables personalized ads on websites while respecting user privacy. By consenting, you allow relevant ads and help support free content.</source>
-        <target state="needs-translation">Google AdSense enables personalized ads on websites while respecting user privacy. By consenting, you allow relevant ads and help support free content.</target>
+        <target state="final">Google AdSense 在尊重用户隐私的同时启用网站上的个性化广告。您同意允许相关广告并帮助支持免费内容。</target>
       </trans-unit>
-      <trans-unit id="services.camera.title">
+      <trans-unit id="services.camera.title" approved="yes">
         <source>Surveillance Camera</source>
-        <target state="needs-translation">Surveillance Camera</target>
+        <target state="final">摄像头</target>
       </trans-unit>
-      <trans-unit id="services.camera.description">
+      <trans-unit id="services.camera.description" approved="yes">
         <source>Consent to the use of surveillance camera images for security and safety purposes, in compliance with applicable data privacy regulations.</source>
-        <target state="needs-translation">Consent to the use of surveillance camera images for security and safety purposes, in compliance with applicable data privacy regulations.</target>
+        <target state="final">同意按照适用的数据隐私条例为安全和安保目的使用监视摄像图像。</target>
       </trans-unit>
-      <trans-unit id="services.clarity.title">
+      <trans-unit id="services.clarity.title" approved="yes">
         <source>Microsoft Clarity</source>
-        <target state="needs-translation">Microsoft Clarity</target>
+        <target state="final">Microsoft Clarity</target>
       </trans-unit>
-      <trans-unit id="services.clarity.description">
+      <trans-unit id="services.clarity.description" approved="yes">
         <source>Microsoft Clarity is a user-friendly web analytics tool that empowers website visitors like you by providing transparency about how your interactions are tracked on a website. It ensures your privacy is respected while giving developers and website owners valuable insights into user behavior. Plus, it follows coding guidelines and best practices, ensuring a safe and secure online experience for you.</source>
-        <target state="needs-translation">Microsoft Clarity is a user-friendly web analytics tool that empowers website visitors like you by providing transparency about how your interactions are tracked on a website. It ensures your privacy is respected while giving developers and website owners valuable insights into user behavior. Plus, it follows coding guidelines and best practices, ensuring a safe and secure online experience for you.</target>
+        <target state="final">Microsoft Clarity是一种方便用户的网站分析工具，通过提供如何在网站上跟踪您的互动的透明度来增强像您这样的网站访问者的能力。 它确保您的隐私得到尊重，同时使开发者和网站所有者对用户行为有宝贵的了解。 此外，它遵循编码准则和最佳做法，确保你有安全可靠的在线体验。</target>
       </trans-unit>
-      <trans-unit id="services.cloudflare.title">
+      <trans-unit id="services.cloudflare.title" approved="yes">
         <source>Cloudflare</source>
-        <target state="needs-translation">Cloudflare</target>
+        <target state="final">Cloudflare</target>
       </trans-unit>
-      <trans-unit id="services.cloudflare.description">
+      <trans-unit id="services.cloudflare.description" approved="yes">
         <source>Cloudflare helps protect and optimize websites. By using this website, you consent to Cloudflare's data processing practices as described in its Privacy Policy.</source>
-        <target state="needs-translation">Cloudflare helps protect and optimize websites. By using this website, you consent to Cloudflare's data processing practices as described in its Privacy Policy.</target>
+        <target state="final">Cloudflare帮助保护和优化网站。通过使用这个网站，您同意云端隐私政策中描述的数据处理做法。</target>
       </trans-unit>
-      <trans-unit id="services.external-tracker.title">
+      <trans-unit id="services.external-tracker.title" approved="yes">
         <source>External Tracker</source>
-        <target state="needs-translation">External Tracker</target>
+        <target state="final">外部跟踪器</target>
       </trans-unit>
-      <trans-unit id="services.external-tracker.description">
+      <trans-unit id="services.external-tracker.description" approved="yes">
         <source>External tracking script</source>
-        <target state="needs-translation">External tracking script</target>
+        <target state="final">外部跟踪脚本</target>
       </trans-unit>
-      <trans-unit id="services.facebook-pixel.title">
+      <trans-unit id="services.facebook-pixel.title" approved="yes">
         <source>Facebook Pixel</source>
-        <target state="needs-translation">Facebook Pixel</target>
+        <target state="final">Facebook 像素</target>
       </trans-unit>
-      <trans-unit id="services.facebook-pixel.description">
+      <trans-unit id="services.facebook-pixel.description" approved="yes">
         <source>Simplifies web tracking for analytics and marketing while ensuring data compliance and control.</source>
-        <target state="needs-translation">Simplifies web tracking for analytics and marketing while ensuring data compliance and control.</target>
+        <target state="final">简化用于分析和营销的网络跟踪，同时确保遵守和控制数据。</target>
       </trans-unit>
-      <trans-unit id="services.fast-fonts.title">
+      <trans-unit id="services.fast-fonts.title" approved="yes">
         <source>Fast Fonts</source>
-        <target state="needs-translation">Fast Fonts</target>
+        <target state="final">Fast Fonts</target>
       </trans-unit>
-      <trans-unit id="services.fast-fonts.description">
+      <trans-unit id="services.fast-fonts.description" approved="yes">
         <source>Fast Fonts, operated by fonts.com and supplied by fast.fonts.net, is a service for the provision of web fonts. It requires the use of a pixel-code for continuous price calculation.</source>
-        <target state="needs-translation">Fast Fonts, operated by fonts.com and supplied by fast.fonts.net, is a service for the provision of web fonts. It requires the use of a pixel-code for continuous price calculation.</target>
+        <target state="final">Fast Fonts, operated by fonts.com and supply by fast.fonts.net, is a service for provide web fons. 它需要使用像素代码来连续计算价格。</target>
       </trans-unit>
-      <trans-unit id="services.google-ads.title">
+      <trans-unit id="services.google-ads.title" approved="yes">
         <source>Google Ads</source>
-        <target state="needs-translation">Google Ads</target>
+        <target state="final">Google 广告</target>
       </trans-unit>
-      <trans-unit id="services.google-ads.description">
+      <trans-unit id="services.google-ads.description" approved="yes">
         <source>Google Ads allows advertisers to reach their target audience online. To personalize ads and measure their effectiveness, Google may collect data with your consent.</source>
-        <target state="needs-translation">Google Ads allows advertisers to reach their target audience online. To personalize ads and measure their effectiveness, Google may collect data with your consent.</target>
+        <target state="final">谷歌广告允许广告商在网上联系目标受众。要使广告个性化并衡量其有效性，谷歌可以在征得您同意的情况下收集数据。</target>
       </trans-unit>
-      <trans-unit id="services.google-analytics.title">
+      <trans-unit id="services.google-analytics.title" approved="yes">
         <source>Google Analytics</source>
-        <target state="needs-translation">Google Analytics</target>
+        <target state="final">谷歌分析</target>
       </trans-unit>
-      <trans-unit id="services.google-analytics.description">
+      <trans-unit id="services.google-analytics.description" approved="yes">
         <source>Web analytics service provided by Google, Inc. ("Google")</source>
-        <target state="needs-translation">Web analytics service provided by Google, Inc. ("Google")</target>
+        <target state="final">网站分析服务由Google公司提供("Google")</target>
       </trans-unit>
-      <trans-unit id="services.google-fonts.title">
+      <trans-unit id="services.google-fonts.title" approved="yes">
         <source>Google Fonts</source>
-        <target state="needs-translation">Google Fonts</target>
+        <target state="final">Google字体</target>
       </trans-unit>
-      <trans-unit id="services.google-fonts.description">
+      <trans-unit id="services.google-fonts.description" approved="yes">
         <source>Web fonts hosted by Google</source>
-        <target state="needs-translation">Web fonts hosted by Google</target>
+        <target state="final">谷歌托管的网页字体</target>
       </trans-unit>
-      <trans-unit id="services.google-maps.title">
+      <trans-unit id="services.google-maps.title" approved="yes">
         <source>Google Maps</source>
-        <target state="needs-translation">Google Maps</target>
+        <target state="final">谷哥地图</target>
       </trans-unit>
-      <trans-unit id="services.google-maps.description">
+      <trans-unit id="services.google-maps.description" approved="yes">
         <source>Google Maps allows for the integration of interactive maps on websites, enabling location-based services. Developers can utilize it while ensuring data compliance and control, adhering to coding guidelines and best practices.</source>
-        <target state="needs-translation">Google Maps allows for the integration of interactive maps on websites, enabling location-based services. Developers can utilize it while ensuring data compliance and control, adhering to coding guidelines and best practices.</target>
+        <target state="final">谷歌地图可以整合网站上的交互式地图，从而能够提供基于位置的服务。 开发者可在确保数据遵守和控制、遵守编码准则和最佳做法的同时加以利用。</target>
       </trans-unit>
-      <trans-unit id="services.google-tag-manager.title">
+      <trans-unit id="services.google-tag-manager.title" approved="yes">
         <source>Google Tag Manager</source>
-        <target state="needs-translation">Google Tag Manager</target>
+        <target state="final">谷歌标记管理器</target>
       </trans-unit>
-      <trans-unit id="services.google-tag-manager.description">
+      <trans-unit id="services.google-tag-manager.description" approved="yes">
         <source>Google Tag Manager streamlines web tracking and code management, ensuring data compliance and control for developers.</source>
-        <target state="needs-translation">Google Tag Manager streamlines web tracking and code management, ensuring data compliance and control for developers.</target>
+        <target state="final">Google Tag Manager 简化网页跟踪和代码管理，确保开发者遵守和控制数据。</target>
       </trans-unit>
-      <trans-unit id="services.inline-tracker.title">
+      <trans-unit id="services.inline-tracker.title" approved="yes">
         <source>Inline Tracker</source>
-        <target state="needs-translation">Inline Tracker</target>
+        <target state="final">内联追踪器</target>
       </trans-unit>
-      <trans-unit id="services.inline-tracker.description">
+      <trans-unit id="services.inline-tracker.description" approved="yes">
         <source>Inline tracking script</source>
-        <target state="needs-translation">Inline tracking script</target>
+        <target state="final">内联跟踪脚本</target>
       </trans-unit>
-      <trans-unit id="services.instagram.title">
+      <trans-unit id="services.instagram.title" approved="yes">
         <source>Instagram</source>
-        <target state="needs-translation">Instagram</target>
+        <target state="final">Instagram</target>
       </trans-unit>
-      <trans-unit id="services.instagram.description">
+      <trans-unit id="services.instagram.description" approved="yes">
         <source>Allows Instagram posts to be embedded. Personal data may be transferred to Instagram (Meta Platforms) in the process.</source>
-        <target state="needs-translation">Allows Instagram posts to be embedded. Personal data may be transferred to Instagram (Meta Platforms) in the process.</target>
+        <target state="final">允许 Instagram 帖子被嵌入。个人数据可能会在此过程中传输到 Instagram (Meta Platforms)。</target>
       </trans-unit>
-      <trans-unit id="services.intercom.title">
+      <trans-unit id="services.intercom.title" approved="yes">
         <source>Intercom</source>
-        <target state="needs-translation">Intercom</target>
+        <target state="final">Intercom</target>
       </trans-unit>
-      <trans-unit id="services.intercom.description">
+      <trans-unit id="services.intercom.description" approved="yes">
         <source>Chat widget and collecting of visitor statistics</source>
-        <target state="needs-translation">Chat widget and collecting of visitor statistics</target>
+        <target state="final">聊天小部件和收集访客统计</target>
       </trans-unit>
-      <trans-unit id="services.matomo.title">
+      <trans-unit id="services.matomo.title" approved="yes">
         <source>Matomo/Piwik</source>
-        <target state="needs-translation">Matomo/Piwik</target>
+        <target state="final">Matomo/Piwik</target>
       </trans-unit>
-      <trans-unit id="services.matomo.description">
+      <trans-unit id="services.matomo.description" approved="yes">
         <source>Open source software for statistical analysis of visitor accesses</source>
-        <target state="needs-translation">Open source software for statistical analysis of visitor accesses</target>
+        <target state="final">开放源码软件，用于对访问者进行统计分析</target>
       </trans-unit>
-      <trans-unit id="services.mouseflow.title">
+      <trans-unit id="services.mouseflow.title" approved="yes">
         <source>Mouseflow</source>
-        <target state="needs-translation">Mouseflow</target>
+        <target state="final">鼠标流</target>
       </trans-unit>
-      <trans-unit id="services.mouseflow.description">
+      <trans-unit id="services.mouseflow.description" approved="yes">
         <source>Real-time user analytics service that helps to understand how visitors interact with our website.</source>
-        <target state="needs-translation">Real-time user analytics service that helps to understand how visitors interact with our website.</target>
+        <target state="final">实时用户分析服务，帮助了解访客如何与我们的网站互动。</target>
       </trans-unit>
-      <trans-unit id="services.tiktok.title">
+      <trans-unit id="services.tiktok.title" approved="yes">
         <source>TikTok</source>
-        <target state="needs-translation">TikTok</target>
+        <target state="final">TikTok</target>
       </trans-unit>
-      <trans-unit id="services.tiktok.description">
+      <trans-unit id="services.tiktok.description" approved="yes">
         <source>Allows TikTok videos to be embedded. Personal data may be transferred to TikTok and processed in third countries.</source>
-        <target state="needs-translation">Allows TikTok videos to be embedded. Personal data may be transferred to TikTok and processed in third countries.</target>
+        <target state="final">允许 TikTok 视频嵌入。个人数据可能会被传输到TikTok并在第三国处理。</target>
       </trans-unit>
-      <trans-unit id="services.twitter.title">
+      <trans-unit id="services.twitter.title" approved="yes">
         <source>X (formerly Twitter)</source>
-        <target state="needs-translation">X (formerly Twitter)</target>
+        <target state="final">X(原Twitter)</target>
       </trans-unit>
-      <trans-unit id="services.twitter.description">
+      <trans-unit id="services.twitter.description" approved="yes">
         <source>X (formerly Twitter) is social media platform that allows users to share and interact with short messages and multimedia content. Developers can integrate Twitter features into websites to enhance user engagement and real-time updates while maintaining data privacy compliance and adhering to coding guidelines.</source>
-        <target state="needs-translation">X (formerly Twitter) is social media platform that allows users to share and interact with short messages and multimedia content. Developers can integrate Twitter features into websites to enhance user engagement and real-time updates while maintaining data privacy compliance and adhering to coding guidelines.</target>
+        <target state="final">X (原名Twitter) 是社交媒体平台，用户可以分享和交互短信和多媒体内容。 开发者可以将 Twitter 功能整合到网站中，以加强用户的参与和实时更新，同时保持数据隐私遵守和遵守编码准则。</target>
       </trans-unit>
-      <trans-unit id="services.userlike.title">
+      <trans-unit id="services.userlike.title" approved="yes">
         <source>Userlike</source>
-        <target state="needs-translation">Userlike</target>
+        <target state="final">用户赞</target>
       </trans-unit>
-      <trans-unit id="services.userlike.description">
+      <trans-unit id="services.userlike.description" approved="yes">
         <source>Userlike offers a live chat solution that enhances user interactions on websites.</source>
-        <target state="needs-translation">Userlike offers a live chat solution that enhances user interactions on websites.</target>
+        <target state="final">用户提供了一个在线聊天解决方案，可以增强用户在网站上的互动。</target>
       </trans-unit>
-      <trans-unit id="services.vimeo.title">
+      <trans-unit id="services.vimeo.title" approved="yes">
         <source>Vimeo</source>
-        <target state="needs-translation">Vimeo</target>
+        <target state="final">Vimeo</target>
       </trans-unit>
-      <trans-unit id="services.vimeo.description">
+      <trans-unit id="services.vimeo.description" approved="yes">
         <source>Popular video-sharing platform that offers a range of features for creators and developers to enhance video content on websites.</source>
-        <target state="needs-translation">Popular video-sharing platform that offers a range of features for creators and developers to enhance video content on websites.</target>
+        <target state="final">热门视频共享平台，为创建者和开发者提供一系列功能，以提高网站上的视频内容。</target>
       </trans-unit>
-      <trans-unit id="services.youtube.title">
+      <trans-unit id="services.youtube.title" approved="yes">
         <source>YouTube</source>
-        <target state="needs-translation">YouTube</target>
+        <target state="final">YouTube</target>
       </trans-unit>
-      <trans-unit id="services.youtube.description">
+      <trans-unit id="services.youtube.description" approved="yes">
         <source>The leading video-sharing platform for content creators and developers to enhance user experiences on websites.</source>
-        <target state="needs-translation">The leading video-sharing platform for content creators and developers to enhance user experiences on websites.</target>
+        <target state="final">用于内容创建者和开发者的主要视频共享平台，以加强网站上的用户体验。</target>
       </trans-unit>
       <trans-unit id="consentModal.privacyPolicy.name" approved="yes">
         <source>Privacy policy</source>
@@ -412,99 +411,99 @@
       </trans-unit>
       <trans-unit id="consentNotice.imprint.name" approved="yes">
         <source>Imprint</source>
-        <target state="final">印记</target>
+        <target state="final">信息</target>
       </trans-unit>
       <trans-unit id="consentNotice.privacyPolicy.name" approved="yes">
         <source>Privacy policy</source>
         <target state="final">隐私政策</target>
       </trans-unit>
-      <trans-unit id="cookies.title">
+      <trans-unit id="cookies.title" approved="yes">
         <source>Cookies</source>
-        <target state="needs-translation">Cookies</target>
+        <target state="final">Cookie</target>
       </trans-unit>
-      <trans-unit id="cookies.description">
+      <trans-unit id="cookies.description" approved="yes">
         <source>Below you will find a list of all cookies used by %s</source>
-        <target state="needs-translation">Below you will find a list of all cookies used by %s</target>
+        <target state="final">下面你会找到一个 %s 使用的所有 cookie 列表</target>
       </trans-unit>
-      <trans-unit id="cookies.headline.name">
+      <trans-unit id="cookies.headline.name" approved="yes">
         <source>Name / Pattern</source>
-        <target state="needs-translation">Name / Pattern</target>
+        <target state="final">名称/模式</target>
       </trans-unit>
-      <trans-unit id="cookies.headline.path">
+      <trans-unit id="cookies.headline.path" approved="yes">
         <source>Path</source>
-        <target state="needs-translation">Path</target>
+        <target state="final">路径</target>
       </trans-unit>
-      <trans-unit id="cookies.headline.domain">
+      <trans-unit id="cookies.headline.domain" approved="yes">
         <source>Domain</source>
-        <target state="needs-translation">Domain</target>
+        <target state="final">域名</target>
       </trans-unit>
-      <trans-unit id="cookies.headline.expiresAfter">
+      <trans-unit id="cookies.headline.expiresAfter" approved="yes">
         <source>Expires after</source>
-        <target state="needs-translation">Expires after</target>
+        <target state="final">过期时间</target>
       </trans-unit>
-      <trans-unit id="year">
+      <trans-unit id="year" approved="yes">
         <source>Year</source>
-        <target state="needs-translation">Year</target>
+        <target state="final">年份</target>
       </trans-unit>
-      <trans-unit id="years">
+      <trans-unit id="years" approved="yes">
         <source>Years</source>
-        <target state="needs-translation">Years</target>
+        <target state="final">年</target>
       </trans-unit>
-      <trans-unit id="month">
+      <trans-unit id="month" approved="yes">
         <source>Month</source>
-        <target state="needs-translation">Month</target>
+        <target state="final">月</target>
       </trans-unit>
-      <trans-unit id="months">
+      <trans-unit id="months" approved="yes">
         <source>Months</source>
-        <target state="needs-translation">Months</target>
+        <target state="final">月</target>
       </trans-unit>
-      <trans-unit id="day">
+      <trans-unit id="day" approved="yes">
         <source>Day</source>
-        <target state="needs-translation">Day</target>
+        <target state="final">白天</target>
       </trans-unit>
-      <trans-unit id="days">
+      <trans-unit id="days" approved="yes">
         <source>Days</source>
-        <target state="needs-translation">Days</target>
+        <target state="final">天</target>
       </trans-unit>
-      <trans-unit id="hour">
+      <trans-unit id="hour" approved="yes">
         <source>Hour</source>
-        <target state="needs-translation">Hour</target>
+        <target state="final">小时</target>
       </trans-unit>
-      <trans-unit id="hours">
+      <trans-unit id="hours" approved="yes">
         <source>Hours</source>
-        <target state="needs-translation">Hours</target>
+        <target state="final">小时</target>
       </trans-unit>
-      <trans-unit id="minute">
+      <trans-unit id="minute" approved="yes">
         <source>Minute</source>
-        <target state="needs-translation">Minute</target>
+        <target state="final">分钟</target>
       </trans-unit>
-      <trans-unit id="minutes">
+      <trans-unit id="minutes" approved="yes">
         <source>Minutes</source>
-        <target state="needs-translation">Minutes</target>
+        <target state="final">分钟</target>
       </trans-unit>
-      <trans-unit id="second">
+      <trans-unit id="second" approved="yes">
         <source>Second</source>
-        <target state="needs-translation">Second</target>
+        <target state="final">秒</target>
       </trans-unit>
-      <trans-unit id="seconds">
+      <trans-unit id="seconds" approved="yes">
         <source>Seconds</source>
-        <target state="needs-translation">Seconds</target>
+        <target state="final">秒</target>
       </trans-unit>
-      <trans-unit id="end-of-session">
+      <trans-unit id="end-of-session" approved="yes">
         <source>End of session</source>
-        <target state="needs-translation">End of session</target>
+        <target state="final">会话结束</target>
       </trans-unit>
-      <trans-unit id="persistent">
+      <trans-unit id="persistent" approved="yes">
         <source>persistent</source>
-        <target state="needs-translation">persistent</target>
+        <target state="final">persistent</target>
       </trans-unit>
-      <trans-unit id="warning.noServices">
+      <trans-unit id="warning.noServices" approved="yes">
         <source>Why don't I see a Klaro! Modal? → You must assign at least 1 service to the Klaro! configuration! Without services, we don't need consent management at all.</source>
-        <target state="needs-translation">Why don't I see a Klaro! Modal? → You must assign at least 1 service to the Klaro! configuration! Without services, we don't need consent management at all.</target>
+        <target state="final">为什么我看不到Klaro！模版？-&gt; 您必须给Klaro至少分配一个服务！ 配置！没有服务，我们根本不需要同意管理。</target>
       </trans-unit>
-      <trans-unit id="warning.noServicesPersonalized">
+      <trans-unit id="warning.noServicesPersonalized" approved="yes">
         <source>Hey %s! You missed a service in the config! Without services, we don't need consent management at all.</source>
-        <target state="needs-translation">Hey %s! You missed a service in the config! Without services, we don't need consent management at all.</target>
+        <target state="final">你好 %s！你错过了配置中的服务！没有服务，我们根本不需要同意管理。</target>
       </trans-unit>
     </body>
   </file>
