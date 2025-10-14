@@ -4,15 +4,15 @@
     <body>
       <trans-unit id="acceptAll">
         <source>Accept all</source>
-        <target state="needs-translation">Accept all</target>
+        <target state="translated">Alle akzeptieren</target>
       </trans-unit>
       <trans-unit id="acceptSelected">
         <source>Accept selected</source>
-        <target state="needs-translation">Accept selected</target>
+        <target state="translated">Ausgewählte akzeptieren</target>
       </trans-unit>
       <trans-unit id="close">
         <source>Close</source>
-        <target state="needs-translation">Close</target>
+        <target state="translated">Schließen</target>
       </trans-unit>
       <trans-unit id="consentModal.description" approved="yes">
         <source>Here you can assess and customize the services that we'd like to use on this website. You're in charge! Enable or disable services as you see fit.</source>
@@ -56,11 +56,11 @@
       </trans-unit>
       <trans-unit id="contextualConsent.descriptionEmptyStore">
         <source>To agree to this service permanently, you must accept {title} in the {link}.</source>
-        <target state="needs-translation">To agree to this service permanently, you must accept {title} in the {link}.</target>
+        <target state="translated">Um diesem Service dauerhaft zuzustimmen, müssen Sie {title} im {link} akzeptieren.</target>
       </trans-unit>
       <trans-unit id="contextualConsent.modalLinkText">
         <source>Consent Manager</source>
-        <target state="needs-translation">Consent Manager</target>
+        <target state="translated">Zustimmungsmanager anzeigen</target>
       </trans-unit>
       <trans-unit id="decline" approved="yes">
         <source>I decline</source>
@@ -84,11 +84,11 @@
       </trans-unit>
       <trans-unit id="purposeItem.service">
         <source>service</source>
-        <target state="needs-translation">service</target>
+        <target state="translated">Dienst</target>
       </trans-unit>
       <trans-unit id="purposeItem.services">
         <source>services</source>
-        <target state="needs-translation">services</target>
+        <target state="translated">Dienste</target>
       </trans-unit>
       <trans-unit id="purposes.advertising.description" approved="yes">
         <source>These services process personal information to show you personalized or interest-based advertisements.</source>
@@ -101,8 +101,7 @@
       <trans-unit id="purposes.functional.description">
         <source>These services are essential for the correct functioning of this website. You cannot disable them here as the service would not work correctly otherwise.
 </source>
-        <target state="needs-translation">These services are essential for the correct functioning of this website. You cannot disable them here as the service would not work correctly otherwise.
-</target>
+        <target state="translated">Diese Dienste sind für die korrekte Funktion dieser Website unerlässlich. Sie können sie hier nicht deaktivieren, da der Dienst sonst nicht richtig funktionieren würde.</target>
       </trans-unit>
       <trans-unit id="purposes.functional.title" approved="yes">
         <source>Service Provision</source>
@@ -119,8 +118,7 @@
       <trans-unit id="purposes.performance.description">
         <source>These services process personal information to optimize the service that this website offers.
 </source>
-        <target state="needs-translation">These services process personal information to optimize the service that this website offers.
-</target>
+        <target state="translated">Diese Dienste verarbeiten personenbezogene Daten, um den von dieser Website angebotenen Service zu optimieren.</target>
       </trans-unit>
       <trans-unit id="purposes.performance.title" approved="yes">
         <source>Performance Optimization</source>
@@ -128,7 +126,7 @@
       </trans-unit>
       <trans-unit id="save">
         <source>Save</source>
-        <target state="needs-translation">Save</target>
+        <target state="translated">Speichern</target>
       </trans-unit>
       <trans-unit id="service.disableAll.description" approved="yes">
         <source>Use this switch to enable or disable all services.</source>
@@ -148,11 +146,11 @@
       </trans-unit>
       <trans-unit id="service.purpose">
         <source>purpose</source>
-        <target state="needs-translation">purpose</target>
+        <target state="translated">Zweck</target>
       </trans-unit>
       <trans-unit id="service.purposes">
         <source>purposes</source>
-        <target state="needs-translation">purposes</target>
+        <target state="translated">Zwecke</target>
       </trans-unit>
       <trans-unit id="service.required.description" approved="yes">
         <source>This services is always required</source>
@@ -496,7 +494,7 @@
       </trans-unit>
       <trans-unit id="persistent">
         <source>persistent</source>
-        <target state="needs-translation">persistent</target>
+        <target state="translated">dauerhaft</target>
       </trans-unit>
       <trans-unit id="warning.noServices" approved="yes">
         <source>Why don't I see a Klaro! Modal? → You must assign at least 1 service to the Klaro! configuration! Without services, we don't need consent management at all.</source>
