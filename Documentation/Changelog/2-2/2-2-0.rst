@@ -1,0 +1,35 @@
+.. include:: /Includes.rst.txt
+
+2.2.0 - October 14, 2025
+========================
+
+
+.. only:: html
+
+   .. contents::
+        :local:
+        :depth: 3
+
+Breaking changes
+----------------
+- Please make a DB compare to enable sorting for klaro cookies
+- If you have inherited the SCSS files from the extension, you must change the source path from `EXT:klaro_consent_manager/Resources/Public/Scss/` to `EXT:klaro_consent_manager/Resources/Private/Scss/`.
+
+
+All Changes
+-----------
+This is a list of all changes in this release: ::
+
+    2025-10-13 [BUGFIX] Remove overriding sorting configuration (Commit 11dce3f by Eric Bode)
+    2025-10-13 [FEATURE] Make cookies sortable (Commit 51832e5 by Eric Bode)
+    2025-10-13 [BUGFIX] Fix cookie table styles if not grouped by purpose (Commit f54425f by Eric Bode)
+    2025-10-13 [TASK] Move SCSS files to Private directory (Commit 91d3110 by Eric Bode)
+    2025-10-13 [TASK] Update base SCSS files (Commit c0d497b by Eric Bode)
+    2025-10-13 [BUGFIX] Update template for „expires_after“-option "persistent" (Commit 1f4ac02 by Eric Harrer)
+    2025-10-13 [TASK] Add "persistent" option to cookie expiry units (Commit 452535b by Eric Harrer)
+    2025-10-13 [DOCS] Update replaceAttributes type definition (Commit 0e4f91c by Eric Harrer)
+    2025-10-13 [FEATURE] TypoScript-based service filtering (whitelist/blacklist) (Commit 95c6ddc by Eric Harrer)
+    2025-10-13 [BUGFIX] Fix backend labels for field "hidden" (Commit 0ab0fd1 by Eric Harrer)
+    2025-10-13 [BUGFIX] Fix hideToggleAll if groupByPurpose is true (Commit 16bda52 by Eric Harrer)
+
+This list has been created by using `git log $(git describe --tags --abbrev=0)..HEAD --abbrev-commit --pretty='%ad %s (Commit %h by %an)' --date=short`.
