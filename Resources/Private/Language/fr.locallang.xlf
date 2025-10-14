@@ -2,17 +2,17 @@
 <xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
   <file source-language="en" original="EXT:klaro_consent_manager/Resources/Private/Language/locallang.xlf" datatype="plaintext" product-name="klaro_consent_manager" date="2025-10-13T15:15:27+02:00" target-language="fr">
     <body>
-      <trans-unit id="acceptAll">
+      <trans-unit id="acceptAll" approved="yes">
         <source>Accept all</source>
-        <target state="needs-translation">Accept all</target>
+        <target state="final">Accepter tout</target>
       </trans-unit>
-      <trans-unit id="acceptSelected">
+      <trans-unit id="acceptSelected" approved="yes">
         <source>Accept selected</source>
-        <target state="needs-translation">Accept selected</target>
+        <target state="final">Accepter sélectionné</target>
       </trans-unit>
-      <trans-unit id="close">
+      <trans-unit id="close" approved="yes">
         <source>Close</source>
-        <target state="needs-translation">Close</target>
+        <target state="final">Fermer</target>
       </trans-unit>
       <trans-unit id="consentModal.description" approved="yes">
         <source>Here you can assess and customize the services that we'd like to use on this website. You're in charge! Enable or disable services as you see fit.</source>
@@ -54,13 +54,13 @@
         <source>Do you want to load external content supplied by {title}?</source>
         <target state="final">Vous souhaitez charger un contenu externe fourni par {title}?</target>
       </trans-unit>
-      <trans-unit id="contextualConsent.descriptionEmptyStore">
+      <trans-unit id="contextualConsent.descriptionEmptyStore" approved="yes">
         <source>To agree to this service permanently, you must accept {title} in the {link}.</source>
-        <target state="needs-translation">To agree to this service permanently, you must accept {title} in the {link}.</target>
+        <target state="final">Pour accepter ce service de façon permanente, vous devez accepter {title} dans la {link}.</target>
       </trans-unit>
-      <trans-unit id="contextualConsent.modalLinkText">
+      <trans-unit id="contextualConsent.modalLinkText" approved="yes">
         <source>Consent Manager</source>
-        <target state="needs-translation">Consent Manager</target>
+        <target state="final">Gestionnaire des consentements</target>
       </trans-unit>
       <trans-unit id="decline" approved="yes">
         <source>I decline</source>
@@ -82,13 +82,13 @@
         <source>To learn more, please read our {privacyPolicy}.</source>
         <target state="final">Pour en savoir plus, veuillez lire notre {privacyPolicy}.</target>
       </trans-unit>
-      <trans-unit id="purposeItem.service">
+      <trans-unit id="purposeItem.service" approved="yes">
         <source>service</source>
-        <target state="needs-translation">service</target>
+        <target state="final">service</target>
       </trans-unit>
-      <trans-unit id="purposeItem.services">
+      <trans-unit id="purposeItem.services" approved="yes">
         <source>services</source>
-        <target state="needs-translation">services</target>
+        <target state="final">services</target>
       </trans-unit>
       <trans-unit id="purposes.advertising.description" approved="yes">
         <source>These services process personal information to show you personalized or interest-based advertisements.</source>
@@ -98,11 +98,10 @@
         <source>Advertising</source>
         <target state="final">Publicité</target>
       </trans-unit>
-      <trans-unit id="purposes.functional.description">
+      <trans-unit id="purposes.functional.description" approved="yes">
         <source>These services are essential for the correct functioning of this website. You cannot disable them here as the service would not work correctly otherwise.
 </source>
-        <target state="needs-translation">These services are essential for the correct functioning of this website. You cannot disable them here as the service would not work correctly otherwise.
-</target>
+        <target state="final">Ces services sont essentiels au bon fonctionnement de ce site. Vous ne pouvez pas les désactiver ici car le service ne fonctionnerait pas correctement autrement.</target>
       </trans-unit>
       <trans-unit id="purposes.functional.title" approved="yes">
         <source>Service Provision</source>
@@ -116,19 +115,18 @@
         <source>Marketing</source>
         <target state="final">Marketing</target>
       </trans-unit>
-      <trans-unit id="purposes.performance.description">
+      <trans-unit id="purposes.performance.description" approved="yes">
         <source>These services process personal information to optimize the service that this website offers.
 </source>
-        <target state="needs-translation">These services process personal information to optimize the service that this website offers.
-</target>
+        <target state="final">Ces services traitent les informations personnelles afin d'optimiser le service que ce site Web offre.</target>
       </trans-unit>
       <trans-unit id="purposes.performance.title" approved="yes">
         <source>Performance Optimization</source>
         <target state="final">Optimisation de la performance</target>
       </trans-unit>
-      <trans-unit id="save">
+      <trans-unit id="save" approved="yes">
         <source>Save</source>
-        <target state="needs-translation">Save</target>
+        <target state="final">Enregistrer</target>
       </trans-unit>
       <trans-unit id="service.disableAll.description" approved="yes">
         <source>Use this switch to enable or disable all services.</source>
@@ -146,13 +144,13 @@
         <source>(opt-out)</source>
         <target state="final">(se désinscrire)</target>
       </trans-unit>
-      <trans-unit id="service.purpose">
+      <trans-unit id="service.purpose" approved="yes">
         <source>purpose</source>
-        <target state="needs-translation">purpose</target>
+        <target state="final">utilisation</target>
       </trans-unit>
-      <trans-unit id="service.purposes">
+      <trans-unit id="service.purposes" approved="yes">
         <source>purposes</source>
-        <target state="needs-translation">purposes</target>
+        <target state="final">utilisations</target>
       </trans-unit>
       <trans-unit id="service.required.description" approved="yes">
         <source>This services is always required</source>
@@ -226,9 +224,9 @@
         <source>Reset Consent Manager</source>
         <target state="final">Réinitialiser le gestionnaire de consentement</target>
       </trans-unit>
-      <trans-unit id="services.adsense.title">
+      <trans-unit id="services.adsense.title" approved="yes">
         <source>Google AdSense</source>
-        <target state="needs-translation">Google AdSense</target>
+        <target state="final">Google AdSense</target>
       </trans-unit>
       <trans-unit id="services.adsense.description" approved="yes">
         <source>Google AdSense enables personalized ads on websites while respecting user privacy. By consenting, you allow relevant ads and help support free content.</source>
@@ -242,17 +240,17 @@
         <source>Consent to the use of surveillance camera images for security and safety purposes, in compliance with applicable data privacy regulations.</source>
         <target state="final">Consentement à l’utilisation d’images de caméras de surveillance à des fins de sécurité et de sécurité, conformément aux règlements applicables en matière de confidentialité des données.</target>
       </trans-unit>
-      <trans-unit id="services.clarity.title">
+      <trans-unit id="services.clarity.title" approved="yes">
         <source>Microsoft Clarity</source>
-        <target state="needs-translation">Microsoft Clarity</target>
+        <target state="final">Microsoft Clarity</target>
       </trans-unit>
       <trans-unit id="services.clarity.description" approved="yes">
         <source>Microsoft Clarity is a user-friendly web analytics tool that empowers website visitors like you by providing transparency about how your interactions are tracked on a website. It ensures your privacy is respected while giving developers and website owners valuable insights into user behavior. Plus, it follows coding guidelines and best practices, ensuring a safe and secure online experience for you.</source>
         <target state="final">Microsoft Clarity est un outil d'analyse Web facile à utiliser qui permet aux visiteurs de sites Web comme vous en fournissant de la transparence sur la façon dont vos interactions sont suivies sur un site Web. Il garantit le respect de votre vie privée tout en donnant aux développeurs et aux propriétaires de sites Web des informations précieuses sur le comportement des utilisateurs. De plus, il suit les directives de codage et les meilleures pratiques, assurant une expérience en ligne sécurisée et sécurisée pour vous.</target>
       </trans-unit>
-      <trans-unit id="services.cloudflare.title">
+      <trans-unit id="services.cloudflare.title" approved="yes">
         <source>Cloudflare</source>
-        <target state="needs-translation">Cloudflare</target>
+        <target state="final">Cloudflare</target>
       </trans-unit>
       <trans-unit id="services.cloudflare.description" approved="yes">
         <source>Cloudflare helps protect and optimize websites. By using this website, you consent to Cloudflare's data processing practices as described in its Privacy Policy.</source>
@@ -266,57 +264,57 @@
         <source>External tracking script</source>
         <target state="final">Script de suivi externe</target>
       </trans-unit>
-      <trans-unit id="services.facebook-pixel.title">
+      <trans-unit id="services.facebook-pixel.title" approved="yes">
         <source>Facebook Pixel</source>
-        <target state="needs-translation">Facebook Pixel</target>
+        <target state="final">Facebook Pixel</target>
       </trans-unit>
       <trans-unit id="services.facebook-pixel.description" approved="yes">
         <source>Simplifies web tracking for analytics and marketing while ensuring data compliance and control.</source>
         <target state="final">Simplifie le suivi Web pour l'analyse et le marketing tout en garantissant la conformité et le contrôle des données.</target>
       </trans-unit>
-      <trans-unit id="services.fast-fonts.title">
+      <trans-unit id="services.fast-fonts.title" approved="yes">
         <source>Fast Fonts</source>
-        <target state="needs-translation">Fast Fonts</target>
+        <target state="final">Fast Fonts</target>
       </trans-unit>
       <trans-unit id="services.fast-fonts.description" approved="yes">
         <source>Fast Fonts, operated by fonts.com and supplied by fast.fonts.net, is a service for the provision of web fonts. It requires the use of a pixel-code for continuous price calculation.</source>
         <target state="final">Fast Fonts, opérée par fonts.com et fournie par fast.fonts.net, est un service pour la fourniture de polices Web. Il nécessite l'utilisation d'un code pixel pour le calcul continu des prix.</target>
       </trans-unit>
-      <trans-unit id="services.google-ads.title">
+      <trans-unit id="services.google-ads.title" approved="yes">
         <source>Google Ads</source>
-        <target state="needs-translation">Google Ads</target>
+        <target state="final">Google Ads</target>
       </trans-unit>
       <trans-unit id="services.google-ads.description" approved="yes">
         <source>Google Ads allows advertisers to reach their target audience online. To personalize ads and measure their effectiveness, Google may collect data with your consent.</source>
         <target state="final">Google Ads permet aux annonceurs d'atteindre leur public cible en ligne. Pour personnaliser les publicités et mesurer leur efficacité, Google peut collecter des données avec votre consentement.</target>
       </trans-unit>
-      <trans-unit id="services.google-analytics.title">
+      <trans-unit id="services.google-analytics.title" approved="yes">
         <source>Google Analytics</source>
-        <target state="needs-translation">Google Analytics</target>
+        <target state="final">Google Analytics</target>
       </trans-unit>
       <trans-unit id="services.google-analytics.description" approved="yes">
         <source>Web analytics service provided by Google, Inc. ("Google")</source>
         <target state="final">Service d'analyse Web fourni par Google, Inc. ("Google")</target>
       </trans-unit>
-      <trans-unit id="services.google-fonts.title">
+      <trans-unit id="services.google-fonts.title" approved="yes">
         <source>Google Fonts</source>
-        <target state="needs-translation">Google Fonts</target>
+        <target state="final">Google Fonts</target>
       </trans-unit>
       <trans-unit id="services.google-fonts.description" approved="yes">
         <source>Web fonts hosted by Google</source>
         <target state="final">Polices Web hébergées par Google</target>
       </trans-unit>
-      <trans-unit id="services.google-maps.title">
+      <trans-unit id="services.google-maps.title" approved="yes">
         <source>Google Maps</source>
-        <target state="needs-translation">Google Maps</target>
+        <target state="final">Google Maps</target>
       </trans-unit>
       <trans-unit id="services.google-maps.description" approved="yes">
         <source>Google Maps allows for the integration of interactive maps on websites, enabling location-based services. Developers can utilize it while ensuring data compliance and control, adhering to coding guidelines and best practices.</source>
         <target state="final">Google Maps permet l’intégration de cartes interactives sur les sites web, permettant des services de localisation. Les développeurs peuvent l'utiliser tout en assurant la conformité et le contrôle des données, en respectant les directives de codage et les meilleures pratiques.</target>
       </trans-unit>
-      <trans-unit id="services.google-tag-manager.title">
+      <trans-unit id="services.google-tag-manager.title" approved="yes">
         <source>Google Tag Manager</source>
-        <target state="needs-translation">Google Tag Manager</target>
+        <target state="final">Google Tag Manager</target>
       </trans-unit>
       <trans-unit id="services.google-tag-manager.description" approved="yes">
         <source>Google Tag Manager streamlines web tracking and code management, ensuring data compliance and control for developers.</source>
@@ -330,45 +328,45 @@
         <source>Inline tracking script</source>
         <target state="final">Script de suivi en ligne</target>
       </trans-unit>
-      <trans-unit id="services.instagram.title">
+      <trans-unit id="services.instagram.title" approved="yes">
         <source>Instagram</source>
-        <target state="needs-translation">Instagram</target>
+        <target state="final">Instagram</target>
       </trans-unit>
-      <trans-unit id="services.instagram.description">
+      <trans-unit id="services.instagram.description" approved="yes">
         <source>Allows Instagram posts to be embedded. Personal data may be transferred to Instagram (Meta Platforms) in the process.</source>
-        <target state="needs-translation">Allows Instagram posts to be embedded. Personal data may be transferred to Instagram (Meta Platforms) in the process.</target>
+        <target state="final">Permet d'intégrer les messages Instagram dans le processus. Les données personnelles peuvent être transférées à Instagram (Meta Platforms) pendant le processus.</target>
       </trans-unit>
-      <trans-unit id="services.intercom.title">
+      <trans-unit id="services.intercom.title" approved="yes">
         <source>Intercom</source>
-        <target state="needs-translation">Intercom</target>
+        <target state="final">Intercom</target>
       </trans-unit>
       <trans-unit id="services.intercom.description" approved="yes">
         <source>Chat widget and collecting of visitor statistics</source>
         <target state="final">Widget de chat et collecte des statistiques des visiteurs</target>
       </trans-unit>
-      <trans-unit id="services.matomo.title">
+      <trans-unit id="services.matomo.title" approved="yes">
         <source>Matomo/Piwik</source>
-        <target state="needs-translation">Matomo/Piwik</target>
+        <target state="final">Matomo/Piwik</target>
       </trans-unit>
-      <trans-unit id="services.matomo.description">
+      <trans-unit id="services.matomo.description" approved="yes">
         <source>Open source software for statistical analysis of visitor accesses</source>
-        <target state="needs-translation">Open source software for statistical analysis of visitor accesses</target>
+        <target state="final">Logiciel open source pour l'analyse statistique des accès des visiteurs</target>
       </trans-unit>
-      <trans-unit id="services.mouseflow.title">
+      <trans-unit id="services.mouseflow.title" approved="yes">
         <source>Mouseflow</source>
-        <target state="needs-translation">Mouseflow</target>
+        <target state="final">Flux de souris</target>
       </trans-unit>
-      <trans-unit id="services.mouseflow.description">
+      <trans-unit id="services.mouseflow.description" approved="yes">
         <source>Real-time user analytics service that helps to understand how visitors interact with our website.</source>
-        <target state="needs-translation">Real-time user analytics service that helps to understand how visitors interact with our website.</target>
+        <target state="final">Service d'analyse des utilisateurs en temps réel qui aide à comprendre comment les visiteurs interagissent avec notre site Web.</target>
       </trans-unit>
-      <trans-unit id="services.tiktok.title">
+      <trans-unit id="services.tiktok.title" approved="yes">
         <source>TikTok</source>
-        <target state="needs-translation">TikTok</target>
+        <target state="final">TikTok</target>
       </trans-unit>
-      <trans-unit id="services.tiktok.description">
+      <trans-unit id="services.tiktok.description" approved="yes">
         <source>Allows TikTok videos to be embedded. Personal data may be transferred to TikTok and processed in third countries.</source>
-        <target state="needs-translation">Allows TikTok videos to be embedded. Personal data may be transferred to TikTok and processed in third countries.</target>
+        <target state="final">Permet d'intégrer les vidéos de TikTok. Les données personnelles peuvent être transférées à TikTok et traitées dans des pays tiers.</target>
       </trans-unit>
       <trans-unit id="services.twitter.title" approved="yes">
         <source>X (formerly Twitter)</source>
@@ -378,25 +376,25 @@
         <source>X (formerly Twitter) is social media platform that allows users to share and interact with short messages and multimedia content. Developers can integrate Twitter features into websites to enhance user engagement and real-time updates while maintaining data privacy compliance and adhering to coding guidelines.</source>
         <target state="final">X (anciennement Twitter) est une plateforme de médias sociaux qui permet aux utilisateurs de partager et d'interagir avec des messages courts et du contenu multimédia. Les développeurs peuvent intégrer les fonctionnalités de Twitter dans les sites Web pour améliorer l'engagement des utilisateurs et les mises à jour en temps réel tout en maintenant la conformité de la confidentialité des données et en respectant les directives de codage.</target>
       </trans-unit>
-      <trans-unit id="services.userlike.title">
+      <trans-unit id="services.userlike.title" approved="yes">
         <source>Userlike</source>
-        <target state="needs-translation">Userlike</target>
+        <target state="final">Userlike</target>
       </trans-unit>
       <trans-unit id="services.userlike.description" approved="yes">
         <source>Userlike offers a live chat solution that enhances user interactions on websites.</source>
         <target state="final">Userlike offre une solution de chat en direct qui améliore les interactions entre les utilisateurs sur les sites Web.</target>
       </trans-unit>
-      <trans-unit id="services.vimeo.title">
+      <trans-unit id="services.vimeo.title" approved="yes">
         <source>Vimeo</source>
-        <target state="needs-translation">Vimeo</target>
+        <target state="final">Vimeo</target>
       </trans-unit>
       <trans-unit id="services.vimeo.description" approved="yes">
         <source>Popular video-sharing platform that offers a range of features for creators and developers to enhance video content on websites.</source>
         <target state="final">Plateforme populaire de partage de vidéos qui offre une gamme de fonctionnalités aux créateurs et aux développeurs pour améliorer le contenu vidéo sur les sites Web.</target>
       </trans-unit>
-      <trans-unit id="services.youtube.title">
+      <trans-unit id="services.youtube.title" approved="yes">
         <source>YouTube</source>
-        <target state="needs-translation">YouTube</target>
+        <target state="final">YouTube</target>
       </trans-unit>
       <trans-unit id="services.youtube.description" approved="yes">
         <source>The leading video-sharing platform for content creators and developers to enhance user experiences on websites.</source>
@@ -418,9 +416,9 @@
         <source>Privacy policy</source>
         <target state="final">politique de confidentialité</target>
       </trans-unit>
-      <trans-unit id="cookies.title">
+      <trans-unit id="cookies.title" approved="yes">
         <source>Cookies</source>
-        <target state="needs-translation">Cookies</target>
+        <target state="final">Cookies</target>
       </trans-unit>
       <trans-unit id="cookies.description" approved="yes">
         <source>Below you will find a list of all cookies used by %s</source>
@@ -494,9 +492,9 @@
         <source>End of session</source>
         <target state="final">Fin de session</target>
       </trans-unit>
-      <trans-unit id="persistent">
+      <trans-unit id="persistent" approved="yes">
         <source>persistent</source>
-        <target state="needs-translation">persistent</target>
+        <target state="final">persistant</target>
       </trans-unit>
       <trans-unit id="warning.noServices" approved="yes">
         <source>Why don't I see a Klaro! Modal? → You must assign at least 1 service to the Klaro! configuration! Without services, we don't need consent management at all.</source>
