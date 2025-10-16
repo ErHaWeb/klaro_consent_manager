@@ -3,73 +3,73 @@
   <file source-language="en" original="EXT:klaro_consent_manager/Resources/Private/Language/locallang_db.xlf" datatype="plaintext" product-name="lang" date="2025-10-06T09:33:58+02:00" target-language="zh-CN">
     <header/>
     <body>
-      <trans-unit id="sets.klaroconsentmanager.label">
+      <trans-unit id="sets.klaroconsentmanager.label" approved="yes">
         <source>Klaro! Consent Manager</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Klaro! 同意管理器</target>
+        <target state="final">Klaro! 同意管理器</target>
       </trans-unit>
-      <trans-unit id="extmng.replaceUrl.show">
+      <trans-unit id="extmng.replaceUrl.show" approved="yes">
         <source>Replace-URL to show Klaro! Consent Management:Links targeting this placeholder URL are automatically modified before HTML output. The URL is replaced with CSP-compliant JavaScript to trigger the Klaro! Consent Management modal.</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">替换URL以显示 Klaro ！同意管理：针对此占位符的 URL 的链接在 HTML 输出之前被自动修改。 URL 已被 CSP 兼容的 JavaScript 替换，以触发Klaro ！同意管理模式。</target>
+        <target state="final">替换URL以显示 Klaro ！同意管理：针对此占位符的 URL 的链接在 HTML 输出之前被自动修改。 URL 已被 CSP 兼容的 JavaScript 替换，以触发Klaro ！同意管理模式。</target>
       </trans-unit>
-      <trans-unit id="extmng.replaceUrl.reset">
+      <trans-unit id="extmng.replaceUrl.reset" approved="yes">
         <source>Replace-URL to reset Klaro! Consent Management:Links targeting this placeholder URL are automatically changed before HTML output. The URL is replaced with CSP-compliant JavaScript to reset the Klaro! Consent Management settings and then trigger the modal.</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">要重置 Klaro 的替换-URL ！同意管理：针对此占位符的 URL 在HTML输出之前会自动更改。 URL 已替换为 CSP 兼容的 JavaScript 来重置 Klaro ！同意管理设置，然后触发模式。</target>
+        <target state="final">要重置 Klaro 的替换-URL ！同意管理：针对此占位符的 URL 在HTML输出之前会自动更改。 URL 已替换为 CSP 兼容的 JavaScript 来重置 Klaro ！同意管理设置，然后触发模式。</target>
       </trans-unit>
-      <trans-unit id="extmng.klaroConfigurationPath">
+      <trans-unit id="extmng.klaroConfigurationPath" approved="yes">
         <source>Klaro! Configuration Path:If this path is set, it is used to use the Klaro! configuration by external applications. For example, if a WordPress installation is to use the configuration created in TYPO3, this path can be called up. Example: "/klaro-config.js"</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Klaro! 配置路径：如果设置了此路径，它将用于使用外部应用程序的配置文件。 例如，如果一个 WordPress 安装使用在 TYPO3 中创建的配置，这个路径可以被调用。例如："/klaro-config.js"</target>
+        <target state="final">Klaro! 配置路径：如果设置了此路径，它将用于使用外部应用程序的配置文件。 例如，如果一个 WordPress 安装使用在 TYPO3 中创建的配置，这个路径可以被调用。例如："/klaro-config.js"</target>
       </trans-unit>
-      <trans-unit id="constants.customcategory.plugin.tx_klaroconsentmanager">
+      <trans-unit id="constants.customcategory.plugin.tx_klaroconsentmanager" approved="yes">
         <source>Klaro! Consent Manager</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Klaro! 同意管理器</target>
+        <target state="final">Klaro! 同意管理器</target>
       </trans-unit>
-      <trans-unit id="constants.subcategory.fluidrootpaths">
+      <trans-unit id="constants.subcategory.fluidrootpaths" approved="yes">
         <source>Templates</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">模板</target>
+        <target state="final">模板</target>
       </trans-unit>
-      <trans-unit id="constants.subcategory.resources">
+      <trans-unit id="constants.subcategory.resources" approved="yes">
         <source>Resources</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">资源</target>
+        <target state="final">资源</target>
       </trans-unit>
-      <trans-unit id="constants.subcategory.settings">
+      <trans-unit id="constants.subcategory.settings" approved="yes">
         <source>Settings</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">设置</target>
+        <target state="final">设置</target>
       </trans-unit>
-      <trans-unit id="constants.view.templateRootPath">
+      <trans-unit id="constants.view.templateRootPath" approved="yes">
         <source>Path to template root (FE)</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">模板根路径 (FE)</target>
+        <target state="final">模板根路径 (FE)</target>
       </trans-unit>
-      <trans-unit id="constants.view.partialRootPath">
+      <trans-unit id="constants.view.partialRootPath" approved="yes">
         <source>Path to template partials (FE)</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">模板partials (FE)</target>
+        <target state="final">模板partials (FE)</target>
       </trans-unit>
-      <trans-unit id="constants.view.layoutRootPath">
+      <trans-unit id="constants.view.layoutRootPath" approved="yes">
         <source>Path to template layouts (FE)</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">模板布局路径 (FE)</target>
+        <target state="final">模板布局路径 (FE)</target>
       </trans-unit>
-      <trans-unit id="constants.settings.css.klaro-default">
+      <trans-unit id="constants.settings.css.klaro-default" approved="yes">
         <source>Klaro CSS</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Klaro CSS</target>
+        <target state="final">Klaro CSS</target>
       </trans-unit>
-      <trans-unit id="constants.settings.css.klaro-custom">
+      <trans-unit id="constants.settings.css.klaro-custom" approved="yes">
         <source>Custom additions for Klaro CSS</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Klaro CSS 的自定义添加</target>
+        <target state="final">Klaro CSS 的自定义添加</target>
       </trans-unit>
-      <trans-unit id="constants.settings.javascript.klaro-default">
+      <trans-unit id="constants.settings.javascript.klaro-default" approved="yes">
         <source>Klaro JavaScript</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Klaro JavaScript</target>
+        <target state="final">Klaro JavaScript</target>
       </trans-unit>
-      <trans-unit id="constants.settings.contextualconsent.replaceAttributes">
+      <trans-unit id="constants.settings.contextualconsent.replaceAttributes" approved="yes">
         <source>Replace attributes:Comma-separated list of attributes that should be automatically replaced within the content element of the contextual consent</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">替换属性：逗号分隔的属性列表，这些属性应在上下文同意的内容元素中自动替换</target>
+        <target state="final">替换属性：逗号分隔的属性列表，这些属性应在上下文同意的内容元素中自动替换</target>
       </trans-unit>
-      <trans-unit id="constants.settings.contextualconsent.mainSectionOnly">
+      <trans-unit id="constants.settings.contextualconsent.mainSectionOnly" approved="yes">
         <source>Main section only:Activate this option if the contextual consent box should only be limited to the main content (without heading and footer).</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">仅主节：如果上下文同意框仅限于主内容(无标题和页脚)，激活此选项。</target>
+        <target state="final">仅主节：如果上下文同意框仅限于主内容(无标题和页脚)，激活此选项。</target>
       </trans-unit>
-      <trans-unit id="constants.settings.configuration.disabled">
+      <trans-unit id="constants.settings.configuration.disabled" approved="yes">
         <source>Disable Klaro Consent Management</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">禁用 Klaro 同意管理</target>
+        <target state="final">禁用 Klaro 同意管理</target>
       </trans-unit>
     </body>
   </file>
