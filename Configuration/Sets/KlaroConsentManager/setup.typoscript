@@ -38,8 +38,8 @@ lib.contentElement {
       mainSectionOnly = {$plugin.tx_klaroconsentmanager.settings.contextualconsent.mainSectionOnly}
     }
   }
-  dataProcessing.100 = TYPO3\CMS\Frontend\DataProcessing\DatabaseQueryProcessor
-  dataProcessing.100 {
+  dataProcessing.1720091199 = TYPO3\CMS\Frontend\DataProcessing\DatabaseQueryProcessor
+  dataProcessing.1720091199 {
     if.isTrue.field = tx_klaroconsentmanager_service
     table = tx_klaroconsentmanager_service
     uidInList.field = tx_klaroconsentmanager_service
