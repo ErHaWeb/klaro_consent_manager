@@ -1,995 +1,995 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
-  <file source-language="en" original="EXT:klaro_consent_manager/Resources/Private/Language/locallang_db.xlf" datatype="plaintext" product-name="lang" date="2025-10-13T13:41:04+02:00" target-language="zh-TW">
+  <file source-language="en" original="EXT:klaro_consent_manager/Resources/Private/Language/locallang_db.xlf" datatype="plaintext" product-name="lang" date="2025-10-13T13:41:04+02:00" target-language="zh-CN">
     <header/>
     <body>
       <trans-unit id="tx_klaroconsentmanager_configuration">
         <source>Klaro! Configuration</source>
-        <target state="needs-translation">Klaro! Configuration</target>
+        <target state="needs-review-translation" state-qualifier="leveraged-mt">Klaro! Configuration</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.I.true">
         <source>true</source>
-        <target state="needs-translation">true</target>
+        <target state="needs-review-translation" state-qualifier="leveraged-mt">true</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.I.false">
         <source>false</source>
-        <target state="needs-translation">false</target>
+        <target state="needs-review-translation" state-qualifier="leveraged-mt">false</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.tabs.general">
         <source>General</source>
-        <target state="needs-translation">General</target>
+        <target state="needs-review-translation" state-qualifier="leveraged-mt">A. 概况</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.tabs.layout">
         <source>Layout</source>
-        <target state="needs-translation">Layout</target>
+        <target state="needs-review-translation" state-qualifier="leveraged-mt">布局</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.tabs.content">
         <source>Content</source>
-        <target state="needs-translation">Content</target>
+        <target state="needs-review-translation" state-qualifier="leveraged-mt">内容</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.tabs.cookie">
         <source>Cookie</source>
-        <target state="needs-translation">Cookie</target>
+        <target state="needs-review-translation" state-qualifier="leveraged-mt">Cookie</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.tabs.advanced">
         <source>Advanced</source>
-        <target state="needs-translation">Advanced</target>
+        <target state="needs-review-translation" state-qualifier="leveraged-mt">高级版</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.tabs.access">
         <source>Access</source>
-        <target state="needs-translation">Access</target>
+        <target state="needs-review-translation" state-qualifier="leveraged-mt">访问权限</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.palettes.general_palette">
         <source>General</source>
-        <target state="needs-translation">General</target>
+        <target state="needs-review-translation" state-qualifier="leveraged-mt">A. 概况</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.palettes.setup_palette">
         <source>Base Configuration</source>
-        <target state="needs-translation">Base Configuration</target>
+        <target state="needs-review-translation" state-qualifier="leveraged-mt">基本配置</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.palettes.storage_palette">
         <source>Storage</source>
-        <target state="needs-translation">Storage</target>
+        <target state="needs-review-translation" state-qualifier="leveraged-mt">存储</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.palettes.services_palette">
         <source>Services</source>
-        <target state="needs-translation">Services</target>
+        <target state="needs-review-translation" state-qualifier="leveraged-mt">服务</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.palettes.cookie_palette">
         <source>Cookie Settings</source>
-        <target state="needs-translation">Cookie Settings</target>
+        <target state="needs-review-translation" state-qualifier="leveraged-mt">Cookie 设置</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.palettes.callback_palette">
         <source>Callback</source>
-        <target state="needs-translation">Callback</target>
+        <target state="needs-review-translation" state-qualifier="leveraged-mt">Callback</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.palettes.consent_palette">
         <source>Default consent status</source>
-        <target state="needs-translation">Default consent status</target>
+        <target state="needs-review-translation" state-qualifier="leveraged-mt">默认同意状态</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.palettes.display_palette">
         <source>Other display settings</source>
-        <target state="needs-translation">Other display settings</target>
+        <target state="needs-review-translation" state-qualifier="leveraged-mt">其他显示设置</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.palettes.layout_palette">
         <source>Layout settings</source>
-        <target state="needs-translation">Layout settings</target>
+        <target state="needs-review-translation" state-qualifier="leveraged-mt">布局设置</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.palettes.behavior_palette">
         <source>Behavior</source>
-        <target state="needs-translation">Behavior</target>
+        <target state="needs-review-translation" state-qualifier="leveraged-mt">行为</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.palettes.hide_buttons_palette">
         <source>Hide Buttons</source>
-        <target state="needs-translation">Hide Buttons</target>
+        <target state="needs-review-translation" state-qualifier="leveraged-mt">隐藏按钮</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.palettes.append_buttons_palette">
         <source>Append Buttons</source>
-        <target state="needs-translation">Append Buttons</target>
+        <target state="needs-review-translation" state-qualifier="leveraged-mt">追加按钮</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.palettes.access_palette">
         <source>Access</source>
-        <target state="needs-translation">Access</target>
+        <target state="needs-review-translation" state-qualifier="leveraged-mt">访问权限</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.palettes.translations_palette">
         <source>Translations</source>
-        <target state="needs-translation">Translations</target>
+        <target state="needs-review-translation" state-qualifier="leveraged-mt">翻译</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.title.label">
         <source>Title</source>
-        <target state="needs-translation">Title</target>
+        <target state="needs-review-translation" state-qualifier="leveraged-mt">标题</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.title.description">
         <source>Title under which this configuration can be found.</source>
-        <target state="needs-translation">Title under which this configuration can be found.</target>
+        <target state="needs-review-translation" state-qualifier="leveraged-mt">找到此配置的标题。</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.title.placeholder">
         <source>My Klaro! Configuration</source>
-        <target state="needs-translation">My Klaro! Configuration</target>
+        <target state="needs-review-translation" state-qualifier="leveraged-mt">我的 Klaro ！配置</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.testing.label">
         <source>Testing</source>
-        <target state="needs-translation">Testing</target>
+        <target state="needs-review-translation" state-qualifier="leveraged-mt">测试</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.testing.description">
         <source>Setting `testing` to `true` will cause Klaro to not show the consent notice or modal by default, except if a special hashtag is appended to the URL (#klaro-testing). This makes it possible to test Klaro on your live website without affecting normal visitors.</source>
-        <target state="needs-translation">Setting `testing` to `true` will cause Klaro to not show the consent notice or modal by default, except if a special hashtag is appended to the URL (#klaro-testing). This makes it possible to test Klaro on your live website without affecting normal visitors.</target>
+        <target state="needs-review-translation" state-qualifier="leveraged-mt">设置 `testing` 到 `true` 将导致Klaro 默认不显示同意通知或模式， 除非特殊的 hashtag 附加到 URL (#klaro-testing)。 这使得您可以在不影响正常访客的情况下测试Klaro。</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.config_variable_name.label">
         <source>Config Variable Name</source>
-        <target state="needs-translation">Config Variable Name</target>
+        <target state="needs-review-translation" state-qualifier="leveraged-mt">配置变量名称</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.config_variable_name.description">
         <source>By default, Klaro loads the configuration from a global variable `klaroConfig`. You can change this here. Specifying this field will cause the attribute data-klaro-config="yourConfigVariableName" to be set.</source>
-        <target state="needs-translation">By default, Klaro loads the configuration from a global variable `klaroConfig`. You can change this here. Specifying this field will cause the attribute data-klaro-config="yourConfigVariableName" to be set.</target>
+        <target state="needs-review-translation" state-qualifier="leveraged-mt">默认情况下，Klaro从全局变量`klaroConfig`加载配置。您可以在此更改此设置。 指定此字段将导致设置属性 data-klaro-config="your Config变量名称"。</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.config_variable_name.placeholder">
         <source>klaroConfig</source>
-        <target state="needs-translation">klaroConfig</target>
+        <target state="needs-review-translation" state-qualifier="leveraged-mt">klaro配置</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.element_i_d.label">
         <source>Element ID</source>
-        <target state="needs-translation">Element ID</target>
+        <target state="needs-review-translation" state-qualifier="leveraged-mt">元素 ID</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.element_i_d.description">
         <source>You can customize the ID of the `div` element that Klaro will create when starting up. By default, Klaro will use "klaro".</source>
-        <target state="needs-translation">You can customize the ID of the `div` element that Klaro will create when starting up. By default, Klaro will use "klaro".</target>
+        <target state="needs-review-translation" state-qualifier="leveraged-mt">您可以自定义 Klaro 启动时创建的 `div` 元素的 ID。默认情况下，Klaro 将使用 "klaro"。</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.element_i_d.placeholder">
         <source>klaro</source>
-        <target state="needs-translation">klaro</target>
+        <target state="needs-review-translation" state-qualifier="leveraged-mt">klaro</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.no_auto_load.label">
         <source>No Auto-Load</source>
-        <target state="needs-translation">No Auto-Load</target>
+        <target state="needs-review-translation" state-qualifier="leveraged-mt">没有自动加载</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.no_auto_load.description">
         <source>Setting this to `true` will keep Klaro from automatically loading itself when the page is being loaded.</source>
-        <target state="needs-translation">Setting this to `true` will keep Klaro from automatically loading itself when the page is being loaded.</target>
+        <target state="needs-review-translation" state-qualifier="leveraged-mt">如果设置为 `true` ，当页面加载时，Klaro 将不会自动加载。</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.additional_class.label">
         <source>Additional Class</source>
-        <target state="needs-translation">Additional Class</target>
+        <target state="needs-review-translation" state-qualifier="leveraged-mt">附加类</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.additional_class.description">
         <source>You can specify an additional class (or classes) that will be added to the Klaro `div`</source>
-        <target state="needs-translation">You can specify an additional class (or classes) that will be added to the Klaro `div`</target>
+        <target state="needs-review-translation" state-qualifier="leveraged-mt">您可以指定一个将被添加到 Klaro `div` 的附加类 (或类)</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.additional_class.placeholder">
         <source>my-klaro</source>
-        <target state="needs-translation">my-klaro</target>
+        <target state="needs-review-translation" state-qualifier="leveraged-mt">my-klaro</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.storage_method.label">
         <source>Storage Method</source>
-        <target state="needs-translation">Storage Method</target>
+        <target state="needs-review-translation" state-qualifier="leveraged-mt">存储方法</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.storage_method.description">
         <source>You can customize how Klaro persists consent information in the browser. Specify either `cookie` (the default) or `localStorage`.</source>
-        <target state="needs-translation">You can customize how Klaro persists consent information in the browser. Specify either `cookie` (the default) or `localStorage`.</target>
+        <target state="needs-review-translation" state-qualifier="leveraged-mt">您可以自定义 Klaro 如何在浏览器中保持同意信息。指定 `cookie` (默认) 或 `localStorage` 。</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.storage_method.I.none">
         <source>None</source>
-        <target state="needs-translation">None</target>
+        <target state="needs-review-translation" state-qualifier="leveraged-mt">无</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.storage_method.I.cookie">
         <source>Cookie (default)</source>
-        <target state="needs-translation">Cookie (default)</target>
+        <target state="needs-review-translation" state-qualifier="leveraged-mt">Cookie (默认)</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.storage_method.I.localStorage">
         <source>Local Storage</source>
-        <target state="needs-translation">Local Storage</target>
+        <target state="needs-review-translation" state-qualifier="leveraged-mt">本地存储</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.storage_name.label">
         <source>Storage Name</source>
-        <target state="needs-translation">Storage Name</target>
+        <target state="needs-review-translation" state-qualifier="leveraged-mt">存储名称</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.storage_name.description">
         <source>You can customize the name of the cookie or localStorage entry that Klaro will use for storing the consent information. By default, Klaro will use "klaro".</source>
-        <target state="needs-translation">You can customize the name of the cookie or localStorage entry that Klaro will use for storing the consent information. By default, Klaro will use "klaro".</target>
+        <target state="needs-review-translation" state-qualifier="leveraged-mt">您可以自定义 Klaro 用于存储同意信息的 cookie 或 localStorage 条目名称。 默认情况下，Klaro将使用"klaro"。</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.storage_name.placeholder">
         <source>klaro</source>
-        <target state="needs-translation">klaro</target>
+        <target state="needs-review-translation" state-qualifier="leveraged-mt">klaro</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.html_texts.label">
         <source>HTML Texts</source>
-        <target state="needs-translation">HTML Texts</target>
+        <target state="needs-review-translation" state-qualifier="leveraged-mt">HTML 文本</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.html_texts.description">
         <source>If set to `true`, Klaro will render the texts given in the `consentModal.description` and `consentNotice.description` translations as HTML. This enables you to e.g. add custom links or interactive content. If you want to be able to output HTML tags via fluid-enriched labels (see "Content" → "Translations"), this option must be enabled.</source>
-        <target state="needs-translation">If set to `true`, Klaro will render the texts given in the `consentModal.description` and `consentNotice.description` translations as HTML. This enables you to e.g. add custom links or interactive content. If you want to be able to output HTML tags via fluid-enriched labels (see "Content" → "Translations"), this option must be enabled.</target>
+        <target state="needs-review-translation" state-qualifier="leveraged-mt">如果设置为 `true`, Klaro 将渲染在 `consentModal.description` 和 `consentNotice.description` 中提供的文本作为HTML。这使您能够例如： 添加自定义链接或交互内容。 如果您想要能够通过液体富集标签输出HTML(参见"Content" -&gt; "Translations")，此选项必须启用。</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.embedded.label">
         <source>Embedded</source>
-        <target state="needs-translation">Embedded</target>
+        <target state="needs-review-translation" state-qualifier="leveraged-mt">Embedded</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.embedded.description">
         <source>Setting "embedded" to `true` will render the Klaro modal and notice without the modal background, allowing you to e.g. embed them into a specific element of your website, such as your privacy notice.</source>
-        <target state="needs-translation">Setting "embedded" to `true` will render the Klaro modal and notice without the modal background, allowing you to e.g. embed them into a specific element of your website, such as your privacy notice.</target>
+        <target state="needs-review-translation" state-qualifier="leveraged-mt">设置“嵌入”为`true`将会使Klaro模式和通知不带模式背景，允许您e。 。将它们嵌入到您网站的一个特定元素中，例如您的隐私信息。</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.group_by_purpose.label">
         <source>Group by purpose</source>
-        <target state="needs-translation">Group by purpose</target>
+        <target state="needs-review-translation" state-qualifier="leveraged-mt">按目的分组</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.group_by_purpose.description">
         <source>You can group services by their purpose in the modal. This is advisable if you have a large number of services. Users can then enable or disable entire groups of services instead of having to enable or disable every service.</source>
-        <target state="needs-translation">You can group services by their purpose in the modal. This is advisable if you have a large number of services. Users can then enable or disable entire groups of services instead of having to enable or disable every service.</target>
+        <target state="needs-review-translation" state-qualifier="leveraged-mt">您可以在模式中按其目的对服务进行分组。如果您有大量的服务，请这样做。 然后用户可以启用或禁用整个组服务，而不必启用或禁用每个服务。</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.cookie_domain.label">
         <source>Cookie Domain</source>
-        <target state="needs-translation">Cookie Domain</target>
+        <target state="needs-review-translation" state-qualifier="leveraged-mt">Cookie 域</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.cookie_domain.description">
         <source>You can change the cookie domain for the consent manager itself. Use this if you want to get consent once for multiple matching domains. By default, Klaro will use the current domain. Only relevant if `storageMethod` is set to `cookie`.</source>
-        <target state="needs-translation">You can change the cookie domain for the consent manager itself. Use this if you want to get consent once for multiple matching domains. By default, Klaro will use the current domain. Only relevant if `storageMethod` is set to `cookie`.</target>
+        <target state="needs-review-translation" state-qualifier="leveraged-mt">您可以更改同意管理器本身的 cookie 域。如果您想要获得多个匹配域的同意一次请使用它。 默认情况下，Klaro将使用当前域。只有当`storageMethod`设置为 `cookie`时，才具有相关性。</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.cookie_domain.placeholder">
         <source>.example.com</source>
-        <target state="needs-translation">.example.com</target>
+        <target state="needs-review-translation" state-qualifier="leveraged-mt">example.com</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.cookie_path.label">
         <source>Cookie Path</source>
-        <target state="needs-translation">Cookie Path</target>
+        <target state="needs-review-translation" state-qualifier="leveraged-mt">Cookie 路径</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.cookie_path.description">
         <source>Provide a path if you have services that set cookies for a path that is not "/"</source>
-        <target state="needs-translation">Provide a path if you have services that set cookies for a path that is not "/"</target>
+        <target state="needs-review-translation" state-qualifier="leveraged-mt">如果您拥有为 "/" 的路径设置 cookie 的服务，请提供路径</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.cookie_path.placeholder">
         <source>/</source>
-        <target state="needs-translation">/</target>
+        <target state="needs-review-translation" state-qualifier="leveraged-mt">/</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.cookie_expires_after_days.label">
         <source>Cookie expires after days</source>
-        <target state="needs-translation">Cookie expires after days</target>
+        <target state="needs-review-translation" state-qualifier="leveraged-mt">Cookie 过期几天后</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.cookie_expires_after_days.description">
         <source>You can also set a custom expiration time for the Klaro cookie. By default, it will expire after 60 days. Only relevant if `storageMethod` is set to `cookie`.</source>
-        <target state="needs-translation">You can also set a custom expiration time for the Klaro cookie. By default, it will expire after 60 days. Only relevant if `storageMethod` is set to `cookie`.</target>
+        <target state="needs-review-translation" state-qualifier="leveraged-mt">您也可以设置 Klaro cookie 的自定义过期时间。 默认情况下，它将在 60 天后过期。只有当`storageMethod` 被设置为 `cookie` 时，它才是相关的。</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.cookie_expires_after_days.placeholder">
         <source>30</source>
-        <target state="needs-translation">30</target>
+        <target state="needs-review-translation" state-qualifier="leveraged-mt">30</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.default.label">
         <source>Default</source>
-        <target state="needs-translation">Default</target>
+        <target state="needs-review-translation" state-qualifier="leveraged-mt">默认设置</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.default.description">
         <source>Defines the default state for services in the consent modal (`true` = enabled by default). If this setting is set to "false", you can override it in any service.</source>
-        <target state="needs-translation">Defines the default state for services in the consent modal (`true` = enabled by default). If this setting is set to "false", you can override it in any service.</target>
+        <target state="needs-review-translation" state-qualifier="leveraged-mt">定义同意模式中服务的默认状态(`true` = 默认启用)。 如果设置为“false”，您可以在任何服务中覆盖它。</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.must_consent.label">
         <source>Must consent</source>
-        <target state="needs-translation">Must consent</target>
+        <target state="needs-review-translation" state-qualifier="leveraged-mt">必须同意</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.must_consent.description">
         <source>If `mustConsent` is set to `true`, Klaro will directly display the consent manager modal and not allow the user to close it before having actively consented or declines the use of third-party services.</source>
-        <target state="needs-translation">If `mustConsent` is set to `true`, Klaro will directly display the consent manager modal and not allow the user to close it before having actively consented or declines the use of third-party services.</target>
+        <target state="needs-review-translation" state-qualifier="leveraged-mt">如果`mustConsent`设置为 `true`， Klaro将直接显示同意管理器模式，不允许用户在主动同意或拒绝使用第三方服务之前关闭它。</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.accept_all.label">
         <source>Accept all</source>
-        <target state="needs-translation">Accept all</target>
+        <target state="needs-review-translation" state-qualifier="leveraged-mt">全部接受</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.accept_all.description">
         <source>Setting `acceptAll` to `true` will show an "accept all" button in the notice and modal, which will enable all third-party services if the user clicks on it. If set to "false", there will be an "accept" button that will only enable the services that are enabled in the consent modal.</source>
-        <target state="needs-translation">Setting `acceptAll` to `true` will show an "accept all" button in the notice and modal, which will enable all third-party services if the user clicks on it. If set to "false", there will be an "accept" button that will only enable the services that are enabled in the consent modal.</target>
+        <target state="needs-review-translation" state-qualifier="leveraged-mt">设置`acceptAll` 到 `true` 将在通知和模式中显示一个“接受全部”按钮， 如果用户点击它，将启用所有第三方服务。 如果设置为“false”，将会有一个“接受”按钮，只能启用在同意模式中启用的服务。</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.hide_decline_all.label">
         <source>Hide Decline All</source>
-        <target state="needs-translation">Hide Decline All</target>
+        <target state="needs-review-translation" state-qualifier="leveraged-mt">隐藏拒绝所有</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.hide_decline_all.description">
         <source>Setting `hideDeclineAll` to `true` will hide the "decline" button in the consent modal and force the user to open the modal in order to change his/her consent or disable all third-party services. We strongly advise you to not use this feature, as it opposes the "privacy by default" and "privacy by design" principles of the GDPR (but might be acceptable in other legislations such as under the CCPA)</source>
-        <target state="needs-translation">Setting `hideDeclineAll` to `true` will hide the "decline" button in the consent modal and force the user to open the modal in order to change his/her consent or disable all third-party services. We strongly advise you to not use this feature, as it opposes the "privacy by default" and "privacy by design" principles of the GDPR (but might be acceptable in other legislations such as under the CCPA)</target>
+        <target state="needs-review-translation" state-qualifier="leveraged-mt">设置`hideDeclineAll`为`true`将隐藏同意式中的“decline”按钮，并强制用户打开模式以更改他/她的同意或禁用所有第三方服务。 我们强烈建议您不要使用此功能， 因为它反对GDRPR的“默认隐私”和“设计的隐私”原则(但在诸如CCPA等其他立法中可能可以接受)</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.hide_learn_more.label">
         <source>Hide Learn More</source>
-        <target state="needs-translation">Hide Learn More</target>
+        <target state="needs-review-translation" state-qualifier="leveraged-mt">隐藏了解更多</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.hide_learn_more.description">
         <source>Setting `hideLearnMore` to `true` will hide the "learn more / customize" link in the consent notice. We strongly advise against using this under most circumstances, as it keeps the user from customizing his/her consent choices.</source>
-        <target state="needs-translation">Setting `hideLearnMore` to `true` will hide the "learn more / customize" link in the consent notice. We strongly advise against using this under most circumstances, as it keeps the user from customizing his/her consent choices.</target>
+        <target state="needs-review-translation" state-qualifier="leveraged-mt">设置 `hideLearnMore` 到 `true` 将隐藏同意通知中的“了解更多/自定义”链接。 我们强烈建议在大多数情况下不要使用这种做法，因为这使得用户无法定制他/她的同意选择。</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.hide_toggle_all.label">
         <source>Hide Toggle All</source>
-        <target state="needs-translation">Hide Toggle All</target>
+        <target state="needs-review-translation" state-qualifier="leveraged-mt">隐藏全部开关</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.hide_toggle_all.description">
         <source>Setting `hideToggleAll` to `true` will hide the "toggle all" link in the consent notice.</source>
-        <target state="needs-translation">Setting `hideToggleAll` to `true` will hide the "toggle all" link in the consent notice.</target>
+        <target state="needs-review-translation" state-qualifier="leveraged-mt">设置 `hideToggleAll` 到 `true` 将隐藏同意通知中的“开关全部”链接。</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.notice_as_modal.label">
         <source>Notice As Modal</source>
-        <target state="needs-translation">Notice As Modal</target>
+        <target state="needs-review-translation" state-qualifier="leveraged-mt">通知为方式</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.notice_as_modal.description">
         <source>Show cookie notice as modal</source>
-        <target state="needs-translation">Show cookie notice as modal</target>
+        <target state="needs-review-translation" state-qualifier="leveraged-mt">显示 cookie 通知为模式</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.show_notice_title.label">
         <source>Show title in consent notice</source>
-        <target state="needs-translation">Show title in consent notice</target>
+        <target state="needs-review-translation" state-qualifier="leveraged-mt">在同意通知中显示标题</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.show_notice_title.description">
         <source>When this option is enabled, Klaro displays the title in the notice modal.</source>
-        <target state="needs-translation">When this option is enabled, Klaro displays the title in the notice modal.</target>
+        <target state="needs-review-translation" state-qualifier="leveraged-mt">启用此选项时，Klaro会在通知模式中显示标题。</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.show_description_empty_store.label">
         <source>Show Description (Empty Store)</source>
-        <target state="needs-translation">Show Description (Empty Store)</target>
+        <target state="needs-review-translation" state-qualifier="leveraged-mt">显示描述(空店)</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.show_description_empty_store.description">
         <source>Show an explanatory text in contextual consent placeholders when no consent storage exists yet (first visit / empty store). This informs users that a permanent decision ("Always") requires allowing Klaro to store consent first. This only has an effect in contextual consent widgets/overlays (e.g. for embedded media) and only if the consent store (cookie/localStorage) is empty.</source>
-        <target state="needs-translation">Show an explanatory text in contextual consent placeholders when no consent storage exists yet (first visit / empty store). This informs users that a permanent decision ("Always") requires allowing Klaro to store consent first. This only has an effect in contextual consent widgets/overlays (e.g. for embedded media) and only if the consent store (cookie/localStorage) is empty.</target>
+        <target state="needs-review-translation" state-qualifier="leveraged-mt">当尚无同意存储时在上下文同意占位符中显示解释性文本 (首次访问/空存储)。 这通知用户，永久性决定("总是") 需要允许 Klaro 首先存储同意。 这只会对上下文同意的小部件/叠加层产生影响(如内嵌介质)，只有在同意存储 (Cookie/localStorage) 为空。</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.auto_focus.label">
         <source>Auto Focus</source>
-        <target state="needs-translation">Auto Focus</target>
+        <target state="needs-review-translation" state-qualifier="leveraged-mt">自动对焦</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.auto_focus.description">
         <source>Automatically focus the Klaro consent notice/modal container when it opens to improve keyboard navigation and accessibility.</source>
-        <target state="needs-translation">Automatically focus the Klaro consent notice/modal container when it opens to improve keyboard navigation and accessibility.</target>
+        <target state="needs-review-translation" state-qualifier="leveraged-mt">当Klaro同意通知/模式容器打开时自动聚焦于改善键盘导航和可访问性。</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.disable_powered_by.label">
         <source>Disable Powered By</source>
-        <target state="needs-translation">Disable Powered By</target>
+        <target state="needs-review-translation" state-qualifier="leveraged-mt">禁用支持者</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.disable_powered_by.description">
         <source>You can also remove the "Realized with Klaro!" text in the consent modal. Please don't do this! We provide Klaro as a free open source tool. Placing a link to our website helps us spread the word about it, which ultimately enables us to make Klaro! better for everyone. So please be fair and keep the link enabled. Thanks :)</source>
-        <target state="needs-translation">You can also remove the "Realized with Klaro!" text in the consent modal. Please don't do this! We provide Klaro as a free open source tool. Placing a link to our website helps us spread the word about it, which ultimately enables us to make Klaro! better for everyone. So please be fair and keep the link enabled. Thanks :)</target>
+        <target state="needs-review-translation" state-qualifier="leveraged-mt">您也可以在同意模式中移除"通过 Klaro 实现!" 文本。 请不要这么做！我们提供 Klaro 作为免费开源工具。 将链接到我们的网站有助于我们传播有关它的信息，最终使我们能够使Klaro变得更好！ 所以请做到公平并保持链接启用。感谢:)</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.services.label">
         <source>Services</source>
-        <target state="needs-translation">Services</target>
+        <target state="needs-review-translation" state-qualifier="leveraged-mt">服务</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.services.description">
         <source>Here you specify the third-party services that Klaro will manage for you.</source>
-        <target state="needs-translation">Here you specify the third-party services that Klaro will manage for you.</target>
+        <target state="needs-review-translation" state-qualifier="leveraged-mt">您在这里指定Klaro将为您管理的第三方服务。</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.purpose_order.label">
         <source>Purpose Order</source>
-        <target state="needs-translation">Purpose Order</target>
+        <target state="needs-review-translation" state-qualifier="leveraged-mt">目的顺序</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.purpose_order.description">
         <source>The order in which purposes appear in the notice and modal can be changed via the `purposeOrder` parameter, which can be given a list with purpose names and will display those purposes in the order in which they appear in the list.</source>
-        <target state="needs-translation">The order in which purposes appear in the notice and modal can be changed via the `purposeOrder` parameter, which can be given a list with purpose names and will display those purposes in the order in which they appear in the list.</target>
+        <target state="needs-review-translation" state-qualifier="leveraged-mt">在通知和模式中出现目的的顺序可以通过 `ocuseOrder` 参数更改， 它可以提供一个带有目的名称的清单，并将按照其出现在清单中的先后顺序显示这些目的。</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.callback.label">
         <source>Callback</source>
-        <target state="needs-translation">Callback</target>
+        <target state="needs-review-translation" state-qualifier="leveraged-mt">Callback</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.callback.description">
         <source>You can define an optional callback function that will be called each time the consent state for any given service changes. The consent value will be passed as the first parameter to the function (`true` = consented). The `service` config will be passed as the second parameter. The content of this field is wrapped with `callback: function(consent, service) { }`</source>
-        <target state="needs-translation">You can define an optional callback function that will be called each time the consent state for any given service changes. The consent value will be passed as the first parameter to the function (`true` = consented). The `service` config will be passed as the second parameter. The content of this field is wrapped with `callback: function(consent, service) { }`</target>
+        <target state="needs-review-translation" state-qualifier="leveraged-mt">您可以定义一个可选的回调函数，这个函数将在每次同意状态对任何特定服务的更改时调用。 同意值将作为函数的第一个参数传递(`true` = 同意)。 `service`配置将作为第二个参数传递。此字段的内容被包装为 `callback：函数(同意、服务) { }</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.locallang_path.label">
         <source>Locallang Path</source>
-        <target state="needs-translation">Locallang Path</target>
+        <target state="needs-review-translation" state-qualifier="leveraged-mt">本地路径</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.locallang_path.description">
         <source>Optional path to an additional XLIFF file that overwrites the default labels or adds new labels (e.g. for custom purposes or services). If fluid templates have been stored for the labels created in this file (see the "Fluid Template Root Path" field), these will overwrite the classic labels from the Locallang file. Nevertheless, it is possible and common to reference the locallang file from the respective fluid template and obtain the actual label there (the label key is passed to the fluid template).</source>
-        <target state="needs-translation">Optional path to an additional XLIFF file that overwrites the default labels or adds new labels (e.g. for custom purposes or services). If fluid templates have been stored for the labels created in this file (see the "Fluid Template Root Path" field), these will overwrite the classic labels from the Locallang file. Nevertheless, it is possible and common to reference the locallang file from the respective fluid template and obtain the actual label there (the label key is passed to the fluid template).</target>
+        <target state="needs-review-translation" state-qualifier="leveraged-mt">覆盖默认标签或添加新标签的附加XLIFF 文件的可选路径(例如用于自定义目的或服务)。 如果流体模板已存储在此文件中创建的标签(见“流体模板根路径”字段), 这些将覆盖Locallang文件中的经典标签。 然而，仍然存在着这种情况。 从各自流体模板中引用本地文件并获取实际标签是可能和常见的(标签键转到流体模板)。</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.locallang_path.placeholder">
         <source>EXT:sitepackage/Resources/Private/Language/Klaro/locallang.xlf</source>
-        <target state="needs-translation">EXT:sitepackage/Resources/Private/Language/Klaro/locallang.xlf</target>
+        <target state="needs-review-translation" state-qualifier="leveraged-mt">EXT:sitepackage/Resources/Private/Languguage/Klaro/locallang.xlf</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.fluidtemplate_rootpath.label">
         <source>Fluid Template Root Path</source>
-        <target state="needs-translation">Fluid Template Root Path</target>
+        <target state="needs-review-translation" state-qualifier="leveraged-mt">液体模板根路径</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.fluidtemplate_rootpath.description">
         <source>As an alternative to the usual TypoScript configuration via constants under `plugin.tx_klaroconsentmanager.view`, a Fluid root path can be defined here, which has a higher priority than the paths configured in TypoScript. The three default directories `/Layouts/`, `/Partials/` and `/Templates/` are expected under this path. Fluid templates created here are used to enrich Locallang labels with additional functionality or to replace them completely. In this way, dynamic content or more complex HTML structures can be provided in a simple way. Fluid templates that are to override labels are expected in the subdirectory `/Templates/Labels/`.</source>
-        <target state="needs-translation">As an alternative to the usual TypoScript configuration via constants under `plugin.tx_klaroconsentmanager.view`, a Fluid root path can be defined here, which has a higher priority than the paths configured in TypoScript. The three default directories `/Layouts/`, `/Partials/` and `/Templates/` are expected under this path. Fluid templates created here are used to enrich Locallang labels with additional functionality or to replace them completely. In this way, dynamic content or more complex HTML structures can be provided in a simple way. Fluid templates that are to override labels are expected in the subdirectory `/Templates/Labels/`.</target>
+        <target state="needs-review-translation" state-qualifier="leveraged-mt">作为通常在 `plugin.tx_klaroconsentmanager 下通过常量配置的 TypoScript 配置的替代。 iw`，可以在此定义流体根路径，它比TypoScript中配置的路径具有更高的优先级。 在这个路径下需要三个默认目录 `/Layouts/`, `/partials/`和`/Templates/` 。 在此创建的流体模板被用来丰富本地标签的附加功能或完全替换它们。 这样，可以简单地提供动态内容或更复杂的HTML结构。 要覆盖标签的流体模板在子目录 `/Templates/Labels/` 中是预期的。</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.fluidtemplate_rootpath.placeholder">
         <source>EXT:sitepackage/Resources/Private/</source>
-        <target state="needs-translation">EXT:sitepackage/Resources/Private/</target>
+        <target state="needs-review-translation" state-qualifier="leveraged-mt">EXT:sitepackage/Resources/Private/</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.alignment.label">
         <source>Alignment</source>
-        <target state="needs-translation">Alignment</target>
+        <target state="needs-review-translation" state-qualifier="leveraged-mt">对齐</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.alignment.description">
         <source>Determines the alignment of the Consent box if `mustConsent` and `noticeAsModal` are disabled.</source>
-        <target state="needs-translation">Determines the alignment of the Consent box if `mustConsent` and `noticeAsModal` are disabled.</target>
+        <target state="needs-review-translation" state-qualifier="leveraged-mt">如果`mustConsent`和`noteAsModal`被禁用，则确定同意框的对齐。</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.alignment.I.top-left">
         <source>Top-Left</source>
-        <target state="needs-translation">Top-Left</target>
+        <target state="needs-review-translation" state-qualifier="leveraged-mt">左上</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.alignment.I.top-right">
         <source>Top-Right</source>
-        <target state="needs-translation">Top-Right</target>
+        <target state="needs-review-translation" state-qualifier="leveraged-mt">右上</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.alignment.I.top-wide">
         <source>Top-Wide</source>
-        <target state="needs-translation">Top-Wide</target>
+        <target state="needs-review-translation" state-qualifier="leveraged-mt">顶部范围</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.alignment.I.bottom-left">
         <source>Bottom-Left</source>
-        <target state="needs-translation">Bottom-Left</target>
+        <target state="needs-review-translation" state-qualifier="leveraged-mt">左下</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.alignment.I.bottom-right">
         <source>Bottom-Right</source>
-        <target state="needs-translation">Bottom-Right</target>
+        <target state="needs-review-translation" state-qualifier="leveraged-mt">右下</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.alignment.I.bottom-wide">
         <source>Bottom-Wide</source>
-        <target state="needs-translation">Bottom-Wide</target>
+        <target state="needs-review-translation" state-qualifier="leveraged-mt">底端</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.alignment.I.top">
         <source>Top</source>
-        <target state="needs-translation">Top</target>
+        <target state="needs-review-translation" state-qualifier="leveraged-mt">顶端</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.alignment.I.bottom">
         <source>Bottom</source>
-        <target state="needs-translation">Bottom</target>
+        <target state="needs-review-translation" state-qualifier="leveraged-mt">底部</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.alignment.I.left">
         <source>left</source>
-        <target state="needs-translation">left</target>
+        <target state="needs-review-translation" state-qualifier="leveraged-mt">左侧</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.alignment.I.right">
         <source>right</source>
-        <target state="needs-translation">right</target>
+        <target state="needs-review-translation" state-qualifier="leveraged-mt">右侧</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.alignment.I.wide">
         <source>wide</source>
-        <target state="needs-translation">wide</target>
+        <target state="needs-review-translation" state-qualifier="leveraged-mt">宽度</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.color_scheme.label">
         <source>Color Scheme</source>
-        <target state="needs-translation">Color Scheme</target>
+        <target state="needs-review-translation" state-qualifier="leveraged-mt">配色方案</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.color_scheme.description">
         <source>Default color scheme used for the display. The colors can also be overridden later via CSS variables.</source>
-        <target state="needs-translation">Default color scheme used for the display. The colors can also be overridden later via CSS variables.</target>
+        <target state="needs-review-translation" state-qualifier="leveraged-mt">用于显示的默认配色方案。颜色也可以在稍后通过 CSS 变量覆盖。</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.color_scheme.I.dark_neutral">
         <source>Dark (neutral)</source>
-        <target state="needs-translation">Dark (neutral)</target>
+        <target state="needs-review-translation" state-qualifier="leveraged-mt">暗色(中性)</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.color_scheme.I.light_neutral">
         <source>Light (neutral)</source>
-        <target state="needs-translation">Light (neutral)</target>
+        <target state="needs-review-translation" state-qualifier="leveraged-mt">浅色(中性)</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.color_scheme.I.dark">
         <source>Dark</source>
-        <target state="needs-translation">Dark</target>
+        <target state="needs-review-translation" state-qualifier="leveraged-mt">深色</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.color_scheme.I.light">
         <source>Light</source>
-        <target state="needs-translation">Light</target>
+        <target state="needs-review-translation" state-qualifier="leveraged-mt">亮色的</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.append_show_button.label">
         <source>Append Show Button</source>
-        <target state="needs-translation">Append Show Button</target>
+        <target state="needs-review-translation" state-qualifier="leveraged-mt">追加显示按钮</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.append_show_button.description">
         <source>If this option is set to `true`, a button is created in the frontend (via JavaScript) directly in front of the closing body tag, which triggers the opening of the Klaro consent management.</source>
-        <target state="needs-translation">If this option is set to `true`, a button is created in the frontend (via JavaScript) directly in front of the closing body tag, which triggers the opening of the Klaro consent management.</target>
+        <target state="needs-review-translation" state-qualifier="leveraged-mt">如果此选项被设置为 `true`，则在前端(通过 JavaScript) 直接在正文标签前面创建按钮。 它触发了 Klaro 同意管理的开启。</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.append_reset_button.label">
         <source>Append Reset Button</source>
-        <target state="needs-translation">Append Reset Button</target>
+        <target state="needs-review-translation" state-qualifier="leveraged-mt">追加重置按钮</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.append_reset_button.description">
         <source>If this option is set to `true`, a button is generated in the frontend (via JavaScript) directly in front of the closing body tag, which triggers the resetting of all settings and the opening of the Klaro consent management.</source>
-        <target state="needs-translation">If this option is set to `true`, a button is generated in the frontend (via JavaScript) directly in front of the closing body tag, which triggers the resetting of all settings and the opening of the Klaro consent management.</target>
+        <target state="needs-review-translation" state-qualifier="leveraged-mt">如果此选项设置为 `true`，则在前端(通过 JavaScript) 直接在正文标签前端生成按钮。 它会触发所有设置的重置并打开 Klaro 同意管理。</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.hidden">
         <source>Configuration visible</source>
-        <target state="needs-translation">Configuration visible</target>
+        <target state="needs-review-translation" state-qualifier="leveraged-mt">配置可见</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_service">
         <source>Klaro! Service</source>
-        <target state="needs-translation">Klaro! Service</target>
+        <target state="needs-review-translation" state-qualifier="leveraged-mt">Klaro! Service</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_service.tabs.general">
         <source>General</source>
-        <target state="needs-translation">General</target>
+        <target state="needs-review-translation" state-qualifier="leveraged-mt">A. 概况</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_service.tabs.cookies">
         <source>Cookies</source>
-        <target state="needs-translation">Cookies</target>
+        <target state="needs-review-translation" state-qualifier="leveraged-mt">Cookie</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_service.tabs.toggles">
         <source>Toggles</source>
-        <target state="needs-translation">Toggles</target>
+        <target state="needs-review-translation" state-qualifier="leveraged-mt">Toggles</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_service.tabs.advanced">
         <source>Advanced</source>
-        <target state="needs-translation">Advanced</target>
+        <target state="needs-review-translation" state-qualifier="leveraged-mt">高级版</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_service.tabs.access">
         <source>Access</source>
-        <target state="needs-translation">Access</target>
+        <target state="needs-review-translation" state-qualifier="leveraged-mt">访问权限</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_service.palettes.general_palette">
         <source>General Settings</source>
-        <target state="needs-translation">General Settings</target>
+        <target state="needs-review-translation" state-qualifier="leveraged-mt">常规设置</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_service.palettes.cookie_palette">
         <source>Cookie Settings</source>
-        <target state="needs-translation">Cookie Settings</target>
+        <target state="needs-review-translation" state-qualifier="leveraged-mt">Cookie 设置</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_service.palettes.toggles_palette">
         <source>Toggles</source>
-        <target state="needs-translation">Toggles</target>
+        <target state="needs-review-translation" state-qualifier="leveraged-mt">Toggles</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_service.palettes.advanced_palette">
         <source>Advanced Settings</source>
-        <target state="needs-translation">Advanced Settings</target>
+        <target state="needs-review-translation" state-qualifier="leveraged-mt">高级设置</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_service.palettes.access_palette">
         <source>Access</source>
-        <target state="needs-translation">Access</target>
+        <target state="needs-review-translation" state-qualifier="leveraged-mt">访问权限</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_service.I.true">
         <source>true</source>
-        <target state="needs-translation">true</target>
+        <target state="needs-review-translation" state-qualifier="leveraged-mt">true</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_service.I.false">
         <source>false</source>
-        <target state="needs-translation">false</target>
+        <target state="needs-review-translation" state-qualifier="leveraged-mt">false</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_service.name.label">
         <source>Name</source>
-        <target state="needs-translation">Name</target>
+        <target state="needs-review-translation" state-qualifier="leveraged-mt">名称</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_service.name.description">
         <source>Each service must have a unique name. Klaro will look for HTML elements with a matching `data-name` attribute to identify elements that belong to this service.</source>
-        <target state="needs-translation">Each service must have a unique name. Klaro will look for HTML elements with a matching `data-name` attribute to identify elements that belong to this service.</target>
+        <target state="needs-review-translation" state-qualifier="leveraged-mt">每个服务必须有唯一的名称。 Klaro将寻找具有匹配的 `data-name` 属性的 HTML 元素来识别属于此服务的元素。</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_service.name.placeholder">
         <source>matomo</source>
-        <target state="needs-translation">matomo</target>
+        <target state="needs-review-translation" state-qualifier="leveraged-mt">matomo</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_service.title.label">
         <source>Title</source>
-        <target state="needs-translation">Title</target>
+        <target state="needs-review-translation" state-qualifier="leveraged-mt">标题</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_service.title.description">
         <source>The title defined here is not mandatory and is intended for backend display only.</source>
-        <target state="needs-translation">The title defined here is not mandatory and is intended for backend display only.</target>
+        <target state="needs-review-translation" state-qualifier="leveraged-mt">此处定义的标题不是强制性的，仅用于后端显示。</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_service.title.placeholder">
         <source>Matomo/Piwik</source>
-        <target state="needs-translation">Matomo/Piwik</target>
+        <target state="needs-review-translation" state-qualifier="leveraged-mt">Matomo/Piwik</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_service.name.I.adsense">
         <source>Google AdSense</source>
-        <target state="needs-translation">Google AdSense</target>
+        <target state="needs-review-translation" state-qualifier="leveraged-mt">Google AdSense</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_service.name.I.camera">
         <source>Surveillance Camera</source>
-        <target state="needs-translation">Surveillance Camera</target>
+        <target state="needs-review-translation" state-qualifier="leveraged-mt">监视相机</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_service.name.I.clarity">
         <source>Microsoft Clarity</source>
-        <target state="needs-translation">Microsoft Clarity</target>
+        <target state="needs-review-translation" state-qualifier="leveraged-mt">Microsoft Clarity</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_service.name.I.cloudflare">
         <source>Cloudflare</source>
-        <target state="needs-translation">Cloudflare</target>
+        <target state="needs-review-translation" state-qualifier="leveraged-mt">云灯</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_service.name.I.external-tracker">
         <source>External Tracker</source>
-        <target state="needs-translation">External Tracker</target>
+        <target state="needs-review-translation" state-qualifier="leveraged-mt">外部跟踪器</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_service.name.I.facebook-pixel">
         <source>Facebook Pixel</source>
-        <target state="needs-translation">Facebook Pixel</target>
+        <target state="needs-review-translation" state-qualifier="leveraged-mt">Facebook 像素</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_service.name.I.fast-fonts">
         <source>Fast Fonts</source>
-        <target state="needs-translation">Fast Fonts</target>
+        <target state="needs-review-translation" state-qualifier="leveraged-mt">Fast Fonts</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_service.name.I.google-ads">
         <source>Google Ads</source>
-        <target state="needs-translation">Google Ads</target>
+        <target state="needs-review-translation" state-qualifier="leveraged-mt">Google 广告</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_service.name.I.google-analytics">
         <source>Google Analytics</source>
-        <target state="needs-translation">Google Analytics</target>
+        <target state="needs-review-translation" state-qualifier="leveraged-mt">谷歌分析</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_service.name.I.google-fonts">
         <source>Google Fonts</source>
-        <target state="needs-translation">Google Fonts</target>
+        <target state="needs-review-translation" state-qualifier="leveraged-mt">Google 字体</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_service.name.I.google-maps">
         <source>Google Maps</source>
-        <target state="needs-translation">Google Maps</target>
+        <target state="needs-review-translation" state-qualifier="leveraged-mt">谷歌地图</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_service.name.I.google-tag-manager">
         <source>Google Tag Manager</source>
-        <target state="needs-translation">Google Tag Manager</target>
+        <target state="needs-review-translation" state-qualifier="leveraged-mt">Google 标签管理器</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_service.name.I.inline-tracker">
         <source>Inline Tracker</source>
-        <target state="needs-translation">Inline Tracker</target>
+        <target state="needs-review-translation" state-qualifier="leveraged-mt">内联追踪器</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_service.name.I.instagram">
         <source>Instagram</source>
-        <target state="needs-translation">Instagram</target>
+        <target state="needs-review-translation" state-qualifier="leveraged-mt">Instagram</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_service.name.I.intercom">
         <source>Intercom</source>
-        <target state="needs-translation">Intercom</target>
+        <target state="needs-review-translation" state-qualifier="leveraged-mt">Intercom</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_service.name.I.matomo">
         <source>Matomo/Piwik</source>
-        <target state="needs-translation">Matomo/Piwik</target>
+        <target state="needs-review-translation" state-qualifier="leveraged-mt">Matomo/Piwik</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_service.name.I.mouseflow">
         <source>Mouseflow</source>
-        <target state="needs-translation">Mouseflow</target>
+        <target state="needs-review-translation" state-qualifier="leveraged-mt">鼠标流</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_service.name.I.tiktok">
         <source>TikTok</source>
-        <target state="needs-translation">TikTok</target>
+        <target state="needs-review-translation" state-qualifier="leveraged-mt">TikTok</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_service.name.I.twitter">
         <source>X (formerly Twitter)</source>
-        <target state="needs-translation">X (formerly Twitter)</target>
+        <target state="needs-review-translation" state-qualifier="leveraged-mt">X(原Twitter)</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_service.name.I.userlike">
         <source>Userlike</source>
-        <target state="needs-translation">Userlike</target>
+        <target state="needs-review-translation" state-qualifier="leveraged-mt">用户赞</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_service.name.I.vimeo">
         <source>Vimeo</source>
-        <target state="needs-translation">Vimeo</target>
+        <target state="needs-review-translation" state-qualifier="leveraged-mt">Vimeo</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_service.name.I.youtube">
         <source>YouTube</source>
-        <target state="needs-translation">YouTube</target>
+        <target state="needs-review-translation" state-qualifier="leveraged-mt">YouTube</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_service.default.label">
         <source>Default</source>
-        <target state="needs-translation">Default</target>
+        <target state="needs-review-translation" state-qualifier="leveraged-mt">默认设置</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_service.default.description">
         <source>If `default` is set to `true`, the service will be enabled by default. This overrides the global `default` setting (if this is set to "false").</source>
-        <target state="needs-translation">If `default` is set to `true`, the service will be enabled by default. This overrides the global `default` setting (if this is set to "false").</target>
+        <target state="needs-review-translation" state-qualifier="leveraged-mt">如果`default` 设置为 `true`，则默认启用服务。这将覆盖全局`default` 设置(如果设置为 "false")。</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_service.purposes.label">
         <source>Purposes</source>
-        <target state="needs-translation">Purposes</target>
+        <target state="needs-review-translation" state-qualifier="leveraged-mt">目的</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_service.purposes.description">
         <source>The purpose(s) of this service that will be listed on the consent notice. Do not forget to add translations for all purposes you list here.</source>
-        <target state="needs-translation">The purpose(s) of this service that will be listed on the consent notice. Do not forget to add translations for all purposes you list here.</target>
+        <target state="needs-review-translation" state-qualifier="leveraged-mt">此服务的目的（s）将在同意通知中列出。不要忘记在这里为所有目的添加翻译。</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_service.purposes.optgroup.custom">
         <source>Custom</source>
-        <target state="needs-translation">Custom</target>
+        <target state="needs-review-translation" state-qualifier="leveraged-mt">自定义</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_service.purposes.optgroup.default">
         <source>Default</source>
-        <target state="needs-translation">Default</target>
+        <target state="needs-review-translation" state-qualifier="leveraged-mt">默认设置</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_service.purposes.optgroup.additional">
         <source>Additional</source>
-        <target state="needs-translation">Additional</target>
+        <target state="needs-review-translation" state-qualifier="leveraged-mt">额外的</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_service.purposes.I.functional">
         <source>Functional</source>
-        <target state="needs-translation">Functional</target>
+        <target state="needs-review-translation" state-qualifier="leveraged-mt">功能</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_service.purposes.I.performance">
         <source>Performance</source>
-        <target state="needs-translation">Performance</target>
+        <target state="needs-review-translation" state-qualifier="leveraged-mt">业绩</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_service.purposes.I.marketing">
         <source>Marketing</source>
-        <target state="needs-translation">Marketing</target>
+        <target state="needs-review-translation" state-qualifier="leveraged-mt">营销活动</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_service.purposes.I.advertising">
         <source>Advertising</source>
-        <target state="needs-translation">Advertising</target>
+        <target state="needs-review-translation" state-qualifier="leveraged-mt">广告</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_service.purposes.I.analytics">
         <source>Analytics</source>
-        <target state="needs-translation">Analytics</target>
+        <target state="needs-review-translation" state-qualifier="leveraged-mt">分析</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_service.purposes.I.security">
         <source>Security</source>
-        <target state="needs-translation">Security</target>
+        <target state="needs-review-translation" state-qualifier="leveraged-mt">安全</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_service.purposes.I.livechat">
         <source>Live Chat</source>
-        <target state="needs-translation">Live Chat</target>
+        <target state="needs-review-translation" state-qualifier="leveraged-mt">在线聊天</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_service.purposes.I.styling">
         <source>Styling</source>
-        <target state="needs-translation">Styling</target>
+        <target state="needs-review-translation" state-qualifier="leveraged-mt">样式</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_service.purposes.I.videos">
         <source>Videos</source>
-        <target state="needs-translation">Videos</target>
+        <target state="needs-review-translation" state-qualifier="leveraged-mt">视频</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_service.purposes.I.social">
         <source>Social Media</source>
-        <target state="needs-translation">Social Media</target>
+        <target state="needs-review-translation" state-qualifier="leveraged-mt">社交媒体</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_service.purposes.I.misc">
         <source>Miscellaneous</source>
-        <target state="needs-translation">Miscellaneous</target>
+        <target state="needs-review-translation" state-qualifier="leveraged-mt">其他事项</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_service.cookies.label">
         <source>Cookies</source>
-        <target state="needs-translation">Cookies</target>
+        <target state="needs-review-translation" state-qualifier="leveraged-mt">Cookie</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_service.cookies.description">
         <source>You can either only provide a cookie name or regular expression (regex) or a list consisting of a name or regex, a path and a cookie domain. Providing a path and domain is necessary if you have services that set cookies for a path that is not "/", or a domain that is not the current domain. If you do not set these values properly, the cookie can't be deleted by Klaro, as there is no way to access the path or domain of a cookie in JS. Notice that it is not possible to delete cookies that were set on a third-party domain, or cookies that have the HTTPOnly attribute: https://developer.mozilla.org/en-US/docs/Web/API/Document/cookie#new-cookie_domain</source>
-        <target state="needs-translation">You can either only provide a cookie name or regular expression (regex) or a list consisting of a name or regex, a path and a cookie domain. Providing a path and domain is necessary if you have services that set cookies for a path that is not "/", or a domain that is not the current domain. If you do not set these values properly, the cookie can't be deleted by Klaro, as there is no way to access the path or domain of a cookie in JS. Notice that it is not possible to delete cookies that were set on a third-party domain, or cookies that have the HTTPOnly attribute: https://developer.mozilla.org/en-US/docs/Web/API/Document/cookie#new-cookie_domain</target>
+        <target state="needs-review-translation" state-qualifier="leveraged-mt">您只能提供一个 cookie 名称或正则表达式 (regex) 或包含名称或正则表达式的列表， 路径和 cookie 域。 如果您有服务为非"/"路径设置cookie，必须提供路径和域。 或者不是当前域的域。 如果您没有正确设置这些值，无法由 Klaro 删除 cookie 。 因为无法访问 JS 的 cookie 的路径或域名。 请注意，无法删除 第三方域名上设置的 cookie，或有 HTTPOnly 属性的 cookie ：https://developer.mozilla.org/en-US/docs/Web/ADI/Document/cookie#new-cookie_domain</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_service.required.label">
         <source>Required</source>
-        <target state="needs-translation">Required</target>
+        <target state="needs-review-translation" state-qualifier="leveraged-mt">必填</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_service.required.description">
         <source>If `required` is set to `true`, Klaro will not allow this service to be disabled by the user. Use this for services that are always required for your website to function (e.g. shopping cart cookies).</source>
-        <target state="needs-translation">If `required` is set to `true`, Klaro will not allow this service to be disabled by the user. Use this for services that are always required for your website to function (e.g. shopping cart cookies).</target>
+        <target state="needs-review-translation" state-qualifier="leveraged-mt">如果`requird` 设置为 `true`，Klaro 将不允许用户禁用此服务。 将此用于您的网站运行时始终需要的服务(例如购物车cookies)。</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_service.opt_out.label">
         <source>Opt-Out</source>
-        <target state="needs-translation">Opt-Out</target>
+        <target state="needs-review-translation" state-qualifier="leveraged-mt">选择退出</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_service.opt_out.description">
         <source>If `optOut` is set to `true`, Klaro will load this service even before the user has given explicit consent. We strongly advise against this.</source>
-        <target state="needs-translation">If `optOut` is set to `true`, Klaro will load this service even before the user has given explicit consent. We strongly advise against this.</target>
+        <target state="needs-review-translation" state-qualifier="leveraged-mt">如果`optOut` 设置为 `true`，Klaro 甚至在用户明确同意之前就会加载此服务。我们强烈反对这一点。</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_service.only_once.label">
         <source>Only Once</source>
-        <target state="needs-translation">Only Once</target>
+        <target state="needs-review-translation" state-qualifier="leveraged-mt">仅一次</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_service.only_once.description">
         <source>If `onlyOnce` is set to `true`, the service will only be executed once regardless how often the user toggles it on and off. This is relevant e.g. for tracking scripts that would generate new page view events every time Klaro disables and re-enables them due to a consent change by the user.</source>
-        <target state="needs-translation">If `onlyOnce` is set to `true`, the service will only be executed once regardless how often the user toggles it on and off. This is relevant e.g. for tracking scripts that would generate new page view events every time Klaro disables and re-enables them due to a consent change by the user.</target>
+        <target state="needs-review-translation" state-qualifier="leveraged-mt">如果`onlyOnce`设置为 `true`，则服务将只执行一次，不管用户多长时间开关。 这是相关的，例如： 用于跟踪脚本，每当Klaro禁用时都会生成新页面视图事件，并且由于用户的同意变更而重新启用这些脚本。</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_service.contextual_consent_only.label">
         <source>Contextual Consent Only</source>
-        <target state="needs-translation">Contextual Consent Only</target>
+        <target state="needs-review-translation" state-qualifier="leveraged-mt">只同意上下文内容</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_service.contextual_consent_only.description">
         <source>Content can be excluded from general consent by setting contextualConsentOnly to `true`. In this case, the consent must be contextual.</source>
-        <target state="needs-translation">Content can be excluded from general consent by setting contextualConsentOnly to `true`. In this case, the consent must be contextual.</target>
+        <target state="needs-review-translation" state-qualifier="leveraged-mt">内容可以通过设置上下文表示的方式排除在普遍同意之外。在这种情况下，同意必须是上下文的。</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_service.callback.label">
         <source>Callback</source>
-        <target state="needs-translation">Callback</target>
+        <target state="needs-review-translation" state-qualifier="leveraged-mt">Callback</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_service.callback.description">
         <source>You can define an optional callback function that will be called each time the consent state for the given service changes. The consent value will be passed as the first parameter to the function (`true` = consented). The `service` config will be passed as the second parameter. The content of this field is wrapped with `callback: function(consent, service) { }`. `consent` is a bool that reflects the current state. service` holds all information about the currently selected service. When you enter something here, you need to know what you are doing. It is your responsibility that no JavaScript errors occur.</source>
-        <target state="needs-translation">You can define an optional callback function that will be called each time the consent state for the given service changes. The consent value will be passed as the first parameter to the function (`true` = consented). The `service` config will be passed as the second parameter. The content of this field is wrapped with `callback: function(consent, service) { }`. `consent` is a bool that reflects the current state. service` holds all information about the currently selected service. When you enter something here, you need to know what you are doing. It is your responsibility that no JavaScript errors occur.</target>
+        <target state="needs-review-translation" state-qualifier="leveraged-mt">您可以定义一个可选的回调函数，这个函数将在每次同意状态对特定服务的更改时调用。 同意值将作为函数的第一个参数传递(`true` = 同意)。 `service`配置将作为第二个参数传递。 此字段的内容被包装为 `callback：函数(同意、服务) { }`。`同意` 是一个反映当前状态的布尔值。 service` 保存当前选定服务的所有信息。 当你在这里输入某些东西时，你需要知道你在做什么。你的责任是没有发生JavaScript错误。</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_service.on_accept.label">
         <source>`onAccept` callback function</source>
-        <target state="needs-translation">`onAccept` callback function</target>
+        <target state="needs-review-translation" state-qualifier="leveraged-mt">`onAccept` callback function</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_service.on_accept.description">
         <source>Here you can define JavaScript code that will be called each time the service was accepted. The content of this field is wrapped with `callback: function(handlerOpts) { }`. The object `handlerOpts` contains the objects `config` (the current Klaro! configuration), `service` (the current service) and possibly `vars` (any values defined by object notation in the vars field in the backend). When you enter something here, you need to know what you are doing. It is your responsibility that no JavaScript errors occur.</source>
-        <target state="needs-translation">Here you can define JavaScript code that will be called each time the service was accepted. The content of this field is wrapped with `callback: function(handlerOpts) { }`. The object `handlerOpts` contains the objects `config` (the current Klaro! configuration), `service` (the current service) and possibly `vars` (any values defined by object notation in the vars field in the backend). When you enter something here, you need to know what you are doing. It is your responsibility that no JavaScript errors occur.</target>
+        <target state="needs-review-translation" state-qualifier="leveraged-mt">这里您可以定义每次接受服务时都会调用的 JavaScript 代码。 此字段的内容被包装为“回调：函数(处理器Ops) { }`。 对象`handlerOpts`含有`config`(当前的 Klaro) 配置)、`service`(当前服务)和可能的`vars`(在后端的Vars字段中由对象符号定义的任何值)。 当你在这里输入某些东西时，你需要知道你在做什么。你的责任是没有发生JavaScript错误。</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_service.on_init.label">
         <source>`onInit` callback function</source>
-        <target state="needs-translation">`onInit` callback function</target>
+        <target state="needs-review-translation" state-qualifier="leveraged-mt">`onInit` callback function</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_service.on_init.description">
         <source>Here you can define JavaScript code that will be called once per page-load. The content of this field is wrapped with `callback: function(handlerOpts) { }`. The object `handlerOpts` contains the objects `config` (the current Klaro! configuration), `service` (the current service) and possibly `vars` (any values defined by object notation in the vars field in the backend). When you enter something here, you need to know what you are doing. It is your responsibility that no JavaScript errors occur.</source>
-        <target state="needs-translation">Here you can define JavaScript code that will be called once per page-load. The content of this field is wrapped with `callback: function(handlerOpts) { }`. The object `handlerOpts` contains the objects `config` (the current Klaro! configuration), `service` (the current service) and possibly `vars` (any values defined by object notation in the vars field in the backend). When you enter something here, you need to know what you are doing. It is your responsibility that no JavaScript errors occur.</target>
+        <target state="needs-review-translation" state-qualifier="leveraged-mt">这里您可以定义每个页面加载一次调用的 JavaScript 代码。 此字段的内容被包装为“回调：函数(处理器Ops) { }`。 对象`handlerOpts`含有`config`(当前的 Klaro) 配置)、`service`(当前服务)和可能的`vars`(在后端的Vars字段中由对象符号定义的任何值)。 当你在这里输入某些东西时，你需要知道你在做什么。你的责任是没有发生JavaScript错误。</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_service.on_decline.label">
         <source>`onDecline` callback function</source>
-        <target state="needs-translation">`onDecline` callback function</target>
+        <target state="needs-review-translation" state-qualifier="leveraged-mt">`onDecline` 回调函数</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_service.on_decline.description">
         <source>Here you can define JavaScript code that will be called each time the service was declined. The content of this field is wrapped with `callback: function(handlerOpts) { }`. The object `handlerOpts` contains the objects `config` (the current Klaro! configuration), `service` (the current service) and possibly `vars` (any values defined by object notation in the vars field in the backend). When you enter something here, you need to know what you are doing. It is your responsibility that no JavaScript errors occur.</source>
-        <target state="needs-translation">Here you can define JavaScript code that will be called each time the service was declined. The content of this field is wrapped with `callback: function(handlerOpts) { }`. The object `handlerOpts` contains the objects `config` (the current Klaro! configuration), `service` (the current service) and possibly `vars` (any values defined by object notation in the vars field in the backend). When you enter something here, you need to know what you are doing. It is your responsibility that no JavaScript errors occur.</target>
+        <target state="needs-review-translation" state-qualifier="leveraged-mt">这里您可以定义每次拒绝服务时都会调用的 JavaScript 代码。 此字段的内容被包装为“回调：函数(处理器Ops) { }`。 对象`handlerOpts`含有`config`(当前的 Klaro) 配置)、`service`(当前服务)和可能的`vars`(在后端的Vars字段中由对象符号定义的任何值)。 当你在这里输入某些东西时，你需要知道你在做什么。你的责任是没有发生JavaScript错误。</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_service.vars.label">
         <source>Variables</source>
-        <target state="needs-translation">Variables</target>
+        <target state="needs-review-translation" state-qualifier="leveraged-mt">变量</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_service.vars.description">
         <source>Variables that can be used in callback functions. The content of this field is enclosed in curly brackets. The JavaScript object notation is expected in them. When you enter something here, you need to know what you are doing. It is your responsibility that no JavaScript errors occur.</source>
-        <target state="needs-translation">Variables that can be used in callback functions. The content of this field is enclosed in curly brackets. The JavaScript object notation is expected in them. When you enter something here, you need to know what you are doing. It is your responsibility that no JavaScript errors occur.</target>
+        <target state="needs-review-translation" state-qualifier="leveraged-mt">可用于回调函数的变量。此字段的内容包含在大括号内。 期望在它们中使用 JavaScript 对象注释。 当你在这里输入某些东西时，你需要知道你在做什么。你的责任是没有发生JavaScript错误。</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_service.hidden">
         <source>Service visible</source>
-        <target state="needs-translation">Service visible</target>
+        <target state="needs-review-translation" state-qualifier="leveraged-mt">服务可见</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_cookie">
         <source>Cookie</source>
-        <target state="needs-translation">Cookie</target>
+        <target state="needs-review-translation" state-qualifier="leveraged-mt">Cookie</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_cookie.tabs.general">
         <source>General</source>
-        <target state="needs-translation">General</target>
+        <target state="needs-review-translation" state-qualifier="leveraged-mt">A. 概况</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_cookie.tabs.access">
         <source>Access</source>
-        <target state="needs-translation">Access</target>
+        <target state="needs-review-translation" state-qualifier="leveraged-mt">访问权限</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_cookie.palettes.identification_palette">
         <source>Identification and presentation of the cookie</source>
-        <target state="needs-translation">Identification and presentation of the cookie</target>
+        <target state="needs-review-translation" state-qualifier="leveraged-mt">Cookie 的识别和展示方式</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_cookie.palettes.technic_palette">
         <source>Technically relevant settings</source>
-        <target state="needs-translation">Technically relevant settings</target>
+        <target state="needs-review-translation" state-qualifier="leveraged-mt">与技术相关的设置</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_cookie.palettes.technic_palette.description">
         <source>This information is technically evaluated by Klaro! to manipulate the cookie.</source>
-        <target state="needs-translation">This information is technically evaluated by Klaro! to manipulate the cookie.</target>
+        <target state="needs-review-translation" state-qualifier="leveraged-mt">Klaro对此信息进行了技术评估，以操纵cookie。</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_cookie.palettes.expiration_palette">
         <source>Expiration Time</source>
-        <target state="needs-translation">Expiration Time</target>
+        <target state="needs-review-translation" state-qualifier="leveraged-mt">过期时间</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_cookie.palettes.access_palette">
         <source>Access</source>
-        <target state="needs-translation">Access</target>
+        <target state="needs-review-translation" state-qualifier="leveraged-mt">访问权限</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_cookie.identifier.label">
         <source>Identifier</source>
-        <target state="needs-translation">Identifier</target>
+        <target state="needs-review-translation" state-qualifier="leveraged-mt">Identifier</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_cookie.identifier.description">
         <source>This is a unique identifier for this cookie. It must be written in lower case and must not contain any spaces, only the characters a-z, 0-9 and "-" or "_". The identifier can be used in Fluid, for example.</source>
-        <target state="needs-translation">This is a unique identifier for this cookie. It must be written in lower case and must not contain any spaces, only the characters a-z, 0-9 and "-" or "_". The identifier can be used in Fluid, for example.</target>
+        <target state="needs-review-translation" state-qualifier="leveraged-mt">这是此 cookie 的唯一标识符。 它必须写入小写，不能包含任何空格，只能包含字符a-z, 0-9 和 "-" 或 "_" 。 标识符可以在 Fluid 中使用。</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_cookie.identifier.placeholder">
         <source>lowercase_alphanum-x</source>
-        <target state="needs-translation">lowercase_alphanum-x</target>
+        <target state="needs-review-translation" state-qualifier="leveraged-mt">小写字母-x</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_cookie.title.label">
         <source>Title</source>
-        <target state="needs-translation">Title</target>
+        <target state="needs-review-translation" state-qualifier="leveraged-mt">标题</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_cookie.title.description">
         <source>If set, this title will be used in the frontend/backend for displaying the cookie. This title has no technical relevance (contrary to the `pattern` field).</source>
-        <target state="needs-translation">If set, this title will be used in the frontend/backend for displaying the cookie. This title has no technical relevance (contrary to the `pattern` field).</target>
+        <target state="needs-review-translation" state-qualifier="leveraged-mt">如果设置，这个标题将用于前端/后端显示cookie。这个标题没有技术意义(不同于“pattern”字段)。</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_cookie.title.placeholder">
         <source>mf_[Session]</source>
-        <target state="needs-translation">mf_[Session]</target>
+        <target state="needs-review-translation" state-qualifier="leveraged-mt">mf_[Session]</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_cookie.pattern.label">
         <source>Name / Pattern</source>
-        <target state="needs-translation">Name / Pattern</target>
+        <target state="needs-review-translation" state-qualifier="leveraged-mt">名称/模式</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_cookie.pattern.description">
         <source>Name or regular expression (regex)</source>
-        <target state="needs-translation">Name or regular expression (regex)</target>
+        <target state="needs-review-translation" state-qualifier="leveraged-mt">名称或正则表达式 (regex)</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_cookie.pattern.placeholder">
         <source>/^_pk_.*$/</source>
-        <target state="needs-translation">/^_pk_.*$/</target>
+        <target state="needs-review-translation" state-qualifier="leveraged-mt">/ ^_pk_.*$/</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_cookie.path.label">
         <source>Path</source>
-        <target state="needs-translation">Path</target>
+        <target state="needs-review-translation" state-qualifier="leveraged-mt">路径</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_cookie.path.description">
         <source>Provide a path if you have services that set cookies for a path that is not "/"</source>
-        <target state="needs-translation">Provide a path if you have services that set cookies for a path that is not "/"</target>
+        <target state="needs-review-translation" state-qualifier="leveraged-mt">如果您拥有为 "/" 的路径设置 cookie 的服务，请提供路径</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_cookie.path.placeholder">
         <source>/</source>
-        <target state="needs-translation">/</target>
+        <target state="needs-review-translation" state-qualifier="leveraged-mt">/</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_cookie.domain.label">
         <source>Domain</source>
-        <target state="needs-translation">Domain</target>
+        <target state="needs-review-translation" state-qualifier="leveraged-mt">域</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_cookie.domain.description">
         <source>Provide a domain if you have services that set cookies for a domain that is not the current domain.</source>
-        <target state="needs-translation">Provide a domain if you have services that set cookies for a domain that is not the current domain.</target>
+        <target state="needs-review-translation" state-qualifier="leveraged-mt">如果您拥有为非当前域设置的 cookie 服务，请提供一个域。</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_cookie.domain.placeholder">
         <source>klaro.kiprotect.com</source>
-        <target state="needs-translation">klaro.kiprotect.com</target>
+        <target state="needs-review-translation" state-qualifier="leveraged-mt">klaro.kiprotect.com</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_cookie.expires_after.label">
         <source>Expires after</source>
-        <target state="needs-translation">Expires after</target>
+        <target state="needs-review-translation" state-qualifier="leveraged-mt">过期时间</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_cookie.expires_after.description">
         <source>Number of years/months/days/hours/minutes/seconds that will elapse before this cookie expires.</source>
-        <target state="needs-translation">Number of years/months/days/hours/minutes/seconds that will elapse before this cookie expires.</target>
+        <target state="needs-review-translation" state-qualifier="leveraged-mt">Cookie 过期之前的年/月/日/小时/分钟/秒的数量。</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_cookie.expires_after.placeholder">
         <source>60</source>
-        <target state="needs-translation">60</target>
+        <target state="needs-review-translation" state-qualifier="leveraged-mt">60</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_cookie.expires_after_unit.label">
         <source>Expires after unit</source>
-        <target state="needs-translation">Expires after unit</target>
+        <target state="needs-review-translation" state-qualifier="leveraged-mt">单位后过期</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_cookie.expires_after_unit.description">
         <source>Unit used for the "Expires after" specification. The special value `end-of-session` does not need a numeric value and hides the "Expires after" field accordingly.</source>
-        <target state="needs-translation">Unit used for the "Expires after" specification. The special value `end-of-session` does not need a numeric value and hides the "Expires after" field accordingly.</target>
+        <target state="needs-review-translation" state-qualifier="leveraged-mt">"过期"过期"说明使用的单元。特殊值 "结束会话" 不需要一个数字值，并相应隐藏"过期"字段。</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_cookie.expires_after_unit.I.years">
         <source>Years</source>
-        <target state="needs-translation">Years</target>
+        <target state="needs-review-translation" state-qualifier="leveraged-mt">年</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_cookie.expires_after_unit.I.months">
         <source>Months</source>
-        <target state="needs-translation">Months</target>
+        <target state="needs-review-translation" state-qualifier="leveraged-mt">月</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_cookie.expires_after_unit.I.days">
         <source>Days</source>
-        <target state="needs-translation">Days</target>
+        <target state="needs-review-translation" state-qualifier="leveraged-mt">天</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_cookie.expires_after_unit.I.hours">
         <source>Hours</source>
-        <target state="needs-translation">Hours</target>
+        <target state="needs-review-translation" state-qualifier="leveraged-mt">小时数</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_cookie.expires_after_unit.I.minutes">
         <source>Minutes</source>
-        <target state="needs-translation">Minutes</target>
+        <target state="needs-review-translation" state-qualifier="leveraged-mt">分钟</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_cookie.expires_after_unit.I.seconds">
         <source>Seconds</source>
-        <target state="needs-translation">Seconds</target>
+        <target state="needs-review-translation" state-qualifier="leveraged-mt">秒</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_cookie.expires_after_unit.I.end-of-session">
         <source>End of session</source>
-        <target state="needs-translation">End of session</target>
+        <target state="needs-review-translation" state-qualifier="leveraged-mt">会话结束</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_cookie.expires_after_unit.I.persistent">
         <source>Persistent</source>
-        <target state="needs-translation">Persistent</target>
+        <target state="needs-review-translation" state-qualifier="leveraged-mt">Persistent</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_cookie.hidden">
         <source>Cookie visible</source>
-        <target state="needs-translation">Cookie visible</target>
+        <target state="needs-review-translation" state-qualifier="leveraged-mt">Cookie 可见</target>
       </trans-unit>
       <trans-unit id="tt_content.tx_klaroconsentmanager_service.label">
         <source>Contextual Consent</source>
-        <target state="needs-translation">Contextual Consent</target>
+        <target state="needs-review-translation" state-qualifier="leveraged-mt">上下文同意</target>
       </trans-unit>
       <trans-unit id="tt_content.tx_klaroconsentmanager_service.description">
         <source>When a service is selected in this field, the content item is displayed via contextual consent only if the user has agreed to use the selected service in the Klaro! Consent Manager. Please make sure that the static TypoScript template of the Klaro! Consent Manager has been added to use this feature.</source>
-        <target state="needs-translation">When a service is selected in this field, the content item is displayed via contextual consent only if the user has agreed to use the selected service in the Klaro! Consent Manager. Please make sure that the static TypoScript template of the Klaro! Consent Manager has been added to use this feature.</target>
+        <target state="needs-review-translation" state-qualifier="leveraged-mt">在此领域选择服务时， 只有当用户同意在 Klaro 中使用所选的服务时，内容项才会通过上下文同意显示！ 同意管理员。 请确保Klaro的静态TypoScript 模板！同意管理器已被添加来使用此功能。</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.no_notice.label">
         <source>Hide initial consent notice</source>
-        <target state="needs-translation">Hide initial consent notice</target>
+        <target state="needs-review-translation" state-qualifier="leveraged-mt">隐藏初始同意通知</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.no_notice.description">
         <source>Do not show the initial notice. The manager can still be opened manually or via contextual consent.</source>
-        <target state="needs-translation">Do not show the initial notice. The manager can still be opened manually or via contextual consent.</target>
+        <target state="needs-review-translation" state-qualifier="leveraged-mt">不显示初始通知。管理员仍然可以手动或通过上下文同意打开。</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.powered_by.label">
         <source>Powered by URL override</source>
-        <target state="needs-translation">Powered by URL override</target>
+        <target state="needs-review-translation" state-qualifier="leveraged-mt">由 URL 覆盖提供支持</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.powered_by.description">
         <source>Override the “powered by” link in the consent modal. Leave empty to use Klaro default.</source>
-        <target state="needs-translation">Override the “powered by” link in the consent modal. Leave empty to use Klaro default.</target>
+        <target state="needs-review-translation" state-qualifier="leveraged-mt">覆盖同意模式中的“电源”链接。留空则使用 Klaro 默认值。</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.powered_by.placeholder">
         <source>https://example.com/your-link</source>
-        <target state="needs-translation">https://example.com/your-link</target>
+        <target state="needs-review-translation" state-qualifier="leveraged-mt">https://example.com/your-link</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.style_prefix.label">
         <source>Style prefix</source>
-        <target state="needs-translation">Style prefix</target>
+        <target state="needs-review-translation" state-qualifier="leveraged-mt">Style prefix</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.style_prefix.description">
         <source>Prefix for CSS classes/container to namespace Klaro styles.</source>
-        <target state="needs-translation">Prefix for CSS classes/container to namespace Klaro styles.</target>
+        <target state="needs-review-translation" state-qualifier="leveraged-mt">CSS 类/容器到命名空间 Klaro 样式的前缀。</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.style_prefix.placeholder">
         <source>my-klaro</source>
-        <target state="needs-translation">my-klaro</target>
+        <target state="needs-review-translation" state-qualifier="leveraged-mt">my-klaro</target>
       </trans-unit>
     </body>
   </file>
