@@ -98,11 +98,9 @@
         <source>Advertising</source>
         <target state="final">Reklâm</target>
       </trans-unit>
-      <trans-unit id="purposes.functional.description" approved="yes">
-        <source>These services are essential for the correct functioning of this website. You cannot disable them here as the service would not work correctly otherwise.
-</source>
-        <target state="final">Bu hizmetler, bu web sitesinin doğru çalışması için gereklidir. Aksi takdirde hizmet doğru şekilde çalışmayacağından, bunları burada devre dışı bırakamazsınız.
-</target>
+      <trans-unit id="purposes.functional.description">
+        <source>These services are essential for the correct functioning of this website. You cannot disable them here as the service would not work correctly otherwise.</source>
+        <target state="needs-translation">These services are essential for the correct functioning of this website. You cannot disable them here as the service would not work correctly otherwise.</target>
       </trans-unit>
       <trans-unit id="purposes.functional.title" approved="yes">
         <source>Service Provision</source>
@@ -116,11 +114,9 @@
         <source>Marketing</source>
         <target state="final">Pazarlama</target>
       </trans-unit>
-      <trans-unit id="purposes.performance.description" approved="yes">
-        <source>These services process personal information to optimize the service that this website offers.
-</source>
-        <target state="final">Bu hizmetler, bu web sitesinin sunduğu hizmeti optimize etmek için kişisel bilgileri işler.
-</target>
+      <trans-unit id="purposes.performance.description">
+        <source>These services process personal information to optimize the service that this website offers.</source>
+        <target state="needs-translation">These services process personal information to optimize the service that this website offers.</target>
       </trans-unit>
       <trans-unit id="purposes.performance.title" approved="yes">
         <source>Performance Optimization</source>
