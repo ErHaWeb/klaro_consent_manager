@@ -3,73 +3,73 @@
   <file source-language="en" original="EXT:klaro_consent_manager/Resources/Private/Language/locallang_db.xlf" datatype="plaintext" product-name="lang" date="2025-10-06T09:33:58+02:00" target-language="ro">
     <header/>
     <body>
-      <trans-unit id="sets.klaroconsentmanager.label">
+      <trans-unit id="sets.klaroconsentmanager.label" approved="yes">
         <source>Klaro! Consent Manager</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Klaro! Manager de consimțământ</target>
+        <target state="final">Klaro! Manager de consimțământ</target>
       </trans-unit>
-      <trans-unit id="extmng.replaceUrl.show">
+      <trans-unit id="extmng.replaceUrl.show" approved="yes">
         <source>Replace-URL to show Klaro! Consent Management:Links targeting this placeholder URL are automatically modified before HTML output. The URL is replaced with CSP-compliant JavaScript to trigger the Klaro! Consent Management modal.</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Înlocuiți-URL pentru a arăta Klaro! Consimțământul:Linkurile care vizează acest substituent URL sunt modificate automat înainte de HTML output. URL-ul este înlocuit cu JavaScript conform cu CSP, pentru a declanșa Klaro! Consimțământul de management modal.</target>
+        <target state="final">Înlocuiți-URL pentru a arăta Klaro! Consimțământul:Linkurile care vizează acest substituent URL sunt modificate automat înainte de HTML output. URL-ul este înlocuit cu JavaScript conform cu CSP, pentru a declanșa Klaro! Consimțământul de management modal.</target>
       </trans-unit>
-      <trans-unit id="extmng.replaceUrl.reset">
+      <trans-unit id="extmng.replaceUrl.reset" approved="yes">
         <source>Replace-URL to reset Klaro! Consent Management:Links targeting this placeholder URL are automatically changed before HTML output. The URL is replaced with CSP-compliant JavaScript to reset the Klaro! Consent Management settings and then trigger the modal.</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Înlocuiți-URL pentru a reseta Klaro! Consimțământul:Linkurile care vizează acest substituent URL sunt modificate automat înainte de HTML output. URL-ul este înlocuit cu JavaScript conform cu CSP, pentru a reseta Klaro! Consimțământul de management și apoi declanșează modalul.</target>
+        <target state="final">Înlocuiți-URL pentru a reseta Klaro! Consimțământul:Linkurile care vizează acest substituent URL sunt modificate automat înainte de HTML output. URL-ul este înlocuit cu JavaScript conform cu CSP, pentru a reseta Klaro! Consimțământul de management și apoi declanșează modalul.</target>
       </trans-unit>
-      <trans-unit id="extmng.klaroConfigurationPath">
+      <trans-unit id="extmng.klaroConfigurationPath" approved="yes">
         <source>Klaro! Configuration Path:If this path is set, it is used to use the Klaro! configuration by external applications. For example, if a WordPress installation is to use the configuration created in TYPO3, this path can be called up. Example: "/klaro-config.js"</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Klaro! Calea de configurare:Dacă această cale este setată, este folosită pentru a utiliza configurația Klaro! a aplicațiilor externe. De exemplu, dacă o instalare WordPress este să utilizeze configuraţia creată în TYPO3, această cale poate fi apelată. Exemplu: "/klaro-config.js"</target>
+        <target state="final">Klaro! Calea de configurare:Dacă această cale este setată, este folosită pentru a utiliza configurația Klaro! a aplicațiilor externe. De exemplu, dacă o instalare WordPress este să utilizeze configuraţia creată în TYPO3, această cale poate fi apelată. Exemplu: "/klaro-config.js"</target>
       </trans-unit>
-      <trans-unit id="constants.customcategory.plugin.tx_klaroconsentmanager">
+      <trans-unit id="constants.customcategory.plugin.tx_klaroconsentmanager" approved="yes">
         <source>Klaro! Consent Manager</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Klaro! Manager de consimțământ</target>
+        <target state="final">Klaro! Manager de consimțământ</target>
       </trans-unit>
-      <trans-unit id="constants.subcategory.fluidrootpaths">
+      <trans-unit id="constants.subcategory.fluidrootpaths" approved="yes">
         <source>Templates</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Şabloane</target>
+        <target state="final">Şabloane</target>
       </trans-unit>
-      <trans-unit id="constants.subcategory.resources">
+      <trans-unit id="constants.subcategory.resources" approved="yes">
         <source>Resources</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Resurse</target>
+        <target state="final">Resurse</target>
       </trans-unit>
-      <trans-unit id="constants.subcategory.settings">
+      <trans-unit id="constants.subcategory.settings" approved="yes">
         <source>Settings</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Setări</target>
+        <target state="final">Setări</target>
       </trans-unit>
-      <trans-unit id="constants.view.templateRootPath">
+      <trans-unit id="constants.view.templateRootPath" approved="yes">
         <source>Path to template root (FE)</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Calea către rădăcina șablonului (FE)</target>
+        <target state="final">Calea către rădăcina șablonului (FE)</target>
       </trans-unit>
-      <trans-unit id="constants.view.partialRootPath">
+      <trans-unit id="constants.view.partialRootPath" approved="yes">
         <source>Path to template partials (FE)</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Calea către părţile şablon (FE)</target>
+        <target state="final">Calea către părţile şablon (FE)</target>
       </trans-unit>
-      <trans-unit id="constants.view.layoutRootPath">
+      <trans-unit id="constants.view.layoutRootPath" approved="yes">
         <source>Path to template layouts (FE)</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Calea către layout-urile șablonului (FE)</target>
+        <target state="final">Calea către layout-urile șablonului (FE)</target>
       </trans-unit>
-      <trans-unit id="constants.settings.css.klaro-default">
+      <trans-unit id="constants.settings.css.klaro-default" approved="yes">
         <source>Klaro CSS</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Klaro CSS</target>
+        <target state="final">Klaro CSS</target>
       </trans-unit>
-      <trans-unit id="constants.settings.css.klaro-custom">
+      <trans-unit id="constants.settings.css.klaro-custom" approved="yes">
         <source>Custom additions for Klaro CSS</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Adăugări personalizate pentru Klaro CSS</target>
+        <target state="final">Adăugări personalizate pentru Klaro CSS</target>
       </trans-unit>
-      <trans-unit id="constants.settings.javascript.klaro-default">
+      <trans-unit id="constants.settings.javascript.klaro-default" approved="yes">
         <source>Klaro JavaScript</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Klaro JavaScript</target>
+        <target state="final">Klaro JavaScript</target>
       </trans-unit>
-      <trans-unit id="constants.settings.contextualconsent.replaceAttributes">
+      <trans-unit id="constants.settings.contextualconsent.replaceAttributes" approved="yes">
         <source>Replace attributes:Comma-separated list of attributes that should be automatically replaced within the content element of the contextual consent</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Înlocuiește atributele: Lista de atribute separate prin virgulă care ar trebui să fie înlocuite automat în cadrul elementului de conținut al consimțământului contextual</target>
+        <target state="final">Înlocuiește atributele: Lista de atribute separate prin virgulă care ar trebui să fie înlocuite automat în cadrul elementului de conținut al consimțământului contextual</target>
       </trans-unit>
-      <trans-unit id="constants.settings.contextualconsent.mainSectionOnly">
+      <trans-unit id="constants.settings.contextualconsent.mainSectionOnly" approved="yes">
         <source>Main section only:Activate this option if the contextual consent box should only be limited to the main content (without heading and footer).</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Doar secțiunea principală: Activați această opțiune în cazul în care caseta de consimțământ contextual ar trebui să fie limitată doar la conținutul principal (fără titlu și subsol).</target>
+        <target state="final">Doar secțiunea principală: Activați această opțiune în cazul în care caseta de consimțământ contextual ar trebui să fie limitată doar la conținutul principal (fără titlu și subsol).</target>
       </trans-unit>
-      <trans-unit id="constants.settings.configuration.disabled">
+      <trans-unit id="constants.settings.configuration.disabled" approved="yes">
         <source>Disable Klaro Consent Management</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Dezactivați gestionarea consimțământului Klaro</target>
+        <target state="final">Dezactivați gestionarea consimțământului Klaro</target>
       </trans-unit>
     </body>
   </file>
