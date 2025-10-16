@@ -1,0 +1,25 @@
+.. include:: /Includes.rst.txt
+
+2.2.1 - October 14, 2025
+========================
+
+
+.. only:: html
+
+   .. contents::
+        :local:
+        :depth: 3
+
+Breaking changes
+----------------
+The dataProcessing key `lib.contentElement.dataProcessing.100` has been changed to `lib.contentElement.dataProcessing.1720091199` to avoid conflicts with existing configurations.
+Please adjust your configuration if you relied on the former key.
+
+All Changes
+-----------
+This is a list of all changes in this release: ::
+
+    2025-10-16 [BUGFIX] Avoid dataProcessing index overriding existing config (Commit 0fe53f4 by Eric Bode)
+    2025-10-16 [BUGFIX] Remove unnecessary line breaks from source strings (Commit 6adfc13 by Eric Bode)
+
+This list has been created by using `git log $(git describe --tags --abbrev=0)..HEAD --abbrev-commit --pretty='%ad %s (Commit %h by %an)' --date=short`.
