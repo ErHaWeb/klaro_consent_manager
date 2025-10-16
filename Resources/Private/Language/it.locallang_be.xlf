@@ -3,73 +3,73 @@
   <file source-language="en" original="EXT:klaro_consent_manager/Resources/Private/Language/locallang_db.xlf" datatype="plaintext" product-name="lang" date="2025-10-06T09:33:58+02:00" target-language="it">
     <header/>
     <body>
-      <trans-unit id="sets.klaroconsentmanager.label">
+      <trans-unit id="sets.klaroconsentmanager.label" approved="yes">
         <source>Klaro! Consent Manager</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Klaro! Consenso Manager</target>
+        <target state="final">Klaro! Consenso Manager</target>
       </trans-unit>
-      <trans-unit id="extmng.replaceUrl.show">
+      <trans-unit id="extmng.replaceUrl.show" approved="yes">
         <source>Replace-URL to show Klaro! Consent Management:Links targeting this placeholder URL are automatically modified before HTML output. The URL is replaced with CSP-compliant JavaScript to trigger the Klaro! Consent Management modal.</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Sostituisci URL per mostrare Klaro! Consent Management:I link indirizzati a questo segnaposto URL vengono automaticamente modificati prima dell'output HTML. L'URL viene sostituito con JavaScript conforme al CSP per attivare la modalità Klaro!</target>
+        <target state="final">Sostituisci URL per mostrare Klaro! Consent Management:I link indirizzati a questo segnaposto URL vengono automaticamente modificati prima dell'output HTML. L'URL viene sostituito con JavaScript conforme al CSP per attivare la modalità Klaro!</target>
       </trans-unit>
-      <trans-unit id="extmng.replaceUrl.reset">
+      <trans-unit id="extmng.replaceUrl.reset" approved="yes">
         <source>Replace-URL to reset Klaro! Consent Management:Links targeting this placeholder URL are automatically changed before HTML output. The URL is replaced with CSP-compliant JavaScript to reset the Klaro! Consent Management settings and then trigger the modal.</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Sostituisci l'URL per resettare Klaro! Gestione consendi:I link indirizzati a questo segnaposto URL vengono automaticamente modificati prima dell'output HTML. L'URL viene sostituito con JavaScript conforme al CSP per resettare le impostazioni di Klaro! Gestione consensi e quindi attivare la modale.</target>
+        <target state="final">Sostituisci l'URL per resettare Klaro! Gestione consendi:I link indirizzati a questo segnaposto URL vengono automaticamente modificati prima dell'output HTML. L'URL viene sostituito con JavaScript conforme al CSP per resettare le impostazioni di Klaro! Gestione consensi e quindi attivare la modale.</target>
       </trans-unit>
-      <trans-unit id="extmng.klaroConfigurationPath">
+      <trans-unit id="extmng.klaroConfigurationPath" approved="yes">
         <source>Klaro! Configuration Path:If this path is set, it is used to use the Klaro! configuration by external applications. For example, if a WordPress installation is to use the configuration created in TYPO3, this path can be called up. Example: "/klaro-config.js"</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Klaro! Percorso di configurazione: Se questo percorso è impostato, viene usato per usare la configurazione di Klaro! da applicazioni esterne. Ad esempio, se un'installazione di WordPress è quella di utilizzare la configurazione creata in TYPO3, questo percorso può essere richiamato. Esempio: "/klaro-config.js"</target>
+        <target state="final">Klaro! Percorso di configurazione: Se questo percorso è impostato, viene usato per usare la configurazione di Klaro! da applicazioni esterne. Ad esempio, se un'installazione di WordPress è quella di utilizzare la configurazione creata in TYPO3, questo percorso può essere richiamato. Esempio: "/klaro-config.js"</target>
       </trans-unit>
-      <trans-unit id="constants.customcategory.plugin.tx_klaroconsentmanager">
+      <trans-unit id="constants.customcategory.plugin.tx_klaroconsentmanager" approved="yes">
         <source>Klaro! Consent Manager</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Klaro! Consenso Manager</target>
+        <target state="final">Klaro! Consenso Manager</target>
       </trans-unit>
-      <trans-unit id="constants.subcategory.fluidrootpaths">
+      <trans-unit id="constants.subcategory.fluidrootpaths" approved="yes">
         <source>Templates</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Modelli</target>
+        <target state="final">Modelli</target>
       </trans-unit>
-      <trans-unit id="constants.subcategory.resources">
+      <trans-unit id="constants.subcategory.resources" approved="yes">
         <source>Resources</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Risorse</target>
+        <target state="final">Risorse</target>
       </trans-unit>
-      <trans-unit id="constants.subcategory.settings">
+      <trans-unit id="constants.subcategory.settings" approved="yes">
         <source>Settings</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Impostazioni</target>
+        <target state="final">Impostazioni</target>
       </trans-unit>
-      <trans-unit id="constants.view.templateRootPath">
+      <trans-unit id="constants.view.templateRootPath" approved="yes">
         <source>Path to template root (FE)</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Percorso alla radice del modello (FE)</target>
+        <target state="final">Percorso alla radice del modello (FE)</target>
       </trans-unit>
-      <trans-unit id="constants.view.partialRootPath">
+      <trans-unit id="constants.view.partialRootPath" approved="yes">
         <source>Path to template partials (FE)</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Percorso dei modelli parziali (FE)</target>
+        <target state="final">Percorso dei modelli parziali (FE)</target>
       </trans-unit>
-      <trans-unit id="constants.view.layoutRootPath">
+      <trans-unit id="constants.view.layoutRootPath" approved="yes">
         <source>Path to template layouts (FE)</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Percorso ai layout dei modelli (FE)</target>
+        <target state="final">Percorso ai layout dei modelli (FE)</target>
       </trans-unit>
-      <trans-unit id="constants.settings.css.klaro-default">
+      <trans-unit id="constants.settings.css.klaro-default" approved="yes">
         <source>Klaro CSS</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Klaro CSS</target>
+        <target state="final">Klaro CSS</target>
       </trans-unit>
-      <trans-unit id="constants.settings.css.klaro-custom">
+      <trans-unit id="constants.settings.css.klaro-custom" approved="yes">
         <source>Custom additions for Klaro CSS</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Aggiunte personalizzate per Klaro CSS</target>
+        <target state="final">Aggiunte personalizzate per Klaro CSS</target>
       </trans-unit>
-      <trans-unit id="constants.settings.javascript.klaro-default">
+      <trans-unit id="constants.settings.javascript.klaro-default" approved="yes">
         <source>Klaro JavaScript</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Klaro JavaScript</target>
+        <target state="final">Klaro JavaScript</target>
       </trans-unit>
-      <trans-unit id="constants.settings.contextualconsent.replaceAttributes">
+      <trans-unit id="constants.settings.contextualconsent.replaceAttributes" approved="yes">
         <source>Replace attributes:Comma-separated list of attributes that should be automatically replaced within the content element of the contextual consent</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Sostituire gli attributi:Lista di attributi separati da virgola che dovrebbero essere automaticamente sostituiti all'interno dell'elemento di contenuto del consenso contestuale</target>
+        <target state="final">Sostituire gli attributi:Lista di attributi separati da virgola che dovrebbero essere automaticamente sostituiti all'interno dell'elemento di contenuto del consenso contestuale</target>
       </trans-unit>
-      <trans-unit id="constants.settings.contextualconsent.mainSectionOnly">
+      <trans-unit id="constants.settings.contextualconsent.mainSectionOnly" approved="yes">
         <source>Main section only:Activate this option if the contextual consent box should only be limited to the main content (without heading and footer).</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Sezione principale:Attivare questa opzione se la casella di consenso contestuale deve essere limitata solo al contenuto principale (senza intestazione e piè di pagina).</target>
+        <target state="final">Sezione principale:Attivare questa opzione se la casella di consenso contestuale deve essere limitata solo al contenuto principale (senza intestazione e piè di pagina).</target>
       </trans-unit>
-      <trans-unit id="constants.settings.configuration.disabled">
+      <trans-unit id="constants.settings.configuration.disabled" approved="yes">
         <source>Disable Klaro Consent Management</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Disabilita Klaro Consent Management</target>
+        <target state="final">Disabilita Klaro Consent Management</target>
       </trans-unit>
     </body>
   </file>
