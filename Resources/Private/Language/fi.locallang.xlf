@@ -2,17 +2,17 @@
 <xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
   <file source-language="en" original="EXT:klaro_consent_manager/Resources/Private/Language/locallang.xlf" datatype="plaintext" product-name="klaro_consent_manager" date="2025-10-13T15:15:27+02:00" target-language="fi">
     <body>
-      <trans-unit id="acceptAll">
+      <trans-unit id="acceptAll" approved="yes">
         <source>Accept all</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Hyväksy kaikki</target>
+        <target state="final">Hyväksy kaikki</target>
       </trans-unit>
-      <trans-unit id="acceptSelected">
+      <trans-unit id="acceptSelected" approved="yes">
         <source>Accept selected</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Hyväksy valitut</target>
+        <target state="final">Hyväksy valitut</target>
       </trans-unit>
-      <trans-unit id="close">
+      <trans-unit id="close" approved="yes">
         <source>Close</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Sulje</target>
+        <target state="final">Sulje</target>
       </trans-unit>
       <trans-unit id="consentModal.description" approved="yes">
         <source>Here you can assess and customize the services that we'd like to use on this website. You're in charge! Enable or disable services as you see fit.</source>
@@ -34,33 +34,33 @@
         <source>Let me choose</source>
         <target state="final">Lue lisää</target>
       </trans-unit>
-      <trans-unit id="consentNotice.testing">
+      <trans-unit id="consentNotice.testing" approved="yes">
         <source>Testing mode!</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Testataan tilaa!</target>
+        <target state="final">Testataan tilaa!</target>
       </trans-unit>
-      <trans-unit id="consentNotice.title">
+      <trans-unit id="consentNotice.title" approved="yes">
         <source>Cookie Consent</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Evästeen Suostumus</target>
+        <target state="final">Evästeen Suostumus</target>
       </trans-unit>
-      <trans-unit id="contextualConsent.acceptAlways">
+      <trans-unit id="contextualConsent.acceptAlways" approved="yes">
         <source>Always</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Aina</target>
+        <target state="final">Aina</target>
       </trans-unit>
-      <trans-unit id="contextualConsent.acceptOnce">
+      <trans-unit id="contextualConsent.acceptOnce" approved="yes">
         <source>Yes</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Kyllä</target>
+        <target state="final">Kyllä</target>
       </trans-unit>
-      <trans-unit id="contextualConsent.description">
+      <trans-unit id="contextualConsent.description" approved="yes">
         <source>Do you want to load external content supplied by {title}?</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Haluatko ladata {title} toimittaman ulkoisen sisällön?</target>
+        <target state="final">Haluatko ladata {title} toimittaman ulkoisen sisällön?</target>
       </trans-unit>
-      <trans-unit id="contextualConsent.descriptionEmptyStore">
+      <trans-unit id="contextualConsent.descriptionEmptyStore" approved="yes">
         <source>To agree to this service permanently, you must accept {title} in the {link}.</source>
-        <target state="needs-translation">To agree to this service permanently, you must accept {title} in the {link}.</target>
+        <target state="final">Hyväksyäksesi tämän palvelun pysyvästi, sinun on hyväksyttävä {title} osoitteessa {link}.</target>
       </trans-unit>
-      <trans-unit id="contextualConsent.modalLinkText">
+      <trans-unit id="contextualConsent.modalLinkText" approved="yes">
         <source>Consent Manager</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Suostumuksen Hallinta</target>
+        <target state="final">Suostumuksen Hallinta</target>
       </trans-unit>
       <trans-unit id="decline" approved="yes">
         <source>I decline</source>
@@ -74,61 +74,57 @@
         <source>Realized with Klaro!</source>
         <target state="final">Palvelun tarjoaa Klaro!</target>
       </trans-unit>
-      <trans-unit id="privacyPolicy.name">
+      <trans-unit id="privacyPolicy.name" approved="yes">
         <source>privacy policy</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">yksityisyyden suoja</target>
+        <target state="final">yksityisyyden suoja</target>
       </trans-unit>
-      <trans-unit id="privacyPolicy.text">
+      <trans-unit id="privacyPolicy.text" approved="yes">
         <source>To learn more, please read our {privacyPolicy}.</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Lue lisää meidän {privacyPolicy}.</target>
+        <target state="final">Lue lisää meidän {privacyPolicy}.</target>
       </trans-unit>
-      <trans-unit id="purposeItem.service">
+      <trans-unit id="purposeItem.service" approved="yes">
         <source>service</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">palvelu</target>
+        <target state="final">palvelu</target>
       </trans-unit>
-      <trans-unit id="purposeItem.services">
+      <trans-unit id="purposeItem.services" approved="yes">
         <source>services</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">palvelut</target>
+        <target state="final">palvelut</target>
       </trans-unit>
-      <trans-unit id="purposes.advertising.description">
+      <trans-unit id="purposes.advertising.description" approved="yes">
         <source>These services process personal information to show you personalized or interest-based advertisements.</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Nämä palvelut käsittelevät henkilökohtaisia tietoja näyttääkseen sinulle henkilökohtaisia tai kiinnostuksen kohteisiin perustuvia mainoksia.</target>
+        <target state="final">Nämä palvelut käsittelevät henkilökohtaisia tietoja näyttääkseen sinulle henkilökohtaisia tai kiinnostuksen kohteisiin perustuvia mainoksia.</target>
       </trans-unit>
-      <trans-unit id="purposes.advertising.title">
+      <trans-unit id="purposes.advertising.title" approved="yes">
         <source>Advertising</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Mainonta</target>
+        <target state="final">Mainonta</target>
       </trans-unit>
-      <trans-unit id="purposes.functional.description">
-        <source>These services are essential for the correct functioning of this website. You cannot disable them here as the service would not work correctly otherwise.
-</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Nämä palvelut ovat välttämättömiä tämän sivuston moitteettomalle toiminnalle. Et voi poistaa niitä täällä, koska palvelu ei toimi oikein.
-</target>
+      <trans-unit id="purposes.functional.description" approved="yes">
+        <source>These services are essential for the correct functioning of this website. You cannot disable them here as the service would not work correctly otherwise.</source>
+        <target state="final">Nämä palvelut ovat välttämättömiä tämän sivuston moitteettomalle toiminnalle. Et voi poistaa niitä täällä, koska palvelu ei muuten toimi oikein.</target>
       </trans-unit>
-      <trans-unit id="purposes.functional.title">
+      <trans-unit id="purposes.functional.title" approved="yes">
         <source>Service Provision</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Palvelun Tarjous</target>
+        <target state="final">Palvelun Tarjous</target>
       </trans-unit>
-      <trans-unit id="purposes.marketing.description">
+      <trans-unit id="purposes.marketing.description" approved="yes">
         <source>These services process personal information to show you relevant content about products, services or topics that you might be interested in.</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Nämä palvelut käsittelevät henkilökohtaisia tietoja näyttääkseen sinulle merkityksellistä sisältöä tuotteista, palveluista tai aiheista, joista saatat olla kiinnostunut.</target>
+        <target state="final">Nämä palvelut käsittelevät henkilökohtaisia tietoja näyttääkseen sinulle merkityksellistä sisältöä tuotteista, palveluista tai aiheista, joista saatat olla kiinnostunut.</target>
       </trans-unit>
-      <trans-unit id="purposes.marketing.title">
+      <trans-unit id="purposes.marketing.title" approved="yes">
         <source>Marketing</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Markkinointi</target>
+        <target state="final">Markkinointi</target>
       </trans-unit>
-      <trans-unit id="purposes.performance.description">
-        <source>These services process personal information to optimize the service that this website offers.
-</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Nämä palvelut käsittelevät henkilökohtaisia tietoja optimoida palvelun, jonka tämä sivusto tarjoaa.
-</target>
+      <trans-unit id="purposes.performance.description" approved="yes">
+        <source>These services process personal information to optimize the service that this website offers.</source>
+        <target state="final">Nämä palvelut käsittelevät henkilökohtaisia tietoja optimoida palvelun, että tämä sivusto tarjoaa.</target>
       </trans-unit>
-      <trans-unit id="purposes.performance.title">
+      <trans-unit id="purposes.performance.title" approved="yes">
         <source>Performance Optimization</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Suorituskyvyn Optimointi</target>
+        <target state="final">Suorituskyvyn Optimointi</target>
       </trans-unit>
-      <trans-unit id="save">
+      <trans-unit id="save" approved="yes">
         <source>Save</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Tallenna</target>
+        <target state="final">Tallenna</target>
       </trans-unit>
       <trans-unit id="service.disableAll.description" approved="yes">
         <source>Use this switch to enable or disable all services.</source>
@@ -146,13 +142,13 @@
         <source>(opt-out)</source>
         <target state="final">(ladataan oletuksena)</target>
       </trans-unit>
-      <trans-unit id="service.purpose">
+      <trans-unit id="service.purpose" approved="yes">
         <source>purpose</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">tarkoitus</target>
+        <target state="final">tarkoitus</target>
       </trans-unit>
-      <trans-unit id="service.purposes">
+      <trans-unit id="service.purposes" approved="yes">
         <source>purposes</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">tarkoitukset</target>
+        <target state="final">tarkoitukset</target>
       </trans-unit>
       <trans-unit id="service.required.description" approved="yes">
         <source>This services is always required</source>
@@ -162,245 +158,245 @@
         <source>(always required)</source>
         <target state="final">(vaaditaan)</target>
       </trans-unit>
-      <trans-unit id="purposes.analytics.title">
+      <trans-unit id="purposes.analytics.title" approved="yes">
         <source>Analytics</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Analytiikka</target>
+        <target state="final">Analytiikka</target>
       </trans-unit>
-      <trans-unit id="purposes.analytics.description">
+      <trans-unit id="purposes.analytics.description" approved="yes">
         <source>These services gather anonymous data for statistical analysis and performance optimization. Enabling analytics services assists website owners in making informed decisions to enhance online services.</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Nämä palvelut keräävät anonyymiä dataa tilastollista analyysia ja suorituskyvyn optimointia varten. Mahdollistamalla analytiikkapalvelut auttavat verkkosivujen omistajia tekemään tietoon perustuvia päätöksiä verkkopalvelujen parantamiseksi.</target>
+        <target state="final">Nämä palvelut keräävät anonyymiä dataa tilastollista analyysia ja suorituskyvyn optimointia varten. Mahdollistamalla analytiikkapalvelut auttavat verkkosivujen omistajia tekemään tietoon perustuvia päätöksiä verkkopalvelujen parantamiseksi.</target>
       </trans-unit>
-      <trans-unit id="purposes.security.title">
+      <trans-unit id="purposes.security.title" approved="yes">
         <source>Security</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Turvallisuus</target>
+        <target state="final">Turvallisuus</target>
       </trans-unit>
-      <trans-unit id="purposes.security.description">
+      <trans-unit id="purposes.security.description" approved="yes">
         <source>Security services are crucial for safeguarding your online experience. These services help protect your data and privacy by detecting and preventing security threats, such as malware, phishing attempts, and unauthorized access. They ensure a safer browsing environment.</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Turvallisuuspalvelut ovat ratkaisevan tärkeitä verkkokokemuksesi turvaamiseksi. Nämä palvelut auttavat suojaamaan tietojasi ja yksityisyyttäsi havaitsemalla ja ehkäisemällä turvallisuusuhkia, kuten haittaohjelmia, verkkourkintayrityksiä ja luvatonta pääsyä. Ne takaavat turvallisemman selausympäristön.</target>
+        <target state="final">Turvallisuuspalvelut ovat ratkaisevan tärkeitä verkkokokemuksesi turvaamiseksi. Nämä palvelut auttavat suojaamaan tietojasi ja yksityisyyttäsi havaitsemalla ja ehkäisemällä turvallisuusuhkia, kuten haittaohjelmia, verkkourkintayrityksiä ja luvatonta pääsyä. Ne takaavat turvallisemman selausympäristön.</target>
       </trans-unit>
-      <trans-unit id="purposes.livechat.title">
+      <trans-unit id="purposes.livechat.title" approved="yes">
         <source>Live Chat</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Live Keskustelu</target>
+        <target state="final">Live Keskustelu</target>
       </trans-unit>
-      <trans-unit id="purposes.livechat.description">
+      <trans-unit id="purposes.livechat.description" approved="yes">
         <source>Live chat services enable real-time communication with website support teams. They offer a convenient way to ask questions, seek assistance, or engage in discussions while browsing a website. Live chat enhances your online interaction and customer support experience.</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Live chat -palvelut mahdollistavat reaaliaikaisen viestinnän verkkosivujen tukitiimien kanssa. Ne tarjoavat kätevän tavan kysyä kysymyksiä, hakea apua tai osallistua keskusteluihin selatessaan verkkosivustoa. Live chat parantaa verkkovuorovaikutusta ja asiakastukikokemusta.</target>
+        <target state="final">Live chat -palvelut mahdollistavat reaaliaikaisen viestinnän verkkosivujen tukitiimien kanssa. Ne tarjoavat kätevän tavan kysyä kysymyksiä, hakea apua tai osallistua keskusteluihin selatessaan verkkosivustoa. Live chat parantaa verkkovuorovaikutusta ja asiakastukikokemusta.</target>
       </trans-unit>
-      <trans-unit id="purposes.styling.title">
+      <trans-unit id="purposes.styling.title" approved="yes">
         <source>Styling</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Muotoilu</target>
+        <target state="final">Muotoilu</target>
       </trans-unit>
-      <trans-unit id="purposes.styling.description">
+      <trans-unit id="purposes.styling.description" approved="yes">
         <source>Services related to styling help to improve the appearance of the website. This can also have an impact on usability.</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Muotoiluun liittyvät palvelut auttavat parantamaan sivuston ulkonäköä. Tämä voi vaikuttaa myös käytettävyyteen.</target>
+        <target state="final">Muotoiluun liittyvät palvelut auttavat parantamaan sivuston ulkonäköä. Tämä voi vaikuttaa myös käytettävyyteen.</target>
       </trans-unit>
-      <trans-unit id="purposes.videos.title">
+      <trans-unit id="purposes.videos.title" approved="yes">
         <source>Videos</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Videot</target>
+        <target state="final">Videot</target>
       </trans-unit>
-      <trans-unit id="purposes.videos.description">
+      <trans-unit id="purposes.videos.description" approved="yes">
         <source>Embedding videos from external platforms to enrich the content on this website.</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Upottaa videoita ulkoisilta alustoilta rikastuttaa sisältöä tällä sivustolla.</target>
+        <target state="final">Upottaa videoita ulkoisilta alustoilta rikastuttaa sisältöä tällä sivustolla.</target>
       </trans-unit>
-      <trans-unit id="purposes.social.title">
+      <trans-unit id="purposes.social.title" approved="yes">
         <source>Social Media</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Sosiaalinen Media</target>
+        <target state="final">Sosiaalinen Media</target>
       </trans-unit>
-      <trans-unit id="purposes.social.description">
+      <trans-unit id="purposes.social.description" approved="yes">
         <source>Embedding social media from external platforms to enrich the content on this website.</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Sulautetaan sosiaalista mediaa ulkoisilta alustoilta rikastuttamaan sisältöä tällä sivustolla.</target>
+        <target state="final">Sulautetaan sosiaalista mediaa ulkoisilta alustoilta rikastuttamaan sisältöä tällä sivustolla.</target>
       </trans-unit>
-      <trans-unit id="purposes.misc.title">
+      <trans-unit id="purposes.misc.title" approved="yes">
         <source>Miscellaneous</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Sekalaiset</target>
+        <target state="final">Sekalaiset</target>
       </trans-unit>
-      <trans-unit id="purposes.misc.description">
+      <trans-unit id="purposes.misc.description" approved="yes">
         <source>This includes services that do not fall under the other purposes.</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Tämä koskee myös palveluja, jotka eivät kuulu muihin tarkoituksiin.</target>
+        <target state="final">Tämä koskee myös palveluja, jotka eivät kuulu muihin tarkoituksiin.</target>
       </trans-unit>
-      <trans-unit id="consentManager.show">
+      <trans-unit id="consentManager.show" approved="yes">
         <source>Show Consent Manager</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Näytä Suostumuksen Hallinta</target>
+        <target state="final">Näytä Suostumuksen Hallinta</target>
       </trans-unit>
-      <trans-unit id="consentManager.reset">
+      <trans-unit id="consentManager.reset" approved="yes">
         <source>Reset Consent Manager</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Nollaa Hyväksynnän Hallinta</target>
+        <target state="final">Nollaa Hyväksynnän Hallinta</target>
       </trans-unit>
-      <trans-unit id="services.adsense.title">
+      <trans-unit id="services.adsense.title" approved="yes">
         <source>Google AdSense</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Google AdSense</target>
+        <target state="final">Google AdSense</target>
       </trans-unit>
-      <trans-unit id="services.adsense.description">
+      <trans-unit id="services.adsense.description" approved="yes">
         <source>Google AdSense enables personalized ads on websites while respecting user privacy. By consenting, you allow relevant ads and help support free content.</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Google AdSense mahdollistaa henkilökohtaiset mainokset verkkosivustoilla kunnioittaen käyttäjän yksityisyyttä. Hyväksymällä sallit asiaankuuluvat mainokset ja autat tukemaan vapaata sisältöä.</target>
+        <target state="final">Google AdSense mahdollistaa henkilökohtaiset mainokset verkkosivustoilla kunnioittaen käyttäjän yksityisyyttä. Hyväksymällä sallit asiaankuuluvat mainokset ja autat tukemaan vapaata sisältöä.</target>
       </trans-unit>
-      <trans-unit id="services.camera.title">
+      <trans-unit id="services.camera.title" approved="yes">
         <source>Surveillance Camera</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Valvonnan Kamera</target>
+        <target state="final">Valvonnan Kamera</target>
       </trans-unit>
-      <trans-unit id="services.camera.description">
+      <trans-unit id="services.camera.description" approved="yes">
         <source>Consent to the use of surveillance camera images for security and safety purposes, in compliance with applicable data privacy regulations.</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Hyväksyntä valvontakamerakuvien käytölle turva- ja turvallisuustarkoituksia varten sovellettavien tietosuojaa koskevien säännösten mukaisesti.</target>
+        <target state="final">Hyväksyntä valvontakamerakuvien käytölle turva- ja turvallisuustarkoituksia varten sovellettavien tietosuojaa koskevien säännösten mukaisesti.</target>
       </trans-unit>
-      <trans-unit id="services.clarity.title">
+      <trans-unit id="services.clarity.title" approved="yes">
         <source>Microsoft Clarity</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Microsoft Clarity</target>
+        <target state="final">Microsoft Clarity</target>
       </trans-unit>
-      <trans-unit id="services.clarity.description">
+      <trans-unit id="services.clarity.description" approved="yes">
         <source>Microsoft Clarity is a user-friendly web analytics tool that empowers website visitors like you by providing transparency about how your interactions are tracked on a website. It ensures your privacy is respected while giving developers and website owners valuable insights into user behavior. Plus, it follows coding guidelines and best practices, ensuring a safe and secure online experience for you.</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Microsoft Clarity on käyttäjäystävällinen web-analytiikan työkalu, joka mahdollistaa verkkosivujen kävijöitä kuten sinä, tarjoamalla läpinäkyvyyttä siitä, miten vuorovaikutustasi seurataan verkkosivuilla. Se varmistaa, että yksityisyyttäsi kunnioitetaan ja antaa kehittäjille ja verkkosivujen omistajille arvokasta tietoa käyttäjien käyttäytymisestä. Lisäksi se noudattaa ohjeita ja parhaita käytäntöjä varmistaen turvallisen ja turvallisen verkkokokemuksen.</target>
+        <target state="final">Microsoft Clarity on käyttäjäystävällinen web-analytiikan työkalu, joka mahdollistaa verkkosivujen kävijöitä kuten sinä, tarjoamalla läpinäkyvyyttä siitä, miten vuorovaikutustasi seurataan verkkosivuilla. Se varmistaa, että yksityisyyttäsi kunnioitetaan ja antaa kehittäjille ja verkkosivujen omistajille arvokasta tietoa käyttäjien käyttäytymisestä. Lisäksi se noudattaa ohjeita ja parhaita käytäntöjä varmistaen turvallisen ja turvallisen verkkokokemuksen.</target>
       </trans-unit>
-      <trans-unit id="services.cloudflare.title">
+      <trans-unit id="services.cloudflare.title" approved="yes">
         <source>Cloudflare</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Pilvikampela</target>
+        <target state="final">Pilvikampela</target>
       </trans-unit>
-      <trans-unit id="services.cloudflare.description">
+      <trans-unit id="services.cloudflare.description" approved="yes">
         <source>Cloudflare helps protect and optimize websites. By using this website, you consent to Cloudflare's data processing practices as described in its Privacy Policy.</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Cloudflare auttaa suojaamaan ja optimoimaan verkkosivustoja. Käyttämällä tätä verkkosivustoa hyväksyt Cloudflareen tietojen käsittelykäytännöt, jotka on kuvattu sen tietosuojakäytännössä.</target>
+        <target state="final">Cloudflare auttaa suojaamaan ja optimoimaan verkkosivustoja. Käyttämällä tätä verkkosivustoa hyväksyt Cloudflareen tietojen käsittelykäytännöt, jotka on kuvattu sen tietosuojakäytännössä.</target>
       </trans-unit>
-      <trans-unit id="services.external-tracker.title">
+      <trans-unit id="services.external-tracker.title" approved="yes">
         <source>External Tracker</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Ulkoinen Seuranta</target>
+        <target state="final">Ulkoinen Seuranta</target>
       </trans-unit>
-      <trans-unit id="services.external-tracker.description">
+      <trans-unit id="services.external-tracker.description" approved="yes">
         <source>External tracking script</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Ulkoinen seurantaskripti</target>
+        <target state="final">Ulkoinen seurantaskripti</target>
       </trans-unit>
-      <trans-unit id="services.facebook-pixel.title">
+      <trans-unit id="services.facebook-pixel.title" approved="yes">
         <source>Facebook Pixel</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Facebook Pikseli</target>
+        <target state="final">Facebook Pikseli</target>
       </trans-unit>
-      <trans-unit id="services.facebook-pixel.description">
+      <trans-unit id="services.facebook-pixel.description" approved="yes">
         <source>Simplifies web tracking for analytics and marketing while ensuring data compliance and control.</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Yksinkertaistaa analytiikan ja markkinoinnin verkkoseurantaa varmistaen samalla tietojen noudattamisen ja valvonnan.</target>
+        <target state="final">Yksinkertaistaa analytiikan ja markkinoinnin verkkoseurantaa varmistaen samalla tietojen noudattamisen ja valvonnan.</target>
       </trans-unit>
-      <trans-unit id="services.fast-fonts.title">
+      <trans-unit id="services.fast-fonts.title" approved="yes">
         <source>Fast Fonts</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Fast Fonts</target>
+        <target state="final">Fast Fonts</target>
       </trans-unit>
-      <trans-unit id="services.fast-fonts.description">
+      <trans-unit id="services.fast-fonts.description" approved="yes">
         <source>Fast Fonts, operated by fonts.com and supplied by fast.fonts.net, is a service for the provision of web fonts. It requires the use of a pixel-code for continuous price calculation.</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Fast Fonts, jota käyttää fonts.com ja toimittaa fast.fonts.net, on palvelu tarjota web-fontteja. Se edellyttää pikselikoodin käyttöä jatkuvan hinnan laskemiseen.</target>
+        <target state="final">Fast Fonts, jota käyttää fonts.com ja toimittaa fast.fonts.net, on palvelu tarjota web-fontteja. Se edellyttää pikselikoodin käyttöä jatkuvan hinnan laskemiseen.</target>
       </trans-unit>
-      <trans-unit id="services.google-ads.title">
+      <trans-unit id="services.google-ads.title" approved="yes">
         <source>Google Ads</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Google Mainokset</target>
+        <target state="final">Google Mainokset</target>
       </trans-unit>
-      <trans-unit id="services.google-ads.description">
+      <trans-unit id="services.google-ads.description" approved="yes">
         <source>Google Ads allows advertisers to reach their target audience online. To personalize ads and measure their effectiveness, Google may collect data with your consent.</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Google mainosten avulla mainostajat voivat tavoittaa kohdeyleisön verkossa. Mainosten personoimiseksi ja niiden tehokkuuden mittaamiseksi Google voi kerätä tietoja suostumuksellasi.</target>
+        <target state="final">Google mainosten avulla mainostajat voivat tavoittaa kohdeyleisön verkossa. Mainosten personoimiseksi ja niiden tehokkuuden mittaamiseksi Google voi kerätä tietoja suostumuksellasi.</target>
       </trans-unit>
-      <trans-unit id="services.google-analytics.title">
+      <trans-unit id="services.google-analytics.title" approved="yes">
         <source>Google Analytics</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Google Analytics</target>
+        <target state="final">Google Analytics</target>
       </trans-unit>
-      <trans-unit id="services.google-analytics.description">
+      <trans-unit id="services.google-analytics.description" approved="yes">
         <source>Web analytics service provided by Google, Inc. ("Google")</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Google, Inc.:n ("Google") tarjoama verkkoanalytiikkapalvelu</target>
+        <target state="final">Google, Inc.:n ("Google") tarjoama verkkoanalytiikkapalvelu</target>
       </trans-unit>
-      <trans-unit id="services.google-fonts.title">
+      <trans-unit id="services.google-fonts.title" approved="yes">
         <source>Google Fonts</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Google Fontit</target>
+        <target state="final">Google Fontit</target>
       </trans-unit>
-      <trans-unit id="services.google-fonts.description">
+      <trans-unit id="services.google-fonts.description" approved="yes">
         <source>Web fonts hosted by Google</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Googlen ylläpitämät web-kirjasimet</target>
+        <target state="final">Googlen ylläpitämät web-kirjasimet</target>
       </trans-unit>
-      <trans-unit id="services.google-maps.title">
+      <trans-unit id="services.google-maps.title" approved="yes">
         <source>Google Maps</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Google Maps</target>
+        <target state="final">Google Maps</target>
       </trans-unit>
-      <trans-unit id="services.google-maps.description">
+      <trans-unit id="services.google-maps.description" approved="yes">
         <source>Google Maps allows for the integration of interactive maps on websites, enabling location-based services. Developers can utilize it while ensuring data compliance and control, adhering to coding guidelines and best practices.</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Google Maps mahdollistaa interaktiivisten karttojen integroinnin verkkosivustoihin ja mahdollistaa sijaintiin perustuvat palvelut. Kehittäjät voivat hyödyntää sitä varmistaen samalla tietojen noudattamisen ja valvonnan, noudattaen ohjeistusta ja parhaita käytäntöjä.</target>
+        <target state="final">Google Maps mahdollistaa interaktiivisten karttojen integroinnin verkkosivustoihin ja mahdollistaa sijaintiin perustuvat palvelut. Kehittäjät voivat hyödyntää sitä varmistaen samalla tietojen noudattamisen ja valvonnan, noudattaen ohjeistusta ja parhaita käytäntöjä.</target>
       </trans-unit>
-      <trans-unit id="services.google-tag-manager.title">
+      <trans-unit id="services.google-tag-manager.title" approved="yes">
         <source>Google Tag Manager</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Google Tag Manager</target>
+        <target state="final">Google Tag Manager</target>
       </trans-unit>
-      <trans-unit id="services.google-tag-manager.description">
+      <trans-unit id="services.google-tag-manager.description" approved="yes">
         <source>Google Tag Manager streamlines web tracking and code management, ensuring data compliance and control for developers.</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Google Tag Manager virtaviivaistaa web-seurantaa ja koodinhallintaa, mikä takaa tietojen noudattamisen ja valvonnan kehittäjille.</target>
+        <target state="final">Google Tag Manager virtaviivaistaa web-seurantaa ja koodinhallintaa, mikä takaa tietojen noudattamisen ja valvonnan kehittäjille.</target>
       </trans-unit>
-      <trans-unit id="services.inline-tracker.title">
+      <trans-unit id="services.inline-tracker.title" approved="yes">
         <source>Inline Tracker</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Sisäinen Seurantapalvelin</target>
+        <target state="final">Sisäinen Seurantapalvelin</target>
       </trans-unit>
-      <trans-unit id="services.inline-tracker.description">
+      <trans-unit id="services.inline-tracker.description" approved="yes">
         <source>Inline tracking script</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Inline seuranta skripti</target>
+        <target state="final">Inline seuranta skripti</target>
       </trans-unit>
-      <trans-unit id="services.instagram.title">
+      <trans-unit id="services.instagram.title" approved="yes">
         <source>Instagram</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Instagram</target>
+        <target state="final">Instagram</target>
       </trans-unit>
-      <trans-unit id="services.instagram.description">
+      <trans-unit id="services.instagram.description" approved="yes">
         <source>Allows Instagram posts to be embedded. Personal data may be transferred to Instagram (Meta Platforms) in the process.</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Mahdollistaa Instagram-viestien sulauttamisen. Henkilötietoja voidaan siirtää Instagramiin (Meta Platforms) prosessin aikana.</target>
+        <target state="final">Mahdollistaa Instagram-viestien sulauttamisen. Henkilötietoja voidaan siirtää Instagramiin (Meta Platforms) prosessin aikana.</target>
       </trans-unit>
-      <trans-unit id="services.intercom.title">
+      <trans-unit id="services.intercom.title" approved="yes">
         <source>Intercom</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Intercom</target>
+        <target state="final">Intercom</target>
       </trans-unit>
-      <trans-unit id="services.intercom.description">
+      <trans-unit id="services.intercom.description" approved="yes">
         <source>Chat widget and collecting of visitor statistics</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Keskustele widgetistä ja kerää kävijätilastoja</target>
+        <target state="final">Keskustele widgetistä ja kerää kävijätilastoja</target>
       </trans-unit>
-      <trans-unit id="services.matomo.title">
+      <trans-unit id="services.matomo.title" approved="yes">
         <source>Matomo/Piwik</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Matomo/Piwik</target>
+        <target state="final">Matomo/Piwik</target>
       </trans-unit>
-      <trans-unit id="services.matomo.description">
+      <trans-unit id="services.matomo.description" approved="yes">
         <source>Open source software for statistical analysis of visitor accesses</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Avoimen lähdekoodin ohjelmisto vierailijoiden käyttöoikeuksien tilastollista analysointia varten</target>
+        <target state="final">Avoimen lähdekoodin ohjelmisto vierailijoiden käyttöoikeuksien tilastollista analysointia varten</target>
       </trans-unit>
-      <trans-unit id="services.mouseflow.title">
+      <trans-unit id="services.mouseflow.title" approved="yes">
         <source>Mouseflow</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Hiiren virtaus</target>
+        <target state="final">Hiiren virtaus</target>
       </trans-unit>
-      <trans-unit id="services.mouseflow.description">
+      <trans-unit id="services.mouseflow.description" approved="yes">
         <source>Real-time user analytics service that helps to understand how visitors interact with our website.</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Reaaliaikainen käyttäjäanalytiikkapalvelu, joka auttaa ymmärtämään, miten vierailijat ovat vuorovaikutuksessa sivustomme kanssa.</target>
+        <target state="final">Reaaliaikainen käyttäjäanalytiikkapalvelu, joka auttaa ymmärtämään, miten vierailijat ovat vuorovaikutuksessa sivustomme kanssa.</target>
       </trans-unit>
-      <trans-unit id="services.tiktok.title">
+      <trans-unit id="services.tiktok.title" approved="yes">
         <source>TikTok</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">TikTok</target>
+        <target state="final">TikTok</target>
       </trans-unit>
-      <trans-unit id="services.tiktok.description">
+      <trans-unit id="services.tiktok.description" approved="yes">
         <source>Allows TikTok videos to be embedded. Personal data may be transferred to TikTok and processed in third countries.</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Mahdollistaa TikTok-videoiden sulauttamisen. Henkilötietoja voidaan siirtää TikTokiin ja käsitellä kolmansissa maissa.</target>
+        <target state="final">Mahdollistaa TikTok-videoiden sulauttamisen. Henkilötietoja voidaan siirtää TikTokiin ja käsitellä kolmansissa maissa.</target>
       </trans-unit>
-      <trans-unit id="services.twitter.title">
+      <trans-unit id="services.twitter.title" approved="yes">
         <source>X (formerly Twitter)</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">X (entinen Twitter)</target>
+        <target state="final">X (entinen Twitter)</target>
       </trans-unit>
-      <trans-unit id="services.twitter.description">
+      <trans-unit id="services.twitter.description" approved="yes">
         <source>X (formerly Twitter) is social media platform that allows users to share and interact with short messages and multimedia content. Developers can integrate Twitter features into websites to enhance user engagement and real-time updates while maintaining data privacy compliance and adhering to coding guidelines.</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">X (entinen Twitter) on sosiaalisen median alusta, jonka avulla käyttäjät voivat jakaa ja olla vuorovaikutuksessa lyhyiden viestien ja multimediasisältöjen kanssa. Kehittäjät voivat integroida Twitter-ominaisuudet verkkosivustoihin, joilla parannetaan käyttäjien vaikuttavuutta ja reaaliaikaisia päivityksiä samalla kun säilytetään tietosuojavaatimusten noudattaminen ja noudatetaan koodausohjeita.</target>
+        <target state="final">X (entinen Twitter) on sosiaalisen median alusta, jonka avulla käyttäjät voivat jakaa ja olla vuorovaikutuksessa lyhyiden viestien ja multimediasisältöjen kanssa. Kehittäjät voivat integroida Twitter-ominaisuudet verkkosivustoihin, joilla parannetaan käyttäjien vaikuttavuutta ja reaaliaikaisia päivityksiä samalla kun säilytetään tietosuojavaatimusten noudattaminen ja noudatetaan koodausohjeita.</target>
       </trans-unit>
-      <trans-unit id="services.userlike.title">
+      <trans-unit id="services.userlike.title" approved="yes">
         <source>Userlike</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Käyttäjätyyli</target>
+        <target state="final">Käyttäjätyyli</target>
       </trans-unit>
-      <trans-unit id="services.userlike.description">
+      <trans-unit id="services.userlike.description" approved="yes">
         <source>Userlike offers a live chat solution that enhances user interactions on websites.</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Userlike tarjoaa live chat ratkaisu, joka parantaa käyttäjien vuorovaikutusta sivustoilla.</target>
+        <target state="final">Userlike tarjoaa live chat ratkaisu, joka parantaa käyttäjien vuorovaikutusta sivustoilla.</target>
       </trans-unit>
-      <trans-unit id="services.vimeo.title">
+      <trans-unit id="services.vimeo.title" approved="yes">
         <source>Vimeo</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Vimeo</target>
+        <target state="final">Vimeo</target>
       </trans-unit>
-      <trans-unit id="services.vimeo.description">
+      <trans-unit id="services.vimeo.description" approved="yes">
         <source>Popular video-sharing platform that offers a range of features for creators and developers to enhance video content on websites.</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Suosittu videonjakoalusta, joka tarjoaa erilaisia ominaisuuksia luojille ja kehittäjille parantamaan videosisältöä verkkosivustoilla.</target>
+        <target state="final">Suosittu videonjakoalusta, joka tarjoaa erilaisia ominaisuuksia luojille ja kehittäjille parantamaan videosisältöä verkkosivustoilla.</target>
       </trans-unit>
-      <trans-unit id="services.youtube.title">
+      <trans-unit id="services.youtube.title" approved="yes">
         <source>YouTube</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">YouTube</target>
+        <target state="final">YouTube</target>
       </trans-unit>
-      <trans-unit id="services.youtube.description">
+      <trans-unit id="services.youtube.description" approved="yes">
         <source>The leading video-sharing platform for content creators and developers to enhance user experiences on websites.</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Johtava videonjakoalusta sisällön luojille ja kehittäjille, jotka parantavat verkkosivustojen käyttäjäkokemuksia.</target>
+        <target state="final">Johtava videonjakoalusta sisällön luojille ja kehittäjille, jotka parantavat verkkosivustojen käyttäjäkokemuksia.</target>
       </trans-unit>
       <trans-unit id="consentModal.privacyPolicy.name" approved="yes">
         <source>Privacy policy</source>
@@ -410,101 +406,101 @@
         <source>To learn more, please read our {privacyPolicy}.</source>
         <target state="final">Voit lukea lisätietoja {privacyPolicy}.</target>
       </trans-unit>
-      <trans-unit id="consentNotice.imprint.name">
+      <trans-unit id="consentNotice.imprint.name" approved="yes">
         <source>Imprint</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Jälki</target>
+        <target state="final">Jälki</target>
       </trans-unit>
       <trans-unit id="consentNotice.privacyPolicy.name" approved="yes">
         <source>Privacy policy</source>
         <target state="final">tietosuojasivultamme</target>
       </trans-unit>
-      <trans-unit id="cookies.title">
+      <trans-unit id="cookies.title" approved="yes">
         <source>Cookies</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Evästeet</target>
+        <target state="final">Evästeet</target>
       </trans-unit>
-      <trans-unit id="cookies.description">
+      <trans-unit id="cookies.description" approved="yes">
         <source>Below you will find a list of all cookies used by %s</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Aalta löydät luettelon kaikista %s käyttämistä evästeistä</target>
+        <target state="final">Aalta löydät luettelon kaikista %s käyttämistä evästeistä</target>
       </trans-unit>
-      <trans-unit id="cookies.headline.name">
+      <trans-unit id="cookies.headline.name" approved="yes">
         <source>Name / Pattern</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Nimi / Kuvio</target>
+        <target state="final">Nimi / Kuvio</target>
       </trans-unit>
-      <trans-unit id="cookies.headline.path">
+      <trans-unit id="cookies.headline.path" approved="yes">
         <source>Path</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Polku</target>
+        <target state="final">Polku</target>
       </trans-unit>
-      <trans-unit id="cookies.headline.domain">
+      <trans-unit id="cookies.headline.domain" approved="yes">
         <source>Domain</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Verkkotunnus</target>
+        <target state="final">Verkkotunnus</target>
       </trans-unit>
-      <trans-unit id="cookies.headline.expiresAfter">
+      <trans-unit id="cookies.headline.expiresAfter" approved="yes">
         <source>Expires after</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Vanhenee jälkeen</target>
+        <target state="final">Vanhenee jälkeen</target>
       </trans-unit>
-      <trans-unit id="year">
+      <trans-unit id="year" approved="yes">
         <source>Year</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Vuosi</target>
+        <target state="final">Vuosi</target>
       </trans-unit>
-      <trans-unit id="years">
+      <trans-unit id="years" approved="yes">
         <source>Years</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Vuodet</target>
+        <target state="final">Vuodet</target>
       </trans-unit>
-      <trans-unit id="month">
+      <trans-unit id="month" approved="yes">
         <source>Month</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Kuukausi</target>
+        <target state="final">Kuukausi</target>
       </trans-unit>
-      <trans-unit id="months">
+      <trans-unit id="months" approved="yes">
         <source>Months</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Kuukaudet</target>
+        <target state="final">Kuukaudet</target>
       </trans-unit>
-      <trans-unit id="day">
+      <trans-unit id="day" approved="yes">
         <source>Day</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Päivä</target>
+        <target state="final">Päivä</target>
       </trans-unit>
-      <trans-unit id="days">
+      <trans-unit id="days" approved="yes">
         <source>Days</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Päivää</target>
+        <target state="final">Päivää</target>
       </trans-unit>
-      <trans-unit id="hour">
+      <trans-unit id="hour" approved="yes">
         <source>Hour</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Tunti</target>
+        <target state="final">Tunti</target>
       </trans-unit>
-      <trans-unit id="hours">
+      <trans-unit id="hours" approved="yes">
         <source>Hours</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Tuntia</target>
+        <target state="final">Tuntia</target>
       </trans-unit>
-      <trans-unit id="minute">
+      <trans-unit id="minute" approved="yes">
         <source>Minute</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Minuutti</target>
+        <target state="final">Minuutti</target>
       </trans-unit>
-      <trans-unit id="minutes">
+      <trans-unit id="minutes" approved="yes">
         <source>Minutes</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Minuuttia</target>
+        <target state="final">Minuuttia</target>
       </trans-unit>
-      <trans-unit id="second">
+      <trans-unit id="second" approved="yes">
         <source>Second</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Sekunti</target>
+        <target state="final">Sekunti</target>
       </trans-unit>
-      <trans-unit id="seconds">
+      <trans-unit id="seconds" approved="yes">
         <source>Seconds</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Sekuntia</target>
+        <target state="final">Sekuntia</target>
       </trans-unit>
-      <trans-unit id="end-of-session">
+      <trans-unit id="end-of-session" approved="yes">
         <source>End of session</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Istuntokauden päättyminen</target>
+        <target state="final">Istuntokauden päättyminen</target>
       </trans-unit>
-      <trans-unit id="persistent">
+      <trans-unit id="persistent" approved="yes">
         <source>persistent</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">persistent</target>
+        <target state="final">persistent</target>
       </trans-unit>
-      <trans-unit id="warning.noServices">
+      <trans-unit id="warning.noServices" approved="yes">
         <source>Why don't I see a Klaro! Modal? → You must assign at least 1 service to the Klaro! configuration! Without services, we don't need consent management at all.</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Miksi en näe Klaroa! Modaalia? → Sinun täytyy määrittää vähintään 1 palvelu Klaro! konfiguraatio! Ilman palveluita emme tarvitse suostumuksen hallintaa lainkaan.</target>
+        <target state="final">Miksi en näe Klaroa! Modaalia? → Sinun täytyy määrittää vähintään 1 palvelu Klaro! konfiguraatio! Ilman palveluita emme tarvitse suostumuksen hallintaa lainkaan.</target>
       </trans-unit>
-      <trans-unit id="warning.noServicesPersonalized">
+      <trans-unit id="warning.noServicesPersonalized" approved="yes">
         <source>Hey %s! You missed a service in the config! Without services, we don't need consent management at all.</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Hei %s! Olet unohtanut palvelun config ! Ilman palveluita emme tarvitse suostumuksen hallintaa lainkaan.</target>
+        <target state="final">Hei %s! Olet unohtanut palvelun config ! Ilman palveluita emme tarvitse suostumuksen hallintaa lainkaan.</target>
       </trans-unit>
     </body>
   </file>
