@@ -2,509 +2,505 @@
 <xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
   <file source-language="en" original="EXT:klaro_consent_manager/Resources/Private/Language/locallang.xlf" datatype="plaintext" product-name="klaro_consent_manager" date="2025-10-13T15:15:27+02:00" target-language="ja">
     <body>
-      <trans-unit id="acceptAll">
+      <trans-unit id="acceptAll" approved="yes">
         <source>Accept all</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">すべて承認</target>
+        <target state="final">すべて承認</target>
       </trans-unit>
-      <trans-unit id="acceptSelected">
+      <trans-unit id="acceptSelected" approved="yes">
         <source>Accept selected</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">選択を承認</target>
+        <target state="final">選択を承認</target>
       </trans-unit>
-      <trans-unit id="close">
+      <trans-unit id="close" approved="yes">
         <source>Close</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">閉じる</target>
+        <target state="final">閉じる</target>
       </trans-unit>
-      <trans-unit id="consentModal.description">
+      <trans-unit id="consentModal.description" approved="yes">
         <source>Here you can assess and customize the services that we'd like to use on this website. You're in charge! Enable or disable services as you see fit.</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">ここでは、このウェブサイトで使用したいサービスを評価しカスタマイズすることができます。 あなたが担当しています！サービスを有効または無効にします。</target>
+        <target state="final">ここでは、このウェブサイトで使用したいサービスを評価しカスタマイズすることができます。 あなたが担当しています！サービスを有効または無効にします。</target>
       </trans-unit>
-      <trans-unit id="consentModal.title">
+      <trans-unit id="consentModal.title" approved="yes">
         <source>Services we would like to use</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">私たちが使用したいサービス</target>
+        <target state="final">私たちが使用したいサービス</target>
       </trans-unit>
-      <trans-unit id="consentNotice.changeDescription">
+      <trans-unit id="consentNotice.changeDescription" approved="yes">
         <source>There were changes since your last visit, please renew your consent.</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">前回の訪問から変更がありました。同意を更新してください。</target>
+        <target state="final">前回の訪問から変更がありました。同意を更新してください。</target>
       </trans-unit>
-      <trans-unit id="consentNotice.description">
+      <trans-unit id="consentNotice.description" approved="yes">
         <source>Hi! Could we please enable some additional services for {purposes}? You can always change or withdraw your consent later.</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">こんにちは！ {purposes}の追加サービスを有効にしていただけますか？後でいつでも同意を変更または撤回できます。</target>
+        <target state="final">こんにちは！ {purposes}の追加サービスを有効にしていただけますか？後でいつでも同意を変更または撤回できます。</target>
       </trans-unit>
-      <trans-unit id="consentNotice.learnMore">
+      <trans-unit id="consentNotice.learnMore" approved="yes">
         <source>Let me choose</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">私に選択</target>
+        <target state="final">私に選択</target>
       </trans-unit>
-      <trans-unit id="consentNotice.testing">
+      <trans-unit id="consentNotice.testing" approved="yes">
         <source>Testing mode!</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">テストモード！</target>
+        <target state="final">テストモード！</target>
       </trans-unit>
-      <trans-unit id="consentNotice.title">
+      <trans-unit id="consentNotice.title" approved="yes">
         <source>Cookie Consent</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Cookieの同意</target>
+        <target state="final">Cookieの同意</target>
       </trans-unit>
-      <trans-unit id="contextualConsent.acceptAlways">
+      <trans-unit id="contextualConsent.acceptAlways" approved="yes">
         <source>Always</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">常に表示</target>
+        <target state="final">常に表示</target>
       </trans-unit>
-      <trans-unit id="contextualConsent.acceptOnce">
+      <trans-unit id="contextualConsent.acceptOnce" approved="yes">
         <source>Yes</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">はい</target>
+        <target state="final">はい</target>
       </trans-unit>
-      <trans-unit id="contextualConsent.description">
+      <trans-unit id="contextualConsent.description" approved="yes">
         <source>Do you want to load external content supplied by {title}?</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">{title} から提供された外部コンテンツを読み込みますか？</target>
+        <target state="final">{title} から提供された外部コンテンツを読み込みますか？</target>
       </trans-unit>
-      <trans-unit id="contextualConsent.descriptionEmptyStore">
+      <trans-unit id="contextualConsent.descriptionEmptyStore" approved="yes">
         <source>To agree to this service permanently, you must accept {title} in the {link}.</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">このサービスに永続的に同意するには、 {title} に {link}を承認する必要があります。</target>
+        <target state="final">このサービスに永続的に同意するには、 {title} に {link}を承認する必要があります。</target>
       </trans-unit>
-      <trans-unit id="contextualConsent.modalLinkText">
+      <trans-unit id="contextualConsent.modalLinkText" approved="yes">
         <source>Consent Manager</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">同意マネージャー</target>
+        <target state="final">同意マネージャー</target>
       </trans-unit>
-      <trans-unit id="decline">
+      <trans-unit id="decline" approved="yes">
         <source>I decline</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">辞退する</target>
+        <target state="final">辞退する</target>
       </trans-unit>
-      <trans-unit id="ok">
+      <trans-unit id="ok" approved="yes">
         <source>That's ok</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">問題ありません</target>
+        <target state="final">問題ありません</target>
       </trans-unit>
-      <trans-unit id="poweredBy">
+      <trans-unit id="poweredBy" approved="yes">
         <source>Realized with Klaro!</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Klaroで実現！</target>
+        <target state="final">Klaroで実現！</target>
       </trans-unit>
-      <trans-unit id="privacyPolicy.name">
+      <trans-unit id="privacyPolicy.name" approved="yes">
         <source>privacy policy</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">プライバシー ポリシー</target>
+        <target state="final">プライバシー ポリシー</target>
       </trans-unit>
-      <trans-unit id="privacyPolicy.text">
+      <trans-unit id="privacyPolicy.text" approved="yes">
         <source>To learn more, please read our {privacyPolicy}.</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">詳細については、 {privacyPolicy} をご覧ください。</target>
+        <target state="final">詳細については、 {privacyPolicy} をご覧ください。</target>
       </trans-unit>
-      <trans-unit id="purposeItem.service">
+      <trans-unit id="purposeItem.service" approved="yes">
         <source>service</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">サービス</target>
+        <target state="final">サービス</target>
       </trans-unit>
-      <trans-unit id="purposeItem.services">
+      <trans-unit id="purposeItem.services" approved="yes">
         <source>services</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">サービス</target>
+        <target state="final">サービス</target>
       </trans-unit>
-      <trans-unit id="purposes.advertising.description">
+      <trans-unit id="purposes.advertising.description" approved="yes">
         <source>These services process personal information to show you personalized or interest-based advertisements.</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">これらのサービスは個人情報を処理し、パーソナライズされた広告または興味深い広告を表示します。</target>
+        <target state="final">これらのサービスは個人情報を処理し、パーソナライズされた広告または興味深い広告を表示します。</target>
       </trans-unit>
-      <trans-unit id="purposes.advertising.title">
+      <trans-unit id="purposes.advertising.title" approved="yes">
         <source>Advertising</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">広告</target>
+        <target state="final">広告</target>
       </trans-unit>
-      <trans-unit id="purposes.functional.description">
-        <source>These services are essential for the correct functioning of this website. You cannot disable them here as the service would not work correctly otherwise.
-</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">これらのサービスは、このウェブサイトの正しい機能に不可欠です。それ以外の場合、サービスが正常に動作しないので、ここでそれらを無効にすることはできません。
-</target>
+      <trans-unit id="purposes.functional.description" approved="yes">
+        <source>These services are essential for the correct functioning of this website. You cannot disable them here as the service would not work correctly otherwise.</source>
+        <target state="final">これらのサービスは、このウェブサイトの正しい機能に不可欠です。それ以外の場合、サービスが正常に動作しないので、ここでそれらを無効にすることはできません。</target>
       </trans-unit>
-      <trans-unit id="purposes.functional.title">
+      <trans-unit id="purposes.functional.title" approved="yes">
         <source>Service Provision</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">サービスの提供</target>
+        <target state="final">サービスの提供</target>
       </trans-unit>
-      <trans-unit id="purposes.marketing.description">
+      <trans-unit id="purposes.marketing.description" approved="yes">
         <source>These services process personal information to show you relevant content about products, services or topics that you might be interested in.</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">これらのサービスは、お客様が興味を持っている可能性のある製品、サービスまたはトピックに関する関連コンテンツをお客様に表示するために個人情報を処理します。</target>
+        <target state="final">これらのサービスは、お客様が興味を持っている可能性のある製品、サービスまたはトピックに関する関連コンテンツをお客様に表示するために個人情報を処理します。</target>
       </trans-unit>
-      <trans-unit id="purposes.marketing.title">
+      <trans-unit id="purposes.marketing.title" approved="yes">
         <source>Marketing</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">マーケティング</target>
+        <target state="final">マーケティング</target>
       </trans-unit>
-      <trans-unit id="purposes.performance.description">
-        <source>These services process personal information to optimize the service that this website offers.
-</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">これらのサービスは、このウェブサイトが提供するサービスを最適化するために個人情報を処理します。
-</target>
+      <trans-unit id="purposes.performance.description" approved="yes">
+        <source>These services process personal information to optimize the service that this website offers.</source>
+        <target state="final">これらのサービスは、本ウェブサイトが提供するサービスを最適化するために個人情報を処理します。</target>
       </trans-unit>
-      <trans-unit id="purposes.performance.title">
+      <trans-unit id="purposes.performance.title" approved="yes">
         <source>Performance Optimization</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">パフォーマンス最適化</target>
+        <target state="final">パフォーマンス最適化</target>
       </trans-unit>
-      <trans-unit id="save">
+      <trans-unit id="save" approved="yes">
         <source>Save</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">保存</target>
+        <target state="final">保存</target>
       </trans-unit>
-      <trans-unit id="service.disableAll.description">
+      <trans-unit id="service.disableAll.description" approved="yes">
         <source>Use this switch to enable or disable all services.</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">すべてのサービスを有効または無効にするには、このスイッチを使用します。</target>
+        <target state="final">すべてのサービスを有効または無効にするには、このスイッチを使用します。</target>
       </trans-unit>
-      <trans-unit id="service.disableAll.title">
+      <trans-unit id="service.disableAll.title" approved="yes">
         <source>Enable or disable all services</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">すべてのサービスを有効または無効にする</target>
+        <target state="final">すべてのサービスを有効または無効にする</target>
       </trans-unit>
-      <trans-unit id="service.optOut.description">
+      <trans-unit id="service.optOut.description" approved="yes">
         <source>This services is loaded by default (but you can opt out)</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">このサービスはデフォルトで読み込まれています(ただしオプトアウトできます)</target>
+        <target state="final">このサービスはデフォルトで読み込まれています(ただしオプトアウトできます)</target>
       </trans-unit>
-      <trans-unit id="service.optOut.title">
+      <trans-unit id="service.optOut.title" approved="yes">
         <source>(opt-out)</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">(オプトアウト)</target>
+        <target state="final">(オプトアウト)</target>
       </trans-unit>
-      <trans-unit id="service.purpose">
+      <trans-unit id="service.purpose" approved="yes">
         <source>purpose</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">目的</target>
+        <target state="final">目的</target>
       </trans-unit>
-      <trans-unit id="service.purposes">
+      <trans-unit id="service.purposes" approved="yes">
         <source>purposes</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">目的</target>
+        <target state="final">目的</target>
       </trans-unit>
-      <trans-unit id="service.required.description">
+      <trans-unit id="service.required.description" approved="yes">
         <source>This services is always required</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">このサービスは常に必要です</target>
+        <target state="final">このサービスは常に必要です</target>
       </trans-unit>
-      <trans-unit id="service.required.title">
+      <trans-unit id="service.required.title" approved="yes">
         <source>(always required)</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">（常に必須）</target>
+        <target state="final">（常に必須）</target>
       </trans-unit>
-      <trans-unit id="purposes.analytics.title">
+      <trans-unit id="purposes.analytics.title" approved="yes">
         <source>Analytics</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">分析</target>
+        <target state="final">分析</target>
       </trans-unit>
-      <trans-unit id="purposes.analytics.description">
+      <trans-unit id="purposes.analytics.description" approved="yes">
         <source>These services gather anonymous data for statistical analysis and performance optimization. Enabling analytics services assists website owners in making informed decisions to enhance online services.</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">これらのサービスは、統計分析とパフォーマンスの最適化のために匿名データを収集します。分析サービスを有効にすることで、ウェブサイトの所有者がオンラインサービスを強化するための情報に基づいた意思決定を行うのに役立ちます。</target>
+        <target state="final">これらのサービスは、統計分析とパフォーマンスの最適化のために匿名データを収集します。分析サービスを有効にすることで、ウェブサイトの所有者がオンラインサービスを強化するための情報に基づいた意思決定を行うのに役立ちます。</target>
       </trans-unit>
-      <trans-unit id="purposes.security.title">
+      <trans-unit id="purposes.security.title" approved="yes">
         <source>Security</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">セキュリティ</target>
+        <target state="final">セキュリティ</target>
       </trans-unit>
-      <trans-unit id="purposes.security.description">
+      <trans-unit id="purposes.security.description" approved="yes">
         <source>Security services are crucial for safeguarding your online experience. These services help protect your data and privacy by detecting and preventing security threats, such as malware, phishing attempts, and unauthorized access. They ensure a safer browsing environment.</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">セキュリティサービスは、オンライン体験を保護するために不可欠です。 これらのサービスは、マルウェア、フィッシングの試み、不正アクセスなどのセキュリティ脅威を検出して防止することで、データとプライバシーを保護します。 彼らは安全なブラウジング環境を確保します。</target>
+        <target state="final">セキュリティサービスは、オンライン体験を保護するために不可欠です。 これらのサービスは、マルウェア、フィッシングの試み、不正アクセスなどのセキュリティ脅威を検出して防止することで、データとプライバシーを保護します。 彼らは安全なブラウジング環境を確保します。</target>
       </trans-unit>
-      <trans-unit id="purposes.livechat.title">
+      <trans-unit id="purposes.livechat.title" approved="yes">
         <source>Live Chat</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">ライブチャット</target>
+        <target state="final">ライブチャット</target>
       </trans-unit>
-      <trans-unit id="purposes.livechat.description">
+      <trans-unit id="purposes.livechat.description" approved="yes">
         <source>Live chat services enable real-time communication with website support teams. They offer a convenient way to ask questions, seek assistance, or engage in discussions while browsing a website. Live chat enhances your online interaction and customer support experience.</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">ライブチャットサービスは、ウェブサイトサポートチームとのリアルタイム通信を可能にします。 彼らは、質問をしたり、支援を求めたり、ウェブサイトを閲覧したりするときに議論を行うための便利な方法を提供します。 ライブチャットは、オンラインのインタラクションとカスタマーサポートの経験を強化します。</target>
+        <target state="final">ライブチャットサービスは、ウェブサイトサポートチームとのリアルタイム通信を可能にします。 彼らは、質問をしたり、支援を求めたり、ウェブサイトを閲覧したりするときに議論を行うための便利な方法を提供します。 ライブチャットは、オンラインのインタラクションとカスタマーサポートの経験を強化します。</target>
       </trans-unit>
-      <trans-unit id="purposes.styling.title">
+      <trans-unit id="purposes.styling.title" approved="yes">
         <source>Styling</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">スタイル</target>
+        <target state="final">スタイル</target>
       </trans-unit>
-      <trans-unit id="purposes.styling.description">
+      <trans-unit id="purposes.styling.description" approved="yes">
         <source>Services related to styling help to improve the appearance of the website. This can also have an impact on usability.</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">ウェブサイトの外観を改善するためのスタイリングヘルプに関連するサービス. これはまた、ユーザビリティに影響を与える可能性があります.</target>
+        <target state="final">ウェブサイトの外観を改善するためのスタイリングヘルプに関連するサービス. これはまた、ユーザビリティに影響を与える可能性があります.</target>
       </trans-unit>
-      <trans-unit id="purposes.videos.title">
+      <trans-unit id="purposes.videos.title" approved="yes">
         <source>Videos</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">動画</target>
+        <target state="final">動画</target>
       </trans-unit>
-      <trans-unit id="purposes.videos.description">
+      <trans-unit id="purposes.videos.description" approved="yes">
         <source>Embedding videos from external platforms to enrich the content on this website.</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">外部プラットフォームから動画を埋め込むことで、本ウェブサイトのコンテンツを豊かにすることができます。</target>
+        <target state="final">外部プラットフォームから動画を埋め込むことで、本ウェブサイトのコンテンツを豊かにすることができます。</target>
       </trans-unit>
-      <trans-unit id="purposes.social.title">
+      <trans-unit id="purposes.social.title" approved="yes">
         <source>Social Media</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">SNS</target>
+        <target state="final">SNS</target>
       </trans-unit>
-      <trans-unit id="purposes.social.description">
+      <trans-unit id="purposes.social.description" approved="yes">
         <source>Embedding social media from external platforms to enrich the content on this website.</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">外部プラットフォームからソーシャルメディアを埋め込むことで、本ウェブサイトのコンテンツを充実させることができます。</target>
+        <target state="final">外部プラットフォームからソーシャルメディアを埋め込むことで、本ウェブサイトのコンテンツを充実させることができます。</target>
       </trans-unit>
-      <trans-unit id="purposes.misc.title">
+      <trans-unit id="purposes.misc.title" approved="yes">
         <source>Miscellaneous</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">その他</target>
+        <target state="final">その他</target>
       </trans-unit>
-      <trans-unit id="purposes.misc.description">
+      <trans-unit id="purposes.misc.description" approved="yes">
         <source>This includes services that do not fall under the other purposes.</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">これには、他の目的に該当しないサービスが含まれます。</target>
+        <target state="final">これには、他の目的に該当しないサービスが含まれます。</target>
       </trans-unit>
-      <trans-unit id="consentManager.show">
+      <trans-unit id="consentManager.show" approved="yes">
         <source>Show Consent Manager</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">同意マネージャーを表示</target>
+        <target state="final">同意マネージャーを表示</target>
       </trans-unit>
-      <trans-unit id="consentManager.reset">
+      <trans-unit id="consentManager.reset" approved="yes">
         <source>Reset Consent Manager</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">同意マネージャーをリセット</target>
+        <target state="final">同意マネージャーをリセット</target>
       </trans-unit>
-      <trans-unit id="services.adsense.title">
+      <trans-unit id="services.adsense.title" approved="yes">
         <source>Google AdSense</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Google AdSense</target>
+        <target state="final">Google AdSense</target>
       </trans-unit>
-      <trans-unit id="services.adsense.description">
+      <trans-unit id="services.adsense.description" approved="yes">
         <source>Google AdSense enables personalized ads on websites while respecting user privacy. By consenting, you allow relevant ads and help support free content.</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Google AdSenseは、ユーザーのプライバシーを尊重しながら、ウェブサイト上でパーソナライズされた広告を可能にします。同意することにより、関連する広告を許可し、無料コンテンツをサポートすることができます。</target>
+        <target state="final">Google AdSenseは、ユーザーのプライバシーを尊重しながら、ウェブサイト上でパーソナライズされた広告を可能にします。同意することにより、関連する広告を許可し、無料コンテンツをサポートすることができます。</target>
       </trans-unit>
-      <trans-unit id="services.camera.title">
+      <trans-unit id="services.camera.title" approved="yes">
         <source>Surveillance Camera</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">監視カメラ</target>
+        <target state="final">監視カメラ</target>
       </trans-unit>
-      <trans-unit id="services.camera.description">
+      <trans-unit id="services.camera.description" approved="yes">
         <source>Consent to the use of surveillance camera images for security and safety purposes, in compliance with applicable data privacy regulations.</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">適用されるデータプライバシー規制に準拠して、セキュリティおよび安全目的で監視カメラ画像を使用することに同意します。</target>
+        <target state="final">適用されるデータプライバシー規制に準拠して、セキュリティおよび安全目的で監視カメラ画像を使用することに同意します。</target>
       </trans-unit>
-      <trans-unit id="services.clarity.title">
+      <trans-unit id="services.clarity.title" approved="yes">
         <source>Microsoft Clarity</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Microsoft Clarity</target>
+        <target state="final">Microsoft Clarity</target>
       </trans-unit>
-      <trans-unit id="services.clarity.description">
+      <trans-unit id="services.clarity.description" approved="yes">
         <source>Microsoft Clarity is a user-friendly web analytics tool that empowers website visitors like you by providing transparency about how your interactions are tracked on a website. It ensures your privacy is respected while giving developers and website owners valuable insights into user behavior. Plus, it follows coding guidelines and best practices, ensuring a safe and secure online experience for you.</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Microsoft Clarity はユーザーフレンドリーな Web 分析ツールで、Web サイトでのやり取りのトラッキング方法についての透明性を提供することで、お客様のような Web サイト訪問者を支援します。 開発者やウェブサイトの所有者にユーザーの行動に関する貴重な洞察を与えながら、あなたのプライバシーが尊重されることを保証します。 さらに、コーディングガイドラインとベストプラクティスに従い、安全で安全なオンライン体験を保証します。</target>
+        <target state="final">Microsoft Clarity はユーザーフレンドリーな Web 分析ツールで、Web サイトでのやり取りのトラッキング方法についての透明性を提供することで、お客様のような Web サイト訪問者を支援します。 開発者やウェブサイトの所有者にユーザーの行動に関する貴重な洞察を与えながら、あなたのプライバシーが尊重されることを保証します。 さらに、コーディングガイドラインとベストプラクティスに従い、安全で安全なオンライン体験を保証します。</target>
       </trans-unit>
-      <trans-unit id="services.cloudflare.title">
+      <trans-unit id="services.cloudflare.title" approved="yes">
         <source>Cloudflare</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Cloudflare</target>
+        <target state="final">Cloudflare</target>
       </trans-unit>
-      <trans-unit id="services.cloudflare.description">
+      <trans-unit id="services.cloudflare.description" approved="yes">
         <source>Cloudflare helps protect and optimize websites. By using this website, you consent to Cloudflare's data processing practices as described in its Privacy Policy.</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Cloudflareはウェブサイトの保護と最適化を支援します。このウェブサイトを使用することで、Cloudflareのプライバシーポリシーに記載されているデータ処理方法に同意したことになります。</target>
+        <target state="final">Cloudflareはウェブサイトの保護と最適化を支援します。このウェブサイトを使用することで、Cloudflareのプライバシーポリシーに記載されているデータ処理方法に同意したことになります。</target>
       </trans-unit>
-      <trans-unit id="services.external-tracker.title">
+      <trans-unit id="services.external-tracker.title" approved="yes">
         <source>External Tracker</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">外部トラッカー</target>
+        <target state="final">外部トラッカー</target>
       </trans-unit>
-      <trans-unit id="services.external-tracker.description">
+      <trans-unit id="services.external-tracker.description" approved="yes">
         <source>External tracking script</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">外部トラッキングスクリプト</target>
+        <target state="final">外部トラッキングスクリプト</target>
       </trans-unit>
-      <trans-unit id="services.facebook-pixel.title">
+      <trans-unit id="services.facebook-pixel.title" approved="yes">
         <source>Facebook Pixel</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Facebook ピクセル</target>
+        <target state="final">Facebook ピクセル</target>
       </trans-unit>
-      <trans-unit id="services.facebook-pixel.description">
+      <trans-unit id="services.facebook-pixel.description" approved="yes">
         <source>Simplifies web tracking for analytics and marketing while ensuring data compliance and control.</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">分析とマーケティングのためのWebトラッキングを簡素化し、データのコンプライアンスと制御を確保します。</target>
+        <target state="final">分析とマーケティングのためのWebトラッキングを簡素化し、データのコンプライアンスと制御を確保します。</target>
       </trans-unit>
-      <trans-unit id="services.fast-fonts.title">
+      <trans-unit id="services.fast-fonts.title" approved="yes">
         <source>Fast Fonts</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Fast Fonts</target>
+        <target state="final">Fast Fonts</target>
       </trans-unit>
-      <trans-unit id="services.fast-fonts.description">
+      <trans-unit id="services.fast-fonts.description" approved="yes">
         <source>Fast Fonts, operated by fonts.com and supplied by fast.fonts.net, is a service for the provision of web fonts. It requires the use of a pixel-code for continuous price calculation.</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">fonts.comによって運営され、fast.fonts.netによって供給される高速フォントは、Webフォントの提供のためのサービスです。 連続価格計算にはピクセルコードを使用する必要があります。</target>
+        <target state="final">fonts.comによって運営され、fast.fonts.netによって供給される高速フォントは、Webフォントの提供のためのサービスです。 連続価格計算にはピクセルコードを使用する必要があります。</target>
       </trans-unit>
-      <trans-unit id="services.google-ads.title">
+      <trans-unit id="services.google-ads.title" approved="yes">
         <source>Google Ads</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Google 広告</target>
+        <target state="final">Google 広告</target>
       </trans-unit>
-      <trans-unit id="services.google-ads.description">
+      <trans-unit id="services.google-ads.description" approved="yes">
         <source>Google Ads allows advertisers to reach their target audience online. To personalize ads and measure their effectiveness, Google may collect data with your consent.</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Google広告は、広告主がオンラインでターゲットオーディエンスにリーチすることを可能にします。広告をパーソナライズし、その効果を測定するために、Googleはあなたの同意を得てデータを収集することがあります。</target>
+        <target state="final">Google広告は、広告主がオンラインでターゲットオーディエンスにリーチすることを可能にします。広告をパーソナライズし、その効果を測定するために、Googleはあなたの同意を得てデータを収集することがあります。</target>
       </trans-unit>
-      <trans-unit id="services.google-analytics.title">
+      <trans-unit id="services.google-analytics.title" approved="yes">
         <source>Google Analytics</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Google Analytics</target>
+        <target state="final">Google Analytics</target>
       </trans-unit>
-      <trans-unit id="services.google-analytics.description">
+      <trans-unit id="services.google-analytics.description" approved="yes">
         <source>Web analytics service provided by Google, Inc. ("Google")</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Google, Inc. (「Google」) が提供するウェブ解析サービス</target>
+        <target state="final">Google, Inc. (「Google」) が提供するウェブ解析サービス</target>
       </trans-unit>
-      <trans-unit id="services.google-fonts.title">
+      <trans-unit id="services.google-fonts.title" approved="yes">
         <source>Google Fonts</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Googleフォント</target>
+        <target state="final">Googleフォント</target>
       </trans-unit>
-      <trans-unit id="services.google-fonts.description">
+      <trans-unit id="services.google-fonts.description" approved="yes">
         <source>Web fonts hosted by Google</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Googleがホストするウェブフォント</target>
+        <target state="final">Googleがホストするウェブフォント</target>
       </trans-unit>
-      <trans-unit id="services.google-maps.title">
+      <trans-unit id="services.google-maps.title" approved="yes">
         <source>Google Maps</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Google Maps</target>
+        <target state="final">Google Maps</target>
       </trans-unit>
-      <trans-unit id="services.google-maps.description">
+      <trans-unit id="services.google-maps.description" approved="yes">
         <source>Google Maps allows for the integration of interactive maps on websites, enabling location-based services. Developers can utilize it while ensuring data compliance and control, adhering to coding guidelines and best practices.</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Googleマップでは、ウェブサイト上のインタラクティブマップの統合が可能で、ロケーションベースのサービスを有効にします。 開発者は、データのコンプライアンスと制御、コーディングガイドラインとベストプラクティスの遵守を確保しながら利用できます。</target>
+        <target state="final">Googleマップでは、ウェブサイト上のインタラクティブマップの統合が可能で、ロケーションベースのサービスを有効にします。 開発者は、データのコンプライアンスと制御、コーディングガイドラインとベストプラクティスの遵守を確保しながら利用できます。</target>
       </trans-unit>
-      <trans-unit id="services.google-tag-manager.title">
+      <trans-unit id="services.google-tag-manager.title" approved="yes">
         <source>Google Tag Manager</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Google タグマネージャー</target>
+        <target state="final">Google タグマネージャー</target>
       </trans-unit>
-      <trans-unit id="services.google-tag-manager.description">
+      <trans-unit id="services.google-tag-manager.description" approved="yes">
         <source>Google Tag Manager streamlines web tracking and code management, ensuring data compliance and control for developers.</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Google Tag Managerはウェブトラッキングとコード管理を合理化し、開発者のデータコンプライアンスとコントロールを確保します。</target>
+        <target state="final">Google Tag Managerはウェブトラッキングとコード管理を合理化し、開発者のデータコンプライアンスとコントロールを確保します。</target>
       </trans-unit>
-      <trans-unit id="services.inline-tracker.title">
+      <trans-unit id="services.inline-tracker.title" approved="yes">
         <source>Inline Tracker</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">インライントラッカー</target>
+        <target state="final">インライントラッカー</target>
       </trans-unit>
-      <trans-unit id="services.inline-tracker.description">
+      <trans-unit id="services.inline-tracker.description" approved="yes">
         <source>Inline tracking script</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">インライントラッキングスクリプト</target>
+        <target state="final">インライントラッキングスクリプト</target>
       </trans-unit>
-      <trans-unit id="services.instagram.title">
+      <trans-unit id="services.instagram.title" approved="yes">
         <source>Instagram</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Instagram</target>
+        <target state="final">Instagram</target>
       </trans-unit>
-      <trans-unit id="services.instagram.description">
+      <trans-unit id="services.instagram.description" approved="yes">
         <source>Allows Instagram posts to be embedded. Personal data may be transferred to Instagram (Meta Platforms) in the process.</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Instagramの投稿を埋め込むことができます。個人データをInstagram(Meta Platforms)に転送することができます。</target>
+        <target state="final">Instagramの投稿を埋め込むことができます。個人データをInstagram(Meta Platforms)に転送することができます。</target>
       </trans-unit>
-      <trans-unit id="services.intercom.title">
+      <trans-unit id="services.intercom.title" approved="yes">
         <source>Intercom</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">インターホン(Intercom)</target>
+        <target state="final">インターホン(Intercom)</target>
       </trans-unit>
-      <trans-unit id="services.intercom.description">
+      <trans-unit id="services.intercom.description" approved="yes">
         <source>Chat widget and collecting of visitor statistics</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">チャットウィジェットと訪問者の統計情報の収集</target>
+        <target state="final">チャットウィジェットと訪問者の統計情報の収集</target>
       </trans-unit>
-      <trans-unit id="services.matomo.title">
+      <trans-unit id="services.matomo.title" approved="yes">
         <source>Matomo/Piwik</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Matomo/Piwik</target>
+        <target state="final">Matomo/Piwik</target>
       </trans-unit>
-      <trans-unit id="services.matomo.description">
+      <trans-unit id="services.matomo.description" approved="yes">
         <source>Open source software for statistical analysis of visitor accesses</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">訪問者アクセスの統計分析のためのオープンソースソフトウェア</target>
+        <target state="final">訪問者アクセスの統計分析のためのオープンソースソフトウェア</target>
       </trans-unit>
-      <trans-unit id="services.mouseflow.title">
+      <trans-unit id="services.mouseflow.title" approved="yes">
         <source>Mouseflow</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Mouseflow</target>
+        <target state="final">Mouseflow</target>
       </trans-unit>
-      <trans-unit id="services.mouseflow.description">
+      <trans-unit id="services.mouseflow.description" approved="yes">
         <source>Real-time user analytics service that helps to understand how visitors interact with our website.</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">訪問者が当社のウェブサイトとどのように相互作用するかを理解するのに役立つリアルタイムのユーザー分析サービス。</target>
+        <target state="final">訪問者が当社のウェブサイトとどのように相互作用するかを理解するのに役立つリアルタイムのユーザー分析サービス。</target>
       </trans-unit>
-      <trans-unit id="services.tiktok.title">
+      <trans-unit id="services.tiktok.title" approved="yes">
         <source>TikTok</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">TikTok</target>
+        <target state="final">TikTok</target>
       </trans-unit>
-      <trans-unit id="services.tiktok.description">
+      <trans-unit id="services.tiktok.description" approved="yes">
         <source>Allows TikTok videos to be embedded. Personal data may be transferred to TikTok and processed in third countries.</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">TikTokビデオを埋め込むことができます。個人データがTikTokに転送され、第三国で処理される可能性があります。</target>
+        <target state="final">TikTokビデオを埋め込むことができます。個人データがTikTokに転送され、第三国で処理される可能性があります。</target>
       </trans-unit>
-      <trans-unit id="services.twitter.title">
+      <trans-unit id="services.twitter.title" approved="yes">
         <source>X (formerly Twitter)</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">X (旧 Twitter)</target>
+        <target state="final">X (旧 Twitter)</target>
       </trans-unit>
-      <trans-unit id="services.twitter.description">
+      <trans-unit id="services.twitter.description" approved="yes">
         <source>X (formerly Twitter) is social media platform that allows users to share and interact with short messages and multimedia content. Developers can integrate Twitter features into websites to enhance user engagement and real-time updates while maintaining data privacy compliance and adhering to coding guidelines.</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">X(旧 Twitter)は、ユーザーが短いメッセージやマルチメディアコンテンツを共有し、対話できるソーシャルメディアプラットフォームです。 開発者は、Twitter機能をウェブサイトに統合し、データプライバシーの遵守とコーディングガイドラインの遵守を維持しながら、ユーザーエンゲージメントとリアルタイムの更新を強化することができます。</target>
+        <target state="final">X(旧 Twitter)は、ユーザーが短いメッセージやマルチメディアコンテンツを共有し、対話できるソーシャルメディアプラットフォームです。 開発者は、Twitter機能をウェブサイトに統合し、データプライバシーの遵守とコーディングガイドラインの遵守を維持しながら、ユーザーエンゲージメントとリアルタイムの更新を強化することができます。</target>
       </trans-unit>
-      <trans-unit id="services.userlike.title">
+      <trans-unit id="services.userlike.title" approved="yes">
         <source>Userlike</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Userlike</target>
+        <target state="final">Userlike</target>
       </trans-unit>
-      <trans-unit id="services.userlike.description">
+      <trans-unit id="services.userlike.description" approved="yes">
         <source>Userlike offers a live chat solution that enhances user interactions on websites.</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">ユーザー様は、ウェブサイト上のユーザーの相互作用を強化するライブチャットソリューションを提供しています。</target>
+        <target state="final">ユーザー様は、ウェブサイト上のユーザーの相互作用を強化するライブチャットソリューションを提供しています。</target>
       </trans-unit>
-      <trans-unit id="services.vimeo.title">
+      <trans-unit id="services.vimeo.title" approved="yes">
         <source>Vimeo</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Vimeo</target>
+        <target state="final">Vimeo</target>
       </trans-unit>
-      <trans-unit id="services.vimeo.description">
+      <trans-unit id="services.vimeo.description" approved="yes">
         <source>Popular video-sharing platform that offers a range of features for creators and developers to enhance video content on websites.</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">ウェブサイト上の動画コンテンツを強化するためのクリエイターや開発者向けのさまざまな機能を提供する人気の動画共有プラットフォーム。</target>
+        <target state="final">ウェブサイト上の動画コンテンツを強化するためのクリエイターや開発者向けのさまざまな機能を提供する人気の動画共有プラットフォーム。</target>
       </trans-unit>
-      <trans-unit id="services.youtube.title">
+      <trans-unit id="services.youtube.title" approved="yes">
         <source>YouTube</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">YouTube</target>
+        <target state="final">YouTube</target>
       </trans-unit>
-      <trans-unit id="services.youtube.description">
+      <trans-unit id="services.youtube.description" approved="yes">
         <source>The leading video-sharing platform for content creators and developers to enhance user experiences on websites.</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">主要な動画共有プラットフォームは、コンテンツクリエイターや開発者がウェブサイト上でユーザーエクスペリエンスを向上させるためのものです。</target>
+        <target state="final">主要な動画共有プラットフォームは、コンテンツクリエイターや開発者がウェブサイト上でユーザーエクスペリエンスを向上させるためのものです。</target>
       </trans-unit>
-      <trans-unit id="consentModal.privacyPolicy.name">
+      <trans-unit id="consentModal.privacyPolicy.name" approved="yes">
         <source>Privacy policy</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">プライバシーポリシー</target>
+        <target state="final">プライバシーポリシー</target>
       </trans-unit>
-      <trans-unit id="consentModal.privacyPolicy.text">
+      <trans-unit id="consentModal.privacyPolicy.text" approved="yes">
         <source>To learn more, please read our {privacyPolicy}.</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">詳細については、 {privacyPolicy} をご覧ください。</target>
+        <target state="final">詳細については、 {privacyPolicy} をご覧ください。</target>
       </trans-unit>
-      <trans-unit id="consentNotice.imprint.name">
+      <trans-unit id="consentNotice.imprint.name" approved="yes">
         <source>Imprint</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">インプリント</target>
+        <target state="final">インプリント</target>
       </trans-unit>
-      <trans-unit id="consentNotice.privacyPolicy.name">
+      <trans-unit id="consentNotice.privacyPolicy.name" approved="yes">
         <source>Privacy policy</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">プライバシーポリシー</target>
+        <target state="final">プライバシーポリシー</target>
       </trans-unit>
-      <trans-unit id="cookies.title">
+      <trans-unit id="cookies.title" approved="yes">
         <source>Cookies</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Cookie</target>
+        <target state="final">Cookie</target>
       </trans-unit>
-      <trans-unit id="cookies.description">
+      <trans-unit id="cookies.description" approved="yes">
         <source>Below you will find a list of all cookies used by %s</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">以下は、 %sが使用しているすべてのクッキーのリストです</target>
+        <target state="final">以下は、 %sが使用しているすべてのクッキーのリストです</target>
       </trans-unit>
-      <trans-unit id="cookies.headline.name">
+      <trans-unit id="cookies.headline.name" approved="yes">
         <source>Name / Pattern</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">名前 / パターン</target>
+        <target state="final">名前 / パターン</target>
       </trans-unit>
-      <trans-unit id="cookies.headline.path">
+      <trans-unit id="cookies.headline.path" approved="yes">
         <source>Path</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">パス</target>
+        <target state="final">パス</target>
       </trans-unit>
-      <trans-unit id="cookies.headline.domain">
+      <trans-unit id="cookies.headline.domain" approved="yes">
         <source>Domain</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">ドメイン</target>
+        <target state="final">ドメイン</target>
       </trans-unit>
-      <trans-unit id="cookies.headline.expiresAfter">
+      <trans-unit id="cookies.headline.expiresAfter" approved="yes">
         <source>Expires after</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">有効期限：</target>
+        <target state="final">有効期限：</target>
       </trans-unit>
-      <trans-unit id="year">
+      <trans-unit id="year" approved="yes">
         <source>Year</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">年</target>
+        <target state="final">年</target>
       </trans-unit>
-      <trans-unit id="years">
+      <trans-unit id="years" approved="yes">
         <source>Years</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">年</target>
+        <target state="final">年</target>
       </trans-unit>
-      <trans-unit id="month">
+      <trans-unit id="month" approved="yes">
         <source>Month</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">月</target>
+        <target state="final">月</target>
       </trans-unit>
-      <trans-unit id="months">
+      <trans-unit id="months" approved="yes">
         <source>Months</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">ヶ月</target>
+        <target state="final">ヶ月</target>
       </trans-unit>
-      <trans-unit id="day">
+      <trans-unit id="day" approved="yes">
         <source>Day</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">日</target>
+        <target state="final">日</target>
       </trans-unit>
-      <trans-unit id="days">
+      <trans-unit id="days" approved="yes">
         <source>Days</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">日数</target>
+        <target state="final">日数</target>
       </trans-unit>
-      <trans-unit id="hour">
+      <trans-unit id="hour" approved="yes">
         <source>Hour</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">時間</target>
+        <target state="final">時間</target>
       </trans-unit>
-      <trans-unit id="hours">
+      <trans-unit id="hours" approved="yes">
         <source>Hours</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">時間</target>
+        <target state="final">時間</target>
       </trans-unit>
-      <trans-unit id="minute">
+      <trans-unit id="minute" approved="yes">
         <source>Minute</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">分</target>
+        <target state="final">分</target>
       </trans-unit>
-      <trans-unit id="minutes">
+      <trans-unit id="minutes" approved="yes">
         <source>Minutes</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">分</target>
+        <target state="final">分</target>
       </trans-unit>
-      <trans-unit id="second">
+      <trans-unit id="second" approved="yes">
         <source>Second</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">秒</target>
+        <target state="final">秒</target>
       </trans-unit>
-      <trans-unit id="seconds">
+      <trans-unit id="seconds" approved="yes">
         <source>Seconds</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">秒</target>
+        <target state="final">秒</target>
       </trans-unit>
-      <trans-unit id="end-of-session">
+      <trans-unit id="end-of-session" approved="yes">
         <source>End of session</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">セッションの終了</target>
+        <target state="final">セッションの終了</target>
       </trans-unit>
-      <trans-unit id="persistent">
+      <trans-unit id="persistent" approved="yes">
         <source>persistent</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">persistent</target>
+        <target state="final">persistent</target>
       </trans-unit>
-      <trans-unit id="warning.noServices">
+      <trans-unit id="warning.noServices" approved="yes">
         <source>Why don't I see a Klaro! Modal? → You must assign at least 1 service to the Klaro! configuration! Without services, we don't need consent management at all.</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Modal! → Klaroに少なくとも1つのサービスを割り当てる必要があります! 設定!サービスがなければ、同意管理は一切必要ありません。</target>
+        <target state="final">Modal! → Klaroに少なくとも1つのサービスを割り当てる必要があります! 設定!サービスがなければ、同意管理は一切必要ありません。</target>
       </trans-unit>
-      <trans-unit id="warning.noServicesPersonalized">
+      <trans-unit id="warning.noServicesPersonalized" approved="yes">
         <source>Hey %s! You missed a service in the config! Without services, we don't need consent management at all.</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">こんにちは、 %sさん！設定でサービスを見逃しています！サービスがなければ、同意管理は一切必要ありません。</target>
+        <target state="final">こんにちは、 %sさん！設定でサービスを見逃しています！サービスがなければ、同意管理は一切必要ありません。</target>
       </trans-unit>
     </body>
   </file>
