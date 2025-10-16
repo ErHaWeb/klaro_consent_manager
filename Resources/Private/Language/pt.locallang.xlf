@@ -2,17 +2,17 @@
 <xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
   <file source-language="en" original="EXT:klaro_consent_manager/Resources/Private/Language/locallang.xlf" datatype="plaintext" product-name="klaro_consent_manager" date="2025-10-13T15:15:27+02:00" target-language="pt-PT">
     <body>
-      <trans-unit id="acceptAll">
+      <trans-unit id="acceptAll" approved="yes">
         <source>Accept all</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Aceitar todos</target>
+        <target state="final">Aceitar todos</target>
       </trans-unit>
-      <trans-unit id="acceptSelected">
+      <trans-unit id="acceptSelected" approved="yes">
         <source>Accept selected</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Aceitar selecionados</target>
+        <target state="final">Aceitar selecionados</target>
       </trans-unit>
-      <trans-unit id="close">
+      <trans-unit id="close" approved="yes">
         <source>Close</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">FECHAR</target>
+        <target state="final">FECHAR</target>
       </trans-unit>
       <trans-unit id="consentModal.description" approved="yes">
         <source>Here you can assess and customize the services that we'd like to use on this website. You're in charge! Enable or disable services as you see fit.</source>
@@ -38,9 +38,9 @@
         <source>Testing mode!</source>
         <target state="final">Modo de teste!</target>
       </trans-unit>
-      <trans-unit id="consentNotice.title">
+      <trans-unit id="consentNotice.title" approved="yes">
         <source>Cookie Consent</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Concessão de Cookies</target>
+        <target state="final">Concessão de Cookies</target>
       </trans-unit>
       <trans-unit id="contextualConsent.acceptAlways" approved="yes">
         <source>Always</source>
@@ -54,13 +54,13 @@
         <source>Do you want to load external content supplied by {title}?</source>
         <target state="final">Você deseja carregar conteúdo externo fornecido por {title}?</target>
       </trans-unit>
-      <trans-unit id="contextualConsent.descriptionEmptyStore">
+      <trans-unit id="contextualConsent.descriptionEmptyStore" approved="yes">
         <source>To agree to this service permanently, you must accept {title} in the {link}.</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Para concordar com este serviço permanentemente, você deve aceitar {title} no {link}.</target>
+        <target state="final">Para concordar com este serviço permanentemente, você deve aceitar {title} no {link}.</target>
       </trans-unit>
-      <trans-unit id="contextualConsent.modalLinkText">
+      <trans-unit id="contextualConsent.modalLinkText" approved="yes">
         <source>Consent Manager</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Consentimento gerente</target>
+        <target state="final">Consentimento gerente</target>
       </trans-unit>
       <trans-unit id="decline" approved="yes">
         <source>I decline</source>
@@ -82,13 +82,13 @@
         <source>To learn more, please read our {privacyPolicy}.</source>
         <target state="final">Para saber mais, por favor, leia nossa {privacyPolicy}.</target>
       </trans-unit>
-      <trans-unit id="purposeItem.service">
+      <trans-unit id="purposeItem.service" approved="yes">
         <source>service</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">serviço</target>
+        <target state="final">serviço</target>
       </trans-unit>
-      <trans-unit id="purposeItem.services">
+      <trans-unit id="purposeItem.services" approved="yes">
         <source>services</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">serviços</target>
+        <target state="final">serviços</target>
       </trans-unit>
       <trans-unit id="purposes.advertising.description" approved="yes">
         <source>These services process personal information to show you personalized or interest-based advertisements.</source>
@@ -98,11 +98,9 @@
         <source>Advertising</source>
         <target state="final">Publicidade</target>
       </trans-unit>
-      <trans-unit id="purposes.functional.description">
-        <source>These services are essential for the correct functioning of this website. You cannot disable them here as the service would not work correctly otherwise.
-</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Estes serviços são essenciais para o funcionamento correto deste site. Você não pode desativá-los aqui, pois o serviço não funcionaria corretamente caso contrário.
-</target>
+      <trans-unit id="purposes.functional.description" approved="yes">
+        <source>These services are essential for the correct functioning of this website. You cannot disable them here as the service would not work correctly otherwise.</source>
+        <target state="final">Estes serviços são essenciais para o bom funcionamento deste site. Você não pode desativá-los aqui, uma vez que o serviço não funcionaria correctamente.</target>
       </trans-unit>
       <trans-unit id="purposes.functional.title" approved="yes">
         <source>Service Provision</source>
@@ -112,23 +110,21 @@
         <source>These services process personal information to show you relevant content about products, services or topics that you might be interested in.</source>
         <target state="final">Esses serviços processam informações pessoais para mostrar a você conteúdo relevante sobre produtos, serviços ou tópicos que possam ser do seu interesse.</target>
       </trans-unit>
-      <trans-unit id="purposes.marketing.title">
+      <trans-unit id="purposes.marketing.title" approved="yes">
         <source>Marketing</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Marketing</target>
+        <target state="final">Marketing</target>
       </trans-unit>
-      <trans-unit id="purposes.performance.description">
-        <source>These services process personal information to optimize the service that this website offers.
-</source>
-        <target state="needs-translation">These services process personal information to optimize the service that this website offers.
-</target>
+      <trans-unit id="purposes.performance.description" approved="yes">
+        <source>These services process personal information to optimize the service that this website offers.</source>
+        <target state="final">Estes serviços processam informações pessoais para otimizar o serviço que este site oferece.</target>
       </trans-unit>
       <trans-unit id="purposes.performance.title" approved="yes">
         <source>Performance Optimization</source>
         <target state="final">Otimização do desempenho</target>
       </trans-unit>
-      <trans-unit id="save">
+      <trans-unit id="save" approved="yes">
         <source>Save</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Guardar</target>
+        <target state="final">Guardar</target>
       </trans-unit>
       <trans-unit id="service.disableAll.description" approved="yes">
         <source>Use this switch to enable or disable all services.</source>
@@ -142,17 +138,17 @@
         <source>This services is loaded by default (but you can opt out)</source>
         <target state="final">Estes serviços são carregados por padrão (mas o você pode optar por não participar).</target>
       </trans-unit>
-      <trans-unit id="service.optOut.title">
+      <trans-unit id="service.optOut.title" approved="yes">
         <source>(opt-out)</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">(opt-out)</target>
+        <target state="final">(opt-out)</target>
       </trans-unit>
-      <trans-unit id="service.purpose">
+      <trans-unit id="service.purpose" approved="yes">
         <source>purpose</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">propósito</target>
+        <target state="final">propósito</target>
       </trans-unit>
-      <trans-unit id="service.purposes">
+      <trans-unit id="service.purposes" approved="yes">
         <source>purposes</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">propósitos</target>
+        <target state="final">propósitos</target>
       </trans-unit>
       <trans-unit id="service.required.description" approved="yes">
         <source>This services is always required</source>
@@ -162,245 +158,245 @@
         <source>(always required)</source>
         <target state="final">(sempre necessário)</target>
       </trans-unit>
-      <trans-unit id="purposes.analytics.title">
+      <trans-unit id="purposes.analytics.title" approved="yes">
         <source>Analytics</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Análises</target>
+        <target state="final">Análises</target>
       </trans-unit>
-      <trans-unit id="purposes.analytics.description">
+      <trans-unit id="purposes.analytics.description" approved="yes">
         <source>These services gather anonymous data for statistical analysis and performance optimization. Enabling analytics services assists website owners in making informed decisions to enhance online services.</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Esses serviços recolhem dados anônimos para análise estatística e otimização de desempenho. Permitir serviços de análise auxilia os proprietários do site na tomada de decisões informadas para melhorar os serviços online.</target>
+        <target state="final">Esses serviços recolhem dados anônimos para análise estatística e otimização de desempenho. Permitir serviços de análise auxilia os proprietários do site na tomada de decisões informadas para melhorar os serviços online.</target>
       </trans-unit>
-      <trans-unit id="purposes.security.title">
+      <trans-unit id="purposes.security.title" approved="yes">
         <source>Security</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Segurança</target>
+        <target state="final">Segurança</target>
       </trans-unit>
-      <trans-unit id="purposes.security.description">
+      <trans-unit id="purposes.security.description" approved="yes">
         <source>Security services are crucial for safeguarding your online experience. These services help protect your data and privacy by detecting and preventing security threats, such as malware, phishing attempts, and unauthorized access. They ensure a safer browsing environment.</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Os serviços de segurança são cruciais para salvaguardar sua experiência on-line. Esses serviços ajudam a proteger seus dados e privacidade, detectando e impedindo ameaças de segurança, como malwares, tentativas de phishing e acesso não autorizado. Eles garantem uma navegação mais segura.</target>
+        <target state="final">Os serviços de segurança são cruciais para salvaguardar sua experiência on-line. Esses serviços ajudam a proteger seus dados e privacidade, detectando e impedindo ameaças de segurança, como malwares, tentativas de phishing e acesso não autorizado. Eles garantem uma navegação mais segura.</target>
       </trans-unit>
-      <trans-unit id="purposes.livechat.title">
+      <trans-unit id="purposes.livechat.title" approved="yes">
         <source>Live Chat</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Bate-papo ao vivo</target>
+        <target state="final">Bate-papo ao vivo</target>
       </trans-unit>
-      <trans-unit id="purposes.livechat.description">
+      <trans-unit id="purposes.livechat.description" approved="yes">
         <source>Live chat services enable real-time communication with website support teams. They offer a convenient way to ask questions, seek assistance, or engage in discussions while browsing a website. Live chat enhances your online interaction and customer support experience.</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Serviços de bate-papo ao vivo permitem comunicação em tempo real com equipes de suporte do site. Eles oferecem uma maneira conveniente de fazer perguntas, procurar assistência ou participar de discussões durante a navegação em um site. O chat ao vivo aumenta sua interação online e sua experiência de suporte ao cliente.</target>
+        <target state="final">Serviços de bate-papo ao vivo permitem comunicação em tempo real com equipes de suporte do site. Eles oferecem uma maneira conveniente de fazer perguntas, procurar assistência ou participar de discussões durante a navegação em um site. O chat ao vivo aumenta sua interação online e sua experiência de suporte ao cliente.</target>
       </trans-unit>
-      <trans-unit id="purposes.styling.title">
+      <trans-unit id="purposes.styling.title" approved="yes">
         <source>Styling</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Estilo</target>
+        <target state="final">Estilo</target>
       </trans-unit>
-      <trans-unit id="purposes.styling.description">
+      <trans-unit id="purposes.styling.description" approved="yes">
         <source>Services related to styling help to improve the appearance of the website. This can also have an impact on usability.</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Serviços relacionados ao estilo ajudam a melhorar a aparência do site. Isso também pode ter um impacto na usabilidade.</target>
+        <target state="final">Serviços relacionados ao estilo ajudam a melhorar a aparência do site. Isso também pode ter um impacto na usabilidade.</target>
       </trans-unit>
-      <trans-unit id="purposes.videos.title">
+      <trans-unit id="purposes.videos.title" approved="yes">
         <source>Videos</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">vídeos</target>
+        <target state="final">vídeos</target>
       </trans-unit>
-      <trans-unit id="purposes.videos.description">
+      <trans-unit id="purposes.videos.description" approved="yes">
         <source>Embedding videos from external platforms to enrich the content on this website.</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Incorporando vídeos de plataformas externas para enriquecer o conteúdo neste site.</target>
+        <target state="final">Incorporando vídeos de plataformas externas para enriquecer o conteúdo neste site.</target>
       </trans-unit>
-      <trans-unit id="purposes.social.title">
+      <trans-unit id="purposes.social.title" approved="yes">
         <source>Social Media</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Mídias Sociais</target>
+        <target state="final">Mídias Sociais</target>
       </trans-unit>
-      <trans-unit id="purposes.social.description">
+      <trans-unit id="purposes.social.description" approved="yes">
         <source>Embedding social media from external platforms to enrich the content on this website.</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Incorporando mídias sociais a partir de plataformas externas para enriquecer o conteúdo neste site.</target>
+        <target state="final">Incorporando mídias sociais a partir de plataformas externas para enriquecer o conteúdo neste site.</target>
       </trans-unit>
-      <trans-unit id="purposes.misc.title">
+      <trans-unit id="purposes.misc.title" approved="yes">
         <source>Miscellaneous</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Diversos</target>
+        <target state="final">Diversos</target>
       </trans-unit>
-      <trans-unit id="purposes.misc.description">
+      <trans-unit id="purposes.misc.description" approved="yes">
         <source>This includes services that do not fall under the other purposes.</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Isto inclui serviços que não se inserem para outros fins.</target>
+        <target state="final">Isto inclui serviços que não se inserem para outros fins.</target>
       </trans-unit>
-      <trans-unit id="consentManager.show">
+      <trans-unit id="consentManager.show" approved="yes">
         <source>Show Consent Manager</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Mostrar Gerenciador de Consentimento</target>
+        <target state="final">Mostrar Gerenciador de Consentimento</target>
       </trans-unit>
-      <trans-unit id="consentManager.reset">
+      <trans-unit id="consentManager.reset" approved="yes">
         <source>Reset Consent Manager</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Redefinir Gerenciador de Consentimento</target>
+        <target state="final">Redefinir Gerenciador de Consentimento</target>
       </trans-unit>
-      <trans-unit id="services.adsense.title">
+      <trans-unit id="services.adsense.title" approved="yes">
         <source>Google AdSense</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Google AdSense</target>
+        <target state="final">Google AdSense</target>
       </trans-unit>
-      <trans-unit id="services.adsense.description">
+      <trans-unit id="services.adsense.description" approved="yes">
         <source>Google AdSense enables personalized ads on websites while respecting user privacy. By consenting, you allow relevant ads and help support free content.</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">O Google AdSense permite anúncios personalizados em sites respeitando a privacidade do usuário. Ao consentir, você permite anúncios relevantes e ajuda a apoiar conteúdo gratuito.</target>
+        <target state="final">O Google AdSense permite anúncios personalizados em sites respeitando a privacidade do usuário. Ao consentir, você permite anúncios relevantes e ajuda a apoiar conteúdo gratuito.</target>
       </trans-unit>
-      <trans-unit id="services.camera.title">
+      <trans-unit id="services.camera.title" approved="yes">
         <source>Surveillance Camera</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Câmera de Vigilância</target>
+        <target state="final">Câmera de Vigilância</target>
       </trans-unit>
-      <trans-unit id="services.camera.description">
+      <trans-unit id="services.camera.description" approved="yes">
         <source>Consent to the use of surveillance camera images for security and safety purposes, in compliance with applicable data privacy regulations.</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Consentimento ao uso de imagens de câmeras de vigilância para fins de segurança e segurança, em conformidade com os regulamentos aplicáveis de privacidade de dados.</target>
+        <target state="final">Consentimento ao uso de imagens de câmeras de vigilância para fins de segurança e segurança, em conformidade com os regulamentos aplicáveis de privacidade de dados.</target>
       </trans-unit>
-      <trans-unit id="services.clarity.title">
+      <trans-unit id="services.clarity.title" approved="yes">
         <source>Microsoft Clarity</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Microsoft Clarity</target>
+        <target state="final">Microsoft Clarity</target>
       </trans-unit>
-      <trans-unit id="services.clarity.description">
+      <trans-unit id="services.clarity.description" approved="yes">
         <source>Microsoft Clarity is a user-friendly web analytics tool that empowers website visitors like you by providing transparency about how your interactions are tracked on a website. It ensures your privacy is respected while giving developers and website owners valuable insights into user behavior. Plus, it follows coding guidelines and best practices, ensuring a safe and secure online experience for you.</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Microsoft Clarity é uma ferramenta de análise web amigável ao usuário que dá aos visitantes do site, como você, fornecendo transparência sobre como suas interações são rastreadas em um site. Assegura que sua privacidade é respeitada enquanto dá aos desenvolvedores e proprietários do site informações valiosas sobre o comportamento do usuário. Além disso, segue diretrizes de programação e melhores práticas, garantindo uma experiência on-line segura para você.</target>
+        <target state="final">Microsoft Clarity é uma ferramenta de análise web amigável ao usuário que dá aos visitantes do site, como você, fornecendo transparência sobre como suas interações são rastreadas em um site. Assegura que sua privacidade é respeitada enquanto dá aos desenvolvedores e proprietários do site informações valiosas sobre o comportamento do usuário. Além disso, segue diretrizes de programação e melhores práticas, garantindo uma experiência on-line segura para você.</target>
       </trans-unit>
-      <trans-unit id="services.cloudflare.title">
+      <trans-unit id="services.cloudflare.title" approved="yes">
         <source>Cloudflare</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">NuvemFlare</target>
+        <target state="final">NuvemFlare</target>
       </trans-unit>
-      <trans-unit id="services.cloudflare.description">
+      <trans-unit id="services.cloudflare.description" approved="yes">
         <source>Cloudflare helps protect and optimize websites. By using this website, you consent to Cloudflare's data processing practices as described in its Privacy Policy.</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Cloudflare ajuda a proteger e otimizar sites. Ao usar este site, você concorda com as práticas de processamento de dados do Cloudflare, conforme descrito na sua Política de Privacidade.</target>
+        <target state="final">Cloudflare ajuda a proteger e otimizar sites. Ao usar este site, você concorda com as práticas de processamento de dados do Cloudflare, conforme descrito na sua Política de Privacidade.</target>
       </trans-unit>
-      <trans-unit id="services.external-tracker.title">
+      <trans-unit id="services.external-tracker.title" approved="yes">
         <source>External Tracker</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Rastreador externo</target>
+        <target state="final">Rastreador externo</target>
       </trans-unit>
-      <trans-unit id="services.external-tracker.description">
+      <trans-unit id="services.external-tracker.description" approved="yes">
         <source>External tracking script</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Script de rastreamento externo</target>
+        <target state="final">Script de rastreamento externo</target>
       </trans-unit>
-      <trans-unit id="services.facebook-pixel.title">
+      <trans-unit id="services.facebook-pixel.title" approved="yes">
         <source>Facebook Pixel</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Pixel do Facebook</target>
+        <target state="final">Pixel do Facebook</target>
       </trans-unit>
-      <trans-unit id="services.facebook-pixel.description">
+      <trans-unit id="services.facebook-pixel.description" approved="yes">
         <source>Simplifies web tracking for analytics and marketing while ensuring data compliance and control.</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Simplifica o rastreamento da web para análise e marketing ao mesmo tempo que garante conformidade e controle de dados.</target>
+        <target state="final">Simplifica o rastreamento da web para análise e marketing ao mesmo tempo que garante conformidade e controle de dados.</target>
       </trans-unit>
-      <trans-unit id="services.fast-fonts.title">
+      <trans-unit id="services.fast-fonts.title" approved="yes">
         <source>Fast Fonts</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Fast Fonts</target>
+        <target state="final">Fast Fonts</target>
       </trans-unit>
-      <trans-unit id="services.fast-fonts.description">
+      <trans-unit id="services.fast-fonts.description" approved="yes">
         <source>Fast Fonts, operated by fonts.com and supplied by fast.fonts.net, is a service for the provision of web fonts. It requires the use of a pixel-code for continuous price calculation.</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Fontes Rápidas, operadas por fonts.com e fornecidas por fast.fonts.net, é um serviço para a provisão de fontes da web. Exige o uso de um código de pixel para o cálculo de preço contínuo.</target>
+        <target state="final">Fontes Rápidas, operadas por fonts.com e fornecidas por fast.fonts.net, é um serviço para a provisão de fontes da web. Exige o uso de um código de pixel para o cálculo de preço contínuo.</target>
       </trans-unit>
-      <trans-unit id="services.google-ads.title">
+      <trans-unit id="services.google-ads.title" approved="yes">
         <source>Google Ads</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Anúncios do Google</target>
+        <target state="final">Anúncios do Google</target>
       </trans-unit>
-      <trans-unit id="services.google-ads.description">
+      <trans-unit id="services.google-ads.description" approved="yes">
         <source>Google Ads allows advertisers to reach their target audience online. To personalize ads and measure their effectiveness, Google may collect data with your consent.</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">O Google Ads permite que os anunciantes atinjam seu público-alvo online. Para personalizar anúncios e medir sua eficácia, o Google pode coletar dados com seu consentimento.</target>
+        <target state="final">O Google Ads permite que os anunciantes atinjam seu público-alvo online. Para personalizar anúncios e medir sua eficácia, o Google pode coletar dados com seu consentimento.</target>
       </trans-unit>
-      <trans-unit id="services.google-analytics.title">
+      <trans-unit id="services.google-analytics.title" approved="yes">
         <source>Google Analytics</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Google Analytics</target>
+        <target state="final">Google Analytics</target>
       </trans-unit>
-      <trans-unit id="services.google-analytics.description">
+      <trans-unit id="services.google-analytics.description" approved="yes">
         <source>Web analytics service provided by Google, Inc. ("Google")</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Serviço de análise da Web fornecido pela Google, Inc. ("Google")</target>
+        <target state="final">Serviço de análise da Web fornecido pela Google, Inc. ("Google")</target>
       </trans-unit>
-      <trans-unit id="services.google-fonts.title">
+      <trans-unit id="services.google-fonts.title" approved="yes">
         <source>Google Fonts</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Fontes Google</target>
+        <target state="final">Fontes Google</target>
       </trans-unit>
-      <trans-unit id="services.google-fonts.description">
+      <trans-unit id="services.google-fonts.description" approved="yes">
         <source>Web fonts hosted by Google</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Fontes da Web hospedadas pelo Google</target>
+        <target state="final">Fontes da Web hospedadas pelo Google</target>
       </trans-unit>
-      <trans-unit id="services.google-maps.title">
+      <trans-unit id="services.google-maps.title" approved="yes">
         <source>Google Maps</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Google Maps</target>
+        <target state="final">Google Maps</target>
       </trans-unit>
-      <trans-unit id="services.google-maps.description">
+      <trans-unit id="services.google-maps.description" approved="yes">
         <source>Google Maps allows for the integration of interactive maps on websites, enabling location-based services. Developers can utilize it while ensuring data compliance and control, adhering to coding guidelines and best practices.</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">O Google Maps permite a integração de mapas interativos em sites, permitindo serviços baseados na localização. Os desenvolvedores podem utilizá-lo garantindo simultaneamente a conformidade e o controle dos dados, aderindo às diretrizes de codificação e às melhores práticas.</target>
+        <target state="final">O Google Maps permite a integração de mapas interativos em sites, permitindo serviços baseados na localização. Os desenvolvedores podem utilizá-lo garantindo simultaneamente a conformidade e o controle dos dados, aderindo às diretrizes de codificação e às melhores práticas.</target>
       </trans-unit>
-      <trans-unit id="services.google-tag-manager.title">
+      <trans-unit id="services.google-tag-manager.title" approved="yes">
         <source>Google Tag Manager</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Gerenciador de tags do Google</target>
+        <target state="final">Gerenciador de tags do Google</target>
       </trans-unit>
-      <trans-unit id="services.google-tag-manager.description">
+      <trans-unit id="services.google-tag-manager.description" approved="yes">
         <source>Google Tag Manager streamlines web tracking and code management, ensuring data compliance and control for developers.</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">O Google Tag Manager simplifica o rastreamento da Web e o gerenciamento de código, garantindo conformidade e controle de dados para desenvolvedores.</target>
+        <target state="final">O Google Tag Manager simplifica o rastreamento da Web e o gerenciamento de código, garantindo conformidade e controle de dados para desenvolvedores.</target>
       </trans-unit>
-      <trans-unit id="services.inline-tracker.title">
+      <trans-unit id="services.inline-tracker.title" approved="yes">
         <source>Inline Tracker</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Rastreador Embutido</target>
+        <target state="final">Rastreador Embutido</target>
       </trans-unit>
-      <trans-unit id="services.inline-tracker.description">
+      <trans-unit id="services.inline-tracker.description" approved="yes">
         <source>Inline tracking script</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Script de rastreamento embutido</target>
+        <target state="final">Script de rastreamento embutido</target>
       </trans-unit>
-      <trans-unit id="services.instagram.title">
+      <trans-unit id="services.instagram.title" approved="yes">
         <source>Instagram</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Instagram</target>
+        <target state="final">Instagram</target>
       </trans-unit>
-      <trans-unit id="services.instagram.description">
+      <trans-unit id="services.instagram.description" approved="yes">
         <source>Allows Instagram posts to be embedded. Personal data may be transferred to Instagram (Meta Platforms) in the process.</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Permite que mensagens do Instagram sejam incorporadas. Dados pessoais podem ser transferidos para as plataformas do Instagram (Meta) durante o processo.</target>
+        <target state="final">Permite que mensagens do Instagram sejam incorporadas. Dados pessoais podem ser transferidos para as plataformas do Instagram (Meta) durante o processo.</target>
       </trans-unit>
-      <trans-unit id="services.intercom.title">
+      <trans-unit id="services.intercom.title" approved="yes">
         <source>Intercom</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Intercom</target>
+        <target state="final">Intercom</target>
       </trans-unit>
-      <trans-unit id="services.intercom.description">
+      <trans-unit id="services.intercom.description" approved="yes">
         <source>Chat widget and collecting of visitor statistics</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Widget de bate-papo e coleta de estatísticas de visitantes</target>
+        <target state="final">Widget de bate-papo e coleta de estatísticas de visitantes</target>
       </trans-unit>
-      <trans-unit id="services.matomo.title">
+      <trans-unit id="services.matomo.title" approved="yes">
         <source>Matomo/Piwik</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Matomo/Piwik</target>
+        <target state="final">Matomo/Piwik</target>
       </trans-unit>
-      <trans-unit id="services.matomo.description">
+      <trans-unit id="services.matomo.description" approved="yes">
         <source>Open source software for statistical analysis of visitor accesses</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Software de código aberto para análise estatística de acessos de visitantes</target>
+        <target state="final">Software de código aberto para análise estatística de acessos de visitantes</target>
       </trans-unit>
-      <trans-unit id="services.mouseflow.title">
+      <trans-unit id="services.mouseflow.title" approved="yes">
         <source>Mouseflow</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Fluxo</target>
+        <target state="final">Fluxo</target>
       </trans-unit>
-      <trans-unit id="services.mouseflow.description">
+      <trans-unit id="services.mouseflow.description" approved="yes">
         <source>Real-time user analytics service that helps to understand how visitors interact with our website.</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Serviço de análise de tempo real do usuário que ajuda a entender como os visitantes interagem com nosso site.</target>
+        <target state="final">Serviço de análise de tempo real do usuário que ajuda a entender como os visitantes interagem com nosso site.</target>
       </trans-unit>
-      <trans-unit id="services.tiktok.title">
+      <trans-unit id="services.tiktok.title" approved="yes">
         <source>TikTok</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">TikTok</target>
+        <target state="final">TikTok</target>
       </trans-unit>
-      <trans-unit id="services.tiktok.description">
+      <trans-unit id="services.tiktok.description" approved="yes">
         <source>Allows TikTok videos to be embedded. Personal data may be transferred to TikTok and processed in third countries.</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Permite que vídeos do TikTok sejam incorporados. Dados pessoais podem ser transferidos para TikTok e processados em países terceiros.</target>
+        <target state="final">Permite que vídeos do TikTok sejam incorporados. Dados pessoais podem ser transferidos para TikTok e processados em países terceiros.</target>
       </trans-unit>
-      <trans-unit id="services.twitter.title">
+      <trans-unit id="services.twitter.title" approved="yes">
         <source>X (formerly Twitter)</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">X (antigo Twitter)</target>
+        <target state="final">X (antigo Twitter)</target>
       </trans-unit>
-      <trans-unit id="services.twitter.description">
+      <trans-unit id="services.twitter.description" approved="yes">
         <source>X (formerly Twitter) is social media platform that allows users to share and interact with short messages and multimedia content. Developers can integrate Twitter features into websites to enhance user engagement and real-time updates while maintaining data privacy compliance and adhering to coding guidelines.</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">X (anteriormente Twitter) é uma plataforma de mídia social que permite aos usuários compartilhar e interagir com mensagens curtas e conteúdo multimídia. Desenvolvedores podem integrar recursos do Twitter em sites para melhorar o envolvimento do usuário e atualizações em tempo real, mantendo a conformidade de privacidade de dados e admissão às diretrizes de codificação.</target>
+        <target state="final">X (anteriormente Twitter) é uma plataforma de mídia social que permite aos usuários compartilhar e interagir com mensagens curtas e conteúdo multimídia. Desenvolvedores podem integrar recursos do Twitter em sites para melhorar o envolvimento do usuário e atualizações em tempo real, mantendo a conformidade de privacidade de dados e admissão às diretrizes de codificação.</target>
       </trans-unit>
-      <trans-unit id="services.userlike.title">
+      <trans-unit id="services.userlike.title" approved="yes">
         <source>Userlike</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Usuário</target>
+        <target state="final">Usuário</target>
       </trans-unit>
-      <trans-unit id="services.userlike.description">
+      <trans-unit id="services.userlike.description" approved="yes">
         <source>Userlike offers a live chat solution that enhances user interactions on websites.</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Usuários, como oferece uma solução de chat ao vivo que melhora as interações dos usuários nos sites.</target>
+        <target state="final">Usuários, como oferece uma solução de chat ao vivo que melhora as interações dos usuários nos sites.</target>
       </trans-unit>
-      <trans-unit id="services.vimeo.title">
+      <trans-unit id="services.vimeo.title" approved="yes">
         <source>Vimeo</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Vimeo</target>
+        <target state="final">Vimeo</target>
       </trans-unit>
-      <trans-unit id="services.vimeo.description">
+      <trans-unit id="services.vimeo.description" approved="yes">
         <source>Popular video-sharing platform that offers a range of features for creators and developers to enhance video content on websites.</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Plataforma popular de compartilhamento de vídeos que oferece uma variedade de recursos para criadores e desenvolvedores para melhorar o conteúdo de vídeo em sites.</target>
+        <target state="final">Plataforma popular de compartilhamento de vídeos que oferece uma variedade de recursos para criadores e desenvolvedores para melhorar o conteúdo de vídeo em sites.</target>
       </trans-unit>
-      <trans-unit id="services.youtube.title">
+      <trans-unit id="services.youtube.title" approved="yes">
         <source>YouTube</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Youtube</target>
+        <target state="final">Youtube</target>
       </trans-unit>
-      <trans-unit id="services.youtube.description">
+      <trans-unit id="services.youtube.description" approved="yes">
         <source>The leading video-sharing platform for content creators and developers to enhance user experiences on websites.</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">A principal plataforma de compartilhamento de vídeos para criadores de conteúdo e desenvolvedores para aprimorar experiências do usuário em sites.</target>
+        <target state="final">A principal plataforma de compartilhamento de vídeos para criadores de conteúdo e desenvolvedores para aprimorar experiências do usuário em sites.</target>
       </trans-unit>
       <trans-unit id="consentModal.privacyPolicy.name" approved="yes">
         <source>Privacy policy</source>
@@ -418,93 +414,93 @@
         <source>Privacy policy</source>
         <target state="final">política de privacidade</target>
       </trans-unit>
-      <trans-unit id="cookies.title">
+      <trans-unit id="cookies.title" approved="yes">
         <source>Cookies</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Biscoitos</target>
+        <target state="final">Biscoitos</target>
       </trans-unit>
-      <trans-unit id="cookies.description">
+      <trans-unit id="cookies.description" approved="yes">
         <source>Below you will find a list of all cookies used by %s</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Abaixo você encontrará uma lista de todos os cookies usados por %s</target>
+        <target state="final">Abaixo você encontrará uma lista de todos os cookies usados por %s</target>
       </trans-unit>
-      <trans-unit id="cookies.headline.name">
+      <trans-unit id="cookies.headline.name" approved="yes">
         <source>Name / Pattern</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Nome / Padrão</target>
+        <target state="final">Nome / Padrão</target>
       </trans-unit>
-      <trans-unit id="cookies.headline.path">
+      <trans-unit id="cookies.headline.path" approved="yes">
         <source>Path</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Caminho</target>
+        <target state="final">Caminho</target>
       </trans-unit>
-      <trans-unit id="cookies.headline.domain">
+      <trans-unit id="cookies.headline.domain" approved="yes">
         <source>Domain</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Domínio</target>
+        <target state="final">Domínio</target>
       </trans-unit>
-      <trans-unit id="cookies.headline.expiresAfter">
+      <trans-unit id="cookies.headline.expiresAfter" approved="yes">
         <source>Expires after</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Expira em</target>
+        <target state="final">Expira em</target>
       </trans-unit>
-      <trans-unit id="year">
+      <trans-unit id="year" approved="yes">
         <source>Year</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">ano</target>
+        <target state="final">ano</target>
       </trans-unit>
-      <trans-unit id="years">
+      <trans-unit id="years" approved="yes">
         <source>Years</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">anos</target>
+        <target state="final">anos</target>
       </trans-unit>
-      <trans-unit id="month">
+      <trans-unit id="month" approved="yes">
         <source>Month</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Mês</target>
+        <target state="final">Mês</target>
       </trans-unit>
-      <trans-unit id="months">
+      <trans-unit id="months" approved="yes">
         <source>Months</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Meses</target>
+        <target state="final">Meses</target>
       </trans-unit>
-      <trans-unit id="day">
+      <trans-unit id="day" approved="yes">
         <source>Day</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">dia</target>
+        <target state="final">dia</target>
       </trans-unit>
-      <trans-unit id="days">
+      <trans-unit id="days" approved="yes">
         <source>Days</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">dias</target>
+        <target state="final">dias</target>
       </trans-unit>
-      <trans-unit id="hour">
+      <trans-unit id="hour" approved="yes">
         <source>Hour</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">hora</target>
+        <target state="final">hora</target>
       </trans-unit>
-      <trans-unit id="hours">
+      <trans-unit id="hours" approved="yes">
         <source>Hours</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">horas</target>
+        <target state="final">horas</target>
       </trans-unit>
-      <trans-unit id="minute">
+      <trans-unit id="minute" approved="yes">
         <source>Minute</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">minuto</target>
+        <target state="final">minuto</target>
       </trans-unit>
-      <trans-unit id="minutes">
+      <trans-unit id="minutes" approved="yes">
         <source>Minutes</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">minutos</target>
+        <target state="final">minutos</target>
       </trans-unit>
-      <trans-unit id="second">
+      <trans-unit id="second" approved="yes">
         <source>Second</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Segundo</target>
+        <target state="final">Segundo</target>
       </trans-unit>
-      <trans-unit id="seconds">
+      <trans-unit id="seconds" approved="yes">
         <source>Seconds</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">segundos</target>
+        <target state="final">segundos</target>
       </trans-unit>
-      <trans-unit id="end-of-session">
+      <trans-unit id="end-of-session" approved="yes">
         <source>End of session</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Fim da sessão</target>
+        <target state="final">Fim da sessão</target>
       </trans-unit>
-      <trans-unit id="persistent">
+      <trans-unit id="persistent" approved="yes">
         <source>persistent</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">persistent</target>
+        <target state="final">persistent</target>
       </trans-unit>
-      <trans-unit id="warning.noServices">
+      <trans-unit id="warning.noServices" approved="yes">
         <source>Why don't I see a Klaro! Modal? → You must assign at least 1 service to the Klaro! configuration! Without services, we don't need consent management at all.</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Por que não vejo um Klaro! Modal? → Você deve atribuir pelo menos 1 serviço para o Klaro! configuração! Sem serviços, não precisamos de gestão de consentimentos.</target>
+        <target state="final">Por que não vejo um Klaro! Modal? → Você deve atribuir pelo menos 1 serviço para o Klaro! configuração! Sem serviços, não precisamos de gestão de consentimentos.</target>
       </trans-unit>
-      <trans-unit id="warning.noServicesPersonalized">
+      <trans-unit id="warning.noServicesPersonalized" approved="yes">
         <source>Hey %s! You missed a service in the config! Without services, we don't need consent management at all.</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Ei, %s! Você perdeu um serviço na configuração! Sem serviços, não precisamos de todo de gerenciamento de consentimento.</target>
+        <target state="final">Ei, %s! Você perdeu um serviço na configuração! Sem serviços, não precisamos de todo de gerenciamento de consentimento.</target>
       </trans-unit>
     </body>
   </file>
