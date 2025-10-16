@@ -2,17 +2,17 @@
 <xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
   <file source-language="en" original="EXT:klaro_consent_manager/Resources/Private/Language/locallang.xlf" datatype="plaintext" product-name="klaro_consent_manager" date="2025-10-13T15:15:27+02:00" target-language="ru">
     <body>
-      <trans-unit id="acceptAll">
+      <trans-unit id="acceptAll" approved="yes">
         <source>Accept all</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Принять все</target>
+        <target state="final">Принять все</target>
       </trans-unit>
-      <trans-unit id="acceptSelected">
+      <trans-unit id="acceptSelected" approved="yes">
         <source>Accept selected</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Принять выбранные</target>
+        <target state="final">Принять выбранные</target>
       </trans-unit>
-      <trans-unit id="close">
+      <trans-unit id="close" approved="yes">
         <source>Close</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Закрыть</target>
+        <target state="final">Закрыть</target>
       </trans-unit>
       <trans-unit id="consentModal.description" approved="yes">
         <source>Here you can assess and customize the services that we'd like to use on this website. You're in charge! Enable or disable services as you see fit.</source>
@@ -34,33 +34,33 @@
         <source>Let me choose</source>
         <target state="final">Настроить</target>
       </trans-unit>
-      <trans-unit id="consentNotice.testing">
+      <trans-unit id="consentNotice.testing" approved="yes">
         <source>Testing mode!</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Режим тестирования!</target>
+        <target state="final">Режим тестирования!</target>
       </trans-unit>
-      <trans-unit id="consentNotice.title">
+      <trans-unit id="consentNotice.title" approved="yes">
         <source>Cookie Consent</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Согласие Cookie</target>
+        <target state="final">Согласие Cookie</target>
       </trans-unit>
-      <trans-unit id="contextualConsent.acceptAlways">
+      <trans-unit id="contextualConsent.acceptAlways" approved="yes">
         <source>Always</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Всегда</target>
+        <target state="final">Всегда</target>
       </trans-unit>
-      <trans-unit id="contextualConsent.acceptOnce">
+      <trans-unit id="contextualConsent.acceptOnce" approved="yes">
         <source>Yes</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Да</target>
+        <target state="final">Да</target>
       </trans-unit>
-      <trans-unit id="contextualConsent.description">
+      <trans-unit id="contextualConsent.description" approved="yes">
         <source>Do you want to load external content supplied by {title}?</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Вы хотите загрузить внешнее содержимое, предоставляемое {title}?</target>
+        <target state="final">Вы хотите загрузить внешнее содержимое, предоставляемое {title}?</target>
       </trans-unit>
-      <trans-unit id="contextualConsent.descriptionEmptyStore">
+      <trans-unit id="contextualConsent.descriptionEmptyStore" approved="yes">
         <source>To agree to this service permanently, you must accept {title} in the {link}.</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Чтобы окончательно согласиться с этой услугой, вы должны принять {title} на сайте {link}.</target>
+        <target state="final">Чтобы окончательно согласиться с этой услугой, вы должны принять {title} на сайте {link}.</target>
       </trans-unit>
-      <trans-unit id="contextualConsent.modalLinkText">
+      <trans-unit id="contextualConsent.modalLinkText" approved="yes">
         <source>Consent Manager</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Диспетчер согласия</target>
+        <target state="final">Диспетчер согласия</target>
       </trans-unit>
       <trans-unit id="decline" approved="yes">
         <source>I decline</source>
@@ -74,61 +74,57 @@
         <source>Realized with Klaro!</source>
         <target state="final">Работает на Кларо!</target>
       </trans-unit>
-      <trans-unit id="privacyPolicy.name">
+      <trans-unit id="privacyPolicy.name" approved="yes">
         <source>privacy policy</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">политика конфиденциальности</target>
+        <target state="final">политика конфиденциальности</target>
       </trans-unit>
-      <trans-unit id="privacyPolicy.text">
+      <trans-unit id="privacyPolicy.text" approved="yes">
         <source>To learn more, please read our {privacyPolicy}.</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Чтобы узнать больше, прочтите {privacyPolicy}.</target>
+        <target state="final">Чтобы узнать больше, прочтите {privacyPolicy}.</target>
       </trans-unit>
-      <trans-unit id="purposeItem.service">
+      <trans-unit id="purposeItem.service" approved="yes">
         <source>service</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">услуга</target>
+        <target state="final">услуга</target>
       </trans-unit>
-      <trans-unit id="purposeItem.services">
+      <trans-unit id="purposeItem.services" approved="yes">
         <source>services</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">услуги</target>
+        <target state="final">услуги</target>
       </trans-unit>
-      <trans-unit id="purposes.advertising.description">
+      <trans-unit id="purposes.advertising.description" approved="yes">
         <source>These services process personal information to show you personalized or interest-based advertisements.</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Эти услуги обрабатывают личную информацию, чтобы показать вам персональную рекламу или рекламу, основанную на интересах.</target>
+        <target state="final">Эти услуги обрабатывают личную информацию, чтобы показать вам персональную рекламу или рекламу, основанную на интересах.</target>
       </trans-unit>
-      <trans-unit id="purposes.advertising.title">
+      <trans-unit id="purposes.advertising.title" approved="yes">
         <source>Advertising</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Реклама</target>
+        <target state="final">Реклама</target>
       </trans-unit>
-      <trans-unit id="purposes.functional.description">
-        <source>These services are essential for the correct functioning of this website. You cannot disable them here as the service would not work correctly otherwise.
-</source>
-        <target state="needs-translation">These services are essential for the correct functioning of this website. You cannot disable them here as the service would not work correctly otherwise.
-</target>
+      <trans-unit id="purposes.functional.description" approved="yes">
+        <source>These services are essential for the correct functioning of this website. You cannot disable them here as the service would not work correctly otherwise.</source>
+        <target state="final">Эти службы необходимы для правильного функционирования этого веб-сайта. Вы не можете их отключить, так как служба работает неправильно.</target>
       </trans-unit>
-      <trans-unit id="purposes.functional.title">
+      <trans-unit id="purposes.functional.title" approved="yes">
         <source>Service Provision</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Обеспечение услуг</target>
+        <target state="final">Обеспечение услуг</target>
       </trans-unit>
-      <trans-unit id="purposes.marketing.description">
+      <trans-unit id="purposes.marketing.description" approved="yes">
         <source>These services process personal information to show you relevant content about products, services or topics that you might be interested in.</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Эти службы обрабатывают личную информацию, чтобы показать вам нужный контент о продуктах, услугах или темах, которые вам могут быть интересны.</target>
+        <target state="final">Эти службы обрабатывают личную информацию, чтобы показать вам нужный контент о продуктах, услугах или темах, которые вам могут быть интересны.</target>
       </trans-unit>
-      <trans-unit id="purposes.marketing.title">
+      <trans-unit id="purposes.marketing.title" approved="yes">
         <source>Marketing</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Маркетинг</target>
+        <target state="final">Маркетинг</target>
       </trans-unit>
-      <trans-unit id="purposes.performance.description">
-        <source>These services process personal information to optimize the service that this website offers.
-</source>
-        <target state="needs-translation">These services process personal information to optimize the service that this website offers.
-</target>
+      <trans-unit id="purposes.performance.description" approved="yes">
+        <source>These services process personal information to optimize the service that this website offers.</source>
+        <target state="final">Эти услуги обрабатывают личную информацию для оптимизации услуг, которые предлагает этот веб-сайт.</target>
       </trans-unit>
-      <trans-unit id="purposes.performance.title">
+      <trans-unit id="purposes.performance.title" approved="yes">
         <source>Performance Optimization</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Оптимизация производительности</target>
+        <target state="final">Оптимизация производительности</target>
       </trans-unit>
-      <trans-unit id="save">
+      <trans-unit id="save" approved="yes">
         <source>Save</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Сохранить</target>
+        <target state="final">Сохранить</target>
       </trans-unit>
       <trans-unit id="service.disableAll.description" approved="yes">
         <source>Use this switch to enable or disable all services.</source>
@@ -146,13 +142,13 @@
         <source>(opt-out)</source>
         <target state="final">(отказаться)</target>
       </trans-unit>
-      <trans-unit id="service.purpose">
+      <trans-unit id="service.purpose" approved="yes">
         <source>purpose</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">цель</target>
+        <target state="final">цель</target>
       </trans-unit>
-      <trans-unit id="service.purposes">
+      <trans-unit id="service.purposes" approved="yes">
         <source>purposes</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">цели</target>
+        <target state="final">цели</target>
       </trans-unit>
       <trans-unit id="service.required.description" approved="yes">
         <source>This services is always required</source>
@@ -162,245 +158,245 @@
         <source>(always required)</source>
         <target state="final">(всегда обязательный)</target>
       </trans-unit>
-      <trans-unit id="purposes.analytics.title">
+      <trans-unit id="purposes.analytics.title" approved="yes">
         <source>Analytics</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Статистика</target>
+        <target state="final">Статистика</target>
       </trans-unit>
-      <trans-unit id="purposes.analytics.description">
+      <trans-unit id="purposes.analytics.description" approved="yes">
         <source>These services gather anonymous data for statistical analysis and performance optimization. Enabling analytics services assists website owners in making informed decisions to enhance online services.</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Эти сервисы собирают анонимные данные для статистического анализа и оптимизации производительности. Включение услуг аналитики помогает владельцам веб-сайтов принимать обоснованные решения по улучшению онлайн-сервисов.</target>
+        <target state="final">Эти сервисы собирают анонимные данные для статистического анализа и оптимизации производительности. Включение услуг аналитики помогает владельцам веб-сайтов принимать обоснованные решения по улучшению онлайн-сервисов.</target>
       </trans-unit>
-      <trans-unit id="purposes.security.title">
+      <trans-unit id="purposes.security.title" approved="yes">
         <source>Security</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Безопасность</target>
+        <target state="final">Безопасность</target>
       </trans-unit>
-      <trans-unit id="purposes.security.description">
+      <trans-unit id="purposes.security.description" approved="yes">
         <source>Security services are crucial for safeguarding your online experience. These services help protect your data and privacy by detecting and preventing security threats, such as malware, phishing attempts, and unauthorized access. They ensure a safer browsing environment.</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Службы безопасности имеют решающее значение для защиты вашего опыта в сети. Эти службы помогают защитить ваши данные и конфиденциальность, обнаруживая и предотвращая угрозы безопасности, такие как вредоносные программы, фишинговые попытки и несанкционированный доступ. Они обеспечивают более безопасную среду просмотра.</target>
+        <target state="final">Службы безопасности имеют решающее значение для защиты вашего опыта в сети. Эти службы помогают защитить ваши данные и конфиденциальность, обнаруживая и предотвращая угрозы безопасности, такие как вредоносные программы, фишинговые попытки и несанкционированный доступ. Они обеспечивают более безопасную среду просмотра.</target>
       </trans-unit>
-      <trans-unit id="purposes.livechat.title">
+      <trans-unit id="purposes.livechat.title" approved="yes">
         <source>Live Chat</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Онлайн-чат</target>
+        <target state="final">Онлайн-чат</target>
       </trans-unit>
-      <trans-unit id="purposes.livechat.description">
+      <trans-unit id="purposes.livechat.description" approved="yes">
         <source>Live chat services enable real-time communication with website support teams. They offer a convenient way to ask questions, seek assistance, or engage in discussions while browsing a website. Live chat enhances your online interaction and customer support experience.</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Онлайн-чаты позволяют общаться в реальном времени с командами поддержки веб-сайтов. Они предлагают удобный способ задать вопросы, обратиться за помощью или участвовать в обсуждениях при просмотре веб-сайта. Онлайн-чат улучшает ваше интерактивное взаимодействие и работу с клиентами.</target>
+        <target state="final">Онлайн-чаты позволяют общаться в реальном времени с командами поддержки веб-сайтов. Они предлагают удобный способ задать вопросы, обратиться за помощью или участвовать в обсуждениях при просмотре веб-сайта. Онлайн-чат улучшает ваше интерактивное взаимодействие и работу с клиентами.</target>
       </trans-unit>
-      <trans-unit id="purposes.styling.title">
+      <trans-unit id="purposes.styling.title" approved="yes">
         <source>Styling</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Оформление</target>
+        <target state="final">Оформление</target>
       </trans-unit>
-      <trans-unit id="purposes.styling.description">
+      <trans-unit id="purposes.styling.description" approved="yes">
         <source>Services related to styling help to improve the appearance of the website. This can also have an impact on usability.</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Услуги, связанные со стилем помогают улучшить внешний вид сайта. Это также может повлиять на удобство.</target>
+        <target state="final">Услуги, связанные со стилем помогают улучшить внешний вид сайта. Это также может повлиять на удобство.</target>
       </trans-unit>
-      <trans-unit id="purposes.videos.title">
+      <trans-unit id="purposes.videos.title" approved="yes">
         <source>Videos</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Видео</target>
+        <target state="final">Видео</target>
       </trans-unit>
-      <trans-unit id="purposes.videos.description">
+      <trans-unit id="purposes.videos.description" approved="yes">
         <source>Embedding videos from external platforms to enrich the content on this website.</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Встраиваемые видео с внешних платформ для обогащения контента на этом сайте.</target>
+        <target state="final">Встраиваемые видео с внешних платформ для обогащения контента на этом сайте.</target>
       </trans-unit>
-      <trans-unit id="purposes.social.title">
+      <trans-unit id="purposes.social.title" approved="yes">
         <source>Social Media</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Социальные сети</target>
+        <target state="final">Социальные сети</target>
       </trans-unit>
-      <trans-unit id="purposes.social.description">
+      <trans-unit id="purposes.social.description" approved="yes">
         <source>Embedding social media from external platforms to enrich the content on this website.</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Встроение социальных сетей с внешних платформ для обогащения контента на этом сайте.</target>
+        <target state="final">Встроение социальных сетей с внешних платформ для обогащения контента на этом сайте.</target>
       </trans-unit>
-      <trans-unit id="purposes.misc.title">
+      <trans-unit id="purposes.misc.title" approved="yes">
         <source>Miscellaneous</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Прочие вопросы</target>
+        <target state="final">Прочие вопросы</target>
       </trans-unit>
-      <trans-unit id="purposes.misc.description">
+      <trans-unit id="purposes.misc.description" approved="yes">
         <source>This includes services that do not fall under the other purposes.</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Сюда относятся услуги, которые не подпадают под другие цели.</target>
+        <target state="final">Сюда относятся услуги, которые не подпадают под другие цели.</target>
       </trans-unit>
-      <trans-unit id="consentManager.show">
+      <trans-unit id="consentManager.show" approved="yes">
         <source>Show Consent Manager</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Показать менеджер согласия</target>
+        <target state="final">Показать менеджер согласия</target>
       </trans-unit>
-      <trans-unit id="consentManager.reset">
+      <trans-unit id="consentManager.reset" approved="yes">
         <source>Reset Consent Manager</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Сбросить менеджер согласия</target>
+        <target state="final">Сбросить менеджер согласия</target>
       </trans-unit>
-      <trans-unit id="services.adsense.title">
+      <trans-unit id="services.adsense.title" approved="yes">
         <source>Google AdSense</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Google AdSense</target>
+        <target state="final">Google AdSense</target>
       </trans-unit>
-      <trans-unit id="services.adsense.description">
+      <trans-unit id="services.adsense.description" approved="yes">
         <source>Google AdSense enables personalized ads on websites while respecting user privacy. By consenting, you allow relevant ads and help support free content.</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Google AdSense разрешает персонализированную рекламу на веб-сайтах при уважении конфиденциальности пользователей. Согласитесь, вы разрешаете релевантную рекламу и помогаете поддерживать свободный контент.</target>
+        <target state="final">Google AdSense разрешает персонализированную рекламу на веб-сайтах при уважении конфиденциальности пользователей. Согласитесь, вы разрешаете релевантную рекламу и помогаете поддерживать свободный контент.</target>
       </trans-unit>
-      <trans-unit id="services.camera.title">
+      <trans-unit id="services.camera.title" approved="yes">
         <source>Surveillance Camera</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Камера наблюдения</target>
+        <target state="final">Камера наблюдения</target>
       </trans-unit>
-      <trans-unit id="services.camera.description">
+      <trans-unit id="services.camera.description" approved="yes">
         <source>Consent to the use of surveillance camera images for security and safety purposes, in compliance with applicable data privacy regulations.</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Согласие на использование изображений камеры наблюдения в целях охраны и безопасности в соответствии с применимыми правилами о конфиденциальности данных.</target>
+        <target state="final">Согласие на использование изображений камеры наблюдения в целях охраны и безопасности в соответствии с применимыми правилами о конфиденциальности данных.</target>
       </trans-unit>
-      <trans-unit id="services.clarity.title">
+      <trans-unit id="services.clarity.title" approved="yes">
         <source>Microsoft Clarity</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Microsoft Clarity</target>
+        <target state="final">Microsoft Clarity</target>
       </trans-unit>
-      <trans-unit id="services.clarity.description">
+      <trans-unit id="services.clarity.description" approved="yes">
         <source>Microsoft Clarity is a user-friendly web analytics tool that empowers website visitors like you by providing transparency about how your interactions are tracked on a website. It ensures your privacy is respected while giving developers and website owners valuable insights into user behavior. Plus, it follows coding guidelines and best practices, ensuring a safe and secure online experience for you.</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Microsoft Clarity - удобный инструмент для анализа веб-страниц, который позволяет посетителям сайта следить за тем, как отслеживается ваше взаимодействие на сайте. Это гарантирует, что ваша конфиденциальность будет соблюдаться, предоставляя разработчикам и владельцам веб-сайтов ценное понимание поведения пользователей. Кроме того, он руководствуется рекомендациями по кодированию и наилучшей практикой, обеспечивая безопасную и безопасную работу в Интернете.</target>
+        <target state="final">Microsoft Clarity - удобный инструмент для анализа веб-страниц, который позволяет посетителям сайта следить за тем, как отслеживается ваше взаимодействие на сайте. Это гарантирует, что ваша конфиденциальность будет соблюдаться, предоставляя разработчикам и владельцам веб-сайтов ценное понимание поведения пользователей. Кроме того, он руководствуется рекомендациями по кодированию и наилучшей практикой, обеспечивая безопасную и безопасную работу в Интернете.</target>
       </trans-unit>
-      <trans-unit id="services.cloudflare.title">
+      <trans-unit id="services.cloudflare.title" approved="yes">
         <source>Cloudflare</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Огонь из облака</target>
+        <target state="final">Огонь из облака</target>
       </trans-unit>
-      <trans-unit id="services.cloudflare.description">
+      <trans-unit id="services.cloudflare.description" approved="yes">
         <source>Cloudflare helps protect and optimize websites. By using this website, you consent to Cloudflare's data processing practices as described in its Privacy Policy.</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Cloudflare помогает защитить и оптимизировать веб-сайты. Используя этот веб-сайт, вы соглашаетесь на практику обработки данных Cloudflare, описанную в его Политике конфиденциальности.</target>
+        <target state="final">Cloudflare помогает защитить и оптимизировать веб-сайты. Используя этот веб-сайт, вы соглашаетесь на практику обработки данных Cloudflare, описанную в его Политике конфиденциальности.</target>
       </trans-unit>
-      <trans-unit id="services.external-tracker.title">
+      <trans-unit id="services.external-tracker.title" approved="yes">
         <source>External Tracker</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Внешний трекер</target>
+        <target state="final">Внешний трекер</target>
       </trans-unit>
-      <trans-unit id="services.external-tracker.description">
+      <trans-unit id="services.external-tracker.description" approved="yes">
         <source>External tracking script</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Внешний скрипт отслеживания</target>
+        <target state="final">Внешний скрипт отслеживания</target>
       </trans-unit>
-      <trans-unit id="services.facebook-pixel.title">
+      <trans-unit id="services.facebook-pixel.title" approved="yes">
         <source>Facebook Pixel</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Пиксель Facebook</target>
+        <target state="final">Пиксель Facebook</target>
       </trans-unit>
-      <trans-unit id="services.facebook-pixel.description">
+      <trans-unit id="services.facebook-pixel.description" approved="yes">
         <source>Simplifies web tracking for analytics and marketing while ensuring data compliance and control.</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Упрощает веб-отслеживание для аналитики и маркетинга при одновременном обеспечении соответствия и контроля данных.</target>
+        <target state="final">Упрощает веб-отслеживание для аналитики и маркетинга при одновременном обеспечении соответствия и контроля данных.</target>
       </trans-unit>
-      <trans-unit id="services.fast-fonts.title">
+      <trans-unit id="services.fast-fonts.title" approved="yes">
         <source>Fast Fonts</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Fast Fonts</target>
+        <target state="final">Fast Fonts</target>
       </trans-unit>
-      <trans-unit id="services.fast-fonts.description">
+      <trans-unit id="services.fast-fonts.description" approved="yes">
         <source>Fast Fonts, operated by fonts.com and supplied by fast.fonts.net, is a service for the provision of web fonts. It requires the use of a pixel-code for continuous price calculation.</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Быстрые шрифты, управляемые fonts.com и поставляемые fast.fonts.net, являются сервисом для предоставления веб-шрифтов. Это требует использования пиксельного кода для расчета непрерывной цены.</target>
+        <target state="final">Быстрые шрифты, управляемые fonts.com и поставляемые fast.fonts.net, являются сервисом для предоставления веб-шрифтов. Это требует использования пиксельного кода для расчета непрерывной цены.</target>
       </trans-unit>
-      <trans-unit id="services.google-ads.title">
+      <trans-unit id="services.google-ads.title" approved="yes">
         <source>Google Ads</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Реклама Google</target>
+        <target state="final">Реклама Google</target>
       </trans-unit>
-      <trans-unit id="services.google-ads.description">
+      <trans-unit id="services.google-ads.description" approved="yes">
         <source>Google Ads allows advertisers to reach their target audience online. To personalize ads and measure their effectiveness, Google may collect data with your consent.</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Реклама Google позволяет рекламодателям добраться до целевой аудитории онлайн. Чтобы персонализировать рекламу и измерить ее эффективность, Google может собирать данные с вашего согласия.</target>
+        <target state="final">Реклама Google позволяет рекламодателям добраться до целевой аудитории онлайн. Чтобы персонализировать рекламу и измерить ее эффективность, Google может собирать данные с вашего согласия.</target>
       </trans-unit>
-      <trans-unit id="services.google-analytics.title">
+      <trans-unit id="services.google-analytics.title" approved="yes">
         <source>Google Analytics</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Google Analytics</target>
+        <target state="final">Google Analytics</target>
       </trans-unit>
-      <trans-unit id="services.google-analytics.description">
+      <trans-unit id="services.google-analytics.description" approved="yes">
         <source>Web analytics service provided by Google, Inc. ("Google")</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Служба веб-аналитики компании Google, Inc. ("Google")</target>
+        <target state="final">Служба веб-аналитики компании Google, Inc. ("Google")</target>
       </trans-unit>
-      <trans-unit id="services.google-fonts.title">
+      <trans-unit id="services.google-fonts.title" approved="yes">
         <source>Google Fonts</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Google шрифты</target>
+        <target state="final">Google шрифты</target>
       </trans-unit>
-      <trans-unit id="services.google-fonts.description">
+      <trans-unit id="services.google-fonts.description" approved="yes">
         <source>Web fonts hosted by Google</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Веб-шрифты, размещенные Google</target>
+        <target state="final">Веб-шрифты, размещенные Google</target>
       </trans-unit>
-      <trans-unit id="services.google-maps.title">
+      <trans-unit id="services.google-maps.title" approved="yes">
         <source>Google Maps</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Карты Google</target>
+        <target state="final">Карты Google</target>
       </trans-unit>
-      <trans-unit id="services.google-maps.description">
+      <trans-unit id="services.google-maps.description" approved="yes">
         <source>Google Maps allows for the integration of interactive maps on websites, enabling location-based services. Developers can utilize it while ensuring data compliance and control, adhering to coding guidelines and best practices.</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Карты Google позволяют интегрировать интерактивные карты на веб-сайтах, обеспечивая локальные сервисы. Разработчики могут использовать его при обеспечении соблюдения и контроля за данными и соблюдения руководящих принципов кодирования и передовой практики.</target>
+        <target state="final">Карты Google позволяют интегрировать интерактивные карты на веб-сайтах, обеспечивая локальные сервисы. Разработчики могут использовать его при обеспечении соблюдения и контроля за данными и соблюдения руководящих принципов кодирования и передовой практики.</target>
       </trans-unit>
-      <trans-unit id="services.google-tag-manager.title">
+      <trans-unit id="services.google-tag-manager.title" approved="yes">
         <source>Google Tag Manager</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Менеджер тегов Google</target>
+        <target state="final">Менеджер тегов Google</target>
       </trans-unit>
-      <trans-unit id="services.google-tag-manager.description">
+      <trans-unit id="services.google-tag-manager.description" approved="yes">
         <source>Google Tag Manager streamlines web tracking and code management, ensuring data compliance and control for developers.</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Google Tag Manager упрощает веб-отслеживание и управление кодом, обеспечивая соответствие данных и контроль для разработчиков.</target>
+        <target state="final">Google Tag Manager упрощает веб-отслеживание и управление кодом, обеспечивая соответствие данных и контроль для разработчиков.</target>
       </trans-unit>
-      <trans-unit id="services.inline-tracker.title">
+      <trans-unit id="services.inline-tracker.title" approved="yes">
         <source>Inline Tracker</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Встроенный трекер</target>
+        <target state="final">Встроенный трекер</target>
       </trans-unit>
-      <trans-unit id="services.inline-tracker.description">
+      <trans-unit id="services.inline-tracker.description" approved="yes">
         <source>Inline tracking script</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Встроенный скрипт отслеживания</target>
+        <target state="final">Встроенный скрипт отслеживания</target>
       </trans-unit>
-      <trans-unit id="services.instagram.title">
+      <trans-unit id="services.instagram.title" approved="yes">
         <source>Instagram</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Инстаграмма</target>
+        <target state="final">Инстаграмма</target>
       </trans-unit>
-      <trans-unit id="services.instagram.description">
+      <trans-unit id="services.instagram.description" approved="yes">
         <source>Allows Instagram posts to be embedded. Personal data may be transferred to Instagram (Meta Platforms) in the process.</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Позволяет встраивать сообщения в Instagram. Личные данные могут быть переданы в Instagram (Meta Platforms).</target>
+        <target state="final">Позволяет встраивать сообщения в Instagram. Личные данные могут быть переданы в Instagram (Meta Platforms).</target>
       </trans-unit>
-      <trans-unit id="services.intercom.title">
+      <trans-unit id="services.intercom.title" approved="yes">
         <source>Intercom</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Интерком</target>
+        <target state="final">Интерком</target>
       </trans-unit>
-      <trans-unit id="services.intercom.description">
+      <trans-unit id="services.intercom.description" approved="yes">
         <source>Chat widget and collecting of visitor statistics</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Виджет чата и сбор статистики посетителей</target>
+        <target state="final">Виджет чата и сбор статистики посетителей</target>
       </trans-unit>
-      <trans-unit id="services.matomo.title">
+      <trans-unit id="services.matomo.title" approved="yes">
         <source>Matomo/Piwik</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Matomo/Piwik</target>
+        <target state="final">Matomo/Piwik</target>
       </trans-unit>
-      <trans-unit id="services.matomo.description">
+      <trans-unit id="services.matomo.description" approved="yes">
         <source>Open source software for statistical analysis of visitor accesses</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">ПО с открытым исходным кодом для статистического анализа доступа посетителей</target>
+        <target state="final">ПО с открытым исходным кодом для статистического анализа доступа посетителей</target>
       </trans-unit>
-      <trans-unit id="services.mouseflow.title">
+      <trans-unit id="services.mouseflow.title" approved="yes">
         <source>Mouseflow</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Мусеток</target>
+        <target state="final">Мусеток</target>
       </trans-unit>
-      <trans-unit id="services.mouseflow.description">
+      <trans-unit id="services.mouseflow.description" approved="yes">
         <source>Real-time user analytics service that helps to understand how visitors interact with our website.</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Аналитика пользователей в реальном времени, которая помогает понять, как посетители взаимодействуют с нашим сайтом.</target>
+        <target state="final">Аналитика пользователей в реальном времени, которая помогает понять, как посетители взаимодействуют с нашим сайтом.</target>
       </trans-unit>
-      <trans-unit id="services.tiktok.title">
+      <trans-unit id="services.tiktok.title" approved="yes">
         <source>TikTok</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">TikTok</target>
+        <target state="final">TikTok</target>
       </trans-unit>
-      <trans-unit id="services.tiktok.description">
+      <trans-unit id="services.tiktok.description" approved="yes">
         <source>Allows TikTok videos to be embedded. Personal data may be transferred to TikTok and processed in third countries.</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Позволяет добавлять видео TikTok. Личные данные могут быть переданы в TikTok и обработаны в третьих странах.</target>
+        <target state="final">Позволяет добавлять видео TikTok. Личные данные могут быть переданы в TikTok и обработаны в третьих странах.</target>
       </trans-unit>
-      <trans-unit id="services.twitter.title">
+      <trans-unit id="services.twitter.title" approved="yes">
         <source>X (formerly Twitter)</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">X (ранее Твиттер)</target>
+        <target state="final">X (ранее Твиттер)</target>
       </trans-unit>
-      <trans-unit id="services.twitter.description">
+      <trans-unit id="services.twitter.description" approved="yes">
         <source>X (formerly Twitter) is social media platform that allows users to share and interact with short messages and multimedia content. Developers can integrate Twitter features into websites to enhance user engagement and real-time updates while maintaining data privacy compliance and adhering to coding guidelines.</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">X (ранее Twitter) – это социальная медиа платформа, позволяющая пользователям обмениваться и взаимодействовать с короткими сообщениями и мультимедийным контентом. Разработчики могут интегрировать функции Twitter в веб-сайты для улучшения взаимодействия с пользователями и обновления в режиме реального времени, поддерживая соблюдение конфиденциальности данных и придерживаясь руководящих принципов кодирования.</target>
+        <target state="final">X (ранее Twitter) – это социальная медиа платформа, позволяющая пользователям обмениваться и взаимодействовать с короткими сообщениями и мультимедийным контентом. Разработчики могут интегрировать функции Twitter в веб-сайты для улучшения взаимодействия с пользователями и обновления в режиме реального времени, поддерживая соблюдение конфиденциальности данных и придерживаясь руководящих принципов кодирования.</target>
       </trans-unit>
-      <trans-unit id="services.userlike.title">
+      <trans-unit id="services.userlike.title" approved="yes">
         <source>Userlike</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Пользователь</target>
+        <target state="final">Пользователь</target>
       </trans-unit>
-      <trans-unit id="services.userlike.description">
+      <trans-unit id="services.userlike.description" approved="yes">
         <source>Userlike offers a live chat solution that enhances user interactions on websites.</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Userlike предлагает решение для онлайн-чата, которое улучшает взаимодействие пользователей с веб-сайтами.</target>
+        <target state="final">Userlike предлагает решение для онлайн-чата, которое улучшает взаимодействие пользователей с веб-сайтами.</target>
       </trans-unit>
-      <trans-unit id="services.vimeo.title">
+      <trans-unit id="services.vimeo.title" approved="yes">
         <source>Vimeo</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Vimeo</target>
+        <target state="final">Vimeo</target>
       </trans-unit>
-      <trans-unit id="services.vimeo.description">
+      <trans-unit id="services.vimeo.description" approved="yes">
         <source>Popular video-sharing platform that offers a range of features for creators and developers to enhance video content on websites.</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Популярная платформа для обмена видео, предлагающая ряд функций для разработчиков и разработчиков для улучшения видеоконтента на веб-сайтах.</target>
+        <target state="final">Популярная платформа для обмена видео, предлагающая ряд функций для разработчиков и разработчиков для улучшения видеоконтента на веб-сайтах.</target>
       </trans-unit>
-      <trans-unit id="services.youtube.title">
+      <trans-unit id="services.youtube.title" approved="yes">
         <source>YouTube</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">YouTube</target>
+        <target state="final">YouTube</target>
       </trans-unit>
-      <trans-unit id="services.youtube.description">
+      <trans-unit id="services.youtube.description" approved="yes">
         <source>The leading video-sharing platform for content creators and developers to enhance user experiences on websites.</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Ведущая платформа обмена видео для создателей контента и разработчиков для улучшения опыта пользователей на веб-сайтах.</target>
+        <target state="final">Ведущая платформа обмена видео для создателей контента и разработчиков для улучшения опыта пользователей на веб-сайтах.</target>
       </trans-unit>
       <trans-unit id="consentModal.privacyPolicy.name" approved="yes">
         <source>Privacy policy</source>
@@ -410,101 +406,101 @@
         <source>To learn more, please read our {privacyPolicy}.</source>
         <target state="final">Чтобы узнать больше, пожалуйста, прочитайте наше {privacyPolicy}.</target>
       </trans-unit>
-      <trans-unit id="consentNotice.imprint.name">
+      <trans-unit id="consentNotice.imprint.name" approved="yes">
         <source>Imprint</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Отпечаток</target>
+        <target state="final">Отпечаток</target>
       </trans-unit>
       <trans-unit id="consentNotice.privacyPolicy.name" approved="yes">
         <source>Privacy policy</source>
         <target state="final">политика конфиденциальности</target>
       </trans-unit>
-      <trans-unit id="cookies.title">
+      <trans-unit id="cookies.title" approved="yes">
         <source>Cookies</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Печенье</target>
+        <target state="final">Печенье</target>
       </trans-unit>
-      <trans-unit id="cookies.description">
+      <trans-unit id="cookies.description" approved="yes">
         <source>Below you will find a list of all cookies used by %s</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Ниже вы найдете список всех Cookie, используемых %s</target>
+        <target state="final">Ниже вы найдете список всех Cookie, используемых %s</target>
       </trans-unit>
-      <trans-unit id="cookies.headline.name">
+      <trans-unit id="cookies.headline.name" approved="yes">
         <source>Name / Pattern</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Имя / Шаблон</target>
+        <target state="final">Имя / Шаблон</target>
       </trans-unit>
-      <trans-unit id="cookies.headline.path">
+      <trans-unit id="cookies.headline.path" approved="yes">
         <source>Path</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Путь</target>
+        <target state="final">Путь</target>
       </trans-unit>
-      <trans-unit id="cookies.headline.domain">
+      <trans-unit id="cookies.headline.domain" approved="yes">
         <source>Domain</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Домен</target>
+        <target state="final">Домен</target>
       </trans-unit>
-      <trans-unit id="cookies.headline.expiresAfter">
+      <trans-unit id="cookies.headline.expiresAfter" approved="yes">
         <source>Expires after</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Истекает после</target>
+        <target state="final">Истекает после</target>
       </trans-unit>
-      <trans-unit id="year">
+      <trans-unit id="year" approved="yes">
         <source>Year</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Год</target>
+        <target state="final">Год</target>
       </trans-unit>
-      <trans-unit id="years">
+      <trans-unit id="years" approved="yes">
         <source>Years</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Годы</target>
+        <target state="final">Годы</target>
       </trans-unit>
-      <trans-unit id="month">
+      <trans-unit id="month" approved="yes">
         <source>Month</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Месяц</target>
+        <target state="final">Месяц</target>
       </trans-unit>
-      <trans-unit id="months">
+      <trans-unit id="months" approved="yes">
         <source>Months</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Месяцев</target>
+        <target state="final">Месяцев</target>
       </trans-unit>
-      <trans-unit id="day">
+      <trans-unit id="day" approved="yes">
         <source>Day</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">День</target>
+        <target state="final">День</target>
       </trans-unit>
-      <trans-unit id="days">
+      <trans-unit id="days" approved="yes">
         <source>Days</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Дней</target>
+        <target state="final">Дней</target>
       </trans-unit>
-      <trans-unit id="hour">
+      <trans-unit id="hour" approved="yes">
         <source>Hour</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Часы</target>
+        <target state="final">Часы</target>
       </trans-unit>
-      <trans-unit id="hours">
+      <trans-unit id="hours" approved="yes">
         <source>Hours</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Часы</target>
+        <target state="final">Часы</target>
       </trans-unit>
-      <trans-unit id="minute">
+      <trans-unit id="minute" approved="yes">
         <source>Minute</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Минута</target>
+        <target state="final">Минута</target>
       </trans-unit>
-      <trans-unit id="minutes">
+      <trans-unit id="minutes" approved="yes">
         <source>Minutes</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Минут</target>
+        <target state="final">Минут</target>
       </trans-unit>
-      <trans-unit id="second">
+      <trans-unit id="second" approved="yes">
         <source>Second</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Секунда</target>
+        <target state="final">Секунда</target>
       </trans-unit>
-      <trans-unit id="seconds">
+      <trans-unit id="seconds" approved="yes">
         <source>Seconds</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Секунды</target>
+        <target state="final">Секунды</target>
       </trans-unit>
-      <trans-unit id="end-of-session">
+      <trans-unit id="end-of-session" approved="yes">
         <source>End of session</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Конец сессии</target>
+        <target state="final">Конец сессии</target>
       </trans-unit>
-      <trans-unit id="persistent">
+      <trans-unit id="persistent" approved="yes">
         <source>persistent</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">persistent</target>
+        <target state="final">persistent</target>
       </trans-unit>
-      <trans-unit id="warning.noServices">
+      <trans-unit id="warning.noServices" approved="yes">
         <source>Why don't I see a Klaro! Modal? → You must assign at least 1 service to the Klaro! configuration! Without services, we don't need consent management at all.</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Почему я не вижу Кларо! Модуль? → Вы должны назначить Кларо! конфигурация! Без сервисов нам вообще не нужны согласительные менеджменты.</target>
+        <target state="final">Почему я не вижу Кларо! Модуль? → Вы должны назначить Кларо! конфигурация! Без сервисов нам вообще не нужны согласительные менеджменты.</target>
       </trans-unit>
-      <trans-unit id="warning.noServicesPersonalized">
+      <trans-unit id="warning.noServicesPersonalized" approved="yes">
         <source>Hey %s! You missed a service in the config! Without services, we don't need consent management at all.</source>
-        <target state="needs-translation">Hey %s! You missed a service in the config! Without services, we don't need consent management at all.</target>
+        <target state="final">Эй, %s! Ты пропустил службу в конфигурации! Без служб нам вообще не нужно управление согласием.</target>
       </trans-unit>
     </body>
   </file>
