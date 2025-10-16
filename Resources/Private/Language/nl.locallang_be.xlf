@@ -1,75 +1,75 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
-  <file source-language="en" original="EXT:klaro_consent_manager/Resources/Private/Language/locallang_db.xlf" datatype="plaintext" product-name="lang" date="2024-10-26T11:10:32+02:00" target-language="nl">
+  <file source-language="en" original="EXT:klaro_consent_manager/Resources/Private/Language/locallang_db.xlf" datatype="plaintext" product-name="lang" date="2025-10-06T09:33:58+02:00" target-language="nl">
     <header/>
     <body>
-      <trans-unit id="sets.klaroconsentmanager.label" resname="sets.klaroconsentmanager.label">
+      <trans-unit id="sets.klaroconsentmanager.label">
         <source>Klaro! Consent Manager</source>
-        <target state="needs-translation">Klaro! Consent Manager</target>
+        <target state="needs-review-translation" state-qualifier="leveraged-mt">Klaro! Toestemming Manager</target>
       </trans-unit>
-      <trans-unit id="extmng.replaceUrl.show" resname="extmng.replaceUrl.show">
+      <trans-unit id="extmng.replaceUrl.show">
         <source>Replace-URL to show Klaro! Consent Management:Links targeting this placeholder URL are automatically modified before HTML output. The URL is replaced with CSP-compliant JavaScript to trigger the Klaro! Consent Management modal.</source>
-        <target state="needs-translation">Replace-URL to show Klaro! Consent Management:Links targeting this placeholder URL are automatically modified before HTML output. The URL is replaced with CSP-compliant JavaScript to trigger the Klaro! Consent Management modal.</target>
+        <target state="needs-review-translation" state-qualifier="leveraged-mt">Vervang-URL om Klaro te tonen! Consent Management:Links gericht op deze placeholder URL worden automatisch gewijzigd vóór de HTML uitvoer. De URL is vervangen door CSP-conforme JavaScript om de Klaro te activeren! Toestemmingsbeheermodal.</target>
       </trans-unit>
-      <trans-unit id="extmng.replaceUrl.reset" resname="extmng.replaceUrl.reset">
+      <trans-unit id="extmng.replaceUrl.reset">
         <source>Replace-URL to reset Klaro! Consent Management:Links targeting this placeholder URL are automatically changed before HTML output. The URL is replaced with CSP-compliant JavaScript to reset the Klaro! Consent Management settings and then trigger the modal.</source>
-        <target state="needs-translation">Replace-URL to reset Klaro! Consent Management:Links targeting this placeholder URL are automatically changed before HTML output. The URL is replaced with CSP-compliant JavaScript to reset the Klaro! Consent Management settings and then trigger the modal.</target>
+        <target state="needs-review-translation" state-qualifier="leveraged-mt">Vervang-URL om Klaro te resetten! Consent Management:Links gericht op deze placeholder URL worden automatisch gewijzigd voor de HTML uitvoer. De URL is vervangen door CSP-conforme JavaScript om de Klaro te resetten! Toestemmingsbeheerinstellingen en trigger vervolgens de modal.</target>
       </trans-unit>
-      <trans-unit id="extmng.klaroConfigurationPath" resname="extmng.klaroConfigurationPath">
+      <trans-unit id="extmng.klaroConfigurationPath">
         <source>Klaro! Configuration Path:If this path is set, it is used to use the Klaro! configuration by external applications. For example, if a WordPress installation is to use the configuration created in TYPO3, this path can be called up. Example: "/klaro-config.js"</source>
-        <target state="needs-translation">Klaro! Configuration Path:If this path is set, it is used to use the Klaro! configuration by external applications. For example, if a WordPress installation is to use the configuration created in TYPO3, this path can be called up. Example: "/klaro-config.js"</target>
+        <target state="needs-review-translation" state-qualifier="leveraged-mt">Klaro! Configuratie Pad:Als dit pad is ingesteld, wordt het gebruikt om de Klaro te gebruiken! Configuratie door externe toepassingen. Bijvoorbeeld, als een WordPress installatie de configuratie moet gebruiken die is gemaakt in TYPO3, kan dit pad worden aangeroepen. Voorbeeld: "/klaro-config.js"</target>
       </trans-unit>
-      <trans-unit id="constants.customcategory.plugin.tx_klaroconsentmanager" resname="constants.customcategory.plugin.tx_klaroconsentmanager">
+      <trans-unit id="constants.customcategory.plugin.tx_klaroconsentmanager">
         <source>Klaro! Consent Manager</source>
-        <target state="needs-translation">Klaro! Consent Manager</target>
+        <target state="needs-review-translation" state-qualifier="leveraged-mt">Klaro! Toestemming Manager</target>
       </trans-unit>
-      <trans-unit id="constants.subcategory.fluidrootpaths" resname="constants.subcategory.fluidrootpaths">
+      <trans-unit id="constants.subcategory.fluidrootpaths">
         <source>Templates</source>
-        <target state="needs-translation">Templates</target>
+        <target state="needs-review-translation" state-qualifier="leveraged-mt">Sjablonen</target>
       </trans-unit>
-      <trans-unit id="constants.subcategory.resources" resname="constants.subcategory.resources">
+      <trans-unit id="constants.subcategory.resources">
         <source>Resources</source>
-        <target state="needs-translation">Resources</target>
+        <target state="needs-review-translation" state-qualifier="leveraged-mt">Hulpmiddelen</target>
       </trans-unit>
-      <trans-unit id="constants.subcategory.settings" resname="constants.subcategory.settings">
+      <trans-unit id="constants.subcategory.settings">
         <source>Settings</source>
-        <target state="needs-translation">Settings</target>
+        <target state="needs-review-translation" state-qualifier="leveraged-mt">Instellingen</target>
       </trans-unit>
-      <trans-unit id="constants.view.templateRootPath" resname="constants.view.templateRootPath">
+      <trans-unit id="constants.view.templateRootPath">
         <source>Path to template root (FE)</source>
-        <target state="needs-translation">Path to template root (FE)</target>
+        <target state="needs-review-translation" state-qualifier="leveraged-mt">Pad naar template root (FE)</target>
       </trans-unit>
-      <trans-unit id="constants.view.partialRootPath" resname="constants.view.partialRootPath">
+      <trans-unit id="constants.view.partialRootPath">
         <source>Path to template partials (FE)</source>
-        <target state="needs-translation">Path to template partials (FE)</target>
+        <target state="needs-review-translation" state-qualifier="leveraged-mt">Pad naar template partials (FE)</target>
       </trans-unit>
-      <trans-unit id="constants.view.layoutRootPath" resname="constants.view.layoutRootPath">
+      <trans-unit id="constants.view.layoutRootPath">
         <source>Path to template layouts (FE)</source>
-        <target state="needs-translation">Path to template layouts (FE)</target>
+        <target state="needs-review-translation" state-qualifier="leveraged-mt">Pad naar template lay-outs (FE)</target>
       </trans-unit>
-      <trans-unit id="constants.settings.css.klaro-default" resname="constants.settings.css.klaro-default">
+      <trans-unit id="constants.settings.css.klaro-default">
         <source>Klaro CSS</source>
-        <target state="needs-translation">Klaro CSS</target>
+        <target state="needs-review-translation" state-qualifier="leveraged-mt">Klaro CSS</target>
       </trans-unit>
-      <trans-unit id="constants.settings.css.klaro-custom" resname="constants.settings.css.klaro-custom">
+      <trans-unit id="constants.settings.css.klaro-custom">
         <source>Custom additions for Klaro CSS</source>
-        <target state="needs-translation">Custom additions for Klaro CSS</target>
+        <target state="needs-review-translation" state-qualifier="leveraged-mt">Aangepaste toevoegingen voor Klaro CSS</target>
       </trans-unit>
-      <trans-unit id="constants.settings.javascript.klaro-default" resname="constants.settings.javascript.klaro-default">
+      <trans-unit id="constants.settings.javascript.klaro-default">
         <source>Klaro JavaScript</source>
-        <target state="needs-translation">Klaro JavaScript</target>
+        <target state="needs-review-translation" state-qualifier="leveraged-mt">Klaro JavaScript</target>
       </trans-unit>
-      <trans-unit id="constants.settings.contextualconsent.replaceAttributes" resname="constants.settings.contextualconsent.replaceAttributes">
+      <trans-unit id="constants.settings.contextualconsent.replaceAttributes">
         <source>Replace attributes:Comma-separated list of attributes that should be automatically replaced within the content element of the contextual consent</source>
-        <target state="needs-translation">Replace attributes:Comma-separated list of attributes that should be automatically replaced within the content element of the contextual consent</target>
+        <target state="needs-review-translation" state-qualifier="leveraged-mt">Vervang attributen:Komma-gescheiden lijst van attributen die automatisch moeten worden vervangen binnen het inhoudselement van de contextuele toestemming</target>
       </trans-unit>
-      <trans-unit id="constants.settings.contextualconsent.mainSectionOnly" resname="constants.settings.contextualconsent.mainSectionOnly">
+      <trans-unit id="constants.settings.contextualconsent.mainSectionOnly">
         <source>Main section only:Activate this option if the contextual consent box should only be limited to the main content (without heading and footer).</source>
-        <target state="needs-translation">Main section only:Activate this option if the contextual consent box should only be limited to the main content (without heading and footer).</target>
+        <target state="needs-review-translation" state-qualifier="leveraged-mt">Alleen hoofdsectie: Activeer deze optie als het vak contextuele toestemming alleen moet worden beperkt tot de hoofdinhoud (zonder kop en voettekst).</target>
       </trans-unit>
-      <trans-unit id="constants.settings.configuration.disabled" resname="constants.settings.configuration.disabled">
+      <trans-unit id="constants.settings.configuration.disabled">
         <source>Disable Klaro Consent Management</source>
-        <target state="needs-translation">Disable Klaro Consent Management</target>
+        <target state="needs-review-translation" state-qualifier="leveraged-mt">Klaro toestemmingsbeheer uitschakelen</target>
       </trans-unit>
     </body>
   </file>
