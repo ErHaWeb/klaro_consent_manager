@@ -10,9 +10,9 @@
         <source>Accept selected</source>
         <target state="final">قبول المحدد</target>
       </trans-unit>
-      <trans-unit id="close">
+      <trans-unit id="close" approved="yes">
         <source>Close</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">أغلق</target>
+        <target state="final">أغلق</target>
       </trans-unit>
       <trans-unit id="consentModal.description" approved="yes">
         <source>Here you can assess and customize the services that we'd like to use on this website. You're in charge! Enable or disable services as you see fit.</source>
@@ -22,9 +22,9 @@
         <source>Services we would like to use</source>
         <target state="final">الخدمات التي نود استخدامها</target>
       </trans-unit>
-      <trans-unit id="consentNotice.changeDescription">
+      <trans-unit id="consentNotice.changeDescription" approved="yes">
         <source>There were changes since your last visit, please renew your consent.</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">حدثت تغييرات منذ زيارتك الأخيرة، يرجى تجديد موافقتك.</target>
+        <target state="final">حدثت تغييرات منذ زيارتك الأخيرة، يرجى تجديد موافقتك.</target>
       </trans-unit>
       <trans-unit id="consentNotice.description" approved="yes">
         <source>Hi! Could we please enable some additional services for {purposes}? You can always change or withdraw your consent later.</source>
@@ -34,57 +34,57 @@
         <source>Let me choose</source>
         <target state="final">دعوني أختار</target>
       </trans-unit>
-      <trans-unit id="consentNotice.testing">
+      <trans-unit id="consentNotice.testing" approved="yes">
         <source>Testing mode!</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">وضع الاختبار!</target>
+        <target state="final">وضع الاختبار!</target>
       </trans-unit>
-      <trans-unit id="consentNotice.title">
+      <trans-unit id="consentNotice.title" approved="yes">
         <source>Cookie Consent</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">موافقة الكوكي</target>
+        <target state="final">موافقة الكوكي</target>
       </trans-unit>
-      <trans-unit id="contextualConsent.acceptAlways">
+      <trans-unit id="contextualConsent.acceptAlways" approved="yes">
         <source>Always</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">دائما</target>
+        <target state="final">دائما</target>
       </trans-unit>
-      <trans-unit id="contextualConsent.acceptOnce">
+      <trans-unit id="contextualConsent.acceptOnce" approved="yes">
         <source>Yes</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">نعم</target>
+        <target state="final">نعم</target>
       </trans-unit>
-      <trans-unit id="contextualConsent.description">
+      <trans-unit id="contextualConsent.description" approved="yes">
         <source>Do you want to load external content supplied by {title}?</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">هل تريد تحميل المحتوى الخارجي الذي يوفره {title}؟</target>
+        <target state="final">هل تريد تحميل المحتوى الخارجي الذي يوفره {title}؟</target>
       </trans-unit>
       <trans-unit id="contextualConsent.descriptionEmptyStore" approved="yes">
         <source>To agree to this service permanently, you must accept {title} in the {link}.</source>
         <target state="final">للموافقة على هذه الخدمة بشكل دائم، يجب عليك قبول {title} في {link}.</target>
       </trans-unit>
-      <trans-unit id="contextualConsent.modalLinkText">
+      <trans-unit id="contextualConsent.modalLinkText" approved="yes">
         <source>Consent Manager</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">مدير الموافقة</target>
+        <target state="final">مدير الموافقة</target>
       </trans-unit>
-      <trans-unit id="decline">
+      <trans-unit id="decline" approved="yes">
         <source>I decline</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">أنا أرفض</target>
+        <target state="final">أنا أرفض</target>
       </trans-unit>
-      <trans-unit id="ok">
+      <trans-unit id="ok" approved="yes">
         <source>That's ok</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">هذا حسنًا</target>
+        <target state="final">هذا حسنًا</target>
       </trans-unit>
       <trans-unit id="poweredBy" approved="yes">
         <source>Realized with Klaro!</source>
         <target state="final">تحقق مع كلارو!</target>
       </trans-unit>
-      <trans-unit id="privacyPolicy.name">
+      <trans-unit id="privacyPolicy.name" approved="yes">
         <source>privacy policy</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">سياسة الخصوصية</target>
+        <target state="final">سياسة الخصوصية</target>
       </trans-unit>
-      <trans-unit id="privacyPolicy.text">
+      <trans-unit id="privacyPolicy.text" approved="yes">
         <source>To learn more, please read our {privacyPolicy}.</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">لمعرفة المزيد، يرجى قراءة {privacyPolicy} الخاص بنا.</target>
+        <target state="final">لمعرفة المزيد، يرجى قراءة {privacyPolicy} الخاص بنا.</target>
       </trans-unit>
-      <trans-unit id="purposeItem.service">
+      <trans-unit id="purposeItem.service" approved="yes">
         <source>service</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">خدمة</target>
+        <target state="final">خدمة</target>
       </trans-unit>
       <trans-unit id="purposeItem.services" approved="yes">
         <source>services</source>
@@ -94,14 +94,13 @@
         <source>These services process personal information to show you personalized or interest-based advertisements.</source>
         <target state="final">تقوم هذه الخدمات بتجهيز المعلومات الشخصية لإظهار إعلاناتك الشخصية أو القائمة على الاهتمام.</target>
       </trans-unit>
-      <trans-unit id="purposes.advertising.title">
+      <trans-unit id="purposes.advertising.title" approved="yes">
         <source>Advertising</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">الإعلان</target>
+        <target state="final">الإعلان</target>
       </trans-unit>
       <trans-unit id="purposes.functional.description" approved="yes">
-        <source>These services are essential for the correct functioning of this website. You cannot disable them here as the service would not work correctly otherwise.
-</source>
-        <target state="final">هذه الخدمات ضرورية للتشغيل السليم لهذا الموقع. لا يمكنك تعطيلها هنا لأن الخدمة لن تعمل بشكل صحيح بخلاف ذلك.</target>
+        <source>These services are essential for the correct functioning of this website. You cannot disable them here as the service would not work correctly otherwise.</source>
+        <target state="final">هذه الخدمات ضرورية لتشغيل هذا الموقع بشكل صحيح. لا يمكنك تعطيلها هنا لأن الخدمة لن تعمل بشكل صحيح خلاف ذلك.</target>
       </trans-unit>
       <trans-unit id="purposes.functional.title" approved="yes">
         <source>Service Provision</source>
@@ -111,22 +110,21 @@
         <source>These services process personal information to show you relevant content about products, services or topics that you might be interested in.</source>
         <target state="final">تقوم هذه الخدمات بتجهيز المعلومات الشخصية لإظهار المحتوى ذي الصلة حول المنتجات أو الخدمات أو المواضيع التي قد تكون مهتمة بها.</target>
       </trans-unit>
-      <trans-unit id="purposes.marketing.title">
+      <trans-unit id="purposes.marketing.title" approved="yes">
         <source>Marketing</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">التسويق</target>
+        <target state="final">التسويق</target>
       </trans-unit>
       <trans-unit id="purposes.performance.description" approved="yes">
-        <source>These services process personal information to optimize the service that this website offers.
-</source>
-        <target state="final">تقوم هذه الخدمات بمعالجة المعلومات الشخصية من أجل تحسين الخدمة التي يقدمها هذا الموقع.</target>
+        <source>These services process personal information to optimize the service that this website offers.</source>
+        <target state="final">تقوم هذه الخدمات بتجهيز المعلومات الشخصية لتحسين الخدمة التي يقدمها هذا الموقع.</target>
       </trans-unit>
-      <trans-unit id="purposes.performance.title">
+      <trans-unit id="purposes.performance.title" approved="yes">
         <source>Performance Optimization</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">تحسين الأداء</target>
+        <target state="final">تحسين الأداء</target>
       </trans-unit>
-      <trans-unit id="save">
+      <trans-unit id="save" approved="yes">
         <source>Save</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">حفظ</target>
+        <target state="final">حفظ</target>
       </trans-unit>
       <trans-unit id="service.disableAll.description" approved="yes">
         <source>Use this switch to enable or disable all services.</source>
@@ -140,89 +138,89 @@
         <source>This services is loaded by default (but you can opt out)</source>
         <target state="final">يتم تحميل هذه الخدمات بشكل افتراضي (ولكن يمكنك الخروج من الخدمة)</target>
       </trans-unit>
-      <trans-unit id="service.optOut.title">
+      <trans-unit id="service.optOut.title" approved="yes">
         <source>(opt-out)</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">(الاختيار المستبعد)</target>
+        <target state="final">(الاختيار المستبعد)</target>
       </trans-unit>
-      <trans-unit id="service.purpose">
+      <trans-unit id="service.purpose" approved="yes">
         <source>purpose</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">الغرض</target>
+        <target state="final">الغرض</target>
       </trans-unit>
-      <trans-unit id="service.purposes">
+      <trans-unit id="service.purposes" approved="yes">
         <source>purposes</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">الأغراض</target>
+        <target state="final">الأغراض</target>
       </trans-unit>
       <trans-unit id="service.required.description" approved="yes">
         <source>This services is always required</source>
         <target state="final">هذه الخدمات مطلوبة دائماً</target>
       </trans-unit>
-      <trans-unit id="service.required.title">
+      <trans-unit id="service.required.title" approved="yes">
         <source>(always required)</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">(مطلوبة دائما)</target>
+        <target state="final">(مطلوبة دائما)</target>
       </trans-unit>
-      <trans-unit id="purposes.analytics.title">
+      <trans-unit id="purposes.analytics.title" approved="yes">
         <source>Analytics</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">التحليلات</target>
+        <target state="final">التحليلات</target>
       </trans-unit>
       <trans-unit id="purposes.analytics.description" approved="yes">
         <source>These services gather anonymous data for statistical analysis and performance optimization. Enabling analytics services assists website owners in making informed decisions to enhance online services.</source>
         <target state="final">وتجمع هذه الخدمات بيانات مجهولة المصدر من أجل التحليل الإحصائي وتحسين الأداء. وتساعد خدمات التحليل التمكينية أصحاب المواقع الشبكية في اتخاذ قرارات مستنيرة لتعزيز الخدمات على الإنترنت.</target>
       </trans-unit>
-      <trans-unit id="purposes.security.title">
+      <trans-unit id="purposes.security.title" approved="yes">
         <source>Security</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">أمان</target>
+        <target state="final">أمان</target>
       </trans-unit>
       <trans-unit id="purposes.security.description" approved="yes">
         <source>Security services are crucial for safeguarding your online experience. These services help protect your data and privacy by detecting and preventing security threats, such as malware, phishing attempts, and unauthorized access. They ensure a safer browsing environment.</source>
         <target state="final">خدمات الأمان حاسمة للحفاظ على تجربتك عبر الإنترنت. هذه الخدمات تساعد على حماية بياناتك وخصوصيتك من خلال الكشف عن التهديدات الأمنية ومنعها، مثل البرامج الضارة ومحاولات التصيد الاحتيالي والوصول غير المصرح به. فهي تضمن بيئة تصفح أكثر أمانا.</target>
       </trans-unit>
-      <trans-unit id="purposes.livechat.title">
+      <trans-unit id="purposes.livechat.title" approved="yes">
         <source>Live Chat</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">دردشة حية</target>
+        <target state="final">دردشة حية</target>
       </trans-unit>
       <trans-unit id="purposes.livechat.description" approved="yes">
         <source>Live chat services enable real-time communication with website support teams. They offer a convenient way to ask questions, seek assistance, or engage in discussions while browsing a website. Live chat enhances your online interaction and customer support experience.</source>
         <target state="final">خدمات الدردشة الحية تمكن الاتصال الفوري مع أفرقة دعم الموقع. فهي توفر طريقة مناسبة لطرح الأسئلة، أو التماس المساعدة، أو المشاركة في المناقشات أثناء تصفح الموقع. المحادثة الحية تعزز تفاعلك عبر الإنترنت وتجربة دعم العملاء.</target>
       </trans-unit>
-      <trans-unit id="purposes.styling.title">
+      <trans-unit id="purposes.styling.title" approved="yes">
         <source>Styling</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">النمط</target>
+        <target state="final">النمط</target>
       </trans-unit>
       <trans-unit id="purposes.styling.description" approved="yes">
         <source>Services related to styling help to improve the appearance of the website. This can also have an impact on usability.</source>
         <target state="final">الخدمات ذات الصلة بالمساعدة في تصميم المواقع لتحسين مظهر الموقع. ويمكن أن يكون لذلك أيضا تأثير على إمكانية الاستخدام.</target>
       </trans-unit>
-      <trans-unit id="purposes.videos.title">
+      <trans-unit id="purposes.videos.title" approved="yes">
         <source>Videos</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">فيديوهات</target>
+        <target state="final">فيديوهات</target>
       </trans-unit>
-      <trans-unit id="purposes.videos.description">
+      <trans-unit id="purposes.videos.description" approved="yes">
         <source>Embedding videos from external platforms to enrich the content on this website.</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">تضمين مقاطع الفيديو من المنصات الخارجية لإثراء المحتوى على هذا الموقع.</target>
+        <target state="final">تضمين مقاطع الفيديو من المنصات الخارجية لإثراء المحتوى على هذا الموقع.</target>
       </trans-unit>
-      <trans-unit id="purposes.social.title">
+      <trans-unit id="purposes.social.title" approved="yes">
         <source>Social Media</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">وسائل التواصل الاجتماعي</target>
+        <target state="final">وسائل التواصل الاجتماعي</target>
       </trans-unit>
-      <trans-unit id="purposes.social.description">
+      <trans-unit id="purposes.social.description" approved="yes">
         <source>Embedding social media from external platforms to enrich the content on this website.</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">تضمين وسائل التواصل الاجتماعي من المنصات الخارجية لإثراء المحتوى على هذا الموقع.</target>
+        <target state="final">تضمين وسائل التواصل الاجتماعي من المنصات الخارجية لإثراء المحتوى على هذا الموقع.</target>
       </trans-unit>
-      <trans-unit id="purposes.misc.title">
+      <trans-unit id="purposes.misc.title" approved="yes">
         <source>Miscellaneous</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">متنوعات</target>
+        <target state="final">متنوعات</target>
       </trans-unit>
       <trans-unit id="purposes.misc.description" approved="yes">
         <source>This includes services that do not fall under the other purposes.</source>
         <target state="final">ويشمل ذلك الخدمات التي لا تندرج ضمن الأغراض الأخرى.</target>
       </trans-unit>
-      <trans-unit id="consentManager.show">
+      <trans-unit id="consentManager.show" approved="yes">
         <source>Show Consent Manager</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">إظهار مدير الموافقة</target>
+        <target state="final">إظهار مدير الموافقة</target>
       </trans-unit>
-      <trans-unit id="consentManager.reset">
+      <trans-unit id="consentManager.reset" approved="yes">
         <source>Reset Consent Manager</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">إعادة تعيين مدير الموافقة</target>
+        <target state="final">إعادة تعيين مدير الموافقة</target>
       </trans-unit>
       <trans-unit id="services.adsense.title" approved="yes">
         <source>Google AdSense</source>
@@ -232,9 +230,9 @@
         <source>Google AdSense enables personalized ads on websites while respecting user privacy. By consenting, you allow relevant ads and help support free content.</source>
         <target state="final">جوجل AdSense يمكن الإعلانات المخصصة على مواقع الويب مع احترام خصوصية المستخدم. عن طريق الموافقة، يمكنك السماح بالإعلانات ذات الصلة والمساعدة في دعم المحتوى المجاني.</target>
       </trans-unit>
-      <trans-unit id="services.camera.title">
+      <trans-unit id="services.camera.title" approved="yes">
         <source>Surveillance Camera</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">كاميرا المراقبة</target>
+        <target state="final">كاميرا المراقبة</target>
       </trans-unit>
       <trans-unit id="services.camera.description" approved="yes">
         <source>Consent to the use of surveillance camera images for security and safety purposes, in compliance with applicable data privacy regulations.</source>
@@ -244,21 +242,21 @@
         <source>Microsoft Clarity</source>
         <target state="final">Microsoft Clarity</target>
       </trans-unit>
-      <trans-unit id="services.clarity.description">
+      <trans-unit id="services.clarity.description" approved="yes">
         <source>Microsoft Clarity is a user-friendly web analytics tool that empowers website visitors like you by providing transparency about how your interactions are tracked on a website. It ensures your privacy is respected while giving developers and website owners valuable insights into user behavior. Plus, it follows coding guidelines and best practices, ensuring a safe and secure online experience for you.</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">مايكروسوفت الوضوح هو أداة تحليلات ويب سهلة الاستخدام تمكن زوار الموقع مثلك من خلال توفير الشفافية حول كيفية تتبع تفاعلاتك على موقع على شبكة الإنترنت. يضمن احترام خصوصيتك مع إعطاء المطورين وأصحاب الموقع رؤى قيمة لسلوك المستخدم. بالإضافة إلى ذلك، فإنه يتبع المبادئ التوجيهية للبرمجة وأفضل الممارسات، مما يضمن لك تجربة مأمونة وآمنة على الإنترنت.</target>
+        <target state="final">مايكروسوفت الوضوح هو أداة تحليلات ويب سهلة الاستخدام تمكن زوار الموقع مثلك من خلال توفير الشفافية حول كيفية تتبع تفاعلاتك على موقع على شبكة الإنترنت. يضمن احترام خصوصيتك مع إعطاء المطورين وأصحاب الموقع رؤى قيمة لسلوك المستخدم. بالإضافة إلى ذلك، فإنه يتبع المبادئ التوجيهية للبرمجة وأفضل الممارسات، مما يضمن لك تجربة مأمونة وآمنة على الإنترنت.</target>
       </trans-unit>
       <trans-unit id="services.cloudflare.title" approved="yes">
         <source>Cloudflare</source>
         <target state="final">كلاودفلاري</target>
       </trans-unit>
-      <trans-unit id="services.cloudflare.description">
+      <trans-unit id="services.cloudflare.description" approved="yes">
         <source>Cloudflare helps protect and optimize websites. By using this website, you consent to Cloudflare's data processing practices as described in its Privacy Policy.</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">السحابة تساعد في حماية المواقع وتحسينها. باستخدام هذا الموقع، فإنك توافق على ممارسات معالجة البيانات على النحو الموصوف في سياسة الخصوصية الخاصة بها.</target>
+        <target state="final">السحابة تساعد في حماية المواقع وتحسينها. باستخدام هذا الموقع، فإنك توافق على ممارسات معالجة البيانات على النحو الموصوف في سياسة الخصوصية الخاصة بها.</target>
       </trans-unit>
-      <trans-unit id="services.external-tracker.title">
+      <trans-unit id="services.external-tracker.title" approved="yes">
         <source>External Tracker</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">متتبع خارجي</target>
+        <target state="final">متتبع خارجي</target>
       </trans-unit>
       <trans-unit id="services.external-tracker.description" approved="yes">
         <source>External tracking script</source>
@@ -268,9 +266,9 @@
         <source>Facebook Pixel</source>
         <target state="final">فيسبوك بكسل</target>
       </trans-unit>
-      <trans-unit id="services.facebook-pixel.description">
+      <trans-unit id="services.facebook-pixel.description" approved="yes">
         <source>Simplifies web tracking for analytics and marketing while ensuring data compliance and control.</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">ويبسط التتبع الشبكي لأغراض التحليل والتسويق، ويكفل في الوقت نفسه الامتثال للبيانات ومراقبتها.</target>
+        <target state="final">ويبسط التتبع الشبكي لأغراض التحليل والتسويق، ويكفل في الوقت نفسه الامتثال للبيانات ومراقبتها.</target>
       </trans-unit>
       <trans-unit id="services.fast-fonts.title" approved="yes">
         <source>Fast Fonts</source>
@@ -320,13 +318,13 @@
         <source>Google Tag Manager streamlines web tracking and code management, ensuring data compliance and control for developers.</source>
         <target state="final">يقوم مدير Google Tag بتبسيط تتبع الويب وإدارة الرموز، وضمان امتثال البيانات والتحكم للمطورين.</target>
       </trans-unit>
-      <trans-unit id="services.inline-tracker.title">
+      <trans-unit id="services.inline-tracker.title" approved="yes">
         <source>Inline Tracker</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">متتبع داخلي</target>
+        <target state="final">متتبع داخلي</target>
       </trans-unit>
-      <trans-unit id="services.inline-tracker.description">
+      <trans-unit id="services.inline-tracker.description" approved="yes">
         <source>Inline tracking script</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">النص التعريفي للتعقب</target>
+        <target state="final">النص التعريفي للتعقب</target>
       </trans-unit>
       <trans-unit id="services.instagram.title" approved="yes">
         <source>Instagram</source>
@@ -340,29 +338,29 @@
         <source>Intercom</source>
         <target state="final">إنتركوم</target>
       </trans-unit>
-      <trans-unit id="services.intercom.description">
+      <trans-unit id="services.intercom.description" approved="yes">
         <source>Chat widget and collecting of visitor statistics</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">أداة الدردشة وجمع إحصائيات الزوار</target>
+        <target state="final">أداة الدردشة وجمع إحصائيات الزوار</target>
       </trans-unit>
-      <trans-unit id="services.matomo.title">
+      <trans-unit id="services.matomo.title" approved="yes">
         <source>Matomo/Piwik</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Matomo/Piwik</target>
+        <target state="final">Matomo/Piwik</target>
       </trans-unit>
-      <trans-unit id="services.matomo.description">
+      <trans-unit id="services.matomo.description" approved="yes">
         <source>Open source software for statistical analysis of visitor accesses</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">برمجيات المصدر المفتوح للتحليل الإحصائي لزيارات الزوار</target>
+        <target state="final">برمجيات المصدر المفتوح للتحليل الإحصائي لزيارات الزوار</target>
       </trans-unit>
-      <trans-unit id="services.mouseflow.title">
+      <trans-unit id="services.mouseflow.title" approved="yes">
         <source>Mouseflow</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">تدفق الفأرة</target>
+        <target state="final">تدفق الفأرة</target>
       </trans-unit>
       <trans-unit id="services.mouseflow.description" approved="yes">
         <source>Real-time user analytics service that helps to understand how visitors interact with our website.</source>
         <target state="final">خدمة تحليلات المستخدمين في الوقت الحقيقي التي تساعد على فهم كيفية تفاعل الزوار مع موقعنا على شبكة الإنترنت.</target>
       </trans-unit>
-      <trans-unit id="services.tiktok.title">
+      <trans-unit id="services.tiktok.title" approved="yes">
         <source>TikTok</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">TikTok</target>
+        <target state="final">TikTok</target>
       </trans-unit>
       <trans-unit id="services.tiktok.description" approved="yes">
         <source>Allows TikTok videos to be embedded. Personal data may be transferred to TikTok and processed in third countries.</source>
@@ -376,9 +374,9 @@
         <source>X (formerly Twitter) is social media platform that allows users to share and interact with short messages and multimedia content. Developers can integrate Twitter features into websites to enhance user engagement and real-time updates while maintaining data privacy compliance and adhering to coding guidelines.</source>
         <target state="final">X(تويتر سابقاً) هو منصة وسائل التواصل الاجتماعي التي تسمح للمستخدمين بالمشاركة والتفاعل مع الرسائل القصيرة ومحتوى الوسائط المتعددة. يمكن للمطورين دمج ميزات تويتر في مواقع الويب لتعزيز مشاركة المستخدم والتحديثات في الوقت الحقيقي مع الحفاظ على الامتثال لخصوصية البيانات والتقيد بمبادئ البرمجة.</target>
       </trans-unit>
-      <trans-unit id="services.userlike.title">
+      <trans-unit id="services.userlike.title" approved="yes">
         <source>Userlike</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">مستخدم مشابه</target>
+        <target state="final">مستخدم مشابه</target>
       </trans-unit>
       <trans-unit id="services.userlike.description" approved="yes">
         <source>Userlike offers a live chat solution that enhances user interactions on websites.</source>
@@ -388,9 +386,9 @@
         <source>Vimeo</source>
         <target state="final">Vimeo</target>
       </trans-unit>
-      <trans-unit id="services.vimeo.description">
+      <trans-unit id="services.vimeo.description" approved="yes">
         <source>Popular video-sharing platform that offers a range of features for creators and developers to enhance video content on websites.</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">منصة مشاركة الفيديو الشعبية التي توفر مجموعة من الميزات للمبدعين والمطورين لتحسين محتوى الفيديو على المواقع.</target>
+        <target state="final">منصة مشاركة الفيديو الشعبية التي توفر مجموعة من الميزات للمبدعين والمطورين لتحسين محتوى الفيديو على المواقع.</target>
       </trans-unit>
       <trans-unit id="services.youtube.title" approved="yes">
         <source>YouTube</source>
@@ -400,97 +398,97 @@
         <source>The leading video-sharing platform for content creators and developers to enhance user experiences on websites.</source>
         <target state="final">منصة مشاركة الفيديو الرائدة لمبتكري المحتوى والمطورين لتعزيز تجارب المستخدمين على مواقع الويب.</target>
       </trans-unit>
-      <trans-unit id="consentModal.privacyPolicy.name">
+      <trans-unit id="consentModal.privacyPolicy.name" approved="yes">
         <source>Privacy policy</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">سياسة الخصوصية</target>
+        <target state="final">سياسة الخصوصية</target>
       </trans-unit>
-      <trans-unit id="consentModal.privacyPolicy.text">
+      <trans-unit id="consentModal.privacyPolicy.text" approved="yes">
         <source>To learn more, please read our {privacyPolicy}.</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">لمعرفة المزيد، يرجى قراءة {privacyPolicy} الخاص بنا.</target>
+        <target state="final">لمعرفة المزيد، يرجى قراءة {privacyPolicy} الخاص بنا.</target>
       </trans-unit>
-      <trans-unit id="consentNotice.imprint.name">
+      <trans-unit id="consentNotice.imprint.name" approved="yes">
         <source>Imprint</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">بصمة</target>
+        <target state="final">بصمة</target>
       </trans-unit>
-      <trans-unit id="consentNotice.privacyPolicy.name">
+      <trans-unit id="consentNotice.privacyPolicy.name" approved="yes">
         <source>Privacy policy</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">سياسة الخصوصية</target>
+        <target state="final">سياسة الخصوصية</target>
       </trans-unit>
-      <trans-unit id="cookies.title">
+      <trans-unit id="cookies.title" approved="yes">
         <source>Cookies</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">الكعكات</target>
+        <target state="final">الكعكات</target>
       </trans-unit>
-      <trans-unit id="cookies.description">
+      <trans-unit id="cookies.description" approved="yes">
         <source>Below you will find a list of all cookies used by %s</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">ستجد أدناه قائمة بجميع ملفات تعريف الارتباط المستخدمة من قبل %s</target>
+        <target state="final">ستجد أدناه قائمة بجميع ملفات تعريف الارتباط المستخدمة من قبل %s</target>
       </trans-unit>
-      <trans-unit id="cookies.headline.name">
+      <trans-unit id="cookies.headline.name" approved="yes">
         <source>Name / Pattern</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">الاسم / النمط</target>
+        <target state="final">الاسم / النمط</target>
       </trans-unit>
-      <trans-unit id="cookies.headline.path">
+      <trans-unit id="cookies.headline.path" approved="yes">
         <source>Path</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">المسار</target>
+        <target state="final">المسار</target>
       </trans-unit>
-      <trans-unit id="cookies.headline.domain">
+      <trans-unit id="cookies.headline.domain" approved="yes">
         <source>Domain</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">النطاق</target>
+        <target state="final">النطاق</target>
       </trans-unit>
       <trans-unit id="cookies.headline.expiresAfter" approved="yes">
         <source>Expires after</source>
         <target state="final">تنتهي الصلاحية بعد</target>
       </trans-unit>
-      <trans-unit id="year">
+      <trans-unit id="year" approved="yes">
         <source>Year</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">السنة</target>
+        <target state="final">السنة</target>
       </trans-unit>
-      <trans-unit id="years">
+      <trans-unit id="years" approved="yes">
         <source>Years</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">سنوات</target>
+        <target state="final">سنوات</target>
       </trans-unit>
-      <trans-unit id="month">
+      <trans-unit id="month" approved="yes">
         <source>Month</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">شهر</target>
+        <target state="final">شهر</target>
       </trans-unit>
-      <trans-unit id="months">
+      <trans-unit id="months" approved="yes">
         <source>Months</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">شهور</target>
+        <target state="final">شهور</target>
       </trans-unit>
-      <trans-unit id="day">
+      <trans-unit id="day" approved="yes">
         <source>Day</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">يوم</target>
+        <target state="final">يوم</target>
       </trans-unit>
-      <trans-unit id="days">
+      <trans-unit id="days" approved="yes">
         <source>Days</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">أيام</target>
+        <target state="final">أيام</target>
       </trans-unit>
-      <trans-unit id="hour">
+      <trans-unit id="hour" approved="yes">
         <source>Hour</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">ساعة</target>
+        <target state="final">ساعة</target>
       </trans-unit>
-      <trans-unit id="hours">
+      <trans-unit id="hours" approved="yes">
         <source>Hours</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">الساعات</target>
+        <target state="final">الساعات</target>
       </trans-unit>
-      <trans-unit id="minute">
+      <trans-unit id="minute" approved="yes">
         <source>Minute</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">دقيقة</target>
+        <target state="final">دقيقة</target>
       </trans-unit>
-      <trans-unit id="minutes">
+      <trans-unit id="minutes" approved="yes">
         <source>Minutes</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">دقائق</target>
+        <target state="final">دقائق</target>
       </trans-unit>
-      <trans-unit id="second">
+      <trans-unit id="second" approved="yes">
         <source>Second</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">الثاني</target>
+        <target state="final">الثاني</target>
       </trans-unit>
-      <trans-unit id="seconds">
+      <trans-unit id="seconds" approved="yes">
         <source>Seconds</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">ثواني</target>
+        <target state="final">ثواني</target>
       </trans-unit>
-      <trans-unit id="end-of-session">
+      <trans-unit id="end-of-session" approved="yes">
         <source>End of session</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">نهاية الدورة</target>
+        <target state="final">نهاية الدورة</target>
       </trans-unit>
       <trans-unit id="persistent" approved="yes">
         <source>persistent</source>
