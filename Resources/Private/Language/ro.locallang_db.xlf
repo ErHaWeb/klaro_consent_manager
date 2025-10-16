@@ -3,993 +3,993 @@
   <file source-language="en" original="EXT:klaro_consent_manager/Resources/Private/Language/locallang_db.xlf" datatype="plaintext" product-name="lang" date="2025-10-13T13:41:04+02:00" target-language="ro">
     <header/>
     <body>
-      <trans-unit id="tx_klaroconsentmanager_configuration">
+      <trans-unit id="tx_klaroconsentmanager_configuration" approved="yes">
         <source>Klaro! Configuration</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Klaro! Configuration</target>
+        <target state="final">Klaro! Configuration</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_configuration.I.true">
+      <trans-unit id="tx_klaroconsentmanager_configuration.I.true" approved="yes">
         <source>true</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">adevărat</target>
+        <target state="final">adevărat</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_configuration.I.false">
+      <trans-unit id="tx_klaroconsentmanager_configuration.I.false" approved="yes">
         <source>false</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">fals</target>
+        <target state="final">fals</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_configuration.tabs.general">
+      <trans-unit id="tx_klaroconsentmanager_configuration.tabs.general" approved="yes">
         <source>General</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Generalități</target>
+        <target state="final">Generalități</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_configuration.tabs.layout">
+      <trans-unit id="tx_klaroconsentmanager_configuration.tabs.layout" approved="yes">
         <source>Layout</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Aspect</target>
+        <target state="final">Aspect</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_configuration.tabs.content">
+      <trans-unit id="tx_klaroconsentmanager_configuration.tabs.content" approved="yes">
         <source>Content</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Conținut</target>
+        <target state="final">Conținut</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_configuration.tabs.cookie">
+      <trans-unit id="tx_klaroconsentmanager_configuration.tabs.cookie" approved="yes">
         <source>Cookie</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Cookie</target>
+        <target state="final">Cookie</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_configuration.tabs.advanced">
+      <trans-unit id="tx_klaroconsentmanager_configuration.tabs.advanced" approved="yes">
         <source>Advanced</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Avansat</target>
+        <target state="final">Avansat</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_configuration.tabs.access">
+      <trans-unit id="tx_klaroconsentmanager_configuration.tabs.access" approved="yes">
         <source>Access</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Acces</target>
+        <target state="final">Acces</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_configuration.palettes.general_palette">
+      <trans-unit id="tx_klaroconsentmanager_configuration.palettes.general_palette" approved="yes">
         <source>General</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Generalități</target>
+        <target state="final">Generalități</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_configuration.palettes.setup_palette">
+      <trans-unit id="tx_klaroconsentmanager_configuration.palettes.setup_palette" approved="yes">
         <source>Base Configuration</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Configurare bază</target>
+        <target state="final">Configurare bază</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_configuration.palettes.storage_palette">
+      <trans-unit id="tx_klaroconsentmanager_configuration.palettes.storage_palette" approved="yes">
         <source>Storage</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Depozitare</target>
+        <target state="final">Depozitare</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_configuration.palettes.services_palette">
+      <trans-unit id="tx_klaroconsentmanager_configuration.palettes.services_palette" approved="yes">
         <source>Services</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Servicii</target>
+        <target state="final">Servicii</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_configuration.palettes.cookie_palette">
+      <trans-unit id="tx_klaroconsentmanager_configuration.palettes.cookie_palette" approved="yes">
         <source>Cookie Settings</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Setări cookie</target>
+        <target state="final">Setări cookie</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_configuration.palettes.callback_palette">
+      <trans-unit id="tx_klaroconsentmanager_configuration.palettes.callback_palette" approved="yes">
         <source>Callback</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Callback</target>
+        <target state="final">Callback</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_configuration.palettes.consent_palette">
+      <trans-unit id="tx_klaroconsentmanager_configuration.palettes.consent_palette" approved="yes">
         <source>Default consent status</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Starea consimțământului implicit</target>
+        <target state="final">Starea consimțământului implicit</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_configuration.palettes.display_palette">
+      <trans-unit id="tx_klaroconsentmanager_configuration.palettes.display_palette" approved="yes">
         <source>Other display settings</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Alte setări de afişare</target>
+        <target state="final">Alte setări de afişare</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_configuration.palettes.layout_palette">
+      <trans-unit id="tx_klaroconsentmanager_configuration.palettes.layout_palette" approved="yes">
         <source>Layout settings</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Setări aspect</target>
+        <target state="final">Setări aspect</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_configuration.palettes.behavior_palette">
+      <trans-unit id="tx_klaroconsentmanager_configuration.palettes.behavior_palette" approved="yes">
         <source>Behavior</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Comportament</target>
+        <target state="final">Comportament</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_configuration.palettes.hide_buttons_palette">
+      <trans-unit id="tx_klaroconsentmanager_configuration.palettes.hide_buttons_palette" approved="yes">
         <source>Hide Buttons</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Ascunde butoanele</target>
+        <target state="final">Ascunde butoanele</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_configuration.palettes.append_buttons_palette">
+      <trans-unit id="tx_klaroconsentmanager_configuration.palettes.append_buttons_palette" approved="yes">
         <source>Append Buttons</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Adăugare butoane</target>
+        <target state="final">Adăugare butoane</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_configuration.palettes.access_palette">
+      <trans-unit id="tx_klaroconsentmanager_configuration.palettes.access_palette" approved="yes">
         <source>Access</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Acces</target>
+        <target state="final">Acces</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_configuration.palettes.translations_palette">
+      <trans-unit id="tx_klaroconsentmanager_configuration.palettes.translations_palette" approved="yes">
         <source>Translations</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Traduceri</target>
+        <target state="final">Traduceri</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_configuration.title.label">
+      <trans-unit id="tx_klaroconsentmanager_configuration.title.label" approved="yes">
         <source>Title</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Titlu</target>
+        <target state="final">Titlu</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_configuration.title.description">
+      <trans-unit id="tx_klaroconsentmanager_configuration.title.description" approved="yes">
         <source>Title under which this configuration can be found.</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Titlul sub care se poate gasi aceasta configuratie.</target>
+        <target state="final">Titlul sub care se poate gasi aceasta configuratie.</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_configuration.title.placeholder">
+      <trans-unit id="tx_klaroconsentmanager_configuration.title.placeholder" approved="yes">
         <source>My Klaro! Configuration</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Klaro-ul meu! Configurare</target>
+        <target state="final">Klaro-ul meu! Configurare</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_configuration.testing.label">
+      <trans-unit id="tx_klaroconsentmanager_configuration.testing.label" approved="yes">
         <source>Testing</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Testare</target>
+        <target state="final">Testare</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_configuration.testing.description">
+      <trans-unit id="tx_klaroconsentmanager_configuration.testing.description" approved="yes">
         <source>Setting `testing` to `true` will cause Klaro to not show the consent notice or modal by default, except if a special hashtag is appended to the URL (#klaro-testing). This makes it possible to test Klaro on your live website without affecting normal visitors.</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Setarea `testing` în `true` va face ca Klaro să nu arate acordul de notificare sau modul în mod implicit, cu excepția cazului în care un hashtag special este adăugat la URL (#klaro-testing). Acest lucru face posibilă testarea Klaro pe site-ul dumneavoastră live fără a afecta vizitatorii obişnuiţi.</target>
+        <target state="final">Setarea `testing` în `true` va face ca Klaro să nu arate acordul de notificare sau modul în mod implicit, cu excepția cazului în care un hashtag special este adăugat la URL (#klaro-testing). Acest lucru face posibilă testarea Klaro pe site-ul dumneavoastră live fără a afecta vizitatorii obişnuiţi.</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_configuration.config_variable_name.label">
+      <trans-unit id="tx_klaroconsentmanager_configuration.config_variable_name.label" approved="yes">
         <source>Config Variable Name</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Nume Variabilă Config</target>
+        <target state="final">Nume Variabilă Config</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_configuration.config_variable_name.description">
+      <trans-unit id="tx_klaroconsentmanager_configuration.config_variable_name.description" approved="yes">
         <source>By default, Klaro loads the configuration from a global variable `klaroConfig`. You can change this here. Specifying this field will cause the attribute data-klaro-config="yourConfigVariableName" to be set.</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">În mod implicit, Klaro încarcă configurația dintr-o variabilă globală `klaroConfig`. Poți schimba asta aici. Specificarea acestui câmp va duce la setarea atributului data-klaro-config="yourConfigVariableName".</target>
+        <target state="final">În mod implicit, Klaro încarcă configurația dintr-o variabilă globală `klaroConfig`. Poți schimba asta aici. Specificarea acestui câmp va duce la setarea atributului data-klaro-config="yourConfigVariableName".</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_configuration.config_variable_name.placeholder">
+      <trans-unit id="tx_klaroconsentmanager_configuration.config_variable_name.placeholder" approved="yes">
         <source>klaroConfig</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">KlaroConfig</target>
+        <target state="final">KlaroConfig</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_configuration.element_i_d.label">
+      <trans-unit id="tx_klaroconsentmanager_configuration.element_i_d.label" approved="yes">
         <source>Element ID</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Element ID</target>
+        <target state="final">Element ID</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_configuration.element_i_d.description">
+      <trans-unit id="tx_klaroconsentmanager_configuration.element_i_d.description" approved="yes">
         <source>You can customize the ID of the `div` element that Klaro will create when starting up. By default, Klaro will use "klaro".</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Puteţi personaliza ID-ul elementului `div` pe care Klaro îl va crea la pornire. În mod implicit, Klaro va folosi "klaro".</target>
+        <target state="final">Puteţi personaliza ID-ul elementului `div` pe care Klaro îl va crea la pornire. În mod implicit, Klaro va folosi "klaro".</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_configuration.element_i_d.placeholder">
+      <trans-unit id="tx_klaroconsentmanager_configuration.element_i_d.placeholder" approved="yes">
         <source>klaro</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">klaro</target>
+        <target state="final">klaro</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_configuration.no_auto_load.label">
+      <trans-unit id="tx_klaroconsentmanager_configuration.no_auto_load.label" approved="yes">
         <source>No Auto-Load</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Nici o autoîncărcare</target>
+        <target state="final">Nici o autoîncărcare</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_configuration.no_auto_load.description">
+      <trans-unit id="tx_klaroconsentmanager_configuration.no_auto_load.description" approved="yes">
         <source>Setting this to `true` will keep Klaro from automatically loading itself when the page is being loaded.</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Setarea acestuia pe `true` va împiedica Klaro să se încarce automat atunci când pagina este încărcată.</target>
+        <target state="final">Setarea acestuia pe `true` va împiedica Klaro să se încarce automat atunci când pagina este încărcată.</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_configuration.additional_class.label">
+      <trans-unit id="tx_klaroconsentmanager_configuration.additional_class.label" approved="yes">
         <source>Additional Class</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Clasa Adițională</target>
+        <target state="final">Clasa Adițională</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_configuration.additional_class.description">
+      <trans-unit id="tx_klaroconsentmanager_configuration.additional_class.description" approved="yes">
         <source>You can specify an additional class (or classes) that will be added to the Klaro `div`</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Puteți specifica o clasă suplimentară (sau clase) care va fi adăugată la `div` Klaro</target>
+        <target state="final">Puteți specifica o clasă suplimentară (sau clase) care va fi adăugată la `div` Klaro</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_configuration.additional_class.placeholder">
+      <trans-unit id="tx_klaroconsentmanager_configuration.additional_class.placeholder" approved="yes">
         <source>my-klaro</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">my-klaro</target>
+        <target state="final">my-klaro</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_configuration.storage_method.label">
+      <trans-unit id="tx_klaroconsentmanager_configuration.storage_method.label" approved="yes">
         <source>Storage Method</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Metoda de stocare</target>
+        <target state="final">Metoda de stocare</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_configuration.storage_method.description">
+      <trans-unit id="tx_klaroconsentmanager_configuration.storage_method.description" approved="yes">
         <source>You can customize how Klaro persists consent information in the browser. Specify either `cookie` (the default) or `localStorage`.</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Puteţi personaliza modul în care Klaro continuă să accepte informaţii în browser. Specificaţi fie `cookie` (implicit) fie `stocarea locală`.</target>
+        <target state="final">Puteţi personaliza modul în care Klaro continuă să accepte informaţii în browser. Specificaţi fie `cookie` (implicit) fie `stocarea locală`.</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_configuration.storage_method.I.none">
+      <trans-unit id="tx_klaroconsentmanager_configuration.storage_method.I.none" approved="yes">
         <source>None</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Niciunul</target>
+        <target state="final">Niciunul</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_configuration.storage_method.I.cookie">
+      <trans-unit id="tx_klaroconsentmanager_configuration.storage_method.I.cookie" approved="yes">
         <source>Cookie (default)</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Cookie (implicit)</target>
+        <target state="final">Cookie (implicit)</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_configuration.storage_method.I.localStorage">
+      <trans-unit id="tx_klaroconsentmanager_configuration.storage_method.I.localStorage" approved="yes">
         <source>Local Storage</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Stocare locală</target>
+        <target state="final">Stocare locală</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_configuration.storage_name.label">
+      <trans-unit id="tx_klaroconsentmanager_configuration.storage_name.label" approved="yes">
         <source>Storage Name</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Nume stocare</target>
+        <target state="final">Nume stocare</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_configuration.storage_name.description">
+      <trans-unit id="tx_klaroconsentmanager_configuration.storage_name.description" approved="yes">
         <source>You can customize the name of the cookie or localStorage entry that Klaro will use for storing the consent information. By default, Klaro will use "klaro".</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Puteți personaliza numele cookie-ului sau al intrării locale de stocare pe care Klaro le va utiliza pentru stocarea informațiilor de consimțământ. În mod implicit, Klaro va utiliza "klaro".</target>
+        <target state="final">Puteți personaliza numele cookie-ului sau al intrării locale de stocare pe care Klaro le va utiliza pentru stocarea informațiilor de consimțământ. În mod implicit, Klaro va utiliza "klaro".</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_configuration.storage_name.placeholder">
+      <trans-unit id="tx_klaroconsentmanager_configuration.storage_name.placeholder" approved="yes">
         <source>klaro</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">klaro</target>
+        <target state="final">klaro</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_configuration.html_texts.label">
+      <trans-unit id="tx_klaroconsentmanager_configuration.html_texts.label" approved="yes">
         <source>HTML Texts</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Text HTML</target>
+        <target state="final">Text HTML</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_configuration.html_texts.description">
+      <trans-unit id="tx_klaroconsentmanager_configuration.html_texts.description" approved="yes">
         <source>If set to `true`, Klaro will render the texts given in the `consentModal.description` and `consentNotice.description` translations as HTML. This enables you to e.g. add custom links or interactive content. If you want to be able to output HTML tags via fluid-enriched labels (see "Content" → "Translations"), this option must be enabled.</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Dacă este setat pe `true`, Klaro va afișa textele date în traducerile `consentModal.description` și `consentNotice.description` ca HTML. Acest lucru vă permite să exprimați adaugă link-uri personalizate sau conținut interactiv. Dacă doriţi să puteţi afişa tag-uri HTML prin etichete îmbogăţite cu lichid (vezi "Content" → "Traduceri"), această opţiune trebuie să fie activată.</target>
+        <target state="final">Dacă este setat pe `true`, Klaro va afișa textele date în traducerile `consentModal.description` și `consentNotice.description` ca HTML. Acest lucru vă permite să exprimați adaugă link-uri personalizate sau conținut interactiv. Dacă doriţi să puteţi afişa tag-uri HTML prin etichete îmbogăţite cu lichid (vezi "Content" → "Traduceri"), această opţiune trebuie să fie activată.</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_configuration.embedded.label">
+      <trans-unit id="tx_klaroconsentmanager_configuration.embedded.label" approved="yes">
         <source>Embedded</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Embedded</target>
+        <target state="final">Embedded</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_configuration.embedded.description">
+      <trans-unit id="tx_klaroconsentmanager_configuration.embedded.description" approved="yes">
         <source>Setting "embedded" to `true` will render the Klaro modal and notice without the modal background, allowing you to e.g. embed them into a specific element of your website, such as your privacy notice.</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Setarea "embedded" ca `true` va face Klaro modal şi notice fără fundal modal, permiţându-vă să o faceţi. . le-a încorporat într-un element specific al website-ului, cum ar fi avizul de confidențialitate.</target>
+        <target state="final">Setarea "embedded" ca `true` va face Klaro modal şi notice fără fundal modal, permiţându-vă să o faceţi. . le-a încorporat într-un element specific al website-ului, cum ar fi avizul de confidențialitate.</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_configuration.group_by_purpose.label">
+      <trans-unit id="tx_klaroconsentmanager_configuration.group_by_purpose.label" approved="yes">
         <source>Group by purpose</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Grupare după scop</target>
+        <target state="final">Grupare după scop</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_configuration.group_by_purpose.description">
+      <trans-unit id="tx_klaroconsentmanager_configuration.group_by_purpose.description" approved="yes">
         <source>You can group services by their purpose in the modal. This is advisable if you have a large number of services. Users can then enable or disable entire groups of services instead of having to enable or disable every service.</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Puteți grupa serviciile după scopul lor în modal. Acest lucru este recomandat dacă aveți un număr mare de servicii. Utilizatorii pot apoi activa sau dezactiva grupuri întregi de servicii în loc să trebuiască să activeze sau să dezactiveze fiecare serviciu.</target>
+        <target state="final">Puteți grupa serviciile după scopul lor în modal. Acest lucru este recomandat dacă aveți un număr mare de servicii. Utilizatorii pot apoi activa sau dezactiva grupuri întregi de servicii în loc să trebuiască să activeze sau să dezactiveze fiecare serviciu.</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_configuration.cookie_domain.label">
+      <trans-unit id="tx_klaroconsentmanager_configuration.cookie_domain.label" approved="yes">
         <source>Cookie Domain</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Domeniu cookie</target>
+        <target state="final">Domeniu cookie</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_configuration.cookie_domain.description">
+      <trans-unit id="tx_klaroconsentmanager_configuration.cookie_domain.description" approved="yes">
         <source>You can change the cookie domain for the consent manager itself. Use this if you want to get consent once for multiple matching domains. By default, Klaro will use the current domain. Only relevant if `storageMethod` is set to `cookie`.</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Puteți schimba domeniul cookie-urilor chiar pentru managerul de consimțământ. Utilizați acest lucru dacă doriți să obțineți acordul o dată pentru domenii multiple care se potrivesc. În mod implicit, Klaro va utiliza domeniul curent. Numai relevant dacă `storageMethod` este setat la `cookie`.</target>
+        <target state="final">Puteți schimba domeniul cookie-urilor chiar pentru managerul de consimțământ. Utilizați acest lucru dacă doriți să obțineți acordul o dată pentru domenii multiple care se potrivesc. În mod implicit, Klaro va utiliza domeniul curent. Numai relevant dacă `storageMethod` este setat la `cookie`.</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_configuration.cookie_domain.placeholder">
+      <trans-unit id="tx_klaroconsentmanager_configuration.cookie_domain.placeholder" approved="yes">
         <source>.example.com</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">.example.com</target>
+        <target state="final">.example.com</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_configuration.cookie_path.label">
+      <trans-unit id="tx_klaroconsentmanager_configuration.cookie_path.label" approved="yes">
         <source>Cookie Path</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Cale cookie</target>
+        <target state="final">Cale cookie</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_configuration.cookie_path.description">
+      <trans-unit id="tx_klaroconsentmanager_configuration.cookie_path.description" approved="yes">
         <source>Provide a path if you have services that set cookies for a path that is not "/"</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Oferă o cale dacă ai servicii care setează cookie-uri pentru o cale care nu este "/"</target>
+        <target state="final">Oferă o cale dacă ai servicii care setează cookie-uri pentru o cale care nu este "/"</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_configuration.cookie_path.placeholder">
+      <trans-unit id="tx_klaroconsentmanager_configuration.cookie_path.placeholder" approved="yes">
         <source>/</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">/</target>
+        <target state="final">/</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_configuration.cookie_expires_after_days.label">
+      <trans-unit id="tx_klaroconsentmanager_configuration.cookie_expires_after_days.label" approved="yes">
         <source>Cookie expires after days</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Cookie expiră după zile</target>
+        <target state="final">Cookie expiră după zile</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_configuration.cookie_expires_after_days.description">
+      <trans-unit id="tx_klaroconsentmanager_configuration.cookie_expires_after_days.description" approved="yes">
         <source>You can also set a custom expiration time for the Klaro cookie. By default, it will expire after 60 days. Only relevant if `storageMethod` is set to `cookie`.</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">De asemenea, puteți seta un timp personalizat de expirare pentru cookie Klaro. În mod implicit, va expira după 60 de zile. Doar relevant dacă `storageMethod` este setat la `cookie`.</target>
+        <target state="final">De asemenea, puteți seta un timp personalizat de expirare pentru cookie Klaro. În mod implicit, va expira după 60 de zile. Doar relevant dacă `storageMethod` este setat la `cookie`.</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_configuration.cookie_expires_after_days.placeholder">
+      <trans-unit id="tx_klaroconsentmanager_configuration.cookie_expires_after_days.placeholder" approved="yes">
         <source>30</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">30</target>
+        <target state="final">30</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_configuration.default.label">
+      <trans-unit id="tx_klaroconsentmanager_configuration.default.label" approved="yes">
         <source>Default</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Implicit</target>
+        <target state="final">Implicit</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_configuration.default.description">
+      <trans-unit id="tx_klaroconsentmanager_configuration.default.description" approved="yes">
         <source>Defines the default state for services in the consent modal (`true` = enabled by default). If this setting is set to "false", you can override it in any service.</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Definește starea implicită pentru servicii în modul de consimțământ (`true` = activat implicit). Dacă această setare este setată pe "false", o puteți suprascrie în orice serviciu.</target>
+        <target state="final">Definește starea implicită pentru servicii în modul de consimțământ (`true` = activat implicit). Dacă această setare este setată pe "false", o puteți suprascrie în orice serviciu.</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_configuration.must_consent.label">
+      <trans-unit id="tx_klaroconsentmanager_configuration.must_consent.label" approved="yes">
         <source>Must consent</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Trebuie să consimți</target>
+        <target state="final">Trebuie să consimți</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_configuration.must_consent.description">
+      <trans-unit id="tx_klaroconsentmanager_configuration.must_consent.description" approved="yes">
         <source>If `mustConsent` is set to `true`, Klaro will directly display the consent manager modal and not allow the user to close it before having actively consented or declines the use of third-party services.</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Dacă `mustConsent` este setat la `true`, Klaro va afișa direct modul de administrare a consimțământului și nu va permite utilizatorului să îl închidă înainte de a fi consimțit în mod activ sau refuză utilizarea serviciilor de către terți.</target>
+        <target state="final">Dacă `mustConsent` este setat la `true`, Klaro va afișa direct modul de administrare a consimțământului și nu va permite utilizatorului să îl închidă înainte de a fi consimțit în mod activ sau refuză utilizarea serviciilor de către terți.</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_configuration.accept_all.label">
+      <trans-unit id="tx_klaroconsentmanager_configuration.accept_all.label" approved="yes">
         <source>Accept all</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Acceptă toate</target>
+        <target state="final">Acceptă toate</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_configuration.accept_all.description">
+      <trans-unit id="tx_klaroconsentmanager_configuration.accept_all.description" approved="yes">
         <source>Setting `acceptAll` to `true` will show an "accept all" button in the notice and modal, which will enable all third-party services if the user clicks on it. If set to "false", there will be an "accept" button that will only enable the services that are enabled in the consent modal.</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Setarea `acceptAll` în `true` va afişa un buton "acceptă toate" în notificare şi modal, care va activa toate serviciile de terță parte dacă utilizatorul face clic pe ea. Dacă este setat pe "false", va exista un buton "accept" care va permite doar serviciile care sunt activate în modul de consimțământ.</target>
+        <target state="final">Setarea `acceptAll` în `true` va afişa un buton "acceptă toate" în notificare şi modal, care va activa toate serviciile de terță parte dacă utilizatorul face clic pe ea. Dacă este setat pe "false", va exista un buton "accept" care va permite doar serviciile care sunt activate în modul de consimțământ.</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_configuration.hide_decline_all.label">
+      <trans-unit id="tx_klaroconsentmanager_configuration.hide_decline_all.label" approved="yes">
         <source>Hide Decline All</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Ascunde respingerea tuturor</target>
+        <target state="final">Ascunde respingerea tuturor</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_configuration.hide_decline_all.description">
+      <trans-unit id="tx_klaroconsentmanager_configuration.hide_decline_all.description" approved="yes">
         <source>Setting `hideDeclineAll` to `true` will hide the "decline" button in the consent modal and force the user to open the modal in order to change his/her consent or disable all third-party services. We strongly advise you to not use this feature, as it opposes the "privacy by default" and "privacy by design" principles of the GDPR (but might be acceptable in other legislations such as under the CCPA)</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Setarea `hideDeclineAll` ca `true` va ascunde butonul "decline" în modul de consimţământ şi va forţa utilizatorul să deschidă modul, pentru a-şi schimba consimţământul sau pentru a dezactiva toate serviciile terţe. Te sfătuim cu fermitate să nu folosești această caracteristică, întrucât se opune principiilor de „confidențialitate implicită” și „confidențialitate prin proiectare” din RGPD (dar pot fi acceptabile și în alte legislații, de exemplu în temeiul CCPA)</target>
+        <target state="final">Setarea `hideDeclineAll` ca `true` va ascunde butonul "decline" în modul de consimţământ şi va forţa utilizatorul să deschidă modul, pentru a-şi schimba consimţământul sau pentru a dezactiva toate serviciile terţe. Te sfătuim cu fermitate să nu folosești această caracteristică, întrucât se opune principiilor de „confidențialitate implicită” și „confidențialitate prin proiectare” din RGPD (dar pot fi acceptabile și în alte legislații, de exemplu în temeiul CCPA)</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_configuration.hide_learn_more.label">
+      <trans-unit id="tx_klaroconsentmanager_configuration.hide_learn_more.label" approved="yes">
         <source>Hide Learn More</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Ascunde mai multe</target>
+        <target state="final">Ascunde mai multe</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_configuration.hide_learn_more.description">
+      <trans-unit id="tx_klaroconsentmanager_configuration.hide_learn_more.description" approved="yes">
         <source>Setting `hideLearnMore` to `true` will hide the "learn more / customize" link in the consent notice. We strongly advise against using this under most circumstances, as it keeps the user from customizing his/her consent choices.</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Setarea `hideLearnMore` ca `true` va ascunde link-ul "learn more / customize" în avizul de consimțământ. Ne sfătuim să nu le folosim în cele mai multe circumstanțe, deoarece utilizatorul nu își poate personaliza consimțământul.</target>
+        <target state="final">Setarea `hideLearnMore` ca `true` va ascunde link-ul "learn more / customize" în avizul de consimțământ. Ne sfătuim să nu le folosim în cele mai multe circumstanțe, deoarece utilizatorul nu își poate personaliza consimțământul.</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_configuration.hide_toggle_all.label">
+      <trans-unit id="tx_klaroconsentmanager_configuration.hide_toggle_all.label" approved="yes">
         <source>Hide Toggle All</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Ascunde Toate Comutatoarele</target>
+        <target state="final">Ascunde Toate Comutatoarele</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_configuration.hide_toggle_all.description">
+      <trans-unit id="tx_klaroconsentmanager_configuration.hide_toggle_all.description" approved="yes">
         <source>Setting `hideToggleAll` to `true` will hide the "toggle all" link in the consent notice.</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Setarea `hideToggleAll` în `true` va ascunde link-ul "toggle all" în avizul de aprobare.</target>
+        <target state="final">Setarea `hideToggleAll` în `true` va ascunde link-ul "toggle all" în avizul de aprobare.</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_configuration.notice_as_modal.label">
+      <trans-unit id="tx_klaroconsentmanager_configuration.notice_as_modal.label" approved="yes">
         <source>Notice As Modal</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Notificare ca Modal</target>
+        <target state="final">Notificare ca Modal</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_configuration.notice_as_modal.description">
+      <trans-unit id="tx_klaroconsentmanager_configuration.notice_as_modal.description" approved="yes">
         <source>Show cookie notice as modal</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Arată notificarea cookie ca modală</target>
+        <target state="final">Arată notificarea cookie ca modală</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_configuration.show_notice_title.label">
+      <trans-unit id="tx_klaroconsentmanager_configuration.show_notice_title.label" approved="yes">
         <source>Show title in consent notice</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Arată titlul în anunţul de consimţământ</target>
+        <target state="final">Arată titlul în anunţul de consimţământ</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_configuration.show_notice_title.description">
+      <trans-unit id="tx_klaroconsentmanager_configuration.show_notice_title.description" approved="yes">
         <source>When this option is enabled, Klaro displays the title in the notice modal.</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Când această opțiune este activată, Klaro afișează titlul în modul notificare.</target>
+        <target state="final">Când această opțiune este activată, Klaro afișează titlul în modul notificare.</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_configuration.show_description_empty_store.label">
+      <trans-unit id="tx_klaroconsentmanager_configuration.show_description_empty_store.label" approved="yes">
         <source>Show Description (Empty Store)</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Arată descriere (magazin pty)</target>
+        <target state="final">Arată descriere (magazin pty)</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_configuration.show_description_empty_store.description">
+      <trans-unit id="tx_klaroconsentmanager_configuration.show_description_empty_store.description" approved="yes">
         <source>Show an explanatory text in contextual consent placeholders when no consent storage exists yet (first visit / empty store). This informs users that a permanent decision ("Always") requires allowing Klaro to store consent first. This only has an effect in contextual consent widgets/overlays (e.g. for embedded media) and only if the consent store (cookie/localStorage) is empty.</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Arată un text explicativ în substituenții de consimțământ contextual atunci când nu există încă stocare a consimțământului (prima vizită/magazinul gol). Aceasta informează utilizatorii că o decizie permanentă („întotdeauna”) necesită ca Klaro să stocheze consimțământul mai întâi. Acest lucru are efect numai în widget-urile/suprapunerile consimțământului contextual (de exemplu, pentru mass-media încorporată) și numai dacă magazinul de consimțământ (cookie/localStorage) este gol.</target>
+        <target state="final">Arată un text explicativ în substituenții de consimțământ contextual atunci când nu există încă stocare a consimțământului (prima vizită/magazinul gol). Aceasta informează utilizatorii că o decizie permanentă („întotdeauna”) necesită ca Klaro să stocheze consimțământul mai întâi. Acest lucru are efect numai în widget-urile/suprapunerile consimțământului contextual (de exemplu, pentru mass-media încorporată) și numai dacă magazinul de consimțământ (cookie/localStorage) este gol.</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_configuration.auto_focus.label">
+      <trans-unit id="tx_klaroconsentmanager_configuration.auto_focus.label" approved="yes">
         <source>Auto Focus</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Focalizare automată</target>
+        <target state="final">Focalizare automată</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_configuration.auto_focus.description">
+      <trans-unit id="tx_klaroconsentmanager_configuration.auto_focus.description" approved="yes">
         <source>Automatically focus the Klaro consent notice/modal container when it opens to improve keyboard navigation and accessibility.</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">focalizează automat anunțul de consimțământ Klaro/containerul modal atunci când acesta se deschide pentru îmbunătățirea navigării și accesibilității tastaturii.</target>
+        <target state="final">focalizează automat anunțul de consimțământ Klaro/containerul modal atunci când acesta se deschide pentru îmbunătățirea navigării și accesibilității tastaturii.</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_configuration.disable_powered_by.label">
+      <trans-unit id="tx_klaroconsentmanager_configuration.disable_powered_by.label" approved="yes">
         <source>Disable Powered By</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Dezactivează Powered By</target>
+        <target state="final">Dezactivează Powered By</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_configuration.disable_powered_by.description">
+      <trans-unit id="tx_klaroconsentmanager_configuration.disable_powered_by.description" approved="yes">
         <source>You can also remove the "Realized with Klaro!" text in the consent modal. Please don't do this! We provide Klaro as a free open source tool. Placing a link to our website helps us spread the word about it, which ultimately enables us to make Klaro! better for everyone. So please be fair and keep the link enabled. Thanks :)</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Puteți elimina, de asemenea, textul "Realizat cu Klaro!" din modulul de aprobare. Te rog să nu faci asta! Oferim Klaro ca o unealtă gratuită cu sursă deschisă. Plasarea unui link către site-ul nostru ne ajută să răspândim cuvântul despre el, care în cele din urmă ne permite să facem Klaro! mai bun pentru toată lumea. Așa că te rog să fii corect și să păstrezi legătura activată. Mulțumesc :)</target>
+        <target state="final">Puteți elimina, de asemenea, textul "Realizat cu Klaro!" din modulul de aprobare. Te rog să nu faci asta! Oferim Klaro ca o unealtă gratuită cu sursă deschisă. Plasarea unui link către site-ul nostru ne ajută să răspândim cuvântul despre el, care în cele din urmă ne permite să facem Klaro! mai bun pentru toată lumea. Așa că te rog să fii corect și să păstrezi legătura activată. Mulțumesc :)</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_configuration.services.label">
+      <trans-unit id="tx_klaroconsentmanager_configuration.services.label" approved="yes">
         <source>Services</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Servicii</target>
+        <target state="final">Servicii</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_configuration.services.description">
+      <trans-unit id="tx_klaroconsentmanager_configuration.services.description" approved="yes">
         <source>Here you specify the third-party services that Klaro will manage for you.</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Aici specificați serviciile terțe pe care Klaro le va gestiona pentru dvs.</target>
+        <target state="final">Aici specificați serviciile terțe pe care Klaro le va gestiona pentru dvs.</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_configuration.purpose_order.label">
+      <trans-unit id="tx_klaroconsentmanager_configuration.purpose_order.label" approved="yes">
         <source>Purpose Order</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Ordin scop</target>
+        <target state="final">Ordin scop</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_configuration.purpose_order.description">
+      <trans-unit id="tx_klaroconsentmanager_configuration.purpose_order.description" approved="yes">
         <source>The order in which purposes appear in the notice and modal can be changed via the `purposeOrder` parameter, which can be given a list with purpose names and will display those purposes in the order in which they appear in the list.</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Ordinea în care apar scopurile în notificare şi modul poate fi modificată prin parametrul `scopOrder`, căruia i se poate da o listă cu nume de scopuri şi care va prezenta aceste scopuri în ordinea în care apar pe listă.</target>
+        <target state="final">Ordinea în care apar scopurile în notificare şi modul poate fi modificată prin parametrul `scopOrder`, căruia i se poate da o listă cu nume de scopuri şi care va prezenta aceste scopuri în ordinea în care apar pe listă.</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_configuration.callback.label">
+      <trans-unit id="tx_klaroconsentmanager_configuration.callback.label" approved="yes">
         <source>Callback</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Callback</target>
+        <target state="final">Callback</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_configuration.callback.description">
+      <trans-unit id="tx_klaroconsentmanager_configuration.callback.description" approved="yes">
         <source>You can define an optional callback function that will be called each time the consent state for any given service changes. The consent value will be passed as the first parameter to the function (`true` = consented). The `service` config will be passed as the second parameter. The content of this field is wrapped with `callback: function(consent, service) { }`</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Puteţi defini o funcţie opţională de retroapelare care va fi apelată de fiecare dată când starea de consimţământ pentru orice serviciu dat se modifică. Valoarea consimțământului va fi transmisă ca primul parametru al funcției (`true` = consimțământ). Configurarea `service` va fi pasată ca al doilea parametru. Conţinutul acestui câmp este înfăşurat cu `callback: funcţie, serviciu) { }`</target>
+        <target state="final">Puteţi defini o funcţie opţională de retroapelare care va fi apelată de fiecare dată când starea de consimţământ pentru orice serviciu dat se modifică. Valoarea consimțământului va fi transmisă ca primul parametru al funcției (`true` = consimțământ). Configurarea `service` va fi pasată ca al doilea parametru. Conţinutul acestui câmp este înfăşurat cu `callback: funcţie, serviciu) { }`</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_configuration.locallang_path.label">
+      <trans-unit id="tx_klaroconsentmanager_configuration.locallang_path.label" approved="yes">
         <source>Locallang Path</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Calea Locallang</target>
+        <target state="final">Calea Locallang</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_configuration.locallang_path.description">
+      <trans-unit id="tx_klaroconsentmanager_configuration.locallang_path.description" approved="yes">
         <source>Optional path to an additional XLIFF file that overwrites the default labels or adds new labels (e.g. for custom purposes or services). If fluid templates have been stored for the labels created in this file (see the "Fluid Template Root Path" field), these will overwrite the classic labels from the Locallang file. Nevertheless, it is possible and common to reference the locallang file from the respective fluid template and obtain the actual label there (the label key is passed to the fluid template).</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Calea opțională către un fișier XLIFF suplimentar care suprascrie etichetele implicite sau adaugă etichete noi (de exemplu, pentru scopuri personalizate sau servicii). Dacă au fost stocate șabloane fluide pentru etichetele create în acest fișier (a se vedea câmpul "Root Template Root"), acestea vor suprascrie etichetele clasice din fișierul Locallang. Cu toate acestea, este posibil şi obişnuit să se facă referire la fişierul local din şablonul fluidului respectiv şi să se obţină eticheta efectivă de acolo (eticheta este transferată în şablonul fluidului).</target>
+        <target state="final">Calea opțională către un fișier XLIFF suplimentar care suprascrie etichetele implicite sau adaugă etichete noi (de exemplu, pentru scopuri personalizate sau servicii). Dacă au fost stocate șabloane fluide pentru etichetele create în acest fișier (a se vedea câmpul "Root Template Root"), acestea vor suprascrie etichetele clasice din fișierul Locallang. Cu toate acestea, este posibil şi obişnuit să se facă referire la fişierul local din şablonul fluidului respectiv şi să se obţină eticheta efectivă de acolo (eticheta este transferată în şablonul fluidului).</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_configuration.locallang_path.placeholder">
+      <trans-unit id="tx_klaroconsentmanager_configuration.locallang_path.placeholder" approved="yes">
         <source>EXT:sitepackage/Resources/Private/Language/Klaro/locallang.xlf</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">EXT:sitepackage/Resurse/Private/Language/Klaro/locallang.xlf</target>
+        <target state="final">EXT:sitepackage/Resurse/Private/Language/Klaro/locallang.xlf</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_configuration.fluidtemplate_rootpath.label">
+      <trans-unit id="tx_klaroconsentmanager_configuration.fluidtemplate_rootpath.label" approved="yes">
         <source>Fluid Template Root Path</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Calea şablonului rădăcină al lichidului</target>
+        <target state="final">Calea şablonului rădăcină al lichidului</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_configuration.fluidtemplate_rootpath.description">
+      <trans-unit id="tx_klaroconsentmanager_configuration.fluidtemplate_rootpath.description" approved="yes">
         <source>As an alternative to the usual TypoScript configuration via constants under `plugin.tx_klaroconsentmanager.view`, a Fluid root path can be defined here, which has a higher priority than the paths configured in TypoScript. The three default directories `/Layouts/`, `/Partials/` and `/Templates/` are expected under this path. Fluid templates created here are used to enrich Locallang labels with additional functionality or to replace them completely. In this way, dynamic content or more complex HTML structures can be provided in a simple way. Fluid templates that are to override labels are expected in the subdirectory `/Templates/Labels/`.</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Ca alternativă la configurația obișnuită TypoScript prin constante sub `plugin.tx_klaroconsentmanager. iew", o cale rădăcină Fluid poate fi definită aici, care are o prioritate mai mare decât căile configurate în TypoScript. Cele trei directoare implicite `/Layouts/`, `/Partials/` şi `/Templates/` sunt aşteptate sub această cale. Șabloanele lichide create aici sunt folosite pentru a îmbogăți etichetele Locallang cu funcționalitate suplimentară sau pentru a le înlocui complet. Astfel, conţinutul dinamic sau structurile HTML mai complexe pot fi furnizate într-un mod simplu. Şabloanele fluide care sunt destinate suprascrierii etichetelor sunt aşteptate în subdirectorul `/Templates/Labels/`.</target>
+        <target state="final">Ca alternativă la configurația obișnuită TypoScript prin constante sub `plugin.tx_klaroconsentmanager. iew", o cale rădăcină Fluid poate fi definită aici, care are o prioritate mai mare decât căile configurate în TypoScript. Cele trei directoare implicite `/Layouts/`, `/Partials/` şi `/Templates/` sunt aşteptate sub această cale. Șabloanele lichide create aici sunt folosite pentru a îmbogăți etichetele Locallang cu funcționalitate suplimentară sau pentru a le înlocui complet. Astfel, conţinutul dinamic sau structurile HTML mai complexe pot fi furnizate într-un mod simplu. Şabloanele fluide care sunt destinate suprascrierii etichetelor sunt aşteptate în subdirectorul `/Templates/Labels/`.</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_configuration.fluidtemplate_rootpath.placeholder">
+      <trans-unit id="tx_klaroconsentmanager_configuration.fluidtemplate_rootpath.placeholder" approved="yes">
         <source>EXT:sitepackage/Resources/Private/</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">EXT:sitepack/Resurse/Privat/</target>
+        <target state="final">EXT:sitepack/Resurse/Privat/</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_configuration.alignment.label">
+      <trans-unit id="tx_klaroconsentmanager_configuration.alignment.label" approved="yes">
         <source>Alignment</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Aliniere</target>
+        <target state="final">Aliniere</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_configuration.alignment.description">
+      <trans-unit id="tx_klaroconsentmanager_configuration.alignment.description" approved="yes">
         <source>Determines the alignment of the Consent box if `mustConsent` and `noticeAsModal` are disabled.</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Determină alinierea casetei de consimțământ dacă `mustConsent` și `noticeAsModal` sunt dezactivate.</target>
+        <target state="final">Determină alinierea casetei de consimțământ dacă `mustConsent` și `noticeAsModal` sunt dezactivate.</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_configuration.alignment.I.top-left">
+      <trans-unit id="tx_klaroconsentmanager_configuration.alignment.I.top-left" approved="yes">
         <source>Top-Left</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Top-Stânga</target>
+        <target state="final">Top-Stânga</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_configuration.alignment.I.top-right">
+      <trans-unit id="tx_klaroconsentmanager_configuration.alignment.I.top-right" approved="yes">
         <source>Top-Right</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Dreapta sus</target>
+        <target state="final">Dreapta sus</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_configuration.alignment.I.top-wide">
+      <trans-unit id="tx_klaroconsentmanager_configuration.alignment.I.top-wide" approved="yes">
         <source>Top-Wide</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Lungimea de sus</target>
+        <target state="final">Lungimea de sus</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_configuration.alignment.I.bottom-left">
+      <trans-unit id="tx_klaroconsentmanager_configuration.alignment.I.bottom-left" approved="yes">
         <source>Bottom-Left</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">jos-Stânga</target>
+        <target state="final">jos-Stânga</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_configuration.alignment.I.bottom-right">
+      <trans-unit id="tx_klaroconsentmanager_configuration.alignment.I.bottom-right" approved="yes">
         <source>Bottom-Right</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">jos-dreapta</target>
+        <target state="final">jos-dreapta</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_configuration.alignment.I.bottom-wide">
+      <trans-unit id="tx_klaroconsentmanager_configuration.alignment.I.bottom-wide" approved="yes">
         <source>Bottom-Wide</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">jos-lat</target>
+        <target state="final">jos-lat</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_configuration.alignment.I.top">
+      <trans-unit id="tx_klaroconsentmanager_configuration.alignment.I.top" approved="yes">
         <source>Top</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Sus</target>
+        <target state="final">Sus</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_configuration.alignment.I.bottom">
+      <trans-unit id="tx_klaroconsentmanager_configuration.alignment.I.bottom" approved="yes">
         <source>Bottom</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Jos</target>
+        <target state="final">Jos</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_configuration.alignment.I.left">
+      <trans-unit id="tx_klaroconsentmanager_configuration.alignment.I.left" approved="yes">
         <source>left</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">stânga</target>
+        <target state="final">stânga</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_configuration.alignment.I.right">
+      <trans-unit id="tx_klaroconsentmanager_configuration.alignment.I.right" approved="yes">
         <source>right</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">dreapta</target>
+        <target state="final">dreapta</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_configuration.alignment.I.wide">
+      <trans-unit id="tx_klaroconsentmanager_configuration.alignment.I.wide" approved="yes">
         <source>wide</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">larg</target>
+        <target state="final">larg</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_configuration.color_scheme.label">
+      <trans-unit id="tx_klaroconsentmanager_configuration.color_scheme.label" approved="yes">
         <source>Color Scheme</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Schemă de culori</target>
+        <target state="final">Schemă de culori</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_configuration.color_scheme.description">
+      <trans-unit id="tx_klaroconsentmanager_configuration.color_scheme.description" approved="yes">
         <source>Default color scheme used for the display. The colors can also be overridden later via CSS variables.</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Schema de culori implicită utilizată pentru afișare. Culorile pot fi suprascrise mai târziu prin intermediul variabilelor CSS.</target>
+        <target state="final">Schema de culori implicită utilizată pentru afișare. Culorile pot fi suprascrise mai târziu prin intermediul variabilelor CSS.</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_configuration.color_scheme.I.dark_neutral">
+      <trans-unit id="tx_klaroconsentmanager_configuration.color_scheme.I.dark_neutral" approved="yes">
         <source>Dark (neutral)</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Întunecat (neutru)</target>
+        <target state="final">Întunecat (neutru)</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_configuration.color_scheme.I.light_neutral">
+      <trans-unit id="tx_klaroconsentmanager_configuration.color_scheme.I.light_neutral" approved="yes">
         <source>Light (neutral)</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Lumină (neutră)</target>
+        <target state="final">Lumină (neutră)</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_configuration.color_scheme.I.dark">
+      <trans-unit id="tx_klaroconsentmanager_configuration.color_scheme.I.dark" approved="yes">
         <source>Dark</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Întunecat</target>
+        <target state="final">Întunecat</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_configuration.color_scheme.I.light">
+      <trans-unit id="tx_klaroconsentmanager_configuration.color_scheme.I.light" approved="yes">
         <source>Light</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Lumină</target>
+        <target state="final">Lumină</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_configuration.append_show_button.label">
+      <trans-unit id="tx_klaroconsentmanager_configuration.append_show_button.label" approved="yes">
         <source>Append Show Button</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Adăugare buton Arată</target>
+        <target state="final">Adăugare buton Arată</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_configuration.append_show_button.description">
+      <trans-unit id="tx_klaroconsentmanager_configuration.append_show_button.description" approved="yes">
         <source>If this option is set to `true`, a button is created in the frontend (via JavaScript) directly in front of the closing body tag, which triggers the opening of the Klaro consent management.</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Dacă această opțiune este setată pe `true`, un buton este creat în frontend (prin JavaScript) direct în fața tag-ului de închidere al corpului, care declanșează deschiderea conducerii Klaro de consimțământ.</target>
+        <target state="final">Dacă această opțiune este setată pe `true`, un buton este creat în frontend (prin JavaScript) direct în fața tag-ului de închidere al corpului, care declanșează deschiderea conducerii Klaro de consimțământ.</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_configuration.append_reset_button.label">
+      <trans-unit id="tx_klaroconsentmanager_configuration.append_reset_button.label" approved="yes">
         <source>Append Reset Button</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Adăugare buton de resetare</target>
+        <target state="final">Adăugare buton de resetare</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_configuration.append_reset_button.description">
+      <trans-unit id="tx_klaroconsentmanager_configuration.append_reset_button.description" approved="yes">
         <source>If this option is set to `true`, a button is generated in the frontend (via JavaScript) directly in front of the closing body tag, which triggers the resetting of all settings and the opening of the Klaro consent management.</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Dacă această opțiune este setată pe `true`, un buton este generat în frontend (prin JavaScript) direct în fața tag-ului de închidere al corpului, care declanșează resetarea tuturor setărilor și deschiderea managementului de consimțământ Klaro.</target>
+        <target state="final">Dacă această opțiune este setată pe `true`, un buton este generat în frontend (prin JavaScript) direct în fața tag-ului de închidere al corpului, care declanșează resetarea tuturor setărilor și deschiderea managementului de consimțământ Klaro.</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_configuration.hidden">
+      <trans-unit id="tx_klaroconsentmanager_configuration.hidden" approved="yes">
         <source>Configuration visible</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Configurare vizibilă</target>
+        <target state="final">Configurare vizibilă</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_service">
+      <trans-unit id="tx_klaroconsentmanager_service" approved="yes">
         <source>Klaro! Service</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Klaro! Service</target>
+        <target state="final">Klaro! Service</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_service.tabs.general">
+      <trans-unit id="tx_klaroconsentmanager_service.tabs.general" approved="yes">
         <source>General</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Generalități</target>
+        <target state="final">Generalități</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_service.tabs.cookies">
+      <trans-unit id="tx_klaroconsentmanager_service.tabs.cookies" approved="yes">
         <source>Cookies</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Cookie-uri</target>
+        <target state="final">Cookie-uri</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_service.tabs.toggles">
+      <trans-unit id="tx_klaroconsentmanager_service.tabs.toggles" approved="yes">
         <source>Toggles</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Toggles</target>
+        <target state="final">Toggles</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_service.tabs.advanced">
+      <trans-unit id="tx_klaroconsentmanager_service.tabs.advanced" approved="yes">
         <source>Advanced</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Avansat</target>
+        <target state="final">Avansat</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_service.tabs.access">
+      <trans-unit id="tx_klaroconsentmanager_service.tabs.access" approved="yes">
         <source>Access</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Acces</target>
+        <target state="final">Acces</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_service.palettes.general_palette">
+      <trans-unit id="tx_klaroconsentmanager_service.palettes.general_palette" approved="yes">
         <source>General Settings</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Setări generale</target>
+        <target state="final">Setări generale</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_service.palettes.cookie_palette">
+      <trans-unit id="tx_klaroconsentmanager_service.palettes.cookie_palette" approved="yes">
         <source>Cookie Settings</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Setări cookie</target>
+        <target state="final">Setări cookie</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_service.palettes.toggles_palette">
+      <trans-unit id="tx_klaroconsentmanager_service.palettes.toggles_palette" approved="yes">
         <source>Toggles</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Toggles</target>
+        <target state="final">Toggles</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_service.palettes.advanced_palette">
+      <trans-unit id="tx_klaroconsentmanager_service.palettes.advanced_palette" approved="yes">
         <source>Advanced Settings</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Setări avansate</target>
+        <target state="final">Setări avansate</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_service.palettes.access_palette">
+      <trans-unit id="tx_klaroconsentmanager_service.palettes.access_palette" approved="yes">
         <source>Access</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Acces</target>
+        <target state="final">Acces</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_service.I.true">
+      <trans-unit id="tx_klaroconsentmanager_service.I.true" approved="yes">
         <source>true</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">adevărat</target>
+        <target state="final">adevărat</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_service.I.false">
+      <trans-unit id="tx_klaroconsentmanager_service.I.false" approved="yes">
         <source>false</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">fals</target>
+        <target state="final">fals</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_service.name.label">
+      <trans-unit id="tx_klaroconsentmanager_service.name.label" approved="yes">
         <source>Name</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Nume</target>
+        <target state="final">Nume</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_service.name.description">
+      <trans-unit id="tx_klaroconsentmanager_service.name.description" approved="yes">
         <source>Each service must have a unique name. Klaro will look for HTML elements with a matching `data-name` attribute to identify elements that belong to this service.</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Fiecare serviciu trebuie să aibă un nume unic. Klaro va căuta elemente HTML cu un atribut `data-name` potrivit pentru a identifica elemente care aparţin acestui serviciu.</target>
+        <target state="final">Fiecare serviciu trebuie să aibă un nume unic. Klaro va căuta elemente HTML cu un atribut `data-name` potrivit pentru a identifica elemente care aparţin acestui serviciu.</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_service.name.placeholder">
+      <trans-unit id="tx_klaroconsentmanager_service.name.placeholder" approved="yes">
         <source>matomo</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">matomo</target>
+        <target state="final">matomo</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_service.title.label">
+      <trans-unit id="tx_klaroconsentmanager_service.title.label" approved="yes">
         <source>Title</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Titlu</target>
+        <target state="final">Titlu</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_service.title.description">
+      <trans-unit id="tx_klaroconsentmanager_service.title.description" approved="yes">
         <source>The title defined here is not mandatory and is intended for backend display only.</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Titlul definit aici nu este obligatoriu și este destinat doar afișării backend.</target>
+        <target state="final">Titlul definit aici nu este obligatoriu și este destinat doar afișării backend.</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_service.title.placeholder">
+      <trans-unit id="tx_klaroconsentmanager_service.title.placeholder" approved="yes">
         <source>Matomo/Piwik</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Matomo/Piwik</target>
+        <target state="final">Matomo/Piwik</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_service.name.I.adsense">
+      <trans-unit id="tx_klaroconsentmanager_service.name.I.adsense" approved="yes">
         <source>Google AdSense</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Google AdSense</target>
+        <target state="final">Google AdSense</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_service.name.I.camera">
+      <trans-unit id="tx_klaroconsentmanager_service.name.I.camera" approved="yes">
         <source>Surveillance Camera</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Camera de supraveghere</target>
+        <target state="final">Camera de supraveghere</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_service.name.I.clarity">
+      <trans-unit id="tx_klaroconsentmanager_service.name.I.clarity" approved="yes">
         <source>Microsoft Clarity</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Microsoft Clarity</target>
+        <target state="final">Microsoft Clarity</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_service.name.I.cloudflare">
+      <trans-unit id="tx_klaroconsentmanager_service.name.I.cloudflare" approved="yes">
         <source>Cloudflare</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Cloudflare</target>
+        <target state="final">Cloudflare</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_service.name.I.external-tracker">
+      <trans-unit id="tx_klaroconsentmanager_service.name.I.external-tracker" approved="yes">
         <source>External Tracker</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Urmăritor extern</target>
+        <target state="final">Urmăritor extern</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_service.name.I.facebook-pixel">
+      <trans-unit id="tx_klaroconsentmanager_service.name.I.facebook-pixel" approved="yes">
         <source>Facebook Pixel</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Pixel Facebook</target>
+        <target state="final">Pixel Facebook</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_service.name.I.fast-fonts">
+      <trans-unit id="tx_klaroconsentmanager_service.name.I.fast-fonts" approved="yes">
         <source>Fast Fonts</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Fast Fonts</target>
+        <target state="final">Fast Fonts</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_service.name.I.google-ads">
+      <trans-unit id="tx_klaroconsentmanager_service.name.I.google-ads" approved="yes">
         <source>Google Ads</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Google Reclame</target>
+        <target state="final">Google Reclame</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_service.name.I.google-analytics">
+      <trans-unit id="tx_klaroconsentmanager_service.name.I.google-analytics" approved="yes">
         <source>Google Analytics</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Google Analytics</target>
+        <target state="final">Google Analytics</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_service.name.I.google-fonts">
+      <trans-unit id="tx_klaroconsentmanager_service.name.I.google-fonts" approved="yes">
         <source>Google Fonts</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Fonturi Google</target>
+        <target state="final">Fonturi Google</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_service.name.I.google-maps">
+      <trans-unit id="tx_klaroconsentmanager_service.name.I.google-maps" approved="yes">
         <source>Google Maps</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Hărţi Google</target>
+        <target state="final">Hărţi Google</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_service.name.I.google-tag-manager">
+      <trans-unit id="tx_klaroconsentmanager_service.name.I.google-tag-manager" approved="yes">
         <source>Google Tag Manager</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Manager Google Tag</target>
+        <target state="final">Manager Google Tag</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_service.name.I.inline-tracker">
+      <trans-unit id="tx_klaroconsentmanager_service.name.I.inline-tracker" approved="yes">
         <source>Inline Tracker</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Tracker Inline</target>
+        <target state="final">Tracker Inline</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_service.name.I.instagram">
+      <trans-unit id="tx_klaroconsentmanager_service.name.I.instagram" approved="yes">
         <source>Instagram</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Instagram</target>
+        <target state="final">Instagram</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_service.name.I.intercom">
+      <trans-unit id="tx_klaroconsentmanager_service.name.I.intercom" approved="yes">
         <source>Intercom</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Intercom</target>
+        <target state="final">Intercom</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_service.name.I.matomo">
+      <trans-unit id="tx_klaroconsentmanager_service.name.I.matomo" approved="yes">
         <source>Matomo/Piwik</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Matomo/Piwik</target>
+        <target state="final">Matomo/Piwik</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_service.name.I.mouseflow">
+      <trans-unit id="tx_klaroconsentmanager_service.name.I.mouseflow" approved="yes">
         <source>Mouseflow</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Mouseflow</target>
+        <target state="final">Mouseflow</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_service.name.I.tiktok">
+      <trans-unit id="tx_klaroconsentmanager_service.name.I.tiktok" approved="yes">
         <source>TikTok</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">TikTok</target>
+        <target state="final">TikTok</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_service.name.I.twitter">
+      <trans-unit id="tx_klaroconsentmanager_service.name.I.twitter" approved="yes">
         <source>X (formerly Twitter)</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">X (anterior Twitter)</target>
+        <target state="final">X (anterior Twitter)</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_service.name.I.userlike">
+      <trans-unit id="tx_klaroconsentmanager_service.name.I.userlike" approved="yes">
         <source>Userlike</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Utilizator</target>
+        <target state="final">Utilizator</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_service.name.I.vimeo">
+      <trans-unit id="tx_klaroconsentmanager_service.name.I.vimeo" approved="yes">
         <source>Vimeo</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Vimeo</target>
+        <target state="final">Vimeo</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_service.name.I.youtube">
+      <trans-unit id="tx_klaroconsentmanager_service.name.I.youtube" approved="yes">
         <source>YouTube</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">YouTube</target>
+        <target state="final">YouTube</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_service.default.label">
+      <trans-unit id="tx_klaroconsentmanager_service.default.label" approved="yes">
         <source>Default</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Implicit</target>
+        <target state="final">Implicit</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_service.default.description">
+      <trans-unit id="tx_klaroconsentmanager_service.default.description" approved="yes">
         <source>If `default` is set to `true`, the service will be enabled by default. This overrides the global `default` setting (if this is set to "false").</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Dacă `default` este setat pe `true`, serviciul va fi activat în mod implicit. Acest lucru suprascrie setarea globală `implicit` (dacă este setată la "false").</target>
+        <target state="final">Dacă `default` este setat pe `true`, serviciul va fi activat în mod implicit. Acest lucru suprascrie setarea globală `implicit` (dacă este setată la "false").</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_service.purposes.label">
+      <trans-unit id="tx_klaroconsentmanager_service.purposes.label" approved="yes">
         <source>Purposes</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Scopuri</target>
+        <target state="final">Scopuri</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_service.purposes.description">
+      <trans-unit id="tx_klaroconsentmanager_service.purposes.description" approved="yes">
         <source>The purpose(s) of this service that will be listed on the consent notice. Do not forget to add translations for all purposes you list here.</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Scopul (scopurile) acestui serviciu care va fi listat în avizul de consimțământ. Nu uitați să adăugați traduceri pentru toate scopurile pe care le listați aici.</target>
+        <target state="final">Scopul (scopurile) acestui serviciu care va fi listat în avizul de consimțământ. Nu uitați să adăugați traduceri pentru toate scopurile pe care le listați aici.</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_service.purposes.optgroup.custom">
+      <trans-unit id="tx_klaroconsentmanager_service.purposes.optgroup.custom" approved="yes">
         <source>Custom</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Personalizat</target>
+        <target state="final">Personalizat</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_service.purposes.optgroup.default">
+      <trans-unit id="tx_klaroconsentmanager_service.purposes.optgroup.default" approved="yes">
         <source>Default</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Implicit</target>
+        <target state="final">Implicit</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_service.purposes.optgroup.additional">
+      <trans-unit id="tx_klaroconsentmanager_service.purposes.optgroup.additional" approved="yes">
         <source>Additional</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Suplimentar</target>
+        <target state="final">Suplimentar</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_service.purposes.I.functional">
+      <trans-unit id="tx_klaroconsentmanager_service.purposes.I.functional" approved="yes">
         <source>Functional</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Funcționare</target>
+        <target state="final">Funcționare</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_service.purposes.I.performance">
+      <trans-unit id="tx_klaroconsentmanager_service.purposes.I.performance" approved="yes">
         <source>Performance</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Performanță</target>
+        <target state="final">Performanță</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_service.purposes.I.marketing">
+      <trans-unit id="tx_klaroconsentmanager_service.purposes.I.marketing" approved="yes">
         <source>Marketing</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Comercializare</target>
+        <target state="final">Comercializare</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_service.purposes.I.advertising">
+      <trans-unit id="tx_klaroconsentmanager_service.purposes.I.advertising" approved="yes">
         <source>Advertising</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Publicitate</target>
+        <target state="final">Publicitate</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_service.purposes.I.analytics">
+      <trans-unit id="tx_klaroconsentmanager_service.purposes.I.analytics" approved="yes">
         <source>Analytics</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Analize</target>
+        <target state="final">Analize</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_service.purposes.I.security">
+      <trans-unit id="tx_klaroconsentmanager_service.purposes.I.security" approved="yes">
         <source>Security</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Securitate</target>
+        <target state="final">Securitate</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_service.purposes.I.livechat">
+      <trans-unit id="tx_klaroconsentmanager_service.purposes.I.livechat" approved="yes">
         <source>Live Chat</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Chat în direct</target>
+        <target state="final">Chat în direct</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_service.purposes.I.styling">
+      <trans-unit id="tx_klaroconsentmanager_service.purposes.I.styling" approved="yes">
         <source>Styling</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Stilul</target>
+        <target state="final">Stilul</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_service.purposes.I.videos">
+      <trans-unit id="tx_klaroconsentmanager_service.purposes.I.videos" approved="yes">
         <source>Videos</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Video-uri</target>
+        <target state="final">Video-uri</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_service.purposes.I.social">
+      <trans-unit id="tx_klaroconsentmanager_service.purposes.I.social" approved="yes">
         <source>Social Media</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Rețele sociale</target>
+        <target state="final">Rețele sociale</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_service.purposes.I.misc">
+      <trans-unit id="tx_klaroconsentmanager_service.purposes.I.misc" approved="yes">
         <source>Miscellaneous</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Diverse</target>
+        <target state="final">Diverse</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_service.cookies.label">
+      <trans-unit id="tx_klaroconsentmanager_service.cookies.label" approved="yes">
         <source>Cookies</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Cookie-uri</target>
+        <target state="final">Cookie-uri</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_service.cookies.description">
+      <trans-unit id="tx_klaroconsentmanager_service.cookies.description" approved="yes">
         <source>You can either only provide a cookie name or regular expression (regex) or a list consisting of a name or regex, a path and a cookie domain. Providing a path and domain is necessary if you have services that set cookies for a path that is not "/", or a domain that is not the current domain. If you do not set these values properly, the cookie can't be deleted by Klaro, as there is no way to access the path or domain of a cookie in JS. Notice that it is not possible to delete cookies that were set on a third-party domain, or cookies that have the HTTPOnly attribute: https://developer.mozilla.org/en-US/docs/Web/API/Document/cookie#new-cookie_domain</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Puteți furniza doar un nume de cookie sau o expresie regulată (regex) sau o listă constând dintr-un nume sau un regex, o cale şi un domeniu cookie. Furnizarea unei căi și a unui domeniu este necesară dacă aveți servicii care setează cookie-uri pentru o cale care nu este "/", sau un domeniu care nu este domeniul actual. Dacă nu setați corect aceste valori, cookie-ul nu poate fi șters de Klaro, deoarece nu există nicio modalitate de a accesa calea sau domeniul unui cookie în JS. Observați că nu este posibilă ștergerea cookie-urilor care au fost setate pe un domeniu terț, sau a cookie-urilor care au atributul HTTPonly. https://developer.mozilla.org/en-US/docs/Web/API/Document/cookie#new-cookie_domain</target>
+        <target state="final">Puteți furniza doar un nume de cookie sau o expresie regulată (regex) sau o listă constând dintr-un nume sau un regex, o cale şi un domeniu cookie. Furnizarea unei căi și a unui domeniu este necesară dacă aveți servicii care setează cookie-uri pentru o cale care nu este "/", sau un domeniu care nu este domeniul actual. Dacă nu setați corect aceste valori, cookie-ul nu poate fi șters de Klaro, deoarece nu există nicio modalitate de a accesa calea sau domeniul unui cookie în JS. Observați că nu este posibilă ștergerea cookie-urilor care au fost setate pe un domeniu terț, sau a cookie-urilor care au atributul HTTPonly. https://developer.mozilla.org/en-US/docs/Web/API/Document/cookie#new-cookie_domain</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_service.required.label">
+      <trans-unit id="tx_klaroconsentmanager_service.required.label" approved="yes">
         <source>Required</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Necesar</target>
+        <target state="final">Necesar</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_service.required.description">
+      <trans-unit id="tx_klaroconsentmanager_service.required.description" approved="yes">
         <source>If `required` is set to `true`, Klaro will not allow this service to be disabled by the user. Use this for services that are always required for your website to function (e.g. shopping cart cookies).</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Dacă `required` este setat pe `true`, Klaro nu va permite acest serviciu să fie dezactivat de către utilizator. Folosiți acest lucru pentru serviciile care sunt întotdeauna necesare pentru ca site-ul dvs. să funcționeze (de exemplu, cookie-urile coșului de cumpărături).</target>
+        <target state="final">Dacă `required` este setat pe `true`, Klaro nu va permite acest serviciu să fie dezactivat de către utilizator. Folosiți acest lucru pentru serviciile care sunt întotdeauna necesare pentru ca site-ul dvs. să funcționeze (de exemplu, cookie-urile coșului de cumpărături).</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_service.opt_out.label">
+      <trans-unit id="tx_klaroconsentmanager_service.opt_out.label" approved="yes">
         <source>Opt-Out</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Ieșire</target>
+        <target state="final">Ieșire</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_service.opt_out.description">
+      <trans-unit id="tx_klaroconsentmanager_service.opt_out.description" approved="yes">
         <source>If `optOut` is set to `true`, Klaro will load this service even before the user has given explicit consent. We strongly advise against this.</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Dacă `optOut` este setat pe `true`, Klaro va încărca acest serviciu chiar înainte ca utilizatorul să-şi fi dat consimţământul explicit. Vă recomandăm ferm să nu faceți acest lucru.</target>
+        <target state="final">Dacă `optOut` este setat pe `true`, Klaro va încărca acest serviciu chiar înainte ca utilizatorul să-şi fi dat consimţământul explicit. Vă recomandăm ferm să nu faceți acest lucru.</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_service.only_once.label">
+      <trans-unit id="tx_klaroconsentmanager_service.only_once.label" approved="yes">
         <source>Only Once</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Doar o singură dată</target>
+        <target state="final">Doar o singură dată</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_service.only_once.description">
+      <trans-unit id="tx_klaroconsentmanager_service.only_once.description" approved="yes">
         <source>If `onlyOnce` is set to `true`, the service will only be executed once regardless how often the user toggles it on and off. This is relevant e.g. for tracking scripts that would generate new page view events every time Klaro disables and re-enables them due to a consent change by the user.</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Dacă `only Once` este setat pe `true`, serviciul va fi executat o singură dată, indiferent de cât de des utilizatorul îl togglisează pe sau oprit. Acest lucru este relevant de ex. pentru urmărirea script-urilor care ar genera evenimente de vizualizare a paginilor noi de fiecare dată când Klaro dezactivează și re-activează datorită unei modificări de acord din partea utilizatorului.</target>
+        <target state="final">Dacă `only Once` este setat pe `true`, serviciul va fi executat o singură dată, indiferent de cât de des utilizatorul îl togglisează pe sau oprit. Acest lucru este relevant de ex. pentru urmărirea script-urilor care ar genera evenimente de vizualizare a paginilor noi de fiecare dată când Klaro dezactivează și re-activează datorită unei modificări de acord din partea utilizatorului.</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_service.contextual_consent_only.label">
+      <trans-unit id="tx_klaroconsentmanager_service.contextual_consent_only.label" approved="yes">
         <source>Contextual Consent Only</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Doar Consimțământul contextual</target>
+        <target state="final">Doar Consimțământul contextual</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_service.contextual_consent_only.description">
+      <trans-unit id="tx_klaroconsentmanager_service.contextual_consent_only.description" approved="yes">
         <source>Content can be excluded from general consent by setting contextualConsentOnly to `true`. In this case, the consent must be contextual.</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Conținutul poate fi exclus de la consimțământul general prin setarea contextualConsentDoar la `true`. În acest caz, consimțământul trebuie să fie contextual.</target>
+        <target state="final">Conținutul poate fi exclus de la consimțământul general prin setarea contextualConsentDoar la `true`. În acest caz, consimțământul trebuie să fie contextual.</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_service.callback.label">
+      <trans-unit id="tx_klaroconsentmanager_service.callback.label" approved="yes">
         <source>Callback</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Callback</target>
+        <target state="final">Callback</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_service.callback.description">
+      <trans-unit id="tx_klaroconsentmanager_service.callback.description" approved="yes">
         <source>You can define an optional callback function that will be called each time the consent state for the given service changes. The consent value will be passed as the first parameter to the function (`true` = consented). The `service` config will be passed as the second parameter. The content of this field is wrapped with `callback: function(consent, service) { }`. `consent` is a bool that reflects the current state. service` holds all information about the currently selected service. When you enter something here, you need to know what you are doing. It is your responsibility that no JavaScript errors occur.</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Puteți defini o funcție opțională de retroapelare care va fi apelată de fiecare dată când starea de consimțământ pentru un serviciu dat se schimbă. Valoarea consimțământului va fi transmisă ca primul parametru al funcției (`true` = consimțământ). Configurarea `service` va fi trecută ca al doilea parametru. Conținutul acestui câmp este împachetat cu `callback: funcție, (consimțământ, serviciu) { }`. `consent` este un bool care reflectă starea curentă. Serviciul deține toate informațiile despre serviciul selectat în prezent. Când introduceți ceva aici, trebuie să știți ce faceți. Este responsabilitatea dvs. să nu apară erori JavaScript.</target>
+        <target state="final">Puteți defini o funcție opțională de retroapelare care va fi apelată de fiecare dată când starea de consimțământ pentru un serviciu dat se schimbă. Valoarea consimțământului va fi transmisă ca primul parametru al funcției (`true` = consimțământ). Configurarea `service` va fi trecută ca al doilea parametru. Conținutul acestui câmp este împachetat cu `callback: funcție, (consimțământ, serviciu) { }`. `consent` este un bool care reflectă starea curentă. Serviciul deține toate informațiile despre serviciul selectat în prezent. Când introduceți ceva aici, trebuie să știți ce faceți. Este responsabilitatea dvs. să nu apară erori JavaScript.</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_service.on_accept.label">
+      <trans-unit id="tx_klaroconsentmanager_service.on_accept.label" approved="yes">
         <source>`onAccept` callback function</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">`onAccept` callback function</target>
+        <target state="final">`onAccept` callback function</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_service.on_accept.description">
+      <trans-unit id="tx_klaroconsentmanager_service.on_accept.description" approved="yes">
         <source>Here you can define JavaScript code that will be called each time the service was accepted. The content of this field is wrapped with `callback: function(handlerOpts) { }`. The object `handlerOpts` contains the objects `config` (the current Klaro! configuration), `service` (the current service) and possibly `vars` (any values defined by object notation in the vars field in the backend). When you enter something here, you need to know what you are doing. It is your responsibility that no JavaScript errors occur.</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Aici puteţi defini codul JavaScript care va fi apelat de fiecare dată când serviciul a fost acceptat. Continutul acestui camp este inpachetat cu `callback: function(handlerOpts) { }`. Obiectul `handlerOpts` conține obiectele `config` (actualul Klaro! configuraţie), `service` (serviciul curent) şi posibil `vars` (orice valori definite de notarea obiectului în câmpul vars din backend). Când introduceți ceva aici, trebuie să știți ce faceți. Este responsabilitatea dvs. să nu apară erori JavaScript.</target>
+        <target state="final">Aici puteţi defini codul JavaScript care va fi apelat de fiecare dată când serviciul a fost acceptat. Continutul acestui camp este inpachetat cu `callback: function(handlerOpts) { }`. Obiectul `handlerOpts` conține obiectele `config` (actualul Klaro! configuraţie), `service` (serviciul curent) şi posibil `vars` (orice valori definite de notarea obiectului în câmpul vars din backend). Când introduceți ceva aici, trebuie să știți ce faceți. Este responsabilitatea dvs. să nu apară erori JavaScript.</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_service.on_init.label">
+      <trans-unit id="tx_klaroconsentmanager_service.on_init.label" approved="yes">
         <source>`onInit` callback function</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">`onInit` callback function</target>
+        <target state="final">`onInit` callback function</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_service.on_init.description">
+      <trans-unit id="tx_klaroconsentmanager_service.on_init.description" approved="yes">
         <source>Here you can define JavaScript code that will be called once per page-load. The content of this field is wrapped with `callback: function(handlerOpts) { }`. The object `handlerOpts` contains the objects `config` (the current Klaro! configuration), `service` (the current service) and possibly `vars` (any values defined by object notation in the vars field in the backend). When you enter something here, you need to know what you are doing. It is your responsibility that no JavaScript errors occur.</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Aici puteţi defini codul JavaScript care va fi apelat o dată per pagină-încărcare. Continutul acestui camp este inpachetat cu `callback: function(handlerOpts) { }`. Obiectul `handlerOpts` conține obiectele `config` (actualul Klaro! configuraţie), `service` (serviciul curent) şi posibil `vars` (orice valori definite de notarea obiectului în câmpul vars din backend). Când introduceți ceva aici, trebuie să știți ce faceți. Este responsabilitatea dvs. să nu apară erori JavaScript.</target>
+        <target state="final">Aici puteţi defini codul JavaScript care va fi apelat o dată per pagină-încărcare. Continutul acestui camp este inpachetat cu `callback: function(handlerOpts) { }`. Obiectul `handlerOpts` conține obiectele `config` (actualul Klaro! configuraţie), `service` (serviciul curent) şi posibil `vars` (orice valori definite de notarea obiectului în câmpul vars din backend). Când introduceți ceva aici, trebuie să știți ce faceți. Este responsabilitatea dvs. să nu apară erori JavaScript.</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_service.on_decline.label">
+      <trans-unit id="tx_klaroconsentmanager_service.on_decline.label" approved="yes">
         <source>`onDecline` callback function</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Funcția de retroapelare `onDecline`</target>
+        <target state="final">Funcția de retroapelare `onDecline`</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_service.on_decline.description">
+      <trans-unit id="tx_klaroconsentmanager_service.on_decline.description" approved="yes">
         <source>Here you can define JavaScript code that will be called each time the service was declined. The content of this field is wrapped with `callback: function(handlerOpts) { }`. The object `handlerOpts` contains the objects `config` (the current Klaro! configuration), `service` (the current service) and possibly `vars` (any values defined by object notation in the vars field in the backend). When you enter something here, you need to know what you are doing. It is your responsibility that no JavaScript errors occur.</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Aici puteţi defini codul JavaScript care va fi apelat de fiecare dată când serviciul a fost refuzat. Continutul acestui camp este inpachetat cu `callback: function(handlerOpts) { }`. Obiectul `handlerOpts` conține obiectele `config` (actualul Klaro! configuraţie), `service` (serviciul curent) şi posibil `vars` (orice valori definite de notarea obiectului în câmpul vars din backend). Când introduceți ceva aici, trebuie să știți ce faceți. Este responsabilitatea dvs. să nu apară erori JavaScript.</target>
+        <target state="final">Aici puteţi defini codul JavaScript care va fi apelat de fiecare dată când serviciul a fost refuzat. Continutul acestui camp este inpachetat cu `callback: function(handlerOpts) { }`. Obiectul `handlerOpts` conține obiectele `config` (actualul Klaro! configuraţie), `service` (serviciul curent) şi posibil `vars` (orice valori definite de notarea obiectului în câmpul vars din backend). Când introduceți ceva aici, trebuie să știți ce faceți. Este responsabilitatea dvs. să nu apară erori JavaScript.</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_service.vars.label">
+      <trans-unit id="tx_klaroconsentmanager_service.vars.label" approved="yes">
         <source>Variables</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Variabile</target>
+        <target state="final">Variabile</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_service.vars.description">
+      <trans-unit id="tx_klaroconsentmanager_service.vars.description" approved="yes">
         <source>Variables that can be used in callback functions. The content of this field is enclosed in curly brackets. The JavaScript object notation is expected in them. When you enter something here, you need to know what you are doing. It is your responsibility that no JavaScript errors occur.</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Variabile care pot fi utilizate în funcțiile de apel invers (callback). Conținutul acestui câmp este inclus în paranteze curly. Notația obiectului JavaScript este așteptată în ele. Când introduceți ceva aici, trebuie să știți ce faceți. Este responsabilitatea dvs. să nu apară erori JavaScript.</target>
+        <target state="final">Variabile care pot fi utilizate în funcțiile de apel invers (callback). Conținutul acestui câmp este inclus în paranteze curly. Notația obiectului JavaScript este așteptată în ele. Când introduceți ceva aici, trebuie să știți ce faceți. Este responsabilitatea dvs. să nu apară erori JavaScript.</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_service.hidden">
+      <trans-unit id="tx_klaroconsentmanager_service.hidden" approved="yes">
         <source>Service visible</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Serviciu vizibil</target>
+        <target state="final">Serviciu vizibil</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_cookie">
+      <trans-unit id="tx_klaroconsentmanager_cookie" approved="yes">
         <source>Cookie</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Cookie</target>
+        <target state="final">Cookie</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_cookie.tabs.general">
+      <trans-unit id="tx_klaroconsentmanager_cookie.tabs.general" approved="yes">
         <source>General</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Generalități</target>
+        <target state="final">Generalități</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_cookie.tabs.access">
+      <trans-unit id="tx_klaroconsentmanager_cookie.tabs.access" approved="yes">
         <source>Access</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Acces</target>
+        <target state="final">Acces</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_cookie.palettes.identification_palette">
+      <trans-unit id="tx_klaroconsentmanager_cookie.palettes.identification_palette" approved="yes">
         <source>Identification and presentation of the cookie</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Identificarea și prezentarea cookie-ului</target>
+        <target state="final">Identificarea și prezentarea cookie-ului</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_cookie.palettes.technic_palette">
+      <trans-unit id="tx_klaroconsentmanager_cookie.palettes.technic_palette" approved="yes">
         <source>Technically relevant settings</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Setări relevante tehnic</target>
+        <target state="final">Setări relevante tehnic</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_cookie.palettes.technic_palette.description">
+      <trans-unit id="tx_klaroconsentmanager_cookie.palettes.technic_palette.description" approved="yes">
         <source>This information is technically evaluated by Klaro! to manipulate the cookie.</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Această informaţie este evaluată tehnic de Klaro! pentru a manipula cookie-ul.</target>
+        <target state="final">Această informaţie este evaluată tehnic de Klaro! pentru a manipula cookie-ul.</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_cookie.palettes.expiration_palette">
+      <trans-unit id="tx_klaroconsentmanager_cookie.palettes.expiration_palette" approved="yes">
         <source>Expiration Time</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Timp de expirare</target>
+        <target state="final">Timp de expirare</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_cookie.palettes.access_palette">
+      <trans-unit id="tx_klaroconsentmanager_cookie.palettes.access_palette" approved="yes">
         <source>Access</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Acces</target>
+        <target state="final">Acces</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_cookie.identifier.label">
+      <trans-unit id="tx_klaroconsentmanager_cookie.identifier.label" approved="yes">
         <source>Identifier</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Identifier</target>
+        <target state="final">Identifier</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_cookie.identifier.description">
+      <trans-unit id="tx_klaroconsentmanager_cookie.identifier.description" approved="yes">
         <source>This is a unique identifier for this cookie. It must be written in lower case and must not contain any spaces, only the characters a-z, 0-9 and "-" or "_". The identifier can be used in Fluid, for example.</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Acesta este un identificator unic pentru acest cookie. Trebuie să fie scrisă în minusculă şi nu trebuie să conţină nici un spaţiu, doar caracterele a-z, 0-9 şi "-" sau "_". Identificatorul poate fi utilizat, de exemplu, în lichid.</target>
+        <target state="final">Acesta este un identificator unic pentru acest cookie. Trebuie să fie scrisă în minusculă şi nu trebuie să conţină nici un spaţiu, doar caracterele a-z, 0-9 şi "-" sau "_". Identificatorul poate fi utilizat, de exemplu, în lichid.</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_cookie.identifier.placeholder">
+      <trans-unit id="tx_klaroconsentmanager_cookie.identifier.placeholder" approved="yes">
         <source>lowercase_alphanum-x</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">carcasă mică_alfanum-x</target>
+        <target state="final">carcasă mică_alfanum-x</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_cookie.title.label">
+      <trans-unit id="tx_klaroconsentmanager_cookie.title.label" approved="yes">
         <source>Title</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Titlu</target>
+        <target state="final">Titlu</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_cookie.title.description">
+      <trans-unit id="tx_klaroconsentmanager_cookie.title.description" approved="yes">
         <source>If set, this title will be used in the frontend/backend for displaying the cookie. This title has no technical relevance (contrary to the `pattern` field).</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Dacă este setat, acest titlu va fi folosit în frontend/backend pentru afișarea cookie-ului. Acest titlu nu are relevanță tehnică (contrar câmpurilor `pattern`).</target>
+        <target state="final">Dacă este setat, acest titlu va fi folosit în frontend/backend pentru afișarea cookie-ului. Acest titlu nu are relevanță tehnică (contrar câmpurilor `pattern`).</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_cookie.title.placeholder">
+      <trans-unit id="tx_klaroconsentmanager_cookie.title.placeholder" approved="yes">
         <source>mf_[Session]</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">mf_[Session]</target>
+        <target state="final">mf_[Session]</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_cookie.pattern.label">
+      <trans-unit id="tx_klaroconsentmanager_cookie.pattern.label" approved="yes">
         <source>Name / Pattern</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Nume / Model</target>
+        <target state="final">Nume / Model</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_cookie.pattern.description">
+      <trans-unit id="tx_klaroconsentmanager_cookie.pattern.description" approved="yes">
         <source>Name or regular expression (regex)</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Nume sau expresie regulată (regex)</target>
+        <target state="final">Nume sau expresie regulată (regex)</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_cookie.pattern.placeholder">
+      <trans-unit id="tx_klaroconsentmanager_cookie.pattern.placeholder" approved="yes">
         <source>/^_pk_.*$/</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">/^_pk_.*$/</target>
+        <target state="final">/^_pk_.*$/</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_cookie.path.label">
+      <trans-unit id="tx_klaroconsentmanager_cookie.path.label" approved="yes">
         <source>Path</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Cale</target>
+        <target state="final">Cale</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_cookie.path.description">
+      <trans-unit id="tx_klaroconsentmanager_cookie.path.description" approved="yes">
         <source>Provide a path if you have services that set cookies for a path that is not "/"</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Oferă o cale dacă ai servicii care setează cookie-uri pentru o cale care nu este "/"</target>
+        <target state="final">Oferă o cale dacă ai servicii care setează cookie-uri pentru o cale care nu este "/"</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_cookie.path.placeholder">
+      <trans-unit id="tx_klaroconsentmanager_cookie.path.placeholder" approved="yes">
         <source>/</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">/</target>
+        <target state="final">/</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_cookie.domain.label">
+      <trans-unit id="tx_klaroconsentmanager_cookie.domain.label" approved="yes">
         <source>Domain</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Domeniu</target>
+        <target state="final">Domeniu</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_cookie.domain.description">
+      <trans-unit id="tx_klaroconsentmanager_cookie.domain.description" approved="yes">
         <source>Provide a domain if you have services that set cookies for a domain that is not the current domain.</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Furnizați un domeniu dacă aveți servicii care setează cookie-uri pentru un domeniu care nu este domeniul curent.</target>
+        <target state="final">Furnizați un domeniu dacă aveți servicii care setează cookie-uri pentru un domeniu care nu este domeniul curent.</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_cookie.domain.placeholder">
+      <trans-unit id="tx_klaroconsentmanager_cookie.domain.placeholder" approved="yes">
         <source>klaro.kiprotect.com</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">klaro.kiprotect.com</target>
+        <target state="final">klaro.kiprotect.com</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_cookie.expires_after.label">
+      <trans-unit id="tx_klaroconsentmanager_cookie.expires_after.label" approved="yes">
         <source>Expires after</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Expiră după</target>
+        <target state="final">Expiră după</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_cookie.expires_after.description">
+      <trans-unit id="tx_klaroconsentmanager_cookie.expires_after.description" approved="yes">
         <source>Number of years/months/days/hours/minutes/seconds that will elapse before this cookie expires.</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Numărul de ani/luni/zile/ore/minute/secunde care vor trece înainte de expirarea acestui cookie.</target>
+        <target state="final">Numărul de ani/luni/zile/ore/minute/secunde care vor trece înainte de expirarea acestui cookie.</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_cookie.expires_after.placeholder">
+      <trans-unit id="tx_klaroconsentmanager_cookie.expires_after.placeholder" approved="yes">
         <source>60</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">60</target>
+        <target state="final">60</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_cookie.expires_after_unit.label">
+      <trans-unit id="tx_klaroconsentmanager_cookie.expires_after_unit.label" approved="yes">
         <source>Expires after unit</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Expiră după unitate</target>
+        <target state="final">Expiră după unitate</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_cookie.expires_after_unit.description">
+      <trans-unit id="tx_klaroconsentmanager_cookie.expires_after_unit.description" approved="yes">
         <source>Unit used for the "Expires after" specification. The special value `end-of-session` does not need a numeric value and hides the "Expires after" field accordingly.</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Unitatea folosită pentru specificaţia "Expiră după". Valoarea specială "sfârşit de sesiune" nu are nevoie de o valoare numerică şi ascunde câmpul "Expiră după" în consecinţă.</target>
+        <target state="final">Unitatea folosită pentru specificaţia "Expiră după". Valoarea specială "sfârşit de sesiune" nu are nevoie de o valoare numerică şi ascunde câmpul "Expiră după" în consecinţă.</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_cookie.expires_after_unit.I.years">
+      <trans-unit id="tx_klaroconsentmanager_cookie.expires_after_unit.I.years" approved="yes">
         <source>Years</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Ani</target>
+        <target state="final">Ani</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_cookie.expires_after_unit.I.months">
+      <trans-unit id="tx_klaroconsentmanager_cookie.expires_after_unit.I.months" approved="yes">
         <source>Months</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Luni</target>
+        <target state="final">Luni</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_cookie.expires_after_unit.I.days">
+      <trans-unit id="tx_klaroconsentmanager_cookie.expires_after_unit.I.days" approved="yes">
         <source>Days</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Zile</target>
+        <target state="final">Zile</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_cookie.expires_after_unit.I.hours">
+      <trans-unit id="tx_klaroconsentmanager_cookie.expires_after_unit.I.hours" approved="yes">
         <source>Hours</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Ore</target>
+        <target state="final">Ore</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_cookie.expires_after_unit.I.minutes">
+      <trans-unit id="tx_klaroconsentmanager_cookie.expires_after_unit.I.minutes" approved="yes">
         <source>Minutes</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Minute</target>
+        <target state="final">Minute</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_cookie.expires_after_unit.I.seconds">
+      <trans-unit id="tx_klaroconsentmanager_cookie.expires_after_unit.I.seconds" approved="yes">
         <source>Seconds</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Secunde</target>
+        <target state="final">Secunde</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_cookie.expires_after_unit.I.end-of-session">
+      <trans-unit id="tx_klaroconsentmanager_cookie.expires_after_unit.I.end-of-session" approved="yes">
         <source>End of session</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Sfârşitul sesiunii</target>
+        <target state="final">Sfârşitul sesiunii</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_cookie.expires_after_unit.I.persistent">
+      <trans-unit id="tx_klaroconsentmanager_cookie.expires_after_unit.I.persistent" approved="yes">
         <source>Persistent</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Persistent</target>
+        <target state="final">Persistent</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_cookie.hidden">
+      <trans-unit id="tx_klaroconsentmanager_cookie.hidden" approved="yes">
         <source>Cookie visible</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Cookie vizibil</target>
+        <target state="final">Cookie vizibil</target>
       </trans-unit>
-      <trans-unit id="tt_content.tx_klaroconsentmanager_service.label">
+      <trans-unit id="tt_content.tx_klaroconsentmanager_service.label" approved="yes">
         <source>Contextual Consent</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Consimțământ contextual</target>
+        <target state="final">Consimțământ contextual</target>
       </trans-unit>
-      <trans-unit id="tt_content.tx_klaroconsentmanager_service.description">
+      <trans-unit id="tt_content.tx_klaroconsentmanager_service.description" approved="yes">
         <source>When a service is selected in this field, the content item is displayed via contextual consent only if the user has agreed to use the selected service in the Klaro! Consent Manager. Please make sure that the static TypoScript template of the Klaro! Consent Manager has been added to use this feature.</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Când un serviciu este selectat în acest câmp, elementul de conținut este afișat prin consimțământ contextual numai în cazul în care utilizatorul a fost de acord să utilizeze serviciul selectat în Klaro! Consimțământ Manager. Asigurați-vă că șablonul static TypoScript al Klaro! Managerul de consimțământ a fost adăugat pentru a utiliza această caracteristică.</target>
+        <target state="final">Când un serviciu este selectat în acest câmp, elementul de conținut este afișat prin consimțământ contextual numai în cazul în care utilizatorul a fost de acord să utilizeze serviciul selectat în Klaro! Consimțământ Manager. Asigurați-vă că șablonul static TypoScript al Klaro! Managerul de consimțământ a fost adăugat pentru a utiliza această caracteristică.</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_configuration.no_notice.label">
+      <trans-unit id="tx_klaroconsentmanager_configuration.no_notice.label" approved="yes">
         <source>Hide initial consent notice</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Ascunde avizul de consimțământ inițial</target>
+        <target state="final">Ascunde avizul de consimțământ inițial</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_configuration.no_notice.description">
+      <trans-unit id="tx_klaroconsentmanager_configuration.no_notice.description" approved="yes">
         <source>Do not show the initial notice. The manager can still be opened manually or via contextual consent.</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Nu afișa notificarea inițială. Managerul poate fi deschis în continuare manual sau prin consimțământ contextual.</target>
+        <target state="final">Nu afișa notificarea inițială. Managerul poate fi deschis în continuare manual sau prin consimțământ contextual.</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_configuration.powered_by.label">
+      <trans-unit id="tx_klaroconsentmanager_configuration.powered_by.label" approved="yes">
         <source>Powered by URL override</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Susținut de suprascrierea adreselor URL</target>
+        <target state="final">Susținut de suprascrierea adreselor URL</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_configuration.powered_by.description">
+      <trans-unit id="tx_klaroconsentmanager_configuration.powered_by.description" approved="yes">
         <source>Override the “powered by” link in the consent modal. Leave empty to use Klaro default.</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Suprascrie link-ul "powered by" în modulul de consimțământ. Lăsați gol pentru a utiliza Klaro implicit.</target>
+        <target state="final">Suprascrie link-ul "powered by" în modulul de consimțământ. Lăsați gol pentru a utiliza Klaro implicit.</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_configuration.powered_by.placeholder">
+      <trans-unit id="tx_klaroconsentmanager_configuration.powered_by.placeholder" approved="yes">
         <source>https://example.com/your-link</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">https://exemplu.ro/link-ul tău</target>
+        <target state="final">https://exemplu.ro/link-ul tău</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_configuration.style_prefix.label">
+      <trans-unit id="tx_klaroconsentmanager_configuration.style_prefix.label" approved="yes">
         <source>Style prefix</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Style prefix</target>
+        <target state="final">Style prefix</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_configuration.style_prefix.description">
+      <trans-unit id="tx_klaroconsentmanager_configuration.style_prefix.description" approved="yes">
         <source>Prefix for CSS classes/container to namespace Klaro styles.</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Prefix pentru CSS classes/container la stilurile de nume Klaro.</target>
+        <target state="final">Prefix pentru CSS classes/container la stilurile de nume Klaro.</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_configuration.style_prefix.placeholder">
+      <trans-unit id="tx_klaroconsentmanager_configuration.style_prefix.placeholder" approved="yes">
         <source>my-klaro</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">my-klaro</target>
+        <target state="final">my-klaro</target>
       </trans-unit>
     </body>
   </file>
