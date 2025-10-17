@@ -18,6 +18,6 @@ All Changes
 -----------
 This is a list of all changes in this release: ::
 
-    2025-10-14 [BUGFIX] Fix JavaScript Object conversion for translation labels starting with "{" (Commit b7ac2ac by Eric Bode)
+    2025-10-14 [BUGFIX] Fix JavaScript Object conversion for translation labels starting with "{" (Commit 46fda6c by Eric Harrer)
 
 This list has been created by using `git log $(git describe --tags --abbrev=0)..HEAD --abbrev-commit --pretty='%ad %s (Commit %h by %an)' --date=short`.

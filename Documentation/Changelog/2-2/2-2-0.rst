@@ -20,11 +20,11 @@ All Changes
 -----------
 This is a list of all changes in this release: ::
 
-    2025-10-13 [BUGFIX] Remove overriding sorting configuration (Commit 11dce3f by Eric Bode)
-    2025-10-13 [FEATURE] Make cookies sortable (Commit 51832e5 by Eric Bode)
-    2025-10-13 [BUGFIX] Fix cookie table styles if not grouped by purpose (Commit f54425f by Eric Bode)
-    2025-10-13 [TASK] Move SCSS files to Private directory (Commit 91d3110 by Eric Bode)
-    2025-10-13 [TASK] Update base SCSS files (Commit c0d497b by Eric Bode)
+    2025-10-13 [BUGFIX] Remove overriding sorting configuration (Commit e498862 by Eric Harrer)
+    2025-10-13 [FEATURE] Make cookies sortable (Commit 5484265 by Eric Harrer)
+    2025-10-13 [BUGFIX] Fix cookie table styles if not grouped by purpose (Commit 074ae04 by Eric Harrer)
+    2025-10-13 [TASK] Move SCSS files to Private directory (Commit 851ab0b by Eric Harrer)
+    2025-10-13 [TASK] Update base SCSS files (Commit 4c10f46 by Eric Harrer)
     2025-10-13 [BUGFIX] Update template for „expires_after“-option "persistent" (Commit 1f4ac02 by Eric Harrer)
     2025-10-13 [TASK] Add "persistent" option to cookie expiry units (Commit 452535b by Eric Harrer)
     2025-10-13 [DOCS] Update replaceAttributes type definition (Commit 0e4f91c by Eric Harrer)
