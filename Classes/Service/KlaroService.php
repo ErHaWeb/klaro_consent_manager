@@ -495,12 +495,26 @@ class KlaroService
         };
     }
 
+    private function isValidJsIdentifier(string $key): bool
+    {
+        // Valid: foo, $foo, _foo, foo123 – but NOT: foo-bar, my key, etc.
+        return (bool)preg_match('/^[A-Za-z$_][A-Za-z0-9$_]*$/', $key);
+    }
+
     private function arrayToJavaScriptObject(array $array): string
     {
         $isAssociative = $this->arrayIsAssociative($array);
         $return = $isAssociative ? '{' : '[';
         foreach ($array as $key => $value) {
-            $return .= $isAssociative ? $key . ':' : '';
+            if ($isAssociative) {
+                if ($this->isValidJsIdentifier((string)$key)) {
+                    $return .= $key . ':';
+                } else {
+                    $escapedKey = addslashes((string)$key);
+                    $return .= '\'' . $escapedKey . '\':';
+                }
+            }
+
             if (is_array($value)) {
                 $return .= $this->arrayToJavaScriptObject($value);
             } elseif (is_bool($value)) {
