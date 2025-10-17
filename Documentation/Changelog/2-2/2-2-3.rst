@@ -1,0 +1,25 @@
+.. include:: /Includes.rst.txt
+
+2.2.3 - October 17, 2025
+========================
+
+
+.. only:: html
+
+   .. contents::
+        :local:
+        :depth: 3
+
+Breaking changes
+----------------
+No breaking changes!
+
+All Changes
+-----------
+This is a list of all changes in this release: ::
+
+    2025-10-17 [TASK] Filter built-in styling keys for neutral color schemes (Commit c01b3c7 by Eric Harrer)
+    2025-10-17 [BUGFIX] Quote invalid JavaScript object keys (Commit 2a72195 by Eric Harrer)
+    2025-10-17 [DOCS] Fix changelog (Commit 9e8ff48 by Eric Harrer)
+
+This list has been created by using `git log $(git describe --tags --abbrev=0)..HEAD --abbrev-commit --pretty='%ad %s (Commit %h by %an)' --date=short`.
