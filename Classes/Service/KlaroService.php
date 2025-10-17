@@ -125,6 +125,16 @@ class KlaroService
         'poweredBy',
         'contextualConsent' => ['description', 'acceptOnce', 'acceptAlways', 'descriptionEmptyStore', 'modalLinkText'],
     ];
+    private const BUILTIN_STYLING_KEYS = [
+        'button-text-color',
+        'dark1', 'dark2', 'dark3',
+        'light1', 'light2', 'light3',
+        'blue1', 'blue2', 'blue3',
+        'green1', 'green2', 'green3',
+    ];
+    private const NEUTRAL_STYLING_KEYS = [
+        'dark1', 'dark3', 'light1',
+    ];
 
     private int $configurationId = 0;
     private array $rawConfiguration = [];
@@ -207,6 +217,7 @@ class KlaroService
 
                 // Merge final configuration array with TypoScript overrules
                 ArrayUtility::mergeRecursiveWithOverrule($this->configuration, $this->settings['configuration'] ?? []);
+                $this->filterStylingForNeutralScheme();
 
                 $elementId = $this->rawConfiguration['element_i_d'] ?: 'klaro';
                 $configVariableName = $this->rawConfiguration['config_variable_name'] ?: 'klaroConfig';
@@ -499,6 +510,30 @@ class KlaroService
     {
         // Valid: foo, $foo, _foo, foo123 – but NOT: foo-bar, my key, etc.
         return (bool)preg_match('/^[A-Za-z$_][A-Za-z0-9$_]*$/', $key);
+    }
+
+    private function filterStylingForNeutralScheme(): void
+    {
+        $scheme = (string)($this->rawConfiguration['color_scheme'] ?? '');
+        if (!in_array($scheme, ['dark_neutral', 'light_neutral'], true)) {
+            return;
+        }
+
+        if (empty($this->configuration['styling']) || !is_array($this->configuration['styling'])) {
+            return;
+        }
+
+        foreach (self::BUILTIN_STYLING_KEYS as $key) {
+            // keep only those explicitly allowed for neutral scheme
+            if (in_array($key, self::NEUTRAL_STYLING_KEYS, true)) {
+                continue;
+            }
+            unset($this->configuration['styling'][$key]);
+        }
+
+        if ($this->configuration['styling'] === []) {
+            unset($this->configuration['styling']);
+        }
     }
 
     private function arrayToJavaScriptObject(array $array): string
