@@ -5,8 +5,6 @@ declare(strict_types=1);
 namespace ErHaWeb\KlaroConsentManager\Command;
 
 use DOMDocument;
-use DOMElement;
-use DOMException;
 use Symfony\Component\Console\Attribute\AsCommand;
 use Symfony\Component\Console\Command\Command;
 use Symfony\Component\Console\Input\InputArgument;
@@ -32,7 +30,7 @@ final class YamlToXliffCommand extends Command
     }
 
     /**
-     * @throws DOMException
+     * @throws \DOMException
      */
     protected function execute(InputInterface $input, OutputInterface $output): int
     {
@@ -54,7 +52,7 @@ final class YamlToXliffCommand extends Command
         // Collect YAML files (top-level is sufficient for Klaro structure)
         $files = array_values(array_filter(
             scandir($inDir) ?: [],
-            static fn (string $f): bool => (bool)preg_match('/\.(ya?ml)$/i', $f)
+            static fn(string $f): bool => (bool)preg_match('/\.(ya?ml)$/i', $f)
         ));
         if ($files === []) {
             $output->writeln('<comment>No YAML files found.</comment>');
@@ -178,11 +176,11 @@ final class YamlToXliffCommand extends Command
     }
 
     /**
-     * @throws DOMException
+     * @throws \DOMException
      */
-    private static function createXliff12(string $targetLanguage, string $productName, string $original): DOMDocument
+    private static function createXliff12(string $targetLanguage, string $productName, string $original): \DOMDocument
     {
-        $doc = new DOMDocument('1.0', 'UTF-8');
+        $doc = new \DOMDocument('1.0', 'UTF-8');
         $doc->formatOutput = true;
 
         $xliff = $doc->createElement('xliff');
@@ -211,11 +209,11 @@ final class YamlToXliffCommand extends Command
      * Append trans-units to a DOMDocument.
      *
      * @param array<string,string> $pairs
-     * @throws DOMException
+     * @throws \DOMException
      */
-    private static function appendUnits(DOMDocument $doc, array $pairs): void
+    private static function appendUnits(\DOMDocument $doc, array $pairs): void
     {
-        /** @var DOMElement $body */
+        /** @var \DOMElement $body */
         $body = $doc->getElementsByTagName('body')->item(0);
         foreach ($pairs as $id => $text) {
             $transUnit = $doc->createElement('trans-unit');
@@ -234,11 +232,11 @@ final class YamlToXliffCommand extends Command
      *
      * @param array<string,string> $basePairs
      * @param array<string,string|null> $targetPairs
-     * @throws DOMException
+     * @throws \DOMException
      */
-    private static function appendUnitsWithBase(DOMDocument $doc, array $basePairs, array $targetPairs): void
+    private static function appendUnitsWithBase(\DOMDocument $doc, array $basePairs, array $targetPairs): void
     {
-        /** @var DOMElement $body */
+        /** @var \DOMElement $body */
         $body = $doc->getElementsByTagName('body')->item(0);
         foreach ($basePairs as $id => $sourceText) {
             $transUnit = $doc->createElement('trans-unit');
