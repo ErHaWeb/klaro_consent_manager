@@ -1,0 +1,26 @@
+.. include:: /Includes.rst.txt
+
+2.2.4 - November 12, 2025
+=========================
+
+
+.. only:: html
+
+   .. contents::
+        :local:
+        :depth: 3
+
+Breaking changes
+----------------
+No breaking changes!
+
+All Changes
+-----------
+This is a list of all changes in this release: ::
+
+    2025-11-12 [BUGFIX] Use `useNonce` option instead of individual nonce handling (#17) (Commit fcfc598 by Albrecht Köhnlein)
+    2025-10-24 [DOCS] Reformat guides.xml (Commit c3c3c6d by Eric Harrer)
+    2025-10-24 [TASK] Refactor YamlToXliffCommand (Commit 36af67f by Eric Harrer)
+    2025-10-24 [TASK] Increase PHP compatibility requirements (Commit d830b2b by Eric Harrer)
+
+This list has been created by using `git log $(git describe --tags --abbrev=0)..HEAD --abbrev-commit --pretty='%ad %s (Commit %h by %an)' --date=short`.
