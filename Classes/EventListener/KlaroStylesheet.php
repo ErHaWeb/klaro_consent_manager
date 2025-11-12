@@ -18,7 +18,6 @@ declare(strict_types=1);
 namespace ErHaWeb\KlaroConsentManager\EventListener;
 
 use ErHaWeb\KlaroConsentManager\Service\KlaroService;
-use ErHaWeb\KlaroConsentManager\Utility\CspUtility;
 use ErHaWeb\KlaroConsentManager\Utility\TypoScriptUtility;
 use Psr\Http\Message\ServerRequestInterface;
 use TYPO3\CMS\Core\Http\ApplicationType;
@@ -49,11 +48,11 @@ class KlaroStylesheet
         }
 
         $asset = $event->getAssetCollector()->getStyleSheets();
-        $attributes = ['defer' => 'defer', 'nonce' => CspUtility::getNonceValue($request)];
+        $attributes = ['defer' => 'defer'];
 
         foreach (($settings['css'] ?? []) as $key => $css) {
             if (!($asset[$key] ?? false) && $css) {
-                $event->getAssetCollector()->addStyleSheet($key, $css, $attributes, ['priority' => true]);
+                $event->getAssetCollector()->addStyleSheet($key, $css, $attributes, ['priority' => true, 'useNonce' => true]);
             }
         }
     }
