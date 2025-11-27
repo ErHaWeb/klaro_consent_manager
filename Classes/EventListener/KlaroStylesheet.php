@@ -24,6 +24,7 @@ use TYPO3\CMS\Core\Http\ApplicationType;
 use TYPO3\CMS\Core\Page\Event\BeforeStylesheetsRenderingEvent;
 use TYPO3\CMS\Core\Utility\GeneralUtility;
 
+#[AsEventListener(identifier: 'KlaroConsentManager/KlaroStylesheet')]
 class KlaroStylesheet
 {
     public function __invoke(BeforeStylesheetsRenderingEvent $event): void
