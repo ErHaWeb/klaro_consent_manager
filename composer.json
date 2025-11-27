@@ -4,8 +4,8 @@
     "description": "Functionally complete, flexible TYPO3 integration of Klaro! Consent Management by KIProtect GmbH, a powerful tool that protects your visitors' privacy and data.",
     "license": "GPL-2.0-or-later",
     "require": {
-        "typo3/cms-core": "^12.4 || ^13.4",
-        "php": "^8.1 || ^8.2 || ^8.3 || ^8.4",
+		"typo3/cms-core": "^13.0 || ^14.0",
+		"php": "^8.2 || ^8.3 || ^8.4 || ^8.5",
         "ext-pdo": "*"
     },
     "require-dev": {
