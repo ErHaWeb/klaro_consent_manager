@@ -24,6 +24,7 @@ use TYPO3\CMS\Core\Http\ApplicationType;
 use TYPO3\CMS\Core\Page\Event\BeforeJavaScriptsRenderingEvent;
 use TYPO3\CMS\Core\Utility\GeneralUtility;
 
+#[AsEventListener(identifier: 'KlaroConsentManager/KlaroJavaScript')]
 class KlaroJavaScript
 {
     public function __invoke(BeforeJavaScriptsRenderingEvent $event): void
