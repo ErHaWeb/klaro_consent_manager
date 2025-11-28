@@ -4,6 +4,7 @@ declare(strict_types=1);
 
 use TYPO3\CMS\Core\Imaging\IconProvider\BitmapIconProvider;
 use TYPO3\CMS\Core\Imaging\IconProvider\SvgIconProvider;
+use TYPO3\CMS\Core\Imaging\IconProvider\SvgSpriteIconProvider;
 
 return [
     'tx-klaroconsentmanager-configuration' => [
@@ -11,12 +12,14 @@ return [
         'source' => 'EXT:klaro_consent_manager/Resources/Public/Icons/Extension.png',
     ],
     'tx-klaroconsentmanager-service' => [
-        'provider' => SvgIconProvider::class,
-        'source' => 'EXT:klaro_consent_manager/Resources/Public/Icons/tx_klaroconsentmanager_service.svg',
+        'provider' => SvgSpriteIconProvider::class,
+        'source'   => 'EXT:klaro_consent_manager/Resources/Public/Icons/sprite.svg',
+        'sprite' => 'EXT:klaro_consent_manager/Resources/Public/Icons/sprite.svg#tx-klaroconsentmanager-service',
     ],
     'tx-klaroconsentmanager-cookie' => [
-        'provider' => SvgIconProvider::class,
-        'source' => 'EXT:klaro_consent_manager/Resources/Public/Icons/tx_klaroconsentmanager_cookie.svg',
+        'provider' => SvgSpriteIconProvider::class,
+        'source'   => 'EXT:klaro_consent_manager/Resources/Public/Icons/sprite.svg',
+        'sprite' => 'EXT:klaro_consent_manager/Resources/Public/Icons/sprite.svg#tx-klaroconsentmanager-cookie',
     ],
     'tx-klaroconsentmanager-configuration-colorscheme-darkneutral' => [
         'provider' => SvgIconProvider::class,
