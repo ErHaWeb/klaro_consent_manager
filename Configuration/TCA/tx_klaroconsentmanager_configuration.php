@@ -485,7 +485,7 @@ return [
             'description' => 'LLL:EXT:klaro_consent_manager/Resources/Private/Language/locallang_db.xlf:tx_klaroconsentmanager_configuration.callback.description',
             'config' => [
                 'type' => 'text',
-                'renderType' => TcaUtility::getCodeEditorRenderTypeByTypo3Version(),
+                'renderType' => 'codeEditor',
                 'format' => 'javascript',
                 'rows' => 10,
             ],
