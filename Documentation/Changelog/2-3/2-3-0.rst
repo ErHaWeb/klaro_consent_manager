@@ -1,0 +1,24 @@
+.. include:: /Includes.rst.txt
+
+2.3.0 - February 11, 2026
+=========================
+
+
+.. only:: html
+
+   .. contents::
+        :local:
+        :depth: 3
+
+Breaking changes
+----------------
+No breaking changes!
+
+All Changes
+-----------
+This is a list of all changes in this release: ::
+
+    2026-02-11 [FEATURE] Add isActive ViewHelper (Commit d8072db by Eric Harrer)
+    2026-02-11 [TASK] Align version requirement in composer.json (Commit 58b6c55 by Eric Harrer)
+
+This list has been created by using `git log $(git describe --tags --abbrev=0)..HEAD --abbrev-commit --pretty='%ad %s (Commit %h by %an)' --date=short`.
