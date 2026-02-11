@@ -215,6 +215,29 @@ Sometimes it is desired that sites or certain translations do not use Consent Ma
       }
     [END]
 
+.. _klaroIsActiveViewHelper:
+
+Fluid ViewHelper to check if Klaro is used
+==========================================
+
+The Fluid ViewHelper ``{klaro:isActive()}`` returns a boolean that indicates whether Klaro is active for the
+current frontend request. The prerequisites are identical to the TypoScript condition described in
+:ref:`klaroIsActive feature <klaroIsActive>`. This makes it easy to switch between consent-aware and regular script
+output in templates.
+
+..  code-block:: html
+    :linenos:
+    :caption: **Example**
+
+    <f:if condition="{klaro:isActive()}">
+        <f:then>
+            <f:asset.script identifier="instagram" type="text/plain" data-type="application/javascript" data-name="instagram" src="//www.instagram.com/embed.js"/>
+        </f:then>
+        <f:else>
+            <f:asset.script identifier="instagram" src="//www.instagram.com/embed.js"/>
+        </f:else>
+    </f:if>
+
 Service Filtering
 =================
 

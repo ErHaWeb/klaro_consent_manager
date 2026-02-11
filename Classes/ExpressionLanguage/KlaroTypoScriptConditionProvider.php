@@ -17,11 +17,8 @@ declare(strict_types=1);
 
 namespace ErHaWeb\KlaroConsentManager\ExpressionLanguage;
 
-use ErHaWeb\KlaroConsentManager\Service\KlaroService;
-use Psr\Http\Message\ServerRequestInterface;
+use ErHaWeb\KlaroConsentManager\Utility\KlaroUtility;
 use TYPO3\CMS\Core\ExpressionLanguage\AbstractProvider;
-use TYPO3\CMS\Core\Http\ApplicationType;
-use TYPO3\CMS\Core\Utility\GeneralUtility;
 
 class KlaroTypoScriptConditionProvider extends AbstractProvider
 {
@@ -34,17 +31,6 @@ class KlaroTypoScriptConditionProvider extends AbstractProvider
 
     private function klaroIsActive(): bool
     {
-        $request = $this->getRequest();
-        if ($request instanceof ServerRequestInterface) {
-            return ApplicationType::fromRequest($request)->isFrontend() &&
-                GeneralUtility::makeInstance(KlaroService::class, $request)?->getRawConfiguration();
-        }
-
-        return false;
-    }
-
-    private function getRequest(): ?ServerRequestInterface
-    {
-        return $GLOBALS['TYPO3_REQUEST'] ?? null;
+        return KlaroUtility::isActive();
     }
 }

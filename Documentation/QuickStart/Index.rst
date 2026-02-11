@@ -223,7 +223,7 @@ Quick start
 
     ..  tip::
 
-        If the script is integrated via TypoScript and is to be used in the context of both a page requiring consent and a page not requiring consent, take a look at the :ref:`klaroIsActive feature <klaroIsActive>`.
+        To distinguish between script integration with and without consent management, refer to the TypoScript condition :ref:`[klaroIsActive] <klaroIsActive>` and the Fluid ViewHelper :ref:`{klaro:isActive()} <klaroIsActiveViewHelper>` depending on the context of the integration.
 
 #.  Finished!
 
