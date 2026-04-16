@@ -218,9 +218,17 @@
         <source>Show Consent Manager</source>
         <target state="final">Показать менеджер согласия</target>
       </trans-unit>
+      <trans-unit id="consentManager.show.title">
+        <source>Show Consent Manager</source>
+        <target state="needs-review-translation" state-qualifier="leveraged-mt">Показать менеджер согласия</target>
+      </trans-unit>
       <trans-unit id="consentManager.reset" approved="yes">
         <source>Reset Consent Manager</source>
         <target state="final">Сбросить менеджер согласия</target>
+      </trans-unit>
+      <trans-unit id="consentManager.reset.title">
+        <source>Reset Consent Manager</source>
+        <target state="needs-review-translation" state-qualifier="leveraged-mt">Сбросить менеджер согласия</target>
       </trans-unit>
       <trans-unit id="services.adsense.title" approved="yes">
         <source>Google AdSense</source>
