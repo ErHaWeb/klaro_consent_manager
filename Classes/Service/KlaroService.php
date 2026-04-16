@@ -342,6 +342,7 @@ class KlaroService
         $id = $elementId . ($reset ? 'Reset' : 'Show');
         return 'const ' . $id . '=document.createElement("button");' .
             $id . '.setAttribute("data-' . $elementId . '-trigger", "' . ($reset ? 'reset' : 'show') . '");' .
+            $id . '.setAttribute("title", "' . $this->getLabel('consentManager.' . ($reset ? 'reset' : 'show') . '.title', ['elementId' => $elementId, 'reset' => $reset, 'id' => $id]) . '");' .
             $id . '.textContent="' . $this->getLabel('consentManager.' . ($reset ? 'reset' : 'show'), ['elementId' => $elementId, 'reset' => $reset, 'id' => $id]) . '";' .
             'document.body.appendChild(' . $id . ');';
     }
