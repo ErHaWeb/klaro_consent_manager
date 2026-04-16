@@ -218,17 +218,17 @@
         <source>Show Consent Manager</source>
         <target state="final">Mostrar Gerenciador de Consentimento</target>
       </trans-unit>
-      <trans-unit id="consentManager.show.title">
+      <trans-unit id="consentManager.show.title" approved="yes">
         <source>Show Consent Manager</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Mostrar Gerenciador de Consentimento</target>
+        <target state="final">Mostrar Gerenciador de Consentimento</target>
       </trans-unit>
       <trans-unit id="consentManager.reset" approved="yes">
         <source>Reset Consent Manager</source>
         <target state="final">Redefinir Gerenciador de Consentimento</target>
       </trans-unit>
-      <trans-unit id="consentManager.reset.title">
+      <trans-unit id="consentManager.reset.title" approved="yes">
         <source>Reset Consent Manager</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Redefinir Gerenciador de Consentimento</target>
+        <target state="final">Redefinir Gerenciador de Consentimento</target>
       </trans-unit>
       <trans-unit id="services.adsense.title" approved="yes">
         <source>Google AdSense</source>
