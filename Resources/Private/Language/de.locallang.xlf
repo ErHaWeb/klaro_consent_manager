@@ -218,9 +218,17 @@
         <source>Show Consent Manager</source>
         <target state="final">Zustimmungsmanager anzeigen</target>
       </trans-unit>
+      <trans-unit id="consentManager.show.title">
+        <source>Show Consent Manager</source>
+        <target state="needs-review-translation" state-qualifier="leveraged-mt">Konsent Manager anzeigen</target>
+      </trans-unit>
       <trans-unit id="consentManager.reset" approved="yes">
         <source>Reset Consent Manager</source>
         <target state="final">Zustimmungsmanager zurücksetzen</target>
+      </trans-unit>
+      <trans-unit id="consentManager.reset.title">
+        <source>Reset Consent Manager</source>
+        <target state="needs-review-translation" state-qualifier="leveraged-mt">Einwilligungsmanager zurücksetzen</target>
       </trans-unit>
       <trans-unit id="services.adsense.title" approved="yes">
         <source>Google AdSense</source>
