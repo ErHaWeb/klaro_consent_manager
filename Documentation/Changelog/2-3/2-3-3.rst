@@ -1,0 +1,23 @@
+.. include:: /Includes.rst.txt
+
+2.3.3 - April 16, 2026
+======================
+
+
+.. only:: html
+
+   .. contents::
+        :local:
+        :depth: 3
+
+Breaking changes
+----------------
+No breaking changes!
+
+All Changes
+-----------
+This is a list of all changes in this release: ::
+
+    2026-04-16 [BUGFIX] Narrow Tailor packaging excludes (Commit bc608d6 by Eric Harrer)
+
+This list has been created by using `git log $(git describe --tags --abbrev=0)..HEAD --abbrev-commit --pretty='%ad %s (Commit %h by %an)' --date=short`.
