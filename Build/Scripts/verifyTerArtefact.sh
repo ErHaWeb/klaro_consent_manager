@@ -51,6 +51,8 @@ done
 if [[ ${#missingEntries[@]} -gt 0 ]]; then
     printf 'TER artefact is missing required runtime paths:\n' >&2
     printf ' - %s\n' "${missingEntries[@]}" >&2
+    printf 'Archive entries (first 200 lines):\n' >&2
+    printf '%s\n' "${archiveEntries}" | sed -n '1,200p' >&2
     exit 1
 fi
 
