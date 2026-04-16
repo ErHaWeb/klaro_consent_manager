@@ -218,17 +218,17 @@
         <source>Show Consent Manager</source>
         <target state="final">显示同意管理器</target>
       </trans-unit>
-      <trans-unit id="consentManager.show.title">
+      <trans-unit id="consentManager.show.title" approved="yes">
         <source>Show Consent Manager</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">显示同意管理器</target>
+        <target state="final">显示同意管理器</target>
       </trans-unit>
       <trans-unit id="consentManager.reset" approved="yes">
         <source>Reset Consent Manager</source>
         <target state="final">重置同意管理器</target>
       </trans-unit>
-      <trans-unit id="consentManager.reset.title">
+      <trans-unit id="consentManager.reset.title" approved="yes">
         <source>Reset Consent Manager</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">重置同意管理器</target>
+        <target state="final">重置同意管理器</target>
       </trans-unit>
       <trans-unit id="services.adsense.title" approved="yes">
         <source>Google AdSense</source>
