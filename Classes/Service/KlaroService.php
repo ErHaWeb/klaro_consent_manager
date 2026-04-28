@@ -286,8 +286,8 @@ class KlaroService
             if ($configuration) {
                 $this->configurationId = (int)($configuration['klaroConfiguration'] ?? 0);
                 if ($this->configurationId > 0) {
-                    $this->imprintLink = $configuration['klaroImprintUrl'] ?? '';
-                    $this->privacyPolicyLink = $configuration['klaroPrivacyPolicyUrl'] ?? '';
+                    $this->imprintLink = (string)($configuration['klaroImprintUrl'] ?? '');
+                    $this->privacyPolicyLink = (string)($configuration['klaroPrivacyPolicyUrl'] ?? '');
                     $this->rawConfiguration = $this->fetchConfiguration();
                     return true;
                 }
