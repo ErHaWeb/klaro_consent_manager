@@ -1,6 +1,5 @@
 <?php
 
-use ErHaWeb\KlaroConsentManager\Utility\TcaUtility;
 
 return [
     'ctrl' => [
