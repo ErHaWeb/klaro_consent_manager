@@ -28,7 +28,8 @@ use TYPO3\CMS\Core\Site\Entity\Site;
 use TYPO3\CMS\Core\Site\Entity\SiteLanguage;
 use TYPO3\CMS\Core\Utility\ArrayUtility;
 use TYPO3\CMS\Core\Utility\GeneralUtility;
-use TYPO3\CMS\Fluid\View\StandaloneView;
+use TYPO3\CMS\Core\View\ViewFactoryData;
+use TYPO3\CMS\Core\View\ViewFactoryInterface;
 use TYPO3\CMS\Frontend\ContentObject\ContentObjectRenderer;
 
 class KlaroService
@@ -140,7 +141,7 @@ class KlaroService
     private array $rawConfiguration = [];
     private array $configuration = [];
     private LanguageService $languageService;
-    private connectionPool $connectionPool;
+    private ConnectionPool $connectionPool;
     private string $imprintLink = '';
     private string $privacyPolicyLink = '';
     private SiteLanguage $siteLanguage;
@@ -148,12 +149,13 @@ class KlaroService
     private string $locallangPathOverride = '';
     private array $framework = [];
     private array $settings = [];
-    private StandaloneView $standaloneView;
+    private array $layoutRootPaths = [];
+    private array $partialRootPaths = [];
+    private array $templateRootPaths = [];
 
     public function __construct(
-        protected ServerRequestInterface $request
-    ) {
-    }
+        protected readonly ServerRequestInterface $request
+    ) {}
 
     public function getRawConfiguration(): array
     {
@@ -161,7 +163,7 @@ class KlaroService
         $this->initLanguage();
 
         if ($this->initConfiguration()) {
-            $this->initStandaloneView();
+            $this->initViewConfiguration();
         }
 
         if (($this->settings['configuration']['disabled'] ?? '') === '1') {
@@ -304,13 +306,10 @@ class KlaroService
         }
     }
 
-    private function initStandaloneView(): void
+    private function initViewConfiguration(): void
     {
         $this->framework = TypoScriptUtility::getFramework($this->request);
         $this->settings = $this->framework['settings'] ?? [];
-
-        $this->standaloneView = GeneralUtility::makeInstance(StandaloneView::class);
-        $this->standaloneView->setRequest($this->request);
 
         $layoutRootPaths = [];
         $partialRootPaths = [];
@@ -324,14 +323,9 @@ class KlaroService
             $templateRootPaths = [$fluidRootPath . 'Templates/'];
         }
 
-        $layoutRootPaths = array_merge($this->framework['view']['layoutRootPaths'] ?? [], $layoutRootPaths);
-        $this->standaloneView->setLayoutRootPaths($layoutRootPaths);
-
-        $partialRootPaths = array_merge($this->framework['view']['partialRootPaths'] ?? [], $partialRootPaths);
-        $this->standaloneView->setPartialRootPaths($partialRootPaths);
-
-        $templateRootPaths = array_merge($this->framework['view']['templateRootPaths'] ?? [], $templateRootPaths);
-        $this->standaloneView->setTemplateRootPaths($templateRootPaths);
+        $this->layoutRootPaths = array_merge($this->framework['view']['layoutRootPaths'] ?? [], $layoutRootPaths);
+        $this->partialRootPaths = array_merge($this->framework['view']['partialRootPaths'] ?? [], $partialRootPaths);
+        $this->templateRootPaths = array_merge($this->framework['view']['templateRootPaths'] ?? [], $templateRootPaths);
     }
 
     private function createAppendShowButtonScript(string $elementId, bool $reset = true): string
@@ -656,40 +650,61 @@ class KlaroService
 
     private function getFluidContent(string $template = '', array $additionalArguments = []): string
     {
-        $templateRootPaths = array_reverse($this->standaloneView->getTemplateRootPaths());
+        if (!$this->templateFileExists($template)) {
+            return '';
+        }
 
-        // Check if a standalone template is available and extend the label accordingly
-        foreach ($templateRootPaths as $templateRootPath) {
-            $templateReference = $templateRootPath . $template . '.html';
-            if ($templateReference !== 'php://stdin' && file_exists($templateReference)) {
-                $this->standaloneView->getRenderingContext()->setControllerAction($template);
+        $arguments = [
+            'locallang' => [
+                'defaultPath' => $this->locallangPath,
+                'overridePath' => $this->locallangPathOverride,
+                'languageKey' => $this->siteLanguage->getTypo3Language(),
+            ],
+            'rawConfiguration' => $this->rawConfiguration,
+            'configuration' => $this->configuration,
+            'links' => [
+                'privacyPolicyLink' => $this->privacyPolicyLink,
+                'imprintLink' => $this->imprintLink,
+            ],
+            'framework' => $this->framework,
+        ];
 
-                $arguments = [
-                    'locallang' => [
-                        'defaultPath' => $this->locallangPath,
-                        'overridePath' => $this->locallangPathOverride,
-                        'languageKey' => $this->siteLanguage->getTypo3Language(),
-                    ],
-                    'rawConfiguration' => $this->rawConfiguration,
-                    'configuration' => $this->configuration,
-                    'links' => [
-                        'privacyPolicyLink' => $this->privacyPolicyLink,
-                        'imprintLink' => $this->imprintLink,
-                    ],
-                    'framework' => $this->framework,
-                ];
+        ArrayUtility::mergeRecursiveWithOverrule($arguments, $additionalArguments);
 
-                ArrayUtility::mergeRecursiveWithOverrule($arguments, $additionalArguments);
+        $viewFactory = GeneralUtility::makeInstance(ViewFactoryInterface::class);
+        $viewFactoryData = new ViewFactoryData(
+            templateRootPaths: $this->templateRootPaths,
+            partialRootPaths: $this->partialRootPaths,
+            layoutRootPaths: $this->layoutRootPaths,
+            request: $this->request,
+        );
+        $view = $viewFactory->create($viewFactoryData);
+        $view->assignMultiple($arguments);
 
-                $this->standaloneView->assignMultiple($arguments);
-
-                if ($return = $this->standaloneView->render()) {
-                    return $this->prepareStringForJavaScript($return);
-                }
-            }
+        if ($return = $view->render($template)) {
+            return $this->prepareStringForJavaScript($return);
         }
 
         return '';
+    }
+
+    private function templateFileExists(string $template): bool
+    {
+        foreach (array_reverse($this->templateRootPaths) as $templateRootPath) {
+            $templateRootPath = rtrim((string)$templateRootPath, '/');
+            if ($templateRootPath === '' || $templateRootPath === 'php://stdin') {
+                continue;
+            }
+
+            $templatePathAndFilename = GeneralUtility::getFileAbsFileName(
+                $templateRootPath . '/' . $template . '.html'
+            );
+            if ($templatePathAndFilename !== '' && file_exists($templatePathAndFilename)) {
+                return true;
+            }
+        }
+
+        return false;
     }
 
     private function getLabel(string $key, array $additionalArguments = []): string
