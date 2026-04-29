@@ -384,13 +384,9 @@ class KlaroService
                         if (!$pattern) {
                             continue;
                         }
-                        if ($path !== '/' || $domain) {
-                            $cookieConfiguration[] = [
-                                $pattern, $path, $domain,
-                            ];
-                        } else {
-                            $cookieConfiguration[] = $pattern;
-                        }
+                        $cookieConfiguration[] = $path !== '/' || $domain ? [
+                            $pattern, $path, $domain,
+                        ] : $pattern;
                     }
                     $serviceConfiguration['cookies'] = $cookieConfiguration;
                     continue;
@@ -573,7 +569,7 @@ class KlaroService
 
     private function arrayIsAssociative(array $array): bool
     {
-        return count(array_filter(array_keys($array), 'is_string')) > 0;
+        return count(array_filter(array_keys($array), is_string(...))) > 0;
     }
 
     private function fetchConfiguration(): array

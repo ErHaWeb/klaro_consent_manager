@@ -28,7 +28,7 @@ class KlaroUtility
 {
     public static function isActive(?ServerRequestInterface $request = null): bool
     {
-        if ($request === null) {
+        if (!$request instanceof ServerRequestInterface) {
             $request = self::getRequest();
         }
 

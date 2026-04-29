@@ -32,6 +32,10 @@ use TYPO3\CMS\Core\Utility\GeneralUtility;
 
 class ReplaceBeforeOutput implements MiddlewareInterface
 {
+    public $configuration;
+    public function __construct(private readonly ConnectionPool $connectionPool)
+    {
+    }
     public function process(ServerRequestInterface $request, RequestHandlerInterface $handler): ResponseInterface
     {
         $showUrl = ExtensionConfigurationUtility::getConfiguration('replaceUrl/show');
@@ -96,12 +100,12 @@ class ReplaceBeforeOutput implements MiddlewareInterface
             $html = str_replace($fullTag, $newTag, $html);
 
             // Process nested elements
-            $startPos = strpos($html, $newTag);
+            $startPos = strpos($html, (string) $newTag);
             if ($startPos !== false) {
                 $endPos = strpos($html, '</' . $tagName . '>', $startPos);
                 if ($endPos !== false) {
                     $endPos += strlen('</' . $tagName . '>');
-                    $innerHtml = substr($html, $startPos + strlen($newTag), $endPos - $startPos - strlen($newTag));
+                    $innerHtml = substr($html, $startPos + strlen((string) $newTag), $endPos - $startPos - strlen((string) $newTag));
 
                     // Process attributes within the inner HTML
                     $innerHtml = (string)preg_replace_callback('/<([a-zA-Z0-9]+)([^>]*)>/', static function (array $matches) use ($attributesToReplace, $dataNameAttribute): string {
@@ -110,9 +114,7 @@ class ReplaceBeforeOutput implements MiddlewareInterface
 
                         foreach ($attributesToReplace as $attribute) {
                             $attributePattern = '/\s' . $attribute . '\s*=\s*"([^"]+)"/';
-                            $tagAttributes = preg_replace_callback($attributePattern, static function (array $attrMatches) use ($attribute): string {
-                                return ' data-' . $attribute . '="' . $attrMatches[1] . '"';
-                            }, $tagAttributes, -1, $count);
+                            $tagAttributes = preg_replace_callback($attributePattern, static fn(array $attrMatches): string => ' data-' . $attribute . '="' . $attrMatches[1] . '"', $tagAttributes, -1, $count);
                             if ($count > 0) {
                                 $attributeReplaced = true;
                             }
@@ -126,7 +128,7 @@ class ReplaceBeforeOutput implements MiddlewareInterface
                         return '<' . $innerTagName . $tagAttributes . '>';
                     }, $innerHtml);
 
-                    $html = substr_replace($html, $innerHtml, $startPos + strlen($newTag), $endPos - $startPos - strlen($newTag));
+                    $html = substr_replace($html, $innerHtml, $startPos + strlen((string) $newTag), $endPos - $startPos - strlen((string) $newTag));
                 }
             }
         }
@@ -138,7 +140,7 @@ class ReplaceBeforeOutput implements MiddlewareInterface
     {
         $return = 'klaro';
 
-        $connectionPool = GeneralUtility::makeInstance(ConnectionPool::class);
+        $connectionPool = $this->connectionPool;
         $configurationId = 0;
 
         $site = $request->getAttribute('site');
