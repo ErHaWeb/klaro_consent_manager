@@ -273,14 +273,14 @@ class KlaroService
                 $configuration = $languageConfiguration;
             }
 
-            if (!$configuration) {
+            if ($configuration === []) {
                 $siteConfiguration = $site->getConfiguration();
                 if (array_key_exists('klaroConfiguration', $siteConfiguration)) {
                     $configuration = $siteConfiguration;
                 }
             }
 
-            if ($configuration) {
+            if ($configuration !== []) {
                 $this->configurationId = (int)($configuration['klaroConfiguration'] ?? 0);
                 if ($this->configurationId > 0) {
                     $this->imprintLink = (string)($configuration['klaroImprintUrl'] ?? '');
@@ -463,10 +463,10 @@ class KlaroService
         }
 
         if ($prepend === '') {
-            if ($privacyPolicyLink = $this->getUrlFromTypoLink($this->privacyPolicyLink)) {
+            $privacyPolicyLink = $this->getUrlFromTypoLink($this->privacyPolicyLink);
+            if ($privacyPolicyLink !== '' && $privacyPolicyLink !== '0') {
                 $return['privacyPolicyUrl'] = $privacyPolicyLink;
             }
-
             $return['purposes'] = [];
             foreach ($this->rawConfiguration['services'] as $service) {
                 $purposes = GeneralUtility::trimExplode(',', $service['purposes']);
@@ -582,7 +582,7 @@ class KlaroService
             return [];
         }
 
-        if (!empty($this->rawConfiguration)) {
+        if ($this->rawConfiguration !== []) {
             return $this->rawConfiguration;
         }
 
@@ -703,13 +703,13 @@ class KlaroService
         $template = 'Labels/' . str_replace(' ', '/', ucwords(str_replace('.', ' ', $key)));
 
         // When in the Klaro! Configuration a Locallang file has been defined, this has priority
-        if ($this->locallangPathOverride) {
+        if ($this->locallangPathOverride !== '' && $this->locallangPathOverride !== '0') {
             $fullKey = 'LLL:' . $this->locallangPathOverride . ':' . $key;
             $label = $this->languageService->sL($fullKey);
         }
 
         // If no text could be determined, fall back to the default locallang file
-        if (!$label) {
+        if ($label === '' || $label === '0') {
             $fullKey = 'LLL:' . $this->locallangPath . ':' . $key;
             $label = $this->languageService->sL($fullKey);
         }
@@ -723,13 +723,14 @@ class KlaroService
         ];
 
         ArrayUtility::mergeRecursiveWithOverrule($arguments, $additionalArguments);
+        $fluidLabel = $this->getFluidContent($template, $arguments);
 
-        if ($fluidLabel = $this->getFluidContent($template, $arguments)) {
+        if ($fluidLabel !== '' && $fluidLabel !== '0') {
             return $fluidLabel;
         }
 
         // If no label has been created up to this point, fall back to an error message.
-        if (!$label) {
+        if ($label === '' || $label === '0') {
             $label = '[missing translation: ' . $key . ']';
         }
 

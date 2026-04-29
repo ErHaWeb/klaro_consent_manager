@@ -42,7 +42,7 @@ class KlaroJavaScript
         }
 
         $settings = TypoScriptUtility::getSettings($request);
-        if (!$settings) {
+        if ($settings === []) {
             return;
         }
 

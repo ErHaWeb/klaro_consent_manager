@@ -45,7 +45,7 @@ class KlaroStylesheet
         }
 
         $settings = TypoScriptUtility::getSettings($request);
-        if (!$settings) {
+        if ($settings === []) {
             return;
         }
 
