@@ -19,7 +19,7 @@ use TYPO3\CMS\Core\Utility\ArrayUtility;
 
 defined('TYPO3') || die();
 
-(static function () {
+(static function (): void {
     ArrayUtility::mergeRecursiveWithOverrule(
         $GLOBALS['TCA']['tx_klaroconsentmanager_configuration']['columns']['purpose_order']['config'],
         $GLOBALS['TCA']['tx_klaroconsentmanager_service']['columns']['purposes']['config'],

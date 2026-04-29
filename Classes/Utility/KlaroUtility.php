@@ -48,7 +48,7 @@ class KlaroUtility
 
         if ($cache !== null && $cache->has($entryIdentifier)) {
             $cachedValue = $cache->get($entryIdentifier);
-            if (is_bool($cachedValue)) {
+            if (\is_bool($cachedValue)) {
                 return $cachedValue;
             }
         }

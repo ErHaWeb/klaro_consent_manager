@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 // Experimental example to add a new field to the site configuration
 
 use TYPO3\CMS\Core\Utility\ArrayUtility;

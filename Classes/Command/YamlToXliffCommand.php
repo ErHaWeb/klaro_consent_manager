@@ -34,17 +34,17 @@ final class YamlToXliffCommand extends Command
      */
     protected function execute(InputInterface $input, OutputInterface $output): int
     {
-        $inDir       = rtrim((string)$input->getArgument('input'), '/');
-        $outDir      = rtrim((string)$input->getArgument('output'), '/');
-        $baseLocale  = (string)($input->getOption('base') ?? '');
-        $productName = (string)$input->getOption('product-name');
-        $original    = (string)$input->getOption('original');
+        $inDir       = rtrim((string) $input->getArgument('input'), '/');
+        $outDir      = rtrim((string) $input->getArgument('output'), '/');
+        $baseLocale  = (string) ($input->getOption('base') ?? '');
+        $productName = (string) $input->getOption('product-name');
+        $original    = (string) $input->getOption('original');
 
         if (!is_dir($inDir)) {
             $output->writeln("<error>Input directory not found: $inDir</error>");
             return Command::FAILURE;
         }
-        if (!is_dir($outDir) && !mkdir($outDir, 0777, true) && !is_dir($outDir)) {
+        if (!is_dir($outDir) && !mkdir($outDir, 0o777, true) && !is_dir($outDir)) {
             $output->writeln("<error>Could not create output directory: $outDir</error>");
             return Command::FAILURE;
         }
@@ -52,7 +52,7 @@ final class YamlToXliffCommand extends Command
         // Collect YAML files (top-level is sufficient for Klaro structure)
         $files = array_values(array_filter(
             scandir($inDir) ?: [],
-            static fn(string $f): bool => (bool)preg_match('/\.(ya?ml)$/i', $f)
+            static fn(string $f): bool => (bool) preg_match('/\.(ya?ml)$/i', $f)
         ));
         if ($files === []) {
             $output->writeln('<comment>No YAML files found.</comment>');
@@ -65,7 +65,7 @@ final class YamlToXliffCommand extends Command
             $localeRaw = $this->inferLocale($file);            // e.g. "en", "pt-BR", "zh_Hant"
             $locale    = $this->normalizeIso639_1($localeRaw); // → "en", "pt", "zh"
             $data      = Yaml::parseFile($inDir . '/' . $file);
-            if (!is_array($data)) {
+            if (!\is_array($data)) {
                 $data = [];
             }
             $flat = [];
@@ -167,10 +167,10 @@ final class YamlToXliffCommand extends Command
 
             $id = $prefix === '' ? $segment : $prefix . '.' . $segment;
 
-            if (is_array($value)) {
+            if (\is_array($value)) {
                 self::flatten($value, $id, $out);
             } else {
-                $out[$id] = (string)$value;
+                $out[$id] = (string) $value;
             }
         }
     }

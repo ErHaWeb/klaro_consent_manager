@@ -19,7 +19,7 @@ use TYPO3\CMS\Core\Utility\ExtensionManagementUtility;
 
 defined('TYPO3') || die();
 
-(static function () {
+(static function (): void {
     $newFields = [
         'tx_klaroconsentmanager_service' => [
             'label' => 'LLL:EXT:klaro_consent_manager/Resources/Private/Language/locallang_db.xlf:tt_content.tx_klaroconsentmanager_service.label',

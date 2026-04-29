@@ -51,10 +51,10 @@ class TypoScriptUtility
     public static function convertTypoScriptArrayToPlainArray(array $typoScriptArray): array
     {
         foreach ($typoScriptArray as $key => $value) {
-            if (str_ends_with((string)$key, '.')) {
-                $keyWithoutDot = substr((string)$key, 0, -1);
+            if (str_ends_with((string) $key, '.')) {
+                $keyWithoutDot = substr((string) $key, 0, -1);
                 $typoScriptNodeValue = $typoScriptArray[$keyWithoutDot] ?? null;
-                if (is_array($value)) {
+                if (\is_array($value)) {
                     $typoScriptArray[$keyWithoutDot] = self::convertTypoScriptArrayToPlainArray($value);
                     if ($typoScriptNodeValue !== null) {
                         $typoScriptArray[$keyWithoutDot]['_typoScriptNodeValue'] = $typoScriptNodeValue;

@@ -9,6 +9,6 @@ defined('TYPO3') || die();
         $GLOBALS['TYPO3_CONF_VARS']['SYS']['fluid']['namespaces']['klaro'] = [];
     }
 
-    $GLOBALS['TYPO3_CONF_VARS']['SYS']['fluid']['namespaces']['klaro'][] =
-        'ErHaWeb\\KlaroConsentManager\\ViewHelpers';
+    $GLOBALS['TYPO3_CONF_VARS']['SYS']['fluid']['namespaces']['klaro'][]
+        = 'ErHaWeb\\KlaroConsentManager\\ViewHelpers';
 })();

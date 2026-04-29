@@ -229,16 +229,16 @@ class KlaroService
                 if ($this->rawConfiguration['append_reset_button']) {
                     $appendJavaScript .= $this->createAppendShowButtonScript($elementId);
                 }
-                $appendJavaScript .=
-                    'const ' . $elementId . 'Elements=document.querySelectorAll("[data-' . $elementId . '-trigger]");' .
-                    $elementId . 'Elements.forEach(element=>{' .
-                    'element.addEventListener("click",e=>{' .
-                    'e.preventDefault();' .
-                    'if(typeof ' . $configVariableName . '!=="undefined"){' .
-                    'klaro.show(' . $configVariableName . ',true);' .
-                    'if(element.dataset.' . $elementId . 'Trigger==="reset")' .
-                    'klaro.getManager(' . $configVariableName . ').resetConsents();' .
-                    '}});});';
+                $appendJavaScript
+                    .= 'const ' . $elementId . 'Elements=document.querySelectorAll("[data-' . $elementId . '-trigger]");'
+                    . $elementId . 'Elements.forEach(element=>{'
+                    . 'element.addEventListener("click",e=>{'
+                    . 'e.preventDefault();'
+                    . 'if(typeof ' . $configVariableName . '!=="undefined"){'
+                    . 'klaro.show(' . $configVariableName . ',true);'
+                    . 'if(element.dataset.' . $elementId . 'Trigger==="reset")'
+                    . 'klaro.getManager(' . $configVariableName . ').resetConsents();'
+                    . '}});});';
 
                 $return .= 'document.addEventListener("DOMContentLoaded",()=>{"use strict";' . $appendJavaScript . '});';
 
@@ -248,9 +248,9 @@ class KlaroService
             $applicationContext = Environment::getContext();
             if ($applicationContext->isDevelopment() || $applicationContext->isTesting()) {
                 if (
-                    ($GLOBALS['BE_USER'] ?? []) &&
-                    $beUserPreName = GeneralUtility::trimExplode(' ', $GLOBALS['BE_USER']->user['realName'])[0] ?:
-                        ucfirst((string)$GLOBALS['BE_USER']->user['username'])
+                    ($GLOBALS['BE_USER'] ?? [])
+                    && $beUserPreName = GeneralUtility::trimExplode(' ', $GLOBALS['BE_USER']->user['realName'])[0]
+                        ?: ucfirst((string) $GLOBALS['BE_USER']->user['username'])
                 ) {
                     $beUserPreName = addslashes(strip_tags($beUserPreName));
                     $label = vsprintf($this->getLabel('warning.noServicesPersonalized'), [$beUserPreName]);
@@ -271,22 +271,22 @@ class KlaroService
             $languageConfiguration = $this->siteLanguage->toArray();
             $configuration = [];
 
-            if (array_key_exists('klaroConfiguration', $languageConfiguration)) {
+            if (\array_key_exists('klaroConfiguration', $languageConfiguration)) {
                 $configuration = $languageConfiguration;
             }
 
             if ($configuration === []) {
                 $siteConfiguration = $site->getConfiguration();
-                if (array_key_exists('klaroConfiguration', $siteConfiguration)) {
+                if (\array_key_exists('klaroConfiguration', $siteConfiguration)) {
                     $configuration = $siteConfiguration;
                 }
             }
 
             if ($configuration !== []) {
-                $this->configurationId = (int)($configuration['klaroConfiguration'] ?? 0);
+                $this->configurationId = (int) ($configuration['klaroConfiguration'] ?? 0);
                 if ($this->configurationId > 0) {
-                    $this->imprintLink = (string)($configuration['klaroImprintUrl'] ?? '');
-                    $this->privacyPolicyLink = (string)($configuration['klaroPrivacyPolicyUrl'] ?? '');
+                    $this->imprintLink = (string) ($configuration['klaroImprintUrl'] ?? '');
+                    $this->privacyPolicyLink = (string) ($configuration['klaroPrivacyPolicyUrl'] ?? '');
                     $this->rawConfiguration = $this->fetchConfiguration();
                     return true;
                 }
@@ -331,11 +331,11 @@ class KlaroService
     private function createAppendShowButtonScript(string $elementId, bool $reset = true): string
     {
         $id = $elementId . ($reset ? 'Reset' : 'Show');
-        return 'const ' . $id . '=document.createElement("button");' .
-            $id . '.setAttribute("data-' . $elementId . '-trigger", "' . ($reset ? 'reset' : 'show') . '");' .
-            $id . '.setAttribute("title", "' . $this->getLabel('consentManager.' . ($reset ? 'reset' : 'show') . '.title', ['elementId' => $elementId, 'reset' => $reset, 'id' => $id]) . '");' .
-            $id . '.textContent="' . $this->getLabel('consentManager.' . ($reset ? 'reset' : 'show'), ['elementId' => $elementId, 'reset' => $reset, 'id' => $id]) . '";' .
-            'document.body.appendChild(' . $id . ');';
+        return 'const ' . $id . '=document.createElement("button");'
+            . $id . '.setAttribute("data-' . $elementId . '-trigger", "' . ($reset ? 'reset' : 'show') . '");'
+            . $id . '.setAttribute("title", "' . $this->getLabel('consentManager.' . ($reset ? 'reset' : 'show') . '.title', ['elementId' => $elementId, 'reset' => $reset, 'id' => $id]) . '");'
+            . $id . '.textContent="' . $this->getLabel('consentManager.' . ($reset ? 'reset' : 'show'), ['elementId' => $elementId, 'reset' => $reset, 'id' => $id]) . '";'
+            . 'document.body.appendChild(' . $id . ');';
     }
 
     private function getServices(): array
@@ -350,14 +350,14 @@ class KlaroService
             $serviceConfiguration = [
                 'translations' => [
                     'zz' => [
-                        'title' =>
-                            $this->getFluidContent('Prepend/Service/Title', $arguments) .
-                            $this->getLabel('services.' . $service['name'] . '.title', $arguments) .
-                            $this->getFluidContent('Append/Service/Title', $arguments),
-                        'description' =>
-                            $this->getFluidContent('Prepend/Service/Description', $arguments) .
-                            $this->getLabel('services.' . $service['name'] . '.description', $arguments) .
-                            $this->getFluidContent('Append/Service/Description', $arguments),
+                        'title'
+                            => $this->getFluidContent('Prepend/Service/Title', $arguments)
+                            . $this->getLabel('services.' . $service['name'] . '.title', $arguments)
+                            . $this->getFluidContent('Append/Service/Title', $arguments),
+                        'description'
+                            => $this->getFluidContent('Prepend/Service/Description', $arguments)
+                            . $this->getLabel('services.' . $service['name'] . '.description', $arguments)
+                            . $this->getFluidContent('Append/Service/Description', $arguments),
                     ],
                 ],
             ];
@@ -400,29 +400,29 @@ class KlaroService
         // Read TS settings for service filtering
         $settings = $this->settings['services'] ?? [];
 
-        $name = (string)($service['name'] ?? '');
+        $name = (string) ($service['name'] ?? '');
         if ($name === '') {
             return true; // no name -> do not filter
         }
 
         // Convert comma-separated lists to arrays
         $whitelist = [];
-        if (!empty($settings['whitelist']) && is_string($settings['whitelist'])) {
+        if (!empty($settings['whitelist']) && \is_string($settings['whitelist'])) {
             $whitelist = GeneralUtility::trimExplode(',', $settings['whitelist'], true);
         }
 
         $blacklist = [];
-        if (!empty($settings['blacklist']) && is_string($settings['blacklist'])) {
+        if (!empty($settings['blacklist']) && \is_string($settings['blacklist'])) {
             $blacklist = GeneralUtility::trimExplode(',', $settings['blacklist'], true);
         }
 
         // 1) whitelist: if defined, only listed services are allowed
         if ($whitelist !== []) {
-            return in_array($name, $whitelist, true);
+            return \in_array($name, $whitelist, true);
         }
 
         // 2) blacklist: deny if listed
-        if ($blacklist !== [] && in_array($name, $blacklist, true)) {
+        if ($blacklist !== [] && \in_array($name, $blacklist, true)) {
             return false;
         }
 
@@ -445,7 +445,7 @@ class KlaroService
     {
         $return = [];
         foreach ($keys as $key => $label) {
-            if (is_array($label)) {
+            if (\is_array($label)) {
                 $return[$key] = $this->getTranslations($label, ($prepend !== '' ? $prepend . '.' : '') . $key);
             } else {
                 $return[$label] = $this->getLabel(($prepend !== '' ? $prepend . '.' : '') . $label);
@@ -464,14 +464,14 @@ class KlaroService
                     if (!($return['purposes'][$purpose] ?? false)) {
                         $arguments = ['service' => $service, 'purpose' => $purpose];
                         $return['purposes'][$purpose] = [
-                            'title' =>
-                                $this->getFluidContent('Prepend/Purpose/Title', $arguments) .
-                                $this->getLabel('purposes.' . $purpose . '.title', $arguments) .
-                                $this->getFluidContent('Append/Purpose/Title', $arguments),
-                            'description' =>
-                                $this->getFluidContent('Prepend/Purpose/Description', $arguments) .
-                                $this->getLabel('purposes.' . $purpose . '.description', $arguments) .
-                                $this->getFluidContent('Append/Purpose/Description', $arguments),
+                            'title'
+                                => $this->getFluidContent('Prepend/Purpose/Title', $arguments)
+                                . $this->getLabel('purposes.' . $purpose . '.title', $arguments)
+                                . $this->getFluidContent('Append/Purpose/Title', $arguments),
+                            'description'
+                                => $this->getFluidContent('Prepend/Purpose/Description', $arguments)
+                                . $this->getLabel('purposes.' . $purpose . '.description', $arguments)
+                                . $this->getFluidContent('Append/Purpose/Description', $arguments),
                         ];
                     }
                 }
@@ -487,9 +487,9 @@ class KlaroService
     private function getConfigurationValue(array $configuration, string $field, string $type): mixed
     {
         return match ($type) {
-            'boolean' => (bool)$configuration[$field],
-            'integer' => (int)$configuration[$field],
-            'string' => (string)$configuration[$field],
+            'boolean' => (bool) $configuration[$field],
+            'integer' => (int) $configuration[$field],
+            'string' => (string) $configuration[$field],
             default => $configuration[$field],
         };
     }
@@ -497,23 +497,23 @@ class KlaroService
     private function isValidJsIdentifier(string $key): bool
     {
         // Valid: foo, $foo, _foo, foo123 – but NOT: foo-bar, my key, etc.
-        return (bool)preg_match('/^[A-Za-z$_][A-Za-z0-9$_]*$/', $key);
+        return (bool) preg_match('/^[A-Za-z$_][A-Za-z0-9$_]*$/', $key);
     }
 
     private function filterStylingForNeutralScheme(): void
     {
-        $scheme = (string)($this->rawConfiguration['color_scheme'] ?? '');
-        if (!in_array($scheme, ['dark_neutral', 'light_neutral'], true)) {
+        $scheme = (string) ($this->rawConfiguration['color_scheme'] ?? '');
+        if (!\in_array($scheme, ['dark_neutral', 'light_neutral'], true)) {
             return;
         }
 
-        if (empty($this->configuration['styling']) || !is_array($this->configuration['styling'])) {
+        if (empty($this->configuration['styling']) || !\is_array($this->configuration['styling'])) {
             return;
         }
 
         foreach (self::BUILTIN_STYLING_KEYS as $key) {
             // keep only those explicitly allowed for neutral scheme
-            if (in_array($key, self::NEUTRAL_STYLING_KEYS, true)) {
+            if (\in_array($key, self::NEUTRAL_STYLING_KEYS, true)) {
                 continue;
             }
             unset($this->configuration['styling'][$key]);
@@ -530,24 +530,24 @@ class KlaroService
         $return = $isAssociative ? '{' : '[';
         foreach ($array as $key => $value) {
             if ($isAssociative) {
-                if ($this->isValidJsIdentifier((string)$key)) {
+                if ($this->isValidJsIdentifier((string) $key)) {
                     $return .= $key . ':';
                 } else {
-                    $escapedKey = addslashes((string)$key);
+                    $escapedKey = addslashes((string) $key);
                     $return .= '\'' . $escapedKey . '\':';
                 }
             }
 
-            if (is_array($value)) {
+            if (\is_array($value)) {
                 $return .= $this->arrayToJavaScriptObject($value);
-            } elseif (is_bool($value)) {
+            } elseif (\is_bool($value)) {
                 $return .= $value ? 'true' : 'false';
             } elseif (
-                is_string($value) &&
-                !str_starts_with($value, 'function(') &&
-                !str_starts_with($value, '/^') &&
-                !str_ends_with($value, '$/') &&
-                !(str_starts_with($value, '{') && str_ends_with($value, '}'))
+                \is_string($value)
+                && !str_starts_with($value, 'function(')
+                && !str_starts_with($value, '/^')
+                && !str_ends_with($value, '$/')
+                && !(str_starts_with($value, '{') && str_ends_with($value, '}'))
             ) {
                 $return .= '\'' . $value . '\'';
             } else {
@@ -563,7 +563,7 @@ class KlaroService
 
     private function arrayIsAssociative(array $array): bool
     {
-        return count(array_filter(array_keys($array), is_string(...))) > 0;
+        return \count(array_filter(array_keys($array), is_string(...))) > 0;
     }
 
     private function fetchConfiguration(): array
@@ -691,7 +691,7 @@ class KlaroService
     private function templateFileExists(string $template): bool
     {
         foreach (array_reverse($this->templateRootPaths) as $templateRootPath) {
-            $templateRootPath = rtrim((string)$templateRootPath, '/');
+            $templateRootPath = rtrim((string) $templateRootPath, '/');
             if ($templateRootPath === '' || $templateRootPath === 'php://stdin') {
                 continue;
             }
@@ -765,7 +765,7 @@ class KlaroService
         );
 
         // Add slashes
-        $string = addslashes((string)$string);
+        $string = addslashes((string) $string);
 
         // Trim string
         return trim($string);

@@ -33,9 +33,7 @@ use TYPO3\CMS\Core\Utility\GeneralUtility;
 class ReplaceBeforeOutput implements MiddlewareInterface
 {
     public $configuration;
-    public function __construct(private readonly ConnectionPool $connectionPool)
-    {
-    }
+    public function __construct(private readonly ConnectionPool $connectionPool) {}
     public function process(ServerRequestInterface $request, RequestHandlerInterface $handler): ResponseInterface
     {
         $showUrl = ExtensionConfigurationUtility::getConfiguration('replaceUrl/show');
@@ -104,11 +102,11 @@ class ReplaceBeforeOutput implements MiddlewareInterface
             if ($startPos !== false) {
                 $endPos = strpos($html, '</' . $tagName . '>', $startPos);
                 if ($endPos !== false) {
-                    $endPos += strlen('</' . $tagName . '>');
-                    $innerHtml = substr($html, $startPos + strlen((string) $newTag), $endPos - $startPos - strlen((string) $newTag));
+                    $endPos += \strlen('</' . $tagName . '>');
+                    $innerHtml = substr($html, $startPos + \strlen((string) $newTag), $endPos - $startPos - \strlen((string) $newTag));
 
                     // Process attributes within the inner HTML
-                    $innerHtml = (string)preg_replace_callback('/<([a-zA-Z0-9]+)([^>]*)>/', static function (array $matches) use ($attributesToReplace, $dataNameAttribute): string {
+                    $innerHtml = (string) preg_replace_callback('/<([a-zA-Z0-9]+)([^>]*)>/', static function (array $matches) use ($attributesToReplace, $dataNameAttribute): string {
                         [, $innerTagName, $tagAttributes] = $matches;
                         $attributeReplaced = false;
 
@@ -128,7 +126,7 @@ class ReplaceBeforeOutput implements MiddlewareInterface
                         return '<' . $innerTagName . $tagAttributes . '>';
                     }, $innerHtml);
 
-                    $html = substr_replace($html, $innerHtml, $startPos + strlen((string) $newTag), $endPos - $startPos - strlen((string) $newTag));
+                    $html = substr_replace($html, $innerHtml, $startPos + \strlen((string) $newTag), $endPos - $startPos - \strlen((string) $newTag));
                 }
             }
         }
@@ -146,7 +144,7 @@ class ReplaceBeforeOutput implements MiddlewareInterface
         $site = $request->getAttribute('site');
         if ($site instanceof Site) {
             $siteConfiguration = $site->getConfiguration();
-            $configurationId = (int)($siteConfiguration['klaroConfiguration'] ?? 0);
+            $configurationId = (int) ($siteConfiguration['klaroConfiguration'] ?? 0);
         }
 
         if ($configurationId === 0) {
