@@ -149,13 +149,10 @@ class KlaroService
     private array $framework = [];
     private array $settings = [];
     private StandaloneView $standaloneView;
-    private ContentObjectRenderer $cObj;
 
     public function __construct(
         protected ServerRequestInterface $request
     ) {
-        $this->cObj = new ContentObjectRenderer();
-        $this->cObj->setRequest($request);
     }
 
     public function getRawConfiguration(): array
@@ -764,7 +761,10 @@ class KlaroService
 
     private function getUrlFromTypoLink(string $typoLink): string
     {
-        return $this->cObj->createUrl([
+        $cObj = GeneralUtility::makeInstance(ContentObjectRenderer::class);
+        $cObj->setRequest($this->request);
+
+        return $cObj->createUrl([
             'parameter' => $typoLink,
             'forceAbsoluteUrl' => true,
         ]);
