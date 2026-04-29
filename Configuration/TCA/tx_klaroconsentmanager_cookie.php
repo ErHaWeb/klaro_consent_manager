@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 return [
     'ctrl' => [
         'title' => 'LLL:EXT:klaro_consent_manager/Resources/Private/Language/locallang_db.xlf:tx_klaroconsentmanager_cookie',
