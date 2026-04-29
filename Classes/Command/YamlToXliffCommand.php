@@ -62,8 +62,8 @@ final class YamlToXliffCommand extends Command
         // Load language data & flatten
         $flattenedPerLocale = [];
         foreach ($files as $file) {
-            $localeRaw = self::inferLocale($file);            // e.g. "en", "pt-BR", "zh_Hant"
-            $locale    = self::normalizeIso639_1($localeRaw); // → "en", "pt", "zh"
+            $localeRaw = $this->inferLocale($file);            // e.g. "en", "pt-BR", "zh_Hant"
+            $locale    = $this->normalizeIso639_1($localeRaw); // → "en", "pt", "zh"
             $data      = Yaml::parseFile($inDir . '/' . $file);
             if (!is_array($data)) {
                 $data = [];
@@ -75,7 +75,7 @@ final class YamlToXliffCommand extends Command
         }
 
         // Normalize base language (if given)
-        $baseLocale = $baseLocale !== '' ? self::normalizeIso639_1($baseLocale) : '';
+        $baseLocale = $baseLocale !== '' ? $this->normalizeIso639_1($baseLocale) : '';
 
         // Auto-base: if no base specified, but "en" exists → base = en
         if ($baseLocale === '' && isset($flattenedPerLocale['en'])) {
@@ -85,8 +85,8 @@ final class YamlToXliffCommand extends Command
         // Case 1: No base language resolvable → standalone output (<source> from each file), filename <iso>.locallang.xlf
         if ($baseLocale === '') {
             foreach ($flattenedPerLocale as $locale => $pairs) {
-                $doc = self::createXliff12($locale, $productName, $original);
-                self::appendUnits($doc, $pairs); // only <source>
+                $doc = $this->createXliff12($locale, $productName, $original);
+                $this->appendUnits($doc, $pairs); // only <source>
                 $filePath = "$outDir/$locale.locallang.xlf";
                 $doc->save($filePath);
                 $output->writeln("<info>Writing $filePath</info>");
@@ -103,8 +103,8 @@ final class YamlToXliffCommand extends Command
         $basePairs = $flattenedPerLocale[$baseLocale];
 
         // Base file
-        $baseDoc = self::createXliff12($baseLocale, $productName, $original);
-        self::appendUnits($baseDoc, $basePairs);
+        $baseDoc = $this->createXliff12($baseLocale, $productName, $original);
+        $this->appendUnits($baseDoc, $basePairs);
         $basePath = "$outDir/locallang.xlf";
         $baseDoc->save($basePath);
         $output->writeln("<info>Writing $basePath</info>");
@@ -114,7 +114,7 @@ final class YamlToXliffCommand extends Command
             if ($locale === $baseLocale) {
                 continue;
             }
-            $doc = self::createXliff12($locale, $productName, $original);
+            $doc = $this->createXliff12($locale, $productName, $original);
 
             // Stable ID order based on base; target only set if available
             $orderedTargets = array_fill_keys(array_keys($basePairs), null);
@@ -122,7 +122,7 @@ final class YamlToXliffCommand extends Command
                 $orderedTargets[$k] = $v;
             }
 
-            self::appendUnitsWithBase($doc, $basePairs, $orderedTargets);
+            $this->appendUnitsWithBase($doc, $basePairs, $orderedTargets);
             $filePath = "$outDir/$locale.locallang.xlf";
             $doc->save($filePath);
             $output->writeln("<info>Writing $filePath</info>");
@@ -131,7 +131,7 @@ final class YamlToXliffCommand extends Command
         return Command::SUCCESS;
     }
 
-    private static function inferLocale(string $filename): string
+    private function inferLocale(string $filename): string
     {
         // Expects names like "en.yml", "pt-BR.yaml", "zh_Hant.yml"
         return pathinfo($filename, PATHINFO_FILENAME);
@@ -141,7 +141,7 @@ final class YamlToXliffCommand extends Command
      * Reduce to primary ISO-639-1 code (2 letters, lowercase).
      * Examples: "pt-BR" -> "pt", "zh_Hant" -> "zh", "EN" -> "en".
      */
-    private static function normalizeIso639_1(string $locale): string
+    private function normalizeIso639_1(string $locale): string
     {
         $primary = preg_split('/[-_]/', $locale)[0] ?? $locale;
         $primary = strtolower(preg_replace('/[^a-zA-Z]/', '', $primary) ?? '');
@@ -178,7 +178,7 @@ final class YamlToXliffCommand extends Command
     /**
      * @throws \DOMException
      */
-    private static function createXliff12(string $targetLanguage, string $productName, string $original): \DOMDocument
+    private function createXliff12(string $targetLanguage, string $productName, string $original): \DOMDocument
     {
         $doc = new \DOMDocument('1.0', 'UTF-8');
         $doc->formatOutput = true;
@@ -211,7 +211,7 @@ final class YamlToXliffCommand extends Command
      * @param array<string,string> $pairs
      * @throws \DOMException
      */
-    private static function appendUnits(\DOMDocument $doc, array $pairs): void
+    private function appendUnits(\DOMDocument $doc, array $pairs): void
     {
         /** @var \DOMElement $body */
         $body = $doc->getElementsByTagName('body')->item(0);
@@ -234,7 +234,7 @@ final class YamlToXliffCommand extends Command
      * @param array<string,string|null> $targetPairs
      * @throws \DOMException
      */
-    private static function appendUnitsWithBase(\DOMDocument $doc, array $basePairs, array $targetPairs): void
+    private function appendUnitsWithBase(\DOMDocument $doc, array $basePairs, array $targetPairs): void
     {
         /** @var \DOMElement $body */
         $body = $doc->getElementsByTagName('body')->item(0);
