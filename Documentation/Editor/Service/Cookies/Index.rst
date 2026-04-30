@@ -9,17 +9,18 @@ Cookies
 
 
 ..  figure:: /Images/Service-Cookie.png
+    :alt: Cookies tab of a Klaro service record with inline cookie records
 
     Service Configuration - Cookie Tab
 
-.. contents::
+..  contents::
    :local:
 
 Cookie Settings
 ===============
 
 Cookies
------
+-------
 
 ..  confval:: cookies
 

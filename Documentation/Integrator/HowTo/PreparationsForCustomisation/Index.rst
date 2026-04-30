@@ -9,7 +9,7 @@ Preparations for customisation
 
 Two references to your own sitepackage files can be stored in the Klaro configuration record in the backend. These are described below.
 
-.. contents::
+..  contents::
    :local:
 
 ..  _howto-reference-fluid:
@@ -17,9 +17,12 @@ Two references to your own sitepackage files can be stored in the Klaro configur
 Reference to your own Fluid files
 =================================
 
-A reference to the Fluid Root Directory can be configured via the `Fluid Template Root Path <configuration-content-fluidtemplaterootpath>`__ field of the Klaro configuration.
+A reference to the Fluid root directory can be configured via the
+:ref:`Fluid Template Root Path <configuration-content-fluidtemplaterootpath>`
+field of the Klaro configuration.
 
 ..  figure:: /Images/HowTo-FluidTemplateRootPath.png
+    :alt: Fluid Template Root Path field in the Klaro configuration content tab
 
 **Example**
 
@@ -27,7 +30,10 @@ A reference to the Fluid Root Directory can be configured via the `Fluid Templat
 
     EXT:sitepackage/Resources/Private/
 
-The directories `/Layouts/`, `/Partials/` and `/Templates/` are automatically expected under the path specified here. Fluid enriched labels are expected in the `/Templates/Labels/` directory. For further information about fluid enriched labels `see here <howto-fluid-enriched-labels>`__.
+The directories `/Layouts/`, `/Partials/`, and `/Templates/` are expected
+under the path specified here. Fluid-enriched labels are expected in the
+`/Templates/Labels/` directory. See :ref:`howto-fluid-enriched-labels` for
+details.
 
 ..  directory-tree::
     :level: 5
@@ -52,8 +58,11 @@ The directories `/Layouts/`, `/Partials/` and `/Templates/` are automatically ex
 Reference to your own XLIFF file
 ================================
 
-A reference to a Locallang file can be created via the `Locallang Path <configuration-content-locallangpath>`__ field of the Klaro configuration.
+A reference to a Locallang file can be created via the
+:ref:`Locallang Path <configuration-content-locallangpath>` field of the Klaro
+configuration.
 
 This overwrites the default labels of the extension. Labels can also be added to this file that are required for individually defined purposes or services, for example.
 
 ..  figure:: /Images/HowTo-LocallangPath.png
+    :alt: Locallang Path field in the Klaro configuration content tab

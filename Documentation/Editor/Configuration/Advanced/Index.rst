@@ -8,10 +8,11 @@ Advanced
 ========
 
 ..  figure:: /Images/Configuration-Advanced.png
+    :alt: Advanced tab of a Klaro configuration record
 
     Klaro Configuration - Advanced Tab
 
-.. contents::
+..  contents::
    :local:
 
 Base Configuration
@@ -68,11 +69,13 @@ Storage Method
     :type: select
     :Default: 'cookie'
 
-    You can customize how Klaro persists consent information in the browser. Specify either `cookie` (the default) or `localStorage`.
+    You can customize how Klaro persists consent information in the browser.
+    Specify either `cookie` (the default), `localStorage`, or the empty value
+    for no persistent storage.
 
     **Options:**
 
-    *   None `[none]`
+    *   None `[empty value]`
     *   Cookie (default) `[cookie]`
     *   Local Storage `[localStorage]`
 
@@ -97,4 +100,11 @@ Callback
     :type: string
     :Default: ''
 
-    You can define an optional callback function that will be called each time the consent state for any given service changes. The consent value will be passed as the first parameter to the function (true=consented). The `service` config will be passed as the second parameter. The content of this field is wrapped with `callback: function(consent, service) { }`
+    You can define an optional callback function that will be called each time
+    the consent state for any given service changes. The consent value is passed
+    as the first parameter (`true` means consented). The `service` config is
+    passed as the second parameter. The content of this field is wrapped with
+    `callback: function(consent, service) { }`.
+
+    Enter only trusted JavaScript. Syntax errors or unsafe code in this field
+    are emitted to the frontend configuration.

@@ -9,10 +9,11 @@ Cookie
 
 
 ..  figure:: /Images/Configuration-Cookie.png
+    :alt: Cookie tab of a Klaro configuration record
 
     Klaro Configuration - Cookie Tab
 
-.. contents::
+..  contents::
    :local:
 
 Cookie Settings
@@ -48,8 +49,9 @@ Cookie expires after days
 ..  confval:: cookie_expires_after_days
 
     :type: integer
-    :Default: 0
+    :Default: 60
 
     **Condition:** `storage_method == 'cookie'`
 
-    You can also set a custom expiration time for the Klaro cookie. By default, it will expire after 60 days. Only relevant if `storageMethod` is set to `cookie`.
+    You can set a custom expiration time for the Klaro consent cookie. Only
+    relevant if `storageMethod` is set to `cookie`.

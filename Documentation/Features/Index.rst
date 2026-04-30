@@ -1,18 +1,20 @@
 ..  include:: /Includes.rst.txt
 
+..  _features:
+
 ========
 Features
 ========
 
 This extension impresses with a variety of features that improve normal use of Klaro and stand out from other Klaro integrations. See for yourself on this page.
 
-.. contents::
+..  contents::
    :local:
 
 Backend GUI
 ===========
 
-Klaro is normally configured via a `separate JavaScript file <https://github.com/klaro-org/klaro-js/blob/master/dist/config.js>`__, which is usually included in a web project alongside the actual Klaro JavaScript of the application. This form of integration is also frequently found in TYPO3 projects. Even some TYPO3 extensions that are based on Klaro only provide a placeholder for a `config.js` file.
+Klaro is configured via a `separate JavaScript file <https://github.com/klaro-org/klaro-js/blob/master/dist/config.js>`__ in many web projects. That file is included alongside the Klaro JavaScript. Some TYPO3 extensions that are based on Klaro only provide a placeholder for a `config.js` file.
 
 ..  code-block:: javascript
     :caption: Example of a default `config.js` file from the Klaro repository
@@ -38,6 +40,7 @@ Klaro is normally configured via a `separate JavaScript file <https://github.com
 This extension now takes a new approach by making **all parameters without exceptions** provided by the Klaro configuration file **editable via the TYPO3 backend** based on the TYPO3 :ref:`FormEngine <t3coreapi:FormEngine>` in a beautiful GUI with nice titles and comprehensible descriptive texts.
 
 ..  image:: /Images/Backend-GUIExample.png
+    :alt: TYPO3 backend form showing Klaro configuration fields
 
 In this way, even editors without JavaScript syntax knowledge can get the best out of Klaro. It also ensures that there are no syntax errors and that the output is reduced to the essentials in terms of performance.
 
@@ -52,7 +55,7 @@ In the context of the backend GUI, the extension automatically checks whether th
 
     **Example**
 
-    Activating the "Must consent" setting `[mustConsent]`, for example, means that "Notice As Modal" `[noticeAsModal]` is no longer displayed as an option in the backend interface. The reason for this is that Klaro inevitably uses a modal in such a case → A dependency that is not normally clear in `config.js`.
+    Activating the "Must consent" setting `[mustConsent]`, for example, means that "Notice As Modal" `[noticeAsModal]` is no longer displayed as an option in the backend interface. Klaro uses a modal in this case, so the settings are mutually exclusive.
 
 Neutral color scheme
 ====================
@@ -62,7 +65,9 @@ Apart from the default styling of Klaro, a color-neutral scheme is offered for s
 XLIFF-based translations
 ========================
 
-The code of the Klaro application normally contains labels for a variety of languages, which are used depending on the language of the output via JavaScript. Klaro also provides the option of overwriting labels of defined languages via configuration.
+The Klaro application ships labels for a variety of languages and selects them
+in JavaScript. Klaro also provides the option of overwriting labels of defined
+languages via configuration.
 
 ..  code-block:: javascript
     :caption: Example for the configuration of labels in `config.js`
@@ -93,6 +98,9 @@ Fortunately, TYPO3 has already integrated a successful principle with XLIFF file
 
 All labels that Klaro otherwise supplies on the JavaScript side were transferred to this format and uploaded to the Crowdin translation server so that they can be maintained and expanded there by our active community.
 
+The command `klaro:yaml-to-xliff` can convert Klaro YAML translations into
+TYPO3-compatible XLIFF files. See :ref:`howto-yaml-to-xliff`.
+
 ..  note::
     From a technical perspective, these labels are ultimately delivered in the Klaro configuration under the global fallback index `zz`. The Klaro JavaScript knows no other source for labels than the one we provide through TYPO3. A more efficient way that combines the best of both worlds.
 
@@ -105,7 +113,8 @@ This also simplifies the use of HTML in labels. Not only can you use the full ra
 
 After setting the template paths, the labels as a whole can be replaced/modified with Fluid Content or Fluid Content service/purpose can be prepended/appended.
 
-The full description of this feature can be found in the `"How To" guide <howto-fluid-enriched-labels>`__.
+The full description of this feature can be found in the
+:ref:`Fluid-enriched labels guide <howto-fluid-enriched-labels>`.
 
 ..  youtube:: NYb42MKC5hw
 
@@ -115,6 +124,7 @@ Service presets
 Most common services that require consent, such as Google Analytics, Matomo, Facebook Pixel or YouTube, are already covered via preconfigured presets. In these cases, you only have to select the preset and you can use the description texts that have already been prepared.
 
 ..  image:: /Images/Service-PresetSelection.png
+    :alt: Service record value picker with predefined Klaro service presets
 
 Cookie info table
 =================
@@ -122,6 +132,7 @@ Cookie info table
 In addition to the description text of a service, all relevant cookie information is automatically displayed in a table. This is achieved by Klaro automatically enriching the `description` label of the service via the Fluid file `EXT:Resources/Private/Templates/Append/Service/Description.html`.
 
 ..  image:: /Images/Frontend-ServiceDescriptionExample.png
+    :alt: Klaro service description with automatically appended cookie information table
 
 Trigger Links
 =============
@@ -147,10 +158,12 @@ Using TypoScript Settings `mainSectionOnly` you can also decide whether the enti
 A special feature in this context is that using a string-based low-level replacement in the final HTML code, any occurrence of actively loaded resources within contextual content elements (via the `src` or `href` attribute) is automatically prevented. The external resources of Contextual Content will only be loaded after consent. You no longer need to worry about adjusting these attributes by adding `data-` as usual in Klaro. The middleware `ErHaWeb\KlaroConsentManager\Middleware\ReplaceBeforeOutput` is responsible for this.
 
 ..  figure:: /Images/Content-ContextualConsent.png
+    :alt: TYPO3 content element field for selecting a contextual consent service
 
     Backend configuration of the content element
 
 ..  figure:: /Images/Frontend-ContextualConsent.png
+    :alt: Frontend contextual consent placeholder for blocked external content
 
     Frontend display
 
@@ -255,7 +268,7 @@ Priority: Whitelist > Blacklist > Default (all active)
 
 **Example:**
 
-.. code-block:: typoscript
+..  code-block:: typoscript
 
     # Restrict the services exclusively to Google Analytics and Matomo if this is the default language
     [siteLanguage("languageId") === 0]
@@ -270,19 +283,33 @@ Priority: Whitelist > Blacklist > Default (all active)
 Standalone configuration
 ========================
 
-If you run another website on the **same** server (otherwise the loading would require consent) that should use the same Klaro configuration (e.g. as part of a WordPress instance, for the blog) you can also have the Klaro configuration returned as a standalone output by TYPO3. To do this, simply call `/klaro-config.js`. A MiddleWare (`ErHaWeb\KlaroConsentManager\Middleware\KlaroConfiguration`) that has been reduced to the essentials will take care of returning the necessary JavaScript code.
+If another application should use the Klaro configuration managed in TYPO3,
+TYPO3 can return the active configuration as standalone JavaScript. The default
+path is `/klaro-config.js` and can be changed in the
+:ref:`global extension configuration <configuration-extension-configuration>`.
+The middleware `ErHaWeb\KlaroConsentManager\Middleware\KlaroConfiguration`
+returns the necessary JavaScript code.
 
 CSP compliance
 ==============
 
-All resources that are integrated via the extension observe the content security policy if necessary. So there is no problem for this extension if the CSP feature Toggle is enabled (whether for the backend or frontend).
+Frontend CSS, JavaScript, and the generated inline configuration are registered
+through TYPO3's AssetCollector with nonce support. Trigger links are converted
+to data attributes and click handlers instead of inline `onclick` attributes.
+This keeps the extension compatible with TYPO3's Content Security Policy
+handling in TYPO3 v13 and TYPO3 v14.
 
-TYPO3 v13 compatibility
-=======================
+TYPO3 v13 and v14 compatibility
+===============================
 
-Any deprecations that appeared in v13 have been modernized. The entire code was optimized for PHP 8 and underwent various quality checks.
+The same extension release supports TYPO3 v13 and TYPO3 v14. Site Sets are the
+recommended integration path for both versions. Static TypoScript Includes
+remain available for projects that still use TypoScript records.
 
-The TypoScript of this extension can already be integrated TYPO3 v13-compliant via SiteSet. Alternatively, it is still possible to integrate the TypoScript using the old method via static include of the `sys_template` record.
+Backend module labels changed in TYPO3 v14, but the Klaro records, Site
+Configuration fields, TypoScript settings, ViewHelper, TypoScript condition,
+middleware, and frontend behaviour remain the same. See :ref:`compatibility`
+for the exact TYPO3 v13/v14 backend paths and configuration differences.
 
 Vanilla JavaScript
 ==================

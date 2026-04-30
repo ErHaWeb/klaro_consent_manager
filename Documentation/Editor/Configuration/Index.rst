@@ -20,6 +20,5 @@ The points in the following navigation correspond to the tabs that are available
    Cookie/Index
    Advanced/Index
 
-.. contents::
+..  contents::
    :local:
-

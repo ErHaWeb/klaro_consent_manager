@@ -8,6 +8,7 @@ Site Configuration
 ==================
 
 ..  figure:: /Images/SiteConfiguration.png
+    :alt: Klaro tab in the TYPO3 site configuration with configuration, privacy policy, and imprint fields
 
     Reference of the Klaro setting as well as the linking of the pages for the data protection declaration and the imprint
 
@@ -22,7 +23,17 @@ Klaro! Configuration
     :type: :ref:`Configuration <for-editors-configuration>`
     :Default: 0
 
-    Klaro configurations created in the root of this TYPO3 instance can be referenced here. If no configuration has been created yet, switch to the list module, select the root node of the page tree (with uid 0) and create a new configuration via the button "Create new record".
+    Klaro configurations created in the root of this TYPO3 instance can be
+    referenced here. If no configuration has been created yet, create it on the
+    root node of the page tree, UID `0`.
+
+    ..  list-table::
+        :header-rows: 1
+
+        *   - TYPO3 v13
+            - TYPO3 v14
+        *   - Use :guilabel:`Web` → :guilabel:`List`.
+            - Use :guilabel:`Content` → :guilabel:`Records`.
 
 Privacy Policy URL
 ------------------

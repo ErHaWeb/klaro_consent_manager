@@ -8,7 +8,19 @@
 Constants
 =========
 
-Constants (or in the Site Sets context called Site Settings) that influence the behaviour of the Klaro extension are described below.
+These values are defined in
+`Configuration/Sets/KlaroConsentManager/settings.definitions.yaml` and
+`Configuration/Sets/KlaroConsentManager/constants.typoscript`.
+
+With the recommended Site Set integration, override them as Site Settings in
+`config/sites/<site-identifier>/settings.yaml` by using flat map keys:
+
+..  code-block:: yaml
+
+    plugin.tx_klaroconsentmanager.view.templateRootPath: 'EXT:sitepackage/Resources/Private/Templates/'
+
+With the Static TypoScript Include fallback, override the same values as
+classic TypoScript constants.
 
 ..  _configuration-typoscript-constants-view:
 
@@ -29,9 +41,8 @@ Template root path
     :Default: empty
     :Path: plugin.tx_klaroconsentmanager.view
 
-    In addition to the default path `EXT:klaro_consent_manager/Resources/Private/Templates/`,
-    this constant can be used to define a custom template root path to overwrite
-    individual fluid files as needed.
+    Defaults to `EXT:klaro_consent_manager/Resources/Private/Templates/`.
+    Override this path to replace individual frontend Fluid templates.
 
 ..  _configuration-typoscript-constants-view-partialrootpath:
 
@@ -44,9 +55,8 @@ Partial root path
     :Default: empty
     :Path: plugin.tx_klaroconsentmanager.view
 
-    In addition to the default path `EXT:klaro_consent_manager/Resources/Private/Partials/`,
-    this constant can be used to define a custom partial root path to overwrite
-    individual fluid files as needed.
+    Defaults to `EXT:klaro_consent_manager/Resources/Private/Partials/`.
+    Override this path to replace individual frontend Fluid partials.
 
 ..  _configuration-typoscript-constants-view-layoutrootpath:
 
@@ -59,9 +69,8 @@ Layout root path
     :Default: empty
     :Path: plugin.tx_klaroconsentmanager.view
 
-    In addition to the default path `EXT:klaro_consent_manager/Resources/Private/Layouts/`,
-    this constant can be used to define a custom layout root path to overwrite
-    individual fluid files as needed.
+    Defaults to `EXT:klaro_consent_manager/Resources/Private/Layouts/`.
+    Override this path to replace frontend Fluid layouts.
 
 ..  _configuration-typoscript-constants-settings:
 
@@ -80,14 +89,18 @@ Klaro CSS
     :Default: EXT:klaro_consent_manager/Resources/Public/Css/klaro.min.css
     :Path: plugin.tx_klaroconsentmanager.settings
 
+    CSS file registered for the Klaro frontend.
+
 Custom additions for Klaro CSS
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-..  confval:: css.klaro-custom:
+..  confval:: css.klaro-custom
 
     :type: string
     :Default: EXT:klaro_consent_manager/Resources/Public/Css/klaro-custom.min.css
     :Path: plugin.tx_klaroconsentmanager.settings
+
+    Additional extension CSS with TYPO3-specific Klaro adjustments.
 
 Klaro JavaScript
 ~~~~~~~~~~~~~~~~
@@ -98,6 +111,8 @@ Klaro JavaScript
     :Default: EXT:klaro_consent_manager/Resources/Public/JavaScript/klaro-no-translations-no-css.js
     :Path: plugin.tx_klaroconsentmanager.settings
 
+    Self-hosted Klaro JavaScript file registered in the frontend.
+
 Replace attributes
 ~~~~~~~~~~~~~~~~~~
 
@@ -107,7 +122,9 @@ Replace attributes
     :Default: src,href
     :Path: plugin.tx_klaroconsentmanager.settings
 
-    Comma-separated list of attributes that should be automatically replaced within the content element of the contextual consent
+    Comma-separated list of attributes that are moved to matching
+    `data-*` attributes in contextual consent content. The default moves
+    `src` and `href` to `data-src` and `data-href`.
 
 Main section only
 ~~~~~~~~~~~~~~~~~
@@ -118,7 +135,9 @@ Main section only
     :Default: true
     :Path: plugin.tx_klaroconsentmanager.settings
 
-    Activate this option if the contextual consent box should only be limited to the main content (without heading and footer).
+    Activate this option if the contextual consent placeholder should be
+    limited to the main content of the content element, without heading and
+    footer.
 
 Disable Klaro Consent Management
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -128,3 +147,6 @@ Disable Klaro Consent Management
     :type: boolean
     :Default: false
     :Path: plugin.tx_klaroconsentmanager.settings
+
+    Disable the frontend Klaro integration while keeping the extension
+    installed and configured.

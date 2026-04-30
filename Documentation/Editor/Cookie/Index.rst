@@ -16,5 +16,5 @@ The points in the following navigation correspond to the tabs that are available
 
    General/Index
 
-.. contents::
+..  contents::
    :local:

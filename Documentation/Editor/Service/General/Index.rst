@@ -8,24 +8,26 @@ General
 =======
 
 ..  figure:: /Images/Service-General.png
+    :alt: General tab of a Klaro service record
 
     Service Configuration - General Tab
 
-.. contents::
+..  contents::
    :local:
 
 General Settings
-=======
+================
 
 Title
 -----
 
 ..  confval:: title
 
-    :type: string/select
+    :type: string with value picker
     :Default: ''
 
-    The title defined here is not mandatory and is intended for backend display only.
+    The title defined here is not mandatory and is intended for backend display
+    only. The field is a free input field with presets in the value picker.
 
     **Options:**
 
@@ -57,7 +59,7 @@ Title
     *   YouTube
 
 Default
------
+-------
 
 ..  confval:: default
 
@@ -67,14 +69,17 @@ Default
     If `default` is set to `true`, the service will be enabled by default. This overrides the global `default` setting (if this is set to "false").
 
 Name
------
+----
 
 ..  confval:: name
 
-    :type: string/select
+    :type: string with value picker
     :Default: ''
 
-    Each service must have a unique name. Klaro will look for HTML elements with a matching `data-name` attribute to identify elements that belong to this service.
+    Each service must have a unique name. Klaro looks for HTML elements with a
+    matching `data-name` attribute to identify elements that belong to this
+    service. The field is a required free input field with presets in the value
+    picker.
 
     **Options:**
 
@@ -106,11 +111,11 @@ Name
     *   YouTube `[youtube]`
 
 Purposes
------
+--------
 
 ..  confval:: purposes
 
-    :type: select
+    :type: select (multiple)
     :Default: ''
 
     The purpose(s) of this service that will be listed on the consent notice. Do not forget to add translations for all purposes you list here.

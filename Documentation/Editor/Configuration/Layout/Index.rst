@@ -9,10 +9,11 @@ Layout
 
 
 ..  figure:: /Images/Configuration-Layout.png
+    :alt: Layout tab of a Klaro configuration record
 
     Klaro Configuration - Layout Tab
 
-.. contents::
+..  contents::
    :local:
 
 Layout settings
@@ -40,12 +41,15 @@ Alignment
 
 ..  confval:: alignment
 
-    :type: string
-    :Default: ''
+    :type: select
+    :Default: 'bottom-right'
 
     **Condition:** `must_consent == FALSE && notice_as_modal == FALSE`
 
     Determines the alignment of the Consent box if `mustConsent` and `noticeAsModal` are disabled.
+
+    **Options:** `top-left`, `top-right`, `top-wide`, `bottom-left`,
+    `bottom-right`, `bottom-wide`, `top`, `bottom`, `left`, `right`, `wide`.
 
 Default consent status
 ======================
@@ -114,7 +118,7 @@ Show title in consent notice
 ..  confval:: show_notice_title
 
     :type: boolean
-    :Default: false
+    :Default: true
 
     **Condition:** `must_consent == FALSE`
 
@@ -126,7 +130,7 @@ Auto Focus
 ..  confval:: auto_focus
 
     :type: boolean
-    :Default: false
+    :Default: true
 
     Automatically focus the Klaro consent notice/modal container when it opens to improve keyboard navigation and accessibility.
 
@@ -136,14 +140,11 @@ Show Description (Empty Store)
 ..  confval:: show_description_empty_store
 
     :type: boolean
-    :Default: false
-
-    :type: boolean
-    :Default: false
+    :Default: true
 
     Show an explanatory text in contextual consent placeholders **when no consent storage exists yet** (first visit / empty store). This informs users that a permanent decision ("Always") requires allowing Klaro to store consent first.
 
-    .. note::
+    ..  note::
         Only has an effect in contextual consent widgets/overlays (e.g. for embedded media) and **only** if the consent store (cookie/localStorage) is empty.
 
 ..  _configuration-layout-htmltexts:
@@ -156,7 +157,12 @@ HTML Texts
     :type: boolean
     :Default: true
 
-    If set to `true`, Klaro will render the texts given in the `consentModal.description` and `consentNotice.description` translations as HTML. This enables you to e.g. add custom links or interactive content. If you want to be able to output HTML tags via fluid-enriched labels (see "Content" → "Translations"), this option must be enabled.
+    If set to `true`, Klaro renders the texts given in the
+    `consentModal.description` and `consentNotice.description` translations as
+    HTML. This enables custom links or interactive content. If you output HTML
+    through Fluid-enriched labels, this option must be enabled.
+
+    Only enable HTML output for trusted labels and templates.
 
 Embedded
 --------

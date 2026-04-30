@@ -8,17 +8,18 @@ General
 =======
 
 ..  figure:: /Images/Service-Cookie.png
+    :alt: Inline cookie record inside a Klaro service record
 
-    Service Configuration - Cookie Tab
+    Cookie record - General Tab
 
-.. contents::
+..  contents::
    :local:
 
 Identification and presentation of the cookie
-=======
+=============================================
 
 Identifier
------
+----------
 
 ..  confval:: identifier
 
@@ -38,12 +39,12 @@ Title
     If set, this title will be used in the frontend/backend for displaying the cookie. This title has no technical relevance (contrary to the `pattern` field).
 
 Technically relevant settings
-=======
+=============================
 
 This information is technically evaluated by Klaro! to manipulate the cookie.
 
 Name / Pattern
------
+--------------
 
 ..  confval:: pattern
 
@@ -55,7 +56,7 @@ Name / Pattern
     **Example:** `/^_pk_.*$/`
 
 Path
------
+----
 
 ..  confval:: path
 
@@ -65,7 +66,7 @@ Path
     Provide a path if you have services that set cookies for a path that is not "/"
 
 Domain
------
+------
 
 ..  confval:: domain
 
@@ -75,10 +76,10 @@ Domain
     Provide a domain if you have services that set cookies for a domain that is not the current domain.
 
 Expiration Time
-=======
+===============
 
 Expires after
------
+-------------
 
 ..  confval:: expires_after
 
@@ -95,7 +96,7 @@ Expires after unit
 ..  confval:: expires_after_unit
 
     :type: string
-    :Default: ''
+    :Default: 'days'
 
     Unit used for the "Expires after" specification. The special value `end-of-session` does not need a numeric value and hides the "Expires after" field accordingly.
 
@@ -110,7 +111,7 @@ Expires after unit
     *   End of session `[end-of-session]`
     *   Persistent `[persistent]`
 
-    .. note::
+    ..  note::
 
         The option `persistent` should be used only if external sources
         (e.g. cookie scanners or provider documentation) list the cookie

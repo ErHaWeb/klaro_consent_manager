@@ -8,10 +8,11 @@ General
 =======
 
 ..  figure:: /Images/Configuration-General.png
+    :alt: General tab of a Klaro configuration record
 
     Klaro Configuration - General Tab
 
-.. contents::
+..  contents::
    :local:
 
 General
@@ -32,10 +33,13 @@ Purpose Order
 
 ..  confval:: purpose_order
 
-    :type: string/select
+    :type: select (multiple)
     :Default: ''
 
-    The order in which purposes appear in the notice and modal can be changed via the `purposeOrder` parameter, which can be given a list with purpose names and will display those purposes in the order in which they appear in the list.
+    The order in which purposes appear in the notice and modal can be changed
+    via the `purposeOrder` parameter. The field reuses the purpose options from
+    service records and stores the selected purpose identifiers in the selected
+    order.
 
     **Options:**
 
@@ -71,5 +75,6 @@ Services
     :type: :ref:`Service <for-editors-service>` (multiple)
     :Default: ''
 
-    Here you specify the third-party services that Klaro will manage for you.
-
+    Select the third-party services that Klaro manages for this configuration.
+    Services are independent records and can be created inline from this field
+    or separately on the root node.

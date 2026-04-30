@@ -7,15 +7,23 @@
 Fluid enriched labels
 =====================
 
-.. contents::
+..  contents::
    :local:
 
 Introduction
 ============
 
-Once you have created a `reference to your own Fluid base path <howto-reference-fluid>`, you can extend or overwrite labels by adding new Fluid HTML files under `/Templates/Labels/` according to the XLIFF label key of the label to be changed.
+Once you have created a :ref:`reference to your own Fluid base path
+<howto-reference-fluid>`, you can extend or overwrite labels by adding new
+Fluid HTML files under `/Templates/Labels/` according to the XLIFF label key of
+the label to be changed.
 
-When creating the files, please note that each `.` symbolises a directory and each segment is created in UpperCamelCase format. The last segment of the label key is the `*.html` file in which the modification can be made.
+When creating the files, each `.` becomes a directory separator. Each
+dot-separated segment is capitalized, while existing hyphens remain unchanged.
+The last segment of the label key becomes the `*.html` file.
+
+For example, `services.google-analytics.title` maps to
+`Labels/Services/Google-analytics/Title.html`.
 
 File Structure
 ==============
@@ -26,11 +34,12 @@ For example the following label with key `purposes.analytics.description`
     :linenos:
     :caption: EXT:klaro_consent_manager/Resources/Private/Language/locallang.xlf
 
-    <trans-unit id="purposes.analytics.description" resname="purposes.analytics.description">
-    	<source>These services gather anonymous data for statistical analysis and performance optimization. Enabling analytics services assists website owners in making informed decisions to enhance online services.</source>
+    <trans-unit id="purposes.analytics.description">
+        <source>These services gather anonymous data for statistical analysis and performance optimization. Enabling analytics services assists website owners in making informed decisions to enhance online services.</source>
     </trans-unit>
 
-can be create under the following file structure if the configured base path is `EXT:sitepackage/Resources/Private/`
+can be created under the following file structure if the configured base path is
+`EXT:sitepackage/Resources/Private/`:
 
 ..  directory-tree::
     :level: 4
@@ -58,6 +67,7 @@ If you use the DebugViewHelper to display the available variables in the newly c
     </html>
 
 ..  figure:: /Images/HowTo-Debug.png
+    :alt: Fluid debug output showing variables available in a Fluid-enriched label template
 
 Now you are free to decide what you want to use in place of the label. Please note that the `extensionName="KlaroConsentManager"` attribute is required in the context of using the Translate ViewHelper, as we are not working in the Extbase context here.
 
@@ -81,11 +91,14 @@ Now you are free to decide what you want to use in place of the label. Please no
 HTML Usage
 ==========
 
-If you want to use HTML tags in the label in addition to the pure text output, you must activate the `HTML Texts <configuration-layout-htmltexts>`__ option.
+If you want to use HTML tags in the label in addition to the pure text output,
+you must activate the :ref:`HTML Texts <configuration-layout-htmltexts>` option.
 
 ..  warning::
 
-    Please note that Klaro itself does not support HTML code in every label. In such cases, the HTML characters may be encoded.
+    Only enable HTML output for trusted labels and trusted Fluid templates.
+    Klaro itself does not support HTML code in every label. In such cases, the
+    HTML characters may be encoded.
 
 Full Structure
 ==============
@@ -99,6 +112,14 @@ Based on the currently used labels, the expected structure in the `Labels` direc
     *   EXT:sitepackage/Resources/Private/Templates/Labels/
 
         *   ConsentManager
+
+            *   Reset
+
+                *   Title.html
+
+            *   Show
+
+                *   Title.html
 
             *   Reset.html
             *   Show.html
@@ -134,6 +155,8 @@ Based on the currently used labels, the expected structure in the `Labels` direc
             *   AcceptAlways.html
             *   AcceptOnce.html
             *   Description.html
+            *   DescriptionEmptyStore.html
+            *   ModalLinkText.html
 
         *   Cookies
 
@@ -241,6 +264,7 @@ Based on the currently used labels, the expected structure in the `Labels` direc
         *   Months.html
         *   Ok.html
         *   PoweredBy.html
+        *   Persistent.html
         *   Save.html
         *   Second.html
         *   Seconds.html

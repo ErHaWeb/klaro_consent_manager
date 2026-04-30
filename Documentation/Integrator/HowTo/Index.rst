@@ -17,3 +17,4 @@ All the options you have as an integrator in this extension are shown below:
     CustomPurpose/Index
     CustomService/Index
     FluidEnrichedLabels/Index
+    YamlToXliff/Index

@@ -32,30 +32,39 @@ Follow the steps below to make all necessary database changes:
 
     1.  Open the TYPO3 backend.
 
-    2.  Go to the **Maintenance** Module under :guilabel:`Admin Tools` → :guilabel:`Maintenance`
+    2.  Open the Maintenance module.
+
+        ..  list-table::
+            :header-rows: 1
+
+            *   - TYPO3 v13
+                - TYPO3 v14
+            *   - :guilabel:`Admin Tools` → :guilabel:`Maintenance`
+                - :guilabel:`System` → :guilabel:`Maintenance`
 
     3.  In the card :guilabel:`Analyze Database Structure` click :guilabel:`Analyze database…`
 
         The following database changes are proposed:
 
         ..  figure:: /Images/Maintenance-AnalyzeDatabaseStructure.png
-            :alt: Maintenance: Analyze Database Structure
+            :alt: Maintenance module with proposed database schema changes for the Klaro extension
 
     4.  Click the button :guilabel:`Apply selected changes`
 
 ..  tip::
 
-    If you have installed the `TYPO3 Console Extension by Helmut Hummel <https://extensions.typo3.org/extension/typo3_console>`__, you can also create the missing tables and fields with the following command:
+    In Composer-based installations, you can also apply extension schema
+    changes with the TYPO3 core command:
 
     ..  code-block:: bash
 
-        typo3 database:updateschema "*.add,*.change"
+        vendor/bin/typo3 extension:setup
 
     or with ddev:
 
     ..  code-block:: bash
 
-        ddev typo3 database:updateschema "*.add,*.change"
+        ddev typo3 extension:setup
 
 ..  note::
 

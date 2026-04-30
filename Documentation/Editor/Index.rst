@@ -10,6 +10,22 @@ After installing this extension, you are able to create a Klaro :ref:`configurat
 
 :ref:`Services <for-editors-service>` are referenced via the Klaro configuration. Services can also be created independently of editing the Klaro configuration. In the context of editing services, information on the :ref:`cookies <for-editors-cookie>` used by the service in question can be specified inline.
 
+The record forms are identical in TYPO3 v13 and TYPO3 v14. Only the backend
+module paths differ:
+
+..  list-table::
+    :header-rows: 1
+
+    *   - Task
+        - TYPO3 v13
+        - TYPO3 v14
+    *   - Create or edit Klaro records
+        - :guilabel:`Web` → :guilabel:`List`
+        - :guilabel:`Content` → :guilabel:`Records`
+    *   - Edit contextual consent on content elements
+        - :guilabel:`Web` → :guilabel:`Page`
+        - :guilabel:`Content` → :guilabel:`Layout`
+
 General setup
 =============
 
@@ -28,7 +44,9 @@ You can set up Consent Management in the following way:
 Detailed information
 ====================
 
-Here you will find detailed information on all fields that can be configured in the site configuration, the klaro configuration, the services and their cookies.
+Here you will find detailed information on all fields that can be configured in
+the site configuration, the Klaro configuration, the services, and their
+cookies.
 
 ..  toctree::
    :maxdepth: 1
@@ -38,3 +56,4 @@ Here you will find detailed information on all fields that can be configured in 
    Configuration/Index
    Service/Index
    Cookie/Index
+   ContextualConsent/Index

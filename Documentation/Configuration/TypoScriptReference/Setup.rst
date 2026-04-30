@@ -7,13 +7,18 @@
 Setup
 =====
 
-Service Filtering
------------------
+TypoScript setup is loaded by the Site Set and by the Static TypoScript
+Include. It registers frontend assets, Fluid paths, the contextual consent
+layout integration, and selected runtime settings.
+
+Service filtering
+=================
 
 ..  confval:: services.whitelist
 
     :type: string (comma-separated list)
     :Default: ''
+    :Path: plugin.tx_klaroconsentmanager.settings
 
     Restrict the available services to the given list of service *names*.
     If a whitelist is defined, **only** the listed services are active.
@@ -21,7 +26,7 @@ Service Filtering
 
     **Example:**
 
-    .. code-block:: typoscript
+    ..  code-block:: typoscript
 
         plugin.tx_klaroconsentmanager.settings.services.whitelist = google-analytics, matomo
 
@@ -30,13 +35,14 @@ Service Filtering
 
     :type: string (comma-separated list)
     :Default: ''
+    :Path: plugin.tx_klaroconsentmanager.settings
 
     Disable specific services by *name*. All other services remain active.
     The blacklist is evaluated **only if no** :confval:`services.whitelist` **is set**.
 
     **Example:**
 
-    .. code-block:: typoscript
+    ..  code-block:: typoscript
 
         plugin.tx_klaroconsentmanager.settings.services.blacklist = facebook-pixel
 
@@ -55,7 +61,7 @@ Service Filtering
 
     **Example:**
 
-    .. code-block:: typoscript
+    ..  code-block:: typoscript
 
         # Restrict the services exclusively to Google Analytics and Matomo if this is the default language
         [siteLanguage("languageId") === 0]
@@ -67,8 +73,8 @@ Service Filtering
         plugin.tx_klaroconsentmanager.settings.services.blacklist = facebook-pixel
         [end]
 
-Configuration
-~~~~~~~~~~~~~
+Configuration overrides
+=======================
 
 ..  confval:: configuration.[...]
 
@@ -80,11 +86,17 @@ Configuration
 
         Experimental feature!
 
-    The entries made here from TypoScript are merged into the configuration array shortly before the transformation into the JavaScript configuration. Accordingly, make sure that the lowerCamelCase notation is used to match the final keys.
+    The entries made here from TypoScript are merged into the configuration
+    array shortly before the transformation into the JavaScript configuration.
+    Use the lowerCamelCase notation of the final Klaro JavaScript keys.
 
-    Please note that nesting in the TypoScript override cannot currently be mapped well in the context of elements such as services without an associative index. In addition, there is (still) no plausibility check of the keys used.
+    Nesting in the TypoScript override cannot currently be mapped reliably for
+    list-like values such as services without an associative index. There is no
+    plausibility check for the keys used.
 
-    In addition, there is currently no type conversion according to the properties, which can lead to problems on the Klaro JavaScript side with non-string types. At the moment, I recommend using only known keys without nesting and with string type.
+    There is currently no type conversion based on the Klaro properties. Use
+    only known, non-nested keys and string values unless you have verified the
+    generated JavaScript configuration.
 
     **Example**
 
@@ -94,3 +106,38 @@ Configuration
             elementID = overwrittenID
             cookieName = overwrittenCookieName
         }
+
+..  _configuration-typoscript-setup-klaro-is-active:
+
+TypoScript condition
+====================
+
+The extension registers the TypoScript condition variable `klaroIsActive`.
+It returns `true` when a Klaro configuration is active for the current request.
+
+..  code-block:: typoscript
+
+    [klaroIsActive]
+    page.10 = TEXT
+    page.10.value = Klaro is active
+    [end]
+
+..  _configuration-typoscript-setup-klaro-is-active-viewhelper:
+
+Fluid ViewHelper
+================
+
+The Fluid namespace `klaro` is registered globally. Use
+`{klaro:isActive()}` to branch Fluid output depending on the active Klaro
+configuration.
+
+..  code-block:: html
+
+    <f:if condition="{klaro:isActive()}">
+        <f:then>
+            Klaro is active.
+        </f:then>
+        <f:else>
+            Klaro is inactive.
+        </f:else>
+    </f:if>

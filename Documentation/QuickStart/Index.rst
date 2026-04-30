@@ -1,6 +1,6 @@
-.. include:: /Includes.rst.txt
+..  include:: /Includes.rst.txt
 
-.. _quickStart:
+..  _quickStart:
 
 ===========
 Quick start
@@ -12,7 +12,7 @@ Quick start
 
 #.  Include the Extension configuration
 
-    The modern and recommended way to reference the configuration of this extension since TYPO3 v13 is via its **Site Set**. Alternatively, it is still possible to use the **Static TypoScript Include** in the template record.
+    The recommended way to include the configuration in TYPO3 v13 and TYPO3 v14 is the **Site Set** `erhaweb/klaro-consent-manager`. The **Static TypoScript Include** remains available as a legacy-compatible fallback for installations that still use TypoScript records.
 
     ..  accordion::
         :name: accordionAddConfiguration
@@ -21,7 +21,15 @@ Quick start
             :name: siteSet
             :header-level: 2
 
-            #.  Go to the Sites module under :guilabel:`Site Management` → :guilabel:`Sites`
+            #.  Open the site setup module.
+
+                ..  list-table::
+                    :header-rows: 1
+
+                    *   - TYPO3 v13
+                        - TYPO3 v14
+                    *   - :guilabel:`Site Management` → :guilabel:`Sites`
+                        - :guilabel:`Sites` → :guilabel:`Setup`
 
             #.  Click :guilabel:`Edit site configuration` at the relevant Site
 
@@ -36,7 +44,7 @@ Quick start
                 You will notice that the **constant editor can no longer be opened** if the configuration
                 was referenced via **Site Set**. To overwrite the default setting values of
                 `EXT:klaro_consent_manager/Configuration/Sets/KlaroConsentManager/settings.definitions.yaml`,
-                use a file `config/sites/<site-identifier>/settings.yaml`.
+                use `config/sites/<site-identifier>/settings.yaml`. Supported TYPO3 v13/v14 versions use flat map keys in this file.
 
                 **Example:** Configuration of the extension of the Contextual Consent Box to the entire content element instead of just the main content
 
@@ -44,18 +52,22 @@ Quick start
                     :linenos:
                     :caption: `config/sites/<site-identifier>/settings.yaml`
 
-                    plugin:
-                      tx_klaroconsentmanager:
-                        settings:
-                          contextualconsent:
-                            mainSectionOnly: 0
+                    plugin.tx_klaroconsentmanager.settings.contextualconsent.mainSectionOnly: false
 
 
         ..  accordion-item:: Static TypoScript Include
             :name: typoScriptInclude
             :header-level: 2
 
-            #.  Go to the Template module under :guilabel:`Site Management` → :guilabel:`TypoScript`
+            #.  Open the TypoScript module.
+
+                ..  list-table::
+                    :header-rows: 1
+
+                    *   - TYPO3 v13
+                        - TYPO3 v14
+                    *   - :guilabel:`Site Management` → :guilabel:`TypoScript`
+                        - :guilabel:`Sites` → :guilabel:`TypoScript`
 
             #.  Select the root of your Site in the page tree
 
@@ -73,7 +85,15 @@ Quick start
 
             #.  Click :guilabel:`Save` and :guilabel:`Close`
 
-#.  Go to the Page module under :guilabel:`Web` → :guilabel:`List`
+#.  Open the records module.
+
+    ..  list-table::
+        :header-rows: 1
+
+        *   - TYPO3 v13
+            - TYPO3 v14
+        *   - :guilabel:`Web` → :guilabel:`List`
+            - :guilabel:`Content` → :guilabel:`Records`
 
 #.  In the page tree select the **global root node** (recommended) or any other storage page
 
@@ -81,7 +101,7 @@ Quick start
 
 #.  Create a :ref:`Service <for-editors-service>`
 
-    #.  Click :guilabel:`Create new record` in the module header of :guilabel:`Web` → :guilabel:`List`
+    #.  Click :guilabel:`Create new record` in the module header of the records module
 
     #.  Select :guilabel:`Klaro! Consent Manager` → :guilabel:`Klaro! Service` to create new service
 
@@ -121,7 +141,7 @@ Quick start
 
     #.  Scroll to palette :guilabel:`Expiration Time`
 
-    #.  Enter the number of years/months/days/hours/minutes/seconds that will elapse before this cookie expires under :guilabel:`Expiration Time` if the cookies domain is not the current one
+    #.  Enter the number of years/months/days/hours/minutes/seconds that will elapse before this cookie expires under :guilabel:`Expiration Time`
 
     #.  Enter the expiration unit to be used under :guilabel:`Expires after unit`
 
@@ -137,7 +157,7 @@ Quick start
 
 #.  Create the main Klaro :ref:`Configuration <for-editors-configuration>`
 
-    #.  Click :guilabel:`Create new record` in the module header of :guilabel:`Web` → :guilabel:`List`
+    #.  Click :guilabel:`Create new record` in the module header of the records module
 
     #.  Select :guilabel:`Klaro! Consent Manager` → :guilabel:`Klaro! Configuration` to create new base configuration
 
@@ -157,7 +177,15 @@ Quick start
 
 #.  Reference the Klaro Configuration via the :ref:`Site Configuration <for-editors-site-configuration>`
 
-    #.  Go to the Sites module under :guilabel:`Site Management` → :guilabel:`Sites`
+    #.  Open the site setup module.
+
+        ..  list-table::
+            :header-rows: 1
+
+            *   - TYPO3 v13
+                - TYPO3 v14
+            *   - :guilabel:`Site Management` → :guilabel:`Sites`
+                - :guilabel:`Sites` → :guilabel:`Setup`
 
     #.  Click :guilabel:`Edit site configuration` at the relevant Site
 
@@ -165,9 +193,9 @@ Quick start
 
     #.  Select your configuration under :guilabel:`Klaro! Configuration`
 
-    #.  Define a :guilabel:`Privacy Policy URL` (possibly as an internal link)
+    #.  Define a :guilabel:`Privacy Policy URL`, for example an internal link
 
-    #.  Define a :guilabel:`Imprint URL` (possibly as an internal link)
+    #.  Define an :guilabel:`Imprint URL`, for example an internal link
 
 #.  Modify your third-party scripts
 
@@ -219,7 +247,10 @@ Quick start
 
     ..  note::
 
-        This also works for other tags such as images or tracking pixels. Just remember to always add a `data-name` attribute that matches the name of the app in your config so that Klaro knows which element belongs to which :ref:`service <for-editors-service>`.
+        This also works for other tags such as images or tracking pixels. Add a
+        `data-name` attribute that matches the name of the service in your
+        configuration so that Klaro knows which element belongs to which
+        :ref:`service <for-editors-service>`.
 
     ..  tip::
 

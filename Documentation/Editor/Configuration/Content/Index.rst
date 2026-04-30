@@ -8,10 +8,11 @@ Content
 =======
 
 ..  figure:: /Images/Configuration-Content.png
+    :alt: Content tab of a Klaro configuration record
 
     Klaro Configuration - Content Tab
 
-.. contents::
+..  contents::
    :local:
 
 Hide Buttons
@@ -83,7 +84,13 @@ Fluid Template Root Path
     :type: string
     :Default: ''
 
-    As an alternative to the usual TypoScript configuration via constants under `plugin.tx_klaroconsentmanager.view`, a Fluid root path can be defined here, which has a higher priority than the paths configured in TypoScript. The three default directories `/Layouts/`, `/Partials/` and `/Templates/` are expected under this path. Fluid templates created here are used to enrich Locallang labels with additional functionality or to replace them completely. In this way, dynamic content or more complex HTML structures can be provided in a simple way. Fluid templates that are to override labels are expected in the subdirectory `/Templates/Labels/`.
+    As an alternative to the TypoScript configuration under
+    `plugin.tx_klaroconsentmanager.view`, a Fluid root path can be defined here.
+    This path has a higher priority than the paths configured in TypoScript.
+    The directories `/Layouts/`, `/Partials/`, and `/Templates/` are expected
+    under this path. Fluid templates created here are used to enrich Locallang
+    labels with additional functionality or to replace them completely. Fluid
+    templates that override labels are expected in `/Templates/Labels/`.
 
 ..  _configuration-content-locallangpath:
 
@@ -95,5 +102,8 @@ Locallang Path
     :type: string
     :Default: ''
 
-    Optional path to an additional XLIFF file that overwrites the default labels or adds new labels (e.g. for custom purposes or services). If fluid templates have been stored for the labels created in this file (see the "Fluid Template Root Path" field), these will overwrite the classic labels from the Locallang file. Nevertheless, it is possible and common to reference the locallang file from the respective fluid template and obtain the actual label there (the label key is passed to the fluid template).
-
+    Optional path to an additional XLIFF file that overwrites the default labels
+    or adds new labels, for example for custom purposes or services. If Fluid
+    templates exist for these labels, the templates take precedence over the
+    XLIFF text. It is common to render the original XLIFF label from the Fluid
+    template through the `Label` partial.

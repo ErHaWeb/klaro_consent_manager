@@ -21,5 +21,5 @@ The points in the following navigation correspond to the tabs that are available
    Toggles/Index
    Advanced/Index
 
-.. contents::
+..  contents::
    :local:

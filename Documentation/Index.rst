@@ -1,6 +1,6 @@
 ..  include:: /Includes.rst.txt
 
-.. _start:
+..  _start:
 
 ======================
 Klaro! Consent Manager
@@ -43,6 +43,7 @@ This TYPO3 extension provides a functionally complete, flexible TYPO3 integratio
 
     Introduction/Index
     Features/Index
+    Compatibility/Index
     Installation/Index
     QuickStart/Index
     Configuration/Index

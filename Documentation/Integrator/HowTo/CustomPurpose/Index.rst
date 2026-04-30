@@ -7,7 +7,7 @@
 Custom Purpose
 ==============
 
-.. contents::
+..  contents::
    :local:
 
 TSconfig
@@ -30,15 +30,16 @@ Create your new purpose (for example with the key `mycoolpurpose`) via TSconfig 
 XLIFF
 =====
 
-In you `custom XLIFF <howto-reference-xliff>`__ file now you have to create new labels for your custom key:
+In your :ref:`custom XLIFF <howto-reference-xliff>` file, create new labels
+for your custom key:
 
 ..  code-block:: xml
     :linenos:
 
-    <trans-unit id="purposes.mycoolpurpose.title" resname="purposes.mycoolpurpose.title">
+    <trans-unit id="purposes.mycoolpurpose.title">
         <source>My Cool Purpose</source>
     </trans-unit>
-    <trans-unit id="purposes.mycoolpurpose.description" resname="purposes.mycoolpurpose.description">
+    <trans-unit id="purposes.mycoolpurpose.description">
         <source>This is the description of the new purpose.</source>
     </trans-unit>
 
@@ -48,6 +49,7 @@ Backend
 In the backend, the new purpose is now visible for services and as part of the sorting in the Klaro configuration under the defined title.
 
 ..  figure:: /Images/HowTo-CustomPurpose-Backend.png
+    :alt: Custom purpose option in a TYPO3 backend service record
 
 Frontend
 ========
@@ -55,3 +57,4 @@ Frontend
 If the purpose of a service referenced in the Klaro configuration has been assigned, it also appears in the Consent Management modal in the frontend.
 
 ..  figure:: /Images/HowTo-CustomPurpose-Frontend.png
+    :alt: Custom purpose displayed in the Klaro consent modal
