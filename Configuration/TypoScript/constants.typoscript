@@ -12,6 +12,7 @@ plugin.tx_klaroconsentmanager {
     # cat=plugin.tx_klaroconsentmanager/100_fluidrootpaths/120; type=string; label=LLL:EXT:klaro_consent_manager/Resources/Private/Language/locallang_be.xlf:constants.view.layoutRootPath
     layoutRootPath = EXT:klaro_consent_manager/Resources/Private/Layouts/
   }
+
   settings {
     css {
       # cat=plugin.tx_klaroconsentmanager/200_resources/130; type=string; label=LLL:EXT:klaro_consent_manager/Resources/Private/Language/locallang_be.xlf:constants.settings.css.klaro-default
@@ -19,16 +20,19 @@ plugin.tx_klaroconsentmanager {
       # cat=plugin.tx_klaroconsentmanager/200_resources/140; type=string; label=LLL:EXT:klaro_consent_manager/Resources/Private/Language/locallang_be.xlf:constants.settings.css.klaro-custom
       klaro-custom = EXT:klaro_consent_manager/Resources/Public/Css/klaro-custom.min.css
     }
+
     javascript {
       # cat=plugin.tx_klaroconsentmanager/200_resources/150; type=string; label=LLL:EXT:klaro_consent_manager/Resources/Private/Language/locallang_be.xlf:constants.settings.javascript.klaro-default
       klaro-default = EXT:klaro_consent_manager/Resources/Public/JavaScript/klaro-no-translations-no-css.js
     }
+
     contextualconsent {
       # cat=plugin.tx_klaroconsentmanager/300_settings/160; type=string; label=LLL:EXT:klaro_consent_manager/Resources/Private/Language/locallang_be.xlf:constants.settings.contextualconsent.replaceAttributes
       replaceAttributes = src,href
       # cat=plugin.tx_klaroconsentmanager/300_settings/170; type=boolean; label=LLL:EXT:klaro_consent_manager/Resources/Private/Language/locallang_be.xlf:constants.settings.contextualconsent.mainSectionOnly
       mainSectionOnly = 1
     }
+
     configuration {
       # cat=plugin.tx_klaroconsentmanager/300_settings/180; type=boolean; label=LLL:EXT:klaro_consent_manager/Resources/Private/Language/locallang_be.xlf:constants.settings.configuration.disabled
       disabled = 0

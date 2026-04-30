@@ -32,6 +32,13 @@ use TYPO3\CMS\Core\View\ViewFactoryData;
 use TYPO3\CMS\Core\View\ViewFactoryInterface;
 use TYPO3\CMS\Frontend\ContentObject\ContentObjectRenderer;
 
+use function array_key_exists;
+use function count;
+use function in_array;
+use function is_array;
+use function is_bool;
+use function is_string;
+
 class KlaroService
 {
     private const COOKIE_CONFIG = [
@@ -173,6 +180,152 @@ class KlaroService
         return $this->rawConfiguration;
     }
 
+    private function initLanguage(): void
+    {
+        $language = $this->request->getAttribute('language');
+        if ($language instanceof SiteLanguage) {
+            $this->siteLanguage = $language;
+            $languageServiceFactory = GeneralUtility::makeInstance(LanguageServiceFactory::class);
+            $this->languageService = $languageServiceFactory->create($this->siteLanguage->getTypo3Language());
+        }
+    }
+
+    private function initConfiguration(): bool
+    {
+        $site = $this->request->getAttribute('site');
+        if ($site instanceof Site) {
+            $languageConfiguration = $this->siteLanguage->toArray();
+            $configuration = [];
+
+            if (\array_key_exists('klaroConfiguration', $languageConfiguration)) {
+                $configuration = $languageConfiguration;
+            }
+
+            if ($configuration === []) {
+                $siteConfiguration = $site->getConfiguration();
+                if (\array_key_exists('klaroConfiguration', $siteConfiguration)) {
+                    $configuration = $siteConfiguration;
+                }
+            }
+
+            if ($configuration !== []) {
+                $this->configurationId = (int) ($configuration['klaroConfiguration'] ?? 0);
+                if ($this->configurationId > 0) {
+                    $this->imprintLink = (string) ($configuration['klaroImprintUrl'] ?? '');
+                    $this->privacyPolicyLink = (string) ($configuration['klaroPrivacyPolicyUrl'] ?? '');
+                    $this->rawConfiguration = $this->fetchConfiguration();
+                    return true;
+                }
+            }
+        }
+
+        return false;
+    }
+
+    private function fetchConfiguration(): array
+    {
+        if ($this->configurationId === 0) {
+            return [];
+        }
+
+        if ($this->rawConfiguration !== []) {
+            return $this->rawConfiguration;
+        }
+
+        if ($return = $this->fetchResults(
+            'tx_klaroconsentmanager_configuration',
+            array_keys(self::GLOBAL_CONFIG),
+            [
+                'uid' => $this->configurationId,
+            ]
+        )) {
+            $return['services'] = $this->fetchServices($return['services']);
+            return $return;
+        }
+
+        return [];
+    }
+
+    private function fetchResults(string $table, array $select, array $where = [], bool $multiple = false): array
+    {
+        $queryBuilder = $this->connectionPool->getQueryBuilderForTable($table);
+
+        $whereStatements = [];
+        foreach ($where as $key => $value) {
+            $whereStatements[] = $queryBuilder->expr()->eq($key, $queryBuilder->createNamedParameter($value));
+        }
+
+        $result = $queryBuilder
+            ->select(...array_merge(['uid'], $select))
+            ->from($table)
+            ->where(...$whereStatements)
+            ->executeQuery();
+
+        try {
+            if ($return = $multiple ? $result->fetchAllAssociative() : $result->fetchAssociative()) {
+                return $return;
+            }
+        } catch (Exception) {
+        }
+        return [];
+    }
+
+    private function fetchServices(string $serviceUidsList): array
+    {
+        $serviceUids = GeneralUtility::intExplode(',', $serviceUidsList);
+        $return = [];
+
+        foreach ($serviceUids as $serviceUid) {
+            if ($result = $this->fetchResults(
+                'tx_klaroconsentmanager_service',
+                array_keys(self::SERVICE_CONFIG),
+                [
+                    'uid' => $serviceUid,
+                ]
+            )) {
+                $result['cookies'] = $this->fetchCookies($serviceUid);
+                $return[] = $result;
+            }
+        }
+
+        return $return;
+    }
+
+    private function fetchCookies(int $serviceId): array
+    {
+        return $this->fetchResults(
+            'tx_klaroconsentmanager_cookie',
+            array_keys(self::COOKIE_CONFIG),
+            [
+                'parentid' => $serviceId,
+                'parenttable' => 'tx_klaroconsentmanager_service',
+            ],
+            true
+        );
+    }
+
+    private function initViewConfiguration(): void
+    {
+        $this->framework = TypoScriptUtility::getFramework($this->request);
+        $this->settings = $this->framework['settings'] ?? [];
+
+        $layoutRootPaths = [];
+        $partialRootPaths = [];
+        $templateRootPaths = [];
+
+        $fluidRootPath = $this->rawConfiguration['fluidtemplate_rootpath'] ?? '';
+
+        if ($fluidRootPath) {
+            $layoutRootPaths = [$fluidRootPath . 'Layouts/'];
+            $partialRootPaths = [$fluidRootPath . 'Partials/'];
+            $templateRootPaths = [$fluidRootPath . 'Templates/'];
+        }
+
+        $this->layoutRootPaths = array_merge($this->framework['view']['layoutRootPaths'] ?? [], $layoutRootPaths);
+        $this->partialRootPaths = array_merge($this->framework['view']['partialRootPaths'] ?? [], $partialRootPaths);
+        $this->templateRootPaths = array_merge($this->framework['view']['templateRootPaths'] ?? [], $templateRootPaths);
+    }
+
     public function getConfigurationInlineJavaScript(): string
     {
         if ($this->rawConfiguration) {
@@ -264,78 +417,202 @@ class KlaroService
         return '';
     }
 
-    private function initConfiguration(): bool
+    private function getConfigurationValue(array $configuration, string $field, string $type): mixed
     {
-        $site = $this->request->getAttribute('site');
-        if ($site instanceof Site) {
-            $languageConfiguration = $this->siteLanguage->toArray();
-            $configuration = [];
+        return match ($type) {
+            'boolean' => (bool) $configuration[$field],
+            'integer' => (int) $configuration[$field],
+            'string' => (string) $configuration[$field],
+            default => $configuration[$field],
+        };
+    }
 
-            if (\array_key_exists('klaroConfiguration', $languageConfiguration)) {
-                $configuration = $languageConfiguration;
+    private function modifyValueByType(mixed $value, string $type): mixed
+    {
+        return match ($type) {
+            'callback' => 'function(consent,service){' . $value . '}',
+            'javascript' => 'function(handlerOpts){' . $value . '}',
+            'object' => '{' . $value . '}',
+            'list' => GeneralUtility::trimExplode(',', $value),
+            default => $value,
+        };
+    }
+
+    private function getTranslations(array $keys = [], string $prepend = ''): array
+    {
+        $return = [];
+        foreach ($keys as $key => $label) {
+            if (\is_array($label)) {
+                $return[$key] = $this->getTranslations($label, ($prepend !== '' ? $prepend . '.' : '') . $key);
+            } else {
+                $return[$label] = $this->getLabel(($prepend !== '' ? $prepend . '.' : '') . $label);
             }
+        }
 
-            if ($configuration === []) {
-                $siteConfiguration = $site->getConfiguration();
-                if (\array_key_exists('klaroConfiguration', $siteConfiguration)) {
-                    $configuration = $siteConfiguration;
+        if ($prepend === '') {
+            $privacyPolicyLink = $this->getUrlFromTypoLink($this->privacyPolicyLink);
+            if ($privacyPolicyLink !== '' && $privacyPolicyLink !== '0') {
+                $return['privacyPolicyUrl'] = $privacyPolicyLink;
+            }
+            $return['purposes'] = [];
+            foreach ($this->rawConfiguration['services'] as $service) {
+                $purposes = GeneralUtility::trimExplode(',', $service['purposes']);
+                foreach ($purposes as $purpose) {
+                    if (!($return['purposes'][$purpose] ?? false)) {
+                        $arguments = ['service' => $service, 'purpose' => $purpose];
+                        $return['purposes'][$purpose] = [
+                            'title'
+                            => $this->getFluidContent('Prepend/Purpose/Title', $arguments)
+                                . $this->getLabel('purposes.' . $purpose . '.title', $arguments)
+                                . $this->getFluidContent('Append/Purpose/Title', $arguments),
+                            'description'
+                            => $this->getFluidContent('Prepend/Purpose/Description', $arguments)
+                                . $this->getLabel('purposes.' . $purpose . '.description', $arguments)
+                                . $this->getFluidContent('Append/Purpose/Description', $arguments),
+                        ];
+                    }
                 }
             }
+            if (!$return['purposes']) {
+                unset($return['purposes']);
+            }
+        }
 
-            if ($configuration !== []) {
-                $this->configurationId = (int) ($configuration['klaroConfiguration'] ?? 0);
-                if ($this->configurationId > 0) {
-                    $this->imprintLink = (string) ($configuration['klaroImprintUrl'] ?? '');
-                    $this->privacyPolicyLink = (string) ($configuration['klaroPrivacyPolicyUrl'] ?? '');
-                    $this->rawConfiguration = $this->fetchConfiguration();
-                    return true;
-                }
+        return $return;
+    }
+
+    private function getLabel(string $key, array $additionalArguments = []): string
+    {
+        $label = '';
+        $fullKey = '';
+        $template = 'Labels/' . str_replace(' ', '/', ucwords(str_replace('.', ' ', $key)));
+
+        // When in the Klaro! Configuration a Locallang file has been defined, this has priority
+        if ($this->locallangPathOverride !== '' && $this->locallangPathOverride !== '0') {
+            $fullKey = 'LLL:' . $this->locallangPathOverride . ':' . $key;
+            $label = $this->languageService->sL($fullKey);
+        }
+
+        // If no text could be determined, fall back to the default locallang file
+        if ($label === '' || $label === '0') {
+            $fullKey = 'LLL:' . $this->locallangPath . ':' . $key;
+            $label = $this->languageService->sL($fullKey);
+        }
+
+        $arguments = [
+            'locallang' => [
+                'key' => $key,
+                'fullKey' => $fullKey,
+                'label' => $label,
+            ],
+        ];
+
+        ArrayUtility::mergeRecursiveWithOverrule($arguments, $additionalArguments);
+        $fluidLabel = $this->getFluidContent($template, $arguments);
+
+        if ($fluidLabel !== '' && $fluidLabel !== '0') {
+            return $fluidLabel;
+        }
+
+        // If no label has been created up to this point, fall back to an error message.
+        if ($label === '' || $label === '0') {
+            $label = '[missing translation: ' . $key . ']';
+        }
+
+        return $this->prepareStringForJavaScript($label);
+    }
+
+    private function getFluidContent(string $template = '', array $additionalArguments = []): string
+    {
+        if (!$this->templateFileExists($template)) {
+            return '';
+        }
+
+        $arguments = [
+            'locallang' => [
+                'defaultPath' => $this->locallangPath,
+                'overridePath' => $this->locallangPathOverride,
+                'languageKey' => $this->siteLanguage->getTypo3Language(),
+            ],
+            'rawConfiguration' => $this->rawConfiguration,
+            'configuration' => $this->configuration,
+            'links' => [
+                'privacyPolicyLink' => $this->privacyPolicyLink,
+                'imprintLink' => $this->imprintLink,
+            ],
+            'framework' => $this->framework,
+        ];
+
+        ArrayUtility::mergeRecursiveWithOverrule($arguments, $additionalArguments);
+
+        $viewFactory = GeneralUtility::makeInstance(ViewFactoryInterface::class);
+        $viewFactoryData = new ViewFactoryData(
+            templateRootPaths: $this->templateRootPaths,
+            partialRootPaths: $this->partialRootPaths,
+            layoutRootPaths: $this->layoutRootPaths,
+            request: $this->request,
+        );
+        $view = $viewFactory->create($viewFactoryData);
+        $view->assignMultiple($arguments);
+
+        if ($return = $view->render($template)) {
+            return $this->prepareStringForJavaScript($return);
+        }
+
+        return '';
+    }
+
+    private function templateFileExists(string $template): bool
+    {
+        foreach (array_reverse($this->templateRootPaths) as $templateRootPath) {
+            $templateRootPath = rtrim((string) $templateRootPath, '/');
+            if ($templateRootPath === '' || $templateRootPath === 'php://stdin') {
+                continue;
+            }
+
+            $templatePathAndFilename = GeneralUtility::getFileAbsFileName(
+                $templateRootPath . '/' . $template . '.html'
+            );
+            if ($templatePathAndFilename !== '' && file_exists($templatePathAndFilename)) {
+                return true;
             }
         }
 
         return false;
     }
 
-    private function initLanguage(): void
+    private function prepareStringForJavaScript(string $string): string
     {
-        $language = $this->request->getAttribute('language');
-        if ($language instanceof SiteLanguage) {
-            $this->siteLanguage = $language;
-            $languageServiceFactory = GeneralUtility::makeInstance(LanguageServiceFactory::class);
-            $this->languageService = $languageServiceFactory->create($this->siteLanguage->getTypo3Language());
-        }
+        // Remove linebreaks, remove spaces before commas and escape single quotes
+        $string = str_replace(
+            ["\r", "\n", ' , '],
+            ['', '', ', '],
+            $string
+        );
+
+        // Remove whitespaces and linebreaks
+        $string = preg_replace(
+            ['/\s+/', '/>\s/', '/\s</'],
+            [' ', '>', '<'],
+            $string
+        );
+
+        // Add slashes
+        $string = addslashes((string) $string);
+
+        // Trim string
+        return trim($string);
     }
 
-    private function initViewConfiguration(): void
+    private function getUrlFromTypoLink(string $typoLink): string
     {
-        $this->framework = TypoScriptUtility::getFramework($this->request);
-        $this->settings = $this->framework['settings'] ?? [];
+        $cObj = GeneralUtility::makeInstance(ContentObjectRenderer::class);
+        $cObj->setRequest($this->request);
 
-        $layoutRootPaths = [];
-        $partialRootPaths = [];
-        $templateRootPaths = [];
-
-        $fluidRootPath = $this->rawConfiguration['fluidtemplate_rootpath'] ?? '';
-
-        if ($fluidRootPath) {
-            $layoutRootPaths = [$fluidRootPath . 'Layouts/'];
-            $partialRootPaths = [$fluidRootPath . 'Partials/'];
-            $templateRootPaths = [$fluidRootPath . 'Templates/'];
-        }
-
-        $this->layoutRootPaths = array_merge($this->framework['view']['layoutRootPaths'] ?? [], $layoutRootPaths);
-        $this->partialRootPaths = array_merge($this->framework['view']['partialRootPaths'] ?? [], $partialRootPaths);
-        $this->templateRootPaths = array_merge($this->framework['view']['templateRootPaths'] ?? [], $templateRootPaths);
-    }
-
-    private function createAppendShowButtonScript(string $elementId, bool $reset = true): string
-    {
-        $id = $elementId . ($reset ? 'Reset' : 'Show');
-        return 'const ' . $id . '=document.createElement("button");'
-            . $id . '.setAttribute("data-' . $elementId . '-trigger", "' . ($reset ? 'reset' : 'show') . '");'
-            . $id . '.setAttribute("title", "' . $this->getLabel('consentManager.' . ($reset ? 'reset' : 'show') . '.title', ['elementId' => $elementId, 'reset' => $reset, 'id' => $id]) . '");'
-            . $id . '.textContent="' . $this->getLabel('consentManager.' . ($reset ? 'reset' : 'show'), ['elementId' => $elementId, 'reset' => $reset, 'id' => $id]) . '";'
-            . 'document.body.appendChild(' . $id . ');';
+        return $cObj->createUrl([
+            'parameter' => $typoLink,
+            'forceAbsoluteUrl' => true,
+        ]);
     }
 
     private function getServices(): array
@@ -351,11 +628,11 @@ class KlaroService
                 'translations' => [
                     'zz' => [
                         'title'
-                            => $this->getFluidContent('Prepend/Service/Title', $arguments)
+                        => $this->getFluidContent('Prepend/Service/Title', $arguments)
                             . $this->getLabel('services.' . $service['name'] . '.title', $arguments)
                             . $this->getFluidContent('Append/Service/Title', $arguments),
                         'description'
-                            => $this->getFluidContent('Prepend/Service/Description', $arguments)
+                        => $this->getFluidContent('Prepend/Service/Description', $arguments)
                             . $this->getLabel('services.' . $service['name'] . '.description', $arguments)
                             . $this->getFluidContent('Append/Service/Description', $arguments),
                     ],
@@ -430,76 +707,6 @@ class KlaroService
         return true;
     }
 
-    private function modifyValueByType(mixed $value, string $type): mixed
-    {
-        return match ($type) {
-            'callback' => 'function(consent,service){' . $value . '}',
-            'javascript' => 'function(handlerOpts){' . $value . '}',
-            'object' => '{' . $value . '}',
-            'list' => GeneralUtility::trimExplode(',', $value),
-            default => $value,
-        };
-    }
-
-    private function getTranslations(array $keys = [], string $prepend = ''): array
-    {
-        $return = [];
-        foreach ($keys as $key => $label) {
-            if (\is_array($label)) {
-                $return[$key] = $this->getTranslations($label, ($prepend !== '' ? $prepend . '.' : '') . $key);
-            } else {
-                $return[$label] = $this->getLabel(($prepend !== '' ? $prepend . '.' : '') . $label);
-            }
-        }
-
-        if ($prepend === '') {
-            $privacyPolicyLink = $this->getUrlFromTypoLink($this->privacyPolicyLink);
-            if ($privacyPolicyLink !== '' && $privacyPolicyLink !== '0') {
-                $return['privacyPolicyUrl'] = $privacyPolicyLink;
-            }
-            $return['purposes'] = [];
-            foreach ($this->rawConfiguration['services'] as $service) {
-                $purposes = GeneralUtility::trimExplode(',', $service['purposes']);
-                foreach ($purposes as $purpose) {
-                    if (!($return['purposes'][$purpose] ?? false)) {
-                        $arguments = ['service' => $service, 'purpose' => $purpose];
-                        $return['purposes'][$purpose] = [
-                            'title'
-                                => $this->getFluidContent('Prepend/Purpose/Title', $arguments)
-                                . $this->getLabel('purposes.' . $purpose . '.title', $arguments)
-                                . $this->getFluidContent('Append/Purpose/Title', $arguments),
-                            'description'
-                                => $this->getFluidContent('Prepend/Purpose/Description', $arguments)
-                                . $this->getLabel('purposes.' . $purpose . '.description', $arguments)
-                                . $this->getFluidContent('Append/Purpose/Description', $arguments),
-                        ];
-                    }
-                }
-            }
-            if (!$return['purposes']) {
-                unset($return['purposes']);
-            }
-        }
-
-        return $return;
-    }
-
-    private function getConfigurationValue(array $configuration, string $field, string $type): mixed
-    {
-        return match ($type) {
-            'boolean' => (bool) $configuration[$field],
-            'integer' => (int) $configuration[$field],
-            'string' => (string) $configuration[$field],
-            default => $configuration[$field],
-        };
-    }
-
-    private function isValidJsIdentifier(string $key): bool
-    {
-        // Valid: foo, $foo, _foo, foo123 – but NOT: foo-bar, my key, etc.
-        return (bool) preg_match('/^[A-Za-z$_][A-Za-z0-9$_]*$/', $key);
-    }
-
     private function filterStylingForNeutralScheme(): void
     {
         $scheme = (string) ($this->rawConfiguration['color_scheme'] ?? '');
@@ -566,219 +773,19 @@ class KlaroService
         return \count(array_filter(array_keys($array), is_string(...))) > 0;
     }
 
-    private function fetchConfiguration(): array
+    private function isValidJsIdentifier(string $key): bool
     {
-        if ($this->configurationId === 0) {
-            return [];
-        }
-
-        if ($this->rawConfiguration !== []) {
-            return $this->rawConfiguration;
-        }
-
-        if ($return = $this->fetchResults(
-            'tx_klaroconsentmanager_configuration',
-            array_keys(self::GLOBAL_CONFIG),
-            [
-                'uid' => $this->configurationId,
-            ]
-        )) {
-            $return['services'] = $this->fetchServices($return['services']);
-            return $return;
-        }
-
-        return [];
+        // Valid: foo, $foo, _foo, foo123 – but NOT: foo-bar, my key, etc.
+        return (bool) preg_match('/^[A-Za-z$_][A-Za-z0-9$_]*$/', $key);
     }
 
-    private function fetchServices(string $serviceUidsList): array
+    private function createAppendShowButtonScript(string $elementId, bool $reset = true): string
     {
-        $serviceUids = GeneralUtility::intExplode(',', $serviceUidsList);
-        $return = [];
-
-        foreach ($serviceUids as $serviceUid) {
-            if ($result = $this->fetchResults(
-                'tx_klaroconsentmanager_service',
-                array_keys(self::SERVICE_CONFIG),
-                [
-                    'uid' => $serviceUid,
-                ]
-            )) {
-                $result['cookies'] = $this->fetchCookies($serviceUid);
-                $return[] = $result;
-            }
-        }
-
-        return $return;
-    }
-
-    private function fetchCookies(int $serviceId): array
-    {
-        return $this->fetchResults(
-            'tx_klaroconsentmanager_cookie',
-            array_keys(self::COOKIE_CONFIG),
-            [
-                'parentid' => $serviceId,
-                'parenttable' => 'tx_klaroconsentmanager_service',
-            ],
-            true
-        );
-    }
-
-    private function fetchResults(string $table, array $select, array $where = [], bool $multiple = false): array
-    {
-        $queryBuilder = $this->connectionPool->getQueryBuilderForTable($table);
-
-        $whereStatements = [];
-        foreach ($where as $key => $value) {
-            $whereStatements[] = $queryBuilder->expr()->eq($key, $queryBuilder->createNamedParameter($value));
-        }
-
-        $result = $queryBuilder
-            ->select(...array_merge(['uid'], $select))
-            ->from($table)
-            ->where(...$whereStatements)
-            ->executeQuery();
-
-        try {
-            if ($return = $multiple ? $result->fetchAllAssociative() : $result->fetchAssociative()) {
-                return $return;
-            }
-        } catch (Exception) {
-        }
-        return [];
-    }
-
-    private function getFluidContent(string $template = '', array $additionalArguments = []): string
-    {
-        if (!$this->templateFileExists($template)) {
-            return '';
-        }
-
-        $arguments = [
-            'locallang' => [
-                'defaultPath' => $this->locallangPath,
-                'overridePath' => $this->locallangPathOverride,
-                'languageKey' => $this->siteLanguage->getTypo3Language(),
-            ],
-            'rawConfiguration' => $this->rawConfiguration,
-            'configuration' => $this->configuration,
-            'links' => [
-                'privacyPolicyLink' => $this->privacyPolicyLink,
-                'imprintLink' => $this->imprintLink,
-            ],
-            'framework' => $this->framework,
-        ];
-
-        ArrayUtility::mergeRecursiveWithOverrule($arguments, $additionalArguments);
-
-        $viewFactory = GeneralUtility::makeInstance(ViewFactoryInterface::class);
-        $viewFactoryData = new ViewFactoryData(
-            templateRootPaths: $this->templateRootPaths,
-            partialRootPaths: $this->partialRootPaths,
-            layoutRootPaths: $this->layoutRootPaths,
-            request: $this->request,
-        );
-        $view = $viewFactory->create($viewFactoryData);
-        $view->assignMultiple($arguments);
-
-        if ($return = $view->render($template)) {
-            return $this->prepareStringForJavaScript($return);
-        }
-
-        return '';
-    }
-
-    private function templateFileExists(string $template): bool
-    {
-        foreach (array_reverse($this->templateRootPaths) as $templateRootPath) {
-            $templateRootPath = rtrim((string) $templateRootPath, '/');
-            if ($templateRootPath === '' || $templateRootPath === 'php://stdin') {
-                continue;
-            }
-
-            $templatePathAndFilename = GeneralUtility::getFileAbsFileName(
-                $templateRootPath . '/' . $template . '.html'
-            );
-            if ($templatePathAndFilename !== '' && file_exists($templatePathAndFilename)) {
-                return true;
-            }
-        }
-
-        return false;
-    }
-
-    private function getLabel(string $key, array $additionalArguments = []): string
-    {
-        $label = '';
-        $fullKey = '';
-        $template = 'Labels/' . str_replace(' ', '/', ucwords(str_replace('.', ' ', $key)));
-
-        // When in the Klaro! Configuration a Locallang file has been defined, this has priority
-        if ($this->locallangPathOverride !== '' && $this->locallangPathOverride !== '0') {
-            $fullKey = 'LLL:' . $this->locallangPathOverride . ':' . $key;
-            $label = $this->languageService->sL($fullKey);
-        }
-
-        // If no text could be determined, fall back to the default locallang file
-        if ($label === '' || $label === '0') {
-            $fullKey = 'LLL:' . $this->locallangPath . ':' . $key;
-            $label = $this->languageService->sL($fullKey);
-        }
-
-        $arguments = [
-            'locallang' => [
-                'key' => $key,
-                'fullKey' => $fullKey,
-                'label' => $label,
-            ],
-        ];
-
-        ArrayUtility::mergeRecursiveWithOverrule($arguments, $additionalArguments);
-        $fluidLabel = $this->getFluidContent($template, $arguments);
-
-        if ($fluidLabel !== '' && $fluidLabel !== '0') {
-            return $fluidLabel;
-        }
-
-        // If no label has been created up to this point, fall back to an error message.
-        if ($label === '' || $label === '0') {
-            $label = '[missing translation: ' . $key . ']';
-        }
-
-        return $this->prepareStringForJavaScript($label);
-    }
-
-    private function prepareStringForJavaScript(string $string): string
-    {
-        // Remove linebreaks, remove spaces before commas and escape single quotes
-        $string = str_replace(
-            ["\r", "\n", ' , '],
-            ['', '', ', '],
-            $string
-        );
-
-        // Remove whitespaces and linebreaks
-        $string = preg_replace(
-            ['/\s+/', '/>\s/', '/\s</'],
-            [' ', '>', '<'],
-            $string
-        );
-
-        // Add slashes
-        $string = addslashes((string) $string);
-
-        // Trim string
-        return trim($string);
-    }
-
-    private function getUrlFromTypoLink(string $typoLink): string
-    {
-        $cObj = GeneralUtility::makeInstance(ContentObjectRenderer::class);
-        $cObj->setRequest($this->request);
-
-        return $cObj->createUrl([
-            'parameter' => $typoLink,
-            'forceAbsoluteUrl' => true,
-        ]);
+        $id = $elementId . ($reset ? 'Reset' : 'Show');
+        return 'const ' . $id . '=document.createElement("button");'
+            . $id . '.setAttribute("data-' . $elementId . '-trigger", "' . ($reset ? 'reset' : 'show') . '");'
+            . $id . '.setAttribute("title", "' . $this->getLabel('consentManager.' . ($reset ? 'reset' : 'show') . '.title', ['elementId' => $elementId, 'reset' => $reset, 'id' => $id]) . '");'
+            . $id . '.textContent="' . $this->getLabel('consentManager.' . ($reset ? 'reset' : 'show'), ['elementId' => $elementId, 'reset' => $reset, 'id' => $id]) . '";'
+            . 'document.body.appendChild(' . $id . ');';
     }
 }

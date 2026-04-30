@@ -19,6 +19,8 @@ namespace ErHaWeb\KlaroConsentManager\Utility;
 
 use Psr\Http\Message\ServerRequestInterface;
 
+use function is_array;
+
 class TypoScriptUtility
 {
     public static function getSettings(ServerRequestInterface $request, string $extensionName = 'KlaroConsentManager'): array

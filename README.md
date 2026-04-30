@@ -1,8 +1,7 @@
 # Klaro! Consent Manager
 
-
 | Meta          | Value                         |
-| ------------- | ----------------------------- |
+|---------------|-------------------------------|
 | Extension key | klaro_consent_manager         |
 | Package name  | erhaweb/klaro-consent-manager |
 | Version       | 2                             |
@@ -21,7 +20,6 @@ If you have already worked with Klaro in TYPO3, you will love this extension bec
 ![Initial modal](Documentation/Images/Frontend-Modal.png)
 
 ![Dialogue "Let me choose"](Documentation/Images/Frontend-LetMeChoose.png)
-
 
 ## Further details
 

@@ -5,6 +5,8 @@ declare(strict_types=1);
 namespace ErHaWeb\KlaroConsentManager\Command;
 
 use DOMDocument;
+use DOMElement;
+use DOMException;
 use Symfony\Component\Console\Attribute\AsCommand;
 use Symfony\Component\Console\Command\Command;
 use Symfony\Component\Console\Input\InputArgument;
@@ -12,6 +14,8 @@ use Symfony\Component\Console\Input\InputInterface;
 use Symfony\Component\Console\Input\InputOption;
 use Symfony\Component\Console\Output\OutputInterface;
 use Symfony\Component\Yaml\Yaml;
+
+use function is_array;
 
 #[AsCommand(
     name: 'klaro:yaml-to-xliff',
@@ -30,15 +34,15 @@ final class YamlToXliffCommand extends Command
     }
 
     /**
-     * @throws \DOMException
+     * @throws DOMException
      */
     protected function execute(InputInterface $input, OutputInterface $output): int
     {
-        $inDir       = rtrim((string) $input->getArgument('input'), '/');
-        $outDir      = rtrim((string) $input->getArgument('output'), '/');
-        $baseLocale  = (string) ($input->getOption('base') ?? '');
+        $inDir = rtrim((string) $input->getArgument('input'), '/');
+        $outDir = rtrim((string) $input->getArgument('output'), '/');
+        $baseLocale = (string) ($input->getOption('base') ?? '');
         $productName = (string) $input->getOption('product-name');
-        $original    = (string) $input->getOption('original');
+        $original = (string) $input->getOption('original');
 
         if (!is_dir($inDir)) {
             $output->writeln("<error>Input directory not found: $inDir</error>");
@@ -63,8 +67,8 @@ final class YamlToXliffCommand extends Command
         $flattenedPerLocale = [];
         foreach ($files as $file) {
             $localeRaw = $this->inferLocale($file);            // e.g. "en", "pt-BR", "zh_Hant"
-            $locale    = $this->normalizeIso639_1($localeRaw); // → "en", "pt", "zh"
-            $data      = Yaml::parseFile($inDir . '/' . $file);
+            $locale = $this->normalizeIso639_1($localeRaw); // → "en", "pt", "zh"
+            $data = Yaml::parseFile($inDir . '/' . $file);
             if (!\is_array($data)) {
                 $data = [];
             }
@@ -176,11 +180,11 @@ final class YamlToXliffCommand extends Command
     }
 
     /**
-     * @throws \DOMException
+     * @throws DOMException
      */
-    private function createXliff12(string $targetLanguage, string $productName, string $original): \DOMDocument
+    private function createXliff12(string $targetLanguage, string $productName, string $original): DOMDocument
     {
-        $doc = new \DOMDocument('1.0', 'UTF-8');
+        $doc = new DOMDocument('1.0', 'UTF-8');
         $doc->formatOutput = true;
 
         $xliff = $doc->createElement('xliff');
@@ -209,11 +213,11 @@ final class YamlToXliffCommand extends Command
      * Append trans-units to a DOMDocument.
      *
      * @param array<string,string> $pairs
-     * @throws \DOMException
+     * @throws DOMException
      */
-    private function appendUnits(\DOMDocument $doc, array $pairs): void
+    private function appendUnits(DOMDocument $doc, array $pairs): void
     {
-        /** @var \DOMElement $body */
+        /** @var DOMElement $body */
         $body = $doc->getElementsByTagName('body')->item(0);
         foreach ($pairs as $id => $text) {
             $transUnit = $doc->createElement('trans-unit');
@@ -232,11 +236,11 @@ final class YamlToXliffCommand extends Command
      *
      * @param array<string,string> $basePairs
      * @param array<string,string|null> $targetPairs
-     * @throws \DOMException
+     * @throws DOMException
      */
-    private function appendUnitsWithBase(\DOMDocument $doc, array $basePairs, array $targetPairs): void
+    private function appendUnitsWithBase(DOMDocument $doc, array $basePairs, array $targetPairs): void
     {
-        /** @var \DOMElement $body */
+        /** @var DOMElement $body */
         $body = $doc->getElementsByTagName('body')->item(0);
         foreach ($basePairs as $id => $sourceText) {
             $transUnit = $doc->createElement('trans-unit');

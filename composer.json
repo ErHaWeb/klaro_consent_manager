@@ -1,65 +1,65 @@
 {
-    "name": "erhaweb/klaro-consent-manager",
-    "type": "typo3-cms-extension",
-    "description": "Klaro! Consent Manager - Functionally complete, flexible TYPO3 integration of Klaro! Consent Management by KIProtect GmbH, a powerful tool that protects your visitors' privacy and data.",
-    "license": "GPL-2.0-or-later",
-    "require": {
+	"name": "erhaweb/klaro-consent-manager",
+	"type": "typo3-cms-extension",
+	"description": "Klaro! Consent Manager - Functionally complete, flexible TYPO3 integration of Klaro! Consent Management by KIProtect GmbH, a powerful tool that protects your visitors' privacy and data.",
+	"license": "GPL-2.0-or-later",
+	"require": {
 		"typo3/cms-core": "^13.0 || ^14.0",
 		"php": "^8.2 || ^8.3 || ^8.4 || ^8.5",
-        "ext-pdo": "*"
-    },
-    "require-dev": {
-        "roave/security-advisories": "dev-latest",
-        "typo3/testing-framework": "^6.9.0"
-    },
-    "authors": [
-        {
-            "name": "Eric Harrer",
-            "role": "Developer",
-            "email": "info@eric-harrer.de",
-            "homepage": "https://www.eric-harrer.de"
-        }
-    ],
-    "keywords": [
-        "TYPO3",
-        "extension",
+		"ext-pdo": "*"
+	},
+	"require-dev": {
+		"roave/security-advisories": "dev-latest",
+		"typo3/testing-framework": "^6.9.0"
+	},
+	"authors": [
+		{
+			"name": "Eric Harrer",
+			"role": "Developer",
+			"email": "info@eric-harrer.de",
+			"homepage": "https://www.eric-harrer.de"
+		}
+	],
+	"keywords": [
+		"TYPO3",
+		"extension",
 		"Consent Manager",
 		"Klaro",
 		"GDPR"
-    ],
-    "homepage": "https://extensions.typo3.org/extension/klaro_consent_manager",
-    "support": {
-        "source": "https://github.com/ErHaWeb/klaro_consent_manager",
-        "issues": "https://github.com/ErHaWeb/klaro_consent_manager/issues",
-        "docs": "https://docs.typo3.org/p/erhaweb/klaro-consent-manager/main/en-us/"
-    },
-    "funding": [
-        {
-            "type": "other",
-            "url:": "https://www.paypal.com/paypalme/ebode"
-        }
-    ],
-    "autoload": {
-        "psr-4": {
-            "ErHaWeb\\KlaroConsentManager\\": "Classes"
-        }
-    },
-    "replace": {
-        "typo3-ter/klaro-consent-manager": "self.version"
-    },
-    "config": {
-        "vendor-dir": ".Build/vendor",
-        "bin-dir": ".Build/bin"
-    },
-    "scripts": {
-        "post-autoload-dump": [
-            "TYPO3\\TestingFramework\\Composer\\ExtensionTestEnvironment::prepare"
-        ]
-    },
-    "extra": {
-        "typo3/cms": {
-            "web-dir": ".Build/public",
-            "extension-key": "klaro_consent_manager"
-        }
-    }
+	],
+	"homepage": "https://extensions.typo3.org/extension/klaro_consent_manager",
+	"support": {
+		"source": "https://github.com/ErHaWeb/klaro_consent_manager",
+		"issues": "https://github.com/ErHaWeb/klaro_consent_manager/issues",
+		"docs": "https://docs.typo3.org/p/erhaweb/klaro-consent-manager/main/en-us/"
+	},
+	"funding": [
+		{
+			"type": "other",
+			"url:": "https://www.paypal.com/paypalme/ebode"
+		}
+	],
+	"autoload": {
+		"psr-4": {
+			"ErHaWeb\\KlaroConsentManager\\": "Classes"
+		}
+	},
+	"replace": {
+		"typo3-ter/klaro-consent-manager": "self.version"
+	},
+	"config": {
+		"vendor-dir": ".Build/vendor",
+		"bin-dir": ".Build/bin"
+	},
+	"scripts": {
+		"post-autoload-dump": [
+			"TYPO3\\TestingFramework\\Composer\\ExtensionTestEnvironment::prepare"
+		]
+	},
+	"extra": {
+		"typo3/cms": {
+			"web-dir": ".Build/public",
+			"extension-key": "klaro_consent_manager"
+		}
+	}
 }

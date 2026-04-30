@@ -75,37 +75,28 @@ $var-red3: $var-primary-color !default;
 // 'styling' config parameter.
 $vars: (
     button-text-color: $var-button-text-color,
-
     font-size: $var-font-size,
     font-family: $var-font-family,
     title-font-family: $var-title-font-family,
-
     green1: $var-green1,
     green2: $var-green2,
     green3: $var-green3,
-
     blue1: $var-blue1,
     blue2: $var-blue2,
     blue3: $var-blue3,
-
     red1: $var-red1,
     red2: $var-red2,
     red3: $var-red3,
-
     light1: $var-light1,
     light2: $var-light2,
     light3: $var-light3,
-
     dark1: $var-dark1,
     dark2: $var-dark2,
     dark3: $var-dark3,
-
     white1: $var-white1,
     white2: $var-white2,
     white3: $var-white3,
-
     // non-color options
-
     border-radius: $var-border-radius,
     border-style: $var-border-style,
     border-width: $var-border-width,
@@ -143,4 +134,3 @@ $cm-space: (
 $cm-desktop: 1024px !default;
 $cm-mobile: 384px !default;
 $cm-tablet: 768px !default;
-

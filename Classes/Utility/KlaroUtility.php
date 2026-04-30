@@ -24,6 +24,8 @@ use TYPO3\CMS\Core\Cache\Exception\NoSuchCacheException;
 use TYPO3\CMS\Core\Http\ApplicationType;
 use TYPO3\CMS\Core\Utility\GeneralUtility;
 
+use function is_bool;
+
 class KlaroUtility
 {
     public static function isActive(?ServerRequestInterface $request = null): bool

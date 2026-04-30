@@ -30,10 +30,14 @@ use TYPO3\CMS\Core\Http\Stream;
 use TYPO3\CMS\Core\Site\Entity\Site;
 use TYPO3\CMS\Core\Utility\GeneralUtility;
 
+use function strlen;
+
 class ReplaceBeforeOutput implements MiddlewareInterface
 {
     public $configuration;
+
     public function __construct(private readonly ConnectionPool $connectionPool) {}
+
     public function process(ServerRequestInterface $request, RequestHandlerInterface $handler): ResponseInterface
     {
         $showUrl = ExtensionConfigurationUtility::getConfiguration('replaceUrl/show');
@@ -70,6 +74,42 @@ class ReplaceBeforeOutput implements MiddlewareInterface
         $body = new Stream('php://temp', 'rw');
         $body->write($html);
         return $response->withBody($body);
+    }
+
+    private function getElementId(ServerRequestInterface $request): string
+    {
+        $return = 'klaro';
+
+        $connectionPool = $this->connectionPool;
+        $configurationId = 0;
+
+        $site = $request->getAttribute('site');
+        if ($site instanceof Site) {
+            $siteConfiguration = $site->getConfiguration();
+            $configurationId = (int) ($siteConfiguration['klaroConfiguration'] ?? 0);
+        }
+
+        if ($configurationId === 0) {
+            return $return;
+        }
+
+        if (!empty($this->configuration)) {
+            return $this->configuration;
+        }
+
+        $queryBuilder = $connectionPool->getQueryBuilderForTable('tx_klaroconsentmanager_configuration');
+        $result = $queryBuilder
+            ->select('element_i_d')
+            ->from('tx_klaroconsentmanager_configuration')
+            ->where($queryBuilder->expr()->eq('uid', $queryBuilder->createNamedParameter($configurationId)))
+            ->executeQuery();
+
+        try {
+            $return = ($result->fetchAssociative()['element_i_d'] ?? $return) ?: $return;
+        } catch (Exception) {
+        }
+
+        return $return;
     }
 
     public function replaceAttrWithDataAttr(string $html): string
@@ -132,41 +172,5 @@ class ReplaceBeforeOutput implements MiddlewareInterface
         }
 
         return $html;
-    }
-
-    private function getElementId(ServerRequestInterface $request): string
-    {
-        $return = 'klaro';
-
-        $connectionPool = $this->connectionPool;
-        $configurationId = 0;
-
-        $site = $request->getAttribute('site');
-        if ($site instanceof Site) {
-            $siteConfiguration = $site->getConfiguration();
-            $configurationId = (int) ($siteConfiguration['klaroConfiguration'] ?? 0);
-        }
-
-        if ($configurationId === 0) {
-            return $return;
-        }
-
-        if (!empty($this->configuration)) {
-            return $this->configuration;
-        }
-
-        $queryBuilder = $connectionPool->getQueryBuilderForTable('tx_klaroconsentmanager_configuration');
-        $result = $queryBuilder
-            ->select('element_i_d')
-            ->from('tx_klaroconsentmanager_configuration')
-            ->where($queryBuilder->expr()->eq('uid', $queryBuilder->createNamedParameter($configurationId)))
-            ->executeQuery();
-
-        try {
-            $return = ($result->fetchAssociative()['element_i_d'] ?? $return) ?: $return;
-        } catch (Exception) {
-        }
-
-        return $return;
     }
 }

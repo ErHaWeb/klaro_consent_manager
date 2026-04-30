@@ -13,12 +13,12 @@ return [
     ],
     'tx-klaroconsentmanager-service' => [
         'provider' => SvgSpriteIconProvider::class,
-        'source'   => 'EXT:klaro_consent_manager/Resources/Public/Icons/sprite.svg',
+        'source' => 'EXT:klaro_consent_manager/Resources/Public/Icons/sprite.svg',
         'sprite' => 'EXT:klaro_consent_manager/Resources/Public/Icons/sprite.svg#tx-klaroconsentmanager-service',
     ],
     'tx-klaroconsentmanager-cookie' => [
         'provider' => SvgSpriteIconProvider::class,
-        'source'   => 'EXT:klaro_consent_manager/Resources/Public/Icons/sprite.svg',
+        'source' => 'EXT:klaro_consent_manager/Resources/Public/Icons/sprite.svg',
         'sprite' => 'EXT:klaro_consent_manager/Resources/Public/Icons/sprite.svg#tx-klaroconsentmanager-cookie',
     ],
     'tx-klaroconsentmanager-configuration-colorscheme-darkneutral' => [
