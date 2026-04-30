@@ -47,8 +47,10 @@ return [
                 'placeholder' => 'LLL:EXT:klaro_consent_manager/Resources/Private/Language/locallang_db.xlf:tx_klaroconsentmanager_service.title.placeholder',
                 'valuePicker' => [
                     'items' => [
+                        ['label' => 'Adobe Fonts', 'value' => 'Adobe Fonts'],
                         ['label' => 'Google AdSense', 'value' => 'Google AdSense'],
                         ['label' => 'Surveillance Camera', 'value' => 'Surveillance Camera'],
+                        ['label' => 'Career Captain', 'value' => 'Career Captain'],
                         ['label' => 'Microsoft Clarity', 'value' => 'Microsoft Clarity'],
                         ['label' => 'Cloudflare', 'value' => 'Cloudflare'],
                         ['label' => 'External Tracker', 'value' => 'External Tracker'],
@@ -62,8 +64,10 @@ return [
                         ['label' => 'Inline Tracker', 'value' => 'Inline Tracker'],
                         ['label' => 'Instagram', 'value' => 'Instagram'],
                         ['label' => 'Intercom', 'value' => 'Intercom'],
+                        ['label' => 'Klaro!', 'value' => 'Klaro!'],
                         ['label' => 'Matomo/Piwik', 'value' => 'Matomo/Piwik'],
                         ['label' => 'Mouseflow', 'value' => 'Mouseflow'],
+                        ['label' => 'SalesViewer', 'value' => 'SalesViewer'],
                         ['label' => 'TikTok', 'value' => 'TikTok'],
                         ['label' => 'X (formerly Twitter)', 'value' => 'X (formerly Twitter)'],
                         ['label' => 'Userlike', 'value' => 'Userlike'],
@@ -83,8 +87,10 @@ return [
                 'placeholder' => 'LLL:EXT:klaro_consent_manager/Resources/Private/Language/locallang_db.xlf:tx_klaroconsentmanager_service.name.placeholder',
                 'valuePicker' => [
                     'items' => [
+                        ['label' => 'LLL:EXT:klaro_consent_manager/Resources/Private/Language/locallang_db.xlf:tx_klaroconsentmanager_service.name.I.adobe-fonts', 'value' => 'adobe-fonts'],
                         ['label' => 'LLL:EXT:klaro_consent_manager/Resources/Private/Language/locallang_db.xlf:tx_klaroconsentmanager_service.name.I.adsense', 'value' => 'adsense'],
                         ['label' => 'LLL:EXT:klaro_consent_manager/Resources/Private/Language/locallang_db.xlf:tx_klaroconsentmanager_service.name.I.camera', 'value' => 'camera'],
+                        ['label' => 'LLL:EXT:klaro_consent_manager/Resources/Private/Language/locallang_db.xlf:tx_klaroconsentmanager_service.name.I.career-captain', 'value' => 'career-captain'],
                         ['label' => 'LLL:EXT:klaro_consent_manager/Resources/Private/Language/locallang_db.xlf:tx_klaroconsentmanager_service.name.I.clarity', 'value' => 'clarity'],
                         ['label' => 'LLL:EXT:klaro_consent_manager/Resources/Private/Language/locallang_db.xlf:tx_klaroconsentmanager_service.name.I.cloudflare', 'value' => 'cloudflare'],
                         ['label' => 'LLL:EXT:klaro_consent_manager/Resources/Private/Language/locallang_db.xlf:tx_klaroconsentmanager_service.name.I.external-tracker', 'value' => 'external-tracker'],
@@ -98,8 +104,10 @@ return [
                         ['label' => 'LLL:EXT:klaro_consent_manager/Resources/Private/Language/locallang_db.xlf:tx_klaroconsentmanager_service.name.I.inline-tracker', 'value' => 'inline-tracker'],
                         ['label' => 'LLL:EXT:klaro_consent_manager/Resources/Private/Language/locallang_db.xlf:tx_klaroconsentmanager_service.name.I.instagram', 'value' => 'instagram'],
                         ['label' => 'LLL:EXT:klaro_consent_manager/Resources/Private/Language/locallang_db.xlf:tx_klaroconsentmanager_service.name.I.intercom', 'value' => 'intercom'],
+                        ['label' => 'LLL:EXT:klaro_consent_manager/Resources/Private/Language/locallang_db.xlf:tx_klaroconsentmanager_service.name.I.klaro', 'value' => 'klaro'],
                         ['label' => 'LLL:EXT:klaro_consent_manager/Resources/Private/Language/locallang_db.xlf:tx_klaroconsentmanager_service.name.I.matomo', 'value' => 'matomo'],
                         ['label' => 'LLL:EXT:klaro_consent_manager/Resources/Private/Language/locallang_db.xlf:tx_klaroconsentmanager_service.name.I.mouseflow', 'value' => 'mouseflow'],
+                        ['label' => 'LLL:EXT:klaro_consent_manager/Resources/Private/Language/locallang_db.xlf:tx_klaroconsentmanager_service.name.I.salesviewer', 'value' => 'salesviewer'],
                         ['label' => 'LLL:EXT:klaro_consent_manager/Resources/Private/Language/locallang_db.xlf:tx_klaroconsentmanager_service.name.I.tiktok', 'value' => 'tiktok'],
                         ['label' => 'LLL:EXT:klaro_consent_manager/Resources/Private/Language/locallang_db.xlf:tx_klaroconsentmanager_service.name.I.twitter', 'value' => 'twitter'],
                         ['label' => 'LLL:EXT:klaro_consent_manager/Resources/Private/Language/locallang_db.xlf:tx_klaroconsentmanager_service.name.I.userlike', 'value' => 'userlike'],

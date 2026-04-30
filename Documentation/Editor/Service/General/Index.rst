@@ -29,8 +29,10 @@ Title
 
     **Options:**
 
+    *   Adobe Fonts
     *   Google AdSense
     *   Surveillance Camera
+    *   Career Captain
     *   Microsoft Clarity
     *   Cloudflare
     *   External Tracker
@@ -44,8 +46,10 @@ Title
     *   Inline Tracker
     *   Instagram
     *   Intercom
+    *   Klaro!
     *   Matomo/Piwik
     *   Mouseflow
+    *   SalesViewer
     *   TikTok
     *   X (formerly Twitter)
     *   Userlike
@@ -74,8 +78,10 @@ Name
 
     **Options:**
 
+    *   Adobe Fonts `[adobe-fonts]`
     *   Google AdSense `[adsense]`
     *   Surveillance Camera `[camera]`
+    *   Career Captain `[career-captain]`
     *   Microsoft Clarity `[clarity]`
     *   Cloudflare `[cloudflare]`
     *   External Tracker `[external-tracker]`
@@ -89,8 +95,10 @@ Name
     *   Inline Tracker `[inline-tracker]`
     *   Instagram `[instagram]`
     *   Intercom `[intercom]`
+    *   Klaro! `[klaro]`
     *   Matomo/Piwik `[matomo]`
     *   Mouseflow `[mouseflow]`
+    *   SalesViewer `[salesviewer]`
     *   TikTok `[tiktok]`
     *   X (formerly Twitter) `[twitter]`
     *   Userlike `[userlike]`
