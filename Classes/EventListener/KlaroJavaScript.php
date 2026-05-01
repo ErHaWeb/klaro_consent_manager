@@ -17,17 +17,20 @@ declare(strict_types=1);
 
 namespace ErHaWeb\KlaroConsentManager\EventListener;
 
-use ErHaWeb\KlaroConsentManager\Service\KlaroService;
+use ErHaWeb\KlaroConsentManager\Service\KlaroServiceFactory;
 use ErHaWeb\KlaroConsentManager\Utility\TypoScriptUtility;
 use Psr\Http\Message\ServerRequestInterface;
 use TYPO3\CMS\Core\Attribute\AsEventListener;
 use TYPO3\CMS\Core\Http\ApplicationType;
 use TYPO3\CMS\Core\Page\Event\BeforeJavaScriptsRenderingEvent;
-use TYPO3\CMS\Core\Utility\GeneralUtility;
 
 #[AsEventListener(identifier: 'KlaroConsentManager/KlaroJavaScript')]
 class KlaroJavaScript
 {
+    public function __construct(
+        private readonly KlaroServiceFactory $klaroServiceFactory
+    ) {}
+
     public function __invoke(BeforeJavaScriptsRenderingEvent $event): void
     {
         $request = $this->getRequest();
@@ -35,9 +38,9 @@ class KlaroJavaScript
             return;
         }
 
-        $klaroService = GeneralUtility::makeInstance(KlaroService::class, $request);
+        $klaroService = $this->klaroServiceFactory->create($request);
         $configuration = $klaroService->getRawConfiguration();
-        if (!$configuration) {
+        if ($configuration === []) {
             return;
         }
 

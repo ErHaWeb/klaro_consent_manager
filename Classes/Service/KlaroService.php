@@ -148,7 +148,6 @@ class KlaroService
     private array $rawConfiguration = [];
     private array $configuration = [];
     private LanguageService $languageService;
-    private ConnectionPool $connectionPool;
     private string $imprintLink = '';
     private string $privacyPolicyLink = '';
     private SiteLanguage $siteLanguage;
@@ -161,12 +160,13 @@ class KlaroService
     private array $templateRootPaths = [];
 
     public function __construct(
-        protected readonly ServerRequestInterface $request
+        protected readonly ServerRequestInterface $request,
+        private readonly ConnectionPool $connectionPool,
+        private readonly LanguageServiceFactory $languageServiceFactory
     ) {}
 
     public function getRawConfiguration(): array
     {
-        $this->connectionPool = GeneralUtility::makeInstance(ConnectionPool::class);
         $this->initLanguage();
 
         if ($this->initConfiguration()) {
@@ -185,7 +185,7 @@ class KlaroService
         $language = $this->request->getAttribute('language');
         if ($language instanceof SiteLanguage) {
             $this->siteLanguage = $language;
-            $languageServiceFactory = GeneralUtility::makeInstance(LanguageServiceFactory::class);
+            $languageServiceFactory = $this->languageServiceFactory;
             $this->languageService = $languageServiceFactory->create($this->siteLanguage->getTypo3Language());
         }
     }

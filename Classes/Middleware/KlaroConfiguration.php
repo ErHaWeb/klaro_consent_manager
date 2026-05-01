@@ -17,7 +17,7 @@ declare(strict_types=1);
 
 namespace ErHaWeb\KlaroConsentManager\Middleware;
 
-use ErHaWeb\KlaroConsentManager\Service\KlaroService;
+use ErHaWeb\KlaroConsentManager\Service\KlaroServiceFactory;
 use ErHaWeb\KlaroConsentManager\Utility\ExtensionConfigurationUtility;
 use Psr\Http\Message\ResponseInterface;
 use Psr\Http\Message\ServerRequestInterface;
@@ -25,17 +25,20 @@ use Psr\Http\Server\MiddlewareInterface;
 use Psr\Http\Server\RequestHandlerInterface;
 use TYPO3\CMS\Core\Http\Response;
 use TYPO3\CMS\Core\Http\Stream;
-use TYPO3\CMS\Core\Utility\GeneralUtility;
 
 class KlaroConfiguration implements MiddlewareInterface
 {
+    public function __construct(
+        private readonly KlaroServiceFactory $klaroServiceFactory
+    ) {}
+
     public function process(ServerRequestInterface $request, RequestHandlerInterface $handler): ResponseInterface
     {
         $klaroConfigurationPath = ExtensionConfigurationUtility::getConfiguration('klaroConfigurationPath');
         if ($klaroConfigurationPath !== '' && $request->getRequestTarget() === $klaroConfigurationPath) {
-            $klaroService = GeneralUtility::makeInstance(KlaroService::class, $request);
+            $klaroService = $this->klaroServiceFactory->create($request);
             $configuration = $klaroService->getRawConfiguration();
-            if ($configuration) {
+            if ($configuration !== []) {
                 $body = new Stream('php://temp', 'wb+');
                 $body->write($klaroService->getConfigurationInlineJavaScript());
 

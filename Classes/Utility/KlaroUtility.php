@@ -17,7 +17,7 @@ declare(strict_types=1);
 
 namespace ErHaWeb\KlaroConsentManager\Utility;
 
-use ErHaWeb\KlaroConsentManager\Service\KlaroService;
+use ErHaWeb\KlaroConsentManager\Service\KlaroServiceFactory;
 use Psr\Http\Message\ServerRequestInterface;
 use TYPO3\CMS\Core\Cache\CacheManager;
 use TYPO3\CMS\Core\Cache\Exception\NoSuchCacheException;
@@ -60,7 +60,7 @@ class KlaroUtility
             return false;
         }
 
-        $klaroService = GeneralUtility::makeInstance(KlaroService::class, $request);
+        $klaroService = GeneralUtility::makeInstance(KlaroServiceFactory::class)->create($request);
         $isActive = !empty($klaroService->getRawConfiguration());
 
         $cache?->set($entryIdentifier, $isActive);

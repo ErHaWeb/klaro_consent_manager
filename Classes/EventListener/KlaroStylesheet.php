@@ -17,17 +17,20 @@ declare(strict_types=1);
 
 namespace ErHaWeb\KlaroConsentManager\EventListener;
 
-use ErHaWeb\KlaroConsentManager\Service\KlaroService;
+use ErHaWeb\KlaroConsentManager\Service\KlaroServiceFactory;
 use ErHaWeb\KlaroConsentManager\Utility\TypoScriptUtility;
 use Psr\Http\Message\ServerRequestInterface;
 use TYPO3\CMS\Core\Attribute\AsEventListener;
 use TYPO3\CMS\Core\Http\ApplicationType;
 use TYPO3\CMS\Core\Page\Event\BeforeStylesheetsRenderingEvent;
-use TYPO3\CMS\Core\Utility\GeneralUtility;
 
 #[AsEventListener(identifier: 'KlaroConsentManager/KlaroStylesheet')]
 class KlaroStylesheet
 {
+    public function __construct(
+        private readonly KlaroServiceFactory $klaroServiceFactory
+    ) {}
+
     public function __invoke(BeforeStylesheetsRenderingEvent $event): void
     {
         $request = $this->getRequest();
@@ -35,7 +38,7 @@ class KlaroStylesheet
             return;
         }
 
-        $klaroService = GeneralUtility::makeInstance(KlaroService::class, $request);
+        $klaroService = $this->klaroServiceFactory->create($request);
         if (!$klaroService->getRawConfiguration()) {
             return;
         }
