@@ -11,7 +11,8 @@ After installing this extension, you are able to create a Klaro :ref:`configurat
 :ref:`Services <for-editors-service>` are referenced via the Klaro configuration. Services can also be created independently of editing the Klaro configuration. In the context of editing services, information on the :ref:`cookies <for-editors-cookie>` used by the service in question can be specified inline.
 
 The record forms are identical in TYPO3 v13 and TYPO3 v14. Only the backend
-module paths differ:
+module paths differ. See :ref:`compatibility` for the complete backend path
+overview:
 
 ..  list-table::
     :header-rows: 1

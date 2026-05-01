@@ -12,15 +12,16 @@ These values are defined in
 `Configuration/Sets/KlaroConsentManager/settings.definitions.yaml` and
 `Configuration/Sets/KlaroConsentManager/constants.typoscript`.
 
-With the recommended Site Set integration, override them as Site Settings in
+With the recommended :ref:`Site Set integration <configuration-site-set>`,
+override them as Site Settings in
 `config/sites/<site-identifier>/settings.yaml` by using flat map keys:
 
 ..  code-block:: yaml
 
     plugin.tx_klaroconsentmanager.view.templateRootPath: 'EXT:sitepackage/Resources/Private/Templates/'
 
-With the Static TypoScript Include fallback, override the same values as
-classic TypoScript constants.
+With the :ref:`Static TypoScript Include fallback <configuration-typoscript>`,
+override the same values as classic TypoScript constants.
 
 ..  _configuration-typoscript-constants-view:
 
@@ -42,7 +43,9 @@ Template root path
     :Path: plugin.tx_klaroconsentmanager.view
 
     Defaults to `EXT:klaro_consent_manager/Resources/Private/Templates/`.
-    Override this path to replace individual frontend Fluid templates.
+    Override this path to replace individual frontend Fluid templates. See
+    :ref:`howto-reference-fluid` for the backend-field alternative and expected
+    directory structure.
 
 ..  _configuration-typoscript-constants-view-partialrootpath:
 
@@ -123,8 +126,9 @@ Replace attributes
     :Path: plugin.tx_klaroconsentmanager.settings
 
     Comma-separated list of attributes that are moved to matching
-    `data-*` attributes in contextual consent content. The default moves
-    `src` and `href` to `data-src` and `data-href`.
+    `data-*` attributes in :ref:`contextual consent
+    <features-contextual-consent>` content. The default moves `src` and `href`
+    to `data-src` and `data-href`.
 
 Main section only
 ~~~~~~~~~~~~~~~~~
@@ -135,9 +139,9 @@ Main section only
     :Default: true
     :Path: plugin.tx_klaroconsentmanager.settings
 
-    Activate this option if the contextual consent placeholder should be
-    limited to the main content of the content element, without heading and
-    footer.
+    Activate this option if the :ref:`contextual consent
+    <features-contextual-consent>` placeholder should be limited to the main
+    content of the content element, without heading and footer.
 
 Disable Klaro Consent Management
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -149,4 +153,5 @@ Disable Klaro Consent Management
     :Path: plugin.tx_klaroconsentmanager.settings
 
     Disable the frontend Klaro integration while keeping the extension
-    installed and configured.
+    installed and configured. This value is one of the prerequisites evaluated
+    by :ref:`klaroIsActive`.

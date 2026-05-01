@@ -12,7 +12,11 @@ Quick start
 
 #.  Include the Extension configuration
 
-    The recommended way to include the configuration in TYPO3 v13 and TYPO3 v14 is the **Site Set** `erhaweb/klaro-consent-manager`. The **Static TypoScript Include** remains available as a legacy-compatible fallback for installations that still use TypoScript records.
+    The recommended way to include the configuration in TYPO3 v13 and TYPO3 v14
+    is the Site Set `erhaweb/klaro-consent-manager`; see
+    :ref:`configuration-site-set`. The :ref:`Static TypoScript Include
+    <configuration-typoscript>` remains available as a legacy-compatible
+    fallback for installations that still use TypoScript records.
 
     ..  accordion::
         :name: accordionAddConfiguration
@@ -44,7 +48,7 @@ Quick start
                 You will notice that the **constant editor can no longer be opened** if the configuration
                 was referenced via **Site Set**. To overwrite the default setting values of
                 `EXT:klaro_consent_manager/Configuration/Sets/KlaroConsentManager/settings.definitions.yaml`,
-                use `config/sites/<site-identifier>/settings.yaml`. Supported TYPO3 v13/v14 versions use flat map keys in this file.
+                use `config/sites/<site-identifier>/settings.yaml`. Supported TYPO3 v13/v14 versions use flat map keys in this file. The available values are documented in the :ref:`TypoScript constants reference <configuration-typoscript-constants>`.
 
                 **Example:** Configuration of the extension of the Contextual Consent Box to the entire content element instead of just the main content
 
@@ -85,7 +89,8 @@ Quick start
 
             #.  Click :guilabel:`Save` and :guilabel:`Close`
 
-#.  Open the records module.
+#.  Open the records module. The complete backend path overview is available
+    in :ref:`compatibility`.
 
     ..  list-table::
         :header-rows: 1
@@ -111,7 +116,7 @@ Quick start
 
         ..  tip::
 
-            The advantage of using a name from this list is that the associated supplied title and description texts for the frontend are used automatically. Of course, these can still be customised later
+            The advantage of using a name from this list is that the associated supplied title and description texts for the frontend are used automatically. Of course, these can still be customised later. The preset fields are documented in :ref:`for-editors-service-general`.
 
     #.  Under :guilabel:`Purposes` choose a purpose that best suits this service
 
@@ -199,7 +204,7 @@ Quick start
 
 #.  Modify your third-party scripts
 
-    To make sure that no third-party scripts are loaded without consent, you need to modify your HTML code a tiny bit.
+    To make sure that no third-party scripts are loaded without consent, you need to modify your HTML code a tiny bit. For content elements that should be blocked as a whole, use :ref:`contextual consent <for-editors-contextual-consent>`.
 
     #.  Replace the value of the `type` attribute with `text/plain` (this keeps the browser from executing the script)
 

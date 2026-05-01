@@ -32,7 +32,8 @@ Follow the steps below to make all necessary database changes:
 
     1.  Open the TYPO3 backend.
 
-    2.  Open the Maintenance module.
+    2.  Open the Maintenance module. See :ref:`compatibility` for the complete
+        TYPO3 v13/v14 backend path overview.
 
         ..  list-table::
             :header-rows: 1
@@ -72,4 +73,6 @@ Follow the steps below to make all necessary database changes:
 
     This extension uses the database and the TYPO3 :ref:`FormEngine <t3coreapi:FormEngine>` to let you create the Klaro configuration in a nice GUI in the backend.
 
-    For this purpose, the tables `tx_klaroconsentmanager_configuration`, `tx_klaroconsentmanager_service` and `tx_klaroconsentmanager_cookie` must be created. In addition, a field must be added to the `tt_content` table in order to be able to implement the contextual consent feature at content level.
+    For this purpose, the tables `tx_klaroconsentmanager_configuration`, `tx_klaroconsentmanager_service` and `tx_klaroconsentmanager_cookie` must be created. In addition, a field must be added to the `tt_content` table in order to be able to implement the :ref:`contextual consent feature <features-contextual-consent>` at content level.
+
+After installation and database setup, continue with :ref:`quickStart`.

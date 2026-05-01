@@ -61,6 +61,8 @@ Additional Class
 Storage
 =======
 
+..  _for-editors-configuration-advanced-storage-method:
+
 Storage Method
 --------------
 

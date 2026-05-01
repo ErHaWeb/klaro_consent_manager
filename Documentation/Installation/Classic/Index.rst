@@ -28,7 +28,8 @@ module in the backend:
 
     #.  Open the TYPO3 backend.
 
-    #.  Open the Extensions module.
+    #.  Open the Extensions module. See :ref:`compatibility` for the complete
+        TYPO3 v13/v14 backend path overview.
 
         ..  list-table::
             :header-rows: 1
@@ -91,3 +92,5 @@ Upload Extension from TER
 
         ..  figure:: /Images/ExtensionManager-wasInstalledMessage.png
             :alt: TYPO3 Extensions module message after uploading the Klaro extension
+
+After installation, continue with :ref:`quickStart`.

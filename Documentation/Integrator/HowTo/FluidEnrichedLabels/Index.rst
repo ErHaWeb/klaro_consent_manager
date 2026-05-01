@@ -274,7 +274,7 @@ Based on the currently used labels, the expected structure in the `Labels` direc
 Append/Prepend Content
 ======================
 
-In addition to the manipulation of labels, it is also possible to display **additional** content **before** and/or **after** **all** **titles** and/or **descriptions** of **purposes** and/or **services**.
+In addition to the manipulation of labels, it is also possible to display **additional** content **before** and/or **after** **all** **titles** and/or **descriptions** of **purposes** and/or **services**. The built-in :ref:`cookie info table <features-cookie-info-table>` uses this mechanism for service descriptions.
 
 The following files can be used for this purpose as required:
 

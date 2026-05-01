@@ -28,6 +28,7 @@ Title
 
     The title defined here is not mandatory and is intended for backend display
     only. The field is a free input field with presets in the value picker.
+    See :ref:`features-service-presets` for the feature overview.
 
     **Options:**
 
@@ -118,7 +119,10 @@ Purposes
     :type: select (multiple)
     :Default: ''
 
-    The purpose(s) of this service that will be listed on the consent notice. Do not forget to add translations for all purposes you list here.
+    The purpose(s) of this service that will be listed on the consent notice.
+    Do not forget to add translations for all purposes you list here. Custom
+    purpose options are documented in :ref:`howto-custom-purpose`; missing
+    labels are explained in :ref:`faq-missing-translation`.
 
     **Options:**
 

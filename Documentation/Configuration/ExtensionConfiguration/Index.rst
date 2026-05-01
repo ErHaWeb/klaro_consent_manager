@@ -31,7 +31,8 @@ Settings
 
     Frontend links with this exact `href` value are replaced by the
     `ReplaceBeforeOutput` middleware with a Klaro trigger link that opens the
-    consent manager.
+    consent manager. See :ref:`features-trigger-links` for the feature
+    overview.
 
 ..  confval:: replaceUrl.reset
 
@@ -40,7 +41,8 @@ Settings
 
     Frontend links with this exact `href` value are replaced by the
     `ReplaceBeforeOutput` middleware with a Klaro trigger link that resets the
-    consent state and opens the consent manager.
+    consent state and opens the consent manager. See
+    :ref:`features-trigger-links` for the feature overview.
 
 ..  confval:: klaroConfigurationPath
 
@@ -49,7 +51,8 @@ Settings
 
     If this value is not empty, the `KlaroConfiguration` middleware exposes the
     active Klaro configuration as JavaScript at this path. The default endpoint
-    is `/klaro-config.js`.
+    is `/klaro-config.js`. See :ref:`features-standalone-configuration` for the
+    feature overview.
 
     This endpoint is useful when the Klaro configuration managed in TYPO3
     should be consumed by another application.

@@ -59,7 +59,10 @@ Append Show Button
     :type: boolean
     :Default: false
 
-    If this option is set, a button is created in the frontend (via JavaScript) directly in front of the closing body tag, which triggers the opening of the Klaro consent management.
+    If this option is set, a button is created in the frontend (via JavaScript)
+    directly in front of the closing body tag, which triggers the opening of
+    the Klaro consent management. For links in existing page content, see
+    :ref:`features-trigger-links`.
 
 Append Reset Button
 -------------------
@@ -69,7 +72,10 @@ Append Reset Button
     :type: boolean
     :Default: false
 
-    If this option is set, a button is generated in the frontend (via JavaScript) directly in front of the closing body tag, which triggers the resetting of all settings and the opening of the Klaro consent management.
+    If this option is set, a button is generated in the frontend (via
+    JavaScript) directly in front of the closing body tag, which triggers the
+    resetting of all settings and the opening of the Klaro consent management.
+    For links in existing page content, see :ref:`features-trigger-links`.
 
 Translations
 ============
@@ -84,13 +90,15 @@ Fluid Template Root Path
     :type: string
     :Default: ''
 
-    As an alternative to the TypoScript configuration under
+    As an alternative to the :ref:`TypoScript configuration
+    <configuration-typoscript-constants>` under
     `plugin.tx_klaroconsentmanager.view`, a Fluid root path can be defined here.
     This path has a higher priority than the paths configured in TypoScript.
     The directories `/Layouts/`, `/Partials/`, and `/Templates/` are expected
     under this path. Fluid templates created here are used to enrich Locallang
     labels with additional functionality or to replace them completely. Fluid
-    templates that override labels are expected in `/Templates/Labels/`.
+    templates that override labels are expected in `/Templates/Labels/`. The
+    path convention is described in :ref:`howto-fluid-enriched-labels`.
 
 ..  _configuration-content-locallangpath:
 
@@ -103,7 +111,8 @@ Locallang Path
     :Default: ''
 
     Optional path to an additional XLIFF file that overwrites the default labels
-    or adds new labels, for example for custom purposes or services. If Fluid
-    templates exist for these labels, the templates take precedence over the
-    XLIFF text. It is common to render the original XLIFF label from the Fluid
-    template through the `Label` partial.
+    or adds new labels, for example for :ref:`custom purposes
+    <howto-custom-purpose>` or :ref:`custom services <howto-custom-service>`.
+    If Fluid templates exist for these labels, the templates take precedence
+    over the XLIFF text. It is common to render the original XLIFF label from
+    the Fluid template through the `Label` partial.

@@ -13,7 +13,8 @@ Custom Service
 Backend
 =======
 
-Create your new service (for example with the name `mycoolservice`) as a new service record in the backend:
+Create your new service (for example with the name `mycoolservice`) as a new
+:ref:`service record <for-editors-service>` in the backend:
 
 ..  figure:: /Images/HowTo-CustomService-Backend.png
     :alt: Custom Klaro service record in the TYPO3 backend
@@ -37,7 +38,9 @@ for your custom key:
 Frontend
 ========
 
-If the service was referenced in the Klaro configuration, it also appears in the Consent Management modal in the frontend.
+If the service was referenced in the :ref:`Klaro configuration
+<for-editors-configuration>`, it also appears in the Consent Management modal
+in the frontend.
 
 ..  figure:: /Images/HowTo-CustomService-Frontend.png
     :alt: Custom service displayed in the Klaro consent modal

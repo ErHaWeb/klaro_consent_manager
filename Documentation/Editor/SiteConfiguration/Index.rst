@@ -24,8 +24,9 @@ Klaro! Configuration
     :Default: 0
 
     Klaro configurations created in the root of this TYPO3 instance can be
-    referenced here. If no configuration has been created yet, create it on the
-    root node of the page tree, UID `0`.
+    referenced here. If no :ref:`Klaro configuration record
+    <for-editors-configuration>` has been created yet, create it on the root
+    node of the page tree, UID `0`.
 
     ..  list-table::
         :header-rows: 1

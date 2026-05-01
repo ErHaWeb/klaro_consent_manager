@@ -26,7 +26,7 @@ Identifier
     :type: string
     :Default: ''
 
-    This is a unique identifier for this cookie. It must be written in lower case and must not contain any spaces, only the characters a-z, 0-9 and "-" or "_". The identifier can be used in Fluid, for example.
+    This is a unique identifier for this cookie. It must be written in lower case and must not contain any spaces, only the characters a-z, 0-9 and "-" or "_". The identifier can be used in Fluid, for example when adapting :ref:`Fluid-enriched labels <howto-fluid-enriched-labels>`.
 
 Title
 -----

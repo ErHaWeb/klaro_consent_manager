@@ -7,9 +7,11 @@
 Setup
 =====
 
-TypoScript setup is loaded by the Site Set and by the Static TypoScript
-Include. It registers frontend assets, Fluid paths, the contextual consent
-layout integration, and selected runtime settings.
+TypoScript setup is loaded by the :ref:`Site Set <configuration-site-set>` and
+by the :ref:`Static TypoScript Include <configuration-typoscript>`. It
+registers frontend assets, Fluid paths, the :ref:`contextual consent
+<features-contextual-consent>` layout integration, and selected runtime
+settings.
 
 Service filtering
 =================
@@ -58,6 +60,7 @@ Service filtering
     This mechanism is especially useful in combination with TypoScript
     conditions, for example to enable or disable specific services depending
     on the current language, site identifier, or application context.
+    See also the feature overview for :ref:`features-service-filtering`.
 
     **Example:**
 
@@ -114,6 +117,8 @@ TypoScript condition
 
 The extension registers the TypoScript condition variable `klaroIsActive`.
 It returns `true` when a Klaro configuration is active for the current request.
+The feature overview contains a more complete integration example:
+:ref:`klaroIsActive`.
 
 ..  code-block:: typoscript
 
@@ -130,6 +135,8 @@ Fluid ViewHelper
 The Fluid namespace `klaro` is registered globally. Use
 `{klaro:isActive()}` to branch Fluid output depending on the active Klaro
 configuration.
+The feature overview contains a template example:
+:ref:`klaroIsActiveViewHelper`.
 
 ..  code-block:: html
 

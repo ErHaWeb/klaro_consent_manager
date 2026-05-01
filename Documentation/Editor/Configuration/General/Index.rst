@@ -39,7 +39,7 @@ Purpose Order
     The order in which purposes appear in the notice and modal can be changed
     via the `purposeOrder` parameter. The field reuses the purpose options from
     service records and stores the selected purpose identifiers in the selected
-    order.
+    order. Custom purpose options are documented in :ref:`howto-custom-purpose`.
 
     **Options:**
 
@@ -77,4 +77,5 @@ Services
 
     Select the third-party services that Klaro manages for this configuration.
     Services are independent records and can be created inline from this field
-    or separately on the root node.
+    or separately on the root node. See :ref:`for-editors-service` for the
+    service field reference.

@@ -8,6 +8,9 @@ YAML to XLIFF CLI
 
 The extension provides the Symfony command `klaro:yaml-to-xliff`. It converts
 top-level Klaro translation YAML files into TYPO3-compatible XLIFF 1.2 files.
+After conversion, reference the generated or adjusted file as a
+:ref:`custom XLIFF file <howto-reference-xliff>` when it should override
+project-specific labels.
 
 Usage
 =====

@@ -37,7 +37,8 @@ TYPO3 v13 and v14 backend paths
 ===============================
 
 TYPO3 v14 renamed several backend modules. The installation steps are the same,
-but the module paths differ:
+but the module paths differ. See :ref:`compatibility` for the full backend path
+overview:
 
 ..  list-table::
     :header-rows: 1

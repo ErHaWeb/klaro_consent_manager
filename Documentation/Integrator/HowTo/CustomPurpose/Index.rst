@@ -13,7 +13,10 @@ Custom Purpose
 TSconfig
 ========
 
-Create your new purpose (for example with the key `mycoolpurpose`) via TSconfig in the following form:
+Create your new purpose (for example with the key `mycoolpurpose`) via
+TSconfig in the following form. The resulting option is available in the
+:ref:`service purpose field <for-editors-service-general>` and the
+:ref:`configuration purpose order field <for-editors-configuration-general>`.
 
 ..  code-block:: typoscript
     :linenos:
@@ -46,7 +49,8 @@ for your custom key:
 Backend
 =======
 
-In the backend, the new purpose is now visible for services and as part of the sorting in the Klaro configuration under the defined title.
+In the backend, the new purpose is now visible for services and as part of the
+sorting in the Klaro configuration under the defined title.
 
 ..  figure:: /Images/HowTo-CustomPurpose-Backend.png
     :alt: Custom purpose option in a TYPO3 backend service record

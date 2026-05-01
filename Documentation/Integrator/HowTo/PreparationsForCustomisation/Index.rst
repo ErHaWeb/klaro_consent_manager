@@ -63,6 +63,8 @@ A reference to a Locallang file can be created via the
 configuration.
 
 This overwrites the default labels of the extension. Labels can also be added to this file that are required for individually defined purposes or services, for example.
+See :ref:`howto-custom-purpose`, :ref:`howto-custom-service`, and
+:ref:`faq-missing-translation` for common use cases.
 
 ..  figure:: /Images/HowTo-LocallangPath.png
     :alt: Locallang Path field in the Klaro configuration content tab

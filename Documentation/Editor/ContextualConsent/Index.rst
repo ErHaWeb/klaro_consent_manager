@@ -8,6 +8,8 @@ Contextual Consent
 
 Contextual consent can be configured on content elements. The extension adds a
 Klaro service selector to the `frames` palette of `tt_content`.
+The feature behaviour and TypoScript setting are described in
+:ref:`features-contextual-consent`.
 
 ..  figure:: /Images/Content-ContextualConsent.png
     :alt: TYPO3 content element with the Klaro service selector for contextual consent
@@ -39,4 +41,5 @@ Service
 
     The selector is independent of the services referenced in the global Klaro
     configuration. If the same service should also be shown in the Klaro modal,
-    reference it in the Klaro configuration record as well.
+    reference it in the :ref:`Klaro configuration record
+    <for-editors-configuration>` as well.

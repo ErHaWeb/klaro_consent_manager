@@ -49,6 +49,8 @@ Backend
 Site Configuration
 ~~~~~~~~~~~~~~~~~~
 
+See :ref:`for-editors-site-configuration` for the documented fields.
+
 ..  figure:: /Images/SiteConfiguration.png
     :alt: Klaro tab in the TYPO3 site configuration
 
@@ -56,6 +58,9 @@ Site Configuration
 
 General Klaro Configuration
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+See :ref:`for-editors-configuration` for the complete Klaro configuration
+record reference.
 
 ..  figure:: /Images/Configuration-General.png
     :alt: General tab of a Klaro configuration record
@@ -85,6 +90,8 @@ General Klaro Configuration
 Klaro Service Configuration
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
+See :ref:`for-editors-service` for the complete service record reference.
+
 ..  figure:: /Images/Service-General.png
     :alt: General tab of a Klaro service record
 
@@ -107,6 +114,9 @@ Klaro Service Configuration
 
 Contextual Consent
 ~~~~~~~~~~~~~~~~~~
+
+See :ref:`for-editors-contextual-consent` for the content element field and
+workflow.
 
 ..  figure:: /Images/Content-ContextualConsent.png
     :alt: TYPO3 content element configured for Klaro contextual consent

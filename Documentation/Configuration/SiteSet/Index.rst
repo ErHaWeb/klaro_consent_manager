@@ -10,8 +10,9 @@ The recommended way to include this extension in TYPO3 v13 and TYPO3 v14 is
 the Site Set `erhaweb/klaro-consent-manager`.
 
 The Site Set is defined in `Configuration/Sets/KlaroConsentManager/config.yaml`
-and provides the TypoScript setup, TypoScript constants, and typed Site
-Settings from `Configuration/Sets/KlaroConsentManager/`.
+and provides the :ref:`TypoScript setup <configuration-typoscript-setup>`,
+:ref:`TypoScript constants <configuration-typoscript-constants>`, and typed
+Site Settings from `Configuration/Sets/KlaroConsentManager/`.
 
 Backend path
 ============
@@ -24,8 +25,8 @@ Backend path
     *   - :guilabel:`Site Management` → :guilabel:`Sites`
         - :guilabel:`Sites` → :guilabel:`Setup`
 
-Open the site configuration, add the Site Set
-`erhaweb/klaro-consent-manager`, and save the site configuration.
+Open the :ref:`site configuration <for-editors-site-configuration>`, add the
+Site Set `erhaweb/klaro-consent-manager`, and save the site configuration.
 
 Override Site Settings
 ======================
@@ -46,6 +47,7 @@ The available Site Settings are the same values that are documented as
 Classic fallback
 ================
 
-The extension also registers a Static TypoScript Include. Use it only for
-projects that still configure frontend TypoScript through TypoScript records.
-For new TYPO3 v13/v14 setups, use the Site Set.
+The extension also registers a :ref:`Static TypoScript Include
+<configuration-typoscript>`. Use it only for projects that still configure
+frontend TypoScript through TypoScript records. For new TYPO3 v13/v14 setups,
+use the Site Set.

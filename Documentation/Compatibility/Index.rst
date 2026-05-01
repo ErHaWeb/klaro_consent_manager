@@ -22,10 +22,10 @@ metadata is the authoritative source for the supported version range.
         - `^8.2 || ^8.3 || ^8.4 || ^8.5`
         - `8.2.0-8.5.99`
 
-TYPO3 v13 and v14 use the same extension code path. Site Sets, Site Settings,
-PSR-15 middleware, PSR-14 event listeners, the Fluid ViewHelper namespace, and
-the TypoScript condition provider are available in both supported TYPO3 major
-versions.
+TYPO3 v13 and v14 use the same extension code path. The :ref:`Site Set and
+Site Settings <configuration-site-set>`, PSR-15 middleware, PSR-14 event
+listeners, the Fluid ViewHelper namespace, and the TypoScript condition
+provider are available in both supported TYPO3 major versions.
 
 Backend module names
 ====================
@@ -67,7 +67,8 @@ Site Sets and Site Settings
 
 For TYPO3 v13 and v14, the recommended integration is the Site Set
 `erhaweb/klaro-consent-manager`. It ships the extension TypoScript and typed
-Site Settings from `Configuration/Sets/KlaroConsentManager/`.
+Site Settings from `Configuration/Sets/KlaroConsentManager/`. See
+:ref:`configuration-site-set` for setup details.
 
 Site Settings are stored in
 `config/sites/<site-identifier>/settings.yaml`. In supported TYPO3 v13 and
@@ -81,9 +82,10 @@ TYPO3 v14 versions, the file uses flat map keys:
 Static TypoScript Include
 =========================
 
-The extension still registers a Static TypoScript Include for installations
-that use TypoScript records. This is a legacy-compatible fallback and is useful
-for migrated projects that have not yet moved their configuration to Site Sets.
+The extension still registers a :ref:`Static TypoScript Include
+<configuration-typoscript>` for installations that use TypoScript records. This
+is a legacy-compatible fallback and is useful for migrated projects that have
+not yet moved their configuration to Site Sets.
 
 When Site Sets and TypoScript records are mixed in one site, make sure the
 TypoScript record does not clear constants or setup from the Site Set.
@@ -93,18 +95,22 @@ Runtime features
 
 The following features work the same way in TYPO3 v13 and TYPO3 v14:
 
-* Backend FormEngine records for Klaro configurations, services, cookies, and
-  contextual consent on content elements.
+* Backend FormEngine records for :ref:`Klaro configurations
+  <for-editors-configuration>`, :ref:`services <for-editors-service>`,
+  :ref:`cookies <for-editors-cookie>`, and :ref:`contextual consent
+  <for-editors-contextual-consent>` on content elements.
 * Automatic frontend asset registration through TYPO3's AssetCollector with
   CSP nonce support.
-* Standalone configuration output through the PSR-15 middleware at the globally
-  configured path, by default `/klaro-config.js`.
-* CSP-safe trigger link replacement through
+* :ref:`Standalone configuration output <features-standalone-configuration>`
+  through the PSR-15 middleware at the globally configured path, by default
+  `/klaro-config.js`.
+* CSP-safe :ref:`trigger link replacement <features-trigger-links>` through
   `ErHaWeb\KlaroConsentManager\Middleware\ReplaceBeforeOutput`.
-* TypoScript condition variable `klaroIsActive`.
-* Fluid ViewHelper `{klaro:isActive()}` using the registered `klaro` namespace.
-* TypoScript service filtering through `services.whitelist` and
-  `services.blacklist`.
+* :ref:`TypoScript condition variable <klaroIsActive>` `klaroIsActive`.
+* :ref:`Fluid ViewHelper <klaroIsActiveViewHelper>` `{klaro:isActive()}` using
+  the registered `klaro` namespace.
+* :ref:`TypoScript service filtering <features-service-filtering>` through
+  `services.whitelist` and `services.blacklist`.
 
 Version-specific documentation
 ==============================

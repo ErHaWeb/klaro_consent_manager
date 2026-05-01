@@ -29,7 +29,7 @@ Cookie Domain
 
     **Condition:** `storage_method == 'cookie'`
 
-    You can change the cookie domain for the consent manager itself. Use this if you want to get consent once for multiple matching domains. By default, Klaro will use the current domain. Only relevant if `storageMethod` is set to `cookie`.
+    You can change the cookie domain for the consent manager itself. Use this if you want to get consent once for multiple matching domains. By default, Klaro will use the current domain. Only relevant if :ref:`storageMethod <for-editors-configuration-advanced-storage-method>` is set to `cookie`.
 
 Cookie Path
 -----------
@@ -54,4 +54,5 @@ Cookie expires after days
     **Condition:** `storage_method == 'cookie'`
 
     You can set a custom expiration time for the Klaro consent cookie. Only
-    relevant if `storageMethod` is set to `cookie`.
+    relevant if :ref:`storageMethod <for-editors-configuration-advanced-storage-method>`
+    is set to `cookie`.

@@ -110,7 +110,8 @@ Hide Initial Notice
     :Default: false
 
     Do not show the initial consent notice dialog. The manager can still be
-    opened manually or via contextual consent overlays.
+    opened manually or via :ref:`contextual consent
+    <for-editors-contextual-consent>` overlays.
 
 Show title in consent notice
 ----------------------------
@@ -142,7 +143,11 @@ Show Description (Empty Store)
     :type: boolean
     :Default: true
 
-    Show an explanatory text in contextual consent placeholders **when no consent storage exists yet** (first visit / empty store). This informs users that a permanent decision ("Always") requires allowing Klaro to store consent first.
+    Show an explanatory text in :ref:`contextual consent
+    <for-editors-contextual-consent>` placeholders **when no consent storage
+    exists yet** (first visit / empty store). This informs users that a
+    permanent decision ("Always") requires allowing Klaro to store consent
+    first.
 
     ..  note::
         Only has an effect in contextual consent widgets/overlays (e.g. for embedded media) and **only** if the consent store (cookie/localStorage) is empty.
@@ -160,7 +165,8 @@ HTML Texts
     If set to `true`, Klaro renders the texts given in the
     `consentModal.description` and `consentNotice.description` translations as
     HTML. This enables custom links or interactive content. If you output HTML
-    through Fluid-enriched labels, this option must be enabled.
+    through :ref:`Fluid-enriched labels <howto-fluid-enriched-labels>`, this
+    option must be enabled.
 
     Only enable HTML output for trusted labels and templates.
 

@@ -11,6 +11,8 @@ This extension impresses with a variety of features that improve normal use of K
 ..  contents::
    :local:
 
+..  _features-backend-gui:
+
 Backend GUI
 ===========
 
@@ -37,7 +39,7 @@ Klaro is configured via a `separate JavaScript file <https://github.com/klaro-or
         cookieExpiresAfterDays: 365,
         ...
 
-This extension now takes a new approach by making **all parameters without exceptions** provided by the Klaro configuration file **editable via the TYPO3 backend** based on the TYPO3 :ref:`FormEngine <t3coreapi:FormEngine>` in a beautiful GUI with nice titles and comprehensible descriptive texts.
+This extension now takes a new approach by making **all parameters without exceptions** provided by the Klaro configuration file **editable via the TYPO3 backend** based on the TYPO3 :ref:`FormEngine <t3coreapi:FormEngine>` in a beautiful GUI with nice titles and comprehensible descriptive texts. The individual backend fields are documented in the :ref:`editor configuration reference <for-editors-configuration>`.
 
 ..  image:: /Images/Backend-GUIExample.png
     :alt: TYPO3 backend form showing Klaro configuration fields
@@ -57,10 +59,14 @@ In the context of the backend GUI, the extension automatically checks whether th
 
     Activating the "Must consent" setting `[mustConsent]`, for example, means that "Notice As Modal" `[noticeAsModal]` is no longer displayed as an option in the backend interface. Klaro uses a modal in this case, so the settings are mutually exclusive.
 
+..  _features-neutral-color-scheme:
+
 Neutral color scheme
 ====================
 
 Apart from the default styling of Klaro, a color-neutral scheme is offered for selection. According to current case law, this is required, a point that has not yet been taken into account in Klaro's default CSS. In addition to this preset selection, the SCSS files supplied with this extension naturally also give you full freedom to customise the styling to suit your requirements.
+
+..  _features-xliff-based-translations:
 
 XLIFF-based translations
 ========================
@@ -104,6 +110,8 @@ TYPO3-compatible XLIFF files. See :ref:`howto-yaml-to-xliff`.
 ..  note::
     From a technical perspective, these labels are ultimately delivered in the Klaro configuration under the global fallback index `zz`. The Klaro JavaScript knows no other source for labels than the one we provide through TYPO3. A more efficient way that combines the best of both worlds.
 
+..  _features-fluid-enriched-labels:
+
 Fluid enriched labels
 =====================
 
@@ -118,26 +126,32 @@ The full description of this feature can be found in the
 
 ..  youtube:: NYb42MKC5hw
 
+..  _features-service-presets:
+
 Service presets
 ===============
 
-Most common services that require consent, such as Google Analytics, Matomo, Facebook Pixel or YouTube, are already covered via preconfigured presets. In these cases, you only have to select the preset and you can use the description texts that have already been prepared.
+Most common services that require consent, such as Google Analytics, Matomo, Facebook Pixel or YouTube, are already covered via preconfigured presets. In these cases, you only have to select the preset and you can use the description texts that have already been prepared. See :ref:`service general settings <for-editors-service-general>` for the backend fields that use these presets.
 
 ..  image:: /Images/Service-PresetSelection.png
     :alt: Service record value picker with predefined Klaro service presets
 
+..  _features-cookie-info-table:
+
 Cookie info table
 =================
 
-In addition to the description text of a service, all relevant cookie information is automatically displayed in a table. This is achieved by Klaro automatically enriching the `description` label of the service via the Fluid file `EXT:Resources/Private/Templates/Append/Service/Description.html`.
+In addition to the description text of a service, all relevant cookie information is automatically displayed in a table. This is achieved by Klaro automatically enriching the `description` label of the service via the Fluid file `EXT:Resources/Private/Templates/Append/Service/Description.html`. The cookie records used for this table are documented in the :ref:`service cookies section <for-editors-service-cookies>`.
 
 ..  image:: /Images/Frontend-ServiceDescriptionExample.png
     :alt: Klaro service description with automatically appended cookie information table
 
+..  _features-trigger-links:
+
 Trigger Links
 =============
 
-Certain link targets can be used to create links that open the Klaro Consent Management settings (`https://KLARO_CONSENT.com`) and reset the settings (`https://KLARO_RESET.com`). The link targets are replaced with CSP-compliant JavaScript functionality in the final HTML output. The links are also configurable via the extension settings. The middleware `ErHaWeb\KlaroConsentManager\Middleware\ReplaceBeforeOutput` is responsible for this.
+Certain link targets can be used to create links that open the Klaro Consent Management settings (`https://KLARO_CONSENT.com`) and reset the settings (`https://KLARO_RESET.com`). The link targets are replaced with CSP-compliant JavaScript functionality in the final HTML output. The links are configurable via the :ref:`global extension configuration <configuration-extension-configuration>`. The middleware `ErHaWeb\KlaroConsentManager\Middleware\ReplaceBeforeOutput` is responsible for this.
 
 ..  youtube:: V4u4v0QS93s
 
@@ -145,12 +159,14 @@ Certain link targets can be used to create links that open the Klaro Consent Man
 
     Thanks to `Georg Ringer <https://www.studiomitte.com/ueber-uns/georg-ringer>`__ and Studio Mitte Digital Media GmbH for this feature idea and the permission to use it from their `Klaro integration <https://github.com/studiomitte/klaro>`__.
 
+..  _features-contextual-consent:
+
 Contextual Consent
 ==================
 
-The Klaro Extension makes it possible to hide any content elements behind a consent requirement. Klaro’s contextual consent feature is used for this purpose. By default, the Fluid Styled Content Layout (`EXT:fluid_styled_content/Resources/Private/Layouts/Default.html`) is overwritten for this purpose.
+The Klaro Extension makes it possible to hide any content elements behind a consent requirement. Klaro’s contextual consent feature is used for this purpose. Editors configure the service on the content element as described in :ref:`for-editors-contextual-consent`. By default, the Fluid Styled Content Layout (`EXT:fluid_styled_content/Resources/Private/Layouts/Default.html`) is overwritten for this purpose.
 
-Using TypoScript Settings `mainSectionOnly` you can also decide whether the entire content element including header and footer should be enclosed in the consent box or just the main content.
+Using TypoScript Settings `mainSectionOnly` you can also decide whether the entire content element including header and footer should be enclosed in the consent box or just the main content. The setting is documented in the :ref:`TypoScript constants reference <configuration-typoscript-constants>`.
 
 ..  note::
     If you have already overwritten this layout file through your site package, you will need to enter the required code into your version of the layout file yourself.
@@ -170,7 +186,7 @@ A special feature in this context is that using a string-based low-level replace
 ..  youtube:: bK_XeJrlyW8
 
 
-.. _klaroIsActive:
+..  _klaroIsActive:
 
 TypoScript condition to check if Klaro is used
 ==============================================
@@ -228,7 +244,7 @@ Sometimes it is desired that sites or certain translations do not use Consent Ma
       }
     [END]
 
-.. _klaroIsActiveViewHelper:
+..  _klaroIsActiveViewHelper:
 
 Fluid ViewHelper to check if Klaro is used
 ==========================================
@@ -251,11 +267,15 @@ output in templates.
         </f:else>
     </f:if>
 
+..  _features-service-filtering:
+
 Service Filtering
 =================
 
 With this feature you can enable or disable individual services via TypoScript.
 This is useful for conditions such as language, site identifier, or application context.
+The setup reference documents the same options under
+:ref:`configuration-typoscript-setup`.
 
 - ``plugin.tx_klaroconsentmanager.settings.services.whitelist``
   Comma-separated list of service names. If defined, only these services are active.
@@ -280,6 +300,8 @@ Priority: Whitelist > Blacklist > Default (all active)
     plugin.tx_klaroconsentmanager.settings.services.blacklist = facebook-pixel
     [end]
 
+..  _features-standalone-configuration:
+
 Standalone configuration
 ========================
 
@@ -290,6 +312,8 @@ path is `/klaro-config.js` and can be changed in the
 The middleware `ErHaWeb\KlaroConsentManager\Middleware\KlaroConfiguration`
 returns the necessary JavaScript code.
 
+..  _features-csp-compliance:
+
 CSP compliance
 ==============
 
@@ -299,17 +323,22 @@ to data attributes and click handlers instead of inline `onclick` attributes.
 This keeps the extension compatible with TYPO3's Content Security Policy
 handling in TYPO3 v13 and TYPO3 v14.
 
+..  _features-compatibility:
+
 TYPO3 v13 and v14 compatibility
 ===============================
 
-The same extension release supports TYPO3 v13 and TYPO3 v14. Site Sets are the
-recommended integration path for both versions. Static TypoScript Includes
-remain available for projects that still use TypoScript records.
+The same extension release supports TYPO3 v13 and TYPO3 v14. :ref:`Site Sets
+<configuration-site-set>` are the recommended integration path for both
+versions. :ref:`Static TypoScript Includes <configuration-typoscript>` remain
+available for projects that still use TypoScript records.
 
 Backend module labels changed in TYPO3 v14, but the Klaro records, Site
 Configuration fields, TypoScript settings, ViewHelper, TypoScript condition,
 middleware, and frontend behaviour remain the same. See :ref:`compatibility`
 for the exact TYPO3 v13/v14 backend paths and configuration differences.
+
+..  _features-vanilla-javascript:
 
 Vanilla JavaScript
 ==================

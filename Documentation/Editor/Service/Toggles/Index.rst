@@ -56,4 +56,4 @@ Contextual Consent Only
     :type: boolean
     :Default: false
 
-    Content can be excluded from general consent by setting contextualConsentOnly to true. In this case, the consent must be contextual.
+    Content can be excluded from general consent by setting contextualConsentOnly to true. In this case, the consent must be contextual. See :ref:`for-editors-contextual-consent` for the content element workflow.
