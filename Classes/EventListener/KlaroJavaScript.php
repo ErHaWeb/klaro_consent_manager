@@ -56,7 +56,7 @@ class KlaroJavaScript
                 $attributes = [
                     'defer' => 'defer',
                 ];
-                $event->getAssetCollector()->addInlineJavaScript($configVariableName, $configurationInlineJavaScript, $attributes, ['priority' => true, 'useNonce' => true]);
+                $event->getAssetCollector()->addInlineJavaScript($configVariableName, $configurationInlineJavaScript, $attributes, ['priority' => true, 'csp' => true]);
             }
             return;
         }
@@ -69,7 +69,7 @@ class KlaroJavaScript
                 if ($key === 'klaro-default' && $configuration['config_variable_name']) {
                     $attributes['data-klaro-config'] = $configuration['config_variable_name'];
                 }
-                $event->getAssetCollector()->addJavaScript($key, $javascript, $attributes, ['priority' => true, 'useNonce' => true]);
+                $event->getAssetCollector()->addJavaScript($key, $javascript, $attributes, ['priority' => true, 'csp' => true]);
             }
         }
     }

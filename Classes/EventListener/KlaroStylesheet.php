@@ -57,7 +57,7 @@ class KlaroStylesheet
 
         foreach (($settings['css'] ?? []) as $key => $css) {
             if (!($asset[$key] ?? false) && $css) {
-                $event->getAssetCollector()->addStyleSheet($key, $css, $attributes, ['priority' => true, 'useNonce' => true]);
+                $event->getAssetCollector()->addStyleSheet($key, $css, $attributes, ['priority' => true, 'csp' => true]);
             }
         }
     }
