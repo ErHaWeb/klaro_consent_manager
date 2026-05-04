@@ -4,7 +4,7 @@
 |---------------|-------------------------------|
 | Extension key | klaro_consent_manager         |
 | Package name  | erhaweb/klaro-consent-manager |
-| Version       | 2                             |
+| Version       | 3.0                           |
 | Author        | Eric Harrer                   |
 
 ## What does it do?

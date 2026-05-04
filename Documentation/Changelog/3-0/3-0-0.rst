@@ -1,0 +1,77 @@
+.. include:: /Includes.rst.txt
+
+3.0.0 - May 04, 2026
+====================
+
+
+.. only:: html
+
+   .. contents::
+        :local:
+        :depth: 3
+
+Breaking changes
+----------------
+- If the extension setting ``klaroConfigurationPath`` is configured, the
+  dynamically generated Klaro configuration is now served from that path
+  instead of being rendered inline.
+
+  The default value is ``/klaro-config.js``.
+
+  Previously, this path could be used in addition to the default inline output.
+  With this change, the external configuration path replaces the inline output
+  whenever ``klaroConfigurationPath`` is set.
+
+  If no path is configured, the frontend output continues to fall back to the
+  previous inline notation.
+
+  Please review and adjust your Content Security Policy configuration
+  accordingly, especially if it previously allowed only inline Klaro
+  configuration output.
+
+- If you still include TypoScript through a static include in the
+  ``sys_template`` record, you must renew this include in the corresponding
+  template record.
+
+  Previously, the Site Set path
+  ``Configuration/Sets/KlaroConsentManager`` was used directly as the static
+  TypoScript include path. This has changed to ``Configuration/TypoScript``.
+
+  This change ensures a clear separation between the two supported
+  configuration mechanisms: Site Set settings and TypoScript constants.
+
+  The extension now uses either Site Set settings or TypoScript constants.
+  Mixing both configuration sources is no longer intended and should be
+  avoided.
+
+  Please remove the previous static include from the ``sys_template`` record
+  and add the new one again.
+
+All Changes
+-----------
+This is a list of all changes in this release: ::
+
+    2026-05-04 [BUGFIX] Fix missing constants on static TypoScript include (Commit 17695d7 by Eric Harrer)
+    2026-05-04 [TASK] Update modified FSC default layout (Commit dd358e4 by Eric Harrer)
+    2026-05-04 [DOCS] Update images in documentation (Commit 58a8dd7 by Eric Harrer)
+    2026-05-04 [BUGFIX] Make button color compatible with camino theme (Commit 94fc8e5 by Eric Harrer)
+    2026-05-04 [TASK] Run PHP CS Fixer (Commit 220e05a by Eric Harrer)
+    2026-05-04 [BUGFIX] Fix Klaro config asset URI handling (Commit 8a6f6e3 by Eric Harrer)
+    2026-05-04 [BUGFIX] Fix array key undefined error (Commit 63479cb by Eric Harrer)
+    2026-05-04 [!!!][TASK] Use Klaro config path by default (Commit 4248fdd by Eric Harrer)
+    2026-05-04 [TASK] Remove obsolete TYPO3 version check (Commit b66a4d0 by Eric Harrer)
+    2026-05-04 [BUGFIX] Use version-specific CSP asset option (Commit cd3db60 by Eric Harrer)
+    2026-05-03 [BUGFIX] Replace usage of deprecated useNonce with csp (#19) (Commit 202bbd0 by Alexander Schnitzler)
+    2026-05-01 [TASK] Improve requirements in composer.json (Commit 18da180 by Eric Harrer)
+    2026-05-01 [TASK] Use factory for request-bound KlaroService (Commit d469c6f by Eric Harrer)
+    2026-05-01 [DOCS] Improve internal links in documentation (Commit e0d65fc by Eric Harrer)
+    2026-05-01 [DOCS] Update documentation (Commit 4e74662 by Eric Harrer)
+    2026-05-01 [TASK] Add missing service "klaro", "adobe-fonts", "salesviewer" and "career-captain" (Commit db14608 by Eric Harrer)
+    2026-05-01 [TASK] General code refactoring (Commit a59f1c2 by Eric Harrer)
+    2026-04-30 [TASK] Move legacy TypoScript constants to Configuration/TypoScript/ (Commit 03d9e4e by Eric Harrer)
+    2026-04-30 [TASK] Modernize TCA valuePicker item definitions (Commit f941d58 by Eric Harrer)
+    2026-04-29 [TASK] Run PHP CS Fixer (Commit a4dcf3f by Eric Harrer)
+    2026-04-29 [TASK] Use generic view factory to initialise view (Commit 46de033 by Eric Harrer)
+    2026-04-29 [TASK] Apply rector rules (Commit 4995c56 by Eric Harrer)
+
+This list has been created by using `git log $(git describe --tags --abbrev=0)..HEAD --abbrev-commit --pretty='%ad %s (Commit %h by %an)' --date=short`.
