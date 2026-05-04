@@ -230,6 +230,14 @@
         <source>Reset Consent Manager</source>
         <target state="final">Επαναφορά Διαχειριστή Συγκατάθεσης</target>
       </trans-unit>
+      <trans-unit id="services.adobe-fonts.title">
+        <source>Adobe Fonts</source>
+        <target state="needs-review-translation" state-qualifier="leveraged-mt">Πλίθινες Γραμματοσειρές</target>
+      </trans-unit>
+      <trans-unit id="services.adobe-fonts.description">
+        <source>Adobe Fonts provides web fonts used for this website. When enabled, font files are loaded from Adobe and technical connection data may be processed.</source>
+        <target state="needs-review-translation" state-qualifier="leveraged-mt">Το Adobe Fonts παρέχει γραμματοσειρές ιστού που χρησιμοποιούνται για αυτόν τον ιστότοπο. Όταν είναι ενεργοποιημένο, τα αρχεία γραμματοσειράς φορτώνονται από το Adobe και τα τεχνικά δεδομένα σύνδεσης μπορούν να επεξεργαστούν.</target>
+      </trans-unit>
       <trans-unit id="services.adsense.title" approved="yes">
         <source>Google AdSense</source>
         <target state="final">Google AdSense</target>
@@ -245,6 +253,14 @@
       <trans-unit id="services.camera.description" approved="yes">
         <source>Consent to the use of surveillance camera images for security and safety purposes, in compliance with applicable data privacy regulations.</source>
         <target state="final">Συγκατάθεση στη χρήση εικόνων κάμερας επιτήρησης για σκοπούς ασφάλειας και προστασίας, σύμφωνα με τους ισχύοντες κανονισμούς περί προστασίας της ιδιωτικής ζωής των δεδομένων.</target>
+      </trans-unit>
+      <trans-unit id="services.career-captain.title">
+        <source>Career Captain</source>
+        <target state="needs-review-translation" state-qualifier="leveraged-mt">Καπετάνιος Καριέρας</target>
+      </trans-unit>
+      <trans-unit id="services.career-captain.description">
+        <source>Career Captain provides gamified career orientation and recruiting content. When enabled, external content from Career Captain may process usage and technical connection data.</source>
+        <target state="needs-review-translation" state-qualifier="leveraged-mt">Ο Captain παρέχει παιχνιδοποιημένο επαγγελματικό προσανατολισμό και περιεχόμενο πρόσληψης όταν είναι ενεργοποιημένο, το εξωτερικό περιεχόμενο από το Career Captain μπορεί να επεξεργαστεί δεδομένα χρήσης και τεχνικής σύνδεσης.</target>
       </trans-unit>
       <trans-unit id="services.clarity.title" approved="yes">
         <source>Microsoft Clarity</source>
@@ -350,6 +366,14 @@
         <source>Chat widget and collecting of visitor statistics</source>
         <target state="final">Συζήτηση widget και συλλογή στατιστικών στοιχείων επισκεπτών</target>
       </trans-unit>
+      <trans-unit id="services.klaro.title">
+        <source>Klaro!</source>
+        <target state="needs-review-translation" state-qualifier="leveraged-mt">Klaro!</target>
+      </trans-unit>
+      <trans-unit id="services.klaro.description">
+        <source>Klaro! manages consent choices for this website and stores whether individual services may be loaded according to your preferences.</source>
+        <target state="needs-review-translation" state-qualifier="leveraged-mt">Klaro! διαχειρίζεται τις επιλογές συγκατάθεσης για αυτόν τον ιστότοπο και αποθηκεύει αν οι μεμονωμένες υπηρεσίες μπορούν να φορτωθούν σύμφωνα με τις προτιμήσεις σας.</target>
+      </trans-unit>
       <trans-unit id="services.matomo.title" approved="yes">
         <source>Matomo/Piwik</source>
         <target state="final">Matomo/Piwik</target>
@@ -365,6 +389,14 @@
       <trans-unit id="services.mouseflow.description" approved="yes">
         <source>Real-time user analytics service that helps to understand how visitors interact with our website.</source>
         <target state="final">Υπηρεσία ανάλυσης χρηστών σε πραγματικό χρόνο που βοηθά να καταλάβουμε πώς οι επισκέπτες αλληλεπιδρούν με την ιστοσελίδα μας.</target>
+      </trans-unit>
+      <trans-unit id="services.salesviewer.title">
+        <source>SalesViewer</source>
+        <target state="needs-review-translation" state-qualifier="leveraged-mt">Προβολέας Πωλήσεων</target>
+      </trans-unit>
+      <trans-unit id="services.salesviewer.description">
+        <source>SalesViewer analyzes website visits for B2B lead generation and may identify company-related visitor information based on usage and technical access data.</source>
+        <target state="needs-review-translation" state-qualifier="leveraged-mt">Η εταιρεία SalesViewer αναλύει επισκέψεις στο δικτυακό τόπο για την παραγωγή B2B μολύβδου και μπορεί να προσδιορίσει πληροφορίες σχετικά με τους επισκέπτες της εταιρείας με βάση τα δεδομένα χρήσης και τεχνικής πρόσβασης.</target>
       </trans-unit>
       <trans-unit id="services.tiktok.title" approved="yes">
         <source>TikTok</source>
