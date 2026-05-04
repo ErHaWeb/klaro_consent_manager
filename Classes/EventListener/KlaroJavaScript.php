@@ -73,7 +73,7 @@ class KlaroJavaScript
             /** @var Site $site */
             $site = $request->getAttribute('site');
             $configuration = $site->getConfiguration();
-            $rootPageId = (int)($configuration['rootPageId'] ?? 0);
+            $rootPageId = (int) ($configuration['rootPageId'] ?? 0);
 
             if ($rootPageId > 0) {
                 $useInlineKlaroConfiguration = false;

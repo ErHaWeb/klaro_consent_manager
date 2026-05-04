@@ -21,6 +21,8 @@ use ErHaWeb\KlaroConsentManager\Utility\ExtensionConfigurationUtility;
 use TYPO3\CMS\Core\Attribute\AsEventListener;
 use TYPO3\CMS\Core\Configuration\Event\SiteConfigurationLoadedEvent;
 
+use function is_array;
+
 #[AsEventListener(identifier: 'KlaroConsentManager/KlaroConfigurationRouteEnhancer')]
 final readonly class KlaroConfigurationRouteEnhancer
 {
@@ -38,7 +40,7 @@ final readonly class KlaroConfigurationRouteEnhancer
         }
 
         $configuration = $event->getConfiguration();
-        $rootPageId = (int)($configuration['rootPageId'] ?? 0);
+        $rootPageId = (int) ($configuration['rootPageId'] ?? 0);
 
         if ($rootPageId <= 0) {
             return;
@@ -55,7 +57,7 @@ final readonly class KlaroConfigurationRouteEnhancer
         ];
 
         $routeEnhancers = $configuration['routeEnhancers'] ?? [];
-        if (!is_array($routeEnhancers)) {
+        if (!\is_array($routeEnhancers)) {
             $routeEnhancers = [];
         }
 

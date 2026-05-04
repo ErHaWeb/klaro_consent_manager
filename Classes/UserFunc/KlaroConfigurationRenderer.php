@@ -10,10 +10,10 @@ use Symfony\Component\DependencyInjection\Attribute\Autoconfigure;
 use TYPO3\CMS\Core\Attribute\AsAllowedCallable;
 
 #[Autoconfigure(public: true)]
-final class KlaroConfigurationRenderer
+final readonly class KlaroConfigurationRenderer
 {
     public function __construct(
-        private readonly KlaroServiceFactory $klaroServiceFactory,
+        private KlaroServiceFactory $klaroServiceFactory,
     ) {}
 
     /**
