@@ -1,5 +1,5 @@
 <?php
-´
+
 $EM_CONF[$_EXTKEY] = [
     'title' => 'Klaro! Consent Manager',
     'description' => 'Functionally complete, flexible TYPO3 integration of Klaro! Consent Management by KIProtect GmbH, a powerful tool that protects your visitors\' privacy and data.',
