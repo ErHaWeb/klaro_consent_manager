@@ -230,6 +230,14 @@
         <source>Reset Consent Manager</source>
         <target state="final">Redefinir Gerenciador de Consentimento</target>
       </trans-unit>
+      <trans-unit id="services.adobe-fonts.title">
+        <source>Adobe Fonts</source>
+        <target state="needs-review-translation" state-qualifier="leveraged-mt">Fontes Adobe</target>
+      </trans-unit>
+      <trans-unit id="services.adobe-fonts.description">
+        <source>Adobe Fonts provides web fonts used for this website. When enabled, font files are loaded from Adobe and technical connection data may be processed.</source>
+        <target state="needs-review-translation" state-qualifier="leveraged-mt">O Adobe Fonts fornece fontes web usadas para este site. Quando ativado, os arquivos de fonte são carregados do Adobe e dados de conexão técnica podem ser processados.</target>
+      </trans-unit>
       <trans-unit id="services.adsense.title" approved="yes">
         <source>Google AdSense</source>
         <target state="final">Google AdSense</target>
@@ -245,6 +253,14 @@
       <trans-unit id="services.camera.description" approved="yes">
         <source>Consent to the use of surveillance camera images for security and safety purposes, in compliance with applicable data privacy regulations.</source>
         <target state="final">Consentimento ao uso de imagens de câmeras de vigilância para fins de segurança e segurança, em conformidade com os regulamentos aplicáveis de privacidade de dados.</target>
+      </trans-unit>
+      <trans-unit id="services.career-captain.title">
+        <source>Career Captain</source>
+        <target state="needs-review-translation" state-qualifier="leveraged-mt">Capitão da carreira</target>
+      </trans-unit>
+      <trans-unit id="services.career-captain.description">
+        <source>Career Captain provides gamified career orientation and recruiting content. When enabled, external content from Career Captain may process usage and technical connection data.</source>
+        <target state="needs-review-translation" state-qualifier="leveraged-mt">O Capitão Carreira fornece orientação de carreira e conteúdo de recrutamento. Quando ativado, conteúdo externo do Capitão da Carreira pode processar dados de uso e conexão técnica.</target>
       </trans-unit>
       <trans-unit id="services.clarity.title" approved="yes">
         <source>Microsoft Clarity</source>
@@ -350,6 +366,14 @@
         <source>Chat widget and collecting of visitor statistics</source>
         <target state="final">Widget de bate-papo e coleta de estatísticas de visitantes</target>
       </trans-unit>
+      <trans-unit id="services.klaro.title">
+        <source>Klaro!</source>
+        <target state="needs-review-translation" state-qualifier="leveraged-mt">Klaro!</target>
+      </trans-unit>
+      <trans-unit id="services.klaro.description">
+        <source>Klaro! manages consent choices for this website and stores whether individual services may be loaded according to your preferences.</source>
+        <target state="needs-review-translation" state-qualifier="leveraged-mt">Klaro! gerencia as opções de consentimento para este site e armazena se os serviços individuais podem ser carregados de acordo com suas preferências.</target>
+      </trans-unit>
       <trans-unit id="services.matomo.title" approved="yes">
         <source>Matomo/Piwik</source>
         <target state="final">Matomo/Piwik</target>
@@ -365,6 +389,14 @@
       <trans-unit id="services.mouseflow.description" approved="yes">
         <source>Real-time user analytics service that helps to understand how visitors interact with our website.</source>
         <target state="final">Serviço de análise de tempo real do usuário que ajuda a entender como os visitantes interagem com nosso site.</target>
+      </trans-unit>
+      <trans-unit id="services.salesviewer.title">
+        <source>SalesViewer</source>
+        <target state="needs-review-translation" state-qualifier="leveraged-mt">Visualizador</target>
+      </trans-unit>
+      <trans-unit id="services.salesviewer.description">
+        <source>SalesViewer analyzes website visits for B2B lead generation and may identify company-related visitor information based on usage and technical access data.</source>
+        <target state="needs-review-translation" state-qualifier="leveraged-mt">O VesViewer analisa as visitas do site para geração de líderes B2B e pode identificar informações de visitantes relacionadas à empresa com base no uso e dados técnicos de acesso.</target>
       </trans-unit>
       <trans-unit id="services.tiktok.title" approved="yes">
         <source>TikTok</source>
