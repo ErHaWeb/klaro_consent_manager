@@ -10,7 +10,7 @@ Constants
 
 These values are defined in
 `Configuration/Sets/KlaroConsentManager/settings.definitions.yaml` and
-`Configuration/Sets/KlaroConsentManager/constants.typoscript`.
+`Configuration/TypoScript/constants.typoscript`.
 
 With the recommended :ref:`Site Set integration <configuration-site-set>`,
 override them as Site Settings in

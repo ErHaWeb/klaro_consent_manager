@@ -20,7 +20,6 @@ requiredEntries=(
     "ext_localconf.php"
     "Configuration/Services.yaml"
     "Configuration/Sets/KlaroConsentManager/config.yaml"
-    "Configuration/Sets/KlaroConsentManager/constants.typoscript"
     "Configuration/Sets/KlaroConsentManager/setup.typoscript"
     "Configuration/TypoScript/constants.typoscript"
     "Configuration/TypoScript/setup.typoscript"
