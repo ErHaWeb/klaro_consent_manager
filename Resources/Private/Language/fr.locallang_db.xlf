@@ -1,0 +1,1012 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file source-language="en" original="EXT:klaro_consent_manager/Resources/Private/Language/locallang_db.xlf" datatype="plaintext" product-name="lang" date="2025-10-13T13:41:04+02:00" target-language="fr">
+    <header/>
+    <body>
+      <trans-unit id="tx_klaroconsentmanager_configuration" approved="yes">
+        <source>Klaro! Configuration</source>
+        <target state="final">Klaro! Configuration</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_configuration.I.true" approved="yes">
+        <source>true</source>
+        <target state="final">true</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_configuration.I.false" approved="yes">
+        <source>false</source>
+        <target state="final">false</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_configuration.tabs.general" approved="yes">
+        <source>General</source>
+        <target state="final">Général</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_configuration.tabs.layout" approved="yes">
+        <source>Layout</source>
+        <target state="final">Mise en page</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_configuration.tabs.content" approved="yes">
+        <source>Content</source>
+        <target state="final">Contenu</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_configuration.tabs.cookie" approved="yes">
+        <source>Cookie</source>
+        <target state="final">Cookie</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_configuration.tabs.advanced" approved="yes">
+        <source>Advanced</source>
+        <target state="final">Avancé</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_configuration.tabs.access" approved="yes">
+        <source>Access</source>
+        <target state="final">Accès</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_configuration.palettes.general_palette" approved="yes">
+        <source>General</source>
+        <target state="final">Général</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_configuration.palettes.setup_palette" approved="yes">
+        <source>Base Configuration</source>
+        <target state="final">Configuration de base</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_configuration.palettes.storage_palette" approved="yes">
+        <source>Storage</source>
+        <target state="final">Stockage</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_configuration.palettes.services_palette" approved="yes">
+        <source>Services</source>
+        <target state="final">Services</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_configuration.palettes.cookie_palette" approved="yes">
+        <source>Cookie Settings</source>
+        <target state="final">Paramètres des cookies</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_configuration.palettes.callback_palette" approved="yes">
+        <source>Callback</source>
+        <target state="final">Rappel</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_configuration.palettes.consent_palette" approved="yes">
+        <source>Default consent status</source>
+        <target state="final">Statut par défaut du consentement</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_configuration.palettes.display_palette" approved="yes">
+        <source>Other display settings</source>
+        <target state="final">Autres paramètres d'affichage</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_configuration.palettes.layout_palette" approved="yes">
+        <source>Layout settings</source>
+        <target state="final">Paramètres de mise en page</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_configuration.palettes.behavior_palette" approved="yes">
+        <source>Behavior</source>
+        <target state="final">Comportement</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_configuration.palettes.hide_buttons_palette" approved="yes">
+        <source>Hide Buttons</source>
+        <target state="final">Cacher les boutons</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_configuration.palettes.append_buttons_palette" approved="yes">
+        <source>Append Buttons</source>
+        <target state="final">Ajouter des boutons</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_configuration.palettes.access_palette" approved="yes">
+        <source>Access</source>
+        <target state="final">Accès</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_configuration.palettes.translations_palette" approved="yes">
+        <source>Translations</source>
+        <target state="final">Traductions</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_configuration.title.label" approved="yes">
+        <source>Title</source>
+        <target state="final">Titre</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_configuration.title.description" approved="yes">
+        <source>Title under which this configuration can be found.</source>
+        <target state="final">Titre sous lequel cette configuration peut être trouvée.</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_configuration.title.placeholder" approved="yes">
+        <source>My Klaro! Configuration</source>
+        <target state="final">Configuration de mon Klaro!</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_configuration.testing.label" approved="yes">
+        <source>Testing</source>
+        <target state="final">Test</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_configuration.testing.description" approved="yes">
+        <source>Setting `testing` to `true` will cause Klaro to not show the consent notice or modal by default, except if a special hashtag is appended to the URL (#klaro-testing). This makes it possible to test Klaro on your live website without affecting normal visitors.</source>
+        <target state="final">Définir `testing` à `true` fera que Klaro ne montrera pas l'avis de consentement ou la modale par défaut, sauf si un hashtag spécial est ajouté à l'URL (#klaro-testing). Cela permet de tester Klaro sur votre site web en direct sans affecter les visiteurs normaux.</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_configuration.config_variable_name.label" approved="yes">
+        <source>Config Variable Name</source>
+        <target state="final">Nom de la variable de configuration</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_configuration.config_variable_name.description" approved="yes">
+        <source>By default, Klaro loads the configuration from a global variable `klaroConfig`. You can change this here. Specifying this field will cause the attribute data-klaro-config="yourConfigVariableName" to be set.</source>
+        <target state="final">Par défaut, Klaro charge la configuration à partir d'une variable globale `klaroConfig`. Vous pouvez changer cela ici. En spécifiant ce champ, l'attribut data-klaro-config="yourConfigVariableName" sera défini.</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_configuration.config_variable_name.placeholder" approved="yes">
+        <source>klaroConfig</source>
+        <target state="final">klaroConfig</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_configuration.element_i_d.label" approved="yes">
+        <source>Element ID</source>
+        <target state="final">ID de l'élément</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_configuration.element_i_d.description" approved="yes">
+        <source>You can customize the ID of the `div` element that Klaro will create when starting up. By default, Klaro will use "klaro".</source>
+        <target state="final">Vous pouvez personnaliser l'ID de l'élément `div` que Klaro va créer au démarrage. Par défaut, Klaro utilisera "klaro".</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_configuration.element_i_d.placeholder" approved="yes">
+        <source>klaro</source>
+        <target state="final">klaro</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_configuration.no_auto_load.label" approved="yes">
+        <source>No Auto-Load</source>
+        <target state="final">Pas de chargement automatique</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_configuration.no_auto_load.description" approved="yes">
+        <source>Setting this to `true` will keep Klaro from automatically loading itself when the page is being loaded.</source>
+        <target state="final">Définir ceci à `true` empêchera Klaro de se charger automatiquement quand la page sera chargée.</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_configuration.additional_class.label" approved="yes">
+        <source>Additional Class</source>
+        <target state="final">Classe supplémentaire</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_configuration.additional_class.description" approved="yes">
+        <source>You can specify an additional class (or classes) that will be added to the Klaro `div`</source>
+        <target state="final">Vous pouvez spécifier une (ou des classes) supplémentaire qui sera ajoutée au `div` de Klaro</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_configuration.additional_class.placeholder" approved="yes">
+        <source>my-klaro</source>
+        <target state="final">my-klaro</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_configuration.storage_method.label" approved="yes">
+        <source>Storage Method</source>
+        <target state="final">Mode de stockage</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_configuration.storage_method.description" approved="yes">
+        <source>You can customize how Klaro persists consent information in the browser. Specify either `cookie` (the default) or `localStorage`.</source>
+        <target state="final">Vous pouvez personnaliser la façon dont Klaro persiste les informations de consentement dans le navigateur. Spécifiez soit `cookie` (par défaut) soit `localStorage`.</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_configuration.storage_method.I.none" approved="yes">
+        <source>None</source>
+        <target state="final">Aucune</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_configuration.storage_method.I.cookie" approved="yes">
+        <source>Cookie (default)</source>
+        <target state="final">Cookie (par défaut)</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_configuration.storage_method.I.localStorage" approved="yes">
+        <source>Local Storage</source>
+        <target state="final">Stockage local</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_configuration.storage_name.label" approved="yes">
+        <source>Storage Name</source>
+        <target state="final">Nom du stockage</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_configuration.storage_name.description" approved="yes">
+        <source>You can customize the name of the cookie or localStorage entry that Klaro will use for storing the consent information. By default, Klaro will use "klaro".</source>
+        <target state="final">Vous pouvez personnaliser le nom du cookie ou de l'entrée localStorage que Klaro utilisera pour stocker les informations de consentement. Par défaut, Klaro utilisera "klaro".</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_configuration.storage_name.placeholder" approved="yes">
+        <source>klaro</source>
+        <target state="final">klaro</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_configuration.html_texts.label" approved="yes">
+        <source>HTML Texts</source>
+        <target state="final">Texte HTML</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_configuration.html_texts.description" approved="yes">
+        <source>If set to `true`, Klaro will render the texts given in the `consentModal.description` and `consentNotice.description` translations as HTML. This enables you to e.g. add custom links or interactive content. If you want to be able to output HTML tags via fluid-enriched labels (see "Content" → "Translations"), this option must be enabled.</source>
+        <target state="final">Si défini à `true`, Klaro rendra les textes donnés dans les traductions `consentModal.description` et `consentNotice.description` en HTML. Cela vous permet par ex. ajouter des liens personnalisés ou du contenu interactif. Si vous voulez pouvoir afficher des balises HTML via des étiquettes enrichies de fluides (voir "Contenu" → "Traductions"), cette option doit être activée.</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_configuration.embedded.label" approved="yes">
+        <source>Embedded</source>
+        <target state="final">Intégré</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_configuration.embedded.description" approved="yes">
+        <source>Setting "embedded" to `true` will render the Klaro modal and notice without the modal background, allowing you to e.g. embed them into a specific element of your website, such as your privacy notice.</source>
+        <target state="final">Régler "embarqué" sur `true` rendra la modale et la notification Klaro sans l'arrière-plan modal, vous permettant d'e. . Intégrez-les à un élément spécifique de votre site Web, comme votre déclaration de confidentialité.</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_configuration.group_by_purpose.label" approved="yes">
+        <source>Group by purpose</source>
+        <target state="final">Grouper par objectif</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_configuration.group_by_purpose.description" approved="yes">
+        <source>You can group services by their purpose in the modal. This is advisable if you have a large number of services. Users can then enable or disable entire groups of services instead of having to enable or disable every service.</source>
+        <target state="final">Vous pouvez regrouper les services par fonction dans la modale. Ceci est conseillé si vous avez un grand nombre de services. Les utilisateurs peuvent alors activer ou désactiver des groupes entiers de services au lieu d'avoir à activer ou désactiver tous les services.</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_configuration.cookie_domain.label" approved="yes">
+        <source>Cookie Domain</source>
+        <target state="final">Cookie domaine</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_configuration.cookie_domain.description" approved="yes">
+        <source>You can change the cookie domain for the consent manager itself. Use this if you want to get consent once for multiple matching domains. By default, Klaro will use the current domain. Only relevant if `storageMethod` is set to `cookie`.</source>
+        <target state="final">Vous pouvez changer le domaine de cookie pour le gestionnaire de consentement lui-même. Utilisez ceci si vous voulez obtenir le consentement une fois pour plusieurs domaines correspondants. Par défaut, Klaro utilisera le domaine actuel. Ne pertinent que si `storageMethod` est défini à `cookie`.</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_configuration.cookie_domain.placeholder" approved="yes">
+        <source>.example.com</source>
+        <target state="final">exemple.fr</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_configuration.cookie_path.label" approved="yes">
+        <source>Cookie Path</source>
+        <target state="final">Cookie chemin</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_configuration.cookie_path.description" approved="yes">
+        <source>Provide a path if you have services that set cookies for a path that is not "/"</source>
+        <target state="final">Fournir un chemin si vous avez des services qui définissent des cookies pour un chemin qui n'est pas "/"</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_configuration.cookie_path.placeholder" approved="yes">
+        <source>/</source>
+        <target state="final">/</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_configuration.cookie_expires_after_days.label" approved="yes">
+        <source>Cookie expires after days</source>
+        <target state="final">Le cookie expire après les jours</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_configuration.cookie_expires_after_days.description" approved="yes">
+        <source>You can also set a custom expiration time for the Klaro cookie. By default, it will expire after 60 days. Only relevant if `storageMethod` is set to `cookie`.</source>
+        <target state="final">Vous pouvez également définir une date d'expiration personnalisée pour le cookie Klaro. Par défaut, il expirera après 60 jours. Seulement pertinent si `storageMethod` est défini sur `cookie`.</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_configuration.cookie_expires_after_days.placeholder" approved="yes">
+        <source>30</source>
+        <target state="final">30</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_configuration.default.label" approved="yes">
+        <source>Default</source>
+        <target state="final">Par défaut</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_configuration.default.description" approved="yes">
+        <source>Defines the default state for services in the consent modal (`true` = enabled by default). If this setting is set to "false", you can override it in any service.</source>
+        <target state="final">Définit l'état par défaut des services dans le consentement modal (`true` = activé par défaut). Si ce paramètre est réglé sur "false", vous pouvez le remplacer dans n'importe quel service.</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_configuration.must_consent.label" approved="yes">
+        <source>Must consent</source>
+        <target state="final">Doit être un consentement</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_configuration.must_consent.description" approved="yes">
+        <source>If `mustConsent` is set to `true`, Klaro will directly display the consent manager modal and not allow the user to close it before having actively consented or declines the use of third-party services.</source>
+        <target state="final">Si `mustConsent` est défini à `true`, Klaro affichera directement la modale du gestionnaire de consentement et ne permettra pas à l'utilisateur de la fermer avant d'avoir consenti activement ou de refuser l'utilisation de services tiers.</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_configuration.accept_all.label" approved="yes">
+        <source>Accept all</source>
+        <target state="final">Accepter tout</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_configuration.accept_all.description" approved="yes">
+        <source>Setting `acceptAll` to `true` will show an "accept all" button in the notice and modal, which will enable all third-party services if the user clicks on it. If set to "false", there will be an "accept" button that will only enable the services that are enabled in the consent modal.</source>
+        <target state="final">Définir `acceptAll` à `true` affichera un bouton "Accepter tout" dans la notification et dans la modale, qui activera tous les services tiers si l'utilisateur clique dessus. Si réglé sur "false", il y aura un bouton "accepter" qui n'activera que les services qui sont activés dans la modale de consentement.</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_configuration.hide_decline_all.label" approved="yes">
+        <source>Hide Decline All</source>
+        <target state="final">Cacher tout refuser</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_configuration.hide_decline_all.description" approved="yes">
+        <source>Setting `hideDeclineAll` to `true` will hide the "decline" button in the consent modal and force the user to open the modal in order to change his/her consent or disable all third-party services. We strongly advise you to not use this feature, as it opposes the "privacy by default" and "privacy by design" principles of the GDPR (but might be acceptable in other legislations such as under the CCPA)</source>
+        <target state="final">Définir `hideDeclineAll` à `true` masquera le bouton "refuser" dans le consentement modal et forcera l'utilisateur à ouvrir la modale afin de changer son consentement ou de désactiver tous les services tiers. Nous vous conseillons fortement de ne pas utiliser cette fonctionnalité, car il s'oppose aux principes de la "vie privée par défaut" et de la "vie privée par conception" du RGPD (mais peut être acceptable dans d'autres législations, comme par exemple dans le cadre du CCPA)</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_configuration.hide_learn_more.label" approved="yes">
+        <source>Hide Learn More</source>
+        <target state="final">Cacher en savoir plus</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_configuration.hide_learn_more.description" approved="yes">
+        <source>Setting `hideLearnMore` to `true` will hide the "learn more / customize" link in the consent notice. We strongly advise against using this under most circumstances, as it keeps the user from customizing his/her consent choices.</source>
+        <target state="final">Définir `hideLearnMore` à `true` masquera le lien "en savoir plus/personnaliser" dans l'avis de consentement. Nous recommandons fortement de ne pas utiliser cela dans la plupart des circonstances, car cela empêche l'utilisateur de personnaliser ses choix de consentement.</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_configuration.hide_toggle_all.label" approved="yes">
+        <source>Hide Toggle All</source>
+        <target state="final">Cacher tout</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_configuration.hide_toggle_all.description" approved="yes">
+        <source>Setting `hideToggleAll` to `true` will hide the "toggle all" link in the consent notice.</source>
+        <target state="final">Définir `hideToggleAll` à `true` masquera le lien "toggle all" dans l'avis de consentement.</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_configuration.notice_as_modal.label" approved="yes">
+        <source>Notice As Modal</source>
+        <target state="final">Notifier comme modal</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_configuration.notice_as_modal.description" approved="yes">
+        <source>Show cookie notice as modal</source>
+        <target state="final">Afficher la notification des cookies en tant que modal</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_configuration.show_notice_title.label" approved="yes">
+        <source>Show title in consent notice</source>
+        <target state="final">Afficher le titre dans l'avis de consentement</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_configuration.show_notice_title.description" approved="yes">
+        <source>When this option is enabled, Klaro displays the title in the notice modal.</source>
+        <target state="final">Lorsque cette option est activée, Klaro affiche le titre dans la fenêtre de notification.</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_configuration.show_description_empty_store.label" approved="yes">
+        <source>Show Description (Empty Store)</source>
+        <target state="final">Afficher la description (magasin uniquement)</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_configuration.show_description_empty_store.description" approved="yes">
+        <source>Show an explanatory text in contextual consent placeholders when no consent storage exists yet (first visit / empty store). This informs users that a permanent decision ("Always") requires allowing Klaro to store consent first. This only has an effect in contextual consent widgets/overlays (e.g. for embedded media) and only if the consent store (cookie/localStorage) is empty.</source>
+        <target state="final">Afficher un texte explicatif dans les espaces réservés au consentement contextuel lorsque le stockage du consentement n'existe pas encore (première visite / magasin vide). Ceci informe les utilisateurs qu'une décision permanente ("Toujours") nécessite d'autoriser Klaro à stocker son consentement en premier. Cela n'a d'effet que dans les widgets/superpositions contextuelles (par exemple pour les médias embarqués) et seulement si la boutique de consentement (cookie/localStorage) est vide.</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_configuration.auto_focus.label" approved="yes">
+        <source>Auto Focus</source>
+        <target state="final">Focus automatique</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_configuration.auto_focus.description" approved="yes">
+        <source>Automatically focus the Klaro consent notice/modal container when it opens to improve keyboard navigation and accessibility.</source>
+        <target state="final">Mettre automatiquement au point le conteneur de consentement Klaro lorsqu'il s'ouvre pour améliorer la navigation et l'accessibilité du clavier.</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_configuration.disable_powered_by.label" approved="yes">
+        <source>Disable Powered By</source>
+        <target state="final">Désactiver alimenté par</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_configuration.disable_powered_by.description" approved="yes">
+        <source>You can also remove the "Realized with Klaro!" text in the consent modal. Please don't do this! We provide Klaro as a free open source tool. Placing a link to our website helps us spread the word about it, which ultimately enables us to make Klaro! better for everyone. So please be fair and keep the link enabled. Thanks :)</source>
+        <target state="final">Vous pouvez également supprimer le texte "Réalisé avec Klaro!" dans le modal de consentement. Ne faites pas cela! Nous fournissons Klaro comme un outil open source gratuit. La mise en place d'un lien vers notre site web nous aide à faire passer le mot à ce sujet, ce qui nous permet en fin de compte de rendre Klaro meilleur pour tout le monde. Alors s'il vous plaît soyez juste et gardez le lien activé. Merci :)</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_configuration.services.label" approved="yes">
+        <source>Services</source>
+        <target state="final">Services</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_configuration.services.description" approved="yes">
+        <source>Here you specify the third-party services that Klaro will manage for you.</source>
+        <target state="final">Ici, vous spécifiez les services tiers que Klaro gérera pour vous.</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_configuration.purpose_order.label" approved="yes">
+        <source>Purpose Order</source>
+        <target state="final">Ordre d'objectif</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_configuration.purpose_order.description" approved="yes">
+        <source>The order in which purposes appear in the notice and modal can be changed via the `purposeOrder` parameter, which can be given a list with purpose names and will display those purposes in the order in which they appear in the list.</source>
+        <target state="final">L'ordre dans lequel les buts apparaissent dans l'avis et la modale peut être modifié via le paramètre `purposeOrder`, qui peuvent être donnés à une liste avec les noms des buts et qui les afficheront dans l'ordre dans lequel ils apparaissent dans la liste.</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_configuration.callback.label" approved="yes">
+        <source>Callback</source>
+        <target state="final">Rappel</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_configuration.callback.description" approved="yes">
+        <source>You can define an optional callback function that will be called each time the consent state for any given service changes. The consent value will be passed as the first parameter to the function (`true` = consented). The `service` config will be passed as the second parameter. The content of this field is wrapped with `callback: function(consent, service) { }`</source>
+        <target state="final">Vous pouvez définir une fonction de rappel optionnelle qui sera appelée à chaque fois que l'état de consentement de tout changement de service donné. La valeur de consentement sera passée comme premier paramètre à la fonction (`true` = consenté). La configuration `service` sera passée comme second paramètre. Le contenu de ce champ est enveloppé avec `callback: function(consent, service) { }`</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_configuration.locallang_path.label" approved="yes">
+        <source>Locallang Path</source>
+        <target state="final">Chemin de Locallang</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_configuration.locallang_path.description" approved="yes">
+        <source>Optional path to an additional XLIFF file that overwrites the default labels or adds new labels (e.g. for custom purposes or services). If fluid templates have been stored for the labels created in this file (see the "Fluid Template Root Path" field), these will overwrite the classic labels from the Locallang file. Nevertheless, it is possible and common to reference the locallang file from the respective fluid template and obtain the actual label there (the label key is passed to the fluid template).</source>
+        <target state="final">Chemin optionnel vers un fichier XLIFF supplémentaire qui écrase les étiquettes par défaut ou ajoute de nouvelles étiquettes (par exemple, pour des besoins personnalisés ou des services). Si des modèles de fluide ont été stockés pour les étiquettes créées dans ce fichier (voir le champ "Chemin de racine du modèle de fluide"), elles écraseront les étiquettes classiques du fichier Locallang. Néanmoins, il est possible et courant de référencer le fichier locallang à partir du modèle de fluide respectif et d'obtenir le label réel là (la clé d'étiquette est passée au modèle de fluide).</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_configuration.locallang_path.placeholder" approved="yes">
+        <source>EXT:sitepackage/Resources/Private/Language/Klaro/locallang.xlf</source>
+        <target state="final">EXT:sitepackage/Ressources/Privé/Language/Klaro/locallang.xlf</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_configuration.fluidtemplate_rootpath.label" approved="yes">
+        <source>Fluid Template Root Path</source>
+        <target state="final">Chemin racine des gabarits Fluid</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_configuration.fluidtemplate_rootpath.description" approved="yes">
+        <source>As an alternative to the usual TypoScript configuration via constants under `plugin.tx_klaroconsentmanager.view`, a Fluid root path can be defined here, which has a higher priority than the paths configured in TypoScript. The three default directories `/Layouts/`, `/Partials/` and `/Templates/` are expected under this path. Fluid templates created here are used to enrich Locallang labels with additional functionality or to replace them completely. In this way, dynamic content or more complex HTML structures can be provided in a simple way. Fluid templates that are to override labels are expected in the subdirectory `/Templates/Labels/`.</source>
+        <target state="final">Comme alternative à la configuration TypoScript habituelle via des constantes dans `plugin.tx_klaroconsentmanager. iew`, un chemin racine de fluide peut être défini ici, qui a une priorité plus élevée que les chemins configurés dans TypoScript. Les trois répertoires par défaut `/Layouts/`, `/Partials/` et `/Templates/` sont attendus dans ce chemin. Les modèles de fluides créés ici sont utilisés pour enrichir les étiquettes Locallang avec des fonctionnalités supplémentaires ou pour les remplacer complètement. De cette façon, le contenu dynamique ou des structures HTML plus complexes peuvent être fournis de manière simple. Les modèles de fluides qui doivent remplacer les étiquettes sont attendus dans le sous-répertoire `/Templates/Labels/`.</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_configuration.fluidtemplate_rootpath.placeholder" approved="yes">
+        <source>EXT:sitepackage/Resources/Private/</source>
+        <target state="final">EXT:sitepackage/Ressources/Privé/</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_configuration.alignment.label" approved="yes">
+        <source>Alignment</source>
+        <target state="final">Alignement</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_configuration.alignment.description" approved="yes">
+        <source>Determines the alignment of the Consent box if `mustConsent` and `noticeAsModal` are disabled.</source>
+        <target state="final">Détermine l'alignement de la case Consentement si `mustConsent` et `noticeAsModal` sont désactivés.</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_configuration.alignment.I.top-left" approved="yes">
+        <source>Top-Left</source>
+        <target state="final">En bas à droite</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_configuration.alignment.I.top-right" approved="yes">
+        <source>Top-Right</source>
+        <target state="final">Haut-Droite</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_configuration.alignment.I.top-wide" approved="yes">
+        <source>Top-Wide</source>
+        <target state="final">Haut large</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_configuration.alignment.I.bottom-left" approved="yes">
+        <source>Bottom-Left</source>
+        <target state="final">Bas-Gauche</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_configuration.alignment.I.bottom-right" approved="yes">
+        <source>Bottom-Right</source>
+        <target state="final">En bas à droite</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_configuration.alignment.I.bottom-wide" approved="yes">
+        <source>Bottom-Wide</source>
+        <target state="final">En bas</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_configuration.alignment.I.top" approved="yes">
+        <source>Top</source>
+        <target state="final">En haut</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_configuration.alignment.I.bottom" approved="yes">
+        <source>Bottom</source>
+        <target state="final">Dessous</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_configuration.alignment.I.left" approved="yes">
+        <source>left</source>
+        <target state="final">à gauche</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_configuration.alignment.I.right" approved="yes">
+        <source>right</source>
+        <target state="final">a droite</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_configuration.alignment.I.wide" approved="yes">
+        <source>wide</source>
+        <target state="final">large</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_configuration.color_scheme.label" approved="yes">
+        <source>Color Scheme</source>
+        <target state="final">Préférence des couleurs</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_configuration.color_scheme.description" approved="yes">
+        <source>Default color scheme used for the display. The colors can also be overridden later via CSS variables.</source>
+        <target state="final">Schéma de couleurs par défaut utilisé pour l'affichage. Les couleurs peuvent également être remplacées plus tard via des variables CSS.</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_configuration.color_scheme.I.dark_neutral" approved="yes">
+        <source>Dark (neutral)</source>
+        <target state="final">Sombre (neutre)</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_configuration.color_scheme.I.light_neutral" approved="yes">
+        <source>Light (neutral)</source>
+        <target state="final">Lumière (neutre)</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_configuration.color_scheme.I.dark" approved="yes">
+        <source>Dark</source>
+        <target state="final">Sombre</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_configuration.color_scheme.I.light" approved="yes">
+        <source>Light</source>
+        <target state="final">Claire</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_configuration.append_show_button.label" approved="yes">
+        <source>Append Show Button</source>
+        <target state="final">Ajouter le bouton Show</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_configuration.append_show_button.description" approved="yes">
+        <source>If this option is set to `true`, a button is created in the frontend (via JavaScript) directly in front of the closing body tag, which triggers the opening of the Klaro consent management.</source>
+        <target state="final">Si cette option est définie à `true`, un bouton est créé dans le frontend (via JavaScript) directement en face de la balise du corps fermé, qui déclenche l'ouverture de la gestion du consentement Klaro.</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_configuration.append_reset_button.label" approved="yes">
+        <source>Append Reset Button</source>
+        <target state="final">Ajouter le bouton de réinitialisation</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_configuration.append_reset_button.description" approved="yes">
+        <source>If this option is set to `true`, a button is generated in the frontend (via JavaScript) directly in front of the closing body tag, which triggers the resetting of all settings and the opening of the Klaro consent management.</source>
+        <target state="final">Si cette option est définie à `true`, un bouton est généré dans le frontend (via JavaScript) directement en face de la balise du corps fermé, qui déclenche la réinitialisation de tous les paramètres et l'ouverture de la gestion du consentement Klaro.</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_configuration.hidden" approved="yes">
+        <source>Configuration visible</source>
+        <target state="final">Configuration visible</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_service" approved="yes">
+        <source>Klaro! Service</source>
+        <target state="final">Klaro! Service</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_service.tabs.general" approved="yes">
+        <source>General</source>
+        <target state="final">Général</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_service.tabs.cookies" approved="yes">
+        <source>Cookies</source>
+        <target state="final">Cookies</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_service.tabs.toggles" approved="yes">
+        <source>Toggles</source>
+        <target state="final">Interrupteurs</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_service.tabs.advanced" approved="yes">
+        <source>Advanced</source>
+        <target state="final">Avancé</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_service.tabs.access" approved="yes">
+        <source>Access</source>
+        <target state="final">Accès</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_service.palettes.general_palette" approved="yes">
+        <source>General Settings</source>
+        <target state="final">Paramètres généraux</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_service.palettes.cookie_palette" approved="yes">
+        <source>Cookie Settings</source>
+        <target state="final">Paramètres des cookies</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_service.palettes.toggles_palette" approved="yes">
+        <source>Toggles</source>
+        <target state="final">Interrupteurs</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_service.palettes.advanced_palette" approved="yes">
+        <source>Advanced Settings</source>
+        <target state="final">Réglages avancés</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_service.palettes.access_palette" approved="yes">
+        <source>Access</source>
+        <target state="final">Accès</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_service.I.true" approved="yes">
+        <source>true</source>
+        <target state="final">true</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_service.I.false" approved="yes">
+        <source>false</source>
+        <target state="final">false</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_service.name.label" approved="yes">
+        <source>Name</source>
+        <target state="final">Nom</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_service.name.description" approved="yes">
+        <source>Each service must have a unique name. Klaro will look for HTML elements with a matching `data-name` attribute to identify elements that belong to this service.</source>
+        <target state="final">Chaque service doit avoir un nom unique. Klaro cherchera des éléments HTML avec un attribut `data-name` correspondant pour identifier les éléments qui appartiennent à ce service.</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_service.name.placeholder" approved="yes">
+        <source>matomo</source>
+        <target state="final">matomo</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_service.title.label" approved="yes">
+        <source>Title</source>
+        <target state="final">Titre</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_service.title.description" approved="yes">
+        <source>The title defined here is not mandatory and is intended for backend display only.</source>
+        <target state="final">Le titre défini ici n'est pas obligatoire et n'est destiné qu'à l'affichage du backend.</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_service.title.placeholder" approved="yes">
+        <source>Matomo/Piwik</source>
+        <target state="final">Matomo/Piwik</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_service.name.I.adobe-fonts">
+        <source>Adobe Fonts</source>
+        <target state="needs-review-translation" state-qualifier="leveraged-mt">Polices en argile</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_service.name.I.adsense" approved="yes">
+        <source>Google AdSense</source>
+        <target state="final">Google AdSense</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_service.name.I.camera" approved="yes">
+        <source>Surveillance Camera</source>
+        <target state="final">Caméra de surveillance</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_service.name.I.career-captain">
+        <source>Career Captain</source>
+        <target state="needs-review-translation" state-qualifier="leveraged-mt">Capitaine de carrière</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_service.name.I.clarity" approved="yes">
+        <source>Microsoft Clarity</source>
+        <target state="final">Microsoft Clarity</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_service.name.I.cloudflare" approved="yes">
+        <source>Cloudflare</source>
+        <target state="final">Cloudflare</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_service.name.I.external-tracker" approved="yes">
+        <source>External Tracker</source>
+        <target state="final">Traqueur externe</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_service.name.I.facebook-pixel" approved="yes">
+        <source>Facebook Pixel</source>
+        <target state="final">Facebook Pixel</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_service.name.I.fast-fonts" approved="yes">
+        <source>Fast Fonts</source>
+        <target state="final">Fast Fonts</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_service.name.I.google-ads" approved="yes">
+        <source>Google Ads</source>
+        <target state="final">Google Ads</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_service.name.I.google-analytics" approved="yes">
+        <source>Google Analytics</source>
+        <target state="final">Google Analytics</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_service.name.I.google-fonts" approved="yes">
+        <source>Google Fonts</source>
+        <target state="final">Google Fonts</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_service.name.I.google-maps" approved="yes">
+        <source>Google Maps</source>
+        <target state="final">Google Maps</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_service.name.I.google-tag-manager" approved="yes">
+        <source>Google Tag Manager</source>
+        <target state="final">Google Tag Manager</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_service.name.I.inline-tracker" approved="yes">
+        <source>Inline Tracker</source>
+        <target state="final">Traqueur en ligne</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_service.name.I.instagram" approved="yes">
+        <source>Instagram</source>
+        <target state="final">Instagram</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_service.name.I.intercom" approved="yes">
+        <source>Intercom</source>
+        <target state="final">Intercom</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_service.name.I.klaro">
+        <source>Klaro!</source>
+        <target state="needs-review-translation" state-qualifier="leveraged-mt">Klaro!</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_service.name.I.matomo" approved="yes">
+        <source>Matomo/Piwik</source>
+        <target state="final">Matomo/Piwik</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_service.name.I.mouseflow" approved="yes">
+        <source>Mouseflow</source>
+        <target state="final">Flux de souris</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_service.name.I.salesviewer">
+        <source>SalesViewer</source>
+        <target state="needs-review-translation" state-qualifier="leveraged-mt">Visionneuse de ventes</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_service.name.I.tiktok" approved="yes">
+        <source>TikTok</source>
+        <target state="final">TikTok</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_service.name.I.twitter" approved="yes">
+        <source>X (formerly Twitter)</source>
+        <target state="final">X (anciennement Twitter)</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_service.name.I.userlike" approved="yes">
+        <source>Userlike</source>
+        <target state="final">Userlike</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_service.name.I.vimeo" approved="yes">
+        <source>Vimeo</source>
+        <target state="final">Vimeo</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_service.name.I.youtube" approved="yes">
+        <source>YouTube</source>
+        <target state="final">YouTube</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_service.default.label" approved="yes">
+        <source>Default</source>
+        <target state="final">Par défaut</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_service.default.description" approved="yes">
+        <source>If `default` is set to `true`, the service will be enabled by default. This overrides the global `default` setting (if this is set to "false").</source>
+        <target state="final">Si `default` est défini à `true`, le service sera activé par défaut. Cela remplace le paramètre global `default` (si réglé sur "false").</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_service.purposes.label" approved="yes">
+        <source>Purposes</source>
+        <target state="final">Utilisations</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_service.purposes.description" approved="yes">
+        <source>The purpose(s) of this service that will be listed on the consent notice. Do not forget to add translations for all purposes you list here.</source>
+        <target state="final">Les fins de ce service qui seront listées sur l'avis de consentement. N'oubliez pas d'ajouter des traductions pour tous les buts que vous indiquez ici.</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_service.purposes.optgroup.custom" approved="yes">
+        <source>Custom</source>
+        <target state="final">Personnalisé</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_service.purposes.optgroup.default" approved="yes">
+        <source>Default</source>
+        <target state="final">Par défaut</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_service.purposes.optgroup.additional" approved="yes">
+        <source>Additional</source>
+        <target state="final">Additionnel</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_service.purposes.I.functional" approved="yes">
+        <source>Functional</source>
+        <target state="final">Fonctionnel</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_service.purposes.I.performance" approved="yes">
+        <source>Performance</source>
+        <target state="final">Analyse des performances</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_service.purposes.I.marketing" approved="yes">
+        <source>Marketing</source>
+        <target state="final">Marketing</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_service.purposes.I.advertising" approved="yes">
+        <source>Advertising</source>
+        <target state="final">Publicité</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_service.purposes.I.analytics" approved="yes">
+        <source>Analytics</source>
+        <target state="final">Mesure d'audience</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_service.purposes.I.security" approved="yes">
+        <source>Security</source>
+        <target state="final">Sécurité</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_service.purposes.I.livechat" approved="yes">
+        <source>Live Chat</source>
+        <target state="final">Discussion en temps réel</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_service.purposes.I.styling" approved="yes">
+        <source>Styling</source>
+        <target state="final">Style</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_service.purposes.I.videos" approved="yes">
+        <source>Videos</source>
+        <target state="final">Vidéos</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_service.purposes.I.social" approved="yes">
+        <source>Social Media</source>
+        <target state="final">Réseaux sociaux</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_service.purposes.I.misc" approved="yes">
+        <source>Miscellaneous</source>
+        <target state="final">Divers</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_service.cookies.label" approved="yes">
+        <source>Cookies</source>
+        <target state="final">Cookies</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_service.cookies.description" approved="yes">
+        <source>You can either only provide a cookie name or regular expression (regex) or a list consisting of a name or regex, a path and a cookie domain. Providing a path and domain is necessary if you have services that set cookies for a path that is not "/", or a domain that is not the current domain. If you do not set these values properly, the cookie can't be deleted by Klaro, as there is no way to access the path or domain of a cookie in JS. Notice that it is not possible to delete cookies that were set on a third-party domain, or cookies that have the HTTPOnly attribute: https://developer.mozilla.org/en-US/docs/Web/API/Document/cookie#new-cookie_domain</source>
+        <target state="final">Vous pouvez soit fournir un nom de cookie ou une expression régulière (regex) soit une liste composée d'un nom ou d'un regex, un chemin et un domaine de cookies. Fournir un chemin et un domaine est nécessaire si vous avez des services qui définissent des cookies pour un chemin qui n'est pas "/", ou un domaine qui n'est pas le domaine courant. Si vous ne définissez pas ces valeurs correctement, le cookie ne peut pas être supprimé par Klaro, Comme il n'y a aucun moyen d'accéder au chemin ou au domaine d'un cookie en JS. Notez qu'il n'est pas possible de supprimer les cookies qui ont été définis sur un domaine tiers, ou les cookies qui ont l'attribut HTTPOnly : https://developer.mozilla.org/fr-US/docs/Web/API/Document/cookie#new-cookie_domain</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_service.required.label" approved="yes">
+        <source>Required</source>
+        <target state="final">Obligatoire</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_service.required.description" approved="yes">
+        <source>If `required` is set to `true`, Klaro will not allow this service to be disabled by the user. Use this for services that are always required for your website to function (e.g. shopping cart cookies).</source>
+        <target state="final">Si `required` est défini à `true`, Klaro ne permettra pas à ce service d'être désactivé par l'utilisateur. Utilisez ceci pour les services qui sont toujours nécessaires au fonctionnement de votre site Web (par exemple, les cookies de panier d'achat).</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_service.opt_out.label" approved="yes">
+        <source>Opt-Out</source>
+        <target state="final">Se désinscrire</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_service.opt_out.description" approved="yes">
+        <source>If `optOut` is set to `true`, Klaro will load this service even before the user has given explicit consent. We strongly advise against this.</source>
+        <target state="final">Si `optOut` est défini à `true`, Klaro chargera ce service avant même que l'utilisateur ait donné son consentement explicite. Nous recommandons fortement de ne pas le faire.</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_service.only_once.label" approved="yes">
+        <source>Only Once</source>
+        <target state="final">Une seule fois</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_service.only_once.description" approved="yes">
+        <source>If `onlyOnce` is set to `true`, the service will only be executed once regardless how often the user toggles it on and off. This is relevant e.g. for tracking scripts that would generate new page view events every time Klaro disables and re-enables them due to a consent change by the user.</source>
+        <target state="final">Si `onlyOnce` est défini à `true`, le service ne sera exécuté qu'une seule fois, quelle que soit la fréquence à laquelle l'utilisateur l'allumera et éteindra. Ceci est pertinent, par ex. pour les scripts de suivi qui généreraient de nouveaux événements de vue de page chaque fois que Klaro désactive et les réactive en raison d'un changement de consentement de l'utilisateur.</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_service.contextual_consent_only.label" approved="yes">
+        <source>Contextual Consent Only</source>
+        <target state="final">Consentement contextuel uniquement</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_service.contextual_consent_only.description" approved="yes">
+        <source>Content can be excluded from general consent by setting contextualConsentOnly to `true`. In this case, the consent must be contextual.</source>
+        <target state="final">Le contenu peut être exclu du consentement général en définissant contextualConsentOnly à `true`. Dans ce cas, le consentement doit être contextuel.</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_service.callback.label" approved="yes">
+        <source>Callback</source>
+        <target state="final">Rappel</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_service.callback.description" approved="yes">
+        <source>You can define an optional callback function that will be called each time the consent state for the given service changes. The consent value will be passed as the first parameter to the function (`true` = consented). The `service` config will be passed as the second parameter. The content of this field is wrapped with `callback: function(consent, service) { }`. `consent` is a bool that reflects the current state. service` holds all information about the currently selected service. When you enter something here, you need to know what you are doing. It is your responsibility that no JavaScript errors occur.</source>
+        <target state="final">Vous pouvez définir une fonction de rappel optionnelle qui sera appelée à chaque fois que l'état de consentement pour les changements de service donnés. La valeur de consentement sera passée comme premier paramètre à la fonction (`true` = consenté). La configuration `service` sera passée comme second paramètre. Le contenu de ce champ est enveloppé avec `callback: function(consent, service) { }`. `consent` est un booléen qui reflète l'état actuel. service` contient toutes les informations sur le service actuellement sélectionné. Lorsque vous entrez quelque chose ici, vous devez savoir ce que vous faites. Il est de votre responsabilité qu'aucune erreur JavaScript ne se produise.</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_service.on_accept.label" approved="yes">
+        <source>`onAccept` callback function</source>
+        <target state="final">`onAccept` callback function</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_service.on_accept.description" approved="yes">
+        <source>Here you can define JavaScript code that will be called each time the service was accepted. The content of this field is wrapped with `callback: function(handlerOpts) { }`. The object `handlerOpts` contains the objects `config` (the current Klaro! configuration), `service` (the current service) and possibly `vars` (any values defined by object notation in the vars field in the backend). When you enter something here, you need to know what you are doing. It is your responsibility that no JavaScript errors occur.</source>
+        <target state="final">Ici, vous pouvez définir le code JavaScript qui sera appelé chaque fois que le service a été accepté. Le contenu de ce champ est enveloppé par `callback: function(handlerOpts) { }`. L'objet `handlerOpts` contient les objets `config` (le Klaro actuel! configuration), `service` (le service actuel) et éventuellement `vars` (toutes les valeurs définies par la notation d'objet dans le champ vars du backend). Lorsque vous entrez quelque chose ici, vous devez savoir ce que vous faites. Il est de votre responsabilité qu'aucune erreur JavaScript ne se produise.</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_service.on_init.label" approved="yes">
+        <source>`onInit` callback function</source>
+        <target state="final">`onInit` callback function</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_service.on_init.description" approved="yes">
+        <source>Here you can define JavaScript code that will be called once per page-load. The content of this field is wrapped with `callback: function(handlerOpts) { }`. The object `handlerOpts` contains the objects `config` (the current Klaro! configuration), `service` (the current service) and possibly `vars` (any values defined by object notation in the vars field in the backend). When you enter something here, you need to know what you are doing. It is your responsibility that no JavaScript errors occur.</source>
+        <target state="final">Ici, vous pouvez définir le code JavaScript qui sera appelé chaque fois que le service a été accepté. Le contenu de ce champ est enveloppé par `callback: function(handlerOpts) { }`. L'objet `handlerOpts` contient les objets `config` (le Klaro actuel! configuration), `service` (le service actuel) et éventuellement `vars` (toutes les valeurs définies par la notation d'objet dans le champ vars du backend). Lorsque vous entrez quelque chose ici, vous devez savoir ce que vous faites. Il est de votre responsabilité qu'aucune erreur JavaScript ne se produise.</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_service.on_decline.label" approved="yes">
+        <source>`onDecline` callback function</source>
+        <target state="final">Fonction de rappel `onDecline`</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_service.on_decline.description" approved="yes">
+        <source>Here you can define JavaScript code that will be called each time the service was declined. The content of this field is wrapped with `callback: function(handlerOpts) { }`. The object `handlerOpts` contains the objects `config` (the current Klaro! configuration), `service` (the current service) and possibly `vars` (any values defined by object notation in the vars field in the backend). When you enter something here, you need to know what you are doing. It is your responsibility that no JavaScript errors occur.</source>
+        <target state="final">Ici, vous pouvez définir le code JavaScript qui sera appelé chaque fois que le service a été accepté. Le contenu de ce champ est enveloppé par `callback: function(handlerOpts) { }`. L'objet `handlerOpts` contient les objets `config` (le Klaro actuel! configuration), `service` (le service actuel) et éventuellement `vars` (toutes les valeurs définies par la notation d'objet dans le champ vars du backend). Lorsque vous entrez quelque chose ici, vous devez savoir ce que vous faites. Il est de votre responsabilité qu'aucune erreur JavaScript ne se produise.</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_service.vars.label" approved="yes">
+        <source>Variables</source>
+        <target state="final">Variables</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_service.vars.description" approved="yes">
+        <source>Variables that can be used in callback functions. The content of this field is enclosed in curly brackets. The JavaScript object notation is expected in them. When you enter something here, you need to know what you are doing. It is your responsibility that no JavaScript errors occur.</source>
+        <target state="final">Variables qui peuvent être utilisées dans les fonctions de rappel. Le contenu de ce champ est encadré par des accolades. La notation de l'objet JavaScript est attendue dans eux. Lorsque vous entrez quelque chose ici, vous devez savoir ce que vous faites. Il est de votre responsabilité qu'aucune erreur JavaScript ne se produise.</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_service.hidden" approved="yes">
+        <source>Service visible</source>
+        <target state="final">Service visible</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_cookie" approved="yes">
+        <source>Cookie</source>
+        <target state="final">Cookie</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_cookie.tabs.general" approved="yes">
+        <source>General</source>
+        <target state="final">Général</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_cookie.tabs.access" approved="yes">
+        <source>Access</source>
+        <target state="final">Accès</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_cookie.palettes.identification_palette" approved="yes">
+        <source>Identification and presentation of the cookie</source>
+        <target state="final">Identification et présentation du cookie</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_cookie.palettes.technic_palette" approved="yes">
+        <source>Technically relevant settings</source>
+        <target state="final">Paramètres techniquement pertinents</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_cookie.palettes.technic_palette.description" approved="yes">
+        <source>This information is technically evaluated by Klaro! to manipulate the cookie.</source>
+        <target state="final">Ces informations sont techniquement évaluées par Klaro pour manipuler le cookie.</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_cookie.palettes.expiration_palette" approved="yes">
+        <source>Expiration Time</source>
+        <target state="final">Heure d'expiration</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_cookie.palettes.access_palette" approved="yes">
+        <source>Access</source>
+        <target state="final">Accès</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_cookie.identifier.label" approved="yes">
+        <source>Identifier</source>
+        <target state="final">Identificateur</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_cookie.identifier.description" approved="yes">
+        <source>This is a unique identifier for this cookie. It must be written in lower case and must not contain any spaces, only the characters a-z, 0-9 and "-" or "_". The identifier can be used in Fluid, for example.</source>
+        <target state="final">Ceci est un identifiant unique pour ce cookie. Il doit être écrit en minuscule et ne doit pas contenir d'espaces, seulement les caractères a-z, 0-9 et "-" ou "_". L'identifiant peut par exemple être utilisé dans le fluide.</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_cookie.identifier.placeholder" approved="yes">
+        <source>lowercase_alphanum-x</source>
+        <target state="final">alphanumérique</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_cookie.title.label" approved="yes">
+        <source>Title</source>
+        <target state="final">Titre</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_cookie.title.description" approved="yes">
+        <source>If set, this title will be used in the frontend/backend for displaying the cookie. This title has no technical relevance (contrary to the `pattern` field).</source>
+        <target state="final">Si défini, ce titre sera utilisé dans le front-end/backend pour afficher le cookie. Ce titre n'a pas de pertinence technique (contrairement au champ `pattern`).</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_cookie.title.placeholder" approved="yes">
+        <source>mf_[Session]</source>
+        <target state="final">mf_[Session]</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_cookie.pattern.label" approved="yes">
+        <source>Name / Pattern</source>
+        <target state="final">Nom / modèle</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_cookie.pattern.description" approved="yes">
+        <source>Name or regular expression (regex)</source>
+        <target state="final">Nom ou expression régulière (regex)</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_cookie.pattern.placeholder" approved="yes">
+        <source>/^_pk_.*$/</source>
+        <target state="final">/^_pk_.*$/</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_cookie.path.label" approved="yes">
+        <source>Path</source>
+        <target state="final">Chemin d'accès</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_cookie.path.description" approved="yes">
+        <source>Provide a path if you have services that set cookies for a path that is not "/"</source>
+        <target state="final">Fournir un chemin si vous avez des services qui définissent des cookies pour un chemin qui n'est pas "/"</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_cookie.path.placeholder" approved="yes">
+        <source>/</source>
+        <target state="final">/</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_cookie.domain.label" approved="yes">
+        <source>Domain</source>
+        <target state="final">Domaine</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_cookie.domain.description" approved="yes">
+        <source>Provide a domain if you have services that set cookies for a domain that is not the current domain.</source>
+        <target state="final">Fournir un domaine si vous avez des services qui définissent des cookies pour un domaine qui n'est pas le domaine actuel.</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_cookie.domain.placeholder" approved="yes">
+        <source>klaro.kiprotect.com</source>
+        <target state="final">klaro.kiprotect.com</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_cookie.expires_after.label" approved="yes">
+        <source>Expires after</source>
+        <target state="final">Expire après</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_cookie.expires_after.description" approved="yes">
+        <source>Number of years/months/days/hours/minutes/seconds that will elapse before this cookie expires.</source>
+        <target state="final">Nombre d'années/mois/jours/heures/minutes/secondes qui s'écouleront avant l'expiration de ce cookie.</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_cookie.expires_after.placeholder" approved="yes">
+        <source>60</source>
+        <target state="final">60</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_cookie.expires_after_unit.label" approved="yes">
+        <source>Expires after unit</source>
+        <target state="final">Expire après l'unité</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_cookie.expires_after_unit.description" approved="yes">
+        <source>Unit used for the "Expires after" specification. The special value `end-of-session` does not need a numeric value and hides the "Expires after" field accordingly.</source>
+        <target state="final">Unité utilisée pour la spécification "Expire après". La valeur spéciale `end-of-session` n'a pas besoin d'une valeur numérique et masque le champ "Expire après" en conséquence.</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_cookie.expires_after_unit.I.years" approved="yes">
+        <source>Years</source>
+        <target state="final">Ans</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_cookie.expires_after_unit.I.months" approved="yes">
+        <source>Months</source>
+        <target state="final">Mois</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_cookie.expires_after_unit.I.days" approved="yes">
+        <source>Days</source>
+        <target state="final">Jours</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_cookie.expires_after_unit.I.hours" approved="yes">
+        <source>Hours</source>
+        <target state="final">Heures</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_cookie.expires_after_unit.I.minutes" approved="yes">
+        <source>Minutes</source>
+        <target state="final">Minutes</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_cookie.expires_after_unit.I.seconds" approved="yes">
+        <source>Seconds</source>
+        <target state="final">Secondes</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_cookie.expires_after_unit.I.end-of-session" approved="yes">
+        <source>End of session</source>
+        <target state="final">Fin de session</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_cookie.expires_after_unit.I.persistent" approved="yes">
+        <source>Persistent</source>
+        <target state="final">Persistant</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_cookie.hidden" approved="yes">
+        <source>Cookie visible</source>
+        <target state="final">Cookie visible</target>
+      </trans-unit>
+      <trans-unit id="tt_content.tx_klaroconsentmanager_service.label" approved="yes">
+        <source>Contextual Consent</source>
+        <target state="final">Contenu Contextuel</target>
+      </trans-unit>
+      <trans-unit id="tt_content.tx_klaroconsentmanager_service.description" approved="yes">
+        <source>When a service is selected in this field, the content item is displayed via contextual consent only if the user has agreed to use the selected service in the Klaro! Consent Manager. Please make sure that the static TypoScript template of the Klaro! Consent Manager has been added to use this feature.</source>
+        <target state="final">Quand un service est sélectionné dans ce champ, l'élément de contenu n'est affiché par consentement contextuel que si l'utilisateur a accepté d'utiliser le service sélectionné dans le Klaro ! Gestionnaire de consentement. Veuillez vous assurer que le modèle statique TypoScript du gestionnaire de consentement Klaro! a été ajouté pour utiliser cette fonctionnalité.</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_configuration.no_notice.label" approved="yes">
+        <source>Hide initial consent notice</source>
+        <target state="final">Masquer l'avis de consentement initial</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_configuration.no_notice.description" approved="yes">
+        <source>Do not show the initial notice. The manager can still be opened manually or via contextual consent.</source>
+        <target state="final">Ne pas afficher l'avis initial. Le gestionnaire peut toujours être ouvert manuellement ou via le consentement contextuel.</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_configuration.powered_by.label" approved="yes">
+        <source>Powered by URL override</source>
+        <target state="final">Propulsé par surcharge d'URL</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_configuration.powered_by.description" approved="yes">
+        <source>Override the “powered by” link in the consent modal. Leave empty to use Klaro default.</source>
+        <target state="final">Remplacer le lien « alimenté par» dans le modal de consentement. Laisser vide pour utiliser Klaro par défaut.</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_configuration.powered_by.placeholder" approved="yes">
+        <source>https://example.com/your-link</source>
+        <target state="final">https://exemple.com/votre-lien</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_configuration.style_prefix.label" approved="yes">
+        <source>Style prefix</source>
+        <target state="final">Style prefix</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_configuration.style_prefix.description" approved="yes">
+        <source>Prefix for CSS classes/container to namespace Klaro styles.</source>
+        <target state="final">Préfixe pour les classes/conteneur CSS pour les styles de namespace Klaro.</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_configuration.style_prefix.placeholder" approved="yes">
+        <source>my-klaro</source>
+        <target state="final">my-klaro</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
