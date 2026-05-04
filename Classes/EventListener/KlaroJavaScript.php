@@ -67,7 +67,7 @@ class KlaroJavaScript
             'defer' => 'defer',
         ];
 
-        $klaroConfigurationPath = ltrim((string)ExtensionConfigurationUtility::getConfiguration('klaroConfigurationPath'), '/');
+        $klaroConfigurationPath = (string) ExtensionConfigurationUtility::getConfiguration('klaroConfigurationPath');
         $useInlineKlaroConfiguration = true;
         if ($klaroConfigurationPath !== '') {
             /** @var Site $site */
@@ -77,6 +77,18 @@ class KlaroJavaScript
 
             if ($rootPageId > 0) {
                 $useInlineKlaroConfiguration = false;
+                $klaroConfigurationPath = trim($klaroConfigurationPath);
+                if (str_starts_with($klaroConfigurationPath, 'URI:')) {
+                    $klaroConfigurationPath = substr($klaroConfigurationPath, 4);
+                }
+                $klaroConfigurationPath = '/' . ltrim($klaroConfigurationPath, '/');
+
+                if (version_compare($this->typo3Version->getVersion(), '14.0.0', '>=')) {
+                    $klaroConfigurationPath = 'URI:' . $klaroConfigurationPath;
+                } else {
+                    $assetOptions['external'] = true;
+                }
+
                 $event->getAssetCollector()->addJavaScript(
                     'klaro-config',
                     $klaroConfigurationPath,

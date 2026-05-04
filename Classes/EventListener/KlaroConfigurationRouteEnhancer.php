@@ -28,7 +28,11 @@ final readonly class KlaroConfigurationRouteEnhancer
 
     public function __invoke(SiteConfigurationLoadedEvent $event): void
     {
-        $klaroConfigurationPath = ltrim((string)ExtensionConfigurationUtility::getConfiguration('klaroConfigurationPath'), '/');
+        $klaroConfigurationPath = trim((string) ExtensionConfigurationUtility::getConfiguration('klaroConfigurationPath'));
+        if (str_starts_with($klaroConfigurationPath, 'URI:')) {
+            $klaroConfigurationPath = substr($klaroConfigurationPath, 4);
+        }
+        $klaroConfigurationPath = ltrim($klaroConfigurationPath, '/');
         if ($klaroConfigurationPath === '') {
             return;
         }
