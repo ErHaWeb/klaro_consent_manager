@@ -22,13 +22,15 @@ use ErHaWeb\KlaroConsentManager\Utility\TypoScriptUtility;
 use Psr\Http\Message\ServerRequestInterface;
 use TYPO3\CMS\Core\Attribute\AsEventListener;
 use TYPO3\CMS\Core\Http\ApplicationType;
+use TYPO3\CMS\Core\Information\Typo3Version;
 use TYPO3\CMS\Core\Page\Event\BeforeStylesheetsRenderingEvent;
 
 #[AsEventListener(identifier: 'KlaroConsentManager/KlaroStylesheet')]
 class KlaroStylesheet
 {
     public function __construct(
-        private readonly KlaroServiceFactory $klaroServiceFactory
+        private readonly KlaroServiceFactory $klaroServiceFactory,
+        private readonly Typo3Version $typo3Version,
     ) {}
 
     public function __invoke(BeforeStylesheetsRenderingEvent $event): void
@@ -52,12 +54,28 @@ class KlaroStylesheet
             return;
         }
 
+        $cspOptionName = version_compare($this->typo3Version->getVersion(), '14.2.0', '>=')
+            ? 'csp'
+            : 'useNonce';
+
+        $assetOptions = [
+            'priority' => true,
+            $cspOptionName => true,
+        ];
+
         $asset = $event->getAssetCollector()->getStyleSheets();
-        $attributes = ['defer' => 'defer'];
+        $attributes = [
+            'defer' => 'defer',
+        ];
 
         foreach (($settings['css'] ?? []) as $key => $css) {
             if (!($asset[$key] ?? false) && $css) {
-                $event->getAssetCollector()->addStyleSheet($key, $css, $attributes, ['priority' => true, 'csp' => true]);
+                $event->getAssetCollector()->addStyleSheet(
+                    $key,
+                    $css,
+                    $attributes,
+                    $assetOptions
+                );
             }
         }
     }

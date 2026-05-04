@@ -22,13 +22,15 @@ use ErHaWeb\KlaroConsentManager\Utility\TypoScriptUtility;
 use Psr\Http\Message\ServerRequestInterface;
 use TYPO3\CMS\Core\Attribute\AsEventListener;
 use TYPO3\CMS\Core\Http\ApplicationType;
+use TYPO3\CMS\Core\Information\Typo3Version;
 use TYPO3\CMS\Core\Page\Event\BeforeJavaScriptsRenderingEvent;
 
 #[AsEventListener(identifier: 'KlaroConsentManager/KlaroJavaScript')]
 class KlaroJavaScript
 {
     public function __construct(
-        private readonly KlaroServiceFactory $klaroServiceFactory
+        private readonly KlaroServiceFactory $klaroServiceFactory,
+        private readonly Typo3Version $typo3Version,
     ) {}
 
     public function __invoke(BeforeJavaScriptsRenderingEvent $event): void
@@ -49,27 +51,52 @@ class KlaroJavaScript
             return;
         }
 
+        $cspOptionName = version_compare($this->typo3Version->getVersion(), '14.2.0', '>=')
+            ? 'csp'
+            : 'useNonce';
+
+        $assetOptions = [
+            'priority' => true,
+            $cspOptionName => true,
+        ];
+
         if ($event->isInline()) {
             $configVariableName = $configuration['config_variable_name'] ?: 'klaroConfig';
             $asset = $event->getAssetCollector()->getInlineJavaScripts();
+
             if (!($asset[$configVariableName] ?? false) && $configurationInlineJavaScript = $klaroService->getConfigurationInlineJavaScript()) {
                 $attributes = [
                     'defer' => 'defer',
                 ];
-                $event->getAssetCollector()->addInlineJavaScript($configVariableName, $configurationInlineJavaScript, $attributes, ['priority' => true, 'csp' => true]);
+
+                $event->getAssetCollector()->addInlineJavaScript(
+                    $configVariableName,
+                    $configurationInlineJavaScript,
+                    $attributes,
+                    $assetOptions
+                );
             }
+
             return;
         }
 
         $asset = $event->getAssetCollector()->getJavaScripts();
-        $attributes = ['defer' => 'defer'];
+        $attributes = [
+            'defer' => 'defer',
+        ];
 
         foreach (($settings['javascript'] ?? []) as $key => $javascript) {
             if (!($asset[$key] ?? false) && $javascript) {
                 if ($key === 'klaro-default' && $configuration['config_variable_name']) {
                     $attributes['data-klaro-config'] = $configuration['config_variable_name'];
                 }
-                $event->getAssetCollector()->addJavaScript($key, $javascript, $attributes, ['priority' => true, 'csp' => true]);
+
+                $event->getAssetCollector()->addJavaScript(
+                    $key,
+                    $javascript,
+                    $attributes,
+                    $assetOptions
+                );
             }
         }
     }
