@@ -309,15 +309,16 @@ If another application should use the Klaro configuration managed in TYPO3,
 TYPO3 can return the active configuration as standalone JavaScript. The default
 path is `/klaro-config.js` and can be changed in the
 :ref:`global extension configuration <configuration-extension-configuration>`.
-The middleware `ErHaWeb\KlaroConsentManager\Middleware\KlaroConfiguration`
-returns the necessary JavaScript code.
+The path is resolved through TYPO3's site routing and returns a dedicated
+`PAGE` type so the same TypoScript and Fluid label configuration is used as for
+the frontend integration.
 
 ..  _features-csp-compliance:
 
 CSP compliance
 ==============
 
-Frontend CSS, JavaScript, and the generated inline configuration are registered
+Frontend CSS, JavaScript, and the standalone configuration asset are registered
 through TYPO3's AssetCollector with nonce support. Trigger links are converted
 to data attributes and click handlers instead of inline `onclick` attributes.
 This keeps the extension compatible with TYPO3's Content Security Policy

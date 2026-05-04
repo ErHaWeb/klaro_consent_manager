@@ -8,7 +8,7 @@ Global Extension Configuration
 
 The global extension configuration is defined in `ext_conf_template.txt`.
 It is independent of the site-specific Klaro configuration record and applies
-to the frontend middleware of the extension.
+to global frontend integration details of the extension.
 
 Backend path
 ============
@@ -49,10 +49,14 @@ Settings
     :type: string
     :Default: `/klaro-config.js`
 
-    If this value is not empty, the `KlaroConfiguration` middleware exposes the
-    active Klaro configuration as JavaScript at this path. The default endpoint
-    is `/klaro-config.js`. See :ref:`features-standalone-configuration` for the
-    feature overview.
+    If this value is not empty, the active Klaro configuration is exposed as
+    JavaScript at this path and loaded before the Klaro JavaScript library. The
+    default endpoint is `/klaro-config.js`. See
+    :ref:`features-standalone-configuration` for the feature overview.
 
     This endpoint is useful when the Klaro configuration managed in TYPO3
-    should be consumed by another application.
+    should be consumed by another application. It can also be set to an empty
+    value to use the backwards-compatible inline configuration fallback.
+
+    After changing this value, flush TYPO3's system caches so the generated
+    site routing configuration is rebuilt.

@@ -102,8 +102,8 @@ The following features work the same way in TYPO3 v13 and TYPO3 v14:
 * Automatic frontend asset registration through TYPO3's AssetCollector with
   CSP nonce support.
 * :ref:`Standalone configuration output <features-standalone-configuration>`
-  through the PSR-15 middleware at the globally configured path, by default
-  `/klaro-config.js`.
+  through TYPO3's site routing and a dedicated `PAGE` type at the globally
+  configured path, by default `/klaro-config.js`.
 * CSP-safe :ref:`trigger link replacement <features-trigger-links>` through
   `ErHaWeb\KlaroConsentManager\Middleware\ReplaceBeforeOutput`.
 * :ref:`TypoScript condition variable <klaroIsActive>` `klaroIsActive`.

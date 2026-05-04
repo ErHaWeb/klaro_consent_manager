@@ -18,12 +18,14 @@ declare(strict_types=1);
 namespace ErHaWeb\KlaroConsentManager\EventListener;
 
 use ErHaWeb\KlaroConsentManager\Service\KlaroServiceFactory;
+use ErHaWeb\KlaroConsentManager\Utility\ExtensionConfigurationUtility;
 use ErHaWeb\KlaroConsentManager\Utility\TypoScriptUtility;
 use Psr\Http\Message\ServerRequestInterface;
 use TYPO3\CMS\Core\Attribute\AsEventListener;
 use TYPO3\CMS\Core\Http\ApplicationType;
 use TYPO3\CMS\Core\Information\Typo3Version;
 use TYPO3\CMS\Core\Page\Event\BeforeJavaScriptsRenderingEvent;
+use TYPO3\CMS\Core\Site\Entity\Site;
 
 #[AsEventListener(identifier: 'KlaroConsentManager/KlaroJavaScript')]
 class KlaroJavaScript
@@ -60,15 +62,35 @@ class KlaroJavaScript
             $cspOptionName => true,
         ];
 
-        if ($event->isInline()) {
+        $asset = $event->getAssetCollector()->getJavaScripts();
+        $attributes = [
+            'defer' => 'defer',
+        ];
+
+        $klaroConfigurationPath = ltrim((string)ExtensionConfigurationUtility::getConfiguration('klaroConfigurationPath'), '/');
+        $useInlineKlaroConfiguration = true;
+        if ($klaroConfigurationPath !== '') {
+            /** @var Site $site */
+            $site = $request->getAttribute('site');
+            $configuration = $site->getConfiguration();
+            $rootPageId = (int)($configuration['rootPageId'] ?? 0);
+
+            if ($rootPageId > 0) {
+                $useInlineKlaroConfiguration = false;
+                $event->getAssetCollector()->addJavaScript(
+                    'klaro-config',
+                    $klaroConfigurationPath,
+                    $attributes,
+                    $assetOptions
+                );
+            }
+        }
+
+        if ($useInlineKlaroConfiguration && $event->isInline()) {
             $configVariableName = $configuration['config_variable_name'] ?: 'klaroConfig';
             $asset = $event->getAssetCollector()->getInlineJavaScripts();
 
             if (!($asset[$configVariableName] ?? false) && $configurationInlineJavaScript = $klaroService->getConfigurationInlineJavaScript()) {
-                $attributes = [
-                    'defer' => 'defer',
-                ];
-
                 $event->getAssetCollector()->addInlineJavaScript(
                     $configVariableName,
                     $configurationInlineJavaScript,
@@ -79,11 +101,6 @@ class KlaroJavaScript
 
             return;
         }
-
-        $asset = $event->getAssetCollector()->getJavaScripts();
-        $attributes = [
-            'defer' => 'defer',
-        ];
 
         foreach (($settings['javascript'] ?? []) as $key => $javascript) {
             if (!($asset[$key] ?? false) && $javascript) {

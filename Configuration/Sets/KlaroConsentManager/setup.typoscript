@@ -33,6 +33,25 @@ plugin.tx_klaroconsentmanager {
   }
 }
 
+klaroConfiguration = PAGE
+klaroConfiguration {
+  typeNum = 1699541845
+  config {
+    cache_period = 900
+    disableAllHeaderCode = 1
+    admPanel = 0
+    removeDefaultJS = 1
+    removeDefaultCss = 1
+    additionalHeaders {
+      10.header = Content-Type:application/javascript;charset=utf-8
+      20.header = X-Robots-Tag:noindex
+    }
+  }
+
+  10 = USER
+  10.userFunc = ErHaWeb\KlaroConsentManager\UserFunc\KlaroConfigurationRenderer->render
+}
+
 lib.contentElement {
   layoutRootPaths {
     1720091199 = EXT:klaro_consent_manager/Resources/Private/Extensions/FluidStyledContent/Layouts/
