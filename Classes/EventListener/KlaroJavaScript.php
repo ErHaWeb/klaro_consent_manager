@@ -86,8 +86,8 @@ class KlaroJavaScript
             }
         }
 
+        $configVariableName = ($configuration['config_variable_name'] ?? null) ?: 'klaroConfig';
         if ($useInlineKlaroConfiguration && $event->isInline()) {
-            $configVariableName = $configuration['config_variable_name'] ?: 'klaroConfig';
             $asset = $event->getAssetCollector()->getInlineJavaScripts();
 
             if (!($asset[$configVariableName] ?? false) && $configurationInlineJavaScript = $klaroService->getConfigurationInlineJavaScript()) {
@@ -104,8 +104,8 @@ class KlaroJavaScript
 
         foreach (($settings['javascript'] ?? []) as $key => $javascript) {
             if (!($asset[$key] ?? false) && $javascript) {
-                if ($key === 'klaro-default' && $configuration['config_variable_name']) {
-                    $attributes['data-klaro-config'] = $configuration['config_variable_name'];
+                if ($key === 'klaro-default' && $configVariableName) {
+                    $attributes['data-klaro-config'] = $configVariableName;
                 }
 
                 $event->getAssetCollector()->addJavaScript(
