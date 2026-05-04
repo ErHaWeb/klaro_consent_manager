@@ -23,7 +23,7 @@ defined('TYPO3') || die();
     $extensionKey = 'klaro_consent_manager';
     ExtensionManagementUtility::addStaticFile(
         $extensionKey,
-        'Configuration/Sets/KlaroConsentManager',
+        'Configuration/TypoScript',
         'Klaro! Consent Manager',
     );
 })();
