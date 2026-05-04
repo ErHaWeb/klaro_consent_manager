@@ -67,6 +67,7 @@ If you use the DebugViewHelper to display the available variables in the newly c
     </html>
 
 ..  figure:: /Images/HowTo-Debug.png
+    :class: with-shadow
     :alt: Fluid debug output showing variables available in a Fluid-enriched label template
 
 Now you are free to decide what you want to use in place of the label. Please note that the `extensionName="KlaroConsentManager"` attribute is required in the context of using the Translate ViewHelper, as we are not working in the Extbase context here.

@@ -13,6 +13,7 @@ Question
 When I call up the page in the frontend, the title and description are shown as missing. What can I do?
 
 ..  figure:: /Images/FAQ-MissingTranslation.png
+    :class: with-shadow
     :alt: Klaro frontend output showing missing translation placeholders for a custom service
 
 Answer
@@ -44,6 +45,7 @@ The easiest way is to reference your own locallang file directly via the
 configuration in the backend:
 
 ..  figure:: /Images/FAQ-LocallangPath.png
+    :class: with-shadow
     :alt: Locallang Path field used to reference a custom XLIFF file
 
 This allows you to customise existing labels or add new labels.

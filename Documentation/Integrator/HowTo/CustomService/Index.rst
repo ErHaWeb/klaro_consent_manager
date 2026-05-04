@@ -17,6 +17,7 @@ Create your new service (for example with the name `mycoolservice`) as a new
 :ref:`service record <for-editors-service>` in the backend:
 
 ..  figure:: /Images/HowTo-CustomService-Backend.png
+    :class: with-shadow
     :alt: Custom Klaro service record in the TYPO3 backend
 
 XLIFF
@@ -43,4 +44,5 @@ If the service was referenced in the :ref:`Klaro configuration
 in the frontend.
 
 ..  figure:: /Images/HowTo-CustomService-Frontend.png
+    :class: with-shadow
     :alt: Custom service displayed in the Klaro consent modal

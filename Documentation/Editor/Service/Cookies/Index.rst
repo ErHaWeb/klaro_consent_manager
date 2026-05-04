@@ -9,6 +9,7 @@ Cookies
 
 
 ..  figure:: /Images/Service-Cookie.png
+    :class: with-shadow
     :alt: Cookies tab of a Klaro service record with inline cookie records
 
     Service Configuration - Cookie Tab

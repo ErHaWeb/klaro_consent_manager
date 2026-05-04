@@ -63,6 +63,7 @@ Proceed as follows to install the extension based on a TER search in the backend
         The following pop-up will be displayed in the backend.
 
         ..  figure:: /Images/ExtensionManager-SuccessfulInstallationPopUp.png
+            :class: with-shadow
             :alt: Successful installation popup in the TYPO3 Extensions module
 
 ..  _uploadfromter:
@@ -91,6 +92,7 @@ Upload Extension from TER
         You will now see the following message
 
         ..  figure:: /Images/ExtensionManager-wasInstalledMessage.png
+            :class: with-shadow
             :alt: TYPO3 Extensions module message after uploading the Klaro extension
 
 After installation, continue with :ref:`quickStart`.

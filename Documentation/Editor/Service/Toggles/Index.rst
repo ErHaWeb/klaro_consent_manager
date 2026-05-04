@@ -8,6 +8,7 @@ Toggles
 =======
 
 ..  figure:: /Images/Service-Toggles.png
+    :class: with-shadow
     :alt: Toggles tab of a Klaro service record
 
     Service Configuration - Toggles Tab

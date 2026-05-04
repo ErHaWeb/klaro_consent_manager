@@ -42,6 +42,7 @@ Klaro is configured via a `separate JavaScript file <https://github.com/klaro-or
 This extension now takes a new approach by making **all parameters without exceptions** provided by the Klaro configuration file **editable via the TYPO3 backend** based on the TYPO3 :ref:`FormEngine <t3coreapi:FormEngine>` in a beautiful GUI with nice titles and comprehensible descriptive texts. The individual backend fields are documented in the :ref:`editor configuration reference <for-editors-configuration>`.
 
 ..  image:: /Images/Backend-GUIExample.png
+    :class: with-shadow
     :alt: TYPO3 backend form showing Klaro configuration fields
 
 In this way, even editors without JavaScript syntax knowledge can get the best out of Klaro. It also ensures that there are no syntax errors and that the output is reduced to the essentials in terms of performance.
@@ -174,11 +175,13 @@ Using TypoScript Settings `mainSectionOnly` you can also decide whether the enti
 A special feature in this context is that using a string-based low-level replacement in the final HTML code, any occurrence of actively loaded resources within contextual content elements (via the `src` or `href` attribute) is automatically prevented. The external resources of Contextual Content will only be loaded after consent. You no longer need to worry about adjusting these attributes by adding `data-` as usual in Klaro. The middleware `ErHaWeb\KlaroConsentManager\Middleware\ReplaceBeforeOutput` is responsible for this.
 
 ..  figure:: /Images/Content-ContextualConsent.png
+    :class: with-shadow
     :alt: TYPO3 content element field for selecting a contextual consent service
 
     Backend configuration of the content element
 
 ..  figure:: /Images/Frontend-ContextualConsent.png
+    :class: with-shadow
     :alt: Frontend contextual consent placeholder for blocked external content
 
     Frontend display

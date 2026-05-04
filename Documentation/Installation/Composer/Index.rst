@@ -48,6 +48,7 @@ Follow the steps below to make all necessary database changes:
         The following database changes are proposed:
 
         ..  figure:: /Images/Maintenance-AnalyzeDatabaseStructure.png
+            :class: with-shadow
             :alt: Maintenance module with proposed database schema changes for the Klaro extension
 
     4.  Click the button :guilabel:`Apply selected changes`

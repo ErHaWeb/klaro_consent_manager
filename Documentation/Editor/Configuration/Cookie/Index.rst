@@ -9,6 +9,7 @@ Cookie
 
 
 ..  figure:: /Images/Configuration-Cookie.png
+    :class: with-shadow
     :alt: Cookie tab of a Klaro configuration record
 
     Klaro Configuration - Cookie Tab

@@ -8,6 +8,7 @@ General
 =======
 
 ..  figure:: /Images/Service-General.png
+    :class: with-shadow
     :alt: General tab of a Klaro service record
 
     Service Configuration - General Tab

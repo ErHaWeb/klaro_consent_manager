@@ -53,6 +53,7 @@ In the backend, the new purpose is now visible for services and as part of the
 sorting in the Klaro configuration under the defined title.
 
 ..  figure:: /Images/HowTo-CustomPurpose-Backend.png
+    :class: with-shadow
     :alt: Custom purpose option in a TYPO3 backend service record
 
 Frontend
@@ -61,4 +62,5 @@ Frontend
 If the purpose of a service referenced in the Klaro configuration has been assigned, it also appears in the Consent Management modal in the frontend.
 
 ..  figure:: /Images/HowTo-CustomPurpose-Frontend.png
+    :class: with-shadow
     :alt: Custom purpose displayed in the Klaro consent modal

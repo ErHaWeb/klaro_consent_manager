@@ -8,6 +8,7 @@ Content
 =======
 
 ..  figure:: /Images/Configuration-Content.png
+    :class: with-shadow
     :alt: Content tab of a Klaro configuration record
 
     Klaro Configuration - Content Tab

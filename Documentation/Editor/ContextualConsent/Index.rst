@@ -12,6 +12,7 @@ The feature behaviour and TypoScript setting are described in
 :ref:`features-contextual-consent`.
 
 ..  figure:: /Images/Content-ContextualConsent.png
+    :class: with-shadow
     :alt: TYPO3 content element with the Klaro service selector for contextual consent
 
     Contextual consent service selection on a content element

@@ -9,6 +9,7 @@ Layout
 
 
 ..  figure:: /Images/Configuration-Layout.png
+    :class: with-shadow
     :alt: Layout tab of a Klaro configuration record
 
     Klaro Configuration - Layout Tab

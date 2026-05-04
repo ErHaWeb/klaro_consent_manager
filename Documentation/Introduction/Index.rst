@@ -34,11 +34,13 @@ Frontend
 --------
 
 ..  figure:: /Images/Frontend-Modal.png
+    :class: with-shadow
     :alt: Klaro frontend consent notice shown as the initial modal
 
     Front-end view of the initial modal
 
 ..  figure:: /Images/Frontend-LetMeChoose.png
+    :class: with-shadow
     :alt: Klaro frontend consent modal opened through the Let me choose action
 
     Front-end view of the "Let me choose" dialog
@@ -52,6 +54,7 @@ Site Configuration
 See :ref:`for-editors-site-configuration` for the documented fields.
 
 ..  figure:: /Images/SiteConfiguration.png
+    :class: with-shadow
     :alt: Klaro tab in the TYPO3 site configuration
 
     Reference of the Klaro setting as well as the linking of the pages for the data protection declaration and the imprint
@@ -63,26 +66,31 @@ See :ref:`for-editors-configuration` for the complete Klaro configuration
 record reference.
 
 ..  figure:: /Images/Configuration-General.png
+    :class: with-shadow
     :alt: General tab of a Klaro configuration record
 
     Klaro Configuration - General Tab
 
 ..  figure:: /Images/Configuration-Layout.png
+    :class: with-shadow
     :alt: Layout tab of a Klaro configuration record
 
     Klaro Configuration - Layout Tab
 
 ..  figure:: /Images/Configuration-Content.png
+    :class: with-shadow
     :alt: Content tab of a Klaro configuration record
 
     Klaro Configuration - Content Tab
 
 ..  figure:: /Images/Configuration-Cookie.png
+    :class: with-shadow
     :alt: Cookie tab of a Klaro configuration record
 
     Klaro Configuration - Cookie Tab
 
 ..  figure:: /Images/Configuration-Advanced.png
+    :class: with-shadow
     :alt: Advanced tab of a Klaro configuration record
 
     Klaro Configuration - Advanced Tab
@@ -93,21 +101,25 @@ Klaro Service Configuration
 See :ref:`for-editors-service` for the complete service record reference.
 
 ..  figure:: /Images/Service-General.png
+    :class: with-shadow
     :alt: General tab of a Klaro service record
 
     Service Configuration - General Tab
 
 ..  figure:: /Images/Service-Cookie.png
+    :class: with-shadow
     :alt: Cookies tab of a Klaro service record
 
     Service Configuration - Cookie Tab
 
 ..  figure:: /Images/Service-Toggles.png
+    :class: with-shadow
     :alt: Toggles tab of a Klaro service record
 
     Service Configuration - Toggles Tab
 
 ..  figure:: /Images/Service-Advanced.png
+    :class: with-shadow
     :alt: Advanced tab of a Klaro service record
 
     Service Configuration - Advanced Tab
@@ -119,11 +131,13 @@ See :ref:`for-editors-contextual-consent` for the content element field and
 workflow.
 
 ..  figure:: /Images/Content-ContextualConsent.png
+    :class: with-shadow
     :alt: TYPO3 content element configured for Klaro contextual consent
 
     Backend configuration of the content element
 
 ..  figure:: /Images/Frontend-ContextualConsent.png
+    :class: with-shadow
     :alt: Frontend contextual consent placeholder before external content is loaded
 
     Frontend display

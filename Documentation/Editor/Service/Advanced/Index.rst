@@ -8,6 +8,7 @@ Advanced
 ========
 
 ..  figure:: /Images/Service-Advanced.png
+    :class: with-shadow
     :alt: Advanced tab of a Klaro service record with JavaScript callback fields
 
     Service Configuration - Advanced Tab

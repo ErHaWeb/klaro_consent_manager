@@ -22,6 +22,7 @@ A reference to the Fluid root directory can be configured via the
 field of the Klaro configuration.
 
 ..  figure:: /Images/HowTo-FluidTemplateRootPath.png
+    :class: with-shadow
     :alt: Fluid Template Root Path field in the Klaro configuration content tab
 
 **Example**
@@ -67,4 +68,5 @@ See :ref:`howto-custom-purpose`, :ref:`howto-custom-service`, and
 :ref:`faq-missing-translation` for common use cases.
 
 ..  figure:: /Images/HowTo-LocallangPath.png
+    :class: with-shadow
     :alt: Locallang Path field in the Klaro configuration content tab

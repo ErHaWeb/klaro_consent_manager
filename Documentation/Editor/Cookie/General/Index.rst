@@ -8,6 +8,7 @@ General
 =======
 
 ..  figure:: /Images/Service-Cookie.png
+    :class: with-shadow
     :alt: Inline cookie record inside a Klaro service record
 
     Cookie record - General Tab

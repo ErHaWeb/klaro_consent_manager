@@ -8,6 +8,7 @@ Advanced
 ========
 
 ..  figure:: /Images/Configuration-Advanced.png
+    :class: with-shadow
     :alt: Advanced tab of a Klaro configuration record
 
     Klaro Configuration - Advanced Tab

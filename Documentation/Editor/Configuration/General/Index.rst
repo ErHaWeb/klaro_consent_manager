@@ -8,6 +8,7 @@ General
 =======
 
 ..  figure:: /Images/Configuration-General.png
+    :class: with-shadow
     :alt: General tab of a Klaro configuration record
 
     Klaro Configuration - General Tab

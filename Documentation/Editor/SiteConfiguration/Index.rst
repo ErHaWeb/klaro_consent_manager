@@ -8,6 +8,7 @@ Site Configuration
 ==================
 
 ..  figure:: /Images/SiteConfiguration.png
+    :class: with-shadow
     :alt: Klaro tab in the TYPO3 site configuration with configuration, privacy policy, and imprint fields
 
     Reference of the Klaro setting as well as the linking of the pages for the data protection declaration and the imprint
