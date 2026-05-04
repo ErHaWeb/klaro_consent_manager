@@ -22,6 +22,10 @@ to create a white background.
 */
 /* Spacing */
 /* Breakpoints */
+.klaro {
+    --button-text-color: #fff;
+}
+
 .klaro .cookie-modal h1,
 .klaro .context-notice h1,
 .klaro .cookie-notice h1 {
