@@ -1,35 +1,49 @@
-<html data-namespace-typo3-fluid="true" lang="en" xmlns:f="http://typo3.org/ns/TYPO3/CMS/Fluid/ViewHelpers">
+<html xmlns:f="http://typo3.org/ns/TYPO3/CMS/Fluid/ViewHelpers" data-namespace-typo3-fluid="true">
 <f:if condition="{data.frame_class} != none">
     <f:then>
 
-        <div class="frame frame-{data.frame_class} frame-type-{data.CType} frame-layout-{data.layout}{f:if(condition: data.space_before_class, then: ' frame-space-before-{data.space_before_class}')}{f:if(condition: data.space_after_class, then: ' frame-space-after-{data.space_after_class}')}" id="c{data.uid}">
+        <div id="c{data.uid}" class="frame frame-{data.frame_class} frame-type-{data.CType} frame-layout-{data.layout}{f:if(condition: data.space_before_class, then: ' frame-space-before-{data.space_before_class}')}{f:if(condition: data.space_after_class, then: ' frame-space-after-{data.space_after_class}')}">
             <f:if condition="{data._LOCALIZED_UID}">
                 <a id="c{data._LOCALIZED_UID}"></a>
             </f:if>
             <f:if condition="{contextualconsentService} && {settings.contextualconsent.mainSectionOnly} == '0'">
-                <f:format.raw value='<div data-name="{contextualconsentService.0.data.name}" data-replace="{settings.contextualconsent.replaceAttributes}">'/>
+                <f:if condition="{settings.contextualconsent.replaceAttributes}">
+                    <f:then>
+                        <f:format.raw value='<div data-name="{contextualconsentService.0.data.name}" data-replace="{settings.contextualconsent.replaceAttributes}">' />
+                    </f:then>
+                    <f:else>
+                        <f:format.raw value='<div data-name="{contextualconsentService.0.data.name}">' />
+                    </f:else>
+                </f:if>
             </f:if>
-            <f:render optional="true" section="Before">
-                <f:render arguments="{_all}" partial="DropIn/Before/All"/>
+            <f:render section="Before" optional="true">
+                <f:render partial="DropIn/Before/All" arguments="{_all}" />
             </f:render>
-            <f:render optional="true" section="Header">
-                <f:render arguments="{_all}" partial="Header/All"/>
+            <f:render section="Header" optional="true">
+                <f:render partial="Header/All" arguments="{_all}" />
             </f:render>
             <f:if condition="{contextualconsentService} && {settings.contextualconsent.mainSectionOnly} == '1'">
-                <f:format.raw value='<div data-name="{contextualconsentService.0.data.name}" data-replace="{settings.contextualconsent.replaceAttributes}">'/>
+                <f:if condition="{settings.contextualconsent.replaceAttributes}">
+                    <f:then>
+                        <f:format.raw value='<div data-name="{contextualconsentService.0.data.name}" data-replace="{settings.contextualconsent.replaceAttributes}">' />
+                    </f:then>
+                    <f:else>
+                        <f:format.raw value='<div data-name="{contextualconsentService.0.data.name}">' />
+                    </f:else>
+                </f:if>
             </f:if>
-            <f:render optional="true" section="Main"/>
+            <f:render section="Main" optional="true" />
             <f:if condition="{contextualconsentService} && {settings.contextualconsent.mainSectionOnly} == '1'">
-                <f:format.raw value='</div>'/>
+                <f:format.raw value='</div>' />
             </f:if>
-            <f:render optional="true" section="Footer">
-                <f:render arguments="{_all}" partial="Footer/All"/>
+            <f:render section="Footer" optional="true">
+                <f:render partial="Footer/All" arguments="{_all}" />
             </f:render>
-            <f:render optional="true" section="After">
-                <f:render arguments="{_all}" partial="DropIn/After/All"/>
+            <f:render section="After" optional="true">
+                <f:render partial="DropIn/After/All" arguments="{_all}" />
             </f:render>
             <f:if condition="{contextualconsentService} && {settings.contextualconsent.mainSectionOnly} == '0'">
-                <f:format.raw value='</div>'/>
+                <f:format.raw value='</div>' />
             </f:if>
         </div>
 
@@ -44,29 +58,43 @@
             <div class="frame-space-before-{data.space_before_class}"></div>
         </f:if>
         <f:if condition="{contextualconsentService} && {settings.contextualconsent.mainSectionOnly} == '0'">
-            <f:format.raw value='<div data-name="{contextualconsentService.0.data.name}" data-replace="{settings.contextualconsent.replaceAttributes}">'/>
+            <f:if condition="{settings.contextualconsent.replaceAttributes}">
+                <f:then>
+                    <f:format.raw value='<div data-name="{contextualconsentService.0.data.name}" data-replace="{settings.contextualconsent.replaceAttributes}">' />
+                </f:then>
+                <f:else>
+                    <f:format.raw value='<div data-name="{contextualconsentService.0.data.name}">' />
+                </f:else>
+            </f:if>
         </f:if>
-        <f:render optional="true" section="Before">
-            <f:render arguments="{_all}" partial="DropIn/Before/All"/>
+        <f:render section="Before" optional="true">
+            <f:render partial="DropIn/Before/All" arguments="{_all}" />
         </f:render>
-        <f:render optional="true" section="Header">
-            <f:render arguments="{_all}" partial="Header/All"/>
+        <f:render section="Header" optional="true">
+            <f:render partial="Header/All" arguments="{_all}" />
         </f:render>
         <f:if condition="{contextualconsentService} && {settings.contextualconsent.mainSectionOnly} == '1'">
-            <f:format.raw value='<div data-name="{contextualconsentService.0.data.name}" data-replace="{settings.contextualconsent.replaceAttributes}">'/>
+            <f:if condition="{settings.contextualconsent.replaceAttributes}">
+                <f:then>
+                    <f:format.raw value='<div data-name="{contextualconsentService.0.data.name}" data-replace="{settings.contextualconsent.replaceAttributes}">' />
+                </f:then>
+                <f:else>
+                    <f:format.raw value='<div data-name="{contextualconsentService.0.data.name}">' />
+                </f:else>
+            </f:if>
         </f:if>
-        <f:render optional="true" section="Main"/>
+        <f:render section="Main" optional="true" />
         <f:if condition="{contextualconsentService} && {settings.contextualconsent.mainSectionOnly} == '1'">
-            <f:format.raw value='</div>'/>
+            <f:format.raw value='</div>' />
         </f:if>
-        <f:render optional="true" section="Footer">
-            <f:render arguments="{_all}" partial="Footer/All"/>
+        <f:render section="Footer" optional="true">
+            <f:render partial="Footer/All" arguments="{_all}" />
         </f:render>
-        <f:render optional="true" section="After">
-            <f:render arguments="{_all}" partial="DropIn/After/All"/>
+        <f:render section="After" optional="true">
+            <f:render partial="DropIn/After/All" arguments="{_all}" />
         </f:render>
         <f:if condition="{contextualconsentService} && {settings.contextualconsent.mainSectionOnly} == '0'">
-            <f:format.raw value='</div>'/>
+            <f:format.raw value='</div>' />
         </f:if>
         <f:if condition="{data.space_after_class}">
             <div class="frame-space-after-{data.space_after_class}"></div>
