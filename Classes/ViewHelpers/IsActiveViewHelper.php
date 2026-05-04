@@ -19,8 +19,6 @@ namespace ErHaWeb\KlaroConsentManager\ViewHelpers;
 
 use ErHaWeb\KlaroConsentManager\Utility\KlaroUtility;
 use Psr\Http\Message\ServerRequestInterface;
-use TYPO3\CMS\Core\Information\Typo3Version;
-use TYPO3\CMS\Core\Utility\GeneralUtility;
 use TYPO3Fluid\Fluid\Core\ViewHelper\AbstractViewHelper;
 
 class IsActiveViewHelper extends AbstractViewHelper
@@ -29,13 +27,6 @@ class IsActiveViewHelper extends AbstractViewHelper
 
     public function render(): bool
     {
-        $versionInformation = GeneralUtility::makeInstance(Typo3Version::class);
-
-        if ($versionInformation->getMajorVersion() < 13) {
-            $request = $this->renderingContext->getRequest();
-            return KlaroUtility::isActive($request);
-        }
-
         $request = $this->renderingContext->getAttribute(ServerRequestInterface::class);
 
         return KlaroUtility::isActive($request);
