@@ -1,8 +1,22 @@
 Documentation-GENERATED-temp
 
 # Local caches
-/.Build
-/.composer
+/.Build/
+/.cache/
+/.composer/
+/.phpunit.cache
+/Tests/Build/.phpunit.result.cache
 
 # Generated release artefacts
 /tailor-version-artefact
+
+# Temporary Composer files
+/composer.json.orig
+/composer.json.testing
+
+# Local/generated config
+/config/
+/var/
+
+# Root lockfile is intentionally not versioned for this extension
+composer.lock

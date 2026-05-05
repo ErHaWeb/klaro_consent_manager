@@ -1,0 +1,28 @@
+{
+  "name": "erhaweb/klaro-consent-manager-fractor-tools",
+  "description": "Dedicated Fractor tooling for klaro_consent_manager",
+  "license": "GPL-2.0-or-later",
+  "type": "project",
+  "require": {
+    "php": ">=8.2 <8.6"
+  },
+  "require-dev": {
+    "a9f/typo3-fractor": "^0.5"
+  },
+  "config": {
+    "vendor-dir": "../../.Build/fractor/vendor",
+    "bin-dir": "../../.Build/fractor/bin",
+    "lock": false,
+    "allow-plugins": {
+      "a9f/fractor-extension-installer": true
+    },
+    "preferred-install": {
+      "*": "dist"
+    },
+    "sort-packages": true
+  },
+  "scripts": {
+    "check": "fractor process --config=fractor.php --ansi --dry-run",
+    "fix": "fractor process --config=fractor.php --ansi"
+  }
+}

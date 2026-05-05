@@ -1,0 +1,25 @@
+{
+  "name": "erhaweb/klaro-consent-manager-rector-tools",
+  "description": "Dedicated Rector tooling for klaro_consent_manager",
+  "license": "GPL-2.0-or-later",
+  "type": "project",
+  "require": {
+    "php": ">=8.2 <8.6"
+  },
+  "require-dev": {
+    "ssch/typo3-rector": "^3.11"
+  },
+  "config": {
+    "vendor-dir": "../../.Build/rector/vendor",
+    "bin-dir": "../../.Build/rector/bin",
+    "lock": false,
+    "preferred-install": {
+      "*": "dist"
+    },
+    "sort-packages": true
+  },
+  "scripts": {
+    "check": "../../.Build/rector/bin/rector process --config=rector.php --ansi --dry-run",
+    "fix": "../../.Build/rector/bin/rector process --config=rector.php --ansi"
+  }
+}

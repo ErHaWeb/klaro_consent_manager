@@ -4,13 +4,18 @@
 	"description": "Klaro! Consent Manager - Functionally complete, flexible TYPO3 integration of Klaro! Consent Management by KIProtect GmbH, a powerful tool that protects your visitors' privacy and data.",
 	"license": "GPL-2.0-or-later",
 	"require": {
-		"typo3/cms-core": "^13.4 || ^14.3",
 		"php": ">=8.2 <8.6",
-		"ext-pdo": "*"
+		"ext-pdo": "*",
+		"typo3/cms-core": "^13.4 || ^14.3"
 	},
 	"require-dev": {
+		"a9f/typo3-fractor": "^0.5",
+		"phpunit/phpunit": "^11.5",
 		"roave/security-advisories": "dev-latest",
-		"typo3/testing-framework": "^6.9.0"
+		"ssch/typo3-rector": "^3.11",
+		"typo3/cms-fluid-styled-content": "^13.4 || ^14.3",
+		"typo3/cms-install": "^13.4 || ^14.3",
+		"typo3/testing-framework": "^9.0"
 	},
 	"authors": [
 		{
@@ -36,30 +41,45 @@
 	"funding": [
 		{
 			"type": "other",
-			"url:": "https://www.paypal.com/paypalme/ebode"
+			"url": "https://www.paypal.com/paypalme/ebode"
 		}
 	],
 	"autoload": {
 		"psr-4": {
-			"ErHaWeb\\KlaroConsentManager\\": "Classes"
+			"ErHaWeb\\KlaroConsentManager\\": "Classes/"
+		}
+	},
+	"autoload-dev": {
+		"psr-4": {
+			"ErHaWeb\\KlaroConsentManager\\Tests\\": "Tests/"
 		}
 	},
 	"replace": {
 		"typo3-ter/klaro-consent-manager": "self.version"
 	},
 	"config": {
-		"vendor-dir": ".Build/vendor",
-		"bin-dir": ".Build/bin"
-	},
-	"scripts": {
-		"post-autoload-dump": [
-			"TYPO3\\TestingFramework\\Composer\\ExtensionTestEnvironment::prepare"
-		]
+		"allow-plugins": {
+			"a9f/fractor-extension-installer": true,
+			"sbuerk/typo3-cmscomposerinstallers-testingframework-bridge": true,
+			"typo3/class-alias-loader": true,
+			"typo3/cms-composer-installers": true
+		},
+		"bin-dir": ".Build/bin",
+		"lock": false,
+		"preferred-install": {
+			"*": "dist"
+		},
+		"sort-packages": true,
+		"vendor-dir": ".Build/vendor"
 	},
 	"extra": {
 		"typo3/cms": {
-			"web-dir": ".Build/public",
-			"extension-key": "klaro_consent_manager"
+			"web-dir": ".Build/Web",
+			"extension-key": "klaro_consent_manager",
+			"version": "3.0.3",
+			"Package": {
+				"providesPackages": {}
+			}
 		}
 	}
 }
