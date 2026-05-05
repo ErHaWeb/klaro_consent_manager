@@ -1,0 +1,28 @@
+.. include:: /Includes.rst.txt
+
+3.0.4 - May 05, 2026
+====================
+
+
+.. contents::
+   :local:
+   :depth: 3
+
+Breaking changes
+----------------
+No breaking changes!
+
+All Changes
+-----------
+This is a list of all changes in this release: ::
+
+    2026-05-05 [TASK] Update TER publishing workflow (Commit 1f6c44c by Eric Harrer)
+    2026-05-05 [TASK] Update checkout action in workflows (Commit c6cc396 by Eric Harrer)
+    2026-05-05 [TASK] Mark test runner as executable (Commit 6de54d1 by Eric Harrer)
+    2026-05-05 [BUGFIX] Add missing composer validation test suite (Commit ee110c3 by Eric Harrer)
+    2026-05-05 [TASK] Add GitHub Actions workflows (Commit 2575419 by Eric Harrer)
+    2026-05-05 [TASK] Add initial TYPO3 test infrastructure (Commit 1aa3ad0 by Eric Harrer)
+    2026-05-05 [DOCS] Fix documentation rendering errors (Commit 0a233c0 by Eric Harrer)
+    2026-05-05 [DOCS] Fix version information on compatibility page (Commit 7603619 by Eric Harrer)
+
+This list has been created by using `git log $(git describe --tags --abbrev=0)..HEAD --abbrev-commit --pretty='%ad %s (Commit %h by %an)' --date=short`.
