@@ -1,0 +1,56 @@
+name: CI Maintenance
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 3 * * 1'
+
+permissions:
+  contents: read
+
+concurrency:
+  group: ci-maintenance-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  rector:
+    name: TYPO3 ${{ matrix.typo3 }} / PHP ${{ matrix.php }} rector dry-run
+    runs-on: ubuntu-24.04
+    timeout-minutes: 45
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - typo3: '13'
+            php: '8.4'
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Install TYPO3 test setup
+        run: Build/Scripts/runTests.sh -s composerInstall -t ${{ matrix.typo3 }} -p ${{ matrix.php }} -b docker
+
+      - name: Run Rector dry-run
+        run: Build/Scripts/runTests.sh -s rector -t ${{ matrix.typo3 }} -p ${{ matrix.php }} -b docker -n
+
+  fractor:
+    name: TYPO3 ${{ matrix.typo3 }} / PHP ${{ matrix.php }} fractor dry-run
+    runs-on: ubuntu-24.04
+    timeout-minutes: 45
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - typo3: '13'
+            php: '8.4'
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Install TYPO3 test setup
+        run: Build/Scripts/runTests.sh -s composerInstall -t ${{ matrix.typo3 }} -p ${{ matrix.php }} -b docker
+
+      - name: Run Fractor dry-run
+        run: Build/Scripts/runTests.sh -s fractor -t ${{ matrix.typo3 }} -p ${{ matrix.php }} -b docker -n
