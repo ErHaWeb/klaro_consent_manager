@@ -27,7 +27,7 @@ field of the Klaro configuration.
 
 **Example**
 
-..  code-block:: txt
+..  code-block:: text
 
     EXT:sitepackage/Resources/Private/
 

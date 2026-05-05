@@ -33,6 +33,7 @@ Title
 -----
 
 ..  confval:: title
+    :name: cookie-title
 
     :type: string
     :Default: ''

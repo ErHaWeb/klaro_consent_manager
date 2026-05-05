@@ -23,6 +23,7 @@ Title
 -----
 
 ..  confval:: title
+    :name: service-title
 
     :type: string with value picker
     :Default: ''
@@ -64,6 +65,7 @@ Default
 -------
 
 ..  confval:: default
+    :name: service-default
 
     :type: boolean
     :Default: false

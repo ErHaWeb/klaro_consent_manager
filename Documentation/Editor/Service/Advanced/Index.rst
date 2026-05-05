@@ -23,6 +23,7 @@ Callback
 --------
 
 ..  confval:: callback
+    :name: service-callback
 
     :type: string
     :Default: ''
