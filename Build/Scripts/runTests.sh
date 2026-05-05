@@ -40,7 +40,7 @@ Package-local TYPO3 extension test runner for klaro_consent_manager.
 Usage: Build/Scripts/runTests.sh [options] [-- extra-args]
 
 Options:
-    -s <composer|composerInstall|unit|functional|rector|fractor|clean>
+    -s <composer|composerInstall|composerValidate|unit|functional|rector|fractor|clean>
         Specifies which suite to run
 
     -t <13|14>
@@ -90,7 +90,7 @@ Options:
         Show this help
 
 Examples:
-    Build/Scripts/runTests.sh -s composer -- validate --no-check-lock
+    Build/Scripts/runTests.sh -s composerValidate
     Build/Scripts/runTests.sh -s composerInstall
     Build/Scripts/runTests.sh -s composerInstall -t 13 -p 8.4
     Build/Scripts/runTests.sh -s unit
@@ -409,6 +409,9 @@ EXTRA_ENV_PARAMS=""
 case ${TEST_SUITE} in
     composer)
         runPhpCommand "composer-command-${SUFFIX}" composer "$@"
+        ;;
+    composerValidate)
+        runPhpCommand "composer-validate-${SUFFIX}" composer validate --no-check-lock "$@"
         ;;
     composerInstall)
         cleanComposer
