@@ -16,10 +16,10 @@ metadata is the authoritative source for the supported version range.
         - Composer package
         - TER metadata
     *   - TYPO3
-        - `^13.0 || ^14.0`
+        - `^13.4 || ^14.3`
         - `13.4.0-14.3.99`
     *   - PHP
-        - `^8.2 || ^8.3 || ^8.4 || ^8.5`
+        - `>=8.2 <8.6`
         - `8.2.0-8.5.99`
 
 TYPO3 v13 and v14 use the same extension code path. The :ref:`Site Set and
