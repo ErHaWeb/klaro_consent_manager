@@ -44,14 +44,14 @@ jobs:
           fi
 
       - name: Checkout workflow support files
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
         with:
           fetch-depth: 0
           ref: ${{ github.event.repository.default_branch }}
           path: support
 
       - name: Checkout tagged release
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
         with:
           fetch-depth: 0
           ref: ${{ github.event_name == 'workflow_dispatch' && format('refs/tags/{0}', inputs.version) || github.ref }}

@@ -20,7 +20,7 @@ jobs:
     runs-on: ubuntu-24.04
     steps:
       - name: Checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
 
       - name: Validate composer.json
         run: Build/Scripts/runTests.sh -s composerValidate -b docker
@@ -53,7 +53,7 @@ jobs:
 
     steps:
       - name: Checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
 
       - name: Install TYPO3 test setup
         run: Build/Scripts/runTests.sh -s composerInstall -t ${{ matrix.typo3 }} -p ${{ matrix.php }} -b docker
@@ -92,7 +92,7 @@ jobs:
 
     steps:
       - name: Checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
 
       - name: Install TYPO3 test setup
         run: Build/Scripts/runTests.sh -s composerInstall -t ${{ matrix.typo3 }} -p ${{ matrix.php }} -b docker
