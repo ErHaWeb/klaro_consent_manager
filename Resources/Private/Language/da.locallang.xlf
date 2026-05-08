@@ -230,13 +230,13 @@
         <source>Reset Consent Manager</source>
         <target state="final">Nulstil Samtykkehåndtering</target>
       </trans-unit>
-      <trans-unit id="services.adobe-fonts.title">
+      <trans-unit id="services.adobe-fonts.title" approved="yes">
         <source>Adobe Fonts</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Adobe Skrifttyper</target>
+        <target state="final">Adobe skrifttyper</target>
       </trans-unit>
-      <trans-unit id="services.adobe-fonts.description">
+      <trans-unit id="services.adobe-fonts.description" approved="yes">
         <source>Adobe Fonts provides web fonts used for this website. When enabled, font files are loaded from Adobe and technical connection data may be processed.</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Adobe Fonts leverer web-skrifttyper, der bruges til dette websted. Når aktiveret, indlæses skrifttypefiler fra Adobe og tekniske forbindelsesdata kan behandles.</target>
+        <target state="final">Adobe skrifttyper leverer web-skrifttyper, der bruges til dette websted. Når de er aktiveret, indlæses skrifttypefilerne fra Adobe og tekniske forbindelsesdata kan behandles.</target>
       </trans-unit>
       <trans-unit id="services.adsense.title" approved="yes">
         <source>Google AdSense</source>
@@ -254,9 +254,9 @@
         <source>Consent to the use of surveillance camera images for security and safety purposes, in compliance with applicable data privacy regulations.</source>
         <target state="final">Samtykke til brugen af overvågningskamerabilleder til sikkerheds- og sikkerhedsformål i overensstemmelse med gældende bestemmelser om databeskyttelse.</target>
       </trans-unit>
-      <trans-unit id="services.career-captain.title">
+      <trans-unit id="services.career-captain.title" approved="yes">
         <source>Career Captain</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Karriere Kaptajn</target>
+        <target state="final">Karriere-kaptajn</target>
       </trans-unit>
       <trans-unit id="services.career-captain.description">
         <source>Career Captain provides gamified career orientation and recruiting content. When enabled, external content from Career Captain may process usage and technical connection data.</source>
