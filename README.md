@@ -20,7 +20,7 @@ consent through TYPO3 backend records and configuration.
 |------|-------|
 | Extension key | `klaro_consent_manager` |
 | Composer package | [`erhaweb/klaro-consent-manager`](https://packagist.org/packages/erhaweb/klaro-consent-manager) |
-| TYPO3 support | `^13.4 || ^14.3` |
+| TYPO3 support | <code>^13.4 &#124;&#124; ^14.3</code> |
 | PHP support | `>=8.2 <8.6` |
 | Documentation | [docs.typo3.org](https://docs.typo3.org/p/erhaweb/klaro-consent-manager/main/en-us/) |
 | TER | [extensions.typo3.org](https://extensions.typo3.org/extension/klaro_consent_manager) |
