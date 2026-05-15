@@ -1,26 +1,62 @@
 # Klaro! Consent Manager
 
-| Meta          | Value                         |
-|---------------|-------------------------------|
-| Extension key | klaro_consent_manager         |
-| Package name  | erhaweb/klaro-consent-manager |
-| Version       | 3.0                           |
-| Author        | Eric Harrer                   |
+[![CI](https://github.com/ErHaWeb/klaro_consent_manager/actions/workflows/ci.yml/badge.svg)](https://github.com/ErHaWeb/klaro_consent_manager/actions/workflows/ci.yml)
+[![Packagist Version](https://img.shields.io/packagist/v/erhaweb/klaro-consent-manager.svg?label=Packagist)](https://packagist.org/packages/erhaweb/klaro-consent-manager)
+[![License](https://img.shields.io/packagist/l/erhaweb/klaro-consent-manager.svg)](LICENSE)
+[![TYPO3](https://img.shields.io/badge/TYPO3-v13%20%7C%20v14-ff8700.svg?logo=typo3&logoColor=white)](https://docs.typo3.org/p/erhaweb/klaro-consent-manager/main/en-us/Compatibility/)
 
-## What does it do?
+Klaro! Consent Manager provides a self-hosted TYPO3 integration of
+[Klaro! Consent Management](https://klaro.org/) by
+[KIProtect GmbH](https://kiprotect.com/). It helps you run a GDPR-oriented
+consent setup while keeping the configuration inside TYPO3.
 
-This TYPO3 extension provides a functionally complete and feature rich, flexible TYPO3 integration of [Klaro! Consent Management](https://klaro.org/) (hereinafter referred to as "Klaro") by [KIProtect GmbH](https://kiprotect.com/), a powerful tool that protects your visitors' privacy and data and helps you run a GDPR compliant website.
+Instead of maintaining a hand-written Klaro `config.js`, editors and
+integrators can manage services, cookies, labels, styling, and contextual
+consent through TYPO3 backend records and configuration.
 
-Klaro itself is fully self-hosted and does not rely on the use of resources from external sources. It gives you full control over services requiring consent, including the cookies associated with them and the purposes they belong to. The styling can be influenced either via supplied (also colour-neutral) schemes or your own CSS.
+## At a glance
 
-If you have already worked with Klaro in TYPO3, you will love this extension because it is much more intuitive to use due to the use of the backend GUI. If not, this extension will make it particularly easy for you to familiarise yourself with Klaro's range of functions.
+| Item | Value |
+|------|-------|
+| Extension key | `klaro_consent_manager` |
+| Composer package | [`erhaweb/klaro-consent-manager`](https://packagist.org/packages/erhaweb/klaro-consent-manager) |
+| TYPO3 support | `^13.4 || ^14.3` |
+| PHP support | `>=8.2 <8.6` |
+| Documentation | [docs.typo3.org](https://docs.typo3.org/p/erhaweb/klaro-consent-manager/main/en-us/) |
+| TER | [extensions.typo3.org](https://extensions.typo3.org/extension/klaro_consent_manager) |
+| Source | [GitHub](https://github.com/ErHaWeb/klaro_consent_manager) |
+| Issues | [GitHub Issues](https://github.com/ErHaWeb/klaro_consent_manager/issues) |
 
-## Screenshots
+## Highlights
 
-![Initial modal](Documentation/Images/Frontend-Modal.png)
+- Full backend GUI for Klaro configuration, services, and cookies.
+- Site Set support for TYPO3 v13 and v14, with a static TypoScript fallback.
+- Service presets and generated cookie information tables.
+- XLIFF-based translations and Fluid-enriched labels.
+- Contextual consent for TYPO3 content elements.
+- CSP-safe trigger links for opening or resetting consent settings.
+- Neutral color schemes and custom CSS/SCSS support.
 
-![Dialogue "Let me choose"](Documentation/Images/Frontend-LetMeChoose.png)
+## Installation
 
-## Further details
+```bash
+composer require erhaweb/klaro-consent-manager
+```
 
-For detailed information, please visit the [official documentation in the TYPO3 extension repository (TER)](https://docs.typo3.org/p/erhaweb/klaro-consent-manager/main/en-us/).
+Continue with the
+[Composer installation guide](https://docs.typo3.org/p/erhaweb/klaro-consent-manager/main/en-us/Installation/Composer/)
+and the
+[Quick start](https://docs.typo3.org/p/erhaweb/klaro-consent-manager/main/en-us/QuickStart/).
+
+## Preview
+
+![TYPO3 backend form for Klaro configuration](Documentation/Images/Backend-GUIExample.png)
+
+![Klaro consent modal in the frontend](Documentation/Images/Frontend-Modal.png)
+
+## Documentation and support
+
+- [Official documentation](https://docs.typo3.org/p/erhaweb/klaro-consent-manager/main/en-us/)
+- [TYPO3 Extension Repository](https://extensions.typo3.org/extension/klaro_consent_manager)
+- [GitHub issues](https://github.com/ErHaWeb/klaro_consent_manager/issues)
+- [GitHub discussions](https://github.com/ErHaWeb/klaro_consent_manager/discussions)
