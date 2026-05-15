@@ -24,7 +24,11 @@
         <env name="TYPO3_CONTEXT" value="Testing"/>
         <env name="TYPO3_PATH_APP" value="../../.Build/Web"/>
     </php>
-    <source restrictNotices="true" restrictWarnings="true">
+    <source
+        baseline="FunctionalTestsBaseline.xml"
+        restrictNotices="true"
+        restrictWarnings="true"
+    >
         <include>
             <directory>../../Classes</directory>
         </include>

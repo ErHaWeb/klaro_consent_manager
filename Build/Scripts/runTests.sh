@@ -40,7 +40,7 @@ Package-local TYPO3 extension test runner for klaro_consent_manager.
 Usage: Build/Scripts/runTests.sh [options] [-- extra-args]
 
 Options:
-    -s <composer|composerInstall|composerValidate|unit|functional|rector|fractor|clean>
+    -s <composer|composerInstall|composerValidate|unit|unitGenerateBaseline|functional|functionalGenerateBaseline|rector|fractor|clean>
         Specifies which suite to run
 
     -t <13|14>
@@ -56,7 +56,7 @@ Options:
             - 8.5
 
     -d <sqlite|mariadb|mysql|postgres>
-        Only with -s functional
+        Only with -s functional|functionalGenerateBaseline
         Database engine for functional test suites
             - sqlite (default)
             - mariadb
@@ -64,11 +64,11 @@ Options:
             - postgres
 
     -a <mysqli|pdo_mysql>
-        Only with -s functional and -d mariadb|mysql
+        Only with -s functional|functionalGenerateBaseline and -d mariadb|mysql
 
     -i <version>
         Optional database version for mariadb/mysql/postgres
-        Only with -s functional
+        Only with -s functional|functionalGenerateBaseline
 
     -b <host|docker|podman>
         Execution backend
@@ -94,7 +94,9 @@ Examples:
     Build/Scripts/runTests.sh -s composerInstall
     Build/Scripts/runTests.sh -s composerInstall -t 13 -p 8.4
     Build/Scripts/runTests.sh -s unit
+    Build/Scripts/runTests.sh -s unitGenerateBaseline
     Build/Scripts/runTests.sh -s functional
+    Build/Scripts/runTests.sh -s functionalGenerateBaseline
     Build/Scripts/runTests.sh -s functional -d postgres
     Build/Scripts/runTests.sh -s rector -n
     Build/Scripts/runTests.sh -s fractor -n
@@ -283,6 +285,17 @@ runComposerInstallInWorkingDir() {
         "composer --working-dir=${WORKING_DIR} install --no-ansi --no-interaction --no-progress"
 }
 
+phpunitBaselineRuntimeCommand() {
+    local BASELINE_FILE=${1}
+    local RUNTIME_FILE=${2}
+
+    printf 'PHPUNIT_BASELINE_RUNTIME_FILE=%q; PHPUNIT_BASELINE_OPTION=""; if [ -f %q ]; then cp %q "${PHPUNIT_BASELINE_RUNTIME_FILE}" && PHPUNIT_BASELINE_OPTION="--use-baseline ${PHPUNIT_BASELINE_RUNTIME_FILE}"; fi;' "${RUNTIME_FILE}" "${BASELINE_FILE}" "${BASELINE_FILE}"
+}
+
+phpunitBaselineCleanupCommand() {
+    printf 'PHPUNIT_EXIT_CODE=$?; rm -f "${PHPUNIT_BASELINE_RUNTIME_FILE:-}"; exit "${PHPUNIT_EXIT_CODE}";'
+}
+
 THIS_SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" >/dev/null && pwd)"
 cd "${THIS_SCRIPT_DIR}/../../" || exit 1
 ROOT_DIR="${PWD}"
@@ -349,6 +362,7 @@ fi
 case ${TEST_SUITE} in
     clean)
         rm -rf .Build .cache composer.lock composer.json.orig composer.json.testing .phpunit.cache
+        rm -f .phpunit-*-baseline-*.xml
         exit 0
         ;;
 esac
@@ -457,7 +471,12 @@ case ${TEST_SUITE} in
         COMPOSER_FILES_STASHED=0
         ;;
     unit)
-        runPhpShellCommand "unit-${SUFFIX}" ".Build/bin/phpunit -c Build/phpunit/UnitTests.xml ${EXTRA_TEST_OPTIONS} $*"
+        PHPUNIT_BASELINE_RUNTIME_COMMAND=$(phpunitBaselineRuntimeCommand "Build/phpunit/UnitTestsBaseline.xml" ".phpunit-unit-baseline-${SUFFIX}.xml")
+        PHPUNIT_BASELINE_CLEANUP_COMMAND=$(phpunitBaselineCleanupCommand)
+        runPhpShellCommand "unit-${SUFFIX}" "${PHPUNIT_BASELINE_RUNTIME_COMMAND} .Build/bin/phpunit -c Build/phpunit/UnitTests.xml \${PHPUNIT_BASELINE_OPTION} ${EXTRA_TEST_OPTIONS} $*; ${PHPUNIT_BASELINE_CLEANUP_COMMAND}"
+        ;;
+    unitGenerateBaseline)
+        runPhpShellCommand "unit-generate-baseline-${SUFFIX}" "mkdir -p Build/phpunit; PHPUNIT_BASELINE_OUTPUT_FILE='.phpunit-unit-generate-baseline-${SUFFIX}.xml'; rm -f \${PHPUNIT_BASELINE_OUTPUT_FILE} Build/phpunit/UnitTestsBaseline.xml; .Build/bin/phpunit -c Build/phpunit/UnitTests.xml --generate-baseline \${PHPUNIT_BASELINE_OUTPUT_FILE} ${EXTRA_TEST_OPTIONS} $*; PHPUNIT_EXIT_CODE=\$?; if [ -f \${PHPUNIT_BASELINE_OUTPUT_FILE} ]; then mv \${PHPUNIT_BASELINE_OUTPUT_FILE} Build/phpunit/UnitTestsBaseline.xml; echo 'PHPUnit unit baseline written to Build/phpunit/UnitTestsBaseline.xml'; exit 0; fi; if [ \"\${PHPUNIT_EXIT_CODE}\" -eq 0 ]; then echo 'No PHPUnit issues found; no unit baseline written.'; exit 0; fi; exit \"\${PHPUNIT_EXIT_CODE}\""
         ;;
     functional)
         if [ "${CONTAINER_BIN}" = "host" ] && [ "${DBMS}" != "sqlite" ]; then
@@ -489,7 +508,41 @@ case ${TEST_SUITE} in
                 fi
                 ;;
         esac
-        runPhpShellCommand "functional-${SUFFIX}" ".Build/bin/phpunit -c Build/phpunit/FunctionalTests.xml ${EXTRA_TEST_OPTIONS} $*"
+        PHPUNIT_BASELINE_RUNTIME_COMMAND=$(phpunitBaselineRuntimeCommand "Build/phpunit/FunctionalTestsBaseline.xml" ".phpunit-functional-baseline-${SUFFIX}.xml")
+        PHPUNIT_BASELINE_CLEANUP_COMMAND=$(phpunitBaselineCleanupCommand)
+        runPhpShellCommand "functional-${SUFFIX}" "${PHPUNIT_BASELINE_RUNTIME_COMMAND} .Build/bin/phpunit -c Build/phpunit/FunctionalTests.xml \${PHPUNIT_BASELINE_OPTION} ${EXTRA_TEST_OPTIONS} $*; ${PHPUNIT_BASELINE_CLEANUP_COMMAND}"
+        ;;
+    functionalGenerateBaseline)
+        if [ "${CONTAINER_BIN}" = "host" ] && [ "${DBMS}" != "sqlite" ]; then
+            echo "Host backend supports only sqlite for functional tests" >&2
+            exit 1
+        fi
+        case ${DBMS} in
+            mariadb)
+                startDbContainer "mariadb-func-generate-baseline-${SUFFIX}" -e MYSQL_ROOT_PASSWORD=funcp --tmpfs /var/lib/mysql/:rw,noexec,nosuid ${IMAGE_MARIADB}
+                waitForOrDumpLogs "mariadb-func-generate-baseline-${SUFFIX}" 3306 "wait-mariadb-generate-baseline-${SUFFIX}" "mariadb-func-generate-baseline-${SUFFIX}"
+                EXTRA_ENV_PARAMS="-e typo3DatabaseDriver=${DATABASE_DRIVER} -e typo3DatabaseName=func_test -e typo3DatabaseUsername=root -e typo3DatabaseHost=mariadb-func-generate-baseline-${SUFFIX} -e typo3DatabasePassword=funcp"
+                ;;
+            mysql)
+                startDbContainer "mysql-func-generate-baseline-${SUFFIX}" -e MYSQL_ROOT_PASSWORD=funcp --tmpfs /var/lib/mysql/:rw,noexec,nosuid ${IMAGE_MYSQL}
+                waitForOrDumpLogs "mysql-func-generate-baseline-${SUFFIX}" 3306 "wait-mysql-generate-baseline-${SUFFIX}" "mysql-func-generate-baseline-${SUFFIX}"
+                EXTRA_ENV_PARAMS="-e typo3DatabaseDriver=${DATABASE_DRIVER} -e typo3DatabaseName=func_test -e typo3DatabaseUsername=root -e typo3DatabaseHost=mysql-func-generate-baseline-${SUFFIX} -e typo3DatabasePassword=funcp"
+                ;;
+            postgres)
+                startDbContainer "postgres-func-generate-baseline-${SUFFIX}" -e POSTGRES_PASSWORD=funcp -e POSTGRES_USER=funcu --tmpfs /var/lib/postgresql/data:rw,noexec,nosuid ${IMAGE_POSTGRES}
+                waitForOrDumpLogs "postgres-func-generate-baseline-${SUFFIX}" 5432 "wait-postgres-generate-baseline-${SUFFIX}" "postgres-func-generate-baseline-${SUFFIX}"
+                EXTRA_ENV_PARAMS="-e typo3DatabaseDriver=pdo_pgsql -e typo3DatabaseName=func_test -e typo3DatabaseUsername=funcu -e typo3DatabaseHost=postgres-func-generate-baseline-${SUFFIX} -e typo3DatabasePassword=funcp"
+                ;;
+            sqlite)
+                mkdir -p "${ROOT_DIR}/.Build/Web/typo3temp/var/tests/functional-sqlite-dbs"
+                if [ "${CONTAINER_BIN}" = "host" ]; then
+                    EXTRA_ENV_PARAMS="typo3DatabaseDriver=pdo_sqlite"
+                else
+                    EXTRA_ENV_PARAMS="-e typo3DatabaseDriver=pdo_sqlite"
+                fi
+                ;;
+        esac
+        runPhpShellCommand "functional-generate-baseline-${SUFFIX}" "mkdir -p Build/phpunit; PHPUNIT_BASELINE_OUTPUT_FILE='.phpunit-functional-generate-baseline-${SUFFIX}.xml'; rm -f \${PHPUNIT_BASELINE_OUTPUT_FILE} Build/phpunit/FunctionalTestsBaseline.xml; .Build/bin/phpunit -c Build/phpunit/FunctionalTests.xml --generate-baseline \${PHPUNIT_BASELINE_OUTPUT_FILE} ${EXTRA_TEST_OPTIONS} $*; PHPUNIT_EXIT_CODE=\$?; if [ -f \${PHPUNIT_BASELINE_OUTPUT_FILE} ]; then mv \${PHPUNIT_BASELINE_OUTPUT_FILE} Build/phpunit/FunctionalTestsBaseline.xml; echo 'PHPUnit functional baseline written to Build/phpunit/FunctionalTestsBaseline.xml'; exit 0; fi; if [ \"\${PHPUNIT_EXIT_CODE}\" -eq 0 ]; then echo 'No PHPUnit issues found; no functional baseline written.'; exit 0; fi; exit \"\${PHPUNIT_EXIT_CODE}\""
         ;;
     rector)
         RECTOR_DRY_RUN=""

@@ -23,7 +23,11 @@
         <ini name="display_errors" value="1"/>
         <env name="TYPO3_CONTEXT" value="Testing"/>
     </php>
-    <source restrictNotices="true" restrictWarnings="true">
+    <source
+        baseline="UnitTestsBaseline.xml"
+        restrictNotices="true"
+        restrictWarnings="true"
+    >
         <include>
             <directory>../../Classes</directory>
         </include>
