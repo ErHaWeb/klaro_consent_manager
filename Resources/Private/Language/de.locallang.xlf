@@ -230,13 +230,13 @@
         <source>Reset Consent Manager</source>
         <target state="final">Einwilligungsmanager zurücksetzen</target>
       </trans-unit>
-      <trans-unit id="services.adobe-fonts.title">
+      <trans-unit id="services.adobe-fonts.title" approved="yes">
         <source>Adobe Fonts</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Lehmschriftarten</target>
+        <target state="final">Adobe Fonts</target>
       </trans-unit>
-      <trans-unit id="services.adobe-fonts.description">
+      <trans-unit id="services.adobe-fonts.description" approved="yes">
         <source>Adobe Fonts provides web fonts used for this website. When enabled, font files are loaded from Adobe and technical connection data may be processed.</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Adobe Fonts bietet Webschriften, die für diese Website verwendet werden. Wenn aktiviert, werden Schriftdateien von Adobe geladen und technische Verbindungsdaten können verarbeitet werden.</target>
+        <target state="final">Adobe Fonts bietet Webschriften, die für diese Website verwendet werden. Wenn aktiviert, werden Schriftdateien von Adobe geladen und technische Verbindungsdaten können verarbeitet werden.</target>
       </trans-unit>
       <trans-unit id="services.adsense.title" approved="yes">
         <source>Google AdSense</source>
@@ -254,13 +254,13 @@
         <source>Consent to the use of surveillance camera images for security and safety purposes, in compliance with applicable data privacy regulations.</source>
         <target state="final">Zustimmung zur Verwendung von Überwachungskamerabildern zu Sicherheitszwecken unter Einhaltung der geltenden Datenschutzbestimmungen.</target>
       </trans-unit>
-      <trans-unit id="services.career-captain.title">
+      <trans-unit id="services.career-captain.title" approved="yes">
         <source>Career Captain</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Berufskapitän</target>
+        <target state="final">Career Captain</target>
       </trans-unit>
-      <trans-unit id="services.career-captain.description">
+      <trans-unit id="services.career-captain.description" approved="yes">
         <source>Career Captain provides gamified career orientation and recruiting content. When enabled, external content from Career Captain may process usage and technical connection data.</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Career Captain stellt Spielkarriere-Orientierung und Rekrutierungsinhalte zur Verfügung. Wenn aktiviert, können externe Inhalte von Career Captain Nutzungsdaten und technische Verbindungsdaten verarbeiten.</target>
+        <target state="final">Career Captain stellt Spielkarriere-Orientierung und Rekrutierungsinhalte zur Verfügung. Wenn aktiviert, können externe Inhalte von Career Captain Nutzungsdaten und technische Verbindungsdaten verarbeiten.</target>
       </trans-unit>
       <trans-unit id="services.clarity.title" approved="yes">
         <source>Microsoft Clarity</source>
@@ -366,13 +366,13 @@
         <source>Chat widget and collecting of visitor statistics</source>
         <target state="final">Chat-Widget und Sammlung von Besucherstatistiken</target>
       </trans-unit>
-      <trans-unit id="services.klaro.title">
+      <trans-unit id="services.klaro.title" approved="yes">
         <source>Klaro!</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Klaro!</target>
+        <target state="final">Klaro!</target>
       </trans-unit>
-      <trans-unit id="services.klaro.description">
+      <trans-unit id="services.klaro.description" approved="yes">
         <source>Klaro! manages consent choices for this website and stores whether individual services may be loaded according to your preferences.</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Klaro! verwaltet die Zustimmungsentscheidungen für diese Website und speichert die Möglichkeit, einzelne Dienste nach Ihren Wünschen zu laden.</target>
+        <target state="final">Klaro! verwaltet die Zustimmungsentscheidungen für diese Website und speichert die Möglichkeit, einzelne Dienste nach Ihren Wünschen zu laden.</target>
       </trans-unit>
       <trans-unit id="services.matomo.title" approved="yes">
         <source>Matomo/Piwik</source>
@@ -390,9 +390,9 @@
         <source>Real-time user analytics service that helps to understand how visitors interact with our website.</source>
         <target state="final">Echtzeit-Benutzeranalysedienst, der hilft zu verstehen, wie Besucher mit unserer Website interagieren.</target>
       </trans-unit>
-      <trans-unit id="services.salesviewer.title">
+      <trans-unit id="services.salesviewer.title" approved="yes">
         <source>SalesViewer</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Verkaufsbetrachter</target>
+        <target state="final">SalesViewer</target>
       </trans-unit>
       <trans-unit id="services.salesviewer.description">
         <source>SalesViewer analyzes website visits for B2B lead generation and may identify company-related visitor information based on usage and technical access data.</source>
