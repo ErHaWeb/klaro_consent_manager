@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file source-language="en" original="EXT:klaro_consent_manager/Configuration/Sets/KlaroConsentManager/labels.xlf" datatype="plaintext" product-name="klaro_consent_manager" date="2025-07-10T17:20:02+02:00" target-language="ar">
+    <header/>
+    <body>
+      <trans-unit id="label">
+        <source>Klaro! Consent Manager</source>
+        <target state="needs-review-translation" state-qualifier="leveraged-mt">كلارو! مدير الموافقة</target>
+      </trans-unit>
+      <trans-unit id="categories.klaroconsentmanager">
+        <source>Klaro</source>
+        <target state="needs-review-translation" state-qualifier="leveraged-mt">Klaro</target>
+      </trans-unit>
+      <trans-unit id="categories.klaroconsentmanager.templates">
+        <source>Templates</source>
+        <target state="needs-review-translation" state-qualifier="leveraged-mt">قوالب</target>
+      </trans-unit>
+      <trans-unit id="categories.klaroconsentmanager.resources">
+        <source>Resources</source>
+        <target state="needs-review-translation" state-qualifier="leveraged-mt">الموارد</target>
+      </trans-unit>
+      <trans-unit id="categories.klaroconsentmanager.settings">
+        <source>Settings</source>
+        <target state="needs-review-translation" state-qualifier="leveraged-mt">الإعدادات</target>
+      </trans-unit>
+      <trans-unit id="settings.plugin.tx_klaroconsentmanager.view.templateRootPath">
+        <source>Path to template root (FE)</source>
+        <target state="needs-review-translation" state-qualifier="leveraged-mt">المسار إلى قالب الجذر (FE)</target>
+      </trans-unit>
+      <trans-unit id="settings.plugin.tx_klaroconsentmanager.view.partialRootPath">
+        <source>Path to template partials (FE)</source>
+        <target state="needs-review-translation" state-qualifier="leveraged-mt">المسار إلى أجزاء القالب (FE)</target>
+      </trans-unit>
+      <trans-unit id="settings.plugin.tx_klaroconsentmanager.view.layoutRootPath">
+        <source>Path to template layouts (FE)</source>
+        <target state="needs-review-translation" state-qualifier="leveraged-mt">مسار لتخطيط القالب (FE)</target>
+      </trans-unit>
+      <trans-unit id="settings.plugin.tx_klaroconsentmanager.settings.css.klaro-default">
+        <source>Klaro CSS</source>
+        <target state="needs-review-translation" state-qualifier="leveraged-mt">Klaro CSS</target>
+      </trans-unit>
+      <trans-unit id="settings.plugin.tx_klaroconsentmanager.settings.css.klaro-custom">
+        <source>Custom additions for Klaro CSS</source>
+        <target state="needs-review-translation" state-qualifier="leveraged-mt">إضافات مخصصة لـ Klaro CSS</target>
+      </trans-unit>
+      <trans-unit id="settings.plugin.tx_klaroconsentmanager.settings.javascript.klaro-default">
+        <source>Klaro JavaScript</source>
+        <target state="needs-review-translation" state-qualifier="leveraged-mt">Klaro JavaScript</target>
+      </trans-unit>
+      <trans-unit id="settings.plugin.tx_klaroconsentmanager.settings.contextualconsent.replaceAttributes">
+        <source>Replace attributes</source>
+        <target state="needs-review-translation" state-qualifier="leveraged-mt">استبدال السمات</target>
+      </trans-unit>
+      <trans-unit id="settings.description.plugin.tx_klaroconsentmanager.settings.contextualconsent.replaceAttributes">
+        <source>Comma-separated list of attributes that should be automatically replaced within the content element of the contextual consent</source>
+        <target state="needs-review-translation" state-qualifier="leveraged-mt">قائمة مفصولة بفواصل من السمات التي يجب استبدالها تلقائياً ضمن عنصر المحتوى في الموافقة السياقية</target>
+      </trans-unit>
+      <trans-unit id="settings.plugin.tx_klaroconsentmanager.settings.contextualconsent.mainSectionOnly">
+        <source>Main section only</source>
+        <target state="needs-review-translation" state-qualifier="leveraged-mt">القسم الرئيسي فقط</target>
+      </trans-unit>
+      <trans-unit id="settings.description.plugin.tx_klaroconsentmanager.settings.contextualconsent.mainSectionOnly">
+        <source>Activate this option if the contextual consent box should only be limited to the main content (without heading and footer).</source>
+        <target state="needs-review-translation" state-qualifier="leveraged-mt">تفعيل هذا الخيار إذا كان مربع الموافقة السياقية ينبغي أن يقتصر فقط على المحتوى الرئيسي (دون عنوان أو تذييل).</target>
+      </trans-unit>
+      <trans-unit id="settings.plugin.tx_klaroconsentmanager.settings.configuration.disabled">
+        <source>Disable Klaro Consent Management</source>
+        <target state="needs-review-translation" state-qualifier="leveraged-mt">تعطيل إدارة موافقة كلارو</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
