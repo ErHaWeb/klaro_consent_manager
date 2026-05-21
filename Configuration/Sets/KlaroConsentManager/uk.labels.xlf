@@ -3,69 +3,69 @@
   <file source-language="en" original="EXT:klaro_consent_manager/Configuration/Sets/KlaroConsentManager/labels.xlf" datatype="plaintext" product-name="klaro_consent_manager" date="2025-07-10T17:20:02+02:00" target-language="uk">
     <header/>
     <body>
-      <trans-unit id="label">
+      <trans-unit id="label" approved="yes">
         <source>Klaro! Consent Manager</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Менеджер Klaro! Згода</target>
+        <target state="final">Менеджер Klaro! Згода</target>
       </trans-unit>
-      <trans-unit id="categories.klaroconsentmanager">
+      <trans-unit id="categories.klaroconsentmanager" approved="yes">
         <source>Klaro</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Klaro</target>
+        <target state="final">Klaro</target>
       </trans-unit>
-      <trans-unit id="categories.klaroconsentmanager.templates">
+      <trans-unit id="categories.klaroconsentmanager.templates" approved="yes">
         <source>Templates</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Шаблони</target>
+        <target state="final">Шаблони</target>
       </trans-unit>
-      <trans-unit id="categories.klaroconsentmanager.resources">
+      <trans-unit id="categories.klaroconsentmanager.resources" approved="yes">
         <source>Resources</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Ресурси</target>
+        <target state="final">Ресурси</target>
       </trans-unit>
-      <trans-unit id="categories.klaroconsentmanager.settings">
+      <trans-unit id="categories.klaroconsentmanager.settings" approved="yes">
         <source>Settings</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Налаштування</target>
+        <target state="final">Налаштування</target>
       </trans-unit>
-      <trans-unit id="settings.plugin.tx_klaroconsentmanager.view.templateRootPath">
+      <trans-unit id="settings.plugin.tx_klaroconsentmanager.view.templateRootPath" approved="yes">
         <source>Path to template root (FE)</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Шлях до кореня шаблону (FE)</target>
+        <target state="final">Шлях до кореня шаблону (FE)</target>
       </trans-unit>
-      <trans-unit id="settings.plugin.tx_klaroconsentmanager.view.partialRootPath">
+      <trans-unit id="settings.plugin.tx_klaroconsentmanager.view.partialRootPath" approved="yes">
         <source>Path to template partials (FE)</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Шлях до шаблону частково (FE)</target>
+        <target state="final">Шлях до шаблону частково (FE)</target>
       </trans-unit>
-      <trans-unit id="settings.plugin.tx_klaroconsentmanager.view.layoutRootPath">
+      <trans-unit id="settings.plugin.tx_klaroconsentmanager.view.layoutRootPath" approved="yes">
         <source>Path to template layouts (FE)</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Шлях до розкладки шаблону (FE)</target>
+        <target state="final">Шлях до розкладки шаблону (FE)</target>
       </trans-unit>
-      <trans-unit id="settings.plugin.tx_klaroconsentmanager.settings.css.klaro-default">
+      <trans-unit id="settings.plugin.tx_klaroconsentmanager.settings.css.klaro-default" approved="yes">
         <source>Klaro CSS</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Klaro CSS</target>
+        <target state="final">Klaro CSS</target>
       </trans-unit>
-      <trans-unit id="settings.plugin.tx_klaroconsentmanager.settings.css.klaro-custom">
+      <trans-unit id="settings.plugin.tx_klaroconsentmanager.settings.css.klaro-custom" approved="yes">
         <source>Custom additions for Klaro CSS</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Користувацькі додатки для Klaro CSS</target>
+        <target state="final">Користувацькі додатки для Klaro CSS</target>
       </trans-unit>
-      <trans-unit id="settings.plugin.tx_klaroconsentmanager.settings.javascript.klaro-default">
+      <trans-unit id="settings.plugin.tx_klaroconsentmanager.settings.javascript.klaro-default" approved="yes">
         <source>Klaro JavaScript</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Klaro JavaScript</target>
+        <target state="final">Klaro JavaScript</target>
       </trans-unit>
-      <trans-unit id="settings.plugin.tx_klaroconsentmanager.settings.contextualconsent.replaceAttributes">
+      <trans-unit id="settings.plugin.tx_klaroconsentmanager.settings.contextualconsent.replaceAttributes" approved="yes">
         <source>Replace attributes</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Замінити атрибути</target>
+        <target state="final">Замінити атрибути</target>
       </trans-unit>
-      <trans-unit id="settings.description.plugin.tx_klaroconsentmanager.settings.contextualconsent.replaceAttributes">
+      <trans-unit id="settings.description.plugin.tx_klaroconsentmanager.settings.contextualconsent.replaceAttributes" approved="yes">
         <source>Comma-separated list of attributes that should be automatically replaced within the content element of the contextual consent</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Список атрибутів, розділених комою, які повинні бути автоматично замінені в елементі вмісту контекстуальної згоди</target>
+        <target state="final">Список атрибутів, розділених комою, які повинні бути автоматично замінені в елементі вмісту контекстуальної згоди</target>
       </trans-unit>
-      <trans-unit id="settings.plugin.tx_klaroconsentmanager.settings.contextualconsent.mainSectionOnly">
+      <trans-unit id="settings.plugin.tx_klaroconsentmanager.settings.contextualconsent.mainSectionOnly" approved="yes">
         <source>Main section only</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Тільки основний розділ</target>
+        <target state="final">Тільки основний розділ</target>
       </trans-unit>
-      <trans-unit id="settings.description.plugin.tx_klaroconsentmanager.settings.contextualconsent.mainSectionOnly">
+      <trans-unit id="settings.description.plugin.tx_klaroconsentmanager.settings.contextualconsent.mainSectionOnly" approved="yes">
         <source>Activate this option if the contextual consent box should only be limited to the main content (without heading and footer).</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Активувати цю опцію, якщо контекстуальна згода має бути обмежена лише основним вмістом (без заголовка та футеру).</target>
+        <target state="final">Активувати цю опцію, якщо контекстуальна згода має бути обмежена лише основним вмістом (без заголовка та футеру).</target>
       </trans-unit>
-      <trans-unit id="settings.plugin.tx_klaroconsentmanager.settings.configuration.disabled">
+      <trans-unit id="settings.plugin.tx_klaroconsentmanager.settings.configuration.disabled" approved="yes">
         <source>Disable Klaro Consent Management</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Вимкнути керування Klaro повідомленнями</target>
+        <target state="final">Вимкнути керування Klaro повідомленнями</target>
       </trans-unit>
     </body>
   </file>
