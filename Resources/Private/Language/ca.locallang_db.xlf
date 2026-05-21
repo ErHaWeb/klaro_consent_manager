@@ -25,7 +25,7 @@
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.tabs.content">
         <source>Content</source>
-        <target state="needs-translation">Content</target>
+        <target state="needs-review-translation" state-qualifier="leveraged-tm">Content</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.tabs.cookie">
         <source>Cookie</source>
@@ -253,7 +253,7 @@
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.default.label">
         <source>Default</source>
-        <target state="needs-translation">Default</target>
+        <target state="needs-review-translation" state-qualifier="leveraged-tm">Predeterminat</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.default.description">
         <source>Defines the default state for services in the consent modal (`true` = enabled by default). If this setting is set to "false", you can override it in any service.</source>
@@ -537,7 +537,7 @@
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_service.name.label">
         <source>Name</source>
-        <target state="needs-translation">Name</target>
+        <target state="needs-review-translation" state-qualifier="leveraged-tm">Nom</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_service.name.description">
         <source>Each service must have a unique name. Klaro will look for HTML elements with a matching `data-name` attribute to identify elements that belong to this service.</source>
@@ -665,7 +665,7 @@
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_service.default.label">
         <source>Default</source>
-        <target state="needs-translation">Default</target>
+        <target state="needs-review-translation" state-qualifier="leveraged-tm">Predeterminat</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_service.default.description">
         <source>If `default` is set to `true`, the service will be enabled by default. This overrides the global `default` setting (if this is set to "false").</source>
@@ -685,7 +685,7 @@
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_service.purposes.optgroup.default">
         <source>Default</source>
-        <target state="needs-translation">Default</target>
+        <target state="needs-review-translation" state-qualifier="leveraged-tm">Predeterminat</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_service.purposes.optgroup.additional">
         <source>Additional</source>
