@@ -12,7 +12,7 @@
       </trans-unit>
       <trans-unit id="close">
         <source>Close</source>
-        <target state="needs-translation">Close</target>
+        <target state="needs-review-translation" state-qualifier="leveraged-tm">Zatvorit</target>
       </trans-unit>
       <trans-unit id="consentModal.description">
         <source>Here you can assess and customize the services that we'd like to use on this website. You're in charge! Enable or disable services as you see fit.</source>
@@ -48,7 +48,7 @@
       </trans-unit>
       <trans-unit id="contextualConsent.acceptOnce">
         <source>Yes</source>
-        <target state="needs-translation">Yes</target>
+        <target state="needs-review-translation" state-qualifier="leveraged-tm">Da</target>
       </trans-unit>
       <trans-unit id="contextualConsent.description">
         <source>Do you want to load external content supplied by {title}?</source>
@@ -124,7 +124,7 @@
       </trans-unit>
       <trans-unit id="save">
         <source>Save</source>
-        <target state="needs-translation">Save</target>
+        <target state="needs-review-translation" state-qualifier="leveraged-tm">Snimi</target>
       </trans-unit>
       <trans-unit id="service.disableAll.description">
         <source>Use this switch to enable or disable all services.</source>
@@ -168,7 +168,7 @@
       </trans-unit>
       <trans-unit id="purposes.security.title">
         <source>Security</source>
-        <target state="needs-translation">Security</target>
+        <target state="needs-review-translation" state-qualifier="leveraged-tm">Sigurnost</target>
       </trans-unit>
       <trans-unit id="purposes.security.description">
         <source>Security services are crucial for safeguarding your online experience. These services help protect your data and privacy by detecting and preventing security threats, such as malware, phishing attempts, and unauthorized access. They ensure a safer browsing environment.</source>
@@ -208,7 +208,7 @@
       </trans-unit>
       <trans-unit id="purposes.misc.title">
         <source>Miscellaneous</source>
-        <target state="needs-translation">Miscellaneous</target>
+        <target state="needs-review-translation" state-qualifier="leveraged-tm">Razno</target>
       </trans-unit>
       <trans-unit id="purposes.misc.description">
         <source>This includes services that do not fall under the other purposes.</source>
@@ -468,11 +468,11 @@
       </trans-unit>
       <trans-unit id="cookies.headline.path">
         <source>Path</source>
-        <target state="needs-translation">Path</target>
+        <target state="needs-review-translation" state-qualifier="leveraged-tm">Putanja</target>
       </trans-unit>
       <trans-unit id="cookies.headline.domain">
         <source>Domain</source>
-        <target state="needs-translation">Domain</target>
+        <target state="needs-review-translation" state-qualifier="leveraged-tm">Domena</target>
       </trans-unit>
       <trans-unit id="cookies.headline.expiresAfter">
         <source>Expires after</source>
@@ -488,7 +488,7 @@
       </trans-unit>
       <trans-unit id="month">
         <source>Month</source>
-        <target state="needs-translation">Month</target>
+        <target state="needs-review-translation" state-qualifier="leveraged-tm">Mjesec</target>
       </trans-unit>
       <trans-unit id="months">
         <source>Months</source>
@@ -508,7 +508,7 @@
       </trans-unit>
       <trans-unit id="hours">
         <source>Hours</source>
-        <target state="needs-translation">Hours</target>
+        <target state="needs-review-translation" state-qualifier="leveraged-tm">Sata</target>
       </trans-unit>
       <trans-unit id="minute">
         <source>Minute</source>
