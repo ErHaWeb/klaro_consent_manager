@@ -17,31 +17,31 @@
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.tabs.general">
         <source>General</source>
-        <target state="needs-translation">General</target>
+        <target state="needs-review-translation" state-qualifier="leveraged-tm">Genel</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.tabs.layout">
         <source>Layout</source>
-        <target state="needs-translation">Layout</target>
+        <target state="needs-review-translation" state-qualifier="leveraged-tm">Düzen</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.tabs.content">
         <source>Content</source>
-        <target state="needs-translation">Content</target>
+        <target state="needs-review-translation" state-qualifier="leveraged-tm">Content</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.tabs.cookie">
         <source>Cookie</source>
-        <target state="needs-translation">Cookie</target>
+        <target state="needs-review-translation" state-qualifier="leveraged-tm">Çerez</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.tabs.advanced">
         <source>Advanced</source>
-        <target state="needs-translation">Advanced</target>
+        <target state="needs-review-translation" state-qualifier="leveraged-tm">Gelişmiş</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.tabs.access">
         <source>Access</source>
-        <target state="needs-translation">Access</target>
+        <target state="needs-review-translation" state-qualifier="leveraged-tm">Erişim</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.palettes.general_palette">
         <source>General</source>
-        <target state="needs-translation">General</target>
+        <target state="needs-review-translation" state-qualifier="leveraged-tm">Genel</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.palettes.setup_palette">
         <source>Base Configuration</source>
@@ -49,7 +49,7 @@
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.palettes.storage_palette">
         <source>Storage</source>
-        <target state="needs-translation">Storage</target>
+        <target state="needs-review-translation" state-qualifier="leveraged-tm">Depo</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.palettes.services_palette">
         <source>Services</source>
@@ -77,7 +77,7 @@
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.palettes.behavior_palette">
         <source>Behavior</source>
-        <target state="needs-translation">Behavior</target>
+        <target state="needs-review-translation" state-qualifier="leveraged-tm">Davranış</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.palettes.hide_buttons_palette">
         <source>Hide Buttons</source>
@@ -89,15 +89,15 @@
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.palettes.access_palette">
         <source>Access</source>
-        <target state="needs-translation">Access</target>
+        <target state="needs-review-translation" state-qualifier="leveraged-tm">Erişim</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.palettes.translations_palette">
         <source>Translations</source>
-        <target state="needs-translation">Translations</target>
+        <target state="needs-review-translation" state-qualifier="leveraged-tm">Çeviriler</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.title.label">
         <source>Title</source>
-        <target state="needs-translation">Title</target>
+        <target state="needs-review-translation" state-qualifier="leveraged-tm">Başlık</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.title.description">
         <source>Title under which this configuration can be found.</source>
@@ -169,7 +169,7 @@
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.storage_method.I.none">
         <source>None</source>
-        <target state="needs-translation">None</target>
+        <target state="needs-review-translation" state-qualifier="leveraged-tm">Hiçbiri</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.storage_method.I.cookie">
         <source>Cookie (default)</source>
@@ -201,7 +201,7 @@
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.embedded.label">
         <source>Embedded</source>
-        <target state="needs-translation">Embedded</target>
+        <target state="needs-review-translation" state-qualifier="leveraged-tm">Gömülü</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.embedded.description">
         <source>Setting "embedded" to `true` will render the Klaro modal and notice without the modal background, allowing you to e.g. embed them into a specific element of your website, such as your privacy notice.</source>
@@ -253,7 +253,7 @@
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.default.label">
         <source>Default</source>
-        <target state="needs-translation">Default</target>
+        <target state="needs-review-translation" state-qualifier="leveraged-tm">Varsayılan</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.default.description">
         <source>Defines the default state for services in the consent modal (`true` = enabled by default). If this setting is set to "false", you can override it in any service.</source>
@@ -421,7 +421,7 @@
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.alignment.I.top">
         <source>Top</source>
-        <target state="needs-translation">Top</target>
+        <target state="needs-review-translation" state-qualifier="leveraged-tm">Üst</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.alignment.I.bottom">
         <source>Bottom</source>
@@ -429,11 +429,11 @@
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.alignment.I.left">
         <source>left</source>
-        <target state="needs-translation">left</target>
+        <target state="needs-review-translation" state-qualifier="leveraged-tm">sol</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.alignment.I.right">
         <source>right</source>
-        <target state="needs-translation">right</target>
+        <target state="needs-review-translation" state-qualifier="leveraged-tm">sağ</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.alignment.I.wide">
         <source>wide</source>
@@ -441,7 +441,7 @@
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.color_scheme.label">
         <source>Color Scheme</source>
-        <target state="needs-translation">Color Scheme</target>
+        <target state="needs-review-translation" state-qualifier="leveraged-tm">Renk Düzeni</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.color_scheme.description">
         <source>Default color scheme used for the display. The colors can also be overridden later via CSS variables.</source>
@@ -489,7 +489,7 @@
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_service.tabs.general">
         <source>General</source>
-        <target state="needs-translation">General</target>
+        <target state="needs-review-translation" state-qualifier="leveraged-tm">Genel</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_service.tabs.cookies">
         <source>Cookies</source>
@@ -501,11 +501,11 @@
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_service.tabs.advanced">
         <source>Advanced</source>
-        <target state="needs-translation">Advanced</target>
+        <target state="needs-review-translation" state-qualifier="leveraged-tm">Gelişmiş</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_service.tabs.access">
         <source>Access</source>
-        <target state="needs-translation">Access</target>
+        <target state="needs-review-translation" state-qualifier="leveraged-tm">Erişim</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_service.palettes.general_palette">
         <source>General Settings</source>
@@ -525,7 +525,7 @@
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_service.palettes.access_palette">
         <source>Access</source>
-        <target state="needs-translation">Access</target>
+        <target state="needs-review-translation" state-qualifier="leveraged-tm">Erişim</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_service.I.true">
         <source>true</source>
@@ -537,7 +537,7 @@
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_service.name.label">
         <source>Name</source>
-        <target state="needs-translation">Name</target>
+        <target state="needs-review-translation" state-qualifier="leveraged-tm">Ad</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_service.name.description">
         <source>Each service must have a unique name. Klaro will look for HTML elements with a matching `data-name` attribute to identify elements that belong to this service.</source>
@@ -549,7 +549,7 @@
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_service.title.label">
         <source>Title</source>
-        <target state="needs-translation">Title</target>
+        <target state="needs-review-translation" state-qualifier="leveraged-tm">Başlık</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_service.title.description">
         <source>The title defined here is not mandatory and is intended for backend display only.</source>
@@ -665,7 +665,7 @@
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_service.default.label">
         <source>Default</source>
-        <target state="needs-translation">Default</target>
+        <target state="needs-review-translation" state-qualifier="leveraged-tm">Varsayılan</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_service.default.description">
         <source>If `default` is set to `true`, the service will be enabled by default. This overrides the global `default` setting (if this is set to "false").</source>
@@ -681,11 +681,11 @@
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_service.purposes.optgroup.custom">
         <source>Custom</source>
-        <target state="needs-translation">Custom</target>
+        <target state="needs-review-translation" state-qualifier="leveraged-tm">Özel</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_service.purposes.optgroup.default">
         <source>Default</source>
-        <target state="needs-translation">Default</target>
+        <target state="needs-review-translation" state-qualifier="leveraged-tm">Varsayılan</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_service.purposes.optgroup.additional">
         <source>Additional</source>
@@ -725,11 +725,11 @@
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_service.purposes.I.videos">
         <source>Videos</source>
-        <target state="needs-translation">Videos</target>
+        <target state="needs-review-translation" state-qualifier="leveraged-tm">Videolar</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_service.purposes.I.social">
         <source>Social Media</source>
-        <target state="needs-translation">Social Media</target>
+        <target state="needs-review-translation" state-qualifier="leveraged-tm">Sosyal Medya</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_service.purposes.I.misc">
         <source>Miscellaneous</source>
@@ -745,7 +745,7 @@
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_service.required.label">
         <source>Required</source>
-        <target state="needs-translation">Required</target>
+        <target state="needs-review-translation" state-qualifier="leveraged-tm">Gerekli</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_service.required.description">
         <source>If `required` is set to `true`, Klaro will not allow this service to be disabled by the user. Use this for services that are always required for your website to function (e.g. shopping cart cookies).</source>
@@ -821,15 +821,15 @@
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_cookie">
         <source>Cookie</source>
-        <target state="needs-translation">Cookie</target>
+        <target state="needs-review-translation" state-qualifier="leveraged-tm">Çerez</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_cookie.tabs.general">
         <source>General</source>
-        <target state="needs-translation">General</target>
+        <target state="needs-review-translation" state-qualifier="leveraged-tm">Genel</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_cookie.tabs.access">
         <source>Access</source>
-        <target state="needs-translation">Access</target>
+        <target state="needs-review-translation" state-qualifier="leveraged-tm">Erişim</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_cookie.palettes.identification_palette">
         <source>Identification and presentation of the cookie</source>
@@ -849,11 +849,11 @@
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_cookie.palettes.access_palette">
         <source>Access</source>
-        <target state="needs-translation">Access</target>
+        <target state="needs-review-translation" state-qualifier="leveraged-tm">Erişim</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_cookie.identifier.label">
         <source>Identifier</source>
-        <target state="needs-translation">Identifier</target>
+        <target state="needs-review-translation" state-qualifier="leveraged-tm">Tanımlayıcı</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_cookie.identifier.description">
         <source>This is a unique identifier for this cookie. It must be written in lower case and must not contain any spaces, only the characters a-z, 0-9 and "-" or "_". The identifier can be used in Fluid, for example.</source>
@@ -865,7 +865,7 @@
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_cookie.title.label">
         <source>Title</source>
-        <target state="needs-translation">Title</target>
+        <target state="needs-review-translation" state-qualifier="leveraged-tm">Başlık</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_cookie.title.description">
         <source>If set, this title will be used in the frontend/backend for displaying the cookie. This title has no technical relevance (contrary to the `pattern` field).</source>
@@ -889,7 +889,7 @@
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_cookie.path.label">
         <source>Path</source>
-        <target state="needs-translation">Path</target>
+        <target state="needs-review-translation" state-qualifier="leveraged-tm">Yol</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_cookie.path.description">
         <source>Provide a path if you have services that set cookies for a path that is not "/"</source>
