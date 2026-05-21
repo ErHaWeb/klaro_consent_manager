@@ -48,7 +48,7 @@
       </trans-unit>
       <trans-unit id="contextualConsent.acceptOnce">
         <source>Yes</source>
-        <target state="needs-translation">Yes</target>
+        <target state="needs-review-translation" state-qualifier="leveraged-tm">Sí</target>
       </trans-unit>
       <trans-unit id="contextualConsent.description">
         <source>Do you want to load external content supplied by {title}?</source>
@@ -124,7 +124,7 @@
       </trans-unit>
       <trans-unit id="save">
         <source>Save</source>
-        <target state="needs-translation">Save</target>
+        <target state="needs-review-translation" state-qualifier="leveraged-tm">Desa</target>
       </trans-unit>
       <trans-unit id="service.disableAll.description" approved="yes">
         <source>Use this switch to enable or disable all services.</source>
