@@ -3,69 +3,69 @@
   <file source-language="en" original="EXT:klaro_consent_manager/Configuration/Sets/KlaroConsentManager/labels.xlf" datatype="plaintext" product-name="klaro_consent_manager" date="2025-07-10T17:20:02+02:00" target-language="es-ES">
     <header/>
     <body>
-      <trans-unit id="label">
+      <trans-unit id="label" approved="yes">
         <source>Klaro! Consent Manager</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">¡Klaro! Gestor de consentimiento</target>
+        <target state="final">¡Klaro! Gestor de consentimiento</target>
       </trans-unit>
-      <trans-unit id="categories.klaroconsentmanager">
+      <trans-unit id="categories.klaroconsentmanager" approved="yes">
         <source>Klaro</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Klaro</target>
+        <target state="final">Klaro</target>
       </trans-unit>
-      <trans-unit id="categories.klaroconsentmanager.templates">
+      <trans-unit id="categories.klaroconsentmanager.templates" approved="yes">
         <source>Templates</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Plantillas</target>
+        <target state="final">Plantillas</target>
       </trans-unit>
-      <trans-unit id="categories.klaroconsentmanager.resources">
+      <trans-unit id="categories.klaroconsentmanager.resources" approved="yes">
         <source>Resources</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Recursos</target>
+        <target state="final">Recursos</target>
       </trans-unit>
-      <trans-unit id="categories.klaroconsentmanager.settings">
+      <trans-unit id="categories.klaroconsentmanager.settings" approved="yes">
         <source>Settings</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Ajustes</target>
+        <target state="final">Ajustes</target>
       </trans-unit>
-      <trans-unit id="settings.plugin.tx_klaroconsentmanager.view.templateRootPath">
+      <trans-unit id="settings.plugin.tx_klaroconsentmanager.view.templateRootPath" approved="yes">
         <source>Path to template root (FE)</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Ruta a la raíz de la plantilla (FE)</target>
+        <target state="final">Ruta a la raíz de la plantilla (FE)</target>
       </trans-unit>
-      <trans-unit id="settings.plugin.tx_klaroconsentmanager.view.partialRootPath">
+      <trans-unit id="settings.plugin.tx_klaroconsentmanager.view.partialRootPath" approved="yes">
         <source>Path to template partials (FE)</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Ruta a los parciales de plantilla (FE)</target>
+        <target state="final">Ruta a los parciales de plantilla (FE)</target>
       </trans-unit>
-      <trans-unit id="settings.plugin.tx_klaroconsentmanager.view.layoutRootPath">
+      <trans-unit id="settings.plugin.tx_klaroconsentmanager.view.layoutRootPath" approved="yes">
         <source>Path to template layouts (FE)</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Ruta a los diseños de plantillas (FE)</target>
+        <target state="final">Ruta a los diseños de plantillas (FE)</target>
       </trans-unit>
-      <trans-unit id="settings.plugin.tx_klaroconsentmanager.settings.css.klaro-default">
+      <trans-unit id="settings.plugin.tx_klaroconsentmanager.settings.css.klaro-default" approved="yes">
         <source>Klaro CSS</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Klaro CSS</target>
+        <target state="final">Klaro CSS</target>
       </trans-unit>
-      <trans-unit id="settings.plugin.tx_klaroconsentmanager.settings.css.klaro-custom">
+      <trans-unit id="settings.plugin.tx_klaroconsentmanager.settings.css.klaro-custom" approved="yes">
         <source>Custom additions for Klaro CSS</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Agregaciones personalizadas para Klaro CSS</target>
+        <target state="final">Agregaciones personalizadas para Klaro CSS</target>
       </trans-unit>
-      <trans-unit id="settings.plugin.tx_klaroconsentmanager.settings.javascript.klaro-default">
+      <trans-unit id="settings.plugin.tx_klaroconsentmanager.settings.javascript.klaro-default" approved="yes">
         <source>Klaro JavaScript</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Klaro JavaScript</target>
+        <target state="final">Klaro JavaScript</target>
       </trans-unit>
-      <trans-unit id="settings.plugin.tx_klaroconsentmanager.settings.contextualconsent.replaceAttributes">
+      <trans-unit id="settings.plugin.tx_klaroconsentmanager.settings.contextualconsent.replaceAttributes" approved="yes">
         <source>Replace attributes</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Reemplazar atributos</target>
+        <target state="final">Reemplazar atributos</target>
       </trans-unit>
-      <trans-unit id="settings.description.plugin.tx_klaroconsentmanager.settings.contextualconsent.replaceAttributes">
+      <trans-unit id="settings.description.plugin.tx_klaroconsentmanager.settings.contextualconsent.replaceAttributes" approved="yes">
         <source>Comma-separated list of attributes that should be automatically replaced within the content element of the contextual consent</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Lista separada por comas de atributos que deben ser reemplazados automáticamente dentro del elemento de contenido del consentimiento contextual</target>
+        <target state="final">Lista separada por comas de atributos que deben ser reemplazados automáticamente dentro del elemento de contenido del consentimiento contextual</target>
       </trans-unit>
-      <trans-unit id="settings.plugin.tx_klaroconsentmanager.settings.contextualconsent.mainSectionOnly">
+      <trans-unit id="settings.plugin.tx_klaroconsentmanager.settings.contextualconsent.mainSectionOnly" approved="yes">
         <source>Main section only</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Sólo sección principal</target>
+        <target state="final">Sólo sección principal</target>
       </trans-unit>
-      <trans-unit id="settings.description.plugin.tx_klaroconsentmanager.settings.contextualconsent.mainSectionOnly">
+      <trans-unit id="settings.description.plugin.tx_klaroconsentmanager.settings.contextualconsent.mainSectionOnly" approved="yes">
         <source>Activate this option if the contextual consent box should only be limited to the main content (without heading and footer).</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Active esta opción si la casilla de consentimiento contextual sólo debe limitarse al contenido principal (sin encabezamiento y pie de página).</target>
+        <target state="final">Active esta opción si la casilla de consentimiento contextual sólo debe limitarse al contenido principal (sin encabezamiento y pie de página).</target>
       </trans-unit>
-      <trans-unit id="settings.plugin.tx_klaroconsentmanager.settings.configuration.disabled">
+      <trans-unit id="settings.plugin.tx_klaroconsentmanager.settings.configuration.disabled" approved="yes">
         <source>Disable Klaro Consent Management</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Desactivar la gestión de consentimiento de Klaro</target>
+        <target state="final">Desactivar la gestión de consentimiento de Klaro</target>
       </trans-unit>
     </body>
   </file>
