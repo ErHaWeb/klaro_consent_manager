@@ -3,69 +3,69 @@
   <file source-language="en" original="EXT:klaro_consent_manager/Configuration/Sets/KlaroConsentManager/labels.xlf" datatype="plaintext" product-name="klaro_consent_manager" date="2025-07-10T17:20:02+02:00" target-language="nl">
     <header/>
     <body>
-      <trans-unit id="label">
+      <trans-unit id="label" approved="yes">
         <source>Klaro! Consent Manager</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Klaro! Toestemming Manager</target>
+        <target state="final">Klaro! Toestemming Manager</target>
       </trans-unit>
-      <trans-unit id="categories.klaroconsentmanager">
+      <trans-unit id="categories.klaroconsentmanager" approved="yes">
         <source>Klaro</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Klaro</target>
+        <target state="final">Klaro</target>
       </trans-unit>
-      <trans-unit id="categories.klaroconsentmanager.templates">
+      <trans-unit id="categories.klaroconsentmanager.templates" approved="yes">
         <source>Templates</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Sjablonen</target>
+        <target state="final">Sjablonen</target>
       </trans-unit>
-      <trans-unit id="categories.klaroconsentmanager.resources">
+      <trans-unit id="categories.klaroconsentmanager.resources" approved="yes">
         <source>Resources</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Hulpmiddelen</target>
+        <target state="final">Hulpmiddelen</target>
       </trans-unit>
-      <trans-unit id="categories.klaroconsentmanager.settings">
+      <trans-unit id="categories.klaroconsentmanager.settings" approved="yes">
         <source>Settings</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Instellingen</target>
+        <target state="final">Instellingen</target>
       </trans-unit>
-      <trans-unit id="settings.plugin.tx_klaroconsentmanager.view.templateRootPath">
+      <trans-unit id="settings.plugin.tx_klaroconsentmanager.view.templateRootPath" approved="yes">
         <source>Path to template root (FE)</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Pad naar template root (FE)</target>
+        <target state="final">Pad naar template root (FE)</target>
       </trans-unit>
-      <trans-unit id="settings.plugin.tx_klaroconsentmanager.view.partialRootPath">
+      <trans-unit id="settings.plugin.tx_klaroconsentmanager.view.partialRootPath" approved="yes">
         <source>Path to template partials (FE)</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Pad naar template partials (FE)</target>
+        <target state="final">Pad naar template partials (FE)</target>
       </trans-unit>
-      <trans-unit id="settings.plugin.tx_klaroconsentmanager.view.layoutRootPath">
+      <trans-unit id="settings.plugin.tx_klaroconsentmanager.view.layoutRootPath" approved="yes">
         <source>Path to template layouts (FE)</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Pad naar template lay-outs (FE)</target>
+        <target state="final">Pad naar template lay-outs (FE)</target>
       </trans-unit>
-      <trans-unit id="settings.plugin.tx_klaroconsentmanager.settings.css.klaro-default">
+      <trans-unit id="settings.plugin.tx_klaroconsentmanager.settings.css.klaro-default" approved="yes">
         <source>Klaro CSS</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Klaro CSS</target>
+        <target state="final">Klaro CSS</target>
       </trans-unit>
-      <trans-unit id="settings.plugin.tx_klaroconsentmanager.settings.css.klaro-custom">
+      <trans-unit id="settings.plugin.tx_klaroconsentmanager.settings.css.klaro-custom" approved="yes">
         <source>Custom additions for Klaro CSS</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Aangepaste toevoegingen voor Klaro CSS</target>
+        <target state="final">Aangepaste toevoegingen voor Klaro CSS</target>
       </trans-unit>
-      <trans-unit id="settings.plugin.tx_klaroconsentmanager.settings.javascript.klaro-default">
+      <trans-unit id="settings.plugin.tx_klaroconsentmanager.settings.javascript.klaro-default" approved="yes">
         <source>Klaro JavaScript</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Klaro JavaScript</target>
+        <target state="final">Klaro JavaScript</target>
       </trans-unit>
-      <trans-unit id="settings.plugin.tx_klaroconsentmanager.settings.contextualconsent.replaceAttributes">
+      <trans-unit id="settings.plugin.tx_klaroconsentmanager.settings.contextualconsent.replaceAttributes" approved="yes">
         <source>Replace attributes</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Vervang attributen</target>
+        <target state="final">Vervang attributen</target>
       </trans-unit>
-      <trans-unit id="settings.description.plugin.tx_klaroconsentmanager.settings.contextualconsent.replaceAttributes">
+      <trans-unit id="settings.description.plugin.tx_klaroconsentmanager.settings.contextualconsent.replaceAttributes" approved="yes">
         <source>Comma-separated list of attributes that should be automatically replaced within the content element of the contextual consent</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Kommagescheiden lijst van attributen die automatisch moeten worden vervangen binnen het inhoudselement van de contextuele toestemming</target>
+        <target state="final">Kommagescheiden lijst van attributen die automatisch moeten worden vervangen binnen het inhoudselement van de contextuele toestemming</target>
       </trans-unit>
-      <trans-unit id="settings.plugin.tx_klaroconsentmanager.settings.contextualconsent.mainSectionOnly">
+      <trans-unit id="settings.plugin.tx_klaroconsentmanager.settings.contextualconsent.mainSectionOnly" approved="yes">
         <source>Main section only</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Alleen hoofdsectie</target>
+        <target state="final">Alleen hoofdsectie</target>
       </trans-unit>
-      <trans-unit id="settings.description.plugin.tx_klaroconsentmanager.settings.contextualconsent.mainSectionOnly">
+      <trans-unit id="settings.description.plugin.tx_klaroconsentmanager.settings.contextualconsent.mainSectionOnly" approved="yes">
         <source>Activate this option if the contextual consent box should only be limited to the main content (without heading and footer).</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Activeer deze optie als het vak contextuele toestemming alleen moet worden beperkt tot de hoofdinhoud (zonder kop en voettekst).</target>
+        <target state="final">Activeer deze optie als het vak contextuele toestemming alleen moet worden beperkt tot de hoofdinhoud (zonder kop en voettekst).</target>
       </trans-unit>
-      <trans-unit id="settings.plugin.tx_klaroconsentmanager.settings.configuration.disabled">
+      <trans-unit id="settings.plugin.tx_klaroconsentmanager.settings.configuration.disabled" approved="yes">
         <source>Disable Klaro Consent Management</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Klaro toestemmingsbeheer uitschakelen</target>
+        <target state="final">Klaro toestemmingsbeheer uitschakelen</target>
       </trans-unit>
     </body>
   </file>
