@@ -105,7 +105,7 @@
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.title.placeholder" approved="yes">
         <source>My Klaro! Configuration</source>
-        <target state="final">Mijn Klaro! Configuratie</target>
+        <target state="final">Mijn Klaro!-configuratie</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.testing.label" approved="yes">
         <source>Testing</source>
@@ -151,9 +151,9 @@
         <source>Additional Class</source>
         <target state="final">Extra klasse</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_configuration.additional_class.description">
+      <trans-unit id="tx_klaroconsentmanager_configuration.additional_class.description" approved="yes">
         <source>You can specify an additional class (or classes) that will be added to the Klaro `div`.</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Je kunt een extra klasse (of klassen) specificeren die aan de Klaro `div` zal worden toegevoegd.</target>
+        <target state="final">Je kunt een extra klasse (of klassen) specificeren die aan de Klaro "div" zal worden toegevoegd</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.additional_class.placeholder" approved="yes">
         <source>my-klaro</source>
@@ -225,7 +225,7 @@
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.cookie_domain.placeholder" approved="yes">
         <source>.example.com</source>
-        <target state="final">.voorbeeld.nl</target>
+        <target state="final">.example.com</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.cookie_path.label" approved="yes">
         <source>Cookie Path</source>
@@ -263,9 +263,9 @@
         <source>Must consent</source>
         <target state="final">Moet worden goedgekeurd</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_configuration.must_consent.description">
+      <trans-unit id="tx_klaroconsentmanager_configuration.must_consent.description" approved="yes">
         <source>If `mustConsent` is set to `true`, Klaro will directly display the consent manager modal and not allow the user to close it before having actively consented to or declined the use of third-party services.</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Als `mustConsent` is ingesteld op `true`, Klaro toont direct de toestemmings-manager-modale en laat de gebruiker deze niet sluiten voordat hij actief toestemming heeft gegeven voor of geweigerd heeft het gebruik van diensten van derden.</target>
+        <target state="final">Als `mustConsent` is ingesteld op `true`, Klaro toont direct de toestemmings-manager modale en laat de gebruiker het niet sluiten voordat hij actief toestemming heeft gegeven of het gebruik van diensten van derden heeft afgewezen.</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.accept_all.label" approved="yes">
         <source>Accept all</source>
@@ -281,7 +281,7 @@
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.hide_decline_all.description" approved="yes">
         <source>Setting `hideDeclineAll` to `true` will hide the "decline" button in the consent modal and force the user to open the modal in order to change his/her consent or disable all third-party services. We strongly advise you to not use this feature, as it opposes the "privacy by default" and "privacy by design" principles of the GDPR (but might be acceptable in other legislations such as under the CCPA)</source>
-        <target state="final">Als `hideDeclineAll` op `true` wordt ingesteld, zal de knop "decline" in de consent modal verbergen en zal de gebruiker gedwongen worden de modal te openen om zijn/haar toestemming te veranderen of alle diensten van derden uit te schakelen. Wij raden u aan deze functie niet te gebruiken, aangezien het zich verzet tegen de beginselen "privacy default " en "privacy by design" van de GDPR (maar kan aanvaardbaar zijn in andere wetgeving, zoals onder de CCPA)</target>
+        <target state="final">Als `hideDeclineAll` op `true` wordt ingesteld, wordt de knop "weigeren" in de toestemmingsmodal verborgen en wordt de gebruiker gedwongen de modal te openen om zijn of haar toestemming te wijzigen of alle diensten van derden uit te schakelen. Wij raden sterk af deze functie te gebruiken, omdat deze ingaat tegen de principes "privacy by default" en "privacy by design" van de GDPR (maar in andere wetgeving, zoals onder de CCPA, acceptabel kan zijn).</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.hide_learn_more.label" approved="yes">
         <source>Hide Learn More</source>
@@ -353,7 +353,7 @@
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.purpose_order.description" approved="yes">
         <source>The order in which purposes appear in the notice and modal can be changed via the `purposeOrder` parameter, which can be given a list with purpose names and will display those purposes in the order in which they appear in the list.</source>
-        <target state="final">De volgorde waarin de doelen in de melding verschijnen, kan veranderd worden met de `doel-Order` parameter, die een lijst met doelnamen kunnen krijgen en die doelen weergeven in de volgorde waarin ze worden weergegeven in de lijst.</target>
+        <target state="final">De volgorde waarin de doelen in de melding verschijnen, kan veranderd worden met de `doel-Order` parameter, die een lijst met doelnamen kunnen krijgen en die doelen weergeven in de volgorde waarin ze worden weergegeven in de lijst. (`purposeOrder`)</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.callback.label" approved="yes">
         <source>Callback</source>
@@ -361,7 +361,7 @@
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.callback.description" approved="yes">
         <source>You can define an optional callback function that will be called each time the consent state for any given service changes. The consent value will be passed as the first parameter to the function (`true` = consented). The `service` config will be passed as the second parameter. The content of this field is wrapped with `callback: function(consent, service) { }`</source>
-        <target state="final">U kunt een optionele callback-functie definiëren die wordt aangeroepen telkens wanneer de toestemming status voor bepaalde wijzigingen in de service wordt gegeven. De consent waarde wordt doorgegeven als eerste parameter aan de functie (`true` = consented). De `service` configuratie zal worden doorgegeven als de tweede parameter. De inhoud van dit veld wordt verpakt met `callback: functie (toestemming, service) { }`</target>
+        <target state="final">U kunt een optionele callback-functie definiëren die telkens wordt aangeroepen wanneer de toestemmingsstatus voor een bepaalde dienst wijzigt. De toestemmingswaarde wordt als eerste parameter aan de functie doorgegeven (`true` = toestemming gegeven). De `service`-configuratie wordt als tweede parameter doorgegeven. De inhoud van dit veld wordt verpakt met `callback: function(consent, service) { }`</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.locallang_path.label" approved="yes">
         <source>Locallang Path</source>
@@ -373,7 +373,7 @@
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.locallang_path.placeholder" approved="yes">
         <source>EXT:sitepackage/Resources/Private/Language/Klaro/locallang.xlf</source>
-        <target state="final">EXT:sitepackage/Resources/Privé/Language/Klaro/locallang.xlf</target>
+        <target state="final">EXT:sitepackage/Resources/Private/Language/Klaro/locallang.xlf</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.fluidtemplate_rootpath.label" approved="yes">
         <source>Fluid Template Root Path</source>
@@ -381,11 +381,11 @@
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.fluidtemplate_rootpath.description" approved="yes">
         <source>As an alternative to the usual TypoScript configuration via constants under `plugin.tx_klaroconsentmanager.view`, a Fluid root path can be defined here, which has a higher priority than the paths configured in TypoScript. The three default directories `/Layouts/`, `/Partials/` and `/Templates/` are expected under this path. Fluid templates created here are used to enrich Locallang labels with additional functionality or to replace them completely. In this way, dynamic content or more complex HTML structures can be provided in a simple way. Fluid templates that are to override labels are expected in the subdirectory `/Templates/Labels/`.</source>
-        <target state="final">Als alternatief voor de gebruikelijke TypoScript configuratie via constanten onder `plugin.tx_klaroconsentmanager. iew`, een Fluid root path kan hier worden gedefinieerd, met een hogere prioriteit dan de paden geconfigureerd in TypoScript. De drie standaard mappen `/Layouts/`, `/Partials/` en `/Templates/` worden op dit pad verwacht. Fluid sjablonen die hier worden gemaakt, worden gebruikt om Locallang labels te verrijken met extra functionaliteit of om ze volledig te vervangen. Op deze manier kunnen dynamische inhoud of complexere HTML-structuren op een eenvoudige manier worden geleverd. Fluid sjablonen die labels moeten overschrijven worden verwacht in de subdirectory `/Templates/Labels/`.</target>
+        <target state="final">Als alternatief voor de gebruikelijke TypoScript-configuratie via constanten onder `plugin.tx_klaroconsentmanager.view` kan hier een Fluid-rootpad worden gedefinieerd, met een hogere prioriteit dan de paden die in TypoScript zijn geconfigureerd. Onder dit pad worden de drie standaardmappen `/Layouts/`, `/Partials/` en `/Templates/` verwacht. Fluid-sjablonen die hier worden gemaakt, worden gebruikt om Locallang-labels met extra functionaliteit te verrijken of volledig te vervangen. Op deze manier kan dynamische inhoud of complexere HTML-structuur eenvoudig worden aangeboden. Fluid-sjablonen die labels overschrijven, worden verwacht in de submap `/Templates/Labels/`.</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.fluidtemplate_rootpath.placeholder" approved="yes">
         <source>EXT:sitepackage/Resources/Private/</source>
-        <target state="final">EXT:sitepackage/Resources/Privé/</target>
+        <target state="final">EXT:sitepackage/Resources/Private/</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.alignment.label" approved="yes">
         <source>Alignment</source>
@@ -779,9 +779,9 @@
         <source>Callback</source>
         <target state="final">Callback</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_service.callback.description">
+      <trans-unit id="tx_klaroconsentmanager_service.callback.description" approved="yes">
         <source>You can define an optional callback function that will be called each time the consent state for the given service changes. The consent value will be passed as the first parameter to the function (`true` = consented). The `service` config will be passed as the second parameter. The content of this field is wrapped with `callback: function(consent, service) { }`. `consent` is a bool that reflects the current state. `service` holds all information about the currently selected service. When you enter something here, you need to know what you are doing. It is your responsibility that no JavaScript errors occur.</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">U kunt een optionele callback-functie definiëren die wordt aangeroepen elke keer dat de toestemming status voor de opgegeven service verandert. De consent waarde wordt doorgegeven als eerste parameter aan de functie (`true` = consented). De `service` configuratie zal worden doorgegeven als de tweede parameter. De inhoud van dit veld wordt verpakt met `callback: function(toestemming, service) { }`consent` is een bool die de huidige staat weergeeft. `service` bevat alle informatie over de geselecteerde service. Als je hier iets invoert, moet je weten wat je doet. Het is je verantwoordelijkheid dat er geen JavaScript-fouten optreden.</target>
+        <target state="final">U kunt een optionele callback-functie definiëren die telkens wordt aangeroepen wanneer de toestemmingsstatus voor de opgegeven dienst wijzigt. De toestemmingswaarde wordt als eerste parameter aan de functie doorgegeven (`true` = toestemming gegeven). De `service`-configuratie wordt als tweede parameter doorgegeven. De inhoud van dit veld wordt verpakt met `callback: function(consent, service) { }`. `consent` is een bool die de huidige status weerspiegelt. `service` bevat alle informatie over de momenteel geselecteerde dienst. Als u hier iets invoert, moet u weten wat u doet. U bent ervoor verantwoordelijk dat er geen JavaScript-fouten optreden.</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_service.on_accept.label" approved="yes">
         <source>`onAccept` callback function</source>
@@ -841,7 +841,7 @@
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_cookie.palettes.technic_palette.description" approved="yes">
         <source>This information is technically evaluated by Klaro! to manipulate the cookie.</source>
-        <target state="final">Deze informatie wordt technisch door Klaro beoordeeld!</target>
+        <target state="final">Deze informatie wordt technisch door Klaro! beoordeeld!</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_cookie.palettes.expiration_palette" approved="yes">
         <source>Expiration Time</source>
@@ -869,7 +869,7 @@
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_cookie.title.description" approved="yes">
         <source>If set, this title will be used in the frontend/backend for displaying the cookie. This title has no technical relevance (contrary to the `pattern` field).</source>
-        <target state="final">Indien ingesteld, zal deze titel gebruikt worden in de frontend/backend voor het weergeven van de cookie. Deze titel heeft geen technische relevantie (in tegenstelling tot het 'patroon'-veld).</target>
+        <target state="final">Indien ingesteld, wordt deze titel in frontend/backend gebruikt om de cookie weer te geven. Deze titel heeft geen technische relevantie (in tegenstelling tot het veld `pattern`).</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_cookie.title.placeholder" approved="yes">
         <source>mf_[Session]</source>
@@ -993,7 +993,7 @@
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.powered_by.placeholder" approved="yes">
         <source>https://example.com/your-link</source>
-        <target state="final">https://voorbeeld.com/your-link</target>
+        <target state="final">https://example.com/your-link</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.style_prefix.label" approved="yes">
         <source>Style prefix</source>
