@@ -11,61 +11,61 @@
         <source>Klaro</source>
         <target state="needs-translation">Klaro</target>
       </trans-unit>
-      <trans-unit id="categories.klaroconsentmanager.templates">
+      <trans-unit id="categories.klaroconsentmanager.templates" approved="yes">
         <source>Templates</source>
-        <target state="needs-translation">Templates</target>
+        <target state="final">Templedi</target>
       </trans-unit>
-      <trans-unit id="categories.klaroconsentmanager.resources">
+      <trans-unit id="categories.klaroconsentmanager.resources" approved="yes">
         <source>Resources</source>
-        <target state="needs-translation">Resources</target>
+        <target state="final">Adnoddau</target>
       </trans-unit>
-      <trans-unit id="categories.klaroconsentmanager.settings">
+      <trans-unit id="categories.klaroconsentmanager.settings" approved="yes">
         <source>Settings</source>
-        <target state="needs-translation">Settings</target>
+        <target state="final">Gosodiadau</target>
       </trans-unit>
-      <trans-unit id="settings.plugin.tx_klaroconsentmanager.view.templateRootPath">
+      <trans-unit id="settings.plugin.tx_klaroconsentmanager.view.templateRootPath" approved="yes">
         <source>Path to template root (FE)</source>
-        <target state="needs-translation">Path to template root (FE)</target>
+        <target state="final">Llwybr i wraidd templedi (FE)</target>
       </trans-unit>
-      <trans-unit id="settings.plugin.tx_klaroconsentmanager.view.partialRootPath">
+      <trans-unit id="settings.plugin.tx_klaroconsentmanager.view.partialRootPath" approved="yes">
         <source>Path to template partials (FE)</source>
-        <target state="needs-translation">Path to template partials (FE)</target>
+        <target state="final">Llwybr i rannau templed (FE)</target>
       </trans-unit>
-      <trans-unit id="settings.plugin.tx_klaroconsentmanager.view.layoutRootPath">
+      <trans-unit id="settings.plugin.tx_klaroconsentmanager.view.layoutRootPath" approved="yes">
         <source>Path to template layouts (FE)</source>
-        <target state="needs-translation">Path to template layouts (FE)</target>
+        <target state="final">Llwybr i gynlluniau templed (FE)</target>
       </trans-unit>
       <trans-unit id="settings.plugin.tx_klaroconsentmanager.settings.css.klaro-default">
         <source>Klaro CSS</source>
         <target state="needs-translation">Klaro CSS</target>
       </trans-unit>
-      <trans-unit id="settings.plugin.tx_klaroconsentmanager.settings.css.klaro-custom">
+      <trans-unit id="settings.plugin.tx_klaroconsentmanager.settings.css.klaro-custom" approved="yes">
         <source>Custom additions for Klaro CSS</source>
-        <target state="needs-translation">Custom additions for Klaro CSS</target>
+        <target state="final">Ychwanegiadau personol ar gyfer Klaro CSS</target>
       </trans-unit>
       <trans-unit id="settings.plugin.tx_klaroconsentmanager.settings.javascript.klaro-default">
         <source>Klaro JavaScript</source>
         <target state="needs-translation">Klaro JavaScript</target>
       </trans-unit>
-      <trans-unit id="settings.plugin.tx_klaroconsentmanager.settings.contextualconsent.replaceAttributes">
+      <trans-unit id="settings.plugin.tx_klaroconsentmanager.settings.contextualconsent.replaceAttributes" approved="yes">
         <source>Replace attributes</source>
-        <target state="needs-translation">Replace attributes</target>
+        <target state="final">Disodli priodoleddau</target>
       </trans-unit>
-      <trans-unit id="settings.description.plugin.tx_klaroconsentmanager.settings.contextualconsent.replaceAttributes">
+      <trans-unit id="settings.description.plugin.tx_klaroconsentmanager.settings.contextualconsent.replaceAttributes" approved="yes">
         <source>Comma-separated list of attributes that should be automatically replaced within the content element of the contextual consent</source>
-        <target state="needs-translation">Comma-separated list of attributes that should be automatically replaced within the content element of the contextual consent</target>
+        <target state="final">Rhestr o briodoleddau wedi'u gwahanu gan gomas a ddylai gael eu disodli'n awtomatig o fewn elfen gynnwys y caniatâd cyd-destunol</target>
       </trans-unit>
-      <trans-unit id="settings.plugin.tx_klaroconsentmanager.settings.contextualconsent.mainSectionOnly">
+      <trans-unit id="settings.plugin.tx_klaroconsentmanager.settings.contextualconsent.mainSectionOnly" approved="yes">
         <source>Main section only</source>
-        <target state="needs-translation">Main section only</target>
+        <target state="final">Prif adran yn unig</target>
       </trans-unit>
-      <trans-unit id="settings.description.plugin.tx_klaroconsentmanager.settings.contextualconsent.mainSectionOnly">
+      <trans-unit id="settings.description.plugin.tx_klaroconsentmanager.settings.contextualconsent.mainSectionOnly" approved="yes">
         <source>Activate this option if the contextual consent box should be limited to the main content only (without heading and footer).</source>
-        <target state="needs-translation">Activate this option if the contextual consent box should be limited to the main content only (without heading and footer).</target>
+        <target state="final">Galluogwch yr opsiwn hwn os dylai'r blwch caniatâd cyd-destunol gael ei gyfyngu i'r prif gynnwys yn unig (heb bennawd a throedyn).</target>
       </trans-unit>
-      <trans-unit id="settings.plugin.tx_klaroconsentmanager.settings.configuration.disabled">
+      <trans-unit id="settings.plugin.tx_klaroconsentmanager.settings.configuration.disabled" approved="yes">
         <source>Disable Klaro Consent Management</source>
-        <target state="needs-translation">Disable Klaro Consent Management</target>
+        <target state="final">Analluogi Klaro Consent Management</target>
       </trans-unit>
     </body>
   </file>
