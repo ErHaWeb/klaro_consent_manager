@@ -5,7 +5,7 @@
     <body>
       <trans-unit id="label" approved="yes">
         <source>Klaro! Consent Manager</source>
-        <target state="final">Klaro! Samtycke Manager</target>
+        <target state="final">Klaro! samtyckeshanterare</target>
       </trans-unit>
       <trans-unit id="categories.klaroconsentmanager" approved="yes">
         <source>Klaro</source>
@@ -25,15 +25,15 @@
       </trans-unit>
       <trans-unit id="settings.plugin.tx_klaroconsentmanager.view.templateRootPath" approved="yes">
         <source>Path to template root (FE)</source>
-        <target state="final">Sökväg till mallroten (FE)</target>
+        <target state="final">Sökväg till mallrot (FE)</target>
       </trans-unit>
       <trans-unit id="settings.plugin.tx_klaroconsentmanager.view.partialRootPath" approved="yes">
         <source>Path to template partials (FE)</source>
-        <target state="final">Sökväg till mallpartialer (FE)</target>
+        <target state="final">Sökväg till mall-partials (FE)</target>
       </trans-unit>
       <trans-unit id="settings.plugin.tx_klaroconsentmanager.view.layoutRootPath" approved="yes">
         <source>Path to template layouts (FE)</source>
-        <target state="final">Sökväg till malllayouter (FE)</target>
+        <target state="final">Sökväg till mall-layouter (FE)</target>
       </trans-unit>
       <trans-unit id="settings.plugin.tx_klaroconsentmanager.settings.css.klaro-default" approved="yes">
         <source>Klaro CSS</source>
@@ -53,19 +53,19 @@
       </trans-unit>
       <trans-unit id="settings.description.plugin.tx_klaroconsentmanager.settings.contextualconsent.replaceAttributes" approved="yes">
         <source>Comma-separated list of attributes that should be automatically replaced within the content element of the contextual consent</source>
-        <target state="final">Kommaseparerad lista över attribut som automatiskt ska ersättas inom innehållsdelen av kontextuellt samtycke</target>
+        <target state="final">Kommaseparerad lista med attribut som automatiskt ska ersättas i innehållselementet för kontextuellt samtycke</target>
       </trans-unit>
       <trans-unit id="settings.plugin.tx_klaroconsentmanager.settings.contextualconsent.mainSectionOnly" approved="yes">
         <source>Main section only</source>
-        <target state="final">Endast huvudavsnitt</target>
+        <target state="final">Endast huvudsektion</target>
       </trans-unit>
-      <trans-unit id="settings.description.plugin.tx_klaroconsentmanager.settings.contextualconsent.mainSectionOnly">
+      <trans-unit id="settings.description.plugin.tx_klaroconsentmanager.settings.contextualconsent.mainSectionOnly" approved="yes">
         <source>Activate this option if the contextual consent box should be limited to the main content only (without heading and footer).</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Aktivera detta alternativ om kontextuella samtyckesrutor endast ska begränsas till huvudinnehållet (utan rubrik och sidfot).</target>
+        <target state="final">Aktivera det här alternativet om rutan för kontextuellt samtycke endast ska begränsas till huvudinnehållet (utan rubrik och sidfot).</target>
       </trans-unit>
       <trans-unit id="settings.plugin.tx_klaroconsentmanager.settings.configuration.disabled" approved="yes">
         <source>Disable Klaro Consent Management</source>
-        <target state="final">Inaktivera Klaro Samtycke Management</target>
+        <target state="final">Inaktivera Klaro samtyckeshantering</target>
       </trans-unit>
     </body>
   </file>
