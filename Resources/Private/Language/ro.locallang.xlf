@@ -16,7 +16,7 @@
       </trans-unit>
       <trans-unit id="consentModal.description" approved="yes">
         <source>Here you can assess and customize the services that we'd like to use on this website. You're in charge! Enable or disable services as you see fit.</source>
-        <target state="final">Aici puteți vedea și personaliza informațiile pe care le colectăm despre dvs.</target>
+        <target state="final">Aici puteți evalua și personaliza serviciile pe care am dori să le folosim pe acest site web. Dvs. decideți! Activați sau dezactivați serviciile după cum considerați potrivit.</target>
       </trans-unit>
       <trans-unit id="consentModal.title" approved="yes">
         <source>Services we would like to use</source>
@@ -28,11 +28,11 @@
       </trans-unit>
       <trans-unit id="consentNotice.description" approved="yes">
         <source>Hi! Could we please enable some additional services for {purposes}? You can always change or withdraw your consent later.</source>
-        <target state="final">Colectăm și procesăm informațiile dvs. personale în următoarele scopuri: {purposes}.</target>
+        <target state="final">Bună! Putem activa câteva servicii suplimentare pentru {purposes}? Vă puteți modifica sau retrage consimțământul oricând mai târziu.</target>
       </trans-unit>
       <trans-unit id="consentNotice.learnMore" approved="yes">
         <source>Let me choose</source>
-        <target state="final">Află mai multe</target>
+        <target state="final">Vreau să aleg</target>
       </trans-unit>
       <trans-unit id="consentNotice.testing" approved="yes">
         <source>Testing mode!</source>
@@ -72,7 +72,7 @@
       </trans-unit>
       <trans-unit id="poweredBy" approved="yes">
         <source>Realized with Klaro!</source>
-        <target state="final">Realizat de Klaro!</target>
+        <target state="final">Realizat cu Klaro!</target>
       </trans-unit>
       <trans-unit id="privacyPolicy.name" approved="yes">
         <source>privacy policy</source>
@@ -128,15 +128,15 @@
       </trans-unit>
       <trans-unit id="service.disableAll.description" approved="yes">
         <source>Use this switch to enable or disable all services.</source>
-        <target state="final">Utilizați acest switch pentru a activa/dezactiva toate aplicațiile.</target>
+        <target state="final">Utilizați acest comutator pentru a activa sau dezactiva toate serviciile.</target>
       </trans-unit>
       <trans-unit id="service.disableAll.title" approved="yes">
         <source>Enable or disable all services</source>
-        <target state="final">Comutați între toate aplicațiile</target>
+        <target state="final">Activați sau dezactivați toate serviciile</target>
       </trans-unit>
-      <trans-unit id="service.optOut.description">
+      <trans-unit id="service.optOut.description" approved="yes">
         <source>This service is loaded by default (but you can opt out)</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Acest serviciu este încărcat în mod implicit (dar puteţi opta pentru neaplicare)</target>
+        <target state="final">Acest serviciu este încărcat în mod implicit (dar puteți renunța)</target>
       </trans-unit>
       <trans-unit id="service.optOut.title" approved="yes">
         <source>(opt-out)</source>
@@ -150,9 +150,9 @@
         <source>purposes</source>
         <target state="final">scopuri</target>
       </trans-unit>
-      <trans-unit id="service.required.description">
+      <trans-unit id="service.required.description" approved="yes">
         <source>This service is always required</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Acest serviciu este întotdeauna necesar</target>
+        <target state="final">Acest serviciu este întotdeauna necesar</target>
       </trans-unit>
       <trans-unit id="service.required.title" approved="yes">
         <source>(always required)</source>
@@ -260,7 +260,7 @@
       </trans-unit>
       <trans-unit id="services.career-captain.description" approved="yes">
         <source>Career Captain provides gamified career orientation and recruiting content. When enabled, external content from Career Captain may process usage and technical connection data.</source>
-        <target state="final">Career Captain oferă orientare profesională gamified și conținut de recrutare. Atunci când este activat, conținutul extern al Career Captain poate procesa utilizarea și datele tehnice ale conexiunii.</target>
+        <target state="final">Career Captain oferă orientare profesională gamificată și conținut de recrutare. Atunci când este activat, conținutul extern al Career Captain poate procesa date de utilizare și date tehnice de conexiune.</target>
       </trans-unit>
       <trans-unit id="services.clarity.title" approved="yes">
         <source>Microsoft Clarity</source>
@@ -396,7 +396,7 @@
       </trans-unit>
       <trans-unit id="services.salesviewer.description" approved="yes">
         <source>SalesViewer analyzes website visits for B2B lead generation and may identify company-related visitor information based on usage and technical access data.</source>
-        <target state="final">SalesViewer analizează vizitele site-urilor web pentru generarea de plumb B2B și poate identifica informațiile referitoare la vizitatori ale companiei pe baza datelor de utilizare și de acces tehnic.</target>
+        <target state="final">SalesViewer analizează vizitele pe site pentru generarea de lead-uri B2B și poate identifica informații despre vizitatori asociate companiilor pe baza datelor de utilizare și de acces tehnic.</target>
       </trans-unit>
       <trans-unit id="services.tiktok.title" approved="yes">
         <source>TikTok</source>
@@ -410,9 +410,9 @@
         <source>X (formerly Twitter)</source>
         <target state="final">X (anterior Twitter)</target>
       </trans-unit>
-      <trans-unit id="services.twitter.description">
+      <trans-unit id="services.twitter.description" approved="yes">
         <source>X (formerly Twitter) is a social media platform that allows users to share and interact with short messages and multimedia content. Developers can integrate Twitter features into websites to enhance user engagement and real-time updates while maintaining data privacy compliance and adhering to coding guidelines.</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">X (anterior Twitter) este o platformă de socializare care permite utilizatorilor să partajeze și să interacționeze cu mesaje scurte și conținut multimedia. Dezvoltatorii pot integra caracteristici Twitter în site-urile web pentru a îmbunătăți implicarea utilizatorilor și actualizările în timp real, menținând în același timp respectarea confidențialității datelor și aderând la orientările privind codificarea.</target>
+        <target state="final">X (anterior Twitter) este o platformă de socializare care permite utilizatorilor să partajeze și să interacționeze cu mesaje scurte și conținut multimedia. Dezvoltatorii pot integra caracteristici Twitter în site-urile web pentru a îmbunătăți implicarea utilizatorilor și actualizările în timp real, menținând în același timp respectarea confidențialității datelor și aderând la orientările privind codificarea.</target>
       </trans-unit>
       <trans-unit id="services.userlike.title" approved="yes">
         <source>Userlike</source>
@@ -536,7 +536,7 @@
       </trans-unit>
       <trans-unit id="warning.noServices" approved="yes">
         <source>Why don't I see a Klaro! Modal? → You must assign at least 1 service to the Klaro! configuration! Without services, we don't need consent management at all.</source>
-        <target state="final">De ce nu văd un Klaro! Modal? → Trebuie să atribui cel puţin un serviciu Klaro! Configurare! Fără servicii, nu avem nevoie deloc de consimțământ.</target>
+        <target state="final">De ce nu văd un modal Klaro!? → Trebuie să atribuiți cel puțin 1 serviciu configurației Klaro! Fără servicii, nu avem nevoie de gestionarea consimțământului.</target>
       </trans-unit>
       <trans-unit id="warning.noServicesPersonalized" approved="yes">
         <source>Hey %s! You missed a service in the config! Without services, we don't need consent management at all.</source>
