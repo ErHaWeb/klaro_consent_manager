@@ -90,10 +90,14 @@
 		"crowdin:export": [
 			"Composer\\Config::disableProcessTimeout",
 			"crowdin download translations --config .crowdin.yml --branch main --export-only-approved"
-		]
+		],
+		"docs:generate": "docker run --rm --pull always -v $(pwd):/project -it ghcr.io/typo3-documentation/render-guides:latest --config=Documentation",
+		"docs:watch": "sh -c 'docker ps -q --filter \"publish=5173\" | while read id; do [ -n \"$id\" ] && docker rm -f \"$id\"; done; docker rm -f typo3-docs-watch 2>/dev/null || true; URL=\"http://localhost:5173/Documentation-GENERATED-temp/Index.html\"; (sleep 2 && open \"$URL\") & docker run --rm -it --name typo3-docs-watch --pull always -v \"$(pwd)/Documentation:/project/Documentation\" -v \"$(pwd)/Documentation-GENERATED-temp:/project/Documentation-GENERATED-temp\" -p 5173:5173 ghcr.io/garvinhicking/typo3-documentation-browsersync:latest || test \"$?\" -eq 130'"
 	},
 	"scripts-descriptions": {
 		"crowdin:import": "Import existing local XLIFF translation files into Crowdin and approve imported translations.",
-		"crowdin:export": "Export approved Crowdin translations to local ignored XLIFF files."
+		"crowdin:export": "Export approved Crowdin translations to local ignored XLIFF files.",
+		"docs:generate": "Renders the extension ReST documentation.",
+		"docs:watch": "Watch the extension ReST documentation with Vite."
 	}
 }
