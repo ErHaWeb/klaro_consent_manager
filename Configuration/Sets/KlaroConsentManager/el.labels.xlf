@@ -5,7 +5,7 @@
     <body>
       <trans-unit id="label" approved="yes">
         <source>Klaro! Consent Manager</source>
-        <target state="final">Klaro! Διαχειριστής Συγκατάθεσης</target>
+        <target state="final">Διαχειριστής συγκατάθεσης Klaro!</target>
       </trans-unit>
       <trans-unit id="categories.klaroconsentmanager" approved="yes">
         <source>Klaro</source>
@@ -25,15 +25,15 @@
       </trans-unit>
       <trans-unit id="settings.plugin.tx_klaroconsentmanager.view.templateRootPath" approved="yes">
         <source>Path to template root (FE)</source>
-        <target state="final">Διαδρομή για τη ρίζα του προτύπου (FE)</target>
+        <target state="final">Διαδρομή προς τη ρίζα προτύπων (FE)</target>
       </trans-unit>
       <trans-unit id="settings.plugin.tx_klaroconsentmanager.view.partialRootPath" approved="yes">
         <source>Path to template partials (FE)</source>
-        <target state="final">Διαδρομή για τα μέρη του προτύπου (FE)</target>
+        <target state="final">Διαδρομή προς τα partials προτύπων (FE)</target>
       </trans-unit>
       <trans-unit id="settings.plugin.tx_klaroconsentmanager.view.layoutRootPath" approved="yes">
         <source>Path to template layouts (FE)</source>
-        <target state="final">Διαδρομή για τις διατάξεις προτύπων (FE)</target>
+        <target state="final">Διαδρομή προς τα layouts προτύπων (FE)</target>
       </trans-unit>
       <trans-unit id="settings.plugin.tx_klaroconsentmanager.settings.css.klaro-default" approved="yes">
         <source>Klaro CSS</source>
@@ -49,23 +49,23 @@
       </trans-unit>
       <trans-unit id="settings.plugin.tx_klaroconsentmanager.settings.contextualconsent.replaceAttributes" approved="yes">
         <source>Replace attributes</source>
-        <target state="final">Αντικατάσταση ιδιοτήτων</target>
+        <target state="final">Αντικατάσταση χαρακτηριστικών</target>
       </trans-unit>
       <trans-unit id="settings.description.plugin.tx_klaroconsentmanager.settings.contextualconsent.replaceAttributes" approved="yes">
         <source>Comma-separated list of attributes that should be automatically replaced within the content element of the contextual consent</source>
-        <target state="final">Λίστα χαρακτηριστικών διαχωρισμένων με κόμματα που θα πρέπει να αντικατασταθούν αυτόματα μέσα στο στοιχείο περιεχομένου της συγκατάθεσης του πλαισίου</target>
+        <target state="final">Λίστα χαρακτηριστικών χωρισμένων με κόμματα που πρέπει να αντικαθίστανται αυτόματα μέσα στο στοιχείο περιεχομένου της συμφραζόμενης συγκατάθεσης</target>
       </trans-unit>
       <trans-unit id="settings.plugin.tx_klaroconsentmanager.settings.contextualconsent.mainSectionOnly" approved="yes">
         <source>Main section only</source>
-        <target state="final">Κύριο τμήμα μόνο</target>
+        <target state="final">Μόνο κύρια ενότητα</target>
       </trans-unit>
-      <trans-unit id="settings.description.plugin.tx_klaroconsentmanager.settings.contextualconsent.mainSectionOnly">
+      <trans-unit id="settings.description.plugin.tx_klaroconsentmanager.settings.contextualconsent.mainSectionOnly" approved="yes">
         <source>Activate this option if the contextual consent box should be limited to the main content only (without heading and footer).</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Ενεργοποιήστε αυτή την επιλογή αν το πλαίσιο συγκατάθεσης που περιέχει το περιεχόμενο θα πρέπει να περιορίζεται μόνο στο κύριο περιεχόμενο (χωρίς επικεφαλίδα και υποσέλιδο).</target>
+        <target state="final">Ενεργοποιήστε αυτή την επιλογή αν το πλαίσιο συμφραζόμενης συγκατάθεσης πρέπει να περιορίζεται μόνο στο κύριο περιεχόμενο (χωρίς επικεφαλίδα και υποσέλιδο).</target>
       </trans-unit>
       <trans-unit id="settings.plugin.tx_klaroconsentmanager.settings.configuration.disabled" approved="yes">
         <source>Disable Klaro Consent Management</source>
-        <target state="final">Απενεργοποίηση Της Διαχείρισης Συγκατάθεσης Klaro</target>
+        <target state="final">Απενεργοποίηση της διαχείρισης συγκατάθεσης Klaro</target>
       </trans-unit>
     </body>
   </file>
