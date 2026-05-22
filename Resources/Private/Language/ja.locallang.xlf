@@ -16,7 +16,7 @@
       </trans-unit>
       <trans-unit id="consentModal.description" approved="yes">
         <source>Here you can assess and customize the services that we'd like to use on this website. You're in charge! Enable or disable services as you see fit.</source>
-        <target state="final">ここでは、このウェブサイトで使用したいサービスを評価しカスタマイズすることができます。 あなたが担当しています！サービスを有効または無効にします。</target>
+        <target state="final">ここでは、このウェブサイトで使用したいサービスを確認してカスタマイズできます。決定権はあなたにあります。必要に応じてサービスを有効または無効にしてください。</target>
       </trans-unit>
       <trans-unit id="consentModal.title" approved="yes">
         <source>Services we would like to use</source>
@@ -32,7 +32,7 @@
       </trans-unit>
       <trans-unit id="consentNotice.learnMore" approved="yes">
         <source>Let me choose</source>
-        <target state="final">私に選択</target>
+        <target state="final">自分で選択する</target>
       </trans-unit>
       <trans-unit id="consentNotice.testing" approved="yes">
         <source>Testing mode!</source>
@@ -72,7 +72,7 @@
       </trans-unit>
       <trans-unit id="poweredBy" approved="yes">
         <source>Realized with Klaro!</source>
-        <target state="final">Klaroで実現！</target>
+        <target state="final">Klaro!で実現！</target>
       </trans-unit>
       <trans-unit id="privacyPolicy.name" approved="yes">
         <source>privacy policy</source>
@@ -134,9 +134,9 @@
         <source>Enable or disable all services</source>
         <target state="final">すべてのサービスを有効または無効にする</target>
       </trans-unit>
-      <trans-unit id="service.optOut.description">
+      <trans-unit id="service.optOut.description" approved="yes">
         <source>This service is loaded by default (but you can opt out)</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">このサービスはデフォルトで読み込まれています(ただしオプトアウトできます)</target>
+        <target state="final">このサービスはデフォルトで読み込まれています(ただしオプトアウトできます)</target>
       </trans-unit>
       <trans-unit id="service.optOut.title" approved="yes">
         <source>(opt-out)</source>
@@ -150,9 +150,9 @@
         <source>purposes</source>
         <target state="final">目的</target>
       </trans-unit>
-      <trans-unit id="service.required.description">
+      <trans-unit id="service.required.description" approved="yes">
         <source>This service is always required</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">このサービスは常に必要です</target>
+        <target state="final">このサービスは常に必要です</target>
       </trans-unit>
       <trans-unit id="service.required.title" approved="yes">
         <source>(always required)</source>
@@ -372,7 +372,7 @@
       </trans-unit>
       <trans-unit id="services.klaro.description" approved="yes">
         <source>Klaro! manages consent choices for this website and stores whether individual services may be loaded according to your preferences.</source>
-        <target state="final">Klaro! 個々のサービスがあなたの好みに応じてロードされる可能性があるかどうか、このウェブサイトおよび保存のための同意の選択を管理します。</target>
+        <target state="final">Klaro! はこのウェブサイトの同意設定を管理し、個々のサービスをお客様の設定に従って読み込んでよいかを保存します。</target>
       </trans-unit>
       <trans-unit id="services.matomo.title" approved="yes">
         <source>Matomo/Piwik</source>
@@ -410,9 +410,9 @@
         <source>X (formerly Twitter)</source>
         <target state="final">X (旧 Twitter)</target>
       </trans-unit>
-      <trans-unit id="services.twitter.description">
+      <trans-unit id="services.twitter.description" approved="yes">
         <source>X (formerly Twitter) is a social media platform that allows users to share and interact with short messages and multimedia content. Developers can integrate Twitter features into websites to enhance user engagement and real-time updates while maintaining data privacy compliance and adhering to coding guidelines.</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">X(旧 Twitter)は、ユーザーが短いメッセージやマルチメディアコンテンツを共有し、対話できるソーシャルメディアプラットフォームです。 開発者は、Twitter機能をウェブサイトに統合し、データプライバシーの遵守とコーディングガイドラインの遵守を維持しながら、ユーザーエンゲージメントとリアルタイムの更新を強化することができます。</target>
+        <target state="final">X(旧 Twitter)は、ユーザーが短いメッセージやマルチメディアコンテンツを共有し、対話できるソーシャルメディアプラットフォームです。 開発者は、Twitter機能をウェブサイトに統合し、データプライバシーの遵守とコーディングガイドラインの遵守を維持しながら、ユーザーエンゲージメントとリアルタイムの更新を強化することができます。</target>
       </trans-unit>
       <trans-unit id="services.userlike.title" approved="yes">
         <source>Userlike</source>
@@ -536,7 +536,7 @@
       </trans-unit>
       <trans-unit id="warning.noServices" approved="yes">
         <source>Why don't I see a Klaro! Modal? → You must assign at least 1 service to the Klaro! configuration! Without services, we don't need consent management at all.</source>
-        <target state="final">Modal! → Klaroに少なくとも1つのサービスを割り当てる必要があります! 設定!サービスがなければ、同意管理は一切必要ありません。</target>
+        <target state="final">Klaro! のモーダルが表示されないのはなぜですか？ → Klaro! の設定に少なくとも1つのサービスを割り当てる必要があります。サービスがなければ、同意管理は不要です。</target>
       </trans-unit>
       <trans-unit id="warning.noServicesPersonalized" approved="yes">
         <source>Hey %s! You missed a service in the config! Without services, we don't need consent management at all.</source>
