@@ -5,7 +5,7 @@
     <body>
       <trans-unit id="label" approved="yes">
         <source>Klaro! Consent Manager</source>
-        <target state="final">Klaro! Consenso Manager</target>
+        <target state="final">Gestore del consenso Klaro!</target>
       </trans-unit>
       <trans-unit id="categories.klaroconsentmanager" approved="yes">
         <source>Klaro</source>
@@ -13,7 +13,7 @@
       </trans-unit>
       <trans-unit id="categories.klaroconsentmanager.templates" approved="yes">
         <source>Templates</source>
-        <target state="final">Modelli</target>
+        <target state="final">Template</target>
       </trans-unit>
       <trans-unit id="categories.klaroconsentmanager.resources" approved="yes">
         <source>Resources</source>
@@ -25,15 +25,15 @@
       </trans-unit>
       <trans-unit id="settings.plugin.tx_klaroconsentmanager.view.templateRootPath" approved="yes">
         <source>Path to template root (FE)</source>
-        <target state="final">Percorso alla radice del modello (FE)</target>
+        <target state="final">Percorso alla radice dei template (FE)</target>
       </trans-unit>
       <trans-unit id="settings.plugin.tx_klaroconsentmanager.view.partialRootPath" approved="yes">
         <source>Path to template partials (FE)</source>
-        <target state="final">Percorso dei modelli parziali (FE)</target>
+        <target state="final">Percorso ai partial dei template (FE)</target>
       </trans-unit>
       <trans-unit id="settings.plugin.tx_klaroconsentmanager.view.layoutRootPath" approved="yes">
         <source>Path to template layouts (FE)</source>
-        <target state="final">Percorso ai layout dei modelli (FE)</target>
+        <target state="final">Percorso ai layout dei template (FE)</target>
       </trans-unit>
       <trans-unit id="settings.plugin.tx_klaroconsentmanager.settings.css.klaro-default" approved="yes">
         <source>Klaro CSS</source>
@@ -53,19 +53,19 @@
       </trans-unit>
       <trans-unit id="settings.description.plugin.tx_klaroconsentmanager.settings.contextualconsent.replaceAttributes" approved="yes">
         <source>Comma-separated list of attributes that should be automatically replaced within the content element of the contextual consent</source>
-        <target state="final">Elenco di attributi separati da virgola che dovrebbero essere automaticamente sostituiti all'interno dell'elemento di contenuto del consenso contestuale</target>
+        <target state="final">Elenco separato da virgole degli attributi da sostituire automaticamente nell’elemento di contenuto del consenso contestuale</target>
       </trans-unit>
       <trans-unit id="settings.plugin.tx_klaroconsentmanager.settings.contextualconsent.mainSectionOnly" approved="yes">
         <source>Main section only</source>
         <target state="final">Solo sezione principale</target>
       </trans-unit>
-      <trans-unit id="settings.description.plugin.tx_klaroconsentmanager.settings.contextualconsent.mainSectionOnly">
+      <trans-unit id="settings.description.plugin.tx_klaroconsentmanager.settings.contextualconsent.mainSectionOnly" approved="yes">
         <source>Activate this option if the contextual consent box should be limited to the main content only (without heading and footer).</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Attivare questa opzione se la casella di consenso contestuale deve essere limitata al solo contenuto principale (senza intestazione e piè di pagina).</target>
+        <target state="final">Attiva questa opzione se il riquadro del consenso contestuale deve essere limitato solo al contenuto principale (senza intestazione e piè di pagina).</target>
       </trans-unit>
       <trans-unit id="settings.plugin.tx_klaroconsentmanager.settings.configuration.disabled" approved="yes">
         <source>Disable Klaro Consent Management</source>
-        <target state="final">Disabilita Klaro Consent Management</target>
+        <target state="final">Disattiva la gestione del consenso Klaro</target>
       </trans-unit>
     </body>
   </file>
