@@ -1,71 +1,71 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
-  <file source-language="en" original="EXT:klaro_consent_manager/Configuration/Sets/KlaroConsentManager/labels.xlf" datatype="plaintext" product-name="klaro_consent_manager" date="2025-07-10T17:20:02+02:00" target-language="zh-CN">
+  <file source-language="en" original="EXT:klaro_consent_manager/Configuration/Sets/KlaroConsentManager/labels.xlf" datatype="plaintext" product-name="klaro_consent_manager" date="2025-07-10T17:20:02+02:00" target-language="zh-TW">
     <header/>
     <body>
-      <trans-unit id="label" approved="yes">
+      <trans-unit id="label">
         <source>Klaro! Consent Manager</source>
-        <target state="final">Klaro! 同意管理器</target>
+        <target state="needs-translation">Klaro! Consent Manager</target>
       </trans-unit>
-      <trans-unit id="categories.klaroconsentmanager" approved="yes">
+      <trans-unit id="categories.klaroconsentmanager">
         <source>Klaro</source>
-        <target state="final">Klaro</target>
+        <target state="needs-translation">Klaro</target>
       </trans-unit>
-      <trans-unit id="categories.klaroconsentmanager.templates" approved="yes">
+      <trans-unit id="categories.klaroconsentmanager.templates">
         <source>Templates</source>
-        <target state="final">模板</target>
+        <target state="needs-translation">Templates</target>
       </trans-unit>
-      <trans-unit id="categories.klaroconsentmanager.resources" approved="yes">
+      <trans-unit id="categories.klaroconsentmanager.resources">
         <source>Resources</source>
-        <target state="final">资源</target>
+        <target state="needs-translation">Resources</target>
       </trans-unit>
-      <trans-unit id="categories.klaroconsentmanager.settings" approved="yes">
+      <trans-unit id="categories.klaroconsentmanager.settings">
         <source>Settings</source>
-        <target state="final">设置</target>
+        <target state="needs-translation">Settings</target>
       </trans-unit>
-      <trans-unit id="settings.plugin.tx_klaroconsentmanager.view.templateRootPath" approved="yes">
+      <trans-unit id="settings.plugin.tx_klaroconsentmanager.view.templateRootPath">
         <source>Path to template root (FE)</source>
-        <target state="final">模板根路径 (FE)</target>
+        <target state="needs-translation">Path to template root (FE)</target>
       </trans-unit>
-      <trans-unit id="settings.plugin.tx_klaroconsentmanager.view.partialRootPath" approved="yes">
+      <trans-unit id="settings.plugin.tx_klaroconsentmanager.view.partialRootPath">
         <source>Path to template partials (FE)</source>
-        <target state="final">模板partials (FE)</target>
+        <target state="needs-translation">Path to template partials (FE)</target>
       </trans-unit>
-      <trans-unit id="settings.plugin.tx_klaroconsentmanager.view.layoutRootPath" approved="yes">
+      <trans-unit id="settings.plugin.tx_klaroconsentmanager.view.layoutRootPath">
         <source>Path to template layouts (FE)</source>
-        <target state="final">模板布局路径 (FE)</target>
+        <target state="needs-translation">Path to template layouts (FE)</target>
       </trans-unit>
-      <trans-unit id="settings.plugin.tx_klaroconsentmanager.settings.css.klaro-default" approved="yes">
+      <trans-unit id="settings.plugin.tx_klaroconsentmanager.settings.css.klaro-default">
         <source>Klaro CSS</source>
-        <target state="final">Klaro CSS</target>
+        <target state="needs-translation">Klaro CSS</target>
       </trans-unit>
-      <trans-unit id="settings.plugin.tx_klaroconsentmanager.settings.css.klaro-custom" approved="yes">
+      <trans-unit id="settings.plugin.tx_klaroconsentmanager.settings.css.klaro-custom">
         <source>Custom additions for Klaro CSS</source>
-        <target state="final">Klaro CSS 的自定义添加</target>
+        <target state="needs-translation">Custom additions for Klaro CSS</target>
       </trans-unit>
-      <trans-unit id="settings.plugin.tx_klaroconsentmanager.settings.javascript.klaro-default" approved="yes">
+      <trans-unit id="settings.plugin.tx_klaroconsentmanager.settings.javascript.klaro-default">
         <source>Klaro JavaScript</source>
-        <target state="final">Klaro JavaScript</target>
+        <target state="needs-translation">Klaro JavaScript</target>
       </trans-unit>
-      <trans-unit id="settings.plugin.tx_klaroconsentmanager.settings.contextualconsent.replaceAttributes" approved="yes">
+      <trans-unit id="settings.plugin.tx_klaroconsentmanager.settings.contextualconsent.replaceAttributes">
         <source>Replace attributes</source>
-        <target state="final">替换属性</target>
+        <target state="needs-translation">Replace attributes</target>
       </trans-unit>
-      <trans-unit id="settings.description.plugin.tx_klaroconsentmanager.settings.contextualconsent.replaceAttributes" approved="yes">
+      <trans-unit id="settings.description.plugin.tx_klaroconsentmanager.settings.contextualconsent.replaceAttributes">
         <source>Comma-separated list of attributes that should be automatically replaced within the content element of the contextual consent</source>
-        <target state="final">以逗号分隔的属性列表，这些属性应在内容元素中自动被替换。</target>
+        <target state="needs-translation">Comma-separated list of attributes that should be automatically replaced within the content element of the contextual consent</target>
       </trans-unit>
-      <trans-unit id="settings.plugin.tx_klaroconsentmanager.settings.contextualconsent.mainSectionOnly" approved="yes">
+      <trans-unit id="settings.plugin.tx_klaroconsentmanager.settings.contextualconsent.mainSectionOnly">
         <source>Main section only</source>
-        <target state="final">仅主部分</target>
+        <target state="needs-translation">Main section only</target>
       </trans-unit>
-      <trans-unit id="settings.description.plugin.tx_klaroconsentmanager.settings.contextualconsent.mainSectionOnly" approved="yes">
-        <source>Activate this option if the contextual consent box should only be limited to the main content (without heading and footer).</source>
-        <target state="final">激活此选项，如果上下文同意框仅限于主内容(无标题和页脚)。</target>
+      <trans-unit id="settings.description.plugin.tx_klaroconsentmanager.settings.contextualconsent.mainSectionOnly">
+        <source>Activate this option if the contextual consent box should be limited to the main content only (without heading and footer).</source>
+        <target state="needs-translation">Activate this option if the contextual consent box should be limited to the main content only (without heading and footer).</target>
       </trans-unit>
-      <trans-unit id="settings.plugin.tx_klaroconsentmanager.settings.configuration.disabled" approved="yes">
+      <trans-unit id="settings.plugin.tx_klaroconsentmanager.settings.configuration.disabled">
         <source>Disable Klaro Consent Management</source>
-        <target state="final">禁用 Klaro 同意管理</target>
+        <target state="needs-translation">Disable Klaro Consent Management</target>
       </trans-unit>
     </body>
   </file>
