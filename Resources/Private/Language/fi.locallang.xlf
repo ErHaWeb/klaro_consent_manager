@@ -134,9 +134,9 @@
         <source>Enable or disable all services</source>
         <target state="final">Valitse kaikki</target>
       </trans-unit>
-      <trans-unit id="service.optOut.description" approved="yes">
-        <source>This services is loaded by default (but you can opt out)</source>
-        <target state="final">Ladataan oletuksena (mutta voit ottaa sen pois päältä)</target>
+      <trans-unit id="service.optOut.description">
+        <source>This service is loaded by default (but you can opt out)</source>
+        <target state="needs-review-translation" state-qualifier="leveraged-mt">Tämä palvelu ladataan oletuksena (mutta voit valita ulos)</target>
       </trans-unit>
       <trans-unit id="service.optOut.title" approved="yes">
         <source>(opt-out)</source>
@@ -150,9 +150,9 @@
         <source>purposes</source>
         <target state="final">tarkoitukset</target>
       </trans-unit>
-      <trans-unit id="service.required.description" approved="yes">
-        <source>This services is always required</source>
-        <target state="final">Sivusto vaatii tämän aina</target>
+      <trans-unit id="service.required.description">
+        <source>This service is always required</source>
+        <target state="needs-review-translation" state-qualifier="leveraged-mt">Tämä palvelu on aina pakollinen</target>
       </trans-unit>
       <trans-unit id="service.required.title" approved="yes">
         <source>(always required)</source>
@@ -410,9 +410,9 @@
         <source>X (formerly Twitter)</source>
         <target state="final">X (entinen Twitter)</target>
       </trans-unit>
-      <trans-unit id="services.twitter.description" approved="yes">
-        <source>X (formerly Twitter) is social media platform that allows users to share and interact with short messages and multimedia content. Developers can integrate Twitter features into websites to enhance user engagement and real-time updates while maintaining data privacy compliance and adhering to coding guidelines.</source>
-        <target state="final">X (entinen Twitter) on sosiaalisen median alusta, jonka avulla käyttäjät voivat jakaa ja olla vuorovaikutuksessa lyhyiden viestien ja multimediasisältöjen kanssa. Kehittäjät voivat integroida Twitter-ominaisuudet verkkosivustoihin, joilla parannetaan käyttäjien vaikuttavuutta ja reaaliaikaisia päivityksiä samalla kun säilytetään tietosuojavaatimusten noudattaminen ja noudatetaan koodausohjeita.</target>
+      <trans-unit id="services.twitter.description">
+        <source>X (formerly Twitter) is a social media platform that allows users to share and interact with short messages and multimedia content. Developers can integrate Twitter features into websites to enhance user engagement and real-time updates while maintaining data privacy compliance and adhering to coding guidelines.</source>
+        <target state="needs-review-translation" state-qualifier="leveraged-mt">X (entinen Twitter) on sosiaalisen median alusta, jonka avulla käyttäjät voivat jakaa ja olla vuorovaikutuksessa lyhyiden viestien ja multimediasisältöjen kanssa. Kehittäjät voivat integroida Twitter-ominaisuudet verkkosivustoihin, joilla parannetaan käyttäjien vaikuttavuutta ja reaaliaikaisia päivityksiä samalla kun säilytetään tietosuojavaatimusten noudattaminen ja noudatetaan koodausohjeita.</target>
       </trans-unit>
       <trans-unit id="services.userlike.title" approved="yes">
         <source>Userlike</source>
