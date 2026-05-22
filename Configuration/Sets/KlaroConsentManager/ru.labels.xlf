@@ -5,7 +5,7 @@
     <body>
       <trans-unit id="label" approved="yes">
         <source>Klaro! Consent Manager</source>
-        <target state="final">Klaro! Менеджер Согласий</target>
+        <target state="final">Менеджер согласий Klaro!</target>
       </trans-unit>
       <trans-unit id="categories.klaroconsentmanager" approved="yes">
         <source>Klaro</source>
@@ -25,15 +25,15 @@
       </trans-unit>
       <trans-unit id="settings.plugin.tx_klaroconsentmanager.view.templateRootPath" approved="yes">
         <source>Path to template root (FE)</source>
-        <target state="final">Путь к корню шаблона (FE)</target>
+        <target state="final">Путь к корню шаблонов (FE)</target>
       </trans-unit>
       <trans-unit id="settings.plugin.tx_klaroconsentmanager.view.partialRootPath" approved="yes">
         <source>Path to template partials (FE)</source>
-        <target state="final">Путь к частям шаблона (FE)</target>
+        <target state="final">Путь к partial-шаблонам (FE)</target>
       </trans-unit>
       <trans-unit id="settings.plugin.tx_klaroconsentmanager.view.layoutRootPath" approved="yes">
         <source>Path to template layouts (FE)</source>
-        <target state="final">Путь к макетам шаблонов (FE)</target>
+        <target state="final">Путь к layout-шаблонам (FE)</target>
       </trans-unit>
       <trans-unit id="settings.plugin.tx_klaroconsentmanager.settings.css.klaro-default" approved="yes">
         <source>Klaro CSS</source>
@@ -49,23 +49,23 @@
       </trans-unit>
       <trans-unit id="settings.plugin.tx_klaroconsentmanager.settings.contextualconsent.replaceAttributes" approved="yes">
         <source>Replace attributes</source>
-        <target state="final">Заменить атрибуты</target>
+        <target state="final">Заменять атрибуты</target>
       </trans-unit>
       <trans-unit id="settings.description.plugin.tx_klaroconsentmanager.settings.contextualconsent.replaceAttributes" approved="yes">
         <source>Comma-separated list of attributes that should be automatically replaced within the content element of the contextual consent</source>
-        <target state="final">Список атрибутов, разделенных запятой, который должен автоматически заменяться в рамках элемента содержимого контекстуального согласия</target>
+        <target state="final">Список атрибутов через запятую, которые должны автоматически заменяться в элементе содержимого контекстного согласия</target>
       </trans-unit>
       <trans-unit id="settings.plugin.tx_klaroconsentmanager.settings.contextualconsent.mainSectionOnly" approved="yes">
         <source>Main section only</source>
-        <target state="final">Только главный раздел</target>
+        <target state="final">Только основной раздел</target>
       </trans-unit>
-      <trans-unit id="settings.description.plugin.tx_klaroconsentmanager.settings.contextualconsent.mainSectionOnly">
+      <trans-unit id="settings.description.plugin.tx_klaroconsentmanager.settings.contextualconsent.mainSectionOnly" approved="yes">
         <source>Activate this option if the contextual consent box should be limited to the main content only (without heading and footer).</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Активировать этот параметр, если контекстное поле согласия должно быть ограничено только основным контентом (без заголовка и нижнего колонтитула).</target>
+        <target state="final">Включите эту опцию, если блок контекстного согласия должен ограничиваться только основным содержимым (без заголовка и футера).</target>
       </trans-unit>
       <trans-unit id="settings.plugin.tx_klaroconsentmanager.settings.configuration.disabled" approved="yes">
         <source>Disable Klaro Consent Management</source>
-        <target state="final">Отключить управление согласием Klaro</target>
+        <target state="final">Отключить управление согласиями Klaro</target>
       </trans-unit>
     </body>
   </file>
