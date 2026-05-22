@@ -5,7 +5,7 @@
     <body>
       <trans-unit id="label" approved="yes">
         <source>Klaro! Consent Manager</source>
-        <target state="final">Менеджер Klaro! Згода</target>
+        <target state="final">Менеджер згод Klaro!</target>
       </trans-unit>
       <trans-unit id="categories.klaroconsentmanager" approved="yes">
         <source>Klaro</source>
@@ -25,15 +25,15 @@
       </trans-unit>
       <trans-unit id="settings.plugin.tx_klaroconsentmanager.view.templateRootPath" approved="yes">
         <source>Path to template root (FE)</source>
-        <target state="final">Шлях до кореня шаблону (FE)</target>
+        <target state="final">Шлях до кореня шаблонів (FE)</target>
       </trans-unit>
       <trans-unit id="settings.plugin.tx_klaroconsentmanager.view.partialRootPath" approved="yes">
         <source>Path to template partials (FE)</source>
-        <target state="final">Шлях до шаблону частково (FE)</target>
+        <target state="final">Шлях до partial-шаблонів (FE)</target>
       </trans-unit>
       <trans-unit id="settings.plugin.tx_klaroconsentmanager.view.layoutRootPath" approved="yes">
         <source>Path to template layouts (FE)</source>
-        <target state="final">Шлях до розкладки шаблону (FE)</target>
+        <target state="final">Шлях до layout-шаблонів (FE)</target>
       </trans-unit>
       <trans-unit id="settings.plugin.tx_klaroconsentmanager.settings.css.klaro-default" approved="yes">
         <source>Klaro CSS</source>
@@ -41,7 +41,7 @@
       </trans-unit>
       <trans-unit id="settings.plugin.tx_klaroconsentmanager.settings.css.klaro-custom" approved="yes">
         <source>Custom additions for Klaro CSS</source>
-        <target state="final">Користувацькі додатки для Klaro CSS</target>
+        <target state="final">Користувацькі доповнення для Klaro CSS</target>
       </trans-unit>
       <trans-unit id="settings.plugin.tx_klaroconsentmanager.settings.javascript.klaro-default" approved="yes">
         <source>Klaro JavaScript</source>
@@ -49,23 +49,23 @@
       </trans-unit>
       <trans-unit id="settings.plugin.tx_klaroconsentmanager.settings.contextualconsent.replaceAttributes" approved="yes">
         <source>Replace attributes</source>
-        <target state="final">Замінити атрибути</target>
+        <target state="final">Замінювати атрибути</target>
       </trans-unit>
       <trans-unit id="settings.description.plugin.tx_klaroconsentmanager.settings.contextualconsent.replaceAttributes" approved="yes">
         <source>Comma-separated list of attributes that should be automatically replaced within the content element of the contextual consent</source>
-        <target state="final">Список атрибутів, розділених комою, які повинні бути автоматично замінені в елементі вмісту контекстуальної згоди</target>
+        <target state="final">Список атрибутів через кому, які мають автоматично замінюватися в елементі вмісту контекстної згоди</target>
       </trans-unit>
       <trans-unit id="settings.plugin.tx_klaroconsentmanager.settings.contextualconsent.mainSectionOnly" approved="yes">
         <source>Main section only</source>
-        <target state="final">Тільки основний розділ</target>
+        <target state="final">Лише основний розділ</target>
       </trans-unit>
-      <trans-unit id="settings.description.plugin.tx_klaroconsentmanager.settings.contextualconsent.mainSectionOnly">
+      <trans-unit id="settings.description.plugin.tx_klaroconsentmanager.settings.contextualconsent.mainSectionOnly" approved="yes">
         <source>Activate this option if the contextual consent box should be limited to the main content only (without heading and footer).</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Активувати цю опцію, якщо контекстна згода має бути обмежена лише основним вмістом (без заголовка та футеру).</target>
+        <target state="final">Увімкніть цю опцію, якщо блок контекстної згоди має обмежуватися лише основним вмістом (без заголовка та футера).</target>
       </trans-unit>
       <trans-unit id="settings.plugin.tx_klaroconsentmanager.settings.configuration.disabled" approved="yes">
         <source>Disable Klaro Consent Management</source>
-        <target state="final">Вимкнути керування Klaro повідомленнями</target>
+        <target state="final">Вимкнути керування згодами Klaro</target>
       </trans-unit>
     </body>
   </file>
