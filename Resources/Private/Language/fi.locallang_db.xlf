@@ -105,7 +105,7 @@
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.title.placeholder" approved="yes">
         <source>My Klaro! Configuration</source>
-        <target state="final">Oma Klaro! Asetukset</target>
+        <target state="final">Oma Klaro!-määritykseni</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.testing.label" approved="yes">
         <source>Testing</source>
@@ -113,7 +113,7 @@
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.testing.description" approved="yes">
         <source>Setting `testing` to `true` will cause Klaro to not show the consent notice or modal by default, except if a special hashtag is appended to the URL (#klaro-testing). This makes it possible to test Klaro on your live website without affecting normal visitors.</source>
-        <target state="final">Asetusten `testing` asettaminen `true`-muotoon aiheuttaa sen, että Klaro ei näytä suostumusilmoitusta tai modaalia oletusarvoisesti, paitsi jos URL-osoitteeseen on liitetty erityinen aihetunniste (#klaro-testaus). Tämä mahdollistaa Klaron testaamisen live-sivustollasi ilman, että se vaikuttaa tavallisiin kävijöihin.</target>
+        <target state="final">Asettamalla `testing` arvoksi `true` Klaro ei näytä suostumusilmoitusta tai modaalia oletuksena, paitsi jos URL-osoitteeseen on lisätty erityinen hashtag (#klaro-testing). Tämä mahdollistaa Klaron testaamisen live-sivustolla ilman vaikutusta tavallisiin kävijöihin.</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.config_variable_name.label" approved="yes">
         <source>Config Variable Name</source>
@@ -151,9 +151,9 @@
         <source>Additional Class</source>
         <target state="final">Ylimääräinen Luokka</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_configuration.additional_class.description">
+      <trans-unit id="tx_klaroconsentmanager_configuration.additional_class.description" approved="yes">
         <source>You can specify an additional class (or classes) that will be added to the Klaro `div`.</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Voit määrittää ylimääräisen luokan (tai luokat), joka lisätään Klaro `div`.</target>
+        <target state="final">Voit määrittää ylimääräisen luokan (tai luokat), joka lisätään Klaro `div` -muotoon</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.additional_class.placeholder" approved="yes">
         <source>my-klaro</source>
@@ -165,7 +165,7 @@
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.storage_method.description" approved="yes">
         <source>You can customize how Klaro persists consent information in the browser. Specify either `cookie` (the default) or `localStorage`.</source>
-        <target state="final">Voit muokata miten Klaro säilyy suostumuksen tiedot selaimessa. Määritä joko `cookie` (oletus) tai `localStorage`.</target>
+        <target state="final">Voit määrittää, miten Klaro tallentaa suostumustiedot selaimeen. Valitse joko `cookie` (oletus) tai `localStorage`.</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.storage_method.I.none" approved="yes">
         <source>None</source>
@@ -263,9 +263,9 @@
         <source>Must consent</source>
         <target state="final">Täytyy antaa suostumus</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_configuration.must_consent.description">
+      <trans-unit id="tx_klaroconsentmanager_configuration.must_consent.description" approved="yes">
         <source>If `mustConsent` is set to `true`, Klaro will directly display the consent manager modal and not allow the user to close it before having actively consented to or declined the use of third-party services.</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Jos `mustConsent` on asetettu `true`, Klaro näyttää suoraan suostumuksen hallintamodaalin eikä salli käyttäjän sulkea sitä ennen kuin se on aktiivisesti suostunut kolmannen osapuolen palvelujen käyttöön tai kieltäytynyt siitä.</target>
+        <target state="final">Jos `mustConsent` on asetettu `true`, Klaro näyttää suoraan suostumuksen hallintamodaalin eikä salli käyttäjän sulkea sitä ennen kuin se on aktiivisesti hyväksynyt tai kieltänyt kolmannen osapuolen palvelujen käytön.</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.accept_all.label" approved="yes">
         <source>Accept all</source>
@@ -281,7 +281,7 @@
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.hide_decline_all.description" approved="yes">
         <source>Setting `hideDeclineAll` to `true` will hide the "decline" button in the consent modal and force the user to open the modal in order to change his/her consent or disable all third-party services. We strongly advise you to not use this feature, as it opposes the "privacy by default" and "privacy by design" principles of the GDPR (but might be acceptable in other legislations such as under the CCPA)</source>
-        <target state="final">Asetus `hideDeclineAll`-asetus `true`-muotoon piilottaa "decline"-painikkeen suostumuksessa ja pakottaa käyttäjän avaamaan modaalin muuttaakseen suostumustaan tai poistaakseen käytöstä kaikki kolmannen osapuolen palvelut. Suosittelemme sinua olemaan käyttämättä tätä ominaisuutta, koska se vastustaa GDPR:n "oletusarvoisesti yksityisyyttä" ja "mallipohjaista yksityisyyttä" periaatteita (mutta saattaa olla hyväksyttävää muissa lainsäädännöissä, kuten CCPA:ssa)</target>
+        <target state="final">Asettamalla `hideDeclineAll` arvoksi `true` suostumusmodaalin "hylkää"-painike piilotetaan ja käyttäjä pakotetaan avaamaan modaali muuttaakseen suostumustaan tai poistaakseen kaikki kolmannen osapuolen palvelut käytöstä. Suosittelemme vahvasti, ettet käytä tätä ominaisuutta, koska se on GDPR:n "privacy by default"- ja "privacy by design" -periaatteiden vastainen (mutta se voi olla hyväksyttävä muussa lainsäädännössä, kuten CCPA:n nojalla).</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.hide_learn_more.label" approved="yes">
         <source>Hide Learn More</source>
@@ -317,11 +317,11 @@
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.show_description_empty_store.label" approved="yes">
         <source>Show Description (Empty Store)</source>
-        <target state="final">Näytä Kuvaus (Empty Store)</target>
+        <target state="final">Näytä kuvaus (tyhjä tallennus)</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.show_description_empty_store.description" approved="yes">
         <source>Show an explanatory text in contextual consent placeholders when no consent storage exists yet (first visit / empty store). This informs users that a permanent decision ("Always") requires allowing Klaro to store consent first. This only has an effect in contextual consent widgets/overlays (e.g. for embedded media) and only if the consent store (cookie/localStorage) is empty.</source>
-        <target state="final">Näytä selittävä teksti kontekstissa suostumuksen paikanpitäjät, kun suostumuksen tallennustilaa ei ole vielä (vieraile ensin / tyhjä kauppa). Tämä ilmoittaa käyttäjille, että pysyvä päätös ("Aina") edellyttää, että Klaro voi tallentaa suostumuksen ensin. Tämä vaikuttaa vain kontekstuaalisen suostumuksen widgeteihin/peittoalueisiin (esim. upotettuihin medioihin) ja vain jos suostumuskauppa (cookie/localStorage) on tyhjä.</target>
+        <target state="final">Näytä selittävä teksti kontekstuaalisen suostumuksen paikkamerkeissä, kun suostumustallennusta ei vielä ole (ensimmäinen käynti / tyhjä tallennus). Tämä kertoo käyttäjille, että pysyvä päätös ("Aina") edellyttää, että Klaro saa ensin tallentaa suostumuksen. Tämä vaikuttaa vain kontekstuaalisen suostumuksen widgeteissä/peittokuvissa (esim. upotetulle medialle) ja vain, jos suostumustallennus (cookie/localStorage) on tyhjä.</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.auto_focus.label" approved="yes">
         <source>Auto Focus</source>
@@ -361,7 +361,7 @@
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.callback.description" approved="yes">
         <source>You can define an optional callback function that will be called each time the consent state for any given service changes. The consent value will be passed as the first parameter to the function (`true` = consented). The `service` config will be passed as the second parameter. The content of this field is wrapped with `callback: function(consent, service) { }`</source>
-        <target state="final">Voit määritellä valinnaisen takaisinkutsufunktion, jota kutsutaan joka kerta kun suostumuksen tila annetuissa palveluissa. Suostumuksen arvo annetaan funktion ensimmäisenä parametrina (`true` = hyväksytty). Toinen parametri on `service`-asetus.Tämän kentän sisältö on kääritty `callback: function(consent, service) { }`</target>
+        <target state="final">Voit määrittää valinnaisen callback-funktion, jota kutsutaan aina, kun minkä tahansa palvelun suostumustila muuttuu. Suostumusarvo välitetään funktion ensimmäisenä parametrina (`true` = suostumus annettu). `service`-määritys välitetään toisena parametrina. Tämän kentän sisältö kääritään muotoon `callback: function(consent, service) { }`</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.locallang_path.label" approved="yes">
         <source>Locallang Path</source>
@@ -377,11 +377,11 @@
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.fluidtemplate_rootpath.label" approved="yes">
         <source>Fluid Template Root Path</source>
-        <target state="final">Nestemallin Juuren Polku</target>
+        <target state="final">Nestemallin Juuren Polku (Fluid)</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.fluidtemplate_rootpath.description" approved="yes">
         <source>As an alternative to the usual TypoScript configuration via constants under `plugin.tx_klaroconsentmanager.view`, a Fluid root path can be defined here, which has a higher priority than the paths configured in TypoScript. The three default directories `/Layouts/`, `/Partials/` and `/Templates/` are expected under this path. Fluid templates created here are used to enrich Locallang labels with additional functionality or to replace them completely. In this way, dynamic content or more complex HTML structures can be provided in a simple way. Fluid templates that are to override labels are expected in the subdirectory `/Templates/Labels/`.</source>
-        <target state="final">Vaihtoehtona tavanomaiselle TypoScript kokoonpanolle vakioilla alla `plugin.tx_klaroconsentmanager. iew`, nesteen juuripolku voidaan määritellä täällä, joka on tärkeämpi kuin TypoScriptin määrittämät polut. Kolmen oletushakemiston `/Layouts/`, `/Partials/` ja `/Templates/` odotetaan tällä polulla. Täällä luotuja nestemalleja käytetään rikastuttamaan Locallangin tarroja lisätoiminnoilla tai korvaamaan ne kokonaan. Näin dynaaminen sisältö tai monimutkaisemmat HTML-rakenteet voidaan tarjota yksinkertaisella tavalla. Nestemalleja, joiden on tarkoitus ohittaa tarroja, odotetaan alihakemistossa `/Templates/Labels/`.</target>
+        <target state="final">Vaihtoehtona tavalliselle TypoScript-konfiguraatiolle vakioiden kautta kohdassa `plugin.tx_klaroconsentmanager.view` voidaan tässä määrittää Fluid-juuripolku, jolla on korkeampi prioriteetti kuin TypoScriptissä määritetyillä poluilla. Tämän polun alla odotetaan kolmea oletushakemistoa `/Layouts/`, `/Partials/` ja `/Templates/`. Tässä luotuja Fluid-malleja käytetään rikastamaan Locallang-tunnisteita lisätoiminnoilla tai korvaamaan ne kokonaan. Näin dynaamista sisältöä tai monimutkaisempia HTML-rakenteita voidaan tarjota yksinkertaisella tavalla. Tunnisteita ylikirjoittavien Fluid-mallien odotetaan olevan alihakemistossa `/Templates/Labels/`.</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.fluidtemplate_rootpath.placeholder" approved="yes">
         <source>EXT:sitepackage/Resources/Private/</source>
@@ -757,7 +757,7 @@
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_service.opt_out.description" approved="yes">
         <source>If `optOut` is set to `true`, Klaro will load this service even before the user has given explicit consent. We strongly advise against this.</source>
-        <target state="final">Jos `optOut` on asetettu `true`, Klaro lataa tämän palvelun jo ennen kuin käyttäjä on antanut nimenomaisen suostumuksensa. Suosittelemme vahvasti tätä vastaan.</target>
+        <target state="final">Jos `optOut` on asetettu arvoon `true`, Klaro lataa tämän palvelun jo ennen kuin käyttäjä on antanut nimenomaisen suostumuksensa. Suosittelemme vahvasti olemaan käyttämättä tätä.</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_service.only_once.label" approved="yes">
         <source>Only Once</source>
@@ -773,15 +773,15 @@
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_service.contextual_consent_only.description" approved="yes">
         <source>Content can be excluded from general consent by setting contextualConsentOnly to `true`. In this case, the consent must be contextual.</source>
-        <target state="final">Sisältö voidaan sulkea yleisen suostumuksen ulkopuolelle asettamalla kontekstualConsentOnly to `true`. Tässä tapauksessa suostumuksen tulee olla kontekstuaalinen.</target>
+        <target state="final">Sisältö voidaan sulkea yleisen suostumuksen ulkopuolelle asettamalla kontekstualConsentOnly to `true`. Tässä tapauksessa suostumuksen tulee olla kontekstuaalinen. (contextualConsentOnly)</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_service.callback.label" approved="yes">
         <source>Callback</source>
         <target state="final">Callback</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_service.callback.description">
+      <trans-unit id="tx_klaroconsentmanager_service.callback.description" approved="yes">
         <source>You can define an optional callback function that will be called each time the consent state for the given service changes. The consent value will be passed as the first parameter to the function (`true` = consented). The `service` config will be passed as the second parameter. The content of this field is wrapped with `callback: function(consent, service) { }`. `consent` is a bool that reflects the current state. `service` holds all information about the currently selected service. When you enter something here, you need to know what you are doing. It is your responsibility that no JavaScript errors occur.</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Voit määritellä valinnaisen takaisinkutsutoiminnon, jota kutsutaan joka kerta kun tietyn palvelun muutokset hyväksyvät sen. Suostumuksen arvo annetaan funktion ensimmäisenä parametrina (`true` = hyväksytty). The `service` config will be passed as the second parameter. (Automatic Copy) Tämän kentän sisältö on kääritty `callback: function(consent, service) { }`. `consent` on bool joka heijastaa nykyistä tilaa. `service` sisältää kaikki tiedot valitusta palvelusta. Kun kirjoitat jotain tähän, sinun täytyy tietää, mitä olet tekemässä. On sinun vastuullasi, että JavaScript-virheitä ei tapahdu.</target>
+        <target state="final">Voit määrittää valinnaisen callback-funktion, jota kutsutaan aina, kun annetun palvelun suostumustila muuttuu. Suostumusarvo välitetään funktion ensimmäisenä parametrina (`true` = suostumus annettu). `service`-määritys välitetään toisena parametrina. Tämän kentän sisältö kääritään muotoon `callback: function(consent, service) { }`. `consent` on bool-arvo, joka kuvaa nykyistä tilaa. `service` sisältää kaikki tiedot tällä hetkellä valitusta palvelusta. Kun kirjoitat tähän jotakin, sinun on tiedettävä mitä teet. Olet vastuussa siitä, ettei JavaScript-virheitä synny.</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_service.on_accept.label" approved="yes">
         <source>`onAccept` callback function</source>
@@ -841,7 +841,7 @@
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_cookie.palettes.technic_palette.description" approved="yes">
         <source>This information is technically evaluated by Klaro! to manipulate the cookie.</source>
-        <target state="final">Klaro on teknisesti arvioinut nämä tiedot manipuloidakseen evästeitä.</target>
+        <target state="final">Klaro! on teknisesti arvioinut nämä tiedot manipuloidakseen evästeitä.</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_cookie.palettes.expiration_palette" approved="yes">
         <source>Expiration Time</source>
@@ -929,7 +929,7 @@
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_cookie.expires_after_unit.description" approved="yes">
         <source>Unit used for the "Expires after" specification. The special value `end-of-session` does not need a numeric value and hides the "Expires after" field accordingly.</source>
-        <target state="final">Yksikkö, jota käytetään "Vanhenee jälkeen" erittelyjen jälkeen. Erityisarvo `Istunnon lopussa` ei tarvitse numeerista arvoa ja piilottaa "Vanhentuu jälkeen" -kentän sen mukaisesti.</target>
+        <target state="final">Yksikkö, jota käytetään "Vanhenee jälkeen" -määrityksessä. Erikoisarvo `end-of-session` ei tarvitse numeerista arvoa ja piilottaa "Vanhenee jälkeen" -kentän vastaavasti.</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_cookie.expires_after_unit.I.years" approved="yes">
         <source>Years</source>
@@ -973,7 +973,7 @@
       </trans-unit>
       <trans-unit id="tt_content.tx_klaroconsentmanager_service.description" approved="yes">
         <source>When a service is selected in this field, the content item is displayed via contextual consent only if the user has agreed to use the selected service in the Klaro! Consent Manager. Please make sure that the static TypoScript template of the Klaro! Consent Manager has been added to use this feature.</source>
-        <target state="final">Kun palvelu on valittu tällä alalla, sisältökohde näytetään kontekstuaalisen suostumuksen kautta vain, jos käyttäjä on suostunut käyttämään valittua palvelua Klarossa! Hyväksynnän Hallinta. Varmista, että Klaron staattinen TypoScript- mallipohja on lisätty käyttämään tätä ominaisuutta.</target>
+        <target state="final">Kun palvelu on valittu tällä alalla, sisältökohde näytetään kontekstuaalisen suostumuksen kautta vain, jos käyttäjä on suostunut käyttämään valittua palvelua Klaro!ssa! Hyväksynnän Hallinta. Varmista, että Klaron staattinen TypoScript- mallipohja on lisätty käyttämään tätä ominaisuutta.</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.no_notice.label" approved="yes">
         <source>Hide initial consent notice</source>
