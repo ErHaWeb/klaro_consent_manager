@@ -16,11 +16,11 @@
       </trans-unit>
       <trans-unit id="consentModal.description" approved="yes">
         <source>Here you can assess and customize the services that we'd like to use on this website. You're in charge! Enable or disable services as you see fit.</source>
-        <target state="final">Hakkınızda topladığımız bilgileri burada görebilir ve özelleştirebilirsiniz.</target>
+        <target state="final">Bu web sitesinde kullanmak istediğimiz hizmetleri burada inceleyebilir ve tercihlerinize göre düzenleyebilirsiniz. Kontrol sizde: hizmetleri istediğiniz gibi etkinleştirebilir veya devre dışı bırakabilirsiniz.</target>
       </trans-unit>
       <trans-unit id="consentModal.title" approved="yes">
         <source>Services we would like to use</source>
-        <target state="final">Sakladığımız bilgiler</target>
+        <target state="final">Kullanmak istediğimiz hizmetler</target>
       </trans-unit>
       <trans-unit id="consentNotice.changeDescription" approved="yes">
         <source>There were changes since your last visit, please renew your consent.</source>
@@ -28,11 +28,11 @@
       </trans-unit>
       <trans-unit id="consentNotice.description" approved="yes">
         <source>Hi! Could we please enable some additional services for {purposes}? You can always change or withdraw your consent later.</source>
-        <target state="final">Kişisel bilgilerinizi aşağıdaki amaçlarla saklıyor ve işliyoruz: {purposes}.</target>
+        <target state="final">Merhaba! {purposes} için bazı ek hizmetleri etkinleştirmemize izin verir misiniz? Onayınızı daha sonra her zaman değiştirebilir veya geri çekebilirsiniz.</target>
       </trans-unit>
       <trans-unit id="consentNotice.learnMore" approved="yes">
         <source>Let me choose</source>
-        <target state="final">Daha fazla bilgi</target>
+        <target state="final">Seçmeme izin ver</target>
       </trans-unit>
       <trans-unit id="consentNotice.testing" approved="yes">
         <source>Testing mode!</source>
@@ -72,11 +72,11 @@
       </trans-unit>
       <trans-unit id="poweredBy" approved="yes">
         <source>Realized with Klaro!</source>
-        <target state="final">Klaro tarafından geliştirildi!</target>
+        <target state="final">Klaro! ile gerçekleştirildi</target>
       </trans-unit>
       <trans-unit id="privacyPolicy.name" approved="yes">
         <source>privacy policy</source>
-        <target state="final">gizlilik Politikası</target>
+        <target state="final">gizlilik politikası</target>
       </trans-unit>
       <trans-unit id="privacyPolicy.text" approved="yes">
         <source>To learn more, please read our {privacyPolicy}.</source>
@@ -96,15 +96,15 @@
       </trans-unit>
       <trans-unit id="purposes.advertising.title" approved="yes">
         <source>Advertising</source>
-        <target state="final">Reklâm</target>
+        <target state="final">Reklam</target>
       </trans-unit>
-      <trans-unit id="purposes.functional.description">
+      <trans-unit id="purposes.functional.description" approved="yes">
         <source>These services are essential for the correct functioning of this website. You cannot disable them here as the service would not work correctly otherwise.</source>
-        <target state="needs-translation">These services are essential for the correct functioning of this website. You cannot disable them here as the service would not work correctly otherwise.</target>
+        <target state="final">Bu hizmetler web sitesinin doğru çalışması için gereklidir. Hizmet aksi halde doğru çalışmayacağından bunları burada devre dışı bırakamazsınız.</target>
       </trans-unit>
       <trans-unit id="purposes.functional.title" approved="yes">
         <source>Service Provision</source>
-        <target state="final">Hizmet Tedariki</target>
+        <target state="final">Hizmet sağlama</target>
       </trans-unit>
       <trans-unit id="purposes.marketing.description" approved="yes">
         <source>These services process personal information to show you relevant content about products, services or topics that you might be interested in.</source>
@@ -114,13 +114,13 @@
         <source>Marketing</source>
         <target state="final">Pazarlama</target>
       </trans-unit>
-      <trans-unit id="purposes.performance.description">
+      <trans-unit id="purposes.performance.description" approved="yes">
         <source>These services process personal information to optimize the service that this website offers.</source>
-        <target state="needs-translation">These services process personal information to optimize the service that this website offers.</target>
+        <target state="final">Bu hizmetler, bu web sitesinin sunduğu hizmeti optimize etmek için kişisel bilgileri işler.</target>
       </trans-unit>
       <trans-unit id="purposes.performance.title" approved="yes">
         <source>Performance Optimization</source>
-        <target state="final">Verim İyileştirmesi</target>
+        <target state="final">Performans optimizasyonu</target>
       </trans-unit>
       <trans-unit id="save" approved="yes">
         <source>Save</source>
@@ -128,15 +128,15 @@
       </trans-unit>
       <trans-unit id="service.disableAll.description" approved="yes">
         <source>Use this switch to enable or disable all services.</source>
-        <target state="final">Toplu açma/kapama için bu düğmeyi kullanabilirsin.</target>
+        <target state="final">Tüm hizmetleri etkinleştirmek veya devre dışı bırakmak için bu anahtarı kullanın.</target>
       </trans-unit>
       <trans-unit id="service.disableAll.title" approved="yes">
         <source>Enable or disable all services</source>
-        <target state="final">Tüm uygulamaları aç/kapat</target>
+        <target state="final">Tüm hizmetleri etkinleştir veya devre dışı bırak</target>
       </trans-unit>
-      <trans-unit id="service.optOut.description">
+      <trans-unit id="service.optOut.description" approved="yes">
         <source>This service is loaded by default (but you can opt out)</source>
-        <target state="needs-translation">This service is loaded by default (but you can opt out)</target>
+        <target state="final">Bu hizmet varsayılan olarak yüklenir (ancak devre dışı bırakabilirsiniz)</target>
       </trans-unit>
       <trans-unit id="service.optOut.title" approved="yes">
         <source>(opt-out)</source>
@@ -150,9 +150,9 @@
         <source>purposes</source>
         <target state="final">amaçlar</target>
       </trans-unit>
-      <trans-unit id="service.required.description">
+      <trans-unit id="service.required.description" approved="yes">
         <source>This service is always required</source>
-        <target state="needs-translation">This service is always required</target>
+        <target state="final">Bu hizmet her zaman gereklidir</target>
       </trans-unit>
       <trans-unit id="service.required.title" approved="yes">
         <source>(always required)</source>
@@ -176,7 +176,7 @@
       </trans-unit>
       <trans-unit id="purposes.livechat.title" approved="yes">
         <source>Live Chat</source>
-        <target state="final">Canlı Destek</target>
+        <target state="final">Canlı sohbet</target>
       </trans-unit>
       <trans-unit id="purposes.livechat.description" approved="yes">
         <source>Live chat services enable real-time communication with website support teams. They offer a convenient way to ask questions, seek assistance, or engage in discussions while browsing a website. Live chat enhances your online interaction and customer support experience.</source>
@@ -184,7 +184,7 @@
       </trans-unit>
       <trans-unit id="purposes.styling.title" approved="yes">
         <source>Styling</source>
-        <target state="final">Biçim</target>
+        <target state="final">Stil</target>
       </trans-unit>
       <trans-unit id="purposes.styling.description" approved="yes">
         <source>Services related to styling help to improve the appearance of the website. This can also have an impact on usability.</source>
@@ -200,7 +200,7 @@
       </trans-unit>
       <trans-unit id="purposes.social.title" approved="yes">
         <source>Social Media</source>
-        <target state="final">Sosyal Medya</target>
+        <target state="final">Sosyal medya</target>
       </trans-unit>
       <trans-unit id="purposes.social.description" approved="yes">
         <source>Embedding social media from external platforms to enrich the content on this website.</source>
@@ -208,7 +208,7 @@
       </trans-unit>
       <trans-unit id="purposes.misc.title" approved="yes">
         <source>Miscellaneous</source>
-        <target state="final">Diğer Ayarlar</target>
+        <target state="final">Diğer</target>
       </trans-unit>
       <trans-unit id="purposes.misc.description" approved="yes">
         <source>This includes services that do not fall under the other purposes.</source>
@@ -216,27 +216,27 @@
       </trans-unit>
       <trans-unit id="consentManager.show" approved="yes">
         <source>Show Consent Manager</source>
-        <target state="final">Onay Yöneticisini Göster</target>
+        <target state="final">Onay Yöneticisini göster</target>
       </trans-unit>
-      <trans-unit id="consentManager.show.title">
+      <trans-unit id="consentManager.show.title" approved="yes">
         <source>Show Consent Manager</source>
-        <target state="needs-translation">Show Consent Manager</target>
+        <target state="final">Onay Yöneticisini göster</target>
       </trans-unit>
       <trans-unit id="consentManager.reset" approved="yes">
         <source>Reset Consent Manager</source>
-        <target state="final">Onay Yöneticisini Sıfırla</target>
+        <target state="final">Onay Yöneticisini sıfırla</target>
       </trans-unit>
-      <trans-unit id="consentManager.reset.title">
+      <trans-unit id="consentManager.reset.title" approved="yes">
         <source>Reset Consent Manager</source>
-        <target state="needs-translation">Reset Consent Manager</target>
+        <target state="final">Onay Yöneticisini sıfırla</target>
       </trans-unit>
-      <trans-unit id="services.adobe-fonts.title">
+      <trans-unit id="services.adobe-fonts.title" approved="yes">
         <source>Adobe Fonts</source>
-        <target state="needs-translation">Adobe Fonts</target>
+        <target state="final">Adobe Fonts</target>
       </trans-unit>
-      <trans-unit id="services.adobe-fonts.description">
+      <trans-unit id="services.adobe-fonts.description" approved="yes">
         <source>Adobe Fonts provides web fonts used for this website. When enabled, font files are loaded from Adobe and technical connection data may be processed.</source>
-        <target state="needs-translation">Adobe Fonts provides web fonts used for this website. When enabled, font files are loaded from Adobe and technical connection data may be processed.</target>
+        <target state="final">Adobe Fonts bu web sitesinde kullanılan web fontlarını sağlar. Etkinleştirildiğinde font dosyaları Adobe’den yüklenir ve teknik bağlantı verileri işlenebilir.</target>
       </trans-unit>
       <trans-unit id="services.adsense.title" approved="yes">
         <source>Google AdSense</source>
@@ -248,19 +248,19 @@
       </trans-unit>
       <trans-unit id="services.camera.title" approved="yes">
         <source>Surveillance Camera</source>
-        <target state="final">Güvenlik Kamerası</target>
+        <target state="final">Gözetim kamerası</target>
       </trans-unit>
       <trans-unit id="services.camera.description" approved="yes">
         <source>Consent to the use of surveillance camera images for security and safety purposes, in compliance with applicable data privacy regulations.</source>
         <target state="final">Yürürlükteki veri gizliliği düzenlemelerine uygun olarak, güvenlik ve emniyet amaçlı olarak güvenlik kamerası görüntülerinin kullanımına izin verilmesi.</target>
       </trans-unit>
-      <trans-unit id="services.career-captain.title">
+      <trans-unit id="services.career-captain.title" approved="yes">
         <source>Career Captain</source>
-        <target state="needs-translation">Career Captain</target>
+        <target state="final">Career Captain</target>
       </trans-unit>
-      <trans-unit id="services.career-captain.description">
+      <trans-unit id="services.career-captain.description" approved="yes">
         <source>Career Captain provides gamified career orientation and recruiting content. When enabled, external content from Career Captain may process usage and technical connection data.</source>
-        <target state="needs-translation">Career Captain provides gamified career orientation and recruiting content. When enabled, external content from Career Captain may process usage and technical connection data.</target>
+        <target state="final">Career Captain oyunlaştırılmış kariyer yönlendirme ve işe alım içerikleri sağlar. Etkinleştirildiğinde Career Captain’dan gelen harici içerik kullanım ve teknik bağlantı verilerini işleyebilir.</target>
       </trans-unit>
       <trans-unit id="services.clarity.title" approved="yes">
         <source>Microsoft Clarity</source>
@@ -280,7 +280,7 @@
       </trans-unit>
       <trans-unit id="services.external-tracker.title" approved="yes">
         <source>External Tracker</source>
-        <target state="final">Harici İzleyici</target>
+        <target state="final">Harici izleyici</target>
       </trans-unit>
       <trans-unit id="services.external-tracker.description" approved="yes">
         <source>External tracking script</source>
@@ -288,7 +288,7 @@
       </trans-unit>
       <trans-unit id="services.facebook-pixel.title" approved="yes">
         <source>Facebook Pixel</source>
-        <target state="final">Facebook Pikseli</target>
+        <target state="final">Facebook Pixel</target>
       </trans-unit>
       <trans-unit id="services.facebook-pixel.description" approved="yes">
         <source>Simplifies web tracking for analytics and marketing while ensuring data compliance and control.</source>
@@ -320,7 +320,7 @@
       </trans-unit>
       <trans-unit id="services.google-fonts.title" approved="yes">
         <source>Google Fonts</source>
-        <target state="final">Google Yazı Tipleri</target>
+        <target state="final">Google Fonts</target>
       </trans-unit>
       <trans-unit id="services.google-fonts.description" approved="yes">
         <source>Web fonts hosted by Google</source>
@@ -328,7 +328,7 @@
       </trans-unit>
       <trans-unit id="services.google-maps.title" approved="yes">
         <source>Google Maps</source>
-        <target state="final">Google Haritalar</target>
+        <target state="final">Google Maps</target>
       </trans-unit>
       <trans-unit id="services.google-maps.description" approved="yes">
         <source>Google Maps allows for the integration of interactive maps on websites, enabling location-based services. Developers can utilize it while ensuring data compliance and control, adhering to coding guidelines and best practices.</source>
@@ -336,7 +336,7 @@
       </trans-unit>
       <trans-unit id="services.google-tag-manager.title" approved="yes">
         <source>Google Tag Manager</source>
-        <target state="final">Google Etiket Yöneticisi</target>
+        <target state="final">Google Tag Manager</target>
       </trans-unit>
       <trans-unit id="services.google-tag-manager.description" approved="yes">
         <source>Google Tag Manager streamlines web tracking and code management, ensuring data compliance and control for developers.</source>
@@ -344,7 +344,7 @@
       </trans-unit>
       <trans-unit id="services.inline-tracker.title" approved="yes">
         <source>Inline Tracker</source>
-        <target state="final">Sıralı İzleyici</target>
+        <target state="final">Satır içi izleyici</target>
       </trans-unit>
       <trans-unit id="services.inline-tracker.description" approved="yes">
         <source>Inline tracking script</source>
@@ -360,19 +360,19 @@
       </trans-unit>
       <trans-unit id="services.intercom.title" approved="yes">
         <source>Intercom</source>
-        <target state="final">Telefon</target>
+        <target state="final">Intercom</target>
       </trans-unit>
       <trans-unit id="services.intercom.description" approved="yes">
         <source>Chat widget and collecting of visitor statistics</source>
         <target state="final">Sohbet widget'ı ve ziyaretçi istatistiklerinin toplanması</target>
       </trans-unit>
-      <trans-unit id="services.klaro.title">
+      <trans-unit id="services.klaro.title" approved="yes">
         <source>Klaro!</source>
-        <target state="needs-translation">Klaro!</target>
+        <target state="final">Klaro!</target>
       </trans-unit>
-      <trans-unit id="services.klaro.description">
+      <trans-unit id="services.klaro.description" approved="yes">
         <source>Klaro! manages consent choices for this website and stores whether individual services may be loaded according to your preferences.</source>
-        <target state="needs-translation">Klaro! manages consent choices for this website and stores whether individual services may be loaded according to your preferences.</target>
+        <target state="final">Klaro! bu web sitesi için onay tercihlerini yönetir ve tercihlerinize göre tek tek hizmetlerin yüklenip yüklenemeyeceğini saklar.</target>
       </trans-unit>
       <trans-unit id="services.matomo.title" approved="yes">
         <source>Matomo/Piwik</source>
@@ -390,13 +390,13 @@
         <source>Real-time user analytics service that helps to understand how visitors interact with our website.</source>
         <target state="final">Ziyaretçilerin web sitemizle nasıl etkileşimde bulunduğunu anlamaya yardımcı olan gerçek zamanlı kullanıcı analizi hizmeti.</target>
       </trans-unit>
-      <trans-unit id="services.salesviewer.title">
+      <trans-unit id="services.salesviewer.title" approved="yes">
         <source>SalesViewer</source>
-        <target state="needs-translation">SalesViewer</target>
+        <target state="final">SalesViewer</target>
       </trans-unit>
-      <trans-unit id="services.salesviewer.description">
+      <trans-unit id="services.salesviewer.description" approved="yes">
         <source>SalesViewer analyzes website visits for B2B lead generation and may identify company-related visitor information based on usage and technical access data.</source>
-        <target state="needs-translation">SalesViewer analyzes website visits for B2B lead generation and may identify company-related visitor information based on usage and technical access data.</target>
+        <target state="final">SalesViewer, B2B potansiyel müşteri oluşturma amacıyla web sitesi ziyaretlerini analiz eder ve kullanım ile teknik erişim verilerine dayanarak şirketle ilişkili ziyaretçi bilgilerini tanımlayabilir.</target>
       </trans-unit>
       <trans-unit id="services.tiktok.title" approved="yes">
         <source>TikTok</source>
@@ -408,11 +408,11 @@
       </trans-unit>
       <trans-unit id="services.twitter.title" approved="yes">
         <source>X (formerly Twitter)</source>
-        <target state="final">X (önceki adıyla Twitter)</target>
+        <target state="final">X (eski adıyla Twitter)</target>
       </trans-unit>
-      <trans-unit id="services.twitter.description">
+      <trans-unit id="services.twitter.description" approved="yes">
         <source>X (formerly Twitter) is a social media platform that allows users to share and interact with short messages and multimedia content. Developers can integrate Twitter features into websites to enhance user engagement and real-time updates while maintaining data privacy compliance and adhering to coding guidelines.</source>
-        <target state="needs-translation">X (formerly Twitter) is a social media platform that allows users to share and interact with short messages and multimedia content. Developers can integrate Twitter features into websites to enhance user engagement and real-time updates while maintaining data privacy compliance and adhering to coding guidelines.</target>
+        <target state="final">X (eski adıyla Twitter), kullanıcıların kısa mesajlar ve multimedya içerikleri paylaşıp etkileşimde bulunmalarını sağlayan bir sosyal medya platformudur. Geliştiriciler, veri gizliliği uyumluluğunu koruyarak ve kodlama kurallarına uyarak, kullanıcı etkileşimini ve gerçek zamanlı güncellemeleri geliştirmek için Twitter özelliklerini web sitelerine entegre edebilirler.</target>
       </trans-unit>
       <trans-unit id="services.userlike.title" approved="yes">
         <source>Userlike</source>
@@ -464,7 +464,7 @@
       </trans-unit>
       <trans-unit id="cookies.headline.name" approved="yes">
         <source>Name / Pattern</source>
-        <target state="final">Ad / Desen</target>
+        <target state="final">Ad / kalıp</target>
       </trans-unit>
       <trans-unit id="cookies.headline.path" approved="yes">
         <source>Path</source>
@@ -472,11 +472,11 @@
       </trans-unit>
       <trans-unit id="cookies.headline.domain" approved="yes">
         <source>Domain</source>
-        <target state="final">Alan</target>
+        <target state="final">Alan adı</target>
       </trans-unit>
       <trans-unit id="cookies.headline.expiresAfter" approved="yes">
         <source>Expires after</source>
-        <target state="final">Bitiş tarihi</target>
+        <target state="final">Sona erme süresi</target>
       </trans-unit>
       <trans-unit id="year" approved="yes">
         <source>Year</source>
@@ -500,7 +500,7 @@
       </trans-unit>
       <trans-unit id="days" approved="yes">
         <source>Days</source>
-        <target state="final">Günler</target>
+        <target state="final">Gün</target>
       </trans-unit>
       <trans-unit id="hour" approved="yes">
         <source>Hour</source>
@@ -528,7 +528,7 @@
       </trans-unit>
       <trans-unit id="end-of-session" approved="yes">
         <source>End of session</source>
-        <target state="final">Oturum Sonu</target>
+        <target state="final">Oturum sonu</target>
       </trans-unit>
       <trans-unit id="persistent" approved="yes">
         <source>persistent</source>
