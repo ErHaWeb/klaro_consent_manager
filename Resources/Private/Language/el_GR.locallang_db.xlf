@@ -151,9 +151,9 @@
         <source>Additional Class</source>
         <target state="final">Πρόσθετη Κλάση</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_configuration.additional_class.description" approved="yes">
-        <source>You can specify an additional class (or classes) that will be added to the Klaro `div`</source>
-        <target state="final">Μπορείτε να καθορίσετε μια πρόσθετη κλάση (ή κλάσεις) που θα προστεθεί στο Klaro `div`</target>
+      <trans-unit id="tx_klaroconsentmanager_configuration.additional_class.description">
+        <source>You can specify an additional class (or classes) that will be added to the Klaro `div`.</source>
+        <target state="needs-review-translation" state-qualifier="leveraged-mt">Μπορείτε να καθορίσετε μια πρόσθετη κλάση (ή κλάσεις) που θα προστεθεί στο Klaro `div`.</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.additional_class.placeholder" approved="yes">
         <source>my-klaro</source>
@@ -263,9 +263,9 @@
         <source>Must consent</source>
         <target state="final">Πρέπει να συναινέσει</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_configuration.must_consent.description" approved="yes">
-        <source>If `mustConsent` is set to `true`, Klaro will directly display the consent manager modal and not allow the user to close it before having actively consented or declines the use of third-party services.</source>
-        <target state="final">Αν το `mustConsent` έχει οριστεί σε `true`, Η Klaro θα εμφανίσει απευθείας τη λειτουργία διαχειριστή συγκατάθεσης και δεν θα επιτρέψει στο χρήστη να την κλείσει πριν συναινέσει ενεργά ή αρνηθεί τη χρήση υπηρεσιών τρίτων.</target>
+      <trans-unit id="tx_klaroconsentmanager_configuration.must_consent.description">
+        <source>If `mustConsent` is set to `true`, Klaro will directly display the consent manager modal and not allow the user to close it before having actively consented to or declined the use of third-party services.</source>
+        <target state="needs-review-translation" state-qualifier="leveraged-mt">Αν το `mustConsent` έχει οριστεί σε `true`, Η Klaro θα εμφανίσει απευθείας τη λειτουργία διαχειριστή συγκατάθεσης και δεν θα επιτρέψει στο χρήστη να την κλείσει πριν συναινέσει ενεργά ή αρνηθεί τη χρήση υπηρεσιών τρίτων.</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.accept_all.label" approved="yes">
         <source>Accept all</source>
@@ -779,9 +779,9 @@
         <source>Callback</source>
         <target state="final">Callback</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_service.callback.description" approved="yes">
-        <source>You can define an optional callback function that will be called each time the consent state for the given service changes. The consent value will be passed as the first parameter to the function (`true` = consented). The `service` config will be passed as the second parameter. The content of this field is wrapped with `callback: function(consent, service) { }`. `consent` is a bool that reflects the current state. service` holds all information about the currently selected service. When you enter something here, you need to know what you are doing. It is your responsibility that no JavaScript errors occur.</source>
-        <target state="final">Μπορείτε να ορίσετε μια προαιρετική λειτουργία callback που θα καλείται κάθε φορά που η κατάσταση συγκατάθεσης για τις αλλαγές της δεδομένης υπηρεσίας. Η τιμή της συγκατάθεσης θα περάσει ως πρώτη παράμετρος στη συνάρτηση (`true` = συναίνεση). Η ρύθμιση `service` θα περάσει ως δεύτερη παράμετρος. Το περιεχόμενο αυτού του πεδίου είναι τυλιγμένο με `callback: function(consent, service) { }`. `consent` είναι ένα κόλπο που αντανακλά την τρέχουσα κατάσταση. το service` διατηρεί όλες τις πληροφορίες σχετικά με την τρέχουσα επιλεγμένη υπηρεσία. Όταν εισάγετε κάτι εδώ, πρέπει να ξέρετε τι κάνετε. Είναι δική σας ευθύνη ότι δεν εμφανίζονται σφάλματα JavaScript.</target>
+      <trans-unit id="tx_klaroconsentmanager_service.callback.description">
+        <source>You can define an optional callback function that will be called each time the consent state for the given service changes. The consent value will be passed as the first parameter to the function (`true` = consented). The `service` config will be passed as the second parameter. The content of this field is wrapped with `callback: function(consent, service) { }`. `consent` is a bool that reflects the current state. `service` holds all information about the currently selected service. When you enter something here, you need to know what you are doing. It is your responsibility that no JavaScript errors occur.</source>
+        <target state="needs-review-translation" state-qualifier="leveraged-mt">Μπορείτε να ορίσετε μια προαιρετική λειτουργία callback που θα καλείται κάθε φορά που η κατάσταση συγκατάθεσης για τις αλλαγές της δεδομένης υπηρεσίας. Η τιμή της συγκατάθεσης θα περάσει ως πρώτη παράμετρος στη συνάρτηση (`true` = συναίνεση). Η ρύθμιση `service` θα περάσει ως δεύτερη παράμετρος. Το περιεχόμενο αυτού του πεδίου είναι τυλιγμένο με `callback: function(consent, service) }`. `consent` είναι ένα κόλπο που αντανακλά την τρέχουσα κατάσταση. `service` διατηρεί όλες τις πληροφορίες σχετικά με την τρέχουσα επιλεγμένη υπηρεσία. Όταν εισάγετε κάτι εδώ, πρέπει να ξέρετε τι κάνετε. Είναι δική σας ευθύνη ότι δεν εμφανίζονται σφάλματα JavaScript.</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_service.on_accept.label" approved="yes">
         <source>`onAccept` callback function</source>
