@@ -5,7 +5,7 @@
     <body>
       <trans-unit id="label" approved="yes">
         <source>Klaro! Consent Manager</source>
-        <target state="final">Manažer souhlasu</target>
+        <target state="final">Správce souhlasů Klaro!</target>
       </trans-unit>
       <trans-unit id="categories.klaroconsentmanager" approved="yes">
         <source>Klaro</source>
@@ -25,15 +25,15 @@
       </trans-unit>
       <trans-unit id="settings.plugin.tx_klaroconsentmanager.view.templateRootPath" approved="yes">
         <source>Path to template root (FE)</source>
-        <target state="final">Cesta k kořenové složce šablony (FE)</target>
+        <target state="final">Cesta ke kořeni šablon (FE)</target>
       </trans-unit>
       <trans-unit id="settings.plugin.tx_klaroconsentmanager.view.partialRootPath" approved="yes">
         <source>Path to template partials (FE)</source>
-        <target state="final">Cesta k šabloně dílčí (FE)</target>
+        <target state="final">Cesta k partialům šablon (FE)</target>
       </trans-unit>
       <trans-unit id="settings.plugin.tx_klaroconsentmanager.view.layoutRootPath" approved="yes">
         <source>Path to template layouts (FE)</source>
-        <target state="final">Cesta k šablonám (FE)</target>
+        <target state="final">Cesta k layoutům šablon (FE)</target>
       </trans-unit>
       <trans-unit id="settings.plugin.tx_klaroconsentmanager.settings.css.klaro-default" approved="yes">
         <source>Klaro CSS</source>
@@ -41,7 +41,7 @@
       </trans-unit>
       <trans-unit id="settings.plugin.tx_klaroconsentmanager.settings.css.klaro-custom" approved="yes">
         <source>Custom additions for Klaro CSS</source>
-        <target state="final">Vlastní přidání Klaro CSS</target>
+        <target state="final">Vlastní doplnění pro Klaro CSS</target>
       </trans-unit>
       <trans-unit id="settings.plugin.tx_klaroconsentmanager.settings.javascript.klaro-default" approved="yes">
         <source>Klaro JavaScript</source>
@@ -53,19 +53,19 @@
       </trans-unit>
       <trans-unit id="settings.description.plugin.tx_klaroconsentmanager.settings.contextualconsent.replaceAttributes" approved="yes">
         <source>Comma-separated list of attributes that should be automatically replaced within the content element of the contextual consent</source>
-        <target state="final">Čárkami oddělený seznam atributů, které by měly být automaticky nahrazeny v rámci obsahu prvku kontextového souhlasu</target>
+        <target state="final">Čárkami oddělený seznam atributů, které se mají automaticky nahradit v obsahovém prvku kontextového souhlasu</target>
       </trans-unit>
       <trans-unit id="settings.plugin.tx_klaroconsentmanager.settings.contextualconsent.mainSectionOnly" approved="yes">
         <source>Main section only</source>
-        <target state="final">Pouze hlavní oddíl</target>
+        <target state="final">Pouze hlavní část</target>
       </trans-unit>
-      <trans-unit id="settings.description.plugin.tx_klaroconsentmanager.settings.contextualconsent.mainSectionOnly">
+      <trans-unit id="settings.description.plugin.tx_klaroconsentmanager.settings.contextualconsent.mainSectionOnly" approved="yes">
         <source>Activate this option if the contextual consent box should be limited to the main content only (without heading and footer).</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Aktivujte tuto možnost, pokud by pole kontextového souhlasu mělo být omezeno pouze na hlavní obsah (bez záhlaví a zápatí).</target>
+        <target state="final">Tuto volbu aktivujte, pokud má být box kontextového souhlasu omezen pouze na hlavní obsah (bez nadpisu a patičky).</target>
       </trans-unit>
       <trans-unit id="settings.plugin.tx_klaroconsentmanager.settings.configuration.disabled" approved="yes">
         <source>Disable Klaro Consent Management</source>
-        <target state="final">Zakázat správu souhlasu</target>
+        <target state="final">Zakázat správu souhlasů Klaro</target>
       </trans-unit>
     </body>
   </file>
