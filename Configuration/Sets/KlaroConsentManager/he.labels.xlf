@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file source-language="en" original="EXT:klaro_consent_manager/Configuration/Sets/KlaroConsentManager/labels.xlf" datatype="plaintext" product-name="klaro_consent_manager" date="2025-07-10T17:20:02+02:00" target-language="he">
+    <header/>
+    <body>
+      <trans-unit id="label">
+        <source>Klaro! Consent Manager</source>
+        <target state="needs-translation">Klaro! Consent Manager</target>
+      </trans-unit>
+      <trans-unit id="categories.klaroconsentmanager">
+        <source>Klaro</source>
+        <target state="needs-translation">Klaro</target>
+      </trans-unit>
+      <trans-unit id="categories.klaroconsentmanager.templates">
+        <source>Templates</source>
+        <target state="needs-translation">Templates</target>
+      </trans-unit>
+      <trans-unit id="categories.klaroconsentmanager.resources">
+        <source>Resources</source>
+        <target state="needs-translation">Resources</target>
+      </trans-unit>
+      <trans-unit id="categories.klaroconsentmanager.settings">
+        <source>Settings</source>
+        <target state="needs-translation">Settings</target>
+      </trans-unit>
+      <trans-unit id="settings.plugin.tx_klaroconsentmanager.view.templateRootPath">
+        <source>Path to template root (FE)</source>
+        <target state="needs-translation">Path to template root (FE)</target>
+      </trans-unit>
+      <trans-unit id="settings.plugin.tx_klaroconsentmanager.view.partialRootPath">
+        <source>Path to template partials (FE)</source>
+        <target state="needs-translation">Path to template partials (FE)</target>
+      </trans-unit>
+      <trans-unit id="settings.plugin.tx_klaroconsentmanager.view.layoutRootPath">
+        <source>Path to template layouts (FE)</source>
+        <target state="needs-translation">Path to template layouts (FE)</target>
+      </trans-unit>
+      <trans-unit id="settings.plugin.tx_klaroconsentmanager.settings.css.klaro-default">
+        <source>Klaro CSS</source>
+        <target state="needs-translation">Klaro CSS</target>
+      </trans-unit>
+      <trans-unit id="settings.plugin.tx_klaroconsentmanager.settings.css.klaro-custom">
+        <source>Custom additions for Klaro CSS</source>
+        <target state="needs-translation">Custom additions for Klaro CSS</target>
+      </trans-unit>
+      <trans-unit id="settings.plugin.tx_klaroconsentmanager.settings.javascript.klaro-default">
+        <source>Klaro JavaScript</source>
+        <target state="needs-translation">Klaro JavaScript</target>
+      </trans-unit>
+      <trans-unit id="settings.plugin.tx_klaroconsentmanager.settings.contextualconsent.replaceAttributes">
+        <source>Replace attributes</source>
+        <target state="needs-translation">Replace attributes</target>
+      </trans-unit>
+      <trans-unit id="settings.description.plugin.tx_klaroconsentmanager.settings.contextualconsent.replaceAttributes">
+        <source>Comma-separated list of attributes that should be automatically replaced within the content element of the contextual consent</source>
+        <target state="needs-translation">Comma-separated list of attributes that should be automatically replaced within the content element of the contextual consent</target>
+      </trans-unit>
+      <trans-unit id="settings.plugin.tx_klaroconsentmanager.settings.contextualconsent.mainSectionOnly">
+        <source>Main section only</source>
+        <target state="needs-translation">Main section only</target>
+      </trans-unit>
+      <trans-unit id="settings.description.plugin.tx_klaroconsentmanager.settings.contextualconsent.mainSectionOnly">
+        <source>Activate this option if the contextual consent box should be limited to the main content only (without heading and footer).</source>
+        <target state="needs-translation">Activate this option if the contextual consent box should be limited to the main content only (without heading and footer).</target>
+      </trans-unit>
+      <trans-unit id="settings.plugin.tx_klaroconsentmanager.settings.configuration.disabled">
+        <source>Disable Klaro Consent Management</source>
+        <target state="needs-translation">Disable Klaro Consent Management</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
