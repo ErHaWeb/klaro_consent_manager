@@ -5,7 +5,7 @@
     <body>
       <trans-unit id="label" approved="yes">
         <source>Klaro! Consent Manager</source>
-        <target state="final">Klaro! Manager de consimțământ</target>
+        <target state="final">Manager de consimțământ Klaro!</target>
       </trans-unit>
       <trans-unit id="categories.klaroconsentmanager" approved="yes">
         <source>Klaro</source>
@@ -13,7 +13,7 @@
       </trans-unit>
       <trans-unit id="categories.klaroconsentmanager.templates" approved="yes">
         <source>Templates</source>
-        <target state="final">Şabloane</target>
+        <target state="final">Șabloane</target>
       </trans-unit>
       <trans-unit id="categories.klaroconsentmanager.resources" approved="yes">
         <source>Resources</source>
@@ -25,15 +25,15 @@
       </trans-unit>
       <trans-unit id="settings.plugin.tx_klaroconsentmanager.view.templateRootPath" approved="yes">
         <source>Path to template root (FE)</source>
-        <target state="final">Calea către rădăcina șablonului (FE)</target>
+        <target state="final">Calea către rădăcina șabloanelor (FE)</target>
       </trans-unit>
       <trans-unit id="settings.plugin.tx_klaroconsentmanager.view.partialRootPath" approved="yes">
         <source>Path to template partials (FE)</source>
-        <target state="final">Calea către părţile şablon (FE)</target>
+        <target state="final">Calea către partialele șabloanelor (FE)</target>
       </trans-unit>
       <trans-unit id="settings.plugin.tx_klaroconsentmanager.view.layoutRootPath" approved="yes">
         <source>Path to template layouts (FE)</source>
-        <target state="final">Calea către layout-urile șablonului (FE)</target>
+        <target state="final">Calea către layouturile șabloanelor (FE)</target>
       </trans-unit>
       <trans-unit id="settings.plugin.tx_klaroconsentmanager.settings.css.klaro-default" approved="yes">
         <source>Klaro CSS</source>
@@ -41,7 +41,7 @@
       </trans-unit>
       <trans-unit id="settings.plugin.tx_klaroconsentmanager.settings.css.klaro-custom" approved="yes">
         <source>Custom additions for Klaro CSS</source>
-        <target state="final">Adăugări personalizate pentru Klaro CSS</target>
+        <target state="final">Adăugiri personalizate pentru Klaro CSS</target>
       </trans-unit>
       <trans-unit id="settings.plugin.tx_klaroconsentmanager.settings.javascript.klaro-default" approved="yes">
         <source>Klaro JavaScript</source>
@@ -53,19 +53,19 @@
       </trans-unit>
       <trans-unit id="settings.description.plugin.tx_klaroconsentmanager.settings.contextualconsent.replaceAttributes" approved="yes">
         <source>Comma-separated list of attributes that should be automatically replaced within the content element of the contextual consent</source>
-        <target state="final">Lista de atribute separate prin virgulă care ar trebui înlocuite automat în cadrul elementului de conținut al consimțământului contextual</target>
+        <target state="final">Listă de atribute separate prin virgulă care trebuie înlocuite automat în elementul de conținut al consimțământului contextual</target>
       </trans-unit>
       <trans-unit id="settings.plugin.tx_klaroconsentmanager.settings.contextualconsent.mainSectionOnly" approved="yes">
         <source>Main section only</source>
-        <target state="final">Doar secţiunea principală</target>
+        <target state="final">Doar secțiunea principală</target>
       </trans-unit>
-      <trans-unit id="settings.description.plugin.tx_klaroconsentmanager.settings.contextualconsent.mainSectionOnly">
+      <trans-unit id="settings.description.plugin.tx_klaroconsentmanager.settings.contextualconsent.mainSectionOnly" approved="yes">
         <source>Activate this option if the contextual consent box should be limited to the main content only (without heading and footer).</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Activați această opțiune dacă caseta de consimțământ contextual ar trebui să fie limitată la conținutul principal (fără titlu și subsol).</target>
+        <target state="final">Activați această opțiune dacă caseta de consimțământ contextual trebuie limitată doar la conținutul principal (fără antet și subsol).</target>
       </trans-unit>
       <trans-unit id="settings.plugin.tx_klaroconsentmanager.settings.configuration.disabled" approved="yes">
         <source>Disable Klaro Consent Management</source>
-        <target state="final">Dezactivați gestionarea consimțământului Klaro</target>
+        <target state="final">Dezactivează gestionarea consimțământului Klaro</target>
       </trans-unit>
     </body>
   </file>
