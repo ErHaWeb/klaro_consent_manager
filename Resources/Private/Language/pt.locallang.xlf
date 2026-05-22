@@ -134,9 +134,9 @@
         <source>Enable or disable all services</source>
         <target state="final">Habilitar ou desabilitar todos os serviços</target>
       </trans-unit>
-      <trans-unit id="service.optOut.description" approved="yes">
-        <source>This services is loaded by default (but you can opt out)</source>
-        <target state="final">Estes serviços são carregados por padrão (mas o você pode optar por não participar).</target>
+      <trans-unit id="service.optOut.description">
+        <source>This service is loaded by default (but you can opt out)</source>
+        <target state="needs-review-translation" state-qualifier="leveraged-mt">Este serviço é carregado por padrão (mas você pode desistir)</target>
       </trans-unit>
       <trans-unit id="service.optOut.title" approved="yes">
         <source>(opt-out)</source>
@@ -150,9 +150,9 @@
         <source>purposes</source>
         <target state="final">propósitos</target>
       </trans-unit>
-      <trans-unit id="service.required.description" approved="yes">
-        <source>This services is always required</source>
-        <target state="final">Esses serviços são sempre necessários</target>
+      <trans-unit id="service.required.description">
+        <source>This service is always required</source>
+        <target state="needs-review-translation" state-qualifier="leveraged-mt">Este serviço é sempre necessário</target>
       </trans-unit>
       <trans-unit id="service.required.title" approved="yes">
         <source>(always required)</source>
@@ -410,9 +410,9 @@
         <source>X (formerly Twitter)</source>
         <target state="final">X (antigo Twitter)</target>
       </trans-unit>
-      <trans-unit id="services.twitter.description" approved="yes">
-        <source>X (formerly Twitter) is social media platform that allows users to share and interact with short messages and multimedia content. Developers can integrate Twitter features into websites to enhance user engagement and real-time updates while maintaining data privacy compliance and adhering to coding guidelines.</source>
-        <target state="final">X (anteriormente Twitter) é uma plataforma de mídia social que permite aos usuários compartilhar e interagir com mensagens curtas e conteúdo multimídia. Desenvolvedores podem integrar recursos do Twitter em sites para melhorar o envolvimento do usuário e atualizações em tempo real, mantendo a conformidade de privacidade de dados e admissão às diretrizes de codificação.</target>
+      <trans-unit id="services.twitter.description">
+        <source>X (formerly Twitter) is a social media platform that allows users to share and interact with short messages and multimedia content. Developers can integrate Twitter features into websites to enhance user engagement and real-time updates while maintaining data privacy compliance and adhering to coding guidelines.</source>
+        <target state="needs-review-translation" state-qualifier="leveraged-mt">X (anteriormente Twitter) é uma plataforma de mídia social que permite aos usuários compartilhar e interagir com mensagens curtas e conteúdo multimídia. Desenvolvedores podem integrar recursos do Twitter em sites para melhorar o envolvimento do usuário e atualizações em tempo real, mantendo a conformidade de privacidade de dados e admissão às diretrizes de codificação.</target>
       </trans-unit>
       <trans-unit id="services.userlike.title" approved="yes">
         <source>Userlike</source>
