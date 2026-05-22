@@ -16,7 +16,7 @@
       </trans-unit>
       <trans-unit id="consentModal.description" approved="yes">
         <source>Here you can assess and customize the services that we'd like to use on this website. You're in charge! Enable or disable services as you see fit.</source>
-        <target state="final">Qui può valutare e personalizzare i servizi che vorremmo utilizzare su questo sito web. È lei il responsabile! Abilitare o disabilitare i servizi come meglio crede.</target>
+        <target state="final">Qui può valutare e personalizzare i servizi che vorremmo utilizzare su questo sito web. È lei a decidere! Abiliti o disabiliti i servizi come ritiene opportuno.</target>
       </trans-unit>
       <trans-unit id="consentModal.title" approved="yes">
         <source>Services we would like to use</source>
@@ -32,7 +32,7 @@
       </trans-unit>
       <trans-unit id="consentNotice.learnMore" approved="yes">
         <source>Let me choose</source>
-        <target state="final">Lasciatemi scegliere</target>
+        <target state="final">Voglio scegliere</target>
       </trans-unit>
       <trans-unit id="consentNotice.testing" approved="yes">
         <source>Testing mode!</source>
@@ -134,9 +134,9 @@
         <source>Enable or disable all services</source>
         <target state="final">Attivare o disattivare tutti i servizi</target>
       </trans-unit>
-      <trans-unit id="service.optOut.description">
+      <trans-unit id="service.optOut.description" approved="yes">
         <source>This service is loaded by default (but you can opt out)</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Questo servizio è caricato per impostazione predefinita (ma è possibile disconnettersi)</target>
+        <target state="final">Questo servizio è caricato di default (ma è possibile scegliere di non usufruirne)</target>
       </trans-unit>
       <trans-unit id="service.optOut.title" approved="yes">
         <source>(opt-out)</source>
@@ -150,9 +150,9 @@
         <source>purposes</source>
         <target state="final">scopi</target>
       </trans-unit>
-      <trans-unit id="service.required.description">
+      <trans-unit id="service.required.description" approved="yes">
         <source>This service is always required</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Questo servizio è sempre obbligatorio</target>
+        <target state="final">Questo servizio è sempre richiesto</target>
       </trans-unit>
       <trans-unit id="service.required.title" approved="yes">
         <source>(always required)</source>
@@ -260,7 +260,7 @@
       </trans-unit>
       <trans-unit id="services.career-captain.description" approved="yes">
         <source>Career Captain provides gamified career orientation and recruiting content. When enabled, external content from Career Captain may process usage and technical connection data.</source>
-        <target state="final">Career Captain fornisce l'orientamento professionale gamified e il reclutamento di contenuti. Quando abilitato, i contenuti esterni di Career Captain possono elaborare i dati di utilizzo e di connessione tecnica.</target>
+        <target state="final">Career Captain fornisce orientamento professionale gamificato e contenuti di recruiting. Quando è abilitato, i contenuti esterni di Career Captain possono elaborare dati di utilizzo e dati tecnici di connessione.</target>
       </trans-unit>
       <trans-unit id="services.clarity.title" approved="yes">
         <source>Microsoft Clarity</source>
@@ -396,7 +396,7 @@
       </trans-unit>
       <trans-unit id="services.salesviewer.description" approved="yes">
         <source>SalesViewer analyzes website visits for B2B lead generation and may identify company-related visitor information based on usage and technical access data.</source>
-        <target state="final">SalesViewer analizza le visite al sito web per la generazione di piombo B2B e può identificare le informazioni relative ai visitatori aziendali in base all'utilizzo e ai dati tecnici di accesso.</target>
+        <target state="final">SalesViewer analizza le visite al sito web per la generazione di lead B2B e può identificare informazioni sui visitatori legate alle aziende in base ai dati di utilizzo e di accesso tecnico.</target>
       </trans-unit>
       <trans-unit id="services.tiktok.title" approved="yes">
         <source>TikTok</source>
@@ -410,9 +410,9 @@
         <source>X (formerly Twitter)</source>
         <target state="final">X (ex Twitter)</target>
       </trans-unit>
-      <trans-unit id="services.twitter.description">
+      <trans-unit id="services.twitter.description" approved="yes">
         <source>X (formerly Twitter) is a social media platform that allows users to share and interact with short messages and multimedia content. Developers can integrate Twitter features into websites to enhance user engagement and real-time updates while maintaining data privacy compliance and adhering to coding guidelines.</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">X (ex Twitter) è una piattaforma di social media che consente agli utenti di condividere e interagire con brevi messaggi e contenuti multimediali. Gli sviluppatori possono integrare le funzionalità di Twitter nei siti web per migliorare il coinvolgimento degli utenti e gli aggiornamenti in tempo reale, mantenendo la conformità alla privacy dei dati e aderendo alle linee guida di programmazione.</target>
+        <target state="final">X (ex Twitter) è una piattaforma di social media che consente agli utenti di condividere e interagire con brevi messaggi e contenuti multimediali. Gli sviluppatori possono integrare le funzionalità di Twitter nei siti web per migliorare il coinvolgimento degli utenti e gli aggiornamenti in tempo reale, mantenendo la conformità alla privacy dei dati e aderendo alle linee guida di programmazione.</target>
       </trans-unit>
       <trans-unit id="services.userlike.title" approved="yes">
         <source>Userlike</source>
@@ -536,7 +536,7 @@
       </trans-unit>
       <trans-unit id="warning.noServices" approved="yes">
         <source>Why don't I see a Klaro! Modal? → You must assign at least 1 service to the Klaro! configuration! Without services, we don't need consent management at all.</source>
-        <target state="final">Perché non vedo un Klaro! Modal? → Devi assegnare almeno 1 servizio al Klaro! configurazione! Senza servizi, non abbiamo bisogno di gestione del consenso affatto.</target>
+        <target state="final">Perché non vedo il modal di Klaro!? → Devi assegnare almeno 1 servizio alla configurazione di Klaro! Senza servizi, non abbiamo bisogno di alcuna gestione del consenso.</target>
       </trans-unit>
       <trans-unit id="warning.noServicesPersonalized" approved="yes">
         <source>Hey %s! You missed a service in the config! Without services, we don't need consent management at all.</source>
