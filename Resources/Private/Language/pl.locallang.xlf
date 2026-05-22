@@ -16,7 +16,7 @@
       </trans-unit>
       <trans-unit id="consentModal.description" approved="yes">
         <source>Here you can assess and customize the services that we'd like to use on this website. You're in charge! Enable or disable services as you see fit.</source>
-        <target state="final">Tutaj mogą Państwo ocenić i dostosować usługi, które chcielibyśmy wykorzystać na tej stronie. Włączaj lub wyłączaj usługi według własnego uznania.</target>
+        <target state="final">Tutaj mogą Państwo ocenić i dostosować usługi, które chcielibyśmy wykorzystać na tej stronie. To Państwo decydują! Usługi można włączać lub wyłączać według własnego uznania.</target>
       </trans-unit>
       <trans-unit id="consentModal.title" approved="yes">
         <source>Services we would like to use</source>
@@ -72,7 +72,7 @@
       </trans-unit>
       <trans-unit id="poweredBy" approved="yes">
         <source>Realized with Klaro!</source>
-        <target state="final">Technologia dostarczona przez Klaro</target>
+        <target state="final">Technologia dostarczona przez Klaro!</target>
       </trans-unit>
       <trans-unit id="privacyPolicy.name" approved="yes">
         <source>privacy policy</source>
@@ -134,9 +134,9 @@
         <source>Enable or disable all services</source>
         <target state="final">Włącz lub wyłącz wszystkie usługi</target>
       </trans-unit>
-      <trans-unit id="service.optOut.description">
+      <trans-unit id="service.optOut.description" approved="yes">
         <source>This service is loaded by default (but you can opt out)</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Ta usługa jest ładowana domyślnie (ale możesz zrezygnować)</target>
+        <target state="final">Ta usługa jest domyślnie załadowana (ale mogą Państwo z niej zrezygnować)</target>
       </trans-unit>
       <trans-unit id="service.optOut.title" approved="yes">
         <source>(opt-out)</source>
@@ -150,9 +150,9 @@
         <source>purposes</source>
         <target state="final">cele</target>
       </trans-unit>
-      <trans-unit id="service.required.description">
+      <trans-unit id="service.required.description" approved="yes">
         <source>This service is always required</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Ta usługa jest zawsze wymagana</target>
+        <target state="final">Ta usługa jest zawsze wymagana</target>
       </trans-unit>
       <trans-unit id="service.required.title" approved="yes">
         <source>(always required)</source>
@@ -260,7 +260,7 @@
       </trans-unit>
       <trans-unit id="services.career-captain.description" approved="yes">
         <source>Career Captain provides gamified career orientation and recruiting content. When enabled, external content from Career Captain may process usage and technical connection data.</source>
-        <target state="final">Career Captain zapewnia gamienną orientację zawodową i rekrutowanie treści. Gdy włączone, zewnętrzne treści od Career Captain mogą przetwarzać dane o użytkowaniu i technicznym połączeniu.</target>
+        <target state="final">Career Captain zapewnia gamifikowane treści dotyczące orientacji zawodowej i rekrutacji. Po włączeniu zewnętrzne treści Career Captain mogą przetwarzać dane o użytkowaniu i techniczne dane połączenia.</target>
       </trans-unit>
       <trans-unit id="services.clarity.title" approved="yes">
         <source>Microsoft Clarity</source>
@@ -410,9 +410,9 @@
         <source>X (formerly Twitter)</source>
         <target state="final">X (dawniej Twitter)</target>
       </trans-unit>
-      <trans-unit id="services.twitter.description">
+      <trans-unit id="services.twitter.description" approved="yes">
         <source>X (formerly Twitter) is a social media platform that allows users to share and interact with short messages and multimedia content. Developers can integrate Twitter features into websites to enhance user engagement and real-time updates while maintaining data privacy compliance and adhering to coding guidelines.</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">X (dawniej Twitter) jest platformą mediów społecznościowych, która umożliwia użytkownikom udostępnianie krótkich wiadomości i interakcję z treściami multimedialnymi. Deweloperzy mogą zintegrować funkcje Twittera ze stronami internetowymi, aby zwiększyć zaangażowanie użytkowników i aktualizacje w czasie rzeczywistym, zachowując zgodność z zasadami prywatności i przestrzegając wytycznych dotyczących kodowania.</target>
+        <target state="final">X (dawniej Twitter) jest platformą mediów społecznościowych, która umożliwia użytkownikom udostępnianie krótkich wiadomości i interakcję z treściami multimedialnymi. Deweloperzy mogą zintegrować funkcje Twittera ze stronami internetowymi, aby zwiększyć zaangażowanie użytkowników i aktualizacje w czasie rzeczywistym, zachowując zgodność z zasadami prywatności i przestrzegając wytycznych dotyczących kodowania.</target>
       </trans-unit>
       <trans-unit id="services.userlike.title" approved="yes">
         <source>Userlike</source>
@@ -536,7 +536,7 @@
       </trans-unit>
       <trans-unit id="warning.noServices" approved="yes">
         <source>Why don't I see a Klaro! Modal? → You must assign at least 1 service to the Klaro! configuration! Without services, we don't need consent management at all.</source>
-        <target state="final">Dlaczego nie widzę Klaro! Modal? → Musisz przypisać co najmniej 1 usługę do Klaro! konfiguracja! Bez usług nie potrzebujemy zarządzania zgodą.</target>
+        <target state="final">Dlaczego nie widzę modalu Klaro!? → Musisz przypisać co najmniej 1 usługę do konfiguracji Klaro! Bez usług zarządzanie zgodami nie jest w ogóle potrzebne.</target>
       </trans-unit>
       <trans-unit id="warning.noServicesPersonalized" approved="yes">
         <source>Hey %s! You missed a service in the config! Without services, we don't need consent management at all.</source>
