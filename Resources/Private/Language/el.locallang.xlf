@@ -16,7 +16,7 @@
       </trans-unit>
       <trans-unit id="consentModal.description" approved="yes">
         <source>Here you can assess and customize the services that we'd like to use on this website. You're in charge! Enable or disable services as you see fit.</source>
-        <target state="final">Εδώ μπορείς να δεις και να ρυθμίσεις τις πληροφορίες που συλλέγουμε σχετικά με εσένα.</target>
+        <target state="final">Εδώ μπορείτε να αξιολογήσετε και να προσαρμόσετε τις υπηρεσίες που θα θέλαμε να χρησιμοποιήσουμε σε αυτόν τον ιστότοπο. Εσείς αποφασίζετε! Ενεργοποιήστε ή απενεργοποιήστε τις υπηρεσίες όπως θεωρείτε κατάλληλο.</target>
       </trans-unit>
       <trans-unit id="consentModal.title" approved="yes">
         <source>Services we would like to use</source>
@@ -28,11 +28,11 @@
       </trans-unit>
       <trans-unit id="consentNotice.description" approved="yes">
         <source>Hi! Could we please enable some additional services for {purposes}? You can always change or withdraw your consent later.</source>
-        <target state="final">Συγκεντρώνουμε και επεξεργαζόμαστε τα προσωπικά δεδομένα σας για τους παρακάτω λόγους: {purposes}.</target>
+        <target state="final">Γεια σας! Μπορούμε να ενεργοποιήσουμε μερικές πρόσθετες υπηρεσίες για {purposes}; Μπορείτε πάντα να αλλάξετε ή να ανακαλέσετε τη συγκατάθεσή σας αργότερα.</target>
       </trans-unit>
       <trans-unit id="consentNotice.learnMore" approved="yes">
         <source>Let me choose</source>
-        <target state="final">Περισσότερα</target>
+        <target state="final">Θέλω να επιλέξω</target>
       </trans-unit>
       <trans-unit id="consentNotice.testing" approved="yes">
         <source>Testing mode!</source>
@@ -128,15 +128,15 @@
       </trans-unit>
       <trans-unit id="service.disableAll.description" approved="yes">
         <source>Use this switch to enable or disable all services.</source>
-        <target state="final">Χρησιμοποίησε αυτό τον διακόπτη για να ενεργοποιήσεις/απενεργοποιήσεις όλες τις εφαρμογές.</target>
+        <target state="final">Χρησιμοποιήστε αυτόν τον διακόπτη για να ενεργοποιήσετε ή να απενεργοποιήσετε όλες τις υπηρεσίες.</target>
       </trans-unit>
       <trans-unit id="service.disableAll.title" approved="yes">
         <source>Enable or disable all services</source>
-        <target state="final">Για όλες τις εφαρμογές</target>
+        <target state="final">Ενεργοποίηση ή απενεργοποίηση όλων των υπηρεσιών</target>
       </trans-unit>
-      <trans-unit id="service.optOut.description">
+      <trans-unit id="service.optOut.description" approved="yes">
         <source>This service is loaded by default (but you can opt out)</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Αυτή η υπηρεσία φορτώθηκε από προεπιλογή (αλλά μπορείτε να εξαιρεθεί)</target>
+        <target state="final">Αυτή η υπηρεσία φορτώνεται από προεπιλογή (αλλά μπορείτε να την απενεργοποιήσετε)</target>
       </trans-unit>
       <trans-unit id="service.optOut.title" approved="yes">
         <source>(opt-out)</source>
@@ -150,9 +150,9 @@
         <source>purposes</source>
         <target state="final">σκοποί</target>
       </trans-unit>
-      <trans-unit id="service.required.description">
+      <trans-unit id="service.required.description" approved="yes">
         <source>This service is always required</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Αυτή η υπηρεσία είναι πάντα απαραίτητη</target>
+        <target state="final">Αυτή η υπηρεσία είναι πάντα απαραίτητη</target>
       </trans-unit>
       <trans-unit id="service.required.title" approved="yes">
         <source>(always required)</source>
@@ -260,7 +260,7 @@
       </trans-unit>
       <trans-unit id="services.career-captain.description" approved="yes">
         <source>Career Captain provides gamified career orientation and recruiting content. When enabled, external content from Career Captain may process usage and technical connection data.</source>
-        <target state="final">Το Career Captain παρέχει παιχνιδοποιημένο επαγγελματικό προσανατολισμό και περιεχόμενο πρόσληψης όταν είναι ενεργοποιημένο. Το εξωτερικό περιεχόμενο από το Career Captain μπορεί να επεξεργαστεί δεδομένα χρήσης και τεχνικής σύνδεσης.</target>
+        <target state="final">Το Career Captain παρέχει παιχνιδοποιημένο περιεχόμενο επαγγελματικού προσανατολισμού και πρόσληψης. Όταν είναι ενεργοποιημένο, το εξωτερικό περιεχόμενο από το Career Captain μπορεί να επεξεργάζεται δεδομένα χρήσης και τεχνικής σύνδεσης.</target>
       </trans-unit>
       <trans-unit id="services.clarity.title" approved="yes">
         <source>Microsoft Clarity</source>
@@ -396,7 +396,7 @@
       </trans-unit>
       <trans-unit id="services.salesviewer.description" approved="yes">
         <source>SalesViewer analyzes website visits for B2B lead generation and may identify company-related visitor information based on usage and technical access data.</source>
-        <target state="final">Η εταιρεία SalesViewer αναλύει επισκέψεις στο δικτυακό τόπο για την παραγωγή B2B μολύβδου και μπορεί να προσδιορίσει πληροφορίες σχετικά με τους επισκέπτες της εταιρείας με βάση τα δεδομένα χρήσης και τεχνικής πρόσβασης.</target>
+        <target state="final">Το SalesViewer αναλύει τις επισκέψεις στον ιστότοπο για δημιουργία δυνητικών πελατών B2B και μπορεί να εντοπίζει πληροφορίες επισκεπτών που σχετίζονται με εταιρείες με βάση δεδομένα χρήσης και τεχνικής πρόσβασης.</target>
       </trans-unit>
       <trans-unit id="services.tiktok.title" approved="yes">
         <source>TikTok</source>
@@ -410,9 +410,9 @@
         <source>X (formerly Twitter)</source>
         <target state="final">X (πρώην Twitter)</target>
       </trans-unit>
-      <trans-unit id="services.twitter.description">
+      <trans-unit id="services.twitter.description" approved="yes">
         <source>X (formerly Twitter) is a social media platform that allows users to share and interact with short messages and multimedia content. Developers can integrate Twitter features into websites to enhance user engagement and real-time updates while maintaining data privacy compliance and adhering to coding guidelines.</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Το X (πρώην Twitter) είναι μια πλατφόρμα μέσων κοινωνικής δικτύωσης που επιτρέπει στους χρήστες να μοιράζονται και να αλληλεπιδρούν με σύντομα μηνύματα και περιεχόμενο πολυμέσων. Οι προγραμματιστές μπορούν να ενσωματώσουν τις λειτουργίες Twitter σε ιστότοπους για να ενισχύσουν τη συμμετοχή των χρηστών και τις ενημερώσεις σε πραγματικό χρόνο, διατηρώντας παράλληλα τη συμμόρφωση με τα δεδομένα απορρήτου και τηρώντας τις οδηγίες κωδικοποίησης.</target>
+        <target state="final">Το X (πρώην Twitter) είναι πλατφόρμα κοινωνικής δικτύωσης που επιτρέπει στους χρήστες να μοιράζονται και να αλληλεπιδρούν με σύντομα μηνύματα και περιεχόμενο πολυμέσων. Οι προγραμματιστές μπορούν να ενσωματώσουν τις λειτουργίες Twitter σε ιστότοπους για να ενισχύσουν τη συμμετοχή των χρηστών και τις ενημερώσεις σε πραγματικό χρόνο, διατηρώντας παράλληλα τη συμμόρφωση με τα δεδομένα απορρήτου και τηρώντας τις οδηγίες κωδικοποίησης.</target>
       </trans-unit>
       <trans-unit id="services.userlike.title" approved="yes">
         <source>Userlike</source>
@@ -536,7 +536,7 @@
       </trans-unit>
       <trans-unit id="warning.noServices" approved="yes">
         <source>Why don't I see a Klaro! Modal? → You must assign at least 1 service to the Klaro! configuration! Without services, we don't need consent management at all.</source>
-        <target state="final">Γιατί δεν βλέπω ένα Klaro! Modal? → Πρέπει να αναθέσετε τουλάχιστον 1 υπηρεσία στο Klaro! Διαμόρφωση! Χωρίς υπηρεσίες, δεν χρειαζόμαστε καθόλου διαχείριση συναίνεσης.</target>
+        <target state="final">Γιατί δεν βλέπω το modal του Klaro!; → Πρέπει να αναθέσετε τουλάχιστον 1 υπηρεσία στη διαμόρφωση του Klaro! Χωρίς υπηρεσίες, δεν χρειαζόμαστε καθόλου διαχείριση συγκατάθεσης.</target>
       </trans-unit>
       <trans-unit id="warning.noServicesPersonalized" approved="yes">
         <source>Hey %s! You missed a service in the config! Without services, we don't need consent management at all.</source>
