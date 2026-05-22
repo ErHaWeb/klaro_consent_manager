@@ -3,1009 +3,1009 @@
   <file source-language="en" original="EXT:klaro_consent_manager/Resources/Private/Language/locallang_db.xlf" datatype="plaintext" product-name="lang" date="2025-10-13T13:41:04+02:00" target-language="cy">
     <header/>
     <body>
-      <trans-unit id="tx_klaroconsentmanager_configuration">
+      <trans-unit id="tx_klaroconsentmanager_configuration" approved="yes">
         <source>Klaro! Configuration</source>
-        <target state="needs-translation">Klaro! Configuration</target>
+        <target state="final">Ffurfweddiad Klaro!</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_configuration.I.true">
+      <trans-unit id="tx_klaroconsentmanager_configuration.I.true" approved="yes">
         <source>true</source>
-        <target state="needs-translation">true</target>
+        <target state="final">gwir</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_configuration.I.false">
+      <trans-unit id="tx_klaroconsentmanager_configuration.I.false" approved="yes">
         <source>false</source>
-        <target state="needs-translation">false</target>
+        <target state="final">anwir</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_configuration.tabs.general">
+      <trans-unit id="tx_klaroconsentmanager_configuration.tabs.general" approved="yes">
         <source>General</source>
-        <target state="needs-translation">General</target>
+        <target state="final">Cyffredinol</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_configuration.tabs.layout">
+      <trans-unit id="tx_klaroconsentmanager_configuration.tabs.layout" approved="yes">
         <source>Layout</source>
-        <target state="needs-translation">Layout</target>
+        <target state="final">Cynllun</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_configuration.tabs.content">
+      <trans-unit id="tx_klaroconsentmanager_configuration.tabs.content" approved="yes">
         <source>Content</source>
-        <target state="needs-translation">Content</target>
+        <target state="final">Cynnwys</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_configuration.tabs.cookie">
+      <trans-unit id="tx_klaroconsentmanager_configuration.tabs.cookie" approved="yes">
         <source>Cookie</source>
-        <target state="needs-translation">Cookie</target>
+        <target state="final">Cwci</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_configuration.tabs.advanced">
+      <trans-unit id="tx_klaroconsentmanager_configuration.tabs.advanced" approved="yes">
         <source>Advanced</source>
-        <target state="needs-translation">Advanced</target>
+        <target state="final">Uwch</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_configuration.tabs.access">
+      <trans-unit id="tx_klaroconsentmanager_configuration.tabs.access" approved="yes">
         <source>Access</source>
-        <target state="needs-translation">Access</target>
+        <target state="final">Mynediad</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_configuration.palettes.general_palette">
+      <trans-unit id="tx_klaroconsentmanager_configuration.palettes.general_palette" approved="yes">
         <source>General</source>
-        <target state="needs-translation">General</target>
+        <target state="final">Cyffredinol</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_configuration.palettes.setup_palette">
+      <trans-unit id="tx_klaroconsentmanager_configuration.palettes.setup_palette" approved="yes">
         <source>Base Configuration</source>
-        <target state="needs-translation">Base Configuration</target>
+        <target state="final">Ffurfweddiad sylfaenol</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_configuration.palettes.storage_palette">
+      <trans-unit id="tx_klaroconsentmanager_configuration.palettes.storage_palette" approved="yes">
         <source>Storage</source>
-        <target state="needs-translation">Storage</target>
+        <target state="final">Storio</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_configuration.palettes.services_palette">
+      <trans-unit id="tx_klaroconsentmanager_configuration.palettes.services_palette" approved="yes">
         <source>Services</source>
-        <target state="needs-translation">Services</target>
+        <target state="final">Gwasanaethau</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_configuration.palettes.cookie_palette">
+      <trans-unit id="tx_klaroconsentmanager_configuration.palettes.cookie_palette" approved="yes">
         <source>Cookie Settings</source>
-        <target state="needs-translation">Cookie Settings</target>
+        <target state="final">Gosodiadau cwcis</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_configuration.palettes.callback_palette">
+      <trans-unit id="tx_klaroconsentmanager_configuration.palettes.callback_palette" approved="yes">
         <source>Callback</source>
-        <target state="needs-translation">Callback</target>
+        <target state="final">Callback</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_configuration.palettes.consent_palette">
+      <trans-unit id="tx_klaroconsentmanager_configuration.palettes.consent_palette" approved="yes">
         <source>Default consent status</source>
-        <target state="needs-translation">Default consent status</target>
+        <target state="final">Statws caniatâd diofyn</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_configuration.palettes.display_palette">
+      <trans-unit id="tx_klaroconsentmanager_configuration.palettes.display_palette" approved="yes">
         <source>Other display settings</source>
-        <target state="needs-translation">Other display settings</target>
+        <target state="final">Gosodiadau arddangos eraill</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_configuration.palettes.layout_palette">
+      <trans-unit id="tx_klaroconsentmanager_configuration.palettes.layout_palette" approved="yes">
         <source>Layout settings</source>
-        <target state="needs-translation">Layout settings</target>
+        <target state="final">Gosodiadau cynllun</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_configuration.palettes.behavior_palette">
+      <trans-unit id="tx_klaroconsentmanager_configuration.palettes.behavior_palette" approved="yes">
         <source>Behavior</source>
-        <target state="needs-translation">Behavior</target>
+        <target state="final">Ymddygiad</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_configuration.palettes.hide_buttons_palette">
+      <trans-unit id="tx_klaroconsentmanager_configuration.palettes.hide_buttons_palette" approved="yes">
         <source>Hide Buttons</source>
-        <target state="needs-translation">Hide Buttons</target>
+        <target state="final">Cuddio botymau</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_configuration.palettes.append_buttons_palette">
+      <trans-unit id="tx_klaroconsentmanager_configuration.palettes.append_buttons_palette" approved="yes">
         <source>Append Buttons</source>
-        <target state="needs-translation">Append Buttons</target>
+        <target state="final">Ychwanegu botymau</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_configuration.palettes.access_palette">
+      <trans-unit id="tx_klaroconsentmanager_configuration.palettes.access_palette" approved="yes">
         <source>Access</source>
-        <target state="needs-translation">Access</target>
+        <target state="final">Mynediad</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_configuration.palettes.translations_palette">
+      <trans-unit id="tx_klaroconsentmanager_configuration.palettes.translations_palette" approved="yes">
         <source>Translations</source>
-        <target state="needs-translation">Translations</target>
+        <target state="final">Cyfieithiadau</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_configuration.title.label">
+      <trans-unit id="tx_klaroconsentmanager_configuration.title.label" approved="yes">
         <source>Title</source>
-        <target state="needs-translation">Title</target>
+        <target state="final">Teitl</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_configuration.title.description">
+      <trans-unit id="tx_klaroconsentmanager_configuration.title.description" approved="yes">
         <source>Title under which this configuration can be found.</source>
-        <target state="needs-translation">Title under which this configuration can be found.</target>
+        <target state="final">Y teitl y gellir dod o hyd i'r ffurfweddiad hwn oddi tano.</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_configuration.title.placeholder">
+      <trans-unit id="tx_klaroconsentmanager_configuration.title.placeholder" approved="yes">
         <source>My Klaro! Configuration</source>
-        <target state="needs-translation">My Klaro! Configuration</target>
+        <target state="final">Fy ffurfweddiad Klaro!</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_configuration.testing.label">
+      <trans-unit id="tx_klaroconsentmanager_configuration.testing.label" approved="yes">
         <source>Testing</source>
-        <target state="needs-translation">Testing</target>
+        <target state="final">Profi</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_configuration.testing.description">
+      <trans-unit id="tx_klaroconsentmanager_configuration.testing.description" approved="yes">
         <source>Setting `testing` to `true` will cause Klaro to not show the consent notice or modal by default, except if a special hashtag is appended to the URL (#klaro-testing). This makes it possible to test Klaro on your live website without affecting normal visitors.</source>
-        <target state="needs-translation">Setting `testing` to `true` will cause Klaro to not show the consent notice or modal by default, except if a special hashtag is appended to the URL (#klaro-testing). This makes it possible to test Klaro on your live website without affecting normal visitors.</target>
+        <target state="final">Bydd gosod `testing` i `true` yn achosi i Klaro beidio â dangos yr hysbysiad caniatâd na'r ffenestr foddol yn ddiofyn, ac eithrio os ychwanegir hashtag arbennig at yr URL (#klaro-testing). Mae hyn yn ei gwneud yn bosibl profi Klaro ar eich gwefan fyw heb effeithio ar ymwelwyr arferol.</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_configuration.config_variable_name.label">
+      <trans-unit id="tx_klaroconsentmanager_configuration.config_variable_name.label" approved="yes">
         <source>Config Variable Name</source>
-        <target state="needs-translation">Config Variable Name</target>
+        <target state="final">Enw newidyn ffurfweddiad</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_configuration.config_variable_name.description">
+      <trans-unit id="tx_klaroconsentmanager_configuration.config_variable_name.description" approved="yes">
         <source>By default, Klaro loads the configuration from a global variable `klaroConfig`. You can change this here. Specifying this field will cause the attribute data-klaro-config="yourConfigVariableName" to be set.</source>
-        <target state="needs-translation">By default, Klaro loads the configuration from a global variable `klaroConfig`. You can change this here. Specifying this field will cause the attribute data-klaro-config="yourConfigVariableName" to be set.</target>
+        <target state="final">Yn ddiofyn, mae Klaro yn llwytho'r ffurfweddiad o newidyn byd-eang `klaroConfig`. Gallwch newid hyn yma. Bydd nodi'r maes hwn yn achosi i'r priodoledd data-klaro-config="yourConfigVariableName" gael ei osod.</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_configuration.config_variable_name.placeholder">
+      <trans-unit id="tx_klaroconsentmanager_configuration.config_variable_name.placeholder" approved="yes">
         <source>klaroConfig</source>
-        <target state="needs-translation">klaroConfig</target>
+        <target state="final">klaroConfig</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_configuration.element_i_d.label">
+      <trans-unit id="tx_klaroconsentmanager_configuration.element_i_d.label" approved="yes">
         <source>Element ID</source>
-        <target state="needs-translation">Element ID</target>
+        <target state="final">ID elfen</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_configuration.element_i_d.description">
+      <trans-unit id="tx_klaroconsentmanager_configuration.element_i_d.description" approved="yes">
         <source>You can customize the ID of the `div` element that Klaro will create when starting up. By default, Klaro will use "klaro".</source>
-        <target state="needs-translation">You can customize the ID of the `div` element that Klaro will create when starting up. By default, Klaro will use "klaro".</target>
+        <target state="final">Gallwch addasu ID yr elfen `div` y bydd Klaro yn ei chreu wrth gychwyn. Yn ddiofyn, bydd Klaro yn defnyddio "klaro".</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_configuration.element_i_d.placeholder">
+      <trans-unit id="tx_klaroconsentmanager_configuration.element_i_d.placeholder" approved="yes">
         <source>klaro</source>
-        <target state="needs-translation">klaro</target>
+        <target state="final">klaro</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_configuration.no_auto_load.label">
+      <trans-unit id="tx_klaroconsentmanager_configuration.no_auto_load.label" approved="yes">
         <source>No Auto-Load</source>
-        <target state="needs-translation">No Auto-Load</target>
+        <target state="final">Dim awto-lwytho</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_configuration.no_auto_load.description">
+      <trans-unit id="tx_klaroconsentmanager_configuration.no_auto_load.description" approved="yes">
         <source>Setting this to `true` will keep Klaro from automatically loading itself when the page is being loaded.</source>
-        <target state="needs-translation">Setting this to `true` will keep Klaro from automatically loading itself when the page is being loaded.</target>
+        <target state="final">Bydd gosod hyn i `true` yn atal Klaro rhag llwytho ei hun yn awtomatig pan gaiff y dudalen ei llwytho.</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_configuration.additional_class.label">
+      <trans-unit id="tx_klaroconsentmanager_configuration.additional_class.label" approved="yes">
         <source>Additional Class</source>
-        <target state="needs-translation">Additional Class</target>
+        <target state="final">Dosbarth ychwanegol</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_configuration.additional_class.description">
+      <trans-unit id="tx_klaroconsentmanager_configuration.additional_class.description" approved="yes">
         <source>You can specify an additional class (or classes) that will be added to the Klaro `div`.</source>
-        <target state="needs-translation">You can specify an additional class (or classes) that will be added to the Klaro `div`.</target>
+        <target state="final">Gallwch nodi dosbarth ychwanegol (neu ddosbarthiadau) a fydd yn cael eu hychwanegu at `div` Klaro.</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_configuration.additional_class.placeholder">
+      <trans-unit id="tx_klaroconsentmanager_configuration.additional_class.placeholder" approved="yes">
         <source>my-klaro</source>
-        <target state="needs-translation">my-klaro</target>
+        <target state="final">my-klaro</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_configuration.storage_method.label">
+      <trans-unit id="tx_klaroconsentmanager_configuration.storage_method.label" approved="yes">
         <source>Storage Method</source>
-        <target state="needs-translation">Storage Method</target>
+        <target state="final">Dull storio</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_configuration.storage_method.description">
+      <trans-unit id="tx_klaroconsentmanager_configuration.storage_method.description" approved="yes">
         <source>You can customize how Klaro persists consent information in the browser. Specify either `cookie` (the default) or `localStorage`.</source>
-        <target state="needs-translation">You can customize how Klaro persists consent information in the browser. Specify either `cookie` (the default) or `localStorage`.</target>
+        <target state="final">Gallwch addasu sut mae Klaro yn cadw gwybodaeth caniatâd yn y porwr. Nodwch naill ai `cookie` (y rhagosodiad) neu `localStorage`.</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_configuration.storage_method.I.none">
+      <trans-unit id="tx_klaroconsentmanager_configuration.storage_method.I.none" approved="yes">
         <source>None</source>
-        <target state="needs-translation">None</target>
+        <target state="final">Dim</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_configuration.storage_method.I.cookie">
+      <trans-unit id="tx_klaroconsentmanager_configuration.storage_method.I.cookie" approved="yes">
         <source>Cookie (default)</source>
-        <target state="needs-translation">Cookie (default)</target>
+        <target state="final">Cwci (diofyn)</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_configuration.storage_method.I.localStorage">
+      <trans-unit id="tx_klaroconsentmanager_configuration.storage_method.I.localStorage" approved="yes">
         <source>Local Storage</source>
-        <target state="needs-translation">Local Storage</target>
+        <target state="final">Storio lleol</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_configuration.storage_name.label">
+      <trans-unit id="tx_klaroconsentmanager_configuration.storage_name.label" approved="yes">
         <source>Storage Name</source>
-        <target state="needs-translation">Storage Name</target>
+        <target state="final">Enw storio</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_configuration.storage_name.description">
+      <trans-unit id="tx_klaroconsentmanager_configuration.storage_name.description" approved="yes">
         <source>You can customize the name of the cookie or localStorage entry that Klaro will use for storing the consent information. By default, Klaro will use "klaro".</source>
-        <target state="needs-translation">You can customize the name of the cookie or localStorage entry that Klaro will use for storing the consent information. By default, Klaro will use "klaro".</target>
+        <target state="final">Gallwch addasu enw'r cwci neu gofnod localStorage y bydd Klaro yn ei ddefnyddio i storio'r wybodaeth caniatâd. Yn ddiofyn, bydd Klaro yn defnyddio "klaro".</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_configuration.storage_name.placeholder">
+      <trans-unit id="tx_klaroconsentmanager_configuration.storage_name.placeholder" approved="yes">
         <source>klaro</source>
-        <target state="needs-translation">klaro</target>
+        <target state="final">klaro</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_configuration.html_texts.label">
+      <trans-unit id="tx_klaroconsentmanager_configuration.html_texts.label" approved="yes">
         <source>HTML Texts</source>
-        <target state="needs-translation">HTML Texts</target>
+        <target state="final">Testunau HTML</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_configuration.html_texts.description">
+      <trans-unit id="tx_klaroconsentmanager_configuration.html_texts.description" approved="yes">
         <source>If set to `true`, Klaro will render the texts given in the `consentModal.description` and `consentNotice.description` translations as HTML. This enables you to e.g. add custom links or interactive content. If you want to be able to output HTML tags via fluid-enriched labels (see "Content" → "Translations"), this option must be enabled.</source>
-        <target state="needs-translation">If set to `true`, Klaro will render the texts given in the `consentModal.description` and `consentNotice.description` translations as HTML. This enables you to e.g. add custom links or interactive content. If you want to be able to output HTML tags via fluid-enriched labels (see "Content" → "Translations"), this option must be enabled.</target>
+        <target state="final">Os caiff ei osod i `true`, bydd Klaro yn rendro'r testunau a roddir yn y cyfieithiadau `consentModal.description` a `consentNotice.description` fel HTML. Mae hyn yn eich galluogi, er enghraifft, i ychwanegu dolenni personol neu gynnwys rhyngweithiol. Os ydych am allu allbynnu tagiau HTML drwy labeli wedi'u cyfoethogi gan Fluid (gweler "Cynnwys" → "Cyfieithiadau"), rhaid galluogi'r opsiwn hwn.</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_configuration.embedded.label">
+      <trans-unit id="tx_klaroconsentmanager_configuration.embedded.label" approved="yes">
         <source>Embedded</source>
-        <target state="needs-translation">Embedded</target>
+        <target state="final">Wedi'i ymgorffori</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_configuration.embedded.description">
+      <trans-unit id="tx_klaroconsentmanager_configuration.embedded.description" approved="yes">
         <source>Setting "embedded" to `true` will render the Klaro modal and notice without the modal background, allowing you to e.g. embed them into a specific element of your website, such as your privacy notice.</source>
-        <target state="needs-translation">Setting "embedded" to `true` will render the Klaro modal and notice without the modal background, allowing you to e.g. embed them into a specific element of your website, such as your privacy notice.</target>
+        <target state="final">Bydd gosod "embedded" i `true` yn rendro modalen a hysbysiad Klaro heb gefndir y ffenestr foddol, gan eich galluogi er enghraifft i'w hymgorffori mewn elfen benodol o'ch gwefan, megis eich hysbysiad preifatrwydd.</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_configuration.group_by_purpose.label">
+      <trans-unit id="tx_klaroconsentmanager_configuration.group_by_purpose.label" approved="yes">
         <source>Group by purpose</source>
-        <target state="needs-translation">Group by purpose</target>
+        <target state="final">Grwpio yn ôl diben</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_configuration.group_by_purpose.description">
+      <trans-unit id="tx_klaroconsentmanager_configuration.group_by_purpose.description" approved="yes">
         <source>You can group services by their purpose in the modal. This is advisable if you have a large number of services. Users can then enable or disable entire groups of services instead of having to enable or disable every service.</source>
-        <target state="needs-translation">You can group services by their purpose in the modal. This is advisable if you have a large number of services. Users can then enable or disable entire groups of services instead of having to enable or disable every service.</target>
+        <target state="final">Gallwch grwpio gwasanaethau yn ôl eu diben yn y ffenestr foddol. Mae hyn yn ddoeth os oes gennych nifer fawr o wasanaethau. Gall defnyddwyr wedyn alluogi neu analluogi grwpiau cyfan o wasanaethau yn lle gorfod galluogi neu analluogi pob gwasanaeth.</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_configuration.cookie_domain.label">
+      <trans-unit id="tx_klaroconsentmanager_configuration.cookie_domain.label" approved="yes">
         <source>Cookie Domain</source>
-        <target state="needs-translation">Cookie Domain</target>
+        <target state="final">Parth cwci</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_configuration.cookie_domain.description">
+      <trans-unit id="tx_klaroconsentmanager_configuration.cookie_domain.description" approved="yes">
         <source>You can change the cookie domain for the consent manager itself. Use this if you want to get consent once for multiple matching domains. By default, Klaro will use the current domain. Only relevant if `storageMethod` is set to `cookie`.</source>
-        <target state="needs-translation">You can change the cookie domain for the consent manager itself. Use this if you want to get consent once for multiple matching domains. By default, Klaro will use the current domain. Only relevant if `storageMethod` is set to `cookie`.</target>
+        <target state="final">Gallwch newid parth y cwci ar gyfer y rheolwr caniatâd ei hun. Defnyddiwch hyn os ydych am gael caniatâd unwaith ar gyfer sawl parth cyfatebol. Yn ddiofyn, bydd Klaro yn defnyddio'r parth presennol. Dim ond os yw `storageMethod` wedi'i osod i `cookie` y mae hyn yn berthnasol.</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_configuration.cookie_domain.placeholder">
+      <trans-unit id="tx_klaroconsentmanager_configuration.cookie_domain.placeholder" approved="yes">
         <source>.example.com</source>
-        <target state="needs-translation">.example.com</target>
+        <target state="final">.example.com</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_configuration.cookie_path.label">
+      <trans-unit id="tx_klaroconsentmanager_configuration.cookie_path.label" approved="yes">
         <source>Cookie Path</source>
-        <target state="needs-translation">Cookie Path</target>
+        <target state="final">Llwybr cwci</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_configuration.cookie_path.description">
+      <trans-unit id="tx_klaroconsentmanager_configuration.cookie_path.description" approved="yes">
         <source>Provide a path if you have services that set cookies for a path that is not "/"</source>
-        <target state="needs-translation">Provide a path if you have services that set cookies for a path that is not "/"</target>
+        <target state="final">Darparwch lwybr os oes gennych wasanaethau sy'n gosod cwcis ar gyfer llwybr nad yw'n "/"</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_configuration.cookie_path.placeholder">
+      <trans-unit id="tx_klaroconsentmanager_configuration.cookie_path.placeholder" approved="yes">
         <source>/</source>
-        <target state="needs-translation">/</target>
+        <target state="final">/</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_configuration.cookie_expires_after_days.label">
+      <trans-unit id="tx_klaroconsentmanager_configuration.cookie_expires_after_days.label" approved="yes">
         <source>Cookie expires after days</source>
-        <target state="needs-translation">Cookie expires after days</target>
+        <target state="final">Cwci yn dod i ben ar ôl diwrnodau</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_configuration.cookie_expires_after_days.description">
+      <trans-unit id="tx_klaroconsentmanager_configuration.cookie_expires_after_days.description" approved="yes">
         <source>You can also set a custom expiration time for the Klaro cookie. By default, it will expire after 60 days. Only relevant if `storageMethod` is set to `cookie`.</source>
-        <target state="needs-translation">You can also set a custom expiration time for the Klaro cookie. By default, it will expire after 60 days. Only relevant if `storageMethod` is set to `cookie`.</target>
+        <target state="final">Gallwch hefyd osod amser dod i ben personol ar gyfer cwci Klaro. Yn ddiofyn, bydd yn dod i ben ar ôl 60 diwrnod. Dim ond os yw `storageMethod` wedi'i osod i `cookie` y mae hyn yn berthnasol.</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_configuration.cookie_expires_after_days.placeholder">
+      <trans-unit id="tx_klaroconsentmanager_configuration.cookie_expires_after_days.placeholder" approved="yes">
         <source>30</source>
-        <target state="needs-translation">30</target>
+        <target state="final">30</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_configuration.default.label">
+      <trans-unit id="tx_klaroconsentmanager_configuration.default.label" approved="yes">
         <source>Default</source>
-        <target state="needs-translation">Default</target>
+        <target state="final">Diofyn</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_configuration.default.description">
+      <trans-unit id="tx_klaroconsentmanager_configuration.default.description" approved="yes">
         <source>Defines the default state for services in the consent modal (`true` = enabled by default). If this setting is set to "false", you can override it in any service.</source>
-        <target state="needs-translation">Defines the default state for services in the consent modal (`true` = enabled by default). If this setting is set to "false", you can override it in any service.</target>
+        <target state="final">Mae'n diffinio'r cyflwr diofyn ar gyfer gwasanaethau yn y ffenestr foddol caniatâd (`true` = wedi'i alluogi yn ddiofyn). Os yw'r gosodiad hwn wedi'i osod i "false", gallwch ei wrthwneud mewn unrhyw wasanaeth.</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_configuration.must_consent.label">
+      <trans-unit id="tx_klaroconsentmanager_configuration.must_consent.label" approved="yes">
         <source>Must consent</source>
-        <target state="needs-translation">Must consent</target>
+        <target state="final">Rhaid rhoi caniatâd</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_configuration.must_consent.description">
+      <trans-unit id="tx_klaroconsentmanager_configuration.must_consent.description" approved="yes">
         <source>If `mustConsent` is set to `true`, Klaro will directly display the consent manager modal and not allow the user to close it before having actively consented to or declined the use of third-party services.</source>
-        <target state="needs-translation">If `mustConsent` is set to `true`, Klaro will directly display the consent manager modal and not allow the user to close it before having actively consented to or declined the use of third-party services.</target>
+        <target state="final">Os yw `mustConsent` wedi'i osod i `true`, bydd Klaro yn dangos ffenestr foddol y rheolwr caniatâd yn uniongyrchol ac ni fydd yn caniatáu i'r defnyddiwr ei gau cyn iddo gydsynio'n weithredol i ddefnyddio gwasanaethau trydydd parti neu eu gwrthod.</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_configuration.accept_all.label">
+      <trans-unit id="tx_klaroconsentmanager_configuration.accept_all.label" approved="yes">
         <source>Accept all</source>
-        <target state="needs-translation">Accept all</target>
+        <target state="final">Derbyn popeth</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_configuration.accept_all.description">
+      <trans-unit id="tx_klaroconsentmanager_configuration.accept_all.description" approved="yes">
         <source>Setting `acceptAll` to `true` will show an "accept all" button in the notice and modal, which will enable all third-party services if the user clicks on it. If set to "false", there will be an "accept" button that will only enable the services that are enabled in the consent modal.</source>
-        <target state="needs-translation">Setting `acceptAll` to `true` will show an "accept all" button in the notice and modal, which will enable all third-party services if the user clicks on it. If set to "false", there will be an "accept" button that will only enable the services that are enabled in the consent modal.</target>
+        <target state="final">Bydd gosod `acceptAll` i `true` yn dangos botwm "derbyn popeth" yn yr hysbysiad a'r ffenestr foddol, a fydd yn galluogi'r holl wasanaethau trydydd parti os yw'r defnyddiwr yn clicio arno. Os caiff ei osod i "false", bydd botwm "derbyn" a fydd ond yn galluogi'r gwasanaethau sydd wedi'u galluogi yn y ffenestr foddol caniatâd.</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_configuration.hide_decline_all.label">
+      <trans-unit id="tx_klaroconsentmanager_configuration.hide_decline_all.label" approved="yes">
         <source>Hide Decline All</source>
-        <target state="needs-translation">Hide Decline All</target>
+        <target state="final">Cuddio Gwrthod popeth</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_configuration.hide_decline_all.description">
+      <trans-unit id="tx_klaroconsentmanager_configuration.hide_decline_all.description" approved="yes">
         <source>Setting `hideDeclineAll` to `true` will hide the "decline" button in the consent modal and force the user to open the modal in order to change his/her consent or disable all third-party services. We strongly advise you to not use this feature, as it opposes the "privacy by default" and "privacy by design" principles of the GDPR (but might be acceptable in other legislations such as under the CCPA)</source>
-        <target state="needs-translation">Setting `hideDeclineAll` to `true` will hide the "decline" button in the consent modal and force the user to open the modal in order to change his/her consent or disable all third-party services. We strongly advise you to not use this feature, as it opposes the "privacy by default" and "privacy by design" principles of the GDPR (but might be acceptable in other legislations such as under the CCPA)</target>
+        <target state="final">Bydd gosod `hideDeclineAll` i `true` yn cuddio'r botwm "gwrthod" yn y ffenestr foddol caniatâd ac yn gorfodi'r defnyddiwr i agor y ffenestr foddol er mwyn newid ei ganiatâd neu analluogi pob gwasanaeth trydydd parti. Rydym yn eich cynghori'n gryf i beidio â defnyddio'r nodwedd hon, gan ei bod yn groes i egwyddorion "privacy by default" a "privacy by design" y GDPR (ond gallai fod yn dderbyniol mewn deddfwriaethau eraill megis o dan y CCPA)</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_configuration.hide_learn_more.label">
+      <trans-unit id="tx_klaroconsentmanager_configuration.hide_learn_more.label" approved="yes">
         <source>Hide Learn More</source>
-        <target state="needs-translation">Hide Learn More</target>
+        <target state="final">Cuddio Dysgu mwy</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_configuration.hide_learn_more.description">
+      <trans-unit id="tx_klaroconsentmanager_configuration.hide_learn_more.description" approved="yes">
         <source>Setting `hideLearnMore` to `true` will hide the "learn more / customize" link in the consent notice. We strongly advise against using this under most circumstances, as it keeps the user from customizing his/her consent choices.</source>
-        <target state="needs-translation">Setting `hideLearnMore` to `true` will hide the "learn more / customize" link in the consent notice. We strongly advise against using this under most circumstances, as it keeps the user from customizing his/her consent choices.</target>
+        <target state="final">Bydd gosod `hideLearnMore` i `true` yn cuddio'r ddolen "dysgu mwy / addasu" yn yr hysbysiad caniatâd. Rydym yn cynghori'n gryf yn erbyn defnyddio hyn o dan y rhan fwyaf o amgylchiadau, gan ei fod yn atal y defnyddiwr rhag addasu ei ddewisiadau caniatâd.</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_configuration.hide_toggle_all.label">
+      <trans-unit id="tx_klaroconsentmanager_configuration.hide_toggle_all.label" approved="yes">
         <source>Hide Toggle All</source>
-        <target state="needs-translation">Hide Toggle All</target>
+        <target state="final">Cuddio Toglo popeth</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_configuration.hide_toggle_all.description">
+      <trans-unit id="tx_klaroconsentmanager_configuration.hide_toggle_all.description" approved="yes">
         <source>Setting `hideToggleAll` to `true` will hide the "toggle all" link in the consent notice.</source>
-        <target state="needs-translation">Setting `hideToggleAll` to `true` will hide the "toggle all" link in the consent notice.</target>
+        <target state="final">Bydd gosod `hideToggleAll` i `true` yn cuddio'r ddolen "toglo popeth" yn yr hysbysiad caniatâd.</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_configuration.notice_as_modal.label">
+      <trans-unit id="tx_klaroconsentmanager_configuration.notice_as_modal.label" approved="yes">
         <source>Notice As Modal</source>
-        <target state="needs-translation">Notice As Modal</target>
+        <target state="final">Hysbysiad fel ffenestr foddol</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_configuration.notice_as_modal.description">
+      <trans-unit id="tx_klaroconsentmanager_configuration.notice_as_modal.description" approved="yes">
         <source>Show cookie notice as modal</source>
-        <target state="needs-translation">Show cookie notice as modal</target>
+        <target state="final">Dangos hysbysiad cwcis fel ffenestr foddol</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_configuration.show_notice_title.label">
+      <trans-unit id="tx_klaroconsentmanager_configuration.show_notice_title.label" approved="yes">
         <source>Show title in consent notice</source>
-        <target state="needs-translation">Show title in consent notice</target>
+        <target state="final">Dangos teitl yn yr hysbysiad caniatâd</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_configuration.show_notice_title.description">
+      <trans-unit id="tx_klaroconsentmanager_configuration.show_notice_title.description" approved="yes">
         <source>When this option is enabled, Klaro displays the title in the notice modal.</source>
-        <target state="needs-translation">When this option is enabled, Klaro displays the title in the notice modal.</target>
+        <target state="final">Pan fydd yr opsiwn hwn wedi'i alluogi, mae Klaro yn dangos y teitl yn y ffenestr foddol hysbysiad.</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_configuration.show_description_empty_store.label">
+      <trans-unit id="tx_klaroconsentmanager_configuration.show_description_empty_store.label" approved="yes">
         <source>Show Description (Empty Store)</source>
-        <target state="needs-translation">Show Description (Empty Store)</target>
+        <target state="final">Dangos disgrifiad (storfa wag)</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_configuration.show_description_empty_store.description">
+      <trans-unit id="tx_klaroconsentmanager_configuration.show_description_empty_store.description" approved="yes">
         <source>Show an explanatory text in contextual consent placeholders when no consent storage exists yet (first visit / empty store). This informs users that a permanent decision ("Always") requires allowing Klaro to store consent first. This only has an effect in contextual consent widgets/overlays (e.g. for embedded media) and only if the consent store (cookie/localStorage) is empty.</source>
-        <target state="needs-translation">Show an explanatory text in contextual consent placeholders when no consent storage exists yet (first visit / empty store). This informs users that a permanent decision ("Always") requires allowing Klaro to store consent first. This only has an effect in contextual consent widgets/overlays (e.g. for embedded media) and only if the consent store (cookie/localStorage) is empty.</target>
+        <target state="final">Dangos testun esboniadol mewn deiliaid lle caniatâd cyd-destunol pan nad oes storfa ganiatâd eto (ymweliad cyntaf / storfa wag). Mae hyn yn hysbysu defnyddwyr bod penderfyniad parhaol ("Bob amser") yn gofyn am ganiatáu i Klaro storio caniatâd yn gyntaf. Dim ond mewn teclynnau/troshaenau caniatâd cyd-destunol (e.e. ar gyfer cyfryngau wedi'u hymgorffori) ac os yw'r storfa ganiatâd (cwci/localStorage) yn wag y mae hyn yn cael effaith.</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_configuration.auto_focus.label">
+      <trans-unit id="tx_klaroconsentmanager_configuration.auto_focus.label" approved="yes">
         <source>Auto Focus</source>
-        <target state="needs-translation">Auto Focus</target>
+        <target state="final">Awtofocws</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_configuration.auto_focus.description">
+      <trans-unit id="tx_klaroconsentmanager_configuration.auto_focus.description" approved="yes">
         <source>Automatically focus the Klaro consent notice/modal container when it opens to improve keyboard navigation and accessibility.</source>
-        <target state="needs-translation">Automatically focus the Klaro consent notice/modal container when it opens to improve keyboard navigation and accessibility.</target>
+        <target state="final">Canolbwyntio'n awtomatig ar gynhwysydd hysbysiad/modal caniatâd Klaro pan fydd yn agor er mwyn gwella llywio bysellfwrdd a hygyrchedd.</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_configuration.disable_powered_by.label">
+      <trans-unit id="tx_klaroconsentmanager_configuration.disable_powered_by.label" approved="yes">
         <source>Disable Powered By</source>
-        <target state="needs-translation">Disable Powered By</target>
+        <target state="final">Analluogi Powered By</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_configuration.disable_powered_by.description">
+      <trans-unit id="tx_klaroconsentmanager_configuration.disable_powered_by.description" approved="yes">
         <source>You can also remove the "Realized with Klaro!" text in the consent modal. Please don't do this! We provide Klaro as a free open source tool. Placing a link to our website helps us spread the word about it, which ultimately enables us to make Klaro! better for everyone. So please be fair and keep the link enabled. Thanks :)</source>
-        <target state="needs-translation">You can also remove the "Realized with Klaro!" text in the consent modal. Please don't do this! We provide Klaro as a free open source tool. Placing a link to our website helps us spread the word about it, which ultimately enables us to make Klaro! better for everyone. So please be fair and keep the link enabled. Thanks :)</target>
+        <target state="final">Gallwch hefyd dynnu'r testun "Realized with Klaro!" yn y ffenestr foddol caniatâd. Peidiwch â gwneud hyn, os gwelwch yn dda! Rydym yn darparu Klaro fel offeryn ffynhonnell agored am ddim. Mae gosod dolen i'n gwefan yn ein helpu i ledaenu'r gair amdano, sy'n ein galluogi yn y pen draw i wneud Klaro! yn well i bawb. Felly byddwch yn deg a chadwch y ddolen wedi'i galluogi. Diolch :)</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_configuration.services.label">
+      <trans-unit id="tx_klaroconsentmanager_configuration.services.label" approved="yes">
         <source>Services</source>
-        <target state="needs-translation">Services</target>
+        <target state="final">Gwasanaethau</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_configuration.services.description">
+      <trans-unit id="tx_klaroconsentmanager_configuration.services.description" approved="yes">
         <source>Here you specify the third-party services that Klaro will manage for you.</source>
-        <target state="needs-translation">Here you specify the third-party services that Klaro will manage for you.</target>
+        <target state="final">Yma rydych yn nodi'r gwasanaethau trydydd parti y bydd Klaro yn eu rheoli ar eich rhan.</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_configuration.purpose_order.label">
+      <trans-unit id="tx_klaroconsentmanager_configuration.purpose_order.label" approved="yes">
         <source>Purpose Order</source>
-        <target state="needs-translation">Purpose Order</target>
+        <target state="final">Trefn dibenion</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_configuration.purpose_order.description">
+      <trans-unit id="tx_klaroconsentmanager_configuration.purpose_order.description" approved="yes">
         <source>The order in which purposes appear in the notice and modal can be changed via the `purposeOrder` parameter, which can be given a list with purpose names and will display those purposes in the order in which they appear in the list.</source>
-        <target state="needs-translation">The order in which purposes appear in the notice and modal can be changed via the `purposeOrder` parameter, which can be given a list with purpose names and will display those purposes in the order in which they appear in the list.</target>
+        <target state="final">Gellir newid y drefn y mae dibenion yn ymddangos yn yr hysbysiad a'r ffenestr foddol drwy'r paramedr `purposeOrder`, y gellir rhoi rhestr o enwau dibenion iddo, a bydd yn dangos y dibenion hynny yn y drefn y maent yn ymddangos yn y rhestr.</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_configuration.callback.label">
+      <trans-unit id="tx_klaroconsentmanager_configuration.callback.label" approved="yes">
         <source>Callback</source>
-        <target state="needs-translation">Callback</target>
+        <target state="final">Callback</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_configuration.callback.description">
+      <trans-unit id="tx_klaroconsentmanager_configuration.callback.description" approved="yes">
         <source>You can define an optional callback function that will be called each time the consent state for any given service changes. The consent value will be passed as the first parameter to the function (`true` = consented). The `service` config will be passed as the second parameter. The content of this field is wrapped with `callback: function(consent, service) { }`</source>
-        <target state="needs-translation">You can define an optional callback function that will be called each time the consent state for any given service changes. The consent value will be passed as the first parameter to the function (`true` = consented). The `service` config will be passed as the second parameter. The content of this field is wrapped with `callback: function(consent, service) { }`</target>
+        <target state="final">Gallwch ddiffinio swyddogaeth callback ddewisol a gaiff ei galw bob tro y mae cyflwr caniatâd unrhyw wasanaeth penodol yn newid. Caiff gwerth y caniatâd ei basio fel y paramedr cyntaf i'r swyddogaeth (`true` = wedi cydsynio). Caiff ffurfweddiad `service` ei basio fel yr ail baramedr. Caiff cynnwys y maes hwn ei lapio â `callback: function(consent, service) { }`</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_configuration.locallang_path.label">
+      <trans-unit id="tx_klaroconsentmanager_configuration.locallang_path.label" approved="yes">
         <source>Locallang Path</source>
-        <target state="needs-translation">Locallang Path</target>
+        <target state="final">Llwybr Locallang</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_configuration.locallang_path.description">
+      <trans-unit id="tx_klaroconsentmanager_configuration.locallang_path.description" approved="yes">
         <source>Optional path to an additional XLIFF file that overwrites the default labels or adds new labels (e.g. for custom purposes or services). If fluid templates have been stored for the labels created in this file (see the "Fluid Template Root Path" field), these will overwrite the classic labels from the Locallang file. Nevertheless, it is possible and common to reference the locallang file from the respective fluid template and obtain the actual label there (the label key is passed to the fluid template).</source>
-        <target state="needs-translation">Optional path to an additional XLIFF file that overwrites the default labels or adds new labels (e.g. for custom purposes or services). If fluid templates have been stored for the labels created in this file (see the "Fluid Template Root Path" field), these will overwrite the classic labels from the Locallang file. Nevertheless, it is possible and common to reference the locallang file from the respective fluid template and obtain the actual label there (the label key is passed to the fluid template).</target>
+        <target state="final">Llwybr dewisol i ffeil XLIFF ychwanegol sy'n disodli'r labeli diofyn neu'n ychwanegu labeli newydd (e.e. ar gyfer dibenion neu wasanaethau personol). Os yw templedi Fluid wedi'u storio ar gyfer y labeli a grëwyd yn y ffeil hon (gweler y maes "Fluid Template Root Path"), bydd y rhain yn disodli'r labeli clasurol o'r ffeil Locallang. Serch hynny, mae'n bosibl ac yn gyffredin cyfeirio at y ffeil locallang o'r templed Fluid perthnasol a chael y label gwirioneddol yno (mae allwedd y label yn cael ei phasio i'r templed Fluid).</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_configuration.locallang_path.placeholder">
+      <trans-unit id="tx_klaroconsentmanager_configuration.locallang_path.placeholder" approved="yes">
         <source>EXT:sitepackage/Resources/Private/Language/Klaro/locallang.xlf</source>
-        <target state="needs-translation">EXT:sitepackage/Resources/Private/Language/Klaro/locallang.xlf</target>
+        <target state="final">EXT:sitepackage/Resources/Private/Language/Klaro/locallang.xlf</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_configuration.fluidtemplate_rootpath.label">
+      <trans-unit id="tx_klaroconsentmanager_configuration.fluidtemplate_rootpath.label" approved="yes">
         <source>Fluid Template Root Path</source>
-        <target state="needs-translation">Fluid Template Root Path</target>
+        <target state="final">Llwybr gwraidd templedi Fluid</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_configuration.fluidtemplate_rootpath.description">
+      <trans-unit id="tx_klaroconsentmanager_configuration.fluidtemplate_rootpath.description" approved="yes">
         <source>As an alternative to the usual TypoScript configuration via constants under `plugin.tx_klaroconsentmanager.view`, a Fluid root path can be defined here, which has a higher priority than the paths configured in TypoScript. The three default directories `/Layouts/`, `/Partials/` and `/Templates/` are expected under this path. Fluid templates created here are used to enrich Locallang labels with additional functionality or to replace them completely. In this way, dynamic content or more complex HTML structures can be provided in a simple way. Fluid templates that are to override labels are expected in the subdirectory `/Templates/Labels/`.</source>
-        <target state="needs-translation">As an alternative to the usual TypoScript configuration via constants under `plugin.tx_klaroconsentmanager.view`, a Fluid root path can be defined here, which has a higher priority than the paths configured in TypoScript. The three default directories `/Layouts/`, `/Partials/` and `/Templates/` are expected under this path. Fluid templates created here are used to enrich Locallang labels with additional functionality or to replace them completely. In this way, dynamic content or more complex HTML structures can be provided in a simple way. Fluid templates that are to override labels are expected in the subdirectory `/Templates/Labels/`.</target>
+        <target state="final">Fel dewis arall i'r ffurfweddiad TypoScript arferol drwy gysonion o dan `plugin.tx_klaroconsentmanager.view`, gellir diffinio llwybr gwraidd Fluid yma, sydd â blaenoriaeth uwch na'r llwybrau sydd wedi'u ffurfweddu yn TypoScript. Disgwylir y tri chyfeiriadur diofyn `/Layouts/`, `/Partials/` a `/Templates/` o dan y llwybr hwn. Defnyddir templedi Fluid a grëir yma i gyfoethogi labeli Locallang â swyddogaethau ychwanegol neu i'w disodli'n llwyr. Yn y modd hwn, gellir darparu cynnwys deinamig neu strwythurau HTML mwy cymhleth mewn ffordd syml. Disgwylir templedi Fluid sydd i wrthwneud labeli yn yr is-gyfeiriadur `/Templates/Labels/`.</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_configuration.fluidtemplate_rootpath.placeholder">
+      <trans-unit id="tx_klaroconsentmanager_configuration.fluidtemplate_rootpath.placeholder" approved="yes">
         <source>EXT:sitepackage/Resources/Private/</source>
-        <target state="needs-translation">EXT:sitepackage/Resources/Private/</target>
+        <target state="final">EXT:sitepackage/Resources/Private/</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_configuration.alignment.label">
+      <trans-unit id="tx_klaroconsentmanager_configuration.alignment.label" approved="yes">
         <source>Alignment</source>
-        <target state="needs-translation">Alignment</target>
+        <target state="final">Aliniad</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_configuration.alignment.description">
+      <trans-unit id="tx_klaroconsentmanager_configuration.alignment.description" approved="yes">
         <source>Determines the alignment of the Consent box if `mustConsent` and `noticeAsModal` are disabled.</source>
-        <target state="needs-translation">Determines the alignment of the Consent box if `mustConsent` and `noticeAsModal` are disabled.</target>
+        <target state="final">Mae'n pennu aliniad y blwch caniatâd os yw `mustConsent` a `noticeAsModal` wedi'u hanalluogi.</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_configuration.alignment.I.top-left">
+      <trans-unit id="tx_klaroconsentmanager_configuration.alignment.I.top-left" approved="yes">
         <source>Top-Left</source>
-        <target state="needs-translation">Top-Left</target>
+        <target state="final">Uchaf chwith</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_configuration.alignment.I.top-right">
+      <trans-unit id="tx_klaroconsentmanager_configuration.alignment.I.top-right" approved="yes">
         <source>Top-Right</source>
-        <target state="needs-translation">Top-Right</target>
+        <target state="final">Uchaf dde</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_configuration.alignment.I.top-wide">
+      <trans-unit id="tx_klaroconsentmanager_configuration.alignment.I.top-wide" approved="yes">
         <source>Top-Wide</source>
-        <target state="needs-translation">Top-Wide</target>
+        <target state="final">Uchaf llydan</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_configuration.alignment.I.bottom-left">
+      <trans-unit id="tx_klaroconsentmanager_configuration.alignment.I.bottom-left" approved="yes">
         <source>Bottom-Left</source>
-        <target state="needs-translation">Bottom-Left</target>
+        <target state="final">Gwaelod chwith</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_configuration.alignment.I.bottom-right">
+      <trans-unit id="tx_klaroconsentmanager_configuration.alignment.I.bottom-right" approved="yes">
         <source>Bottom-Right</source>
-        <target state="needs-translation">Bottom-Right</target>
+        <target state="final">Gwaelod dde</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_configuration.alignment.I.bottom-wide">
+      <trans-unit id="tx_klaroconsentmanager_configuration.alignment.I.bottom-wide" approved="yes">
         <source>Bottom-Wide</source>
-        <target state="needs-translation">Bottom-Wide</target>
+        <target state="final">Gwaelod llydan</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_configuration.alignment.I.top">
+      <trans-unit id="tx_klaroconsentmanager_configuration.alignment.I.top" approved="yes">
         <source>Top</source>
-        <target state="needs-translation">Top</target>
+        <target state="final">Uchaf</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_configuration.alignment.I.bottom">
+      <trans-unit id="tx_klaroconsentmanager_configuration.alignment.I.bottom" approved="yes">
         <source>Bottom</source>
-        <target state="needs-translation">Bottom</target>
+        <target state="final">Gwaelod</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_configuration.alignment.I.left">
+      <trans-unit id="tx_klaroconsentmanager_configuration.alignment.I.left" approved="yes">
         <source>left</source>
-        <target state="needs-translation">left</target>
+        <target state="final">chwith</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_configuration.alignment.I.right">
+      <trans-unit id="tx_klaroconsentmanager_configuration.alignment.I.right" approved="yes">
         <source>right</source>
-        <target state="needs-translation">right</target>
+        <target state="final">de</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_configuration.alignment.I.wide">
+      <trans-unit id="tx_klaroconsentmanager_configuration.alignment.I.wide" approved="yes">
         <source>wide</source>
-        <target state="needs-translation">wide</target>
+        <target state="final">llydan</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_configuration.color_scheme.label">
+      <trans-unit id="tx_klaroconsentmanager_configuration.color_scheme.label" approved="yes">
         <source>Color Scheme</source>
-        <target state="needs-translation">Color Scheme</target>
+        <target state="final">Cynllun lliwiau</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_configuration.color_scheme.description">
+      <trans-unit id="tx_klaroconsentmanager_configuration.color_scheme.description" approved="yes">
         <source>Default color scheme used for the display. The colors can also be overridden later via CSS variables.</source>
-        <target state="needs-translation">Default color scheme used for the display. The colors can also be overridden later via CSS variables.</target>
+        <target state="final">Y cynllun lliwiau diofyn a ddefnyddir ar gyfer yr arddangosiad. Gellir hefyd wrthwneud y lliwiau yn nes ymlaen drwy newidynnau CSS.</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_configuration.color_scheme.I.dark_neutral">
+      <trans-unit id="tx_klaroconsentmanager_configuration.color_scheme.I.dark_neutral" approved="yes">
         <source>Dark (neutral)</source>
-        <target state="needs-translation">Dark (neutral)</target>
+        <target state="final">Tywyll (niwtral)</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_configuration.color_scheme.I.light_neutral">
+      <trans-unit id="tx_klaroconsentmanager_configuration.color_scheme.I.light_neutral" approved="yes">
         <source>Light (neutral)</source>
-        <target state="needs-translation">Light (neutral)</target>
+        <target state="final">Golau (niwtral)</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_configuration.color_scheme.I.dark">
+      <trans-unit id="tx_klaroconsentmanager_configuration.color_scheme.I.dark" approved="yes">
         <source>Dark</source>
-        <target state="needs-translation">Dark</target>
+        <target state="final">Tywyll</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_configuration.color_scheme.I.light">
+      <trans-unit id="tx_klaroconsentmanager_configuration.color_scheme.I.light" approved="yes">
         <source>Light</source>
-        <target state="needs-translation">Light</target>
+        <target state="final">Golau</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_configuration.append_show_button.label">
+      <trans-unit id="tx_klaroconsentmanager_configuration.append_show_button.label" approved="yes">
         <source>Append Show Button</source>
-        <target state="needs-translation">Append Show Button</target>
+        <target state="final">Ychwanegu botwm dangos</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_configuration.append_show_button.description">
+      <trans-unit id="tx_klaroconsentmanager_configuration.append_show_button.description" approved="yes">
         <source>If this option is set to `true`, a button is created in the frontend (via JavaScript) directly in front of the closing body tag, which triggers the opening of the Klaro consent management.</source>
-        <target state="needs-translation">If this option is set to `true`, a button is created in the frontend (via JavaScript) directly in front of the closing body tag, which triggers the opening of the Klaro consent management.</target>
+        <target state="final">Os yw'r opsiwn hwn wedi'i osod i `true`, caiff botwm ei greu yn y frontend (drwy JavaScript) yn union o flaen y tag body cau, sy'n sbarduno agor rheolaeth caniatâd Klaro.</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_configuration.append_reset_button.label">
+      <trans-unit id="tx_klaroconsentmanager_configuration.append_reset_button.label" approved="yes">
         <source>Append Reset Button</source>
-        <target state="needs-translation">Append Reset Button</target>
+        <target state="final">Ychwanegu botwm ailosod</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_configuration.append_reset_button.description">
+      <trans-unit id="tx_klaroconsentmanager_configuration.append_reset_button.description" approved="yes">
         <source>If this option is set to `true`, a button is generated in the frontend (via JavaScript) directly in front of the closing body tag, which triggers the resetting of all settings and the opening of the Klaro consent management.</source>
-        <target state="needs-translation">If this option is set to `true`, a button is generated in the frontend (via JavaScript) directly in front of the closing body tag, which triggers the resetting of all settings and the opening of the Klaro consent management.</target>
+        <target state="final">Os yw'r opsiwn hwn wedi'i osod i `true`, caiff botwm ei gynhyrchu yn y frontend (drwy JavaScript) yn union o flaen y tag body cau, sy'n sbarduno ailosod pob gosodiad ac agor rheolaeth caniatâd Klaro.</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_configuration.hidden">
+      <trans-unit id="tx_klaroconsentmanager_configuration.hidden" approved="yes">
         <source>Configuration visible</source>
-        <target state="needs-translation">Configuration visible</target>
+        <target state="final">Ffurfweddiad yn weladwy</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_service">
+      <trans-unit id="tx_klaroconsentmanager_service" approved="yes">
         <source>Klaro! Service</source>
-        <target state="needs-translation">Klaro! Service</target>
+        <target state="final">Gwasanaeth Klaro!</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_service.tabs.general">
+      <trans-unit id="tx_klaroconsentmanager_service.tabs.general" approved="yes">
         <source>General</source>
-        <target state="needs-translation">General</target>
+        <target state="final">Cyffredinol</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_service.tabs.cookies">
+      <trans-unit id="tx_klaroconsentmanager_service.tabs.cookies" approved="yes">
         <source>Cookies</source>
-        <target state="needs-translation">Cookies</target>
+        <target state="final">Cwcis</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_service.tabs.toggles">
+      <trans-unit id="tx_klaroconsentmanager_service.tabs.toggles" approved="yes">
         <source>Toggles</source>
-        <target state="needs-translation">Toggles</target>
+        <target state="final">Toglau</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_service.tabs.advanced">
+      <trans-unit id="tx_klaroconsentmanager_service.tabs.advanced" approved="yes">
         <source>Advanced</source>
-        <target state="needs-translation">Advanced</target>
+        <target state="final">Uwch</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_service.tabs.access">
+      <trans-unit id="tx_klaroconsentmanager_service.tabs.access" approved="yes">
         <source>Access</source>
-        <target state="needs-translation">Access</target>
+        <target state="final">Mynediad</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_service.palettes.general_palette">
+      <trans-unit id="tx_klaroconsentmanager_service.palettes.general_palette" approved="yes">
         <source>General Settings</source>
-        <target state="needs-translation">General Settings</target>
+        <target state="final">Gosodiadau cyffredinol</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_service.palettes.cookie_palette">
+      <trans-unit id="tx_klaroconsentmanager_service.palettes.cookie_palette" approved="yes">
         <source>Cookie Settings</source>
-        <target state="needs-translation">Cookie Settings</target>
+        <target state="final">Gosodiadau cwcis</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_service.palettes.toggles_palette">
+      <trans-unit id="tx_klaroconsentmanager_service.palettes.toggles_palette" approved="yes">
         <source>Toggles</source>
-        <target state="needs-translation">Toggles</target>
+        <target state="final">Toglau</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_service.palettes.advanced_palette">
+      <trans-unit id="tx_klaroconsentmanager_service.palettes.advanced_palette" approved="yes">
         <source>Advanced Settings</source>
-        <target state="needs-translation">Advanced Settings</target>
+        <target state="final">Gosodiadau uwch</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_service.palettes.access_palette">
+      <trans-unit id="tx_klaroconsentmanager_service.palettes.access_palette" approved="yes">
         <source>Access</source>
-        <target state="needs-translation">Access</target>
+        <target state="final">Mynediad</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_service.I.true">
+      <trans-unit id="tx_klaroconsentmanager_service.I.true" approved="yes">
         <source>true</source>
-        <target state="needs-translation">true</target>
+        <target state="final">gwir</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_service.I.false">
+      <trans-unit id="tx_klaroconsentmanager_service.I.false" approved="yes">
         <source>false</source>
-        <target state="needs-translation">false</target>
+        <target state="final">anwir</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_service.name.label">
+      <trans-unit id="tx_klaroconsentmanager_service.name.label" approved="yes">
         <source>Name</source>
-        <target state="needs-translation">Name</target>
+        <target state="final">Enw</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_service.name.description">
+      <trans-unit id="tx_klaroconsentmanager_service.name.description" approved="yes">
         <source>Each service must have a unique name. Klaro will look for HTML elements with a matching `data-name` attribute to identify elements that belong to this service.</source>
-        <target state="needs-translation">Each service must have a unique name. Klaro will look for HTML elements with a matching `data-name` attribute to identify elements that belong to this service.</target>
+        <target state="final">Rhaid i bob gwasanaeth fod ag enw unigryw. Bydd Klaro yn chwilio am elfennau HTML sydd â phriodoledd `data-name` cyfatebol i adnabod elfennau sy'n perthyn i'r gwasanaeth hwn.</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_service.name.placeholder">
+      <trans-unit id="tx_klaroconsentmanager_service.name.placeholder" approved="yes">
         <source>matomo</source>
-        <target state="needs-translation">matomo</target>
+        <target state="final">matomo</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_service.title.label">
+      <trans-unit id="tx_klaroconsentmanager_service.title.label" approved="yes">
         <source>Title</source>
-        <target state="needs-translation">Title</target>
+        <target state="final">Teitl</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_service.title.description">
+      <trans-unit id="tx_klaroconsentmanager_service.title.description" approved="yes">
         <source>The title defined here is not mandatory and is intended for backend display only.</source>
-        <target state="needs-translation">The title defined here is not mandatory and is intended for backend display only.</target>
+        <target state="final">Nid yw'r teitl a ddiffinnir yma yn orfodol ac fe'i bwriedir ar gyfer arddangos yn y backend yn unig.</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_service.title.placeholder">
+      <trans-unit id="tx_klaroconsentmanager_service.title.placeholder" approved="yes">
         <source>Matomo/Piwik</source>
-        <target state="needs-translation">Matomo/Piwik</target>
+        <target state="final">Matomo/Piwik</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_service.name.I.adobe-fonts">
+      <trans-unit id="tx_klaroconsentmanager_service.name.I.adobe-fonts" approved="yes">
         <source>Adobe Fonts</source>
-        <target state="needs-translation">Adobe Fonts</target>
+        <target state="final">Adobe Fonts</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_service.name.I.adsense">
+      <trans-unit id="tx_klaroconsentmanager_service.name.I.adsense" approved="yes">
         <source>Google AdSense</source>
-        <target state="needs-translation">Google AdSense</target>
+        <target state="final">Google AdSense</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_service.name.I.camera">
+      <trans-unit id="tx_klaroconsentmanager_service.name.I.camera" approved="yes">
         <source>Surveillance Camera</source>
-        <target state="needs-translation">Surveillance Camera</target>
+        <target state="final">Camera gwyliadwriaeth</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_service.name.I.career-captain">
+      <trans-unit id="tx_klaroconsentmanager_service.name.I.career-captain" approved="yes">
         <source>Career Captain</source>
-        <target state="needs-translation">Career Captain</target>
+        <target state="final">Career Captain</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_service.name.I.clarity">
+      <trans-unit id="tx_klaroconsentmanager_service.name.I.clarity" approved="yes">
         <source>Microsoft Clarity</source>
-        <target state="needs-translation">Microsoft Clarity</target>
+        <target state="final">Microsoft Clarity</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_service.name.I.cloudflare">
+      <trans-unit id="tx_klaroconsentmanager_service.name.I.cloudflare" approved="yes">
         <source>Cloudflare</source>
-        <target state="needs-translation">Cloudflare</target>
+        <target state="final">Cloudflare</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_service.name.I.external-tracker">
+      <trans-unit id="tx_klaroconsentmanager_service.name.I.external-tracker" approved="yes">
         <source>External Tracker</source>
-        <target state="needs-translation">External Tracker</target>
+        <target state="final">Traciwr allanol</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_service.name.I.facebook-pixel">
+      <trans-unit id="tx_klaroconsentmanager_service.name.I.facebook-pixel" approved="yes">
         <source>Facebook Pixel</source>
-        <target state="needs-translation">Facebook Pixel</target>
+        <target state="final">Facebook Pixel</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_service.name.I.fast-fonts">
+      <trans-unit id="tx_klaroconsentmanager_service.name.I.fast-fonts" approved="yes">
         <source>Fast Fonts</source>
-        <target state="needs-translation">Fast Fonts</target>
+        <target state="final">Fast Fonts</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_service.name.I.google-ads">
+      <trans-unit id="tx_klaroconsentmanager_service.name.I.google-ads" approved="yes">
         <source>Google Ads</source>
-        <target state="needs-translation">Google Ads</target>
+        <target state="final">Google Ads</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_service.name.I.google-analytics">
+      <trans-unit id="tx_klaroconsentmanager_service.name.I.google-analytics" approved="yes">
         <source>Google Analytics</source>
-        <target state="needs-translation">Google Analytics</target>
+        <target state="final">Google Analytics</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_service.name.I.google-fonts">
+      <trans-unit id="tx_klaroconsentmanager_service.name.I.google-fonts" approved="yes">
         <source>Google Fonts</source>
-        <target state="needs-translation">Google Fonts</target>
+        <target state="final">Google Fonts</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_service.name.I.google-maps">
+      <trans-unit id="tx_klaroconsentmanager_service.name.I.google-maps" approved="yes">
         <source>Google Maps</source>
-        <target state="needs-translation">Google Maps</target>
+        <target state="final">Google Maps</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_service.name.I.google-tag-manager">
+      <trans-unit id="tx_klaroconsentmanager_service.name.I.google-tag-manager" approved="yes">
         <source>Google Tag Manager</source>
-        <target state="needs-translation">Google Tag Manager</target>
+        <target state="final">Google Tag Manager</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_service.name.I.inline-tracker">
+      <trans-unit id="tx_klaroconsentmanager_service.name.I.inline-tracker" approved="yes">
         <source>Inline Tracker</source>
-        <target state="needs-translation">Inline Tracker</target>
+        <target state="final">Traciwr mewnlin</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_service.name.I.instagram">
+      <trans-unit id="tx_klaroconsentmanager_service.name.I.instagram" approved="yes">
         <source>Instagram</source>
-        <target state="needs-translation">Instagram</target>
+        <target state="final">Instagram</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_service.name.I.intercom">
+      <trans-unit id="tx_klaroconsentmanager_service.name.I.intercom" approved="yes">
         <source>Intercom</source>
-        <target state="needs-translation">Intercom</target>
+        <target state="final">Intercom</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_service.name.I.klaro">
+      <trans-unit id="tx_klaroconsentmanager_service.name.I.klaro" approved="yes">
         <source>Klaro!</source>
-        <target state="needs-translation">Klaro!</target>
+        <target state="final">Klaro!</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_service.name.I.matomo">
+      <trans-unit id="tx_klaroconsentmanager_service.name.I.matomo" approved="yes">
         <source>Matomo/Piwik</source>
-        <target state="needs-translation">Matomo/Piwik</target>
+        <target state="final">Matomo/Piwik</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_service.name.I.mouseflow">
+      <trans-unit id="tx_klaroconsentmanager_service.name.I.mouseflow" approved="yes">
         <source>Mouseflow</source>
-        <target state="needs-translation">Mouseflow</target>
+        <target state="final">Mouseflow</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_service.name.I.salesviewer">
+      <trans-unit id="tx_klaroconsentmanager_service.name.I.salesviewer" approved="yes">
         <source>SalesViewer</source>
-        <target state="needs-translation">SalesViewer</target>
+        <target state="final">SalesViewer</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_service.name.I.tiktok">
+      <trans-unit id="tx_klaroconsentmanager_service.name.I.tiktok" approved="yes">
         <source>TikTok</source>
-        <target state="needs-translation">TikTok</target>
+        <target state="final">TikTok</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_service.name.I.twitter">
+      <trans-unit id="tx_klaroconsentmanager_service.name.I.twitter" approved="yes">
         <source>X (formerly Twitter)</source>
-        <target state="needs-translation">X (formerly Twitter)</target>
+        <target state="final">X (Twitter gynt)</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_service.name.I.userlike">
+      <trans-unit id="tx_klaroconsentmanager_service.name.I.userlike" approved="yes">
         <source>Userlike</source>
-        <target state="needs-translation">Userlike</target>
+        <target state="final">Userlike</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_service.name.I.vimeo">
+      <trans-unit id="tx_klaroconsentmanager_service.name.I.vimeo" approved="yes">
         <source>Vimeo</source>
-        <target state="needs-translation">Vimeo</target>
+        <target state="final">Vimeo</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_service.name.I.youtube">
+      <trans-unit id="tx_klaroconsentmanager_service.name.I.youtube" approved="yes">
         <source>YouTube</source>
-        <target state="needs-translation">YouTube</target>
+        <target state="final">YouTube</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_service.default.label">
+      <trans-unit id="tx_klaroconsentmanager_service.default.label" approved="yes">
         <source>Default</source>
-        <target state="needs-translation">Default</target>
+        <target state="final">Diofyn</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_service.default.description">
+      <trans-unit id="tx_klaroconsentmanager_service.default.description" approved="yes">
         <source>If `default` is set to `true`, the service will be enabled by default. This overrides the global `default` setting (if this is set to "false").</source>
-        <target state="needs-translation">If `default` is set to `true`, the service will be enabled by default. This overrides the global `default` setting (if this is set to "false").</target>
+        <target state="final">Os yw `default` wedi'i osod i `true`, bydd y gwasanaeth wedi'i alluogi yn ddiofyn. Mae hyn yn gwrthwneud y gosodiad `default` byd-eang (os yw hwn wedi'i osod i "false").</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_service.purposes.label">
+      <trans-unit id="tx_klaroconsentmanager_service.purposes.label" approved="yes">
         <source>Purposes</source>
-        <target state="needs-translation">Purposes</target>
+        <target state="final">Dibenion</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_service.purposes.description">
+      <trans-unit id="tx_klaroconsentmanager_service.purposes.description" approved="yes">
         <source>The purpose(s) of this service that will be listed on the consent notice. Do not forget to add translations for all purposes you list here.</source>
-        <target state="needs-translation">The purpose(s) of this service that will be listed on the consent notice. Do not forget to add translations for all purposes you list here.</target>
+        <target state="final">Diben neu ddibenion y gwasanaeth hwn a fydd yn cael eu rhestru ar yr hysbysiad caniatâd. Peidiwch ag anghofio ychwanegu cyfieithiadau ar gyfer yr holl ddibenion rydych yn eu rhestru yma.</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_service.purposes.optgroup.custom">
+      <trans-unit id="tx_klaroconsentmanager_service.purposes.optgroup.custom" approved="yes">
         <source>Custom</source>
-        <target state="needs-translation">Custom</target>
+        <target state="final">Personol</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_service.purposes.optgroup.default">
+      <trans-unit id="tx_klaroconsentmanager_service.purposes.optgroup.default" approved="yes">
         <source>Default</source>
-        <target state="needs-translation">Default</target>
+        <target state="final">Diofyn</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_service.purposes.optgroup.additional">
+      <trans-unit id="tx_klaroconsentmanager_service.purposes.optgroup.additional" approved="yes">
         <source>Additional</source>
-        <target state="needs-translation">Additional</target>
+        <target state="final">Ychwanegol</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_service.purposes.I.functional">
+      <trans-unit id="tx_klaroconsentmanager_service.purposes.I.functional" approved="yes">
         <source>Functional</source>
-        <target state="needs-translation">Functional</target>
+        <target state="final">Swyddogaethol</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_service.purposes.I.performance">
+      <trans-unit id="tx_klaroconsentmanager_service.purposes.I.performance" approved="yes">
         <source>Performance</source>
-        <target state="needs-translation">Performance</target>
+        <target state="final">Perfformiad</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_service.purposes.I.marketing">
+      <trans-unit id="tx_klaroconsentmanager_service.purposes.I.marketing" approved="yes">
         <source>Marketing</source>
-        <target state="needs-translation">Marketing</target>
+        <target state="final">Marchnata</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_service.purposes.I.advertising">
+      <trans-unit id="tx_klaroconsentmanager_service.purposes.I.advertising" approved="yes">
         <source>Advertising</source>
-        <target state="needs-translation">Advertising</target>
+        <target state="final">Hysbysebu</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_service.purposes.I.analytics">
+      <trans-unit id="tx_klaroconsentmanager_service.purposes.I.analytics" approved="yes">
         <source>Analytics</source>
-        <target state="needs-translation">Analytics</target>
+        <target state="final">Dadansoddeg</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_service.purposes.I.security">
+      <trans-unit id="tx_klaroconsentmanager_service.purposes.I.security" approved="yes">
         <source>Security</source>
-        <target state="needs-translation">Security</target>
+        <target state="final">Diogelwch</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_service.purposes.I.livechat">
+      <trans-unit id="tx_klaroconsentmanager_service.purposes.I.livechat" approved="yes">
         <source>Live Chat</source>
-        <target state="needs-translation">Live Chat</target>
+        <target state="final">Sgwrs fyw</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_service.purposes.I.styling">
+      <trans-unit id="tx_klaroconsentmanager_service.purposes.I.styling" approved="yes">
         <source>Styling</source>
-        <target state="needs-translation">Styling</target>
+        <target state="final">Arddullio</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_service.purposes.I.videos">
+      <trans-unit id="tx_klaroconsentmanager_service.purposes.I.videos" approved="yes">
         <source>Videos</source>
-        <target state="needs-translation">Videos</target>
+        <target state="final">Fideos</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_service.purposes.I.social">
+      <trans-unit id="tx_klaroconsentmanager_service.purposes.I.social" approved="yes">
         <source>Social Media</source>
-        <target state="needs-translation">Social Media</target>
+        <target state="final">Cyfryngau cymdeithasol</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_service.purposes.I.misc">
+      <trans-unit id="tx_klaroconsentmanager_service.purposes.I.misc" approved="yes">
         <source>Miscellaneous</source>
-        <target state="needs-translation">Miscellaneous</target>
+        <target state="final">Amrywiol</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_service.cookies.label">
+      <trans-unit id="tx_klaroconsentmanager_service.cookies.label" approved="yes">
         <source>Cookies</source>
-        <target state="needs-translation">Cookies</target>
+        <target state="final">Cwcis</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_service.cookies.description">
+      <trans-unit id="tx_klaroconsentmanager_service.cookies.description" approved="yes">
         <source>You can either only provide a cookie name or regular expression (regex) or a list consisting of a name or regex, a path and a cookie domain. Providing a path and domain is necessary if you have services that set cookies for a path that is not "/", or a domain that is not the current domain. If you do not set these values properly, the cookie can't be deleted by Klaro, as there is no way to access the path or domain of a cookie in JS. Notice that it is not possible to delete cookies that were set on a third-party domain, or cookies that have the HTTPOnly attribute: https://developer.mozilla.org/en-US/docs/Web/API/Document/cookie#new-cookie_domain</source>
-        <target state="needs-translation">You can either only provide a cookie name or regular expression (regex) or a list consisting of a name or regex, a path and a cookie domain. Providing a path and domain is necessary if you have services that set cookies for a path that is not "/", or a domain that is not the current domain. If you do not set these values properly, the cookie can't be deleted by Klaro, as there is no way to access the path or domain of a cookie in JS. Notice that it is not possible to delete cookies that were set on a third-party domain, or cookies that have the HTTPOnly attribute: https://developer.mozilla.org/en-US/docs/Web/API/Document/cookie#new-cookie_domain</target>
+        <target state="final">Gallwch naill ai ddarparu enw cwci neu fynegiant rheolaidd (regex) yn unig, neu restr sy'n cynnwys enw neu regex, llwybr a pharth cwci. Mae darparu llwybr a pharth yn angenrheidiol os oes gennych wasanaethau sy'n gosod cwcis ar gyfer llwybr nad yw'n "/", neu barth nad yw'r parth presennol. Os na osodwch y gwerthoedd hyn yn gywir, ni all Klaro ddileu'r cwci, gan nad oes ffordd i gael mynediad at lwybr neu barth cwci yn JS. Sylwch nad yw'n bosibl dileu cwcis a osodwyd ar barth trydydd parti, na chwcis sydd â'r priodoledd HTTPOnly: https://developer.mozilla.org/en-US/docs/Web/API/Document/cookie#new-cookie_domain</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_service.required.label">
+      <trans-unit id="tx_klaroconsentmanager_service.required.label" approved="yes">
         <source>Required</source>
-        <target state="needs-translation">Required</target>
+        <target state="final">Gofynnol</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_service.required.description">
+      <trans-unit id="tx_klaroconsentmanager_service.required.description" approved="yes">
         <source>If `required` is set to `true`, Klaro will not allow this service to be disabled by the user. Use this for services that are always required for your website to function (e.g. shopping cart cookies).</source>
-        <target state="needs-translation">If `required` is set to `true`, Klaro will not allow this service to be disabled by the user. Use this for services that are always required for your website to function (e.g. shopping cart cookies).</target>
+        <target state="final">Os yw `required` wedi'i osod i `true`, ni fydd Klaro yn caniatáu i'r defnyddiwr analluogi'r gwasanaeth hwn. Defnyddiwch hyn ar gyfer gwasanaethau sydd bob amser yn ofynnol er mwyn i'ch gwefan weithio (e.e. cwcis basged siopa).</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_service.opt_out.label">
+      <trans-unit id="tx_klaroconsentmanager_service.opt_out.label" approved="yes">
         <source>Opt-Out</source>
-        <target state="needs-translation">Opt-Out</target>
+        <target state="final">Optio allan</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_service.opt_out.description">
+      <trans-unit id="tx_klaroconsentmanager_service.opt_out.description" approved="yes">
         <source>If `optOut` is set to `true`, Klaro will load this service even before the user has given explicit consent. We strongly advise against this.</source>
-        <target state="needs-translation">If `optOut` is set to `true`, Klaro will load this service even before the user has given explicit consent. We strongly advise against this.</target>
+        <target state="final">Os yw `optOut` wedi'i osod i `true`, bydd Klaro yn llwytho'r gwasanaeth hwn hyd yn oed cyn i'r defnyddiwr roi caniatâd penodol. Rydym yn cynghori'n gryf yn erbyn hyn.</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_service.only_once.label">
+      <trans-unit id="tx_klaroconsentmanager_service.only_once.label" approved="yes">
         <source>Only Once</source>
-        <target state="needs-translation">Only Once</target>
+        <target state="final">Unwaith yn unig</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_service.only_once.description">
+      <trans-unit id="tx_klaroconsentmanager_service.only_once.description" approved="yes">
         <source>If `onlyOnce` is set to `true`, the service will only be executed once regardless how often the user toggles it on and off. This is relevant e.g. for tracking scripts that would generate new page view events every time Klaro disables and re-enables them due to a consent change by the user.</source>
-        <target state="needs-translation">If `onlyOnce` is set to `true`, the service will only be executed once regardless how often the user toggles it on and off. This is relevant e.g. for tracking scripts that would generate new page view events every time Klaro disables and re-enables them due to a consent change by the user.</target>
+        <target state="final">Os yw `onlyOnce` wedi'i osod i `true`, dim ond unwaith y caiff y gwasanaeth ei weithredu, waeth pa mor aml y mae'r defnyddiwr yn ei doglo ymlaen ac i ffwrdd. Mae hyn yn berthnasol e.e. ar gyfer sgriptiau tracio a fyddai'n cynhyrchu digwyddiadau gweld tudalen newydd bob tro y mae Klaro yn eu hanalluogi ac yn eu hailalluogi oherwydd newid caniatâd gan y defnyddiwr.</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_service.contextual_consent_only.label">
+      <trans-unit id="tx_klaroconsentmanager_service.contextual_consent_only.label" approved="yes">
         <source>Contextual Consent Only</source>
-        <target state="needs-translation">Contextual Consent Only</target>
+        <target state="final">Caniatâd cyd-destunol yn unig</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_service.contextual_consent_only.description">
+      <trans-unit id="tx_klaroconsentmanager_service.contextual_consent_only.description" approved="yes">
         <source>Content can be excluded from general consent by setting contextualConsentOnly to `true`. In this case, the consent must be contextual.</source>
-        <target state="needs-translation">Content can be excluded from general consent by setting contextualConsentOnly to `true`. In this case, the consent must be contextual.</target>
+        <target state="final">Gellir eithrio cynnwys o ganiatâd cyffredinol drwy osod contextualConsentOnly i `true`. Yn yr achos hwn, rhaid i'r caniatâd fod yn gyd-destunol.</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_service.callback.label">
+      <trans-unit id="tx_klaroconsentmanager_service.callback.label" approved="yes">
         <source>Callback</source>
-        <target state="needs-translation">Callback</target>
+        <target state="final">Callback</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_service.callback.description">
+      <trans-unit id="tx_klaroconsentmanager_service.callback.description" approved="yes">
         <source>You can define an optional callback function that will be called each time the consent state for the given service changes. The consent value will be passed as the first parameter to the function (`true` = consented). The `service` config will be passed as the second parameter. The content of this field is wrapped with `callback: function(consent, service) { }`. `consent` is a bool that reflects the current state. `service` holds all information about the currently selected service. When you enter something here, you need to know what you are doing. It is your responsibility that no JavaScript errors occur.</source>
-        <target state="needs-translation">You can define an optional callback function that will be called each time the consent state for the given service changes. The consent value will be passed as the first parameter to the function (`true` = consented). The `service` config will be passed as the second parameter. The content of this field is wrapped with `callback: function(consent, service) { }`. `consent` is a bool that reflects the current state. `service` holds all information about the currently selected service. When you enter something here, you need to know what you are doing. It is your responsibility that no JavaScript errors occur.</target>
+        <target state="final">Gallwch ddiffinio swyddogaeth callback ddewisol a gaiff ei galw bob tro y mae cyflwr caniatâd y gwasanaeth penodol yn newid. Caiff gwerth y caniatâd ei basio fel y paramedr cyntaf i'r swyddogaeth (`true` = wedi cydsynio). Caiff ffurfweddiad `service` ei basio fel yr ail baramedr. Caiff cynnwys y maes hwn ei lapio â `callback: function(consent, service) { }`. Mae `consent` yn bool sy'n adlewyrchu'r cyflwr presennol. Mae `service` yn cynnwys yr holl wybodaeth am y gwasanaeth a ddewiswyd ar hyn o bryd. Pan fyddwch yn rhoi rhywbeth yma, mae angen i chi wybod beth rydych yn ei wneud. Eich cyfrifoldeb chi yw sicrhau nad oes gwallau JavaScript yn digwydd.</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_service.on_accept.label">
+      <trans-unit id="tx_klaroconsentmanager_service.on_accept.label" approved="yes">
         <source>`onAccept` callback function</source>
-        <target state="needs-translation">`onAccept` callback function</target>
+        <target state="final">Swyddogaeth callback `onAccept`</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_service.on_accept.description">
+      <trans-unit id="tx_klaroconsentmanager_service.on_accept.description" approved="yes">
         <source>Here you can define JavaScript code that will be called each time the service was accepted. The content of this field is wrapped with `callback: function(handlerOpts) { }`. The object `handlerOpts` contains the objects `config` (the current Klaro! configuration), `service` (the current service) and possibly `vars` (any values defined by object notation in the vars field in the backend). When you enter something here, you need to know what you are doing. It is your responsibility that no JavaScript errors occur.</source>
-        <target state="needs-translation">Here you can define JavaScript code that will be called each time the service was accepted. The content of this field is wrapped with `callback: function(handlerOpts) { }`. The object `handlerOpts` contains the objects `config` (the current Klaro! configuration), `service` (the current service) and possibly `vars` (any values defined by object notation in the vars field in the backend). When you enter something here, you need to know what you are doing. It is your responsibility that no JavaScript errors occur.</target>
+        <target state="final">Yma gallwch ddiffinio cod JavaScript a gaiff ei alw bob tro y derbynnir y gwasanaeth. Caiff cynnwys y maes hwn ei lapio â `callback: function(handlerOpts) { }`. Mae'r gwrthrych `handlerOpts` yn cynnwys y gwrthrychau `config` (ffurfweddiad Klaro! presennol), `service` (y gwasanaeth presennol) ac o bosibl `vars` (unrhyw werthoedd a ddiffinnir drwy nodiant gwrthrych yn y maes vars yn y backend). Pan fyddwch yn rhoi rhywbeth yma, mae angen i chi wybod beth rydych yn ei wneud. Eich cyfrifoldeb chi yw sicrhau nad oes gwallau JavaScript yn digwydd.</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_service.on_init.label">
+      <trans-unit id="tx_klaroconsentmanager_service.on_init.label" approved="yes">
         <source>`onInit` callback function</source>
-        <target state="needs-translation">`onInit` callback function</target>
+        <target state="final">Swyddogaeth callback `onInit`</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_service.on_init.description">
+      <trans-unit id="tx_klaroconsentmanager_service.on_init.description" approved="yes">
         <source>Here you can define JavaScript code that will be called once per page-load. The content of this field is wrapped with `callback: function(handlerOpts) { }`. The object `handlerOpts` contains the objects `config` (the current Klaro! configuration), `service` (the current service) and possibly `vars` (any values defined by object notation in the vars field in the backend). When you enter something here, you need to know what you are doing. It is your responsibility that no JavaScript errors occur.</source>
-        <target state="needs-translation">Here you can define JavaScript code that will be called once per page-load. The content of this field is wrapped with `callback: function(handlerOpts) { }`. The object `handlerOpts` contains the objects `config` (the current Klaro! configuration), `service` (the current service) and possibly `vars` (any values defined by object notation in the vars field in the backend). When you enter something here, you need to know what you are doing. It is your responsibility that no JavaScript errors occur.</target>
+        <target state="final">Yma gallwch ddiffinio cod JavaScript a gaiff ei alw unwaith fesul llwyth tudalen. Caiff cynnwys y maes hwn ei lapio â `callback: function(handlerOpts) { }`. Mae'r gwrthrych `handlerOpts` yn cynnwys y gwrthrychau `config` (ffurfweddiad Klaro! presennol), `service` (y gwasanaeth presennol) ac o bosibl `vars` (unrhyw werthoedd a ddiffinnir drwy nodiant gwrthrych yn y maes vars yn y backend). Pan fyddwch yn rhoi rhywbeth yma, mae angen i chi wybod beth rydych yn ei wneud. Eich cyfrifoldeb chi yw sicrhau nad oes gwallau JavaScript yn digwydd.</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_service.on_decline.label">
+      <trans-unit id="tx_klaroconsentmanager_service.on_decline.label" approved="yes">
         <source>`onDecline` callback function</source>
-        <target state="needs-translation">`onDecline` callback function</target>
+        <target state="final">Swyddogaeth callback `onDecline`</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_service.on_decline.description">
+      <trans-unit id="tx_klaroconsentmanager_service.on_decline.description" approved="yes">
         <source>Here you can define JavaScript code that will be called each time the service was declined. The content of this field is wrapped with `callback: function(handlerOpts) { }`. The object `handlerOpts` contains the objects `config` (the current Klaro! configuration), `service` (the current service) and possibly `vars` (any values defined by object notation in the vars field in the backend). When you enter something here, you need to know what you are doing. It is your responsibility that no JavaScript errors occur.</source>
-        <target state="needs-translation">Here you can define JavaScript code that will be called each time the service was declined. The content of this field is wrapped with `callback: function(handlerOpts) { }`. The object `handlerOpts` contains the objects `config` (the current Klaro! configuration), `service` (the current service) and possibly `vars` (any values defined by object notation in the vars field in the backend). When you enter something here, you need to know what you are doing. It is your responsibility that no JavaScript errors occur.</target>
+        <target state="final">Yma gallwch ddiffinio cod JavaScript a gaiff ei alw bob tro y gwrthodir y gwasanaeth. Caiff cynnwys y maes hwn ei lapio â `callback: function(handlerOpts) { }`. Mae'r gwrthrych `handlerOpts` yn cynnwys y gwrthrychau `config` (ffurfweddiad Klaro! presennol), `service` (y gwasanaeth presennol) ac o bosibl `vars` (unrhyw werthoedd a ddiffinnir drwy nodiant gwrthrych yn y maes vars yn y backend). Pan fyddwch yn rhoi rhywbeth yma, mae angen i chi wybod beth rydych yn ei wneud. Eich cyfrifoldeb chi yw sicrhau nad oes gwallau JavaScript yn digwydd.</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_service.vars.label">
+      <trans-unit id="tx_klaroconsentmanager_service.vars.label" approved="yes">
         <source>Variables</source>
-        <target state="needs-translation">Variables</target>
+        <target state="final">Newidynnau</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_service.vars.description">
+      <trans-unit id="tx_klaroconsentmanager_service.vars.description" approved="yes">
         <source>Variables that can be used in callback functions. The content of this field is enclosed in curly brackets. The JavaScript object notation is expected in them. When you enter something here, you need to know what you are doing. It is your responsibility that no JavaScript errors occur.</source>
-        <target state="needs-translation">Variables that can be used in callback functions. The content of this field is enclosed in curly brackets. The JavaScript object notation is expected in them. When you enter something here, you need to know what you are doing. It is your responsibility that no JavaScript errors occur.</target>
+        <target state="final">Newidynnau y gellir eu defnyddio mewn swyddogaethau callback. Mae cynnwys y maes hwn wedi'i amgáu mewn cromfachau cyrliog. Disgwylir nodiant gwrthrych JavaScript ynddynt. Pan fyddwch yn rhoi rhywbeth yma, mae angen i chi wybod beth rydych yn ei wneud. Eich cyfrifoldeb chi yw sicrhau nad oes gwallau JavaScript yn digwydd.</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_service.hidden">
+      <trans-unit id="tx_klaroconsentmanager_service.hidden" approved="yes">
         <source>Service visible</source>
-        <target state="needs-translation">Service visible</target>
+        <target state="final">Gwasanaeth yn weladwy</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_cookie">
+      <trans-unit id="tx_klaroconsentmanager_cookie" approved="yes">
         <source>Cookie</source>
-        <target state="needs-translation">Cookie</target>
+        <target state="final">Cwci</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_cookie.tabs.general">
+      <trans-unit id="tx_klaroconsentmanager_cookie.tabs.general" approved="yes">
         <source>General</source>
-        <target state="needs-translation">General</target>
+        <target state="final">Cyffredinol</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_cookie.tabs.access">
+      <trans-unit id="tx_klaroconsentmanager_cookie.tabs.access" approved="yes">
         <source>Access</source>
-        <target state="needs-translation">Access</target>
+        <target state="final">Mynediad</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_cookie.palettes.identification_palette">
+      <trans-unit id="tx_klaroconsentmanager_cookie.palettes.identification_palette" approved="yes">
         <source>Identification and presentation of the cookie</source>
-        <target state="needs-translation">Identification and presentation of the cookie</target>
+        <target state="final">Adnabod a chyflwyno'r cwci</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_cookie.palettes.technic_palette">
+      <trans-unit id="tx_klaroconsentmanager_cookie.palettes.technic_palette" approved="yes">
         <source>Technically relevant settings</source>
-        <target state="needs-translation">Technically relevant settings</target>
+        <target state="final">Gosodiadau technegol berthnasol</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_cookie.palettes.technic_palette.description">
+      <trans-unit id="tx_klaroconsentmanager_cookie.palettes.technic_palette.description" approved="yes">
         <source>This information is technically evaluated by Klaro! to manipulate the cookie.</source>
-        <target state="needs-translation">This information is technically evaluated by Klaro! to manipulate the cookie.</target>
+        <target state="final">Caiff y wybodaeth hon ei gwerthuso'n dechnegol gan Klaro! i drin y cwci.</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_cookie.palettes.expiration_palette">
+      <trans-unit id="tx_klaroconsentmanager_cookie.palettes.expiration_palette" approved="yes">
         <source>Expiration Time</source>
-        <target state="needs-translation">Expiration Time</target>
+        <target state="final">Amser dod i ben</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_cookie.palettes.access_palette">
+      <trans-unit id="tx_klaroconsentmanager_cookie.palettes.access_palette" approved="yes">
         <source>Access</source>
-        <target state="needs-translation">Access</target>
+        <target state="final">Mynediad</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_cookie.identifier.label">
+      <trans-unit id="tx_klaroconsentmanager_cookie.identifier.label" approved="yes">
         <source>Identifier</source>
-        <target state="needs-translation">Identifier</target>
+        <target state="final">Dynodwr</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_cookie.identifier.description">
+      <trans-unit id="tx_klaroconsentmanager_cookie.identifier.description" approved="yes">
         <source>This is a unique identifier for this cookie. It must be written in lower case and must not contain any spaces, only the characters a-z, 0-9 and "-" or "_". The identifier can be used in Fluid, for example.</source>
-        <target state="needs-translation">This is a unique identifier for this cookie. It must be written in lower case and must not contain any spaces, only the characters a-z, 0-9 and "-" or "_". The identifier can be used in Fluid, for example.</target>
+        <target state="final">Mae hwn yn ddynodwr unigryw ar gyfer y cwci hwn. Rhaid iddo gael ei ysgrifennu mewn llythrennau bach ac ni chaiff gynnwys unrhyw fylchau, dim ond y nodau a-z, 0-9 a "-" neu "_". Gellir defnyddio'r dynodwr yn Fluid, er enghraifft.</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_cookie.identifier.placeholder">
+      <trans-unit id="tx_klaroconsentmanager_cookie.identifier.placeholder" approved="yes">
         <source>lowercase_alphanum-x</source>
-        <target state="needs-translation">lowercase_alphanum-x</target>
+        <target state="final">lowercase_alphanum-x</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_cookie.title.label">
+      <trans-unit id="tx_klaroconsentmanager_cookie.title.label" approved="yes">
         <source>Title</source>
-        <target state="needs-translation">Title</target>
+        <target state="final">Teitl</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_cookie.title.description">
+      <trans-unit id="tx_klaroconsentmanager_cookie.title.description" approved="yes">
         <source>If set, this title will be used in the frontend/backend for displaying the cookie. This title has no technical relevance (contrary to the `pattern` field).</source>
-        <target state="needs-translation">If set, this title will be used in the frontend/backend for displaying the cookie. This title has no technical relevance (contrary to the `pattern` field).</target>
+        <target state="final">Os caiff ei osod, defnyddir y teitl hwn yn y frontend/backend i arddangos y cwci. Nid oes gan y teitl hwn unrhyw berthnasedd technegol (yn wahanol i'r maes `pattern`).</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_cookie.title.placeholder">
+      <trans-unit id="tx_klaroconsentmanager_cookie.title.placeholder" approved="yes">
         <source>mf_[Session]</source>
-        <target state="needs-translation">mf_[Session]</target>
+        <target state="final">mf_[Session]</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_cookie.pattern.label">
+      <trans-unit id="tx_klaroconsentmanager_cookie.pattern.label" approved="yes">
         <source>Name / Pattern</source>
-        <target state="needs-translation">Name / Pattern</target>
+        <target state="final">Enw / Patrwm</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_cookie.pattern.description">
+      <trans-unit id="tx_klaroconsentmanager_cookie.pattern.description" approved="yes">
         <source>Name or regular expression (regex)</source>
-        <target state="needs-translation">Name or regular expression (regex)</target>
+        <target state="final">Enw neu fynegiant rheolaidd (regex)</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_cookie.pattern.placeholder">
+      <trans-unit id="tx_klaroconsentmanager_cookie.pattern.placeholder" approved="yes">
         <source>/^_pk_.*$/</source>
-        <target state="needs-translation">/^_pk_.*$/</target>
+        <target state="final">/^_pk_.*$/</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_cookie.path.label">
+      <trans-unit id="tx_klaroconsentmanager_cookie.path.label" approved="yes">
         <source>Path</source>
-        <target state="needs-translation">Path</target>
+        <target state="final">Llwybr</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_cookie.path.description">
+      <trans-unit id="tx_klaroconsentmanager_cookie.path.description" approved="yes">
         <source>Provide a path if you have services that set cookies for a path that is not "/"</source>
-        <target state="needs-translation">Provide a path if you have services that set cookies for a path that is not "/"</target>
+        <target state="final">Darparwch lwybr os oes gennych wasanaethau sy'n gosod cwcis ar gyfer llwybr nad yw'n "/"</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_cookie.path.placeholder">
+      <trans-unit id="tx_klaroconsentmanager_cookie.path.placeholder" approved="yes">
         <source>/</source>
-        <target state="needs-translation">/</target>
+        <target state="final">/</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_cookie.domain.label">
+      <trans-unit id="tx_klaroconsentmanager_cookie.domain.label" approved="yes">
         <source>Domain</source>
-        <target state="needs-translation">Domain</target>
+        <target state="final">Parth</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_cookie.domain.description">
+      <trans-unit id="tx_klaroconsentmanager_cookie.domain.description" approved="yes">
         <source>Provide a domain if you have services that set cookies for a domain that is not the current domain.</source>
-        <target state="needs-translation">Provide a domain if you have services that set cookies for a domain that is not the current domain.</target>
+        <target state="final">Darparwch barth os oes gennych wasanaethau sy'n gosod cwcis ar gyfer parth nad yw'r parth presennol.</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_cookie.domain.placeholder">
+      <trans-unit id="tx_klaroconsentmanager_cookie.domain.placeholder" approved="yes">
         <source>klaro.kiprotect.com</source>
-        <target state="needs-translation">klaro.kiprotect.com</target>
+        <target state="final">klaro.kiprotect.com</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_cookie.expires_after.label">
+      <trans-unit id="tx_klaroconsentmanager_cookie.expires_after.label" approved="yes">
         <source>Expires after</source>
-        <target state="needs-translation">Expires after</target>
+        <target state="final">Yn dod i ben ar ôl</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_cookie.expires_after.description">
+      <trans-unit id="tx_klaroconsentmanager_cookie.expires_after.description" approved="yes">
         <source>Number of years/months/days/hours/minutes/seconds that will elapse before this cookie expires.</source>
-        <target state="needs-translation">Number of years/months/days/hours/minutes/seconds that will elapse before this cookie expires.</target>
+        <target state="final">Nifer y blynyddoedd/misoedd/diwrnodau/oriau/munudau/eiliadau a fydd yn mynd heibio cyn i'r cwci hwn ddod i ben.</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_cookie.expires_after.placeholder">
+      <trans-unit id="tx_klaroconsentmanager_cookie.expires_after.placeholder" approved="yes">
         <source>60</source>
-        <target state="needs-translation">60</target>
+        <target state="final">60</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_cookie.expires_after_unit.label">
+      <trans-unit id="tx_klaroconsentmanager_cookie.expires_after_unit.label" approved="yes">
         <source>Expires after unit</source>
-        <target state="needs-translation">Expires after unit</target>
+        <target state="final">Uned dod i ben ar ôl</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_cookie.expires_after_unit.description">
+      <trans-unit id="tx_klaroconsentmanager_cookie.expires_after_unit.description" approved="yes">
         <source>Unit used for the "Expires after" specification. The special value `end-of-session` does not need a numeric value and hides the "Expires after" field accordingly.</source>
-        <target state="needs-translation">Unit used for the "Expires after" specification. The special value `end-of-session` does not need a numeric value and hides the "Expires after" field accordingly.</target>
+        <target state="final">Yr uned a ddefnyddir ar gyfer y fanyleb "Yn dod i ben ar ôl". Nid oes angen gwerth rhifol ar y gwerth arbennig `end-of-session` ac mae'n cuddio'r maes "Yn dod i ben ar ôl" yn unol â hynny.</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_cookie.expires_after_unit.I.years">
+      <trans-unit id="tx_klaroconsentmanager_cookie.expires_after_unit.I.years" approved="yes">
         <source>Years</source>
-        <target state="needs-translation">Years</target>
+        <target state="final">Blynyddoedd</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_cookie.expires_after_unit.I.months">
+      <trans-unit id="tx_klaroconsentmanager_cookie.expires_after_unit.I.months" approved="yes">
         <source>Months</source>
-        <target state="needs-translation">Months</target>
+        <target state="final">Misoedd</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_cookie.expires_after_unit.I.days">
+      <trans-unit id="tx_klaroconsentmanager_cookie.expires_after_unit.I.days" approved="yes">
         <source>Days</source>
-        <target state="needs-translation">Days</target>
+        <target state="final">Diwrnodau</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_cookie.expires_after_unit.I.hours">
+      <trans-unit id="tx_klaroconsentmanager_cookie.expires_after_unit.I.hours" approved="yes">
         <source>Hours</source>
-        <target state="needs-translation">Hours</target>
+        <target state="final">Oriau</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_cookie.expires_after_unit.I.minutes">
+      <trans-unit id="tx_klaroconsentmanager_cookie.expires_after_unit.I.minutes" approved="yes">
         <source>Minutes</source>
-        <target state="needs-translation">Minutes</target>
+        <target state="final">Munudau</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_cookie.expires_after_unit.I.seconds">
+      <trans-unit id="tx_klaroconsentmanager_cookie.expires_after_unit.I.seconds" approved="yes">
         <source>Seconds</source>
-        <target state="needs-translation">Seconds</target>
+        <target state="final">Eiliadau</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_cookie.expires_after_unit.I.end-of-session">
+      <trans-unit id="tx_klaroconsentmanager_cookie.expires_after_unit.I.end-of-session" approved="yes">
         <source>End of session</source>
-        <target state="needs-translation">End of session</target>
+        <target state="final">Diwedd y sesiwn</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_cookie.expires_after_unit.I.persistent">
+      <trans-unit id="tx_klaroconsentmanager_cookie.expires_after_unit.I.persistent" approved="yes">
         <source>Persistent</source>
-        <target state="needs-translation">Persistent</target>
+        <target state="final">Parhaus</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_cookie.hidden">
+      <trans-unit id="tx_klaroconsentmanager_cookie.hidden" approved="yes">
         <source>Cookie visible</source>
-        <target state="needs-translation">Cookie visible</target>
+        <target state="final">Cwci yn weladwy</target>
       </trans-unit>
-      <trans-unit id="tt_content.tx_klaroconsentmanager_service.label">
+      <trans-unit id="tt_content.tx_klaroconsentmanager_service.label" approved="yes">
         <source>Contextual Consent</source>
-        <target state="needs-translation">Contextual Consent</target>
+        <target state="final">Caniatâd cyd-destunol</target>
       </trans-unit>
-      <trans-unit id="tt_content.tx_klaroconsentmanager_service.description">
+      <trans-unit id="tt_content.tx_klaroconsentmanager_service.description" approved="yes">
         <source>When a service is selected in this field, the content item is displayed via contextual consent only if the user has agreed to use the selected service in the Klaro! Consent Manager. Please make sure that the static TypoScript template of the Klaro! Consent Manager has been added to use this feature.</source>
-        <target state="needs-translation">When a service is selected in this field, the content item is displayed via contextual consent only if the user has agreed to use the selected service in the Klaro! Consent Manager. Please make sure that the static TypoScript template of the Klaro! Consent Manager has been added to use this feature.</target>
+        <target state="final">Pan ddewisir gwasanaeth yn y maes hwn, caiff yr eitem gynnwys ei harddangos drwy ganiatâd cyd-destunol dim ond os yw'r defnyddiwr wedi cytuno i ddefnyddio'r gwasanaeth a ddewiswyd yn Klaro! Consent Manager. Gwnewch yn siŵr bod templed TypoScript statig Klaro! Consent Manager wedi'i ychwanegu i ddefnyddio'r nodwedd hon.</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_configuration.no_notice.label">
+      <trans-unit id="tx_klaroconsentmanager_configuration.no_notice.label" approved="yes">
         <source>Hide initial consent notice</source>
-        <target state="needs-translation">Hide initial consent notice</target>
+        <target state="final">Cuddio'r hysbysiad caniatâd cychwynnol</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_configuration.no_notice.description">
+      <trans-unit id="tx_klaroconsentmanager_configuration.no_notice.description" approved="yes">
         <source>Do not show the initial notice. The manager can still be opened manually or via contextual consent.</source>
-        <target state="needs-translation">Do not show the initial notice. The manager can still be opened manually or via contextual consent.</target>
+        <target state="final">Peidiwch â dangos yr hysbysiad cychwynnol. Gellir dal i agor y rheolwr â llaw neu drwy ganiatâd cyd-destunol.</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_configuration.powered_by.label">
+      <trans-unit id="tx_klaroconsentmanager_configuration.powered_by.label" approved="yes">
         <source>Powered by URL override</source>
-        <target state="needs-translation">Powered by URL override</target>
+        <target state="final">Gwrthwneud URL Powered by</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_configuration.powered_by.description">
+      <trans-unit id="tx_klaroconsentmanager_configuration.powered_by.description" approved="yes">
         <source>Override the “powered by” link in the consent modal. Leave empty to use Klaro default.</source>
-        <target state="needs-translation">Override the “powered by” link in the consent modal. Leave empty to use Klaro default.</target>
+        <target state="final">Gwrthwneud y ddolen “powered by” yn y ffenestr foddol caniatâd. Gadewch yn wag i ddefnyddio rhagosodiad Klaro.</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_configuration.powered_by.placeholder">
+      <trans-unit id="tx_klaroconsentmanager_configuration.powered_by.placeholder" approved="yes">
         <source>https://example.com/your-link</source>
-        <target state="needs-translation">https://example.com/your-link</target>
+        <target state="final">https://example.com/your-link</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_configuration.style_prefix.label">
+      <trans-unit id="tx_klaroconsentmanager_configuration.style_prefix.label" approved="yes">
         <source>Style prefix</source>
-        <target state="needs-translation">Style prefix</target>
+        <target state="final">Rhagddodiad arddull</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_configuration.style_prefix.description">
+      <trans-unit id="tx_klaroconsentmanager_configuration.style_prefix.description" approved="yes">
         <source>Prefix for CSS classes/container to namespace Klaro styles.</source>
-        <target state="needs-translation">Prefix for CSS classes/container to namespace Klaro styles.</target>
+        <target state="final">Rhagddodiad ar gyfer dosbarthiadau/cynhwysydd CSS i osod gofod enw arddulliau Klaro.</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_configuration.style_prefix.placeholder">
+      <trans-unit id="tx_klaroconsentmanager_configuration.style_prefix.placeholder" approved="yes">
         <source>my-klaro</source>
-        <target state="needs-translation">my-klaro</target>
+        <target state="final">my-klaro</target>
       </trans-unit>
     </body>
   </file>
