@@ -3,13 +3,13 @@
   <file source-language="en" original="EXT:klaro_consent_manager/Configuration/Sets/KlaroConsentManager/labels.xlf" datatype="plaintext" product-name="klaro_consent_manager" date="2025-07-10T17:20:02+02:00" target-language="nb">
     <header/>
     <body>
-      <trans-unit id="label">
+      <trans-unit id="label" approved="yes">
         <source>Klaro! Consent Manager</source>
-        <target state="needs-translation">Klaro! Consent Manager</target>
+        <target state="final">Klaro! Consent Manager</target>
       </trans-unit>
-      <trans-unit id="categories.klaroconsentmanager">
+      <trans-unit id="categories.klaroconsentmanager" approved="yes">
         <source>Klaro</source>
-        <target state="needs-translation">Klaro</target>
+        <target state="final">Klaro</target>
       </trans-unit>
       <trans-unit id="categories.klaroconsentmanager.templates" approved="yes">
         <source>Templates</source>
@@ -35,17 +35,17 @@
         <source>Path to template layouts (FE)</source>
         <target state="final">Sti til mal-layouts (FE)</target>
       </trans-unit>
-      <trans-unit id="settings.plugin.tx_klaroconsentmanager.settings.css.klaro-default">
+      <trans-unit id="settings.plugin.tx_klaroconsentmanager.settings.css.klaro-default" approved="yes">
         <source>Klaro CSS</source>
-        <target state="needs-translation">Klaro CSS</target>
+        <target state="final">Klaro CSS</target>
       </trans-unit>
       <trans-unit id="settings.plugin.tx_klaroconsentmanager.settings.css.klaro-custom" approved="yes">
         <source>Custom additions for Klaro CSS</source>
         <target state="final">Egendefinerte tillegg for Klaro CSS</target>
       </trans-unit>
-      <trans-unit id="settings.plugin.tx_klaroconsentmanager.settings.javascript.klaro-default">
+      <trans-unit id="settings.plugin.tx_klaroconsentmanager.settings.javascript.klaro-default" approved="yes">
         <source>Klaro JavaScript</source>
-        <target state="needs-translation">Klaro JavaScript</target>
+        <target state="final">Klaro JavaScript</target>
       </trans-unit>
       <trans-unit id="settings.plugin.tx_klaroconsentmanager.settings.contextualconsent.replaceAttributes" approved="yes">
         <source>Replace attributes</source>
