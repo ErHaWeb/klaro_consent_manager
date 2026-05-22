@@ -29,7 +29,7 @@
       </trans-unit>
       <trans-unit id="settings.plugin.tx_klaroconsentmanager.view.partialRootPath" approved="yes">
         <source>Path to template partials (FE)</source>
-        <target state="final">テンプレート部分へのパス (FE)</target>
+        <target state="final">テンプレートパーシャルへのパス (FE)</target>
       </trans-unit>
       <trans-unit id="settings.plugin.tx_klaroconsentmanager.view.layoutRootPath" approved="yes">
         <source>Path to template layouts (FE)</source>
@@ -41,7 +41,7 @@
       </trans-unit>
       <trans-unit id="settings.plugin.tx_klaroconsentmanager.settings.css.klaro-custom" approved="yes">
         <source>Custom additions for Klaro CSS</source>
-        <target state="final">Klaro CSSのカスタム追加</target>
+        <target state="final">Klaro CSS のカスタム追加</target>
       </trans-unit>
       <trans-unit id="settings.plugin.tx_klaroconsentmanager.settings.javascript.klaro-default" approved="yes">
         <source>Klaro JavaScript</source>
@@ -53,19 +53,19 @@
       </trans-unit>
       <trans-unit id="settings.description.plugin.tx_klaroconsentmanager.settings.contextualconsent.replaceAttributes" approved="yes">
         <source>Comma-separated list of attributes that should be automatically replaced within the content element of the contextual consent</source>
-        <target state="final">コンマで区切られた同意の内容要素内で自動的に置き換えられる属性のリスト</target>
+        <target state="final">コンテキスト同意のコンテンツ要素内で自動的に置き換える属性のカンマ区切りリスト</target>
       </trans-unit>
       <trans-unit id="settings.plugin.tx_klaroconsentmanager.settings.contextualconsent.mainSectionOnly" approved="yes">
         <source>Main section only</source>
         <target state="final">メインセクションのみ</target>
       </trans-unit>
-      <trans-unit id="settings.description.plugin.tx_klaroconsentmanager.settings.contextualconsent.mainSectionOnly">
+      <trans-unit id="settings.description.plugin.tx_klaroconsentmanager.settings.contextualconsent.mainSectionOnly" approved="yes">
         <source>Activate this option if the contextual consent box should be limited to the main content only (without heading and footer).</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">コンテキスト同意ボックスをメインコンテンツのみ(見出しとフッターなし)に限定する場合は、このオプションを有効にします。</target>
+        <target state="final">コンテキスト同意ボックスをメインコンテンツのみに制限する場合に、このオプションを有効にします (見出しとフッターを除く)。</target>
       </trans-unit>
       <trans-unit id="settings.plugin.tx_klaroconsentmanager.settings.configuration.disabled" approved="yes">
         <source>Disable Klaro Consent Management</source>
-        <target state="final">Klaro Consent Managementを無効にする</target>
+        <target state="final">Klaro の同意管理を無効にする</target>
       </trans-unit>
     </body>
   </file>
