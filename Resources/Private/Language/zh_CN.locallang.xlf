@@ -134,9 +134,9 @@
         <source>Enable or disable all services</source>
         <target state="final">启用或禁用所有服务</target>
       </trans-unit>
-      <trans-unit id="service.optOut.description" approved="yes">
-        <source>This services is loaded by default (but you can opt out)</source>
-        <target state="final">此服务默认加载(但您可以选择退出)</target>
+      <trans-unit id="service.optOut.description">
+        <source>This service is loaded by default (but you can opt out)</source>
+        <target state="needs-review-translation" state-qualifier="leveraged-mt">此服务默认加载(但您可以选择退出)</target>
       </trans-unit>
       <trans-unit id="service.optOut.title" approved="yes">
         <source>(opt-out)</source>
@@ -150,9 +150,9 @@
         <source>purposes</source>
         <target state="final">目 的</target>
       </trans-unit>
-      <trans-unit id="service.required.description" approved="yes">
-        <source>This services is always required</source>
-        <target state="final">此服务总是必需的</target>
+      <trans-unit id="service.required.description">
+        <source>This service is always required</source>
+        <target state="needs-review-translation" state-qualifier="leveraged-mt">此服务总是必需的</target>
       </trans-unit>
       <trans-unit id="service.required.title" approved="yes">
         <source>(always required)</source>
@@ -410,9 +410,9 @@
         <source>X (formerly Twitter)</source>
         <target state="final">X(原Twitter)</target>
       </trans-unit>
-      <trans-unit id="services.twitter.description" approved="yes">
-        <source>X (formerly Twitter) is social media platform that allows users to share and interact with short messages and multimedia content. Developers can integrate Twitter features into websites to enhance user engagement and real-time updates while maintaining data privacy compliance and adhering to coding guidelines.</source>
-        <target state="final">X (原名Twitter) 是社交媒体平台，用户可以分享和交互短信和多媒体内容。 开发者可以将 Twitter 功能整合到网站中，以加强用户的参与和实时更新，同时保持数据隐私遵守和遵守编码准则。</target>
+      <trans-unit id="services.twitter.description">
+        <source>X (formerly Twitter) is a social media platform that allows users to share and interact with short messages and multimedia content. Developers can integrate Twitter features into websites to enhance user engagement and real-time updates while maintaining data privacy compliance and adhering to coding guidelines.</source>
+        <target state="needs-review-translation" state-qualifier="leveraged-mt">X (原名Twitter) 是一个社交媒体平台，用户可以分享和交互短信和多媒体内容。 开发者可以将 Twitter 功能整合到网站中，以加强用户的参与和实时更新，同时保持数据隐私遵守和遵守编码准则。</target>
       </trans-unit>
       <trans-unit id="services.userlike.title" approved="yes">
         <source>Userlike</source>
