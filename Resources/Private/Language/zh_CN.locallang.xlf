@@ -16,7 +16,7 @@
       </trans-unit>
       <trans-unit id="consentModal.description" approved="yes">
         <source>Here you can assess and customize the services that we'd like to use on this website. You're in charge! Enable or disable services as you see fit.</source>
-        <target state="final">在这里，您可以评估和自定义我们想要在此网站上使用的服务。 您正在充电！开启或禁用您认为合适的服务。</target>
+        <target state="final">在这里，您可以评估并自定义我们希望在本网站使用的服务。由您掌控！您可以按需启用或禁用服务。</target>
       </trans-unit>
       <trans-unit id="consentModal.title" approved="yes">
         <source>Services we would like to use</source>
@@ -72,7 +72,7 @@
       </trans-unit>
       <trans-unit id="poweredBy" approved="yes">
         <source>Realized with Klaro!</source>
-        <target state="final">使用 Klaro 实现！</target>
+        <target state="final">使用 Klaro! 实现！</target>
       </trans-unit>
       <trans-unit id="privacyPolicy.name" approved="yes">
         <source>privacy policy</source>
@@ -134,9 +134,9 @@
         <source>Enable or disable all services</source>
         <target state="final">启用或禁用所有服务</target>
       </trans-unit>
-      <trans-unit id="service.optOut.description">
+      <trans-unit id="service.optOut.description" approved="yes">
         <source>This service is loaded by default (but you can opt out)</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">此服务默认加载(但您可以选择退出)</target>
+        <target state="final">此服务默认加载(但您可以选择退出)</target>
       </trans-unit>
       <trans-unit id="service.optOut.title" approved="yes">
         <source>(opt-out)</source>
@@ -150,9 +150,9 @@
         <source>purposes</source>
         <target state="final">目 的</target>
       </trans-unit>
-      <trans-unit id="service.required.description">
+      <trans-unit id="service.required.description" approved="yes">
         <source>This service is always required</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">此服务总是必需的</target>
+        <target state="final">此服务总是必需的</target>
       </trans-unit>
       <trans-unit id="service.required.title" approved="yes">
         <source>(always required)</source>
@@ -260,7 +260,7 @@
       </trans-unit>
       <trans-unit id="services.career-captain.description" approved="yes">
         <source>Career Captain provides gamified career orientation and recruiting content. When enabled, external content from Career Captain may process usage and technical connection data.</source>
-        <target state="final">Career Captain 提供了游戏性职业定向和招聘内容。启用时，Career Captain 的外部内容可以处理使用情况和技术连接数据。</target>
+        <target state="final">Career Captain 提供游戏化的职业导向和招聘内容。启用后，来自 Career Captain 的外部内容可能会处理使用数据和技术连接数据。</target>
       </trans-unit>
       <trans-unit id="services.clarity.title" approved="yes">
         <source>Microsoft Clarity</source>
@@ -396,7 +396,7 @@
       </trans-unit>
       <trans-unit id="services.salesviewer.description" approved="yes">
         <source>SalesViewer analyzes website visits for B2B lead generation and may identify company-related visitor information based on usage and technical access data.</source>
-        <target state="final">SalesViewer分析了 B2B 导星生成的网站访问情况，并可能根据使用情况和技术访问数据确定与公司相关的访问信息。</target>
+        <target state="final">SalesViewer 会分析网站访问以生成 B2B 潜在客户，并可能根据使用情况和技术访问数据识别与公司相关的访客信息。</target>
       </trans-unit>
       <trans-unit id="services.tiktok.title" approved="yes">
         <source>TikTok</source>
@@ -410,9 +410,9 @@
         <source>X (formerly Twitter)</source>
         <target state="final">X(原Twitter)</target>
       </trans-unit>
-      <trans-unit id="services.twitter.description">
+      <trans-unit id="services.twitter.description" approved="yes">
         <source>X (formerly Twitter) is a social media platform that allows users to share and interact with short messages and multimedia content. Developers can integrate Twitter features into websites to enhance user engagement and real-time updates while maintaining data privacy compliance and adhering to coding guidelines.</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">X (原名Twitter) 是一个社交媒体平台，用户可以分享和交互短信和多媒体内容。 开发者可以将 Twitter 功能整合到网站中，以加强用户的参与和实时更新，同时保持数据隐私遵守和遵守编码准则。</target>
+        <target state="final">X（原 Twitter）是一个社交媒体平台，用户可以在其中分享短消息和多媒体内容并与之互动。开发者可以将 Twitter 功能集成到网站中，以提升用户参与度和实时更新，同时保持数据隐私合规并遵守编码准则。</target>
       </trans-unit>
       <trans-unit id="services.userlike.title" approved="yes">
         <source>Userlike</source>
@@ -536,7 +536,7 @@
       </trans-unit>
       <trans-unit id="warning.noServices" approved="yes">
         <source>Why don't I see a Klaro! Modal? → You must assign at least 1 service to the Klaro! configuration! Without services, we don't need consent management at all.</source>
-        <target state="final">为什么我看不到Klaro！模版？-&gt; 您必须给Klaro至少分配一个服务！ 配置！没有服务，我们根本不需要同意管理。</target>
+        <target state="final">为什么看不到 Klaro! 模态窗口？ → 必须为 Klaro! 配置分配至少 1 个服务！没有服务时，我们根本不需要同意管理。</target>
       </trans-unit>
       <trans-unit id="warning.noServicesPersonalized" approved="yes">
         <source>Hey %s! You missed a service in the config! Without services, we don't need consent management at all.</source>
