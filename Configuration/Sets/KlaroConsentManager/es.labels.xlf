@@ -59,9 +59,9 @@
         <source>Main section only</source>
         <target state="final">Sólo sección principal</target>
       </trans-unit>
-      <trans-unit id="settings.description.plugin.tx_klaroconsentmanager.settings.contextualconsent.mainSectionOnly" approved="yes">
-        <source>Activate this option if the contextual consent box should only be limited to the main content (without heading and footer).</source>
-        <target state="final">Active esta opción si la casilla de consentimiento contextual sólo debe limitarse al contenido principal (sin encabezamiento y pie de página).</target>
+      <trans-unit id="settings.description.plugin.tx_klaroconsentmanager.settings.contextualconsent.mainSectionOnly">
+        <source>Activate this option if the contextual consent box should be limited to the main content only (without heading and footer).</source>
+        <target state="needs-review-translation" state-qualifier="leveraged-mt">Active esta opción si el cuadro de consentimiento contextual debe limitarse únicamente al contenido principal (sin encabezamiento y pie de página).</target>
       </trans-unit>
       <trans-unit id="settings.plugin.tx_klaroconsentmanager.settings.configuration.disabled" approved="yes">
         <source>Disable Klaro Consent Management</source>
