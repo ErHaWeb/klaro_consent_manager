@@ -151,9 +151,9 @@
         <source>Additional Class</source>
         <target state="final">Dodatečná třída</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_configuration.additional_class.description" approved="yes">
-        <source>You can specify an additional class (or classes) that will be added to the Klaro `div`</source>
-        <target state="final">Můžete zadat další třídu (nebo třídy), která bude přidána do Klaro `div`</target>
+      <trans-unit id="tx_klaroconsentmanager_configuration.additional_class.description">
+        <source>You can specify an additional class (or classes) that will be added to the Klaro `div`.</source>
+        <target state="needs-review-translation" state-qualifier="leveraged-mt">Můžete specifikovat další třídu (nebo třídy), která bude přidána do klaro ,,div`.</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.additional_class.placeholder" approved="yes">
         <source>my-klaro</source>
@@ -263,9 +263,9 @@
         <source>Must consent</source>
         <target state="final">Musí souhlasit</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_configuration.must_consent.description" approved="yes">
-        <source>If `mustConsent` is set to `true`, Klaro will directly display the consent manager modal and not allow the user to close it before having actively consented or declines the use of third-party services.</source>
-        <target state="final">Je-li `mustConsent` nastaven na `true`, Klaro přímo zobrazí správce souhlasu a neumožní uživateli jej zavřít dříve, než aktivně schválí nebo odmítne používání služeb třetích stran.</target>
+      <trans-unit id="tx_klaroconsentmanager_configuration.must_consent.description">
+        <source>If `mustConsent` is set to `true`, Klaro will directly display the consent manager modal and not allow the user to close it before having actively consented to or declined the use of third-party services.</source>
+        <target state="needs-review-translation" state-qualifier="leveraged-mt">Je-li `mustConsent` nastaven na `true`, Klaro přímo zobrazí správce souhlasu a neumožní uživateli jej zavřít dříve, než bude aktivně souhlasit s používáním služeb třetích stran nebo je odmítnout.</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.accept_all.label" approved="yes">
         <source>Accept all</source>
@@ -779,9 +779,9 @@
         <source>Callback</source>
         <target state="final">Callback</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_service.callback.description" approved="yes">
-        <source>You can define an optional callback function that will be called each time the consent state for the given service changes. The consent value will be passed as the first parameter to the function (`true` = consented). The `service` config will be passed as the second parameter. The content of this field is wrapped with `callback: function(consent, service) { }`. `consent` is a bool that reflects the current state. service` holds all information about the currently selected service. When you enter something here, you need to know what you are doing. It is your responsibility that no JavaScript errors occur.</source>
-        <target state="final">Můžete definovat volitelnou funkci zpětného volání, která bude volána pokaždé, když se změní stav souhlasu dané služby. Hodnota souhlasu bude předána jako první parametr funkci (`true` = souhlas). Konfigurace `service` bude předána jako druhý parametr. Obsah tohoto pole je obalen `zpětné volání: function(souhlas, service) { }`. `Souhlas` je bool, který odráží aktuální stav. služba` obsahuje všechny informace o aktuálně zvolené službě. Když sem něco zadáte, musíte vědět, co děláte. Je vaší odpovědností, aby nedošlo k žádným chybám JavaScriptu.</target>
+      <trans-unit id="tx_klaroconsentmanager_service.callback.description">
+        <source>You can define an optional callback function that will be called each time the consent state for the given service changes. The consent value will be passed as the first parameter to the function (`true` = consented). The `service` config will be passed as the second parameter. The content of this field is wrapped with `callback: function(consent, service) { }`. `consent` is a bool that reflects the current state. `service` holds all information about the currently selected service. When you enter something here, you need to know what you are doing. It is your responsibility that no JavaScript errors occur.</source>
+        <target state="needs-review-translation" state-qualifier="leveraged-mt">Můžete definovat volitelnou funkci zpětného volání, která bude volána pokaždé, když se změní stav souhlasu dané služby. Hodnota souhlasu bude předána jako první parametr funkci (`true` = souhlas). Konfigurace `service` bude předána jako druhý parametr. Obsah tohoto pole je obalen `callback: function(consent, service) { }`. `consent` je bool, který odráží aktuální stav. `service` obsahuje všechny informace o aktuálně vybrané službě. Když sem něco zadáte, musíte vědět, co děláte. Je vaší odpovědností, aby nedošlo k žádným chybám JavaScriptu.</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_service.on_accept.label" approved="yes">
         <source>`onAccept` callback function</source>
