@@ -134,9 +134,9 @@
         <source>Enable or disable all services</source>
         <target state="final">Tüm uygulamaları aç/kapat</target>
       </trans-unit>
-      <trans-unit id="service.optOut.description" approved="yes">
-        <source>This services is loaded by default (but you can opt out)</source>
-        <target state="final">Bu uygulama varsayılanda yüklendi (ancak iptal edebilirsin)</target>
+      <trans-unit id="service.optOut.description">
+        <source>This service is loaded by default (but you can opt out)</source>
+        <target state="needs-translation">This service is loaded by default (but you can opt out)</target>
       </trans-unit>
       <trans-unit id="service.optOut.title" approved="yes">
         <source>(opt-out)</source>
@@ -150,9 +150,9 @@
         <source>purposes</source>
         <target state="final">amaçlar</target>
       </trans-unit>
-      <trans-unit id="service.required.description" approved="yes">
-        <source>This services is always required</source>
-        <target state="final">Bu uygulama her zaman gerekli</target>
+      <trans-unit id="service.required.description">
+        <source>This service is always required</source>
+        <target state="needs-translation">This service is always required</target>
       </trans-unit>
       <trans-unit id="service.required.title" approved="yes">
         <source>(always required)</source>
@@ -410,9 +410,9 @@
         <source>X (formerly Twitter)</source>
         <target state="final">X (önceki adıyla Twitter)</target>
       </trans-unit>
-      <trans-unit id="services.twitter.description" approved="yes">
-        <source>X (formerly Twitter) is social media platform that allows users to share and interact with short messages and multimedia content. Developers can integrate Twitter features into websites to enhance user engagement and real-time updates while maintaining data privacy compliance and adhering to coding guidelines.</source>
-        <target state="final">X (eski adıyla Twitter), kullanıcıların kısa mesajlar ve multimedya içerikleri paylaşıp etkileşimde bulunmalarını sağlayan bir sosyal medya platformudur. Geliştiriciler, veri gizliliği uyumluluğunu koruyarak ve kodlama kurallarına uyarak, kullanıcı etkileşimini ve gerçek zamanlı güncellemeleri geliştirmek için Twitter özelliklerini web sitelerine entegre edebilirler.</target>
+      <trans-unit id="services.twitter.description">
+        <source>X (formerly Twitter) is a social media platform that allows users to share and interact with short messages and multimedia content. Developers can integrate Twitter features into websites to enhance user engagement and real-time updates while maintaining data privacy compliance and adhering to coding guidelines.</source>
+        <target state="needs-translation">X (formerly Twitter) is a social media platform that allows users to share and interact with short messages and multimedia content. Developers can integrate Twitter features into websites to enhance user engagement and real-time updates while maintaining data privacy compliance and adhering to coding guidelines.</target>
       </trans-unit>
       <trans-unit id="services.userlike.title" approved="yes">
         <source>Userlike</source>
