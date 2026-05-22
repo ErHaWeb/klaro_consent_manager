@@ -105,7 +105,7 @@
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.title.placeholder" approved="yes">
         <source>My Klaro! Configuration</source>
-        <target state="final">私のKlaro! 設定</target>
+        <target state="final">自分の Klaro! 設定</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.testing.label" approved="yes">
         <source>Testing</source>
@@ -113,7 +113,7 @@
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.testing.description" approved="yes">
         <source>Setting `testing` to `true` will cause Klaro to not show the consent notice or modal by default, except if a special hashtag is appended to the URL (#klaro-testing). This makes it possible to test Klaro on your live website without affecting normal visitors.</source>
-        <target state="final">`testing`を`trueに設定すると、Klaroはデフォルトで同意通知やモーダルを表示しません。 特別なハッシュタグが URL (#klaro-testing) に追加されている場合を除きます。 これにより、通常の訪問者に影響を与えることなく、ライブウェブサイトでKlaroをテストすることが可能になります。</target>
+        <target state="final">`testing` を `true` に設定すると、特別なハッシュタグ (#klaro-testing) が URL に追加されている場合を除き、Klaro はデフォルトで同意通知やモーダルを表示しません。これにより、通常の訪問者に影響を与えずにライブサイトで Klaro をテストできます。</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.config_variable_name.label" approved="yes">
         <source>Config Variable Name</source>
@@ -151,9 +151,9 @@
         <source>Additional Class</source>
         <target state="final">追加クラス</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_configuration.additional_class.description">
+      <trans-unit id="tx_klaroconsentmanager_configuration.additional_class.description" approved="yes">
         <source>You can specify an additional class (or classes) that will be added to the Klaro `div`.</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Klaro `div`に追加される追加のクラス(またはクラス)を指定できます。</target>
+        <target state="final">Klaro `div`に追加される追加のクラス（またはクラス）を指定できます。</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.additional_class.placeholder" approved="yes">
         <source>my-klaro</source>
@@ -197,7 +197,7 @@
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.html_texts.description" approved="yes">
         <source>If set to `true`, Klaro will render the texts given in the `consentModal.description` and `consentNotice.description` translations as HTML. This enables you to e.g. add custom links or interactive content. If you want to be able to output HTML tags via fluid-enriched labels (see "Content" → "Translations"), this option must be enabled.</source>
-        <target state="final">`true`に設定されている場合、KlaroはHTMLとして`consensionModal.description`と`consensityNotice.description`に与えられたテキストをレンダリングします。これにより、例えば、 カスタムリンクまたはインタラクティブコンテンツを追加します。 流体濃縮ラベルを使用して HTML タグを出力できるようにしたい場合(「コンテンツ」 → 「翻訳」を参照)、このオプションを有効にする必要があります。</target>
+        <target state="final">`true` に設定すると、Klaro は `consentModal.description` と `consentNotice.description` の翻訳で指定されたテキストを HTML としてレンダリングします。これにより、カスタムリンクやインタラクティブコンテンツなどを追加できます。Fluid で拡張されたラベルから HTML タグを出力したい場合 (「コンテンツ」→「翻訳」を参照)、このオプションを有効にする必要があります。</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.embedded.label" approved="yes">
         <source>Embedded</source>
@@ -263,9 +263,9 @@
         <source>Must consent</source>
         <target state="final">同意する必要があります</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_configuration.must_consent.description">
+      <trans-unit id="tx_klaroconsentmanager_configuration.must_consent.description" approved="yes">
         <source>If `mustConsent` is set to `true`, Klaro will directly display the consent manager modal and not allow the user to close it before having actively consented to or declined the use of third-party services.</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">`mustConsent` が `true` に設定されている場合。 Klaroは、第三者サービスの使用に積極的に同意または拒否する前に、同意マネージャモーダルを直接表示し、ユーザーがそれを閉じることを許可しません。</target>
+        <target state="final">`mustConsent` が `true` に設定されている場合。 Klaroは、第三者サービスの使用に積極的に同意または拒否する前に、同意マネージャモーダルを直接表示し、ユーザーがそれを閉じることを許可しません。</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.accept_all.label" approved="yes">
         <source>Accept all</source>
@@ -281,7 +281,7 @@
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.hide_decline_all.description" approved="yes">
         <source>Setting `hideDeclineAll` to `true` will hide the "decline" button in the consent modal and force the user to open the modal in order to change his/her consent or disable all third-party services. We strongly advise you to not use this feature, as it opposes the "privacy by default" and "privacy by design" principles of the GDPR (but might be acceptable in other legislations such as under the CCPA)</source>
-        <target state="final">`hideDeclineAll` を `true` に設定すると、同意モーダルの「拒否」ボタンが非表示になり、ユーザーの同意を変更したり、サードパーティのすべてのサービスを無効にしたりするために、ユーザーがモーダルを開くように強制します。 この機能を使用しないことを強くお勧めします GDPRの「プライバシー・バイ・デフォルト」および「プライバシー・バイ・デザイン」の原則に反対するため(ただし、CCPの下など他の法律では許容される可能性があります)</target>
+        <target state="final">`hideDeclineAll` を `true` に設定すると、同意モーダルの「拒否」ボタンが非表示になり、ユーザーは同意を変更したりサードパーティのすべてのサービスを無効にしたりするためにモーダルを開く必要があります。この機能は GDPR の「privacy by default」および「privacy by design」の原則に反するため、使用しないことを強くお勧めします (ただし、CCPA など他の法制度では許容される場合があります)。</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.hide_learn_more.label" approved="yes">
         <source>Hide Learn More</source>
@@ -297,7 +297,7 @@
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.hide_toggle_all.description" approved="yes">
         <source>Setting `hideToggleAll` to `true` will hide the "toggle all" link in the consent notice.</source>
-        <target state="final">`hideToggleAll`を`trueに設定すると、同意通知で「すべてを切り替える」リンクが非表示になります。</target>
+        <target state="final">`hideToggleAll` を `true` に設定すると、同意通知内の「すべて切り替え」リンクが非表示になります。</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.notice_as_modal.label" approved="yes">
         <source>Notice As Modal</source>
@@ -321,7 +321,7 @@
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.show_description_empty_store.description" approved="yes">
         <source>Show an explanatory text in contextual consent placeholders when no consent storage exists yet (first visit / empty store). This informs users that a permanent decision ("Always") requires allowing Klaro to store consent first. This only has an effect in contextual consent widgets/overlays (e.g. for embedded media) and only if the consent store (cookie/localStorage) is empty.</source>
-        <target state="final">コンセントストレージがまだ存在しない場合、コンセントプレースホルダに説明文を表示します (最初の訪問/空の店舗)。 これにより、ユーザーは永続的な決定(「常時」)が、Klaroが最初に同意を保存することを許可する必要があることを知らせます。 これはコンセントウィジェット/オーバーレイ(埋め込まれたメディアの場合など)にのみ影響し、同意ストア(クッキー/ロケールストレージ)が空の場合にのみ影響します。</target>
+        <target state="final">コンセントストレージがまだ存在しない場合、コンセントプレースホルダに説明文を表示します (最初の訪問/空の店舗)。 これにより、ユーザーは永続的な決定(「常時」)が、Klaroが最初に同意を保存することを許可する必要があることを知らせます。 これはコンセントウィジェット/オーバーレイ(埋め込まれたメディアの場合など)にのみ影響し、同意ストア(クッキー/ロケールストレージ)が空の場合にのみ影響します。 (localStorage)</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.auto_focus.label" approved="yes">
         <source>Auto Focus</source>
@@ -337,7 +337,7 @@
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.disable_powered_by.description" approved="yes">
         <source>You can also remove the "Realized with Klaro!" text in the consent modal. Please don't do this! We provide Klaro as a free open source tool. Placing a link to our website helps us spread the word about it, which ultimately enables us to make Klaro! better for everyone. So please be fair and keep the link enabled. Thanks :)</source>
-        <target state="final">同意モーダルで「Klaroで実現!」テキストを削除することもできます。 私たちはKlaroを無料のオープンソースツールとして提供しています。 私たちのウェブサイトへのリンクを配置すると、私たちはそれについての言葉を広めることができます, 最終的に私たちはKlaroを作ることができます! だから公平であり、リンクを有効にしてください。ありがとう:)</target>
+        <target state="final">同意モーダルで「Klaro!で実現!」テキストを削除することもできます。 私たちはKlaroを無料のオープンソースツールとして提供しています。 私たちのウェブサイトへのリンクを配置すると、私たちはそれについての言葉を広めることができます, 最終的に私たちはKlaroを作ることができます! だから公平であり、リンクを有効にしてください。ありがとう:)</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.services.label" approved="yes">
         <source>Services</source>
@@ -361,7 +361,7 @@
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.callback.description" approved="yes">
         <source>You can define an optional callback function that will be called each time the consent state for any given service changes. The consent value will be passed as the first parameter to the function (`true` = consented). The `service` config will be passed as the second parameter. The content of this field is wrapped with `callback: function(consent, service) { }`</source>
-        <target state="final">任意のサービスが変更されるたびにコールバック関数を定義することができます。 同意値は関数に最初のパラメータとして渡されます (`true` = consented)。 `service` 設定は 2 番目のパラメータとして渡されます。このフィールドの内容は `callback: function(consent, service) { } ` でラップされます。</target>
+        <target state="final">任意のコールバック関数を定義できます。この関数は、任意のサービスの同意状態が変わるたびに呼び出されます。同意値は最初のパラメータとして関数に渡されます (`true` = 同意済み)。`service` 設定は 2 番目のパラメータとして渡されます。このフィールドの内容は `callback: function(consent, service) { }` でラップされます。</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.locallang_path.label" approved="yes">
         <source>Locallang Path</source>
@@ -373,15 +373,15 @@
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.locallang_path.placeholder" approved="yes">
         <source>EXT:sitepackage/Resources/Private/Language/Klaro/locallang.xlf</source>
-        <target state="final">EXT:sitepackage/Resources/Private/Language/Klaro/localang.xlf</target>
+        <target state="final">EXT:sitepackage/Resources/Private/Language/Klaro/locallang.xlf</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.fluidtemplate_rootpath.label" approved="yes">
         <source>Fluid Template Root Path</source>
-        <target state="final">流体テンプレートのルートパス</target>
+        <target state="final">流体テンプレートのルートパス (Fluid)</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.fluidtemplate_rootpath.description" approved="yes">
         <source>As an alternative to the usual TypoScript configuration via constants under `plugin.tx_klaroconsentmanager.view`, a Fluid root path can be defined here, which has a higher priority than the paths configured in TypoScript. The three default directories `/Layouts/`, `/Partials/` and `/Templates/` are expected under this path. Fluid templates created here are used to enrich Locallang labels with additional functionality or to replace them completely. In this way, dynamic content or more complex HTML structures can be provided in a simple way. Fluid templates that are to override labels are expected in the subdirectory `/Templates/Labels/`.</source>
-        <target state="final">`plugin.tx_klaroconsentmanagerで定数を介した通常のTypoScript設定の代替として。 すなわち、TypoScript で設定されたパスよりも優先度が高い流体ルートパスをここで定義することができます。 このパスの下には、`/Layouts/`、`/Partials/`、`/Templates/`の3つのデフォルトディレクトリが必要です。 ここで作成された流体テンプレートは、Locallangラベルを追加機能で拡張したり、完全に置き換えたりするために使用されます。 このようにして、動的コンテンツやより複雑な HTML 構造を簡単に提供できます。 ラベルを上書きする流体テンプレートは `/Templates/Labels/` サブディレクトリにある必要があります。</target>
+        <target state="final">`plugin.tx_klaroconsentmanager.view` の下の定数を使った通常の TypoScript 設定の代替として、ここで Fluid ルートパスを定義できます。このパスは TypoScript で設定されたパスよりも高い優先度を持ちます。このパスの下には、既定の 3 つのディレクトリ `/Layouts/`、`/Partials/`、`/Templates/` が必要です。ここで作成した Fluid テンプレートは、Locallang ラベルに追加機能を付加したり、完全に置き換えたりするために使用されます。これにより、動的コンテンツやより複雑な HTML 構造を簡単に提供できます。ラベルを上書きする Fluid テンプレートは、サブディレクトリ `/Templates/Labels/` に配置される必要があります。</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.fluidtemplate_rootpath.placeholder" approved="yes">
         <source>EXT:sitepackage/Resources/Private/</source>
@@ -779,9 +779,9 @@
         <source>Callback</source>
         <target state="final">Callback</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_service.callback.description">
+      <trans-unit id="tx_klaroconsentmanager_service.callback.description" approved="yes">
         <source>You can define an optional callback function that will be called each time the consent state for the given service changes. The consent value will be passed as the first parameter to the function (`true` = consented). The `service` config will be passed as the second parameter. The content of this field is wrapped with `callback: function(consent, service) { }`. `consent` is a bool that reflects the current state. `service` holds all information about the currently selected service. When you enter something here, you need to know what you are doing. It is your responsibility that no JavaScript errors occur.</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">任意のコールバック関数を定義することができます。コールバック関数は、指定したサービスの同意が変更されるたびに呼び出されます。 同意値は関数に最初のパラメータとして渡されます (`true` = consented)。 `service`の設定は2番目のパラメータとして渡されます。 このフィールドの内容は `callback: function(consent, service) { }` でラップされます。`consent` は現在の状態を反映した bool です。 `service` は現在選択されているサービスに関するすべての情報を保持します。 ここに何かを入力するときは、自分が何をしているかを知る必要があります。JavaScript のエラーが発生しないことは、あなたの責任です。</target>
+        <target state="final">任意のコールバック関数を定義できます。この関数は、指定したサービスの同意状態が変わるたびに呼び出されます。同意値は最初のパラメータとして関数に渡されます (`true` = 同意済み)。`service` 設定は 2 番目のパラメータとして渡されます。このフィールドの内容は `callback: function(consent, service) { }` でラップされます。`consent` は現在の状態を反映する bool です。`service` は現在選択されているサービスに関するすべての情報を保持します。ここに入力する場合は、自分が何をしているかを理解している必要があります。JavaScript エラーが発生しないようにする責任はあなたにあります。</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_service.on_accept.label" approved="yes">
         <source>`onAccept` callback function</source>
@@ -789,7 +789,7 @@
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_service.on_accept.description" approved="yes">
         <source>Here you can define JavaScript code that will be called each time the service was accepted. The content of this field is wrapped with `callback: function(handlerOpts) { }`. The object `handlerOpts` contains the objects `config` (the current Klaro! configuration), `service` (the current service) and possibly `vars` (any values defined by object notation in the vars field in the backend). When you enter something here, you need to know what you are doing. It is your responsibility that no JavaScript errors occur.</source>
-        <target state="final">ここでは、サービスが承認されるたびに呼び出されるJavaScriptコードを定義できます。 このフィールドの内容は `callback: function(handlerOpts) { }` でラップされます。 オブジェクト `handlerOps` には、`config` オブジェクトが含まれています(現在のKlaro! configuration), `service` (現在のサービス) , おそらく `vars` (バックエンドの var フィールドのオブジェクト表記で定義された値). ここに何かを入力するときは、自分が何をしているかを知る必要があります。JavaScript のエラーが発生しないことは、あなたの責任です。</target>
+        <target state="final">ここでは、サービスが承認されるたびに呼び出される JavaScript コードを定義できます。このフィールドの内容は `callback: function(handlerOpts) { }` でラップされます。オブジェクト `handlerOpts` には、`config` (現在の Klaro! 設定)、`service` (現在のサービス)、および必要に応じて `vars` (バックエンドの vars フィールドでオブジェクト表記により定義された値) が含まれます。ここに入力する場合は、自分が何をしているかを理解している必要があります。JavaScript エラーが発生しないようにする責任はあなたにあります。</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_service.on_init.label" approved="yes">
         <source>`onInit` callback function</source>
@@ -797,7 +797,7 @@
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_service.on_init.description" approved="yes">
         <source>Here you can define JavaScript code that will be called once per page-load. The content of this field is wrapped with `callback: function(handlerOpts) { }`. The object `handlerOpts` contains the objects `config` (the current Klaro! configuration), `service` (the current service) and possibly `vars` (any values defined by object notation in the vars field in the backend). When you enter something here, you need to know what you are doing. It is your responsibility that no JavaScript errors occur.</source>
-        <target state="final">ここでは、ページ読み込みごとに呼び出される JavaScript コードを定義できます。 このフィールドの内容は `callback: function(handlerOpts) { }` でラップされます。 オブジェクト `handlerOps` には、`config` オブジェクトが含まれています(現在のKlaro! configuration), `service` (現在のサービス) , おそらく `vars` (バックエンドの var フィールドのオブジェクト表記で定義された値). ここに何かを入力するときは、自分が何をしているかを知る必要があります。JavaScript のエラーが発生しないことは、あなたの責任です。</target>
+        <target state="final">ここでは、ページ読み込みごとに 1 回呼び出される JavaScript コードを定義できます。このフィールドの内容は `callback: function(handlerOpts) { }` でラップされます。オブジェクト `handlerOpts` には、`config` (現在の Klaro! 設定)、`service` (現在のサービス)、および必要に応じて `vars` (バックエンドの vars フィールドでオブジェクト表記により定義された値) が含まれます。ここに入力する場合は、自分が何をしているかを理解している必要があります。JavaScript エラーが発生しないようにする責任はあなたにあります。</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_service.on_decline.label" approved="yes">
         <source>`onDecline` callback function</source>
@@ -805,7 +805,7 @@
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_service.on_decline.description" approved="yes">
         <source>Here you can define JavaScript code that will be called each time the service was declined. The content of this field is wrapped with `callback: function(handlerOpts) { }`. The object `handlerOpts` contains the objects `config` (the current Klaro! configuration), `service` (the current service) and possibly `vars` (any values defined by object notation in the vars field in the backend). When you enter something here, you need to know what you are doing. It is your responsibility that no JavaScript errors occur.</source>
-        <target state="final">ここでは、サービスが拒否されるたびに呼び出されるJavaScriptコードを定義できます。 このフィールドの内容は `callback: function(handlerOpts) { }` でラップされます。 オブジェクト `handlerOps` には、`config` オブジェクトが含まれています(現在のKlaro! configuration), `service` (現在のサービス) , おそらく `vars` (バックエンドの var フィールドのオブジェクト表記で定義された値). ここに何かを入力するときは、自分が何をしているかを知る必要があります。JavaScript のエラーが発生しないことは、あなたの責任です。</target>
+        <target state="final">ここでは、サービスが拒否されるたびに呼び出される JavaScript コードを定義できます。このフィールドの内容は `callback: function(handlerOpts) { }` でラップされます。オブジェクト `handlerOpts` には、`config` (現在の Klaro! 設定)、`service` (現在のサービス)、および必要に応じて `vars` (バックエンドの vars フィールドでオブジェクト表記により定義された値) が含まれます。ここに入力する場合は、自分が何をしているかを理解している必要があります。JavaScript エラーが発生しないようにする責任はあなたにあります。</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_service.vars.label" approved="yes">
         <source>Variables</source>
@@ -841,7 +841,7 @@
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_cookie.palettes.technic_palette.description" approved="yes">
         <source>This information is technically evaluated by Klaro! to manipulate the cookie.</source>
-        <target state="final">この情報は、クッキーを操作するために Klaro によって技術的に評価されます。</target>
+        <target state="final">この情報は、クッキーを操作するために Klaro! によって技術的に評価されます。</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_cookie.palettes.expiration_palette" approved="yes">
         <source>Expiration Time</source>
@@ -861,7 +861,7 @@
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_cookie.identifier.placeholder" approved="yes">
         <source>lowercase_alphanum-x</source>
-        <target state="final">小文字の英数字x</target>
+        <target state="final">lowercase_alphanum-x</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_cookie.title.label" approved="yes">
         <source>Title</source>
@@ -973,7 +973,7 @@
       </trans-unit>
       <trans-unit id="tt_content.tx_klaroconsentmanager_service.description" approved="yes">
         <source>When a service is selected in this field, the content item is displayed via contextual consent only if the user has agreed to use the selected service in the Klaro! Consent Manager. Please make sure that the static TypoScript template of the Klaro! Consent Manager has been added to use this feature.</source>
-        <target state="final">このフィールドでサービスが選択された場合 コンテンツ項目は、ユーザーがKlaroで選択したサービスを使用することに同意した場合にのみ、コンテキスト同意を介して表示されます! 同意マネージャー。 この機能を使用するには、Klaroの静的TypoScriptテンプレートが追加されていることを確認してください!</target>
+        <target state="final">このフィールドでサービスが選択された場合 コンテンツ項目は、ユーザーがKlaro!で選択したサービスを使用することに同意した場合にのみ、コンテキスト同意を介して表示されます! 同意マネージャー。 この機能を使用するには、Klaroの静的TypoScriptテンプレートが追加されていることを確認してください!</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.no_notice.label" approved="yes">
         <source>Hide initial consent notice</source>
