@@ -134,9 +134,9 @@
         <source>Enable or disable all services</source>
         <target state="final">Habilitar ou desabilitar todos os serviços</target>
       </trans-unit>
-      <trans-unit id="service.optOut.description">
+      <trans-unit id="service.optOut.description" approved="yes">
         <source>This service is loaded by default (but you can opt out)</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Este serviço é carregado por padrão (mas você pode desistir)</target>
+        <target state="final">Este serviço é carregado por padrão (mas você pode optar por sair).</target>
       </trans-unit>
       <trans-unit id="service.optOut.title" approved="yes">
         <source>(opt-out)</source>
@@ -150,9 +150,9 @@
         <source>purposes</source>
         <target state="final">propósitos</target>
       </trans-unit>
-      <trans-unit id="service.required.description">
+      <trans-unit id="service.required.description" approved="yes">
         <source>This service is always required</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Este serviço é sempre necessário</target>
+        <target state="final">Este serviço é sempre necessário</target>
       </trans-unit>
       <trans-unit id="service.required.title" approved="yes">
         <source>(always required)</source>
@@ -260,7 +260,7 @@
       </trans-unit>
       <trans-unit id="services.career-captain.description" approved="yes">
         <source>Career Captain provides gamified career orientation and recruiting content. When enabled, external content from Career Captain may process usage and technical connection data.</source>
-        <target state="final">O Career Captain fornece orientação de carreira e conteúdo de recrutamento. Quando ativado, conteúdo externo do Career Captain pode processar dados de uso e conexão técnica.</target>
+        <target state="final">O Career Captain fornece orientação de carreira gamificada e conteúdo de recrutamento. Quando ativado, o conteúdo externo do Career Captain pode processar dados de uso e de conexão técnica.</target>
       </trans-unit>
       <trans-unit id="services.clarity.title" approved="yes">
         <source>Microsoft Clarity</source>
@@ -396,7 +396,7 @@
       </trans-unit>
       <trans-unit id="services.salesviewer.description" approved="yes">
         <source>SalesViewer analyzes website visits for B2B lead generation and may identify company-related visitor information based on usage and technical access data.</source>
-        <target state="final">O VesViewer analisa as visitas do site para geração de líderes B2B e pode identificar informações de visitantes relacionadas à empresa com base no uso e dados técnicos de acesso.</target>
+        <target state="final">O SalesViewer analisa as visitas ao site para geração de leads B2B e pode identificar informações de visitantes relacionadas à empresa com base em dados de uso e de acesso técnico.</target>
       </trans-unit>
       <trans-unit id="services.tiktok.title" approved="yes">
         <source>TikTok</source>
@@ -410,9 +410,9 @@
         <source>X (formerly Twitter)</source>
         <target state="final">X (antigo Twitter)</target>
       </trans-unit>
-      <trans-unit id="services.twitter.description">
+      <trans-unit id="services.twitter.description" approved="yes">
         <source>X (formerly Twitter) is a social media platform that allows users to share and interact with short messages and multimedia content. Developers can integrate Twitter features into websites to enhance user engagement and real-time updates while maintaining data privacy compliance and adhering to coding guidelines.</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">X (anteriormente Twitter) é uma plataforma de mídia social que permite aos usuários compartilhar e interagir com mensagens curtas e conteúdo multimídia. Desenvolvedores podem integrar recursos do Twitter em sites para melhorar o envolvimento do usuário e atualizações em tempo real, mantendo a conformidade de privacidade de dados e admissão às diretrizes de codificação.</target>
+        <target state="final">X (anteriormente Twitter) é uma plataforma de mídia social que permite aos usuários compartilhar e interagir com mensagens curtas e conteúdo multimídia. Desenvolvedores podem integrar recursos do Twitter em sites para melhorar o envolvimento do usuário e atualizações em tempo real, mantendo a conformidade com a privacidade de dados e aderindo às diretrizes de codificação.</target>
       </trans-unit>
       <trans-unit id="services.userlike.title" approved="yes">
         <source>Userlike</source>
@@ -536,7 +536,7 @@
       </trans-unit>
       <trans-unit id="warning.noServices" approved="yes">
         <source>Why don't I see a Klaro! Modal? → You must assign at least 1 service to the Klaro! configuration! Without services, we don't need consent management at all.</source>
-        <target state="final">Por que não vejo um Klaro! Modal? → Você deve atribuir pelo menos 1 serviço para o Klaro! configuração! Sem serviços, não precisamos de gestão de consentimentos.</target>
+        <target state="final">Por que não vejo o modal do Klaro!? → Você deve atribuir pelo menos 1 serviço à configuração do Klaro! Sem serviços, não precisamos de gestão de consentimento.</target>
       </trans-unit>
       <trans-unit id="warning.noServicesPersonalized" approved="yes">
         <source>Hey %s! You missed a service in the config! Without services, we don't need consent management at all.</source>
