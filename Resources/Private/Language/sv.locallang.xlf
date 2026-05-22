@@ -16,7 +16,7 @@
       </trans-unit>
       <trans-unit id="consentModal.description" approved="yes">
         <source>Here you can assess and customize the services that we'd like to use on this website. You're in charge! Enable or disable services as you see fit.</source>
-        <target state="final">Här kan du se och anpassa vilken information vi samlar om dig.</target>
+        <target state="final">Här kan du granska och anpassa de tjänster som vi vill använda på den här webbplatsen. Du bestämmer! Aktivera eller inaktivera tjänster som du tycker passar.</target>
       </trans-unit>
       <trans-unit id="consentModal.title" approved="yes">
         <source>Services we would like to use</source>
@@ -28,11 +28,11 @@
       </trans-unit>
       <trans-unit id="consentNotice.description" approved="yes">
         <source>Hi! Could we please enable some additional services for {purposes}? You can always change or withdraw your consent later.</source>
-        <target state="final">Vi samlar och bearbetar din personliga data i följande syften: {purposes}.</target>
+        <target state="final">Hej! Kan vi aktivera några ytterligare tjänster för {purposes}? Du kan alltid ändra eller återkalla ditt samtycke senare.</target>
       </trans-unit>
       <trans-unit id="consentNotice.learnMore" approved="yes">
         <source>Let me choose</source>
-        <target state="final">Läs mer</target>
+        <target state="final">Låt mig välja</target>
       </trans-unit>
       <trans-unit id="consentNotice.testing" approved="yes">
         <source>Testing mode!</source>
@@ -128,15 +128,15 @@
       </trans-unit>
       <trans-unit id="service.disableAll.description" approved="yes">
         <source>Use this switch to enable or disable all services.</source>
-        <target state="final">Använd detta reglage för att aktivera/avaktivera samtliga appar.</target>
+        <target state="final">Använd det här reglaget för att aktivera eller inaktivera alla tjänster.</target>
       </trans-unit>
       <trans-unit id="service.disableAll.title" approved="yes">
         <source>Enable or disable all services</source>
-        <target state="final">Ändra för alla appar</target>
+        <target state="final">Aktivera eller inaktivera alla tjänster</target>
       </trans-unit>
-      <trans-unit id="service.optOut.description">
+      <trans-unit id="service.optOut.description" approved="yes">
         <source>This service is loaded by default (but you can opt out)</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Denna tjänst är laddad som standard (men du kan välja bort)</target>
+        <target state="final">Den här tjänsten laddas som standard (men du kan välja bort den)</target>
       </trans-unit>
       <trans-unit id="service.optOut.title" approved="yes">
         <source>(opt-out)</source>
@@ -150,9 +150,9 @@
         <source>purposes</source>
         <target state="final">ändamål</target>
       </trans-unit>
-      <trans-unit id="service.required.description">
+      <trans-unit id="service.required.description" approved="yes">
         <source>This service is always required</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Denna tjänst krävs alltid</target>
+        <target state="final">Den här tjänsten krävs alltid</target>
       </trans-unit>
       <trans-unit id="service.required.title" approved="yes">
         <source>(always required)</source>
@@ -260,7 +260,7 @@
       </trans-unit>
       <trans-unit id="services.career-captain.description" approved="yes">
         <source>Career Captain provides gamified career orientation and recruiting content. When enabled, external content from Career Captain may process usage and technical connection data.</source>
-        <target state="final">Career Captain tillhandahåller gamified karriär orientering och rekrytering av innehåll. När detta är aktiverat kan externt innehåll från Career Captain bearbeta användning och tekniska anslutningsdata.</target>
+        <target state="final">Career Captain tillhandahåller gamifierad karriärvägledning och rekryteringsinnehåll. När tjänsten är aktiverad kan externt innehåll från Career Captain behandla användningsdata och tekniska anslutningsdata.</target>
       </trans-unit>
       <trans-unit id="services.clarity.title" approved="yes">
         <source>Microsoft Clarity</source>
@@ -372,7 +372,7 @@
       </trans-unit>
       <trans-unit id="services.klaro.description" approved="yes">
         <source>Klaro! manages consent choices for this website and stores whether individual services may be loaded according to your preferences.</source>
-        <target state="final">Klaro! hanterar samtycke val för denna webbplats och lagrar om enskilda tjänster kan laddas enligt dina önskemål.</target>
+        <target state="final">Klaro! hanterar samtyckesval för den här webbplatsen och sparar om enskilda tjänster får laddas enligt dina preferenser.</target>
       </trans-unit>
       <trans-unit id="services.matomo.title" approved="yes">
         <source>Matomo/Piwik</source>
@@ -396,7 +396,7 @@
       </trans-unit>
       <trans-unit id="services.salesviewer.description" approved="yes">
         <source>SalesViewer analyzes website visits for B2B lead generation and may identify company-related visitor information based on usage and technical access data.</source>
-        <target state="final">SalesViewer analyserar webbplatsbesök för B2B-generering och kan identifiera företagsrelaterad besöksinformation baserat på användnings- och teknisk åtkomstdata.</target>
+        <target state="final">SalesViewer analyserar webbplatsbesök för B2B-leadgenerering och kan identifiera företagsrelaterad besöksinformation baserat på användningsdata och tekniska åtkomstdata.</target>
       </trans-unit>
       <trans-unit id="services.tiktok.title" approved="yes">
         <source>TikTok</source>
@@ -410,9 +410,9 @@
         <source>X (formerly Twitter)</source>
         <target state="final">X (tidigare Twitter)</target>
       </trans-unit>
-      <trans-unit id="services.twitter.description">
+      <trans-unit id="services.twitter.description" approved="yes">
         <source>X (formerly Twitter) is a social media platform that allows users to share and interact with short messages and multimedia content. Developers can integrate Twitter features into websites to enhance user engagement and real-time updates while maintaining data privacy compliance and adhering to coding guidelines.</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">X (tidigare Twitter) är en social medieplattform som tillåter användare att dela och interagera med korta meddelanden och multimedieinnehåll. Utvecklare kan integrera Twitter-funktioner på webbplatser för att förbättra användarnas engagemang och realtidsuppdateringar samtidigt som dataintegriteten efterlevs och kodningsriktlinjer följs.</target>
+        <target state="final">X (tidigare Twitter) är en social medieplattform som tillåter användare att dela och interagera med korta meddelanden och multimedieinnehåll. Utvecklare kan integrera Twitter-funktioner på webbplatser för att förbättra användarnas engagemang och realtidsuppdateringar samtidigt som dataintegriteten efterlevs och kodningsriktlinjer följs.</target>
       </trans-unit>
       <trans-unit id="services.userlike.title" approved="yes">
         <source>Userlike</source>
@@ -536,7 +536,7 @@
       </trans-unit>
       <trans-unit id="warning.noServices" approved="yes">
         <source>Why don't I see a Klaro! Modal? → You must assign at least 1 service to the Klaro! configuration! Without services, we don't need consent management at all.</source>
-        <target state="final">Varför ser jag inte Klaro! Modal? → Du måste tilldela minst 1 service till Klaro! konfiguration! Utan tjänster behöver vi inte någon samtyckeshantering alls.</target>
+        <target state="final">Varför ser jag inte Klaro!-modalen? → Du måste tilldela minst 1 tjänst till Klaro!-konfigurationen! Utan tjänster behöver vi ingen samtyckeshantering alls.</target>
       </trans-unit>
       <trans-unit id="warning.noServicesPersonalized" approved="yes">
         <source>Hey %s! You missed a service in the config! Without services, we don't need consent management at all.</source>
