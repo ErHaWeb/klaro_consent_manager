@@ -13,7 +13,7 @@
       </trans-unit>
       <trans-unit id="categories.klaroconsentmanager.templates" approved="yes">
         <source>Templates</source>
-        <target state="final">Vorlagen</target>
+        <target state="final">Templates</target>
       </trans-unit>
       <trans-unit id="categories.klaroconsentmanager.resources" approved="yes">
         <source>Resources</source>
@@ -25,7 +25,7 @@
       </trans-unit>
       <trans-unit id="settings.plugin.tx_klaroconsentmanager.view.templateRootPath" approved="yes">
         <source>Path to template root (FE)</source>
-        <target state="final">Pfad zum Template root (FE)</target>
+        <target state="final">Pfad zum Template-Root (FE)</target>
       </trans-unit>
       <trans-unit id="settings.plugin.tx_klaroconsentmanager.view.partialRootPath" approved="yes">
         <source>Path to template partials (FE)</source>
@@ -41,7 +41,7 @@
       </trans-unit>
       <trans-unit id="settings.plugin.tx_klaroconsentmanager.settings.css.klaro-custom" approved="yes">
         <source>Custom additions for Klaro CSS</source>
-        <target state="final">Benutzerdefinierte Hinzufügungen für Klaro CSS</target>
+        <target state="final">Benutzerdefinierte Ergänzungen für Klaro CSS</target>
       </trans-unit>
       <trans-unit id="settings.plugin.tx_klaroconsentmanager.settings.javascript.klaro-default" approved="yes">
         <source>Klaro JavaScript</source>
@@ -53,19 +53,19 @@
       </trans-unit>
       <trans-unit id="settings.description.plugin.tx_klaroconsentmanager.settings.contextualconsent.replaceAttributes" approved="yes">
         <source>Comma-separated list of attributes that should be automatically replaced within the content element of the contextual consent</source>
-        <target state="final">Kommaseparierte Liste von Attributen, die automatisch innerhalb des Inhaltselements der kontextabhängigen Zustimmung ersetzt werden sollen</target>
+        <target state="final">Kommaseparierte Liste von Attributen, die innerhalb des Inhaltselements der kontextuellen Einwilligung automatisch ersetzt werden sollen</target>
       </trans-unit>
       <trans-unit id="settings.plugin.tx_klaroconsentmanager.settings.contextualconsent.mainSectionOnly" approved="yes">
         <source>Main section only</source>
-        <target state="final">Nur Hauptabschnitt</target>
+        <target state="final">Nur Hauptbereich</target>
       </trans-unit>
-      <trans-unit id="settings.description.plugin.tx_klaroconsentmanager.settings.contextualconsent.mainSectionOnly">
+      <trans-unit id="settings.description.plugin.tx_klaroconsentmanager.settings.contextualconsent.mainSectionOnly" approved="yes">
         <source>Activate this option if the contextual consent box should be limited to the main content only (without heading and footer).</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Aktivieren Sie diese Option, wenn die Kontext-Zustimmungsbox nur auf den Hauptinhalt beschränkt werden soll (ohne Überschrift und Fußzeile).</target>
+        <target state="final">Aktivieren Sie diese Option, wenn die Box für die kontextuelle Einwilligung nur auf den Hauptinhalt beschränkt werden soll (ohne Überschrift und Fußzeile).</target>
       </trans-unit>
       <trans-unit id="settings.plugin.tx_klaroconsentmanager.settings.configuration.disabled" approved="yes">
         <source>Disable Klaro Consent Management</source>
-        <target state="final">Klaro Einwilligungsverwaltung deaktivieren</target>
+        <target state="final">Klaro Einwilligungsmanagement deaktivieren</target>
       </trans-unit>
     </body>
   </file>
