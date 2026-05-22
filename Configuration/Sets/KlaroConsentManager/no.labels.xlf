@@ -5,7 +5,7 @@
     <body>
       <trans-unit id="label" approved="yes">
         <source>Klaro! Consent Manager</source>
-        <target state="final">Klaro! samtykke Manager</target>
+        <target state="final">Klaro! samtykkeadministrasjon</target>
       </trans-unit>
       <trans-unit id="categories.klaroconsentmanager" approved="yes">
         <source>Klaro</source>
@@ -25,15 +25,15 @@
       </trans-unit>
       <trans-unit id="settings.plugin.tx_klaroconsentmanager.view.templateRootPath" approved="yes">
         <source>Path to template root (FE)</source>
-        <target state="final">Sti til mal-rot (FE)</target>
+        <target state="final">Sti til malrot (FE)</target>
       </trans-unit>
       <trans-unit id="settings.plugin.tx_klaroconsentmanager.view.partialRootPath" approved="yes">
         <source>Path to template partials (FE)</source>
-        <target state="final">Sti til malpartialer (FE)</target>
+        <target state="final">Sti til mal-partials (FE)</target>
       </trans-unit>
       <trans-unit id="settings.plugin.tx_klaroconsentmanager.view.layoutRootPath" approved="yes">
         <source>Path to template layouts (FE)</source>
-        <target state="final">Bane til maloppsett (FE)</target>
+        <target state="final">Sti til mal-layouts (FE)</target>
       </trans-unit>
       <trans-unit id="settings.plugin.tx_klaroconsentmanager.settings.css.klaro-default" approved="yes">
         <source>Klaro CSS</source>
@@ -41,7 +41,7 @@
       </trans-unit>
       <trans-unit id="settings.plugin.tx_klaroconsentmanager.settings.css.klaro-custom" approved="yes">
         <source>Custom additions for Klaro CSS</source>
-        <target state="final">Tilpasset tillegg for Klaro CSS</target>
+        <target state="final">Egendefinerte tillegg for Klaro CSS</target>
       </trans-unit>
       <trans-unit id="settings.plugin.tx_klaroconsentmanager.settings.javascript.klaro-default" approved="yes">
         <source>Klaro JavaScript</source>
@@ -53,19 +53,19 @@
       </trans-unit>
       <trans-unit id="settings.description.plugin.tx_klaroconsentmanager.settings.contextualconsent.replaceAttributes" approved="yes">
         <source>Comma-separated list of attributes that should be automatically replaced within the content element of the contextual consent</source>
-        <target state="final">Kommadelt liste over attributter som skal automatisk erstattes innenfor innholdselementet i det kontekstuelle samtykket</target>
+        <target state="final">Kommaseparert liste over attributter som skal erstattes automatisk i innholdselementet for kontekstuelt samtykke</target>
       </trans-unit>
       <trans-unit id="settings.plugin.tx_klaroconsentmanager.settings.contextualconsent.mainSectionOnly" approved="yes">
         <source>Main section only</source>
-        <target state="final">Kun ved hovedseksjon</target>
+        <target state="final">Bare hovedseksjon</target>
       </trans-unit>
-      <trans-unit id="settings.description.plugin.tx_klaroconsentmanager.settings.contextualconsent.mainSectionOnly">
+      <trans-unit id="settings.description.plugin.tx_klaroconsentmanager.settings.contextualconsent.mainSectionOnly" approved="yes">
         <source>Activate this option if the contextual consent box should be limited to the main content only (without heading and footer).</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Aktiver dette alternativet hvis den kontekstuelle samtykkeboksen skal være begrenset til hovedinnholdet (uten overskrift og bunntekst).</target>
+        <target state="final">Aktiver dette alternativet hvis boksen for kontekstuelt samtykke bare skal begrenses til hovedinnholdet (uten overskrift og bunntekst).</target>
       </trans-unit>
       <trans-unit id="settings.plugin.tx_klaroconsentmanager.settings.configuration.disabled" approved="yes">
         <source>Disable Klaro Consent Management</source>
-        <target state="final">Deaktivere Klaro samtykke håndtering</target>
+        <target state="final">Deaktiver Klaro-samtykkeadministrasjon</target>
       </trans-unit>
     </body>
   </file>
