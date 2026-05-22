@@ -105,7 +105,7 @@
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.title.placeholder" approved="yes">
         <source>My Klaro! Configuration</source>
-        <target state="final">我的 Klaro ！配置</target>
+        <target state="final">我的 Klaro! 配置</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.testing.label" approved="yes">
         <source>Testing</source>
@@ -121,11 +121,11 @@
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.config_variable_name.description" approved="yes">
         <source>By default, Klaro loads the configuration from a global variable `klaroConfig`. You can change this here. Specifying this field will cause the attribute data-klaro-config="yourConfigVariableName" to be set.</source>
-        <target state="final">默认情况下，Klaro从全局变量`klaroConfig`加载配置。您可以在此更改此设置。 指定此字段将导致设置属性 data-klaro-config="your Config变量名称"。</target>
+        <target state="final">默认情况下，Klaro 会从全局变量 `klaroConfig` 加载配置。您可以在此更改该设置。指定此字段会设置属性 data-klaro-config="yourConfigVariableName"。</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.config_variable_name.placeholder" approved="yes">
         <source>klaroConfig</source>
-        <target state="final">klaro配置</target>
+        <target state="final">klaroConfig</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.element_i_d.label" approved="yes">
         <source>Element ID</source>
@@ -151,9 +151,9 @@
         <source>Additional Class</source>
         <target state="final">附加类</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_configuration.additional_class.description">
+      <trans-unit id="tx_klaroconsentmanager_configuration.additional_class.description" approved="yes">
         <source>You can specify an additional class (or classes) that will be added to the Klaro `div`.</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">您可以指定一个将被添加到 Klaro `div` 的附加类(或类)。</target>
+        <target state="final">您可以指定一个将被添加到 Klaro `div` 的附加类 (或类)</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.additional_class.placeholder" approved="yes">
         <source>my-klaro</source>
@@ -165,7 +165,7 @@
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.storage_method.description" approved="yes">
         <source>You can customize how Klaro persists consent information in the browser. Specify either `cookie` (the default) or `localStorage`.</source>
-        <target state="final">您可以自定义 Klaro 如何在浏览器中保持同意信息。指定 `cookie` (默认) 或 `localStorage` 。</target>
+        <target state="final">您可以自定义 Klaro 在浏览器中存储同意信息的方式。请指定 `cookie`（默认）或 `localStorage`。</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.storage_method.I.none" approved="yes">
         <source>None</source>
@@ -225,7 +225,7 @@
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.cookie_domain.placeholder" approved="yes">
         <source>.example.com</source>
-        <target state="final">example.com</target>
+        <target state="final">.example.com</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.cookie_path.label" approved="yes">
         <source>Cookie Path</source>
@@ -263,9 +263,9 @@
         <source>Must consent</source>
         <target state="final">必须同意</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_configuration.must_consent.description">
+      <trans-unit id="tx_klaroconsentmanager_configuration.must_consent.description" approved="yes">
         <source>If `mustConsent` is set to `true`, Klaro will directly display the consent manager modal and not allow the user to close it before having actively consented to or declined the use of third-party services.</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">如果`mustConsent`设置为 `true`， Klaro将直接显示同意管理器模式，不允许用户在积极同意或拒绝使用第三方服务之前关闭它。</target>
+        <target state="final">如果`mustConsent`设置为 `true`， Klaro将直接显示同意管理器模式，不允许用户在主动同意或拒绝使用第三方服务之前关闭它。</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.accept_all.label" approved="yes">
         <source>Accept all</source>
@@ -281,7 +281,7 @@
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.hide_decline_all.description" approved="yes">
         <source>Setting `hideDeclineAll` to `true` will hide the "decline" button in the consent modal and force the user to open the modal in order to change his/her consent or disable all third-party services. We strongly advise you to not use this feature, as it opposes the "privacy by default" and "privacy by design" principles of the GDPR (but might be acceptable in other legislations such as under the CCPA)</source>
-        <target state="final">设置`hideDeclineAll`为`true`将隐藏同意式中的“decline”按钮，并强制用户打开模式以更改他/她的同意或禁用所有第三方服务。 我们强烈建议您不要使用此功能， 因为它反对GDRPR的“默认隐私”和“设计的隐私”原则(但在诸如CCPA等其他立法中可能可以接受)</target>
+        <target state="final">将 `hideDeclineAll` 设置为 `true` 会隐藏同意弹窗中的“拒绝”按钮，并强制用户打开弹窗来更改其同意或禁用所有第三方服务。我们强烈建议不要使用此功能，因为它违背 GDPR 的“默认隐私”和“设计隐私”原则（但在其他法规下可能可以接受，例如 CCPA）。</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.hide_learn_more.label" approved="yes">
         <source>Hide Learn More</source>
@@ -317,11 +317,11 @@
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.show_description_empty_store.label" approved="yes">
         <source>Show Description (Empty Store)</source>
-        <target state="final">显示描述(空店)</target>
+        <target state="final">显示描述（空存储）</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.show_description_empty_store.description" approved="yes">
         <source>Show an explanatory text in contextual consent placeholders when no consent storage exists yet (first visit / empty store). This informs users that a permanent decision ("Always") requires allowing Klaro to store consent first. This only has an effect in contextual consent widgets/overlays (e.g. for embedded media) and only if the consent store (cookie/localStorage) is empty.</source>
-        <target state="final">当尚无同意存储时在上下文同意占位符中显示解释性文本 (首次访问/空存储)。 这通知用户，永久性决定("总是") 需要允许 Klaro 首先存储同意。 这只会对上下文同意的小部件/叠加层产生影响(如内嵌介质)，只有在同意存储 (Cookie/localStorage) 为空。</target>
+        <target state="final">当尚无同意存储时，在上下文同意占位符中显示说明文本（首次访问 / 空存储）。这会告知用户，永久决定（“始终”）需要先允许 Klaro 存储同意。此设置仅对上下文同意小组件/覆盖层（例如嵌入式媒体）有效，并且仅在同意存储（cookie/localStorage）为空时有效。</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.auto_focus.label" approved="yes">
         <source>Auto Focus</source>
@@ -337,7 +337,7 @@
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.disable_powered_by.description" approved="yes">
         <source>You can also remove the "Realized with Klaro!" text in the consent modal. Please don't do this! We provide Klaro as a free open source tool. Placing a link to our website helps us spread the word about it, which ultimately enables us to make Klaro! better for everyone. So please be fair and keep the link enabled. Thanks :)</source>
-        <target state="final">您也可以在同意模式中移除"通过 Klaro 实现!" 文本。 请不要这么做！我们提供 Klaro 作为免费开源工具。 将链接到我们的网站有助于我们传播有关它的信息，最终使我们能够使Klaro变得更好！ 所以请做到公平并保持链接启用。感谢:)</target>
+        <target state="final">您也可以在同意模式中移除"通过 Klaro! 实现!" 文本。 请不要这么做！我们提供 Klaro 作为免费开源工具。 将链接到我们的网站有助于我们传播有关它的信息，最终使我们能够使Klaro变得更好！ 所以请做到公平并保持链接启用。感谢:)</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.services.label" approved="yes">
         <source>Services</source>
@@ -353,7 +353,7 @@
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.purpose_order.description" approved="yes">
         <source>The order in which purposes appear in the notice and modal can be changed via the `purposeOrder` parameter, which can be given a list with purpose names and will display those purposes in the order in which they appear in the list.</source>
-        <target state="final">在通知和模式中出现目的的顺序可以通过 `ocuseOrder` 参数更改， 它可以提供一个带有目的名称的清单，并将按照其出现在清单中的先后顺序显示这些目的。</target>
+        <target state="final">可以通过 `purposeOrder` 参数更改目的在通知和模态窗口中的显示顺序；该参数可以接收目的名称列表，并按列表中的顺序显示这些目的。</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.callback.label" approved="yes">
         <source>Callback</source>
@@ -361,7 +361,7 @@
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.callback.description" approved="yes">
         <source>You can define an optional callback function that will be called each time the consent state for any given service changes. The consent value will be passed as the first parameter to the function (`true` = consented). The `service` config will be passed as the second parameter. The content of this field is wrapped with `callback: function(consent, service) { }`</source>
-        <target state="final">您可以定义一个可选的回调函数，这个函数将在每次同意状态对任何特定服务的更改时调用。 同意值将作为函数的第一个参数传递(`true` = 同意)。 `service`配置将作为第二个参数传递。此字段的内容被包装为 `callback：函数(同意、服务) { }</target>
+        <target state="final">您可以定义一个可选的 callback 函数，该函数会在任何服务的同意状态发生变化时调用。同意值将作为函数的第一个参数传递（`true` = 已同意）。`service` 配置将作为第二个参数传递。此字段的内容会被包装为 `callback: function(consent, service) { }`</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.locallang_path.label" approved="yes">
         <source>Locallang Path</source>
@@ -369,19 +369,19 @@
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.locallang_path.description" approved="yes">
         <source>Optional path to an additional XLIFF file that overwrites the default labels or adds new labels (e.g. for custom purposes or services). If fluid templates have been stored for the labels created in this file (see the "Fluid Template Root Path" field), these will overwrite the classic labels from the Locallang file. Nevertheless, it is possible and common to reference the locallang file from the respective fluid template and obtain the actual label there (the label key is passed to the fluid template).</source>
-        <target state="final">覆盖默认标签或添加新标签的附加XLIFF 文件的可选路径(例如用于自定义目的或服务)。 如果流体模板已存储在此文件中创建的标签(见“流体模板根路径”字段), 这些将覆盖Locallang文件中的经典标签。 然而，仍然存在着这种情况。 从各自流体模板中引用本地文件并获取实际标签是可能和常见的(标签键转到流体模板)。</target>
+        <target state="final">覆盖默认标签或添加新标签的附加XLIFF 文件的可选路径(例如用于自定义目的或服务)。 如果流体模板已存储在此文件中创建的标签(见“流体模板根路径”字段), 这些将覆盖Locallang文件中的经典标签。 然而，仍然存在着这种情况。 从各自流体模板中引用本地文件并获取实际标签是可能和常见的(标签键转到流体模板)。 (Fluid)</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.locallang_path.placeholder" approved="yes">
         <source>EXT:sitepackage/Resources/Private/Language/Klaro/locallang.xlf</source>
-        <target state="final">EXT:sitepackage/Resources/Private/Languguage/Klaro/locallang.xlf</target>
+        <target state="final">EXT:sitepackage/Resources/Private/Language/Klaro/locallang.xlf</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.fluidtemplate_rootpath.label" approved="yes">
         <source>Fluid Template Root Path</source>
-        <target state="final">液体模板根路径</target>
+        <target state="final">液体模板根路径 (Fluid)</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.fluidtemplate_rootpath.description" approved="yes">
         <source>As an alternative to the usual TypoScript configuration via constants under `plugin.tx_klaroconsentmanager.view`, a Fluid root path can be defined here, which has a higher priority than the paths configured in TypoScript. The three default directories `/Layouts/`, `/Partials/` and `/Templates/` are expected under this path. Fluid templates created here are used to enrich Locallang labels with additional functionality or to replace them completely. In this way, dynamic content or more complex HTML structures can be provided in a simple way. Fluid templates that are to override labels are expected in the subdirectory `/Templates/Labels/`.</source>
-        <target state="final">作为通常在 `plugin.tx_klaroconsentmanager 下通过常量配置的 TypoScript 配置的替代。 iw`，可以在此定义流体根路径，它比TypoScript中配置的路径具有更高的优先级。 在这个路径下需要三个默认目录 `/Layouts/`, `/partials/`和`/Templates/` 。 在此创建的流体模板被用来丰富本地标签的附加功能或完全替换它们。 这样，可以简单地提供动态内容或更复杂的HTML结构。 要覆盖标签的流体模板在子目录 `/Templates/Labels/` 中是预期的。</target>
+        <target state="final">作为通过 `plugin.tx_klaroconsentmanager.view` 下的常量进行常规 TypoScript 配置的替代方案，可在此定义 Fluid 根路径，其优先级高于 TypoScript 中配置的路径。该路径下应包含三个默认目录 `/Layouts/`、`/Partials/` 和 `/Templates/`。在此创建的 Fluid 模板用于为 Locallang 标签增加额外功能，或完全替换这些标签。这样可以以简单方式提供动态内容或更复杂的 HTML 结构。用于覆盖标签的 Fluid 模板应位于子目录 `/Templates/Labels/` 中。</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.fluidtemplate_rootpath.placeholder" approved="yes">
         <source>EXT:sitepackage/Resources/Private/</source>
@@ -393,7 +393,7 @@
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.alignment.description" approved="yes">
         <source>Determines the alignment of the Consent box if `mustConsent` and `noticeAsModal` are disabled.</source>
-        <target state="final">如果`mustConsent`和`noteAsModal`被禁用，则确定同意框的对齐。</target>
+        <target state="final">如果禁用了 `mustConsent` 和 `noticeAsModal`，则确定同意框的对齐方式。</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.alignment.I.top-left" approved="yes">
         <source>Top-Left</source>
@@ -741,7 +741,7 @@
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_service.cookies.description" approved="yes">
         <source>You can either only provide a cookie name or regular expression (regex) or a list consisting of a name or regex, a path and a cookie domain. Providing a path and domain is necessary if you have services that set cookies for a path that is not "/", or a domain that is not the current domain. If you do not set these values properly, the cookie can't be deleted by Klaro, as there is no way to access the path or domain of a cookie in JS. Notice that it is not possible to delete cookies that were set on a third-party domain, or cookies that have the HTTPOnly attribute: https://developer.mozilla.org/en-US/docs/Web/API/Document/cookie#new-cookie_domain</source>
-        <target state="final">您只能提供一个 cookie 名称或正则表达式 (regex) 或包含名称或正则表达式的列表， 路径和 cookie 域。 如果您有服务为非"/"路径设置cookie，必须提供路径和域。 或者不是当前域的域。 如果您没有正确设置这些值，无法由 Klaro 删除 cookie 。 因为无法访问 JS 的 cookie 的路径或域名。 请注意，无法删除 第三方域名上设置的 cookie，或有 HTTPOnly 属性的 cookie ：https://developer.mozilla.org/en-US/docs/Web/ADI/Document/cookie#new-cookie_domain</target>
+        <target state="final">您可以只提供 cookie 名称或正则表达式（regex），也可以提供由名称或 regex、路径和 cookie 域组成的列表。如果服务设置 cookie 的路径不是 "/"，或域不是当前域，则必须提供路径和域。如果这些值设置不正确，Klaro 将无法删除该 cookie，因为在 JS 中无法访问 cookie 的路径或域。请注意，无法删除设置在第三方域上的 cookie，也无法删除带有 HTTPOnly 属性的 cookie：https://developer.mozilla.org/en-US/docs/Web/API/Document/cookie#new-cookie_domain</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_service.required.label" approved="yes">
         <source>Required</source>
@@ -749,7 +749,7 @@
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_service.required.description" approved="yes">
         <source>If `required` is set to `true`, Klaro will not allow this service to be disabled by the user. Use this for services that are always required for your website to function (e.g. shopping cart cookies).</source>
-        <target state="final">如果`requird` 设置为 `true`，Klaro 将不允许用户禁用此服务。 将此用于您的网站运行时始终需要的服务(例如购物车cookies)。</target>
+        <target state="final">如果 `required` 设置为 `true`，Klaro 将不允许用户禁用此服务。请将其用于网站运行始终需要的服务（例如购物车 cookie）。</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_service.opt_out.label" approved="yes">
         <source>Opt-Out</source>
@@ -773,15 +773,15 @@
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_service.contextual_consent_only.description" approved="yes">
         <source>Content can be excluded from general consent by setting contextualConsentOnly to `true`. In this case, the consent must be contextual.</source>
-        <target state="final">内容可以通过设置上下文表示的方式排除在普遍同意之外。在这种情况下，同意必须是上下文的。</target>
+        <target state="final">通过将 `contextualConsentOnly` 设置为 `true`，可以将内容排除在全局同意之外。在这种情况下，必须通过上下文方式获取同意。</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_service.callback.label" approved="yes">
         <source>Callback</source>
         <target state="final">Callback</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_service.callback.description">
+      <trans-unit id="tx_klaroconsentmanager_service.callback.description" approved="yes">
         <source>You can define an optional callback function that will be called each time the consent state for the given service changes. The consent value will be passed as the first parameter to the function (`true` = consented). The `service` config will be passed as the second parameter. The content of this field is wrapped with `callback: function(consent, service) { }`. `consent` is a bool that reflects the current state. `service` holds all information about the currently selected service. When you enter something here, you need to know what you are doing. It is your responsibility that no JavaScript errors occur.</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">您可以定义一个可选的回调函数，这个函数将在每次同意状态对特定服务的更改时调用。 同意值将作为函数的第一个参数传递(`true` = 同意)。 `service`配置将作为第二个参数传递。 此字段的内容用`callback：函数(同意、服务)}`。`同意'是一个反映当前状态的布尔值。 `service`保存当前选定服务的所有信息。 当你在这里输入某些东西时，你需要知道你在做什么。你的责任是没有发生JavaScript错误。</target>
+        <target state="final">您可以定义一个可选的 callback 函数，该函数会在指定服务的同意状态发生变化时调用。同意值将作为函数的第一个参数传递（`true` = 已同意）。`service` 配置将作为第二个参数传递。此字段的内容会被包装为 `callback: function(consent, service) { }`。`consent` 是反映当前状态的 bool。`service` 保存当前所选服务的全部信息。在此输入内容时，您需要清楚自己在做什么。您有责任确保不会发生 JavaScript 错误。</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_service.on_accept.label" approved="yes">
         <source>`onAccept` callback function</source>
@@ -789,7 +789,7 @@
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_service.on_accept.description" approved="yes">
         <source>Here you can define JavaScript code that will be called each time the service was accepted. The content of this field is wrapped with `callback: function(handlerOpts) { }`. The object `handlerOpts` contains the objects `config` (the current Klaro! configuration), `service` (the current service) and possibly `vars` (any values defined by object notation in the vars field in the backend). When you enter something here, you need to know what you are doing. It is your responsibility that no JavaScript errors occur.</source>
-        <target state="final">这里您可以定义每次接受服务时都会调用的 JavaScript 代码。 此字段的内容被包装为“回调：函数(处理器Ops) { }`。 对象`handlerOpts`含有`config`(当前的 Klaro) 配置)、`service`(当前服务)和可能的`vars`(在后端的Vars字段中由对象符号定义的任何值)。 当你在这里输入某些东西时，你需要知道你在做什么。你的责任是没有发生JavaScript错误。</target>
+        <target state="final">您可以在此定义每次接受服务时调用的 JavaScript 代码。此字段的内容会被包装为 `callback: function(handlerOpts) { }`。对象 `handlerOpts` 包含对象 `config`（当前 Klaro! 配置）、`service`（当前服务）以及可能的 `vars`（在后端 vars 字段中通过对象表示法定义的任何值）。在此输入内容时，您需要清楚自己在做什么。您有责任确保不会发生 JavaScript 错误。</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_service.on_init.label" approved="yes">
         <source>`onInit` callback function</source>
@@ -797,7 +797,7 @@
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_service.on_init.description" approved="yes">
         <source>Here you can define JavaScript code that will be called once per page-load. The content of this field is wrapped with `callback: function(handlerOpts) { }`. The object `handlerOpts` contains the objects `config` (the current Klaro! configuration), `service` (the current service) and possibly `vars` (any values defined by object notation in the vars field in the backend). When you enter something here, you need to know what you are doing. It is your responsibility that no JavaScript errors occur.</source>
-        <target state="final">这里您可以定义每个页面加载一次调用的 JavaScript 代码。 此字段的内容被包装为“回调：函数(处理器Ops) { }`。 对象`handlerOpts`含有`config`(当前的 Klaro) 配置)、`service`(当前服务)和可能的`vars`(在后端的Vars字段中由对象符号定义的任何值)。 当你在这里输入某些东西时，你需要知道你在做什么。你的责任是没有发生JavaScript错误。</target>
+        <target state="final">您可以在此定义每次页面加载时调用一次的 JavaScript 代码。此字段的内容会被包装为 `callback: function(handlerOpts) { }`。对象 `handlerOpts` 包含对象 `config`（当前 Klaro! 配置）、`service`（当前服务）以及可能的 `vars`（在后端 vars 字段中通过对象表示法定义的任何值）。在此输入内容时，您需要清楚自己在做什么。您有责任确保不会发生 JavaScript 错误。</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_service.on_decline.label" approved="yes">
         <source>`onDecline` callback function</source>
@@ -805,7 +805,7 @@
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_service.on_decline.description" approved="yes">
         <source>Here you can define JavaScript code that will be called each time the service was declined. The content of this field is wrapped with `callback: function(handlerOpts) { }`. The object `handlerOpts` contains the objects `config` (the current Klaro! configuration), `service` (the current service) and possibly `vars` (any values defined by object notation in the vars field in the backend). When you enter something here, you need to know what you are doing. It is your responsibility that no JavaScript errors occur.</source>
-        <target state="final">这里您可以定义每次拒绝服务时都会调用的 JavaScript 代码。 此字段的内容被包装为“回调：函数(处理器Ops) { }`。 对象`handlerOpts`含有`config`(当前的 Klaro) 配置)、`service`(当前服务)和可能的`vars`(在后端的Vars字段中由对象符号定义的任何值)。 当你在这里输入某些东西时，你需要知道你在做什么。你的责任是没有发生JavaScript错误。</target>
+        <target state="final">您可以在此定义每次拒绝服务时调用的 JavaScript 代码。此字段的内容会被包装为 `callback: function(handlerOpts) { }`。对象 `handlerOpts` 包含对象 `config`（当前 Klaro! 配置）、`service`（当前服务）以及可能的 `vars`（在后端 vars 字段中通过对象表示法定义的任何值）。在此输入内容时，您需要清楚自己在做什么。您有责任确保不会发生 JavaScript 错误。</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_service.vars.label" approved="yes">
         <source>Variables</source>
@@ -841,7 +841,7 @@
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_cookie.palettes.technic_palette.description" approved="yes">
         <source>This information is technically evaluated by Klaro! to manipulate the cookie.</source>
-        <target state="final">Klaro对此信息进行了技术评估，以操纵cookie。</target>
+        <target state="final">Klaro!对此信息进行了技术评估，以操纵cookie。</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_cookie.palettes.expiration_palette" approved="yes">
         <source>Expiration Time</source>
@@ -861,7 +861,7 @@
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_cookie.identifier.placeholder" approved="yes">
         <source>lowercase_alphanum-x</source>
-        <target state="final">小写字母-x</target>
+        <target state="final">lowercase_alphanum-x</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_cookie.title.label" approved="yes">
         <source>Title</source>
@@ -869,7 +869,7 @@
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_cookie.title.description" approved="yes">
         <source>If set, this title will be used in the frontend/backend for displaying the cookie. This title has no technical relevance (contrary to the `pattern` field).</source>
-        <target state="final">如果设置，这个标题将用于前端/后端显示cookie。这个标题没有技术意义(不同于“pattern”字段)。</target>
+        <target state="final">如果设置，此标题将用于在前端/后端显示 cookie。此标题没有技术意义（不同于 `pattern` 字段）。</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_cookie.title.placeholder" approved="yes">
         <source>mf_[Session]</source>
@@ -885,7 +885,7 @@
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_cookie.pattern.placeholder" approved="yes">
         <source>/^_pk_.*$/</source>
-        <target state="final">/ ^_pk_.*$/</target>
+        <target state="final">/^_pk_.*$/</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_cookie.path.label" approved="yes">
         <source>Path</source>
@@ -929,7 +929,7 @@
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_cookie.expires_after_unit.description" approved="yes">
         <source>Unit used for the "Expires after" specification. The special value `end-of-session` does not need a numeric value and hides the "Expires after" field accordingly.</source>
-        <target state="final">"过期"过期"说明使用的单元。特殊值 "结束会话" 不需要一个数字值，并相应隐藏"过期"字段。</target>
+        <target state="final">"过期"过期"说明使用的单元。特殊值 "结束会话" 不需要一个数字值，并相应隐藏"过期"字段。 (`end-of-session`)</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_cookie.expires_after_unit.I.years" approved="yes">
         <source>Years</source>
@@ -973,7 +973,7 @@
       </trans-unit>
       <trans-unit id="tt_content.tx_klaroconsentmanager_service.description" approved="yes">
         <source>When a service is selected in this field, the content item is displayed via contextual consent only if the user has agreed to use the selected service in the Klaro! Consent Manager. Please make sure that the static TypoScript template of the Klaro! Consent Manager has been added to use this feature.</source>
-        <target state="final">在此领域选择服务时， 只有当用户同意在 Klaro 中使用所选的服务时，内容项才会通过上下文同意显示！ 同意管理员。 请确保Klaro的静态TypoScript 模板！同意管理器已被添加来使用此功能。</target>
+        <target state="final">在此领域选择服务时， 只有当用户同意在 Klaro! 中使用所选的服务时，内容项才会通过上下文同意显示！ 同意管理员。 请确保Klaro的静态TypoScript 模板！同意管理器已被添加来使用此功能。</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.no_notice.label" approved="yes">
         <source>Hide initial consent notice</source>
