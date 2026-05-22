@@ -134,9 +134,9 @@
         <source>Enable or disable all services</source>
         <target state="final">Összes app átkapcsolása</target>
       </trans-unit>
-      <trans-unit id="service.optOut.description" approved="yes">
-        <source>This services is loaded by default (but you can opt out)</source>
-        <target state="final">Ez az alkalmazás alapértelmezés szerint betöltött (de ki lehet kapcsolni)</target>
+      <trans-unit id="service.optOut.description">
+        <source>This service is loaded by default (but you can opt out)</source>
+        <target state="needs-translation">This service is loaded by default (but you can opt out)</target>
       </trans-unit>
       <trans-unit id="service.optOut.title" approved="yes">
         <source>(opt-out)</source>
@@ -150,9 +150,9 @@
         <source>purposes</source>
         <target state="final">célok</target>
       </trans-unit>
-      <trans-unit id="service.required.description" approved="yes">
-        <source>This services is always required</source>
-        <target state="final">Ez az alkalmazás mindig szükséges</target>
+      <trans-unit id="service.required.description">
+        <source>This service is always required</source>
+        <target state="needs-translation">This service is always required</target>
       </trans-unit>
       <trans-unit id="service.required.title" approved="yes">
         <source>(always required)</source>
@@ -410,9 +410,9 @@
         <source>X (formerly Twitter)</source>
         <target state="final">X (korábban Twitter)</target>
       </trans-unit>
-      <trans-unit id="services.twitter.description" approved="yes">
-        <source>X (formerly Twitter) is social media platform that allows users to share and interact with short messages and multimedia content. Developers can integrate Twitter features into websites to enhance user engagement and real-time updates while maintaining data privacy compliance and adhering to coding guidelines.</source>
-        <target state="final">Az X (korábban Twitter) egy közösségi média platform, amely lehetővé teszi a felhasználók számára, hogy rövid üzeneteket és multimédiás tartalmakat osszanak meg és lépjenek velük kapcsolatba. A fejlesztők integrálhatják a Twitter funkcióit a weboldalakba, hogy növeljék a felhasználói elkötelezettséget és a valós idejű frissítéseket, miközben fenntartják az adatvédelmi előírások betartását és betartják a.</target>
+      <trans-unit id="services.twitter.description">
+        <source>X (formerly Twitter) is a social media platform that allows users to share and interact with short messages and multimedia content. Developers can integrate Twitter features into websites to enhance user engagement and real-time updates while maintaining data privacy compliance and adhering to coding guidelines.</source>
+        <target state="needs-translation">X (formerly Twitter) is a social media platform that allows users to share and interact with short messages and multimedia content. Developers can integrate Twitter features into websites to enhance user engagement and real-time updates while maintaining data privacy compliance and adhering to coding guidelines.</target>
       </trans-unit>
       <trans-unit id="services.userlike.title" approved="yes">
         <source>Userlike</source>
