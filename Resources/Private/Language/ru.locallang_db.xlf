@@ -105,7 +105,7 @@
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.title.placeholder" approved="yes">
         <source>My Klaro! Configuration</source>
-        <target state="final">Моя Klaro! Конфигурация</target>
+        <target state="final">Моя конфигурация Klaro!</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.testing.label" approved="yes">
         <source>Testing</source>
@@ -151,9 +151,9 @@
         <source>Additional Class</source>
         <target state="final">Дополнительный урок</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_configuration.additional_class.description">
+      <trans-unit id="tx_klaroconsentmanager_configuration.additional_class.description" approved="yes">
         <source>You can specify an additional class (or classes) that will be added to the Klaro `div`.</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Вы можете указать дополнительный класс (или классы), который будет добавлен в Klaro `div`.</target>
+        <target state="final">Вы можете указать дополнительный класс (или классы), который будет добавлен в Klaro `div`</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.additional_class.placeholder" approved="yes">
         <source>my-klaro</source>
@@ -165,7 +165,7 @@
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.storage_method.description" approved="yes">
         <source>You can customize how Klaro persists consent information in the browser. Specify either `cookie` (the default) or `localStorage`.</source>
-        <target state="final">Вы можете настроить как Klaro упорные данные согласия в браузере. Укажите либо cookie-файлы (по умолчанию), либо localStorage`.</target>
+        <target state="final">Вы можете настроить, как Klaro сохраняет информацию о согласии в браузере. Укажите `cookie` (по умолчанию) или `localStorage`.</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.storage_method.I.none" approved="yes">
         <source>None</source>
@@ -185,7 +185,7 @@
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.storage_name.description" approved="yes">
         <source>You can customize the name of the cookie or localStorage entry that Klaro will use for storing the consent information. By default, Klaro will use "klaro".</source>
-        <target state="final">Вы можете настроить имя файла cookie или локального хранилища данных, которые Klaro будет использовать для хранения информации о согласии. По умолчанию Klaro будет использовать "klaro".</target>
+        <target state="final">Вы можете настроить имя файла cookie или локального хранилища данных, которые Klaro будет использовать для хранения информации о согласии. По умолчанию Klaro будет использовать "klaro". (localStorage)</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.storage_name.placeholder" approved="yes">
         <source>klaro</source>
@@ -205,7 +205,7 @@
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.embedded.description" approved="yes">
         <source>Setting "embedded" to `true` will render the Klaro modal and notice without the modal background, allowing you to e.g. embed them into a specific element of your website, such as your privacy notice.</source>
-        <target state="final">Параметр «embedded» в «true» отразит модаль Klaro и заметит без модального фона, что позволит e. , вставьте их в конкретный элемент вашего сайта, например, ваше уведомление о конфиденциальности.</target>
+        <target state="final">Если "embedded" установлено в `true`, Klaro отобразит модальное окно и уведомление без модального фона, что позволяет встроить их, например, в конкретный элемент вашего сайта, такой как уведомление о конфиденциальности.</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.group_by_purpose.label" approved="yes">
         <source>Group by purpose</source>
@@ -263,9 +263,9 @@
         <source>Must consent</source>
         <target state="final">Должно быть согласие</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_configuration.must_consent.description">
+      <trans-unit id="tx_klaroconsentmanager_configuration.must_consent.description" approved="yes">
         <source>If `mustConsent` is set to `true`, Klaro will directly display the consent manager modal and not allow the user to close it before having actively consented to or declined the use of third-party services.</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Если «mustConsent» имеет значение «true», Klaro будет непосредственно отображать менеджер согласия и не позволит пользователю закрыть его, прежде чем активно согласиться на использование сторонних услуг или отклонит их.</target>
+        <target state="final">Если `mustConsent` установлено в `true`, Klaro сразу покажет модальное окно менеджера согласия и не позволит пользователю закрыть его до тех пор, пока он активно не согласится на использование сторонних сервисов или не отклонит его.</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.accept_all.label" approved="yes">
         <source>Accept all</source>
@@ -281,7 +281,7 @@
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.hide_decline_all.description" approved="yes">
         <source>Setting `hideDeclineAll` to `true` will hide the "decline" button in the consent modal and force the user to open the modal in order to change his/her consent or disable all third-party services. We strongly advise you to not use this feature, as it opposes the "privacy by default" and "privacy by design" principles of the GDPR (but might be acceptable in other legislations such as under the CCPA)</source>
-        <target state="final">Включение «hideDeclineAll» на «true» скроет кнопку «отклонить» в модуле согласия и заставляет пользователя открыть модаль, чтобы изменить его/ее согласие или отключить все сторонние сервисы. Мы настоятельно рекомендуем вам не использовать эту функцию, поскольку он выступает против принципов "неприкосновенности частной жизни по необязательным обязательствам" и "неприкосновенности частной жизни по своему усмотрению" GDPR (но может быть приемлемым в других законодательных актах, таких, как КСП)</target>
+        <target state="final">Если `hideDeclineAll` установлено в `true`, кнопка «отклонить» в модальном окне согласия будет скрыта, и пользователю придется открыть модальное окно, чтобы изменить свое согласие или отключить все сторонние сервисы. Мы настоятельно не рекомендуем использовать эту функцию, поскольку она противоречит принципам "privacy by default" и "privacy by design" GDPR (но может быть допустима в других законодательствах, например в рамках CCPA).</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.hide_learn_more.label" approved="yes">
         <source>Hide Learn More</source>
@@ -297,7 +297,7 @@
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.hide_toggle_all.description" approved="yes">
         <source>Setting `hideToggleAll` to `true` will hide the "toggle all" link in the consent notice.</source>
-        <target state="final">Включение «hideToggleAll» в «true» скроет ссылку «переключить все» в уведомлении о согласии.</target>
+        <target state="final">Если `hideToggleAll` установлено в `true`, ссылка «переключить все» в уведомлении о согласии будет скрыта.</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.notice_as_modal.label" approved="yes">
         <source>Notice As Modal</source>
@@ -317,11 +317,11 @@
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.show_description_empty_store.label" approved="yes">
         <source>Show Description (Empty Store)</source>
-        <target state="final">Показать описание (пустой магазин)</target>
+        <target state="final">Показать описание (пустое хранилище)</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.show_description_empty_store.description" approved="yes">
         <source>Show an explanatory text in contextual consent placeholders when no consent storage exists yet (first visit / empty store). This informs users that a permanent decision ("Always") requires allowing Klaro to store consent first. This only has an effect in contextual consent widgets/overlays (e.g. for embedded media) and only if the consent store (cookie/localStorage) is empty.</source>
-        <target state="final">Показывать пояснительный текст в контекстных заполнителях согласия, когда еще не существует хранилища согласия (первый визит / пустой магазин). Это информирует пользователей о том, что постоянное решение ("Всегда") требует разрешения Klaro на хранение согласия первым. Это действует только в контексте виджетов/накладываемых изображений (например, для встроенных медиа) и только в том случае, если магазин согласия (cookie/localStorage) пуст.</target>
+        <target state="final">Показывать пояснительный текст в контекстных заполнителях согласия, когда хранилище согласия еще отсутствует (первый визит / пустое хранилище). Это сообщает пользователям, что постоянное решение ("Всегда") требует сначала разрешить Klaro сохранить согласие. Это действует только в виджетах/оверлеях контекстного согласия (например, для встроенных медиа) и только если хранилище согласия (cookie/localStorage) пусто.</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.auto_focus.label" approved="yes">
         <source>Auto Focus</source>
@@ -361,7 +361,7 @@
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.callback.description" approved="yes">
         <source>You can define an optional callback function that will be called each time the consent state for any given service changes. The consent value will be passed as the first parameter to the function (`true` = consented). The `service` config will be passed as the second parameter. The content of this field is wrapped with `callback: function(consent, service) { }`</source>
-        <target state="final">Вы можете определить необязательную функцию обратного вызова, которая будет вызываться каждый раз, когда состояние согласия для любых изменений в службе. Значение согласия будет передано функции в качестве первого параметра (`true` = consented). Второй параметр будет передан конфигурации `service`. Содержимое этого поля обернуто `callback: function(consent, service) { }`</target>
+        <target state="final">Вы можете определить необязательную callback-функцию, которая будет вызываться каждый раз, когда меняется состояние согласия для любого сервиса. Значение согласия будет передано первым параметром функции (`true` = согласие дано). Конфигурация `service` будет передана вторым параметром. Содержимое этого поля оборачивается в `callback: function(consent, service) { }`</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.locallang_path.label" approved="yes">
         <source>Locallang Path</source>
@@ -369,7 +369,7 @@
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.locallang_path.description" approved="yes">
         <source>Optional path to an additional XLIFF file that overwrites the default labels or adds new labels (e.g. for custom purposes or services). If fluid templates have been stored for the labels created in this file (see the "Fluid Template Root Path" field), these will overwrite the classic labels from the Locallang file. Nevertheless, it is possible and common to reference the locallang file from the respective fluid template and obtain the actual label there (the label key is passed to the fluid template).</source>
-        <target state="final">Необязательный путь к дополнительному XLIFF файлу, который перезаписывает стандартные метки или добавляет новые метки (например, для пользовательских целей или службы). Если Жидкие шаблоны хранятся для меток, созданных в этом файле (см. поле "Корневой путь шаблона"), они перезапишут классические этикетки из файла Locallang. Тем не менее возможно и часто ссылаться на файл locallang из соответствующего шаблона жидкости и получить в нем фактическую метку (ключ метки передается в шаблон жидкости).</target>
+        <target state="final">Необязательный путь к дополнительному XLIFF файлу, который перезаписывает стандартные метки или добавляет новые метки (например, для пользовательских целей или службы). Если Жидкие шаблоны хранятся для меток, созданных в этом файле (см. поле "Корневой путь шаблона"), они перезапишут классические этикетки из файла Locallang. Тем не менее возможно и часто ссылаться на файл locallang из соответствующего шаблона жидкости и получить в нем фактическую метку (ключ метки передается в шаблон жидкости). (Fluid)</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.locallang_path.placeholder" approved="yes">
         <source>EXT:sitepackage/Resources/Private/Language/Klaro/locallang.xlf</source>
@@ -377,11 +377,11 @@
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.fluidtemplate_rootpath.label" approved="yes">
         <source>Fluid Template Root Path</source>
-        <target state="final">Корневой путь к шаблону жидкости</target>
+        <target state="final">Корневой путь к шаблону жидкости (Fluid)</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.fluidtemplate_rootpath.description" approved="yes">
         <source>As an alternative to the usual TypoScript configuration via constants under `plugin.tx_klaroconsentmanager.view`, a Fluid root path can be defined here, which has a higher priority than the paths configured in TypoScript. The three default directories `/Layouts/`, `/Partials/` and `/Templates/` are expected under this path. Fluid templates created here are used to enrich Locallang labels with additional functionality or to replace them completely. In this way, dynamic content or more complex HTML structures can be provided in a simple way. Fluid templates that are to override labels are expected in the subdirectory `/Templates/Labels/`.</source>
-        <target state="final">В качестве альтернативы обычной конфигурации TypoScript через константы в `plugin.tx_klaroconsentmanager. iew`, здесь можно указать корневой путь Fluid, который имеет более высокий приоритет, чем пути, настроенные в TypoScript. Три папки по умолчанию `/Layouts/`, `/Partials/` и `/Templates/` ожидаются по этому пути. Созданные здесь гибкие шаблоны используются для обогащения Locallang меток с дополнительной функциональностью или для их полной замены. Таким образом, динамический контент или более сложные HTML структуры могут быть предоставлены простым способом. Шаблоны жидкостей, которые должны переопределить метки, ожидаются в подкаталоге `/Templates/Labels/`.</target>
+        <target state="final">В качестве альтернативы обычной конфигурации TypoScript через константы в `plugin.tx_klaroconsentmanager.view` здесь можно указать корневой путь Fluid, который имеет более высокий приоритет, чем пути, настроенные в TypoScript. По этому пути ожидаются три папки по умолчанию: `/Layouts/`, `/Partials/` и `/Templates/`. Созданные здесь шаблоны Fluid используются для обогащения меток Locallang дополнительной функциональностью или для их полной замены. Таким образом можно просто предоставлять динамический контент или более сложные HTML-структуры. Шаблоны Fluid, которые должны переопределять метки, ожидаются в подкаталоге `/Templates/Labels/`.</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.fluidtemplate_rootpath.placeholder" approved="yes">
         <source>EXT:sitepackage/Resources/Private/</source>
@@ -741,7 +741,7 @@
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_service.cookies.description" approved="yes">
         <source>You can either only provide a cookie name or regular expression (regex) or a list consisting of a name or regex, a path and a cookie domain. Providing a path and domain is necessary if you have services that set cookies for a path that is not "/", or a domain that is not the current domain. If you do not set these values properly, the cookie can't be deleted by Klaro, as there is no way to access the path or domain of a cookie in JS. Notice that it is not possible to delete cookies that were set on a third-party domain, or cookies that have the HTTPOnly attribute: https://developer.mozilla.org/en-US/docs/Web/API/Document/cookie#new-cookie_domain</source>
-        <target state="final">Вы можете добавить либо имя cookie, либо регулярное выражение (regex), либо список, состоящий из имени или регулярного выражения, путь и Cookie домен. Предоставление пути и домена необходимо, если у вас есть сервисы, которые устанавливают cookies для пути, который не является "/", или домен, который не является текущим доменом. Если вы не устанавливаете эти значения правильно, куки не могут быть удалены Klaro, так как в JS нет способа доступа к пути или домену cookie. Заметьте, что невозможно удалить cookies, которые были установлены на стороннем домене, или cookies с атрибутом HTTPonly: https://developer.mozilla.org/en-US/docs/Web/API/Document/cookie#new-cookie_domain</target>
+        <target state="final">Вы можете указать только имя cookie или регулярное выражение (regex), либо список, состоящий из имени или regex, пути и домена cookie. Указание пути и домена необходимо, если у вас есть сервисы, которые устанавливают cookies для пути, отличного от "/", или для домена, отличного от текущего домена. Если эти значения заданы неправильно, Klaro не сможет удалить cookie, поскольку в JS нет способа получить доступ к пути или домену cookie. Обратите внимание, что невозможно удалить cookies, установленные на стороннем домене, или cookies с атрибутом HTTPOnly: https://developer.mozilla.org/en-US/docs/Web/API/Document/cookie#new-cookie_domain</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_service.required.label" approved="yes">
         <source>Required</source>
@@ -757,7 +757,7 @@
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_service.opt_out.description" approved="yes">
         <source>If `optOut` is set to `true`, Klaro will load this service even before the user has given explicit consent. We strongly advise against this.</source>
-        <target state="final">Если `optOut` установлен в `true`, Klaro будет загружать этот сервис еще до того, как пользователь предоставит явное согласие. Мы настоятельно рекомендуем это сделать.</target>
+        <target state="final">Если `optOut` установлен в `true`, Klaro загрузит этот сервис еще до того, как пользователь дал явное согласие. Мы настоятельно не рекомендуем это делать.</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_service.only_once.label" approved="yes">
         <source>Only Once</source>
@@ -779,9 +779,9 @@
         <source>Callback</source>
         <target state="final">Callback</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_service.callback.description">
+      <trans-unit id="tx_klaroconsentmanager_service.callback.description" approved="yes">
         <source>You can define an optional callback function that will be called each time the consent state for the given service changes. The consent value will be passed as the first parameter to the function (`true` = consented). The `service` config will be passed as the second parameter. The content of this field is wrapped with `callback: function(consent, service) { }`. `consent` is a bool that reflects the current state. `service` holds all information about the currently selected service. When you enter something here, you need to know what you are doing. It is your responsibility that no JavaScript errors occur.</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Вы можете определить необязательную функцию обратного вызова, которая будет вызываться каждый раз, когда состояние согласия для данной службы изменится. Значение согласия будет передано функции в качестве первого параметра (`true` = consented). Второй параметр будет передан конфигурации `service`. Содержимое этого поля завернуто `callback: function(consent, service) { }`. `consent` — это бул, отражающий текущее состояние. `service` содержит всю информацию о выбранной службе. Когда вы вводите что-нибудь здесь, вам нужно знать, что вы делаете. Ответственность за то, что ошибки JavaScript не возникает.</target>
+        <target state="final">Вы можете определить необязательную callback-функцию, которая будет вызываться каждый раз, когда меняется состояние согласия для указанного сервиса. Значение согласия будет передано первым параметром функции (`true` = согласие дано). Конфигурация `service` будет передана вторым параметром. Содержимое этого поля оборачивается в `callback: function(consent, service) { }`. `consent` — это bool, отражающий текущее состояние. `service` содержит всю информацию о выбранном в данный момент сервисе. Когда вы вводите здесь что-либо, вы должны понимать, что делаете. Вы несете ответственность за отсутствие ошибок JavaScript.</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_service.on_accept.label" approved="yes">
         <source>`onAccept` callback function</source>
@@ -801,7 +801,7 @@
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_service.on_decline.label" approved="yes">
         <source>`onDecline` callback function</source>
-        <target state="final">Функция обратного вызова «onDecline»</target>
+        <target state="final">Функция обратного вызова `onDecline`</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_service.on_decline.description" approved="yes">
         <source>Here you can define JavaScript code that will be called each time the service was declined. The content of this field is wrapped with `callback: function(handlerOpts) { }`. The object `handlerOpts` contains the objects `config` (the current Klaro! configuration), `service` (the current service) and possibly `vars` (any values defined by object notation in the vars field in the backend). When you enter something here, you need to know what you are doing. It is your responsibility that no JavaScript errors occur.</source>
@@ -857,11 +857,11 @@
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_cookie.identifier.description" approved="yes">
         <source>This is a unique identifier for this cookie. It must be written in lower case and must not contain any spaces, only the characters a-z, 0-9 and "-" or "_". The identifier can be used in Fluid, for example.</source>
-        <target state="final">Это уникальный идентификатор для этого cookie. Оно должно быть написано в нижнем регистре и не должно содержать пробелов, только символы a-z, 0-9 и "-" или "_". Идентификатор может быть использован в жидкости, например.</target>
+        <target state="final">Это уникальный идентификатор для этого cookie. Оно должно быть написано в нижнем регистре и не должно содержать пробелов, только символы a-z, 0-9 и "-" или "_". Идентификатор может быть использован в жидкости, например. (Fluid)</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_cookie.identifier.placeholder" approved="yes">
         <source>lowercase_alphanum-x</source>
-        <target state="final">нижняя буква - x</target>
+        <target state="final">lowercase_alphanum-x</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_cookie.title.label" approved="yes">
         <source>Title</source>
@@ -929,7 +929,7 @@
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_cookie.expires_after_unit.description" approved="yes">
         <source>Unit used for the "Expires after" specification. The special value `end-of-session` does not need a numeric value and hides the "Expires after" field accordingly.</source>
-        <target state="final">Единица, используемая для спецификации "Истекает после", специальное значение "конец сессии" не требует числового значения и соответственно скрывает поле "Истекает после".</target>
+        <target state="final">Единица, используемая для спецификации "Истекает после", специальное значение "конец сессии" не требует числового значения и соответственно скрывает поле "Истекает после". (`end-of-session`)</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_cookie.expires_after_unit.I.years" approved="yes">
         <source>Years</source>
