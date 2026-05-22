@@ -16,7 +16,7 @@
       </trans-unit>
       <trans-unit id="consentModal.description" approved="yes">
         <source>Here you can assess and customize the services that we'd like to use on this website. You're in charge! Enable or disable services as you see fit.</source>
-        <target state="final">Itt láthatja és testreszabhatja az önről gyűjtött információkat.</target>
+        <target state="final">Itt áttekintheti és testreszabhatja azokat a szolgáltatásokat, amelyeket ezen a webhelyen használni szeretnénk. Ön dönt! Engedélyezze vagy tiltsa le a szolgáltatásokat belátása szerint.</target>
       </trans-unit>
       <trans-unit id="consentModal.title" approved="yes">
         <source>Services we would like to use</source>
@@ -28,11 +28,11 @@
       </trans-unit>
       <trans-unit id="consentNotice.description" approved="yes">
         <source>Hi! Could we please enable some additional services for {purposes}? You can always change or withdraw your consent later.</source>
-        <target state="final">Személyes adatait összegyűjtjük és feldolgozzuk az alábbi célokra: {purposes}.</target>
+        <target state="final">Üdvözöljük! Engedélyezhetünk néhány további szolgáltatást a következő célokra: {purposes}? Hozzájárulását később bármikor módosíthatja vagy visszavonhatja.</target>
       </trans-unit>
       <trans-unit id="consentNotice.learnMore" approved="yes">
         <source>Let me choose</source>
-        <target state="final">Tudjon meg többet</target>
+        <target state="final">Szeretnék választani</target>
       </trans-unit>
       <trans-unit id="consentNotice.testing" approved="yes">
         <source>Testing mode!</source>
@@ -98,9 +98,9 @@
         <source>Advertising</source>
         <target state="final">Hirdetés</target>
       </trans-unit>
-      <trans-unit id="purposes.functional.description">
+      <trans-unit id="purposes.functional.description" approved="yes">
         <source>These services are essential for the correct functioning of this website. You cannot disable them here as the service would not work correctly otherwise.</source>
-        <target state="needs-translation">These services are essential for the correct functioning of this website. You cannot disable them here as the service would not work correctly otherwise.</target>
+        <target state="final">Ezek a szolgáltatások elengedhetetlenek a webhely megfelelő működéséhez. Itt nem tilthatja le őket, mert ellenkező esetben a szolgáltatás nem működne megfelelően.</target>
       </trans-unit>
       <trans-unit id="purposes.functional.title" approved="yes">
         <source>Service Provision</source>
@@ -114,9 +114,9 @@
         <source>Marketing</source>
         <target state="final">Marketing</target>
       </trans-unit>
-      <trans-unit id="purposes.performance.description">
+      <trans-unit id="purposes.performance.description" approved="yes">
         <source>These services process personal information to optimize the service that this website offers.</source>
-        <target state="needs-translation">These services process personal information to optimize the service that this website offers.</target>
+        <target state="final">Ezek a szolgáltatások személyes adatokat dolgoznak fel a webhely által kínált szolgáltatás optimalizálása érdekében.</target>
       </trans-unit>
       <trans-unit id="purposes.performance.title" approved="yes">
         <source>Performance Optimization</source>
@@ -128,15 +128,15 @@
       </trans-unit>
       <trans-unit id="service.disableAll.description" approved="yes">
         <source>Use this switch to enable or disable all services.</source>
-        <target state="final">Használja ezt a kapcsolót az összes alkalmazás engedélyezéséhez/letiltásához.</target>
+        <target state="final">Ezzel a kapcsolóval engedélyezheti vagy letilthatja az összes szolgáltatást.</target>
       </trans-unit>
       <trans-unit id="service.disableAll.title" approved="yes">
         <source>Enable or disable all services</source>
-        <target state="final">Összes app átkapcsolása</target>
+        <target state="final">Összes szolgáltatás engedélyezése vagy letiltása</target>
       </trans-unit>
-      <trans-unit id="service.optOut.description">
+      <trans-unit id="service.optOut.description" approved="yes">
         <source>This service is loaded by default (but you can opt out)</source>
-        <target state="needs-translation">This service is loaded by default (but you can opt out)</target>
+        <target state="final">Ez a szolgáltatás alapértelmezés szerint betöltődik (de kikapcsolható)</target>
       </trans-unit>
       <trans-unit id="service.optOut.title" approved="yes">
         <source>(opt-out)</source>
@@ -150,9 +150,9 @@
         <source>purposes</source>
         <target state="final">célok</target>
       </trans-unit>
-      <trans-unit id="service.required.description">
+      <trans-unit id="service.required.description" approved="yes">
         <source>This service is always required</source>
-        <target state="needs-translation">This service is always required</target>
+        <target state="final">Ez a szolgáltatás mindig szükséges</target>
       </trans-unit>
       <trans-unit id="service.required.title" approved="yes">
         <source>(always required)</source>
@@ -218,25 +218,25 @@
         <source>Show Consent Manager</source>
         <target state="final">Hozzájáruláskezelő</target>
       </trans-unit>
-      <trans-unit id="consentManager.show.title">
+      <trans-unit id="consentManager.show.title" approved="yes">
         <source>Show Consent Manager</source>
-        <target state="needs-translation">Show Consent Manager</target>
+        <target state="final">Hozzájárulás-kezelő megjelenítése</target>
       </trans-unit>
       <trans-unit id="consentManager.reset" approved="yes">
         <source>Reset Consent Manager</source>
         <target state="final">Hozzájáruláskezelő</target>
       </trans-unit>
-      <trans-unit id="consentManager.reset.title">
+      <trans-unit id="consentManager.reset.title" approved="yes">
         <source>Reset Consent Manager</source>
-        <target state="needs-translation">Reset Consent Manager</target>
+        <target state="final">Hozzájárulás-kezelő alaphelyzetbe állítása</target>
       </trans-unit>
-      <trans-unit id="services.adobe-fonts.title">
+      <trans-unit id="services.adobe-fonts.title" approved="yes">
         <source>Adobe Fonts</source>
-        <target state="needs-translation">Adobe Fonts</target>
+        <target state="final">Adobe Fonts</target>
       </trans-unit>
-      <trans-unit id="services.adobe-fonts.description">
+      <trans-unit id="services.adobe-fonts.description" approved="yes">
         <source>Adobe Fonts provides web fonts used for this website. When enabled, font files are loaded from Adobe and technical connection data may be processed.</source>
-        <target state="needs-translation">Adobe Fonts provides web fonts used for this website. When enabled, font files are loaded from Adobe and technical connection data may be processed.</target>
+        <target state="final">Az Adobe Fonts biztosítja a webhelyen használt webes betűtípusokat. Engedélyezés esetén a betűtípusfájlok az Adobe-tól töltődnek be, és technikai kapcsolati adatok feldolgozására kerülhet sor.</target>
       </trans-unit>
       <trans-unit id="services.adsense.title" approved="yes">
         <source>Google AdSense</source>
@@ -254,13 +254,13 @@
         <source>Consent to the use of surveillance camera images for security and safety purposes, in compliance with applicable data privacy regulations.</source>
         <target state="final">Hozzájárulás a biztonsági és védelmi célú térfigyelő kamerák felvételeinek felhasználásához, az alkalmazandó adatvédelmi előírásoknak megfelelően.</target>
       </trans-unit>
-      <trans-unit id="services.career-captain.title">
+      <trans-unit id="services.career-captain.title" approved="yes">
         <source>Career Captain</source>
-        <target state="needs-translation">Career Captain</target>
+        <target state="final">Career Captain</target>
       </trans-unit>
-      <trans-unit id="services.career-captain.description">
+      <trans-unit id="services.career-captain.description" approved="yes">
         <source>Career Captain provides gamified career orientation and recruiting content. When enabled, external content from Career Captain may process usage and technical connection data.</source>
-        <target state="needs-translation">Career Captain provides gamified career orientation and recruiting content. When enabled, external content from Career Captain may process usage and technical connection data.</target>
+        <target state="final">A Career Captain játékosított pályaorientációs és toborzási tartalmakat biztosít. Engedélyezés esetén a Career Captain külső tartalma használati és technikai kapcsolati adatokat dolgozhat fel.</target>
       </trans-unit>
       <trans-unit id="services.clarity.title" approved="yes">
         <source>Microsoft Clarity</source>
@@ -366,13 +366,13 @@
         <source>Chat widget and collecting of visitor statistics</source>
         <target state="final">Csevegő widget és látogatói statisztikák gyűjtése</target>
       </trans-unit>
-      <trans-unit id="services.klaro.title">
+      <trans-unit id="services.klaro.title" approved="yes">
         <source>Klaro!</source>
-        <target state="needs-translation">Klaro!</target>
+        <target state="final">Klaro!</target>
       </trans-unit>
-      <trans-unit id="services.klaro.description">
+      <trans-unit id="services.klaro.description" approved="yes">
         <source>Klaro! manages consent choices for this website and stores whether individual services may be loaded according to your preferences.</source>
-        <target state="needs-translation">Klaro! manages consent choices for this website and stores whether individual services may be loaded according to your preferences.</target>
+        <target state="final">A Klaro! kezeli a webhely hozzájárulási döntéseit, és tárolja, hogy az egyes szolgáltatások betölthetők-e az Ön beállításai szerint.</target>
       </trans-unit>
       <trans-unit id="services.matomo.title" approved="yes">
         <source>Matomo/Piwik</source>
@@ -390,13 +390,13 @@
         <source>Real-time user analytics service that helps to understand how visitors interact with our website.</source>
         <target state="final">Valós idejű felhasználói elemzési szolgáltatás, amely segít megérteni, hogy a látogatók hogyan interagálnak weboldalunkkal.</target>
       </trans-unit>
-      <trans-unit id="services.salesviewer.title">
+      <trans-unit id="services.salesviewer.title" approved="yes">
         <source>SalesViewer</source>
-        <target state="needs-translation">SalesViewer</target>
+        <target state="final">SalesViewer</target>
       </trans-unit>
-      <trans-unit id="services.salesviewer.description">
+      <trans-unit id="services.salesviewer.description" approved="yes">
         <source>SalesViewer analyzes website visits for B2B lead generation and may identify company-related visitor information based on usage and technical access data.</source>
-        <target state="needs-translation">SalesViewer analyzes website visits for B2B lead generation and may identify company-related visitor information based on usage and technical access data.</target>
+        <target state="final">A SalesViewer B2B leadgenerálás céljából elemzi a webhelylátogatásokat, és használati, valamint technikai hozzáférési adatok alapján vállalathoz kapcsolódó látogatói információkat azonosíthat.</target>
       </trans-unit>
       <trans-unit id="services.tiktok.title" approved="yes">
         <source>TikTok</source>
@@ -410,9 +410,9 @@
         <source>X (formerly Twitter)</source>
         <target state="final">X (korábban Twitter)</target>
       </trans-unit>
-      <trans-unit id="services.twitter.description">
+      <trans-unit id="services.twitter.description" approved="yes">
         <source>X (formerly Twitter) is a social media platform that allows users to share and interact with short messages and multimedia content. Developers can integrate Twitter features into websites to enhance user engagement and real-time updates while maintaining data privacy compliance and adhering to coding guidelines.</source>
-        <target state="needs-translation">X (formerly Twitter) is a social media platform that allows users to share and interact with short messages and multimedia content. Developers can integrate Twitter features into websites to enhance user engagement and real-time updates while maintaining data privacy compliance and adhering to coding guidelines.</target>
+        <target state="final">Az X (korábban Twitter) egy közösségi médiaplatform, amely lehetővé teszi, hogy a felhasználók rövid üzeneteket és multimédiás tartalmakat osszanak meg, illetve kapcsolatba lépjenek velük. A fejlesztők Twitter-funkciókat integrálhatnak weboldalakba a felhasználói aktivitás és a valós idejű frissítések javítása érdekében, miközben betartják az adatvédelmi és kódolási irányelveket.</target>
       </trans-unit>
       <trans-unit id="services.userlike.title" approved="yes">
         <source>Userlike</source>
@@ -536,7 +536,7 @@
       </trans-unit>
       <trans-unit id="warning.noServices" approved="yes">
         <source>Why don't I see a Klaro! Modal? → You must assign at least 1 service to the Klaro! configuration! Without services, we don't need consent management at all.</source>
-        <target state="final">Miért nem látom a Klaro! modált? → Legalább 1 szolgáltatást kell hozzárendelned a Klaro! konfigurációhoz! Szolgáltatások nélkül nincs szükségünk beleegyezési menedzsmentre.</target>
+        <target state="final">Miért nem látom a Klaro! modált? → Legalább 1 szolgáltatást hozzá kell rendelnie a Klaro! konfigurációhoz! Szolgáltatások nélkül nincs szükség hozzájárulás-kezelésre.</target>
       </trans-unit>
       <trans-unit id="warning.noServicesPersonalized" approved="yes">
         <source>Hey %s! You missed a service in the config! Without services, we don't need consent management at all.</source>
