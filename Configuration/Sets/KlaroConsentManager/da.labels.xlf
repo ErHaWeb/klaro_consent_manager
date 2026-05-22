@@ -5,7 +5,7 @@
     <body>
       <trans-unit id="label" approved="yes">
         <source>Klaro! Consent Manager</source>
-        <target state="final">Klaro! Samtykkehåndtering</target>
+        <target state="final">Klaro! samtykkestyring</target>
       </trans-unit>
       <trans-unit id="categories.klaroconsentmanager" approved="yes">
         <source>Klaro</source>
@@ -29,11 +29,11 @@
       </trans-unit>
       <trans-unit id="settings.plugin.tx_klaroconsentmanager.view.partialRootPath" approved="yes">
         <source>Path to template partials (FE)</source>
-        <target state="final">Sti til skabelon partials (FE)</target>
+        <target state="final">Sti til skabelon-partials (FE)</target>
       </trans-unit>
       <trans-unit id="settings.plugin.tx_klaroconsentmanager.view.layoutRootPath" approved="yes">
         <source>Path to template layouts (FE)</source>
-        <target state="final">Sti til skabelonlayouts (FE)</target>
+        <target state="final">Sti til skabelon-layouts (FE)</target>
       </trans-unit>
       <trans-unit id="settings.plugin.tx_klaroconsentmanager.settings.css.klaro-default" approved="yes">
         <source>Klaro CSS</source>
@@ -53,19 +53,19 @@
       </trans-unit>
       <trans-unit id="settings.description.plugin.tx_klaroconsentmanager.settings.contextualconsent.replaceAttributes" approved="yes">
         <source>Comma-separated list of attributes that should be automatically replaced within the content element of the contextual consent</source>
-        <target state="final">Kommaadskilt liste over attributter, som automatisk skal erstattes inden for indholdselementet i det kontekstuelle samtykke</target>
+        <target state="final">Kommasepareret liste over attributter, der automatisk skal erstattes i indholdselementet for kontekstuelt samtykke</target>
       </trans-unit>
       <trans-unit id="settings.plugin.tx_klaroconsentmanager.settings.contextualconsent.mainSectionOnly" approved="yes">
         <source>Main section only</source>
-        <target state="final">Kun hovedafsnit</target>
+        <target state="final">Kun hovedsektion</target>
       </trans-unit>
-      <trans-unit id="settings.description.plugin.tx_klaroconsentmanager.settings.contextualconsent.mainSectionOnly">
+      <trans-unit id="settings.description.plugin.tx_klaroconsentmanager.settings.contextualconsent.mainSectionOnly" approved="yes">
         <source>Activate this option if the contextual consent box should be limited to the main content only (without heading and footer).</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Aktivér denne indstilling, hvis kontekstuelt samtykke kun skal begrænses til hovedindholdet (uden overskrift og footer).</target>
+        <target state="final">Aktivér denne indstilling, hvis boksen til kontekstuelt samtykke kun skal begrænses til hovedindholdet (uden overskrift og footer).</target>
       </trans-unit>
       <trans-unit id="settings.plugin.tx_klaroconsentmanager.settings.configuration.disabled" approved="yes">
         <source>Disable Klaro Consent Management</source>
-        <target state="final">Deaktivér Klaro Samtykkehåndtering</target>
+        <target state="final">Deaktivér Klaro-samtykkestyring</target>
       </trans-unit>
     </body>
   </file>
