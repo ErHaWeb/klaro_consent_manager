@@ -5,7 +5,7 @@
     <body>
       <trans-unit id="label" approved="yes">
         <source>Klaro! Consent Manager</source>
-        <target state="final">Klaro! Suostumuksen Hallinta</target>
+        <target state="final">Klaro! suostumusten hallinta</target>
       </trans-unit>
       <trans-unit id="categories.klaroconsentmanager" approved="yes">
         <source>Klaro</source>
@@ -13,7 +13,7 @@
       </trans-unit>
       <trans-unit id="categories.klaroconsentmanager.templates" approved="yes">
         <source>Templates</source>
-        <target state="final">Mallit</target>
+        <target state="final">Mallipohjat</target>
       </trans-unit>
       <trans-unit id="categories.klaroconsentmanager.resources" approved="yes">
         <source>Resources</source>
@@ -25,15 +25,15 @@
       </trans-unit>
       <trans-unit id="settings.plugin.tx_klaroconsentmanager.view.templateRootPath" approved="yes">
         <source>Path to template root (FE)</source>
-        <target state="final">Polku mallin juurelle (FE)</target>
+        <target state="final">Polku mallipohjien juureen (FE)</target>
       </trans-unit>
       <trans-unit id="settings.plugin.tx_klaroconsentmanager.view.partialRootPath" approved="yes">
         <source>Path to template partials (FE)</source>
-        <target state="final">Polku mallin osiin (FE)</target>
+        <target state="final">Polku mallipohjien partial-tiedostoihin (FE)</target>
       </trans-unit>
       <trans-unit id="settings.plugin.tx_klaroconsentmanager.view.layoutRootPath" approved="yes">
         <source>Path to template layouts (FE)</source>
-        <target state="final">Polku mallin asetteluihin (FE)</target>
+        <target state="final">Polku mallipohjien layout-tiedostoihin (FE)</target>
       </trans-unit>
       <trans-unit id="settings.plugin.tx_klaroconsentmanager.settings.css.klaro-default" approved="yes">
         <source>Klaro CSS</source>
@@ -41,7 +41,7 @@
       </trans-unit>
       <trans-unit id="settings.plugin.tx_klaroconsentmanager.settings.css.klaro-custom" approved="yes">
         <source>Custom additions for Klaro CSS</source>
-        <target state="final">Mukautetut lisäykset Klaro CSS:lle</target>
+        <target state="final">Mukautetut lisäykset Klaro CSS:ään</target>
       </trans-unit>
       <trans-unit id="settings.plugin.tx_klaroconsentmanager.settings.javascript.klaro-default" approved="yes">
         <source>Klaro JavaScript</source>
@@ -53,19 +53,19 @@
       </trans-unit>
       <trans-unit id="settings.description.plugin.tx_klaroconsentmanager.settings.contextualconsent.replaceAttributes" approved="yes">
         <source>Comma-separated list of attributes that should be automatically replaced within the content element of the contextual consent</source>
-        <target state="final">Pilkuilla erotettu luettelo attribuuteista, jotka olisi automaattisesti korvattava kontekstuaalisen suostumuksen sisältöosassa</target>
+        <target state="final">Pilkuilla erotettu luettelo attribuuteista, jotka korvataan automaattisesti kontekstuaalisen suostumuksen sisältöelementissä</target>
       </trans-unit>
       <trans-unit id="settings.plugin.tx_klaroconsentmanager.settings.contextualconsent.mainSectionOnly" approved="yes">
         <source>Main section only</source>
         <target state="final">Vain pääosio</target>
       </trans-unit>
-      <trans-unit id="settings.description.plugin.tx_klaroconsentmanager.settings.contextualconsent.mainSectionOnly">
+      <trans-unit id="settings.description.plugin.tx_klaroconsentmanager.settings.contextualconsent.mainSectionOnly" approved="yes">
         <source>Activate this option if the contextual consent box should be limited to the main content only (without heading and footer).</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Aktivoi tämä vaihtoehto, jos kontekstuaalisen suostumuksen laatikko on rajattava vain pääsisältöön (ilman otsikkoa ja alatunnisteita).</target>
+        <target state="final">Ota tämä valinta käyttöön, jos kontekstuaalisen suostumuksen laatikko tulee rajata vain pääsisältöön (ilman otsikkoa ja alatunnistetta).</target>
       </trans-unit>
       <trans-unit id="settings.plugin.tx_klaroconsentmanager.settings.configuration.disabled" approved="yes">
         <source>Disable Klaro Consent Management</source>
-        <target state="final">Poista Klaro Suostumuksen Hallinta Käytöstä</target>
+        <target state="final">Poista Klaro-suostumusten hallinta käytöstä</target>
       </trans-unit>
     </body>
   </file>
