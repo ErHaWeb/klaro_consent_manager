@@ -134,9 +134,9 @@
         <source>Enable or disable all services</source>
         <target state="final">Για όλες τις εφαρμογές</target>
       </trans-unit>
-      <trans-unit id="service.optOut.description" approved="yes">
-        <source>This services is loaded by default (but you can opt out)</source>
-        <target state="final">Είναι προκαθορισμένο να φορτώνεται, άλλα μπορεί να παραληφθεί</target>
+      <trans-unit id="service.optOut.description">
+        <source>This service is loaded by default (but you can opt out)</source>
+        <target state="needs-review-translation" state-qualifier="leveraged-mt">Αυτή η υπηρεσία φορτώθηκε από προεπιλογή (αλλά μπορείτε να εξαιρεθεί)</target>
       </trans-unit>
       <trans-unit id="service.optOut.title" approved="yes">
         <source>(opt-out)</source>
@@ -150,9 +150,9 @@
         <source>purposes</source>
         <target state="final">σκοποί</target>
       </trans-unit>
-      <trans-unit id="service.required.description" approved="yes">
-        <source>This services is always required</source>
-        <target state="final">Δεν γίνεται να λειτουργήσει σωστά η εφαρμογή χωρίς αυτό</target>
+      <trans-unit id="service.required.description">
+        <source>This service is always required</source>
+        <target state="needs-review-translation" state-qualifier="leveraged-mt">Αυτή η υπηρεσία είναι πάντα απαραίτητη</target>
       </trans-unit>
       <trans-unit id="service.required.title" approved="yes">
         <source>(always required)</source>
@@ -410,9 +410,9 @@
         <source>X (formerly Twitter)</source>
         <target state="final">X (πρώην Twitter)</target>
       </trans-unit>
-      <trans-unit id="services.twitter.description" approved="yes">
-        <source>X (formerly Twitter) is social media platform that allows users to share and interact with short messages and multimedia content. Developers can integrate Twitter features into websites to enhance user engagement and real-time updates while maintaining data privacy compliance and adhering to coding guidelines.</source>
-        <target state="final">Το X (πρώην Twitter) είναι πλατφόρμα κοινωνικής δικτύωσης που επιτρέπει στους χρήστες να μοιράζονται και να αλληλεπιδρούν με σύντομα μηνύματα και περιεχόμενο πολυμέσων. Οι προγραμματιστές μπορούν να ενσωματώσουν τις λειτουργίες Twitter σε ιστότοπους για να ενισχύσουν τη συμμετοχή των χρηστών και τις ενημερώσεις σε πραγματικό χρόνο, διατηρώντας παράλληλα τη συμμόρφωση με τα δεδομένα απορρήτου και τηρώντας τις οδηγίες κωδικοποίησης.</target>
+      <trans-unit id="services.twitter.description">
+        <source>X (formerly Twitter) is a social media platform that allows users to share and interact with short messages and multimedia content. Developers can integrate Twitter features into websites to enhance user engagement and real-time updates while maintaining data privacy compliance and adhering to coding guidelines.</source>
+        <target state="needs-review-translation" state-qualifier="leveraged-mt">Το X (πρώην Twitter) είναι μια πλατφόρμα μέσων κοινωνικής δικτύωσης που επιτρέπει στους χρήστες να μοιράζονται και να αλληλεπιδρούν με σύντομα μηνύματα και περιεχόμενο πολυμέσων. Οι προγραμματιστές μπορούν να ενσωματώσουν τις λειτουργίες Twitter σε ιστότοπους για να ενισχύσουν τη συμμετοχή των χρηστών και τις ενημερώσεις σε πραγματικό χρόνο, διατηρώντας παράλληλα τη συμμόρφωση με τα δεδομένα απορρήτου και τηρώντας τις οδηγίες κωδικοποίησης.</target>
       </trans-unit>
       <trans-unit id="services.userlike.title" approved="yes">
         <source>Userlike</source>
