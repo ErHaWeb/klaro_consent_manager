@@ -16,7 +16,7 @@
       </trans-unit>
       <trans-unit id="consentModal.description" approved="yes">
         <source>Here you can assess and customize the services that we'd like to use on this website. You're in charge! Enable or disable services as you see fit.</source>
-        <target state="final">Здесь вы можете просмотреть и настроить, какую информацию о вас мы храним.</target>
+        <target state="final">Здесь вы можете оценить и настроить сервисы, которые мы хотели бы использовать на этом сайте. Решение за вами! Включайте или отключайте сервисы по своему усмотрению.</target>
       </trans-unit>
       <trans-unit id="consentModal.title" approved="yes">
         <source>Services we would like to use</source>
@@ -28,7 +28,7 @@
       </trans-unit>
       <trans-unit id="consentNotice.description" approved="yes">
         <source>Hi! Could we please enable some additional services for {purposes}? You can always change or withdraw your consent later.</source>
-        <target state="final">Мы собираем и обрабатываем вашу личную информацию для следующих целей: {purposes}.</target>
+        <target state="final">Здравствуйте! Можем ли мы включить дополнительные сервисы для {purposes}? Вы всегда можете изменить или отозвать свое согласие позже.</target>
       </trans-unit>
       <trans-unit id="consentNotice.learnMore" approved="yes">
         <source>Let me choose</source>
@@ -72,7 +72,7 @@
       </trans-unit>
       <trans-unit id="poweredBy" approved="yes">
         <source>Realized with Klaro!</source>
-        <target state="final">Работает на Кларо!</target>
+        <target state="final">Реализовано с Klaro!</target>
       </trans-unit>
       <trans-unit id="privacyPolicy.name" approved="yes">
         <source>privacy policy</source>
@@ -128,15 +128,15 @@
       </trans-unit>
       <trans-unit id="service.disableAll.description" approved="yes">
         <source>Use this switch to enable or disable all services.</source>
-        <target state="final">Используйте этот переключатель, чтобы включить/отключить все приложения.</target>
+        <target state="final">Используйте этот переключатель, чтобы включить или отключить все сервисы.</target>
       </trans-unit>
       <trans-unit id="service.disableAll.title" approved="yes">
         <source>Enable or disable all services</source>
-        <target state="final">Переключить все приложения</target>
+        <target state="final">Включить или отключить все сервисы</target>
       </trans-unit>
-      <trans-unit id="service.optOut.description">
+      <trans-unit id="service.optOut.description" approved="yes">
         <source>This service is loaded by default (but you can opt out)</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Сервис по умолчанию загружен (но вы можете отказаться)</target>
+        <target state="final">Этот сервис загружается по умолчанию (но вы можете отказаться от него)</target>
       </trans-unit>
       <trans-unit id="service.optOut.title" approved="yes">
         <source>(opt-out)</source>
@@ -150,9 +150,9 @@
         <source>purposes</source>
         <target state="final">цели</target>
       </trans-unit>
-      <trans-unit id="service.required.description">
+      <trans-unit id="service.required.description" approved="yes">
         <source>This service is always required</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Эта услуга всегда требуется</target>
+        <target state="final">Этот сервис всегда необходим</target>
       </trans-unit>
       <trans-unit id="service.required.title" approved="yes">
         <source>(always required)</source>
@@ -260,7 +260,7 @@
       </trans-unit>
       <trans-unit id="services.career-captain.description" approved="yes">
         <source>Career Captain provides gamified career orientation and recruiting content. When enabled, external content from Career Captain may process usage and technical connection data.</source>
-        <target state="final">Career Captain обеспечивает игровую карьерную ориентацию и рекрутинг. Если включено, внешний контент от Career Captain может обрабатывать данные об использовании и технических соединениях.</target>
+        <target state="final">Career Captain предоставляет геймифицированный контент для карьерной ориентации и рекрутинга. При включении внешний контент Career Captain может обрабатывать данные об использовании и техническом соединении.</target>
       </trans-unit>
       <trans-unit id="services.clarity.title" approved="yes">
         <source>Microsoft Clarity</source>
@@ -372,7 +372,7 @@
       </trans-unit>
       <trans-unit id="services.klaro.description" approved="yes">
         <source>Klaro! manages consent choices for this website and stores whether individual services may be loaded according to your preferences.</source>
-        <target state="final">Klaro! управляет согласием на выбор для этого сайта и хранит, могут ли быть загружены отдельные сервисы в соответствии с вашими предпочтениями.</target>
+        <target state="final">Klaro! управляет вариантами согласия для этого сайта и сохраняет, могут ли отдельные сервисы загружаться согласно вашим предпочтениям.</target>
       </trans-unit>
       <trans-unit id="services.matomo.title" approved="yes">
         <source>Matomo/Piwik</source>
@@ -396,7 +396,7 @@
       </trans-unit>
       <trans-unit id="services.salesviewer.description" approved="yes">
         <source>SalesViewer analyzes website visits for B2B lead generation and may identify company-related visitor information based on usage and technical access data.</source>
-        <target state="final">SalesViewer анализирует посещения веб-сайтов для B2B ведущего поколения и может определить информацию о посетителях компании на основе данных об использовании и технических данных.</target>
+        <target state="final">SalesViewer анализирует посещения сайта для генерации B2B-лидов и может определять связанную с компаниями информацию о посетителях на основе данных об использовании и техническом доступе.</target>
       </trans-unit>
       <trans-unit id="services.tiktok.title" approved="yes">
         <source>TikTok</source>
@@ -410,9 +410,9 @@
         <source>X (formerly Twitter)</source>
         <target state="final">X (ранее Твиттер)</target>
       </trans-unit>
-      <trans-unit id="services.twitter.description">
+      <trans-unit id="services.twitter.description" approved="yes">
         <source>X (formerly Twitter) is a social media platform that allows users to share and interact with short messages and multimedia content. Developers can integrate Twitter features into websites to enhance user engagement and real-time updates while maintaining data privacy compliance and adhering to coding guidelines.</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">X (ранее Twitter) является социальной платформой, которая позволяет пользователям обмениваться и взаимодействовать с короткими сообщениями и мультимедийным контентом. Разработчики могут интегрировать функции Twitter в веб-сайты для улучшения взаимодействия с пользователями и обновления в режиме реального времени, поддерживая соблюдение конфиденциальности данных и придерживаясь руководящих принципов кодирования.</target>
+        <target state="final">X (ранее Twitter) – это социальная медиа платформа, позволяющая пользователям обмениваться и взаимодействовать с короткими сообщениями и мультимедийным контентом. Разработчики могут интегрировать функции Twitter в веб-сайты для улучшения взаимодействия с пользователями и обновления в режиме реального времени, поддерживая соблюдение конфиденциальности данных и придерживаясь руководящих принципов кодирования.</target>
       </trans-unit>
       <trans-unit id="services.userlike.title" approved="yes">
         <source>Userlike</source>
@@ -536,7 +536,7 @@
       </trans-unit>
       <trans-unit id="warning.noServices" approved="yes">
         <source>Why don't I see a Klaro! Modal? → You must assign at least 1 service to the Klaro! configuration! Without services, we don't need consent management at all.</source>
-        <target state="final">Почему я не вижу Кларо! Модуль? → Вы должны назначить Кларо! конфигурация! Без сервисов нам вообще не нужны согласительные менеджменты.</target>
+        <target state="final">Почему я не вижу модальное окно Klaro!? → Вы должны назначить конфигурации Klaro! как минимум 1 сервис! Без сервисов управление согласием вообще не требуется.</target>
       </trans-unit>
       <trans-unit id="warning.noServicesPersonalized" approved="yes">
         <source>Hey %s! You missed a service in the config! Without services, we don't need consent management at all.</source>
