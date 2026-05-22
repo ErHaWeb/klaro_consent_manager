@@ -151,9 +151,9 @@
         <source>Additional Class</source>
         <target state="final">Додатковий клас</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_configuration.additional_class.description" approved="yes">
-        <source>You can specify an additional class (or classes) that will be added to the Klaro `div`</source>
-        <target state="final">Ви можете вказати додатковий клас (або заняття), які будуть додані в Klaro `div`</target>
+      <trans-unit id="tx_klaroconsentmanager_configuration.additional_class.description">
+        <source>You can specify an additional class (or classes) that will be added to the Klaro `div`.</source>
+        <target state="needs-review-translation" state-qualifier="leveraged-mt">Ви можете вказати додатковий клас (або заняття), який буде додано до Klaro `div`.</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.additional_class.placeholder" approved="yes">
         <source>my-klaro</source>
@@ -263,9 +263,9 @@
         <source>Must consent</source>
         <target state="final">Повинна погодитись</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_configuration.must_consent.description" approved="yes">
-        <source>If `mustConsent` is set to `true`, Klaro will directly display the consent manager modal and not allow the user to close it before having actively consented or declines the use of third-party services.</source>
-        <target state="final">Якщо значення `mustConsent` встановлено на `true`, Klaro автоматично відображатиме модальний менеджер згоди і не дозволить користувачеві закрити його перед тим, як активно погодилися або знизили використання сторонніх сервісів.</target>
+      <trans-unit id="tx_klaroconsentmanager_configuration.must_consent.description">
+        <source>If `mustConsent` is set to `true`, Klaro will directly display the consent manager modal and not allow the user to close it before having actively consented to or declined the use of third-party services.</source>
+        <target state="needs-review-translation" state-qualifier="leveraged-mt">Якщо значення `mustConsent` встановлено на `true`, Klaro автоматично відображатиме модальний менеджер згоди і не дозволить користувачеві закрити його перед тим, як активно погодився на чи відхилив використання сторонніх сервісів.</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.accept_all.label" approved="yes">
         <source>Accept all</source>
@@ -779,9 +779,9 @@
         <source>Callback</source>
         <target state="final">Callback</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_service.callback.description" approved="yes">
-        <source>You can define an optional callback function that will be called each time the consent state for the given service changes. The consent value will be passed as the first parameter to the function (`true` = consented). The `service` config will be passed as the second parameter. The content of this field is wrapped with `callback: function(consent, service) { }`. `consent` is a bool that reflects the current state. service` holds all information about the currently selected service. When you enter something here, you need to know what you are doing. It is your responsibility that no JavaScript errors occur.</source>
-        <target state="final">Ви можете визначити опціональну функцію зворотного виклику, яка буде викликатися кожного разу, коли буде надана згода для заданих змін послуг. Значення згоди буде передане як перший параметр функції (`true` = подано). Конфігурація `service` буде передана в якості другого параметра. Вміст цього поля загорнуто "зворотнім викликом: функціонал (згода, послуга) { }`. `сокено` є булем, що відображає поточний стан. сервіс містить всю інформацію про обраний сервіс. Коли ви введете тут що-небудь, потрібно знати, що ви робите. Ваш обов'язок стовідсотково не виникає помилок JavaScript.</target>
+      <trans-unit id="tx_klaroconsentmanager_service.callback.description">
+        <source>You can define an optional callback function that will be called each time the consent state for the given service changes. The consent value will be passed as the first parameter to the function (`true` = consented). The `service` config will be passed as the second parameter. The content of this field is wrapped with `callback: function(consent, service) { }`. `consent` is a bool that reflects the current state. `service` holds all information about the currently selected service. When you enter something here, you need to know what you are doing. It is your responsibility that no JavaScript errors occur.</source>
+        <target state="needs-review-translation" state-qualifier="leveraged-mt">Ви можете визначити опціональну функцію зворотного виклику, яка буде викликатися кожного разу, коли буде надана згода для заданих змін послуг. Значення згоди буде передане як перший параметр функції (`true` = подано). Конфігурація `service` буде передана в якості другого параметра. Контент цього поля загорнутий за `callback: function(agreent, service) { }`. `consent` - це буль, що відображає поточний стан. `service` зберігає всю інформацію про обрану послугу. Коли ви введете тут що-небудь, потрібно знати, що ви робите. Ваш обов'язок стовідсотково не виникає помилок JavaScript.</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_service.on_accept.label" approved="yes">
         <source>`onAccept` callback function</source>
