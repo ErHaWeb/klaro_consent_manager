@@ -105,7 +105,7 @@
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.title.placeholder" approved="yes">
         <source>My Klaro! Configuration</source>
-        <target state="final">Klaro-ul meu! Configurare</target>
+        <target state="final">Configurația mea Klaro!</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.testing.label" approved="yes">
         <source>Testing</source>
@@ -125,7 +125,7 @@
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.config_variable_name.placeholder" approved="yes">
         <source>klaroConfig</source>
-        <target state="final">KlaroConfig</target>
+        <target state="final">klaroConfig</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.element_i_d.label" approved="yes">
         <source>Element ID</source>
@@ -151,9 +151,9 @@
         <source>Additional Class</source>
         <target state="final">Clasa Adițională</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_configuration.additional_class.description">
+      <trans-unit id="tx_klaroconsentmanager_configuration.additional_class.description" approved="yes">
         <source>You can specify an additional class (or classes) that will be added to the Klaro `div`.</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Puteţi specifica o clasă suplimentară (sau clase) care va fi adăugată la Klaro `div`.</target>
+        <target state="final">Puteți specifica o clasă suplimentară (sau clase) care va fi adăugată la `div` Klaro</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.additional_class.placeholder" approved="yes">
         <source>my-klaro</source>
@@ -165,7 +165,7 @@
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.storage_method.description" approved="yes">
         <source>You can customize how Klaro persists consent information in the browser. Specify either `cookie` (the default) or `localStorage`.</source>
-        <target state="final">Puteţi personaliza modul în care Klaro continuă să accepte informaţii în browser. Specificaţi fie `cookie` (implicit) fie `stocarea locală`.</target>
+        <target state="final">Puteţi personaliza modul în care Klaro continuă să accepte informaţii în browser. Specificaţi fie `cookie` (implicit) fie `stocarea locală`. (`localStorage`)</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.storage_method.I.none" approved="yes">
         <source>None</source>
@@ -185,7 +185,7 @@
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.storage_name.description" approved="yes">
         <source>You can customize the name of the cookie or localStorage entry that Klaro will use for storing the consent information. By default, Klaro will use "klaro".</source>
-        <target state="final">Puteți personaliza numele cookie-ului sau al intrării locale de stocare pe care Klaro le va utiliza pentru stocarea informațiilor de consimțământ. În mod implicit, Klaro va utiliza "klaro".</target>
+        <target state="final">Puteți personaliza numele cookie-ului sau al intrării locale de stocare pe care Klaro le va utiliza pentru stocarea informațiilor de consimțământ. În mod implicit, Klaro va utiliza "klaro". (localStorage)</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.storage_name.placeholder" approved="yes">
         <source>klaro</source>
@@ -263,9 +263,9 @@
         <source>Must consent</source>
         <target state="final">Trebuie să consimți</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_configuration.must_consent.description">
+      <trans-unit id="tx_klaroconsentmanager_configuration.must_consent.description" approved="yes">
         <source>If `mustConsent` is set to `true`, Klaro will directly display the consent manager modal and not allow the user to close it before having actively consented to or declined the use of third-party services.</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Dacă `mustConsent` este setat la `true`, Klaro va afișa direct modul de administrare a consimțământului și nu va permite utilizatorului să îl închidă înainte de a fi consimțit în mod activ sau a refuzat utilizarea serviciilor de către terți.</target>
+        <target state="final">Dacă `mustConsent` este setat la `true`, Klaro va afișa direct modul de administrare a consimțământului și nu va permite utilizatorului să îl închidă înainte de a fi consimțit în mod activ sau refuză utilizarea serviciilor de către terți.</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.accept_all.label" approved="yes">
         <source>Accept all</source>
@@ -281,7 +281,7 @@
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.hide_decline_all.description" approved="yes">
         <source>Setting `hideDeclineAll` to `true` will hide the "decline" button in the consent modal and force the user to open the modal in order to change his/her consent or disable all third-party services. We strongly advise you to not use this feature, as it opposes the "privacy by default" and "privacy by design" principles of the GDPR (but might be acceptable in other legislations such as under the CCPA)</source>
-        <target state="final">Setarea `hideDeclineAll` ca `true` va ascunde butonul "decline" în modul de consimţământ şi va forţa utilizatorul să deschidă modul, pentru a-şi schimba consimţământul sau pentru a dezactiva toate serviciile terţe. Te sfătuim cu fermitate să nu folosești această caracteristică, întrucât se opune principiilor de „confidențialitate implicită” și „confidențialitate prin proiectare” din RGPD (dar pot fi acceptabile și în alte legislații, de exemplu în temeiul CCPA)</target>
+        <target state="final">Setarea `hideDeclineAll` la `true` va ascunde butonul "refuză" din modalul de consimțământ și va forța utilizatorul să deschidă modalul pentru a-și schimba consimțământul sau pentru a dezactiva toate serviciile terțe. Vă sfătuim ferm să nu folosiți această funcție, deoarece se opune principiilor "privacy by default" și "privacy by design" din GDPR (dar poate fi acceptabilă în alte legislații, de exemplu în temeiul CCPA).</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.hide_learn_more.label" approved="yes">
         <source>Hide Learn More</source>
@@ -353,7 +353,7 @@
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.purpose_order.description" approved="yes">
         <source>The order in which purposes appear in the notice and modal can be changed via the `purposeOrder` parameter, which can be given a list with purpose names and will display those purposes in the order in which they appear in the list.</source>
-        <target state="final">Ordinea în care apar scopurile în notificare şi modul poate fi modificată prin parametrul `scopOrder`, căruia i se poate da o listă cu nume de scopuri şi care va prezenta aceste scopuri în ordinea în care apar pe listă.</target>
+        <target state="final">Ordinea în care apar scopurile în notificare şi modul poate fi modificată prin parametrul `scopOrder`, căruia i se poate da o listă cu nume de scopuri şi care va prezenta aceste scopuri în ordinea în care apar pe listă. (`purposeOrder`)</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.callback.label" approved="yes">
         <source>Callback</source>
@@ -361,7 +361,7 @@
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.callback.description" approved="yes">
         <source>You can define an optional callback function that will be called each time the consent state for any given service changes. The consent value will be passed as the first parameter to the function (`true` = consented). The `service` config will be passed as the second parameter. The content of this field is wrapped with `callback: function(consent, service) { }`</source>
-        <target state="final">Puteţi defini o funcţie opţională de retroapelare care va fi apelată de fiecare dată când starea de consimţământ pentru orice serviciu dat se modifică. Valoarea consimțământului va fi transmisă ca primul parametru al funcției (`true` = consimțământ). Configurarea `service` va fi pasată ca al doilea parametru. Conţinutul acestui câmp este înfăşurat cu `callback: funcţie, serviciu) { }`</target>
+        <target state="final">Puteți defini o funcție callback opțională care va fi apelată de fiecare dată când starea consimțământului pentru orice serviciu se modifică. Valoarea consimțământului va fi transmisă ca primul parametru al funcției (`true` = consimțământ acordat). Configurația `service` va fi transmisă ca al doilea parametru. Conținutul acestui câmp este împachetat cu `callback: function(consent, service) { }`</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.locallang_path.label" approved="yes">
         <source>Locallang Path</source>
@@ -369,23 +369,23 @@
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.locallang_path.description" approved="yes">
         <source>Optional path to an additional XLIFF file that overwrites the default labels or adds new labels (e.g. for custom purposes or services). If fluid templates have been stored for the labels created in this file (see the "Fluid Template Root Path" field), these will overwrite the classic labels from the Locallang file. Nevertheless, it is possible and common to reference the locallang file from the respective fluid template and obtain the actual label there (the label key is passed to the fluid template).</source>
-        <target state="final">Calea opțională către un fișier XLIFF suplimentar care suprascrie etichetele implicite sau adaugă etichete noi (de exemplu, pentru scopuri personalizate sau servicii). Dacă au fost stocate șabloane fluide pentru etichetele create în acest fișier (a se vedea câmpul "Root Template Root"), acestea vor suprascrie etichetele clasice din fișierul Locallang. Cu toate acestea, este posibil şi obişnuit să se facă referire la fişierul local din şablonul fluidului respectiv şi să se obţină eticheta efectivă de acolo (eticheta este transferată în şablonul fluidului).</target>
+        <target state="final">Calea opțională către un fișier XLIFF suplimentar care suprascrie etichetele implicite sau adaugă etichete noi (de exemplu, pentru scopuri personalizate sau servicii). Dacă au fost stocate șabloane fluide pentru etichetele create în acest fișier (a se vedea câmpul "Root Template Root"), acestea vor suprascrie etichetele clasice din fișierul Locallang. Cu toate acestea, este posibil şi obişnuit să se facă referire la fişierul local din şablonul fluidului respectiv şi să se obţină eticheta efectivă de acolo (eticheta este transferată în şablonul fluidului). (Fluid)</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.locallang_path.placeholder" approved="yes">
         <source>EXT:sitepackage/Resources/Private/Language/Klaro/locallang.xlf</source>
-        <target state="final">EXT:sitepackage/Resurse/Private/Language/Klaro/locallang.xlf</target>
+        <target state="final">EXT:sitepackage/Resources/Private/Language/Klaro/locallang.xlf</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.fluidtemplate_rootpath.label" approved="yes">
         <source>Fluid Template Root Path</source>
-        <target state="final">Calea şablonului rădăcină al lichidului</target>
+        <target state="final">Calea şablonului rădăcină al lichidului (Fluid)</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.fluidtemplate_rootpath.description" approved="yes">
         <source>As an alternative to the usual TypoScript configuration via constants under `plugin.tx_klaroconsentmanager.view`, a Fluid root path can be defined here, which has a higher priority than the paths configured in TypoScript. The three default directories `/Layouts/`, `/Partials/` and `/Templates/` are expected under this path. Fluid templates created here are used to enrich Locallang labels with additional functionality or to replace them completely. In this way, dynamic content or more complex HTML structures can be provided in a simple way. Fluid templates that are to override labels are expected in the subdirectory `/Templates/Labels/`.</source>
-        <target state="final">Ca alternativă la configurația obișnuită TypoScript prin constante sub `plugin.tx_klaroconsentmanager. iew", o cale rădăcină Fluid poate fi definită aici, care are o prioritate mai mare decât căile configurate în TypoScript. Cele trei directoare implicite `/Layouts/`, `/Partials/` şi `/Templates/` sunt aşteptate sub această cale. Șabloanele lichide create aici sunt folosite pentru a îmbogăți etichetele Locallang cu funcționalitate suplimentară sau pentru a le înlocui complet. Astfel, conţinutul dinamic sau structurile HTML mai complexe pot fi furnizate într-un mod simplu. Şabloanele fluide care sunt destinate suprascrierii etichetelor sunt aşteptate în subdirectorul `/Templates/Labels/`.</target>
+        <target state="final">Ca alternativă la configurația TypoScript obișnuită prin constante sub `plugin.tx_klaroconsentmanager.view`, aici poate fi definită o cale rădăcină Fluid, care are prioritate mai mare decât căile configurate în TypoScript. Sub această cale sunt așteptate cele trei directoare implicite `/Layouts/`, `/Partials/` și `/Templates/`. Șabloanele Fluid create aici sunt folosite pentru a îmbogăți etichetele Locallang cu funcționalitate suplimentară sau pentru a le înlocui complet. Astfel, conținutul dinamic sau structurile HTML mai complexe pot fi furnizate într-un mod simplu. Șabloanele Fluid care suprascriu etichete sunt așteptate în subdirectorul `/Templates/Labels/`.</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.fluidtemplate_rootpath.placeholder" approved="yes">
         <source>EXT:sitepackage/Resources/Private/</source>
-        <target state="final">EXT:sitepack/Resurse/Privat/</target>
+        <target state="final">EXT:sitepackage/Resources/Private/</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.alignment.label" approved="yes">
         <source>Alignment</source>
@@ -741,7 +741,7 @@
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_service.cookies.description" approved="yes">
         <source>You can either only provide a cookie name or regular expression (regex) or a list consisting of a name or regex, a path and a cookie domain. Providing a path and domain is necessary if you have services that set cookies for a path that is not "/", or a domain that is not the current domain. If you do not set these values properly, the cookie can't be deleted by Klaro, as there is no way to access the path or domain of a cookie in JS. Notice that it is not possible to delete cookies that were set on a third-party domain, or cookies that have the HTTPOnly attribute: https://developer.mozilla.org/en-US/docs/Web/API/Document/cookie#new-cookie_domain</source>
-        <target state="final">Puteți furniza doar un nume de cookie sau o expresie regulată (regex) sau o listă constând dintr-un nume sau un regex, o cale şi un domeniu cookie. Furnizarea unei căi și a unui domeniu este necesară dacă aveți servicii care setează cookie-uri pentru o cale care nu este "/", sau un domeniu care nu este domeniul actual. Dacă nu setați corect aceste valori, cookie-ul nu poate fi șters de Klaro, deoarece nu există nicio modalitate de a accesa calea sau domeniul unui cookie în JS. Observați că nu este posibilă ștergerea cookie-urilor care au fost setate pe un domeniu terț, sau a cookie-urilor care au atributul HTTPonly. https://developer.mozilla.org/en-US/docs/Web/API/Document/cookie#new-cookie_domain</target>
+        <target state="final">Puteți furniza doar un nume de cookie sau o expresie regulată (regex), ori o listă constând dintr-un nume sau regex, o cale și un domeniu cookie. Furnizarea unei căi și a unui domeniu este necesară dacă aveți servicii care setează cookie-uri pentru o cale care nu este "/" sau pentru un domeniu care nu este domeniul actual. Dacă nu setați corect aceste valori, cookie-ul nu poate fi șters de Klaro, deoarece nu există nicio modalitate de a accesa calea sau domeniul unui cookie în JS. Rețineți că nu este posibilă ștergerea cookie-urilor setate pe un domeniu terț sau a cookie-urilor care au atributul HTTPOnly: https://developer.mozilla.org/en-US/docs/Web/API/Document/cookie#new-cookie_domain</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_service.required.label" approved="yes">
         <source>Required</source>
@@ -765,7 +765,7 @@
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_service.only_once.description" approved="yes">
         <source>If `onlyOnce` is set to `true`, the service will only be executed once regardless how often the user toggles it on and off. This is relevant e.g. for tracking scripts that would generate new page view events every time Klaro disables and re-enables them due to a consent change by the user.</source>
-        <target state="final">Dacă `only Once` este setat pe `true`, serviciul va fi executat o singură dată, indiferent de cât de des utilizatorul îl togglisează pe sau oprit. Acest lucru este relevant de ex. pentru urmărirea script-urilor care ar genera evenimente de vizualizare a paginilor noi de fiecare dată când Klaro dezactivează și re-activează datorită unei modificări de acord din partea utilizatorului.</target>
+        <target state="final">Dacă `only Once` este setat pe `true`, serviciul va fi executat o singură dată, indiferent de cât de des utilizatorul îl togglisează pe sau oprit. Acest lucru este relevant de ex. pentru urmărirea script-urilor care ar genera evenimente de vizualizare a paginilor noi de fiecare dată când Klaro dezactivează și re-activează datorită unei modificări de acord din partea utilizatorului. (`onlyOnce`)</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_service.contextual_consent_only.label" approved="yes">
         <source>Contextual Consent Only</source>
@@ -773,15 +773,15 @@
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_service.contextual_consent_only.description" approved="yes">
         <source>Content can be excluded from general consent by setting contextualConsentOnly to `true`. In this case, the consent must be contextual.</source>
-        <target state="final">Conținutul poate fi exclus de la consimțământul general prin setarea contextualConsentDoar la `true`. În acest caz, consimțământul trebuie să fie contextual.</target>
+        <target state="final">Conținutul poate fi exclus de la consimțământul general prin setarea contextualConsentDoar la `true`. În acest caz, consimțământul trebuie să fie contextual. (contextualConsentOnly)</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_service.callback.label" approved="yes">
         <source>Callback</source>
         <target state="final">Callback</target>
       </trans-unit>
-      <trans-unit id="tx_klaroconsentmanager_service.callback.description">
+      <trans-unit id="tx_klaroconsentmanager_service.callback.description" approved="yes">
         <source>You can define an optional callback function that will be called each time the consent state for the given service changes. The consent value will be passed as the first parameter to the function (`true` = consented). The `service` config will be passed as the second parameter. The content of this field is wrapped with `callback: function(consent, service) { }`. `consent` is a bool that reflects the current state. `service` holds all information about the currently selected service. When you enter something here, you need to know what you are doing. It is your responsibility that no JavaScript errors occur.</source>
-        <target state="needs-review-translation" state-qualifier="leveraged-mt">Puteți defini o funcție opțională de retroapelare care va fi apelată de fiecare dată când starea de consimțământ pentru un serviciu dat se schimbă. Valoarea consimțământului va fi transmisă ca primul parametru al funcției (`true` = consimțământ). Configurarea `service` va fi trecută ca al doilea parametru. Conținutul acestui câmp este împachetat cu `callback: funcție, (consimțământ, serviciu) { }`. `consent` este un bool care reflectă starea curentă. `service` deţine toate informaţiile despre serviciul selectat în prezent. Când introduceți ceva aici, trebuie să știți ce faceți. Este responsabilitatea dvs. să nu apară erori JavaScript.</target>
+        <target state="final">Puteți defini o funcție callback opțională care va fi apelată de fiecare dată când starea consimțământului pentru serviciul dat se modifică. Valoarea consimțământului va fi transmisă ca primul parametru al funcției (`true` = consimțământ acordat). Configurația `service` va fi transmisă ca al doilea parametru. Conținutul acestui câmp este împachetat cu `callback: function(consent, service) { }`. `consent` este un bool care reflectă starea curentă. `service` conține toate informațiile despre serviciul selectat în prezent. Când introduceți ceva aici, trebuie să știți ce faceți. Este responsabilitatea dvs. să nu apară erori JavaScript.</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_service.on_accept.label" approved="yes">
         <source>`onAccept` callback function</source>
@@ -857,11 +857,11 @@
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_cookie.identifier.description" approved="yes">
         <source>This is a unique identifier for this cookie. It must be written in lower case and must not contain any spaces, only the characters a-z, 0-9 and "-" or "_". The identifier can be used in Fluid, for example.</source>
-        <target state="final">Acesta este un identificator unic pentru acest cookie. Trebuie să fie scrisă în minusculă şi nu trebuie să conţină nici un spaţiu, doar caracterele a-z, 0-9 şi "-" sau "_". Identificatorul poate fi utilizat, de exemplu, în lichid.</target>
+        <target state="final">Acesta este un identificator unic pentru acest cookie. Trebuie să fie scrisă în minusculă şi nu trebuie să conţină nici un spaţiu, doar caracterele a-z, 0-9 şi "-" sau "_". Identificatorul poate fi utilizat, de exemplu, în lichid. (Fluid)</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_cookie.identifier.placeholder" approved="yes">
         <source>lowercase_alphanum-x</source>
-        <target state="final">carcasă mică_alfanum-x</target>
+        <target state="final">lowercase_alphanum-x</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_cookie.title.label" approved="yes">
         <source>Title</source>
@@ -929,7 +929,7 @@
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_cookie.expires_after_unit.description" approved="yes">
         <source>Unit used for the "Expires after" specification. The special value `end-of-session` does not need a numeric value and hides the "Expires after" field accordingly.</source>
-        <target state="final">Unitatea folosită pentru specificaţia "Expiră după". Valoarea specială "sfârşit de sesiune" nu are nevoie de o valoare numerică şi ascunde câmpul "Expiră după" în consecinţă.</target>
+        <target state="final">Unitatea folosită pentru specificaţia "Expiră după". Valoarea specială "sfârşit de sesiune" nu are nevoie de o valoare numerică şi ascunde câmpul "Expiră după" în consecinţă. (`end-of-session`)</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_cookie.expires_after_unit.I.years" approved="yes">
         <source>Years</source>
@@ -993,7 +993,7 @@
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.powered_by.placeholder" approved="yes">
         <source>https://example.com/your-link</source>
-        <target state="final">https://exemplu.ro/link-ul tău</target>
+        <target state="final">https://example.com/your-link</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.style_prefix.label" approved="yes">
         <source>Style prefix</source>
