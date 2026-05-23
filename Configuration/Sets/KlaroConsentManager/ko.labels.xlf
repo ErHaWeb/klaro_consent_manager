@@ -13,27 +13,27 @@
       </trans-unit>
       <trans-unit id="categories.klaroconsentmanager.templates" approved="yes">
         <source>Templates</source>
-        <target state="final">Templates</target>
+        <target state="final">템플릿</target>
       </trans-unit>
       <trans-unit id="categories.klaroconsentmanager.resources" approved="yes">
         <source>Resources</source>
-        <target state="final">Resources</target>
+        <target state="final">리소스</target>
       </trans-unit>
       <trans-unit id="categories.klaroconsentmanager.settings" approved="yes">
         <source>Settings</source>
-        <target state="final">Settings</target>
+        <target state="final">설정</target>
       </trans-unit>
       <trans-unit id="settings.plugin.tx_klaroconsentmanager.view.templateRootPath" approved="yes">
         <source>Path to template root (FE)</source>
-        <target state="final">Path to template root (FE)</target>
+        <target state="final">템플릿 루트 경로 (FE)</target>
       </trans-unit>
       <trans-unit id="settings.plugin.tx_klaroconsentmanager.view.partialRootPath" approved="yes">
         <source>Path to template partials (FE)</source>
-        <target state="final">Path to template partials (FE)</target>
+        <target state="final">템플릿 파셜 경로 (FE)</target>
       </trans-unit>
       <trans-unit id="settings.plugin.tx_klaroconsentmanager.view.layoutRootPath" approved="yes">
         <source>Path to template layouts (FE)</source>
-        <target state="final">Path to template layouts (FE)</target>
+        <target state="final">템플릿 레이아웃 경로 (FE)</target>
       </trans-unit>
       <trans-unit id="settings.plugin.tx_klaroconsentmanager.settings.css.klaro-default" approved="yes">
         <source>Klaro CSS</source>
@@ -41,7 +41,7 @@
       </trans-unit>
       <trans-unit id="settings.plugin.tx_klaroconsentmanager.settings.css.klaro-custom" approved="yes">
         <source>Custom additions for Klaro CSS</source>
-        <target state="final">Custom additions for Klaro CSS</target>
+        <target state="final">Klaro CSS용 사용자 지정 추가 항목</target>
       </trans-unit>
       <trans-unit id="settings.plugin.tx_klaroconsentmanager.settings.javascript.klaro-default" approved="yes">
         <source>Klaro JavaScript</source>
@@ -49,23 +49,23 @@
       </trans-unit>
       <trans-unit id="settings.plugin.tx_klaroconsentmanager.settings.contextualconsent.replaceAttributes" approved="yes">
         <source>Replace attributes</source>
-        <target state="final">Replace attributes</target>
+        <target state="final">속성 바꾸기</target>
       </trans-unit>
       <trans-unit id="settings.description.plugin.tx_klaroconsentmanager.settings.contextualconsent.replaceAttributes" approved="yes">
         <source>Comma-separated list of attributes that should be automatically replaced within the content element of the contextual consent</source>
-        <target state="final">Comma-separated list of attributes that should be automatically replaced within the content element of the contextual consent</target>
+        <target state="final">컨텍스트 동의의 콘텐츠 요소 안에서 자동으로 바꿀 속성의 쉼표로 구분된 목록</target>
       </trans-unit>
       <trans-unit id="settings.plugin.tx_klaroconsentmanager.settings.contextualconsent.mainSectionOnly" approved="yes">
         <source>Main section only</source>
-        <target state="final">Main section only</target>
+        <target state="final">메인 섹션만</target>
       </trans-unit>
       <trans-unit id="settings.description.plugin.tx_klaroconsentmanager.settings.contextualconsent.mainSectionOnly" approved="yes">
         <source>Activate this option if the contextual consent box should be limited to the main content only (without heading and footer).</source>
-        <target state="final">Activate this option if the contextual consent box should be limited to the main content only (without heading and footer).</target>
+        <target state="final">컨텍스트 동의 상자를 기본 콘텐츠로만 제한해야 하는 경우 이 옵션을 활성화하세요(제목 및 푸터 제외).</target>
       </trans-unit>
       <trans-unit id="settings.plugin.tx_klaroconsentmanager.settings.configuration.disabled" approved="yes">
         <source>Disable Klaro Consent Management</source>
-        <target state="final">Disable Klaro Consent Management</target>
+        <target state="final">Klaro 동의 관리 비활성화</target>
       </trans-unit>
     </body>
   </file>
