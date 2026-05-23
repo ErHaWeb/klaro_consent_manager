@@ -13,7 +13,7 @@
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.I.false" approved="yes">
         <source>false</source>
-        <target state="final">false</target>
+        <target state="final">Nein</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.tabs.general" approved="yes">
         <source>General</source>
@@ -21,7 +21,7 @@
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.tabs.layout" approved="yes">
         <source>Layout</source>
-        <target state="final">Layout</target>
+        <target state="final">Anordnung</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.tabs.content" approved="yes">
         <source>Content</source>
@@ -29,7 +29,7 @@
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.tabs.cookie" approved="yes">
         <source>Cookie</source>
-        <target state="final">Cookie</target>
+        <target state="final">Cookie-Datei</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.tabs.advanced" approved="yes">
         <source>Advanced</source>
@@ -61,7 +61,7 @@
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.palettes.callback_palette" approved="yes">
         <source>Callback</source>
-        <target state="final">Callback</target>
+        <target state="final">Rückruf</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.palettes.consent_palette" approved="yes">
         <source>Default consent status</source>
@@ -177,7 +177,7 @@
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.storage_method.I.localStorage" approved="yes">
         <source>Local Storage</source>
-        <target state="final">Local Storage</target>
+        <target state="final">Lokaler Speicher</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.storage_name.label" approved="yes">
         <source>Storage Name</source>
@@ -357,7 +357,7 @@
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.callback.label" approved="yes">
         <source>Callback</source>
-        <target state="final">Callback</target>
+        <target state="final">Rückruf</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.callback.description" approved="yes">
         <source>You can define an optional callback function that will be called each time the consent state for any given service changes. The consent value will be passed as the first parameter to the function (`true` = consented). The `service` config will be passed as the second parameter. The content of this field is wrapped with `callback: function(consent, service) { }`</source>
@@ -493,7 +493,7 @@
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_service.tabs.cookies" approved="yes">
         <source>Cookies</source>
-        <target state="final">Cookies</target>
+        <target state="final">Cookie-Dateien</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_service.tabs.toggles" approved="yes">
         <source>Toggles</source>
@@ -529,15 +529,15 @@
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_service.I.true" approved="yes">
         <source>true</source>
-        <target state="final">true</target>
+        <target state="final">Ja</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_service.I.false" approved="yes">
         <source>false</source>
-        <target state="final">false</target>
+        <target state="final">Nein</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_service.name.label" approved="yes">
         <source>Name</source>
-        <target state="final">Name</target>
+        <target state="final">Bezeichnung</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_service.name.description" approved="yes">
         <source>Each service must have a unique name. Klaro will look for HTML elements with a matching `data-name` attribute to identify elements that belong to this service.</source>
@@ -701,7 +701,7 @@
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_service.purposes.I.marketing" approved="yes">
         <source>Marketing</source>
-        <target state="final">Marketing</target>
+        <target state="final">Vermarktung</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_service.purposes.I.advertising" approved="yes">
         <source>Advertising</source>
@@ -721,15 +721,15 @@
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_service.purposes.I.styling" approved="yes">
         <source>Styling</source>
-        <target state="final">Styling</target>
+        <target state="final">Darstellung</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_service.purposes.I.videos" approved="yes">
         <source>Videos</source>
-        <target state="final">Videos</target>
+        <target state="final">Videoinhalte</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_service.purposes.I.social" approved="yes">
         <source>Social Media</source>
-        <target state="final">Social Media</target>
+        <target state="final">Soziale Medien</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_service.purposes.I.misc" approved="yes">
         <source>Miscellaneous</source>
@@ -737,7 +737,7 @@
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_service.cookies.label" approved="yes">
         <source>Cookies</source>
-        <target state="final">Cookies</target>
+        <target state="final">Cookie-Dateien</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_service.cookies.description" approved="yes">
         <source>You can either only provide a cookie name or regular expression (regex) or a list consisting of a name or regex, a path and a cookie domain. Providing a path and domain is necessary if you have services that set cookies for a path that is not "/", or a domain that is not the current domain. If you do not set these values properly, the cookie can't be deleted by Klaro, as there is no way to access the path or domain of a cookie in JS. Notice that it is not possible to delete cookies that were set on a third-party domain, or cookies that have the HTTPOnly attribute: https://developer.mozilla.org/en-US/docs/Web/API/Document/cookie#new-cookie_domain</source>
@@ -753,7 +753,7 @@
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_service.opt_out.label" approved="yes">
         <source>Opt-Out</source>
-        <target state="final">Opt-Out</target>
+        <target state="final">Opt-out</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_service.opt_out.description" approved="yes">
         <source>If `optOut` is set to `true`, Klaro will load this service even before the user has given explicit consent. We strongly advise against this.</source>
@@ -777,7 +777,7 @@
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_service.callback.label" approved="yes">
         <source>Callback</source>
-        <target state="final">Callback</target>
+        <target state="final">Rückruf</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_service.callback.description" approved="yes">
         <source>You can define an optional callback function that will be called each time the consent state for the given service changes. The consent value will be passed as the first parameter to the function (`true` = consented). The `service` config will be passed as the second parameter. The content of this field is wrapped with `callback: function(consent, service) { }`. `consent` is a bool that reflects the current state. `service` holds all information about the currently selected service. When you enter something here, you need to know what you are doing. It is your responsibility that no JavaScript errors occur.</source>
@@ -821,7 +821,7 @@
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_cookie" approved="yes">
         <source>Cookie</source>
-        <target state="final">Cookie</target>
+        <target state="final">Cookie-Datei</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_cookie.tabs.general" approved="yes">
         <source>General</source>
@@ -901,7 +901,7 @@
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_cookie.domain.label" approved="yes">
         <source>Domain</source>
-        <target state="final">Domain</target>
+        <target state="final">Domäne</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_cookie.domain.description" approved="yes">
         <source>Provide a domain if you have services that set cookies for a domain that is not the current domain.</source>
