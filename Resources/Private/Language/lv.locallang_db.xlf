@@ -9,39 +9,39 @@
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.I.true" approved="yes">
         <source>true</source>
-        <target state="final">true</target>
+        <target state="final">patiess</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.I.false" approved="yes">
         <source>false</source>
-        <target state="final">false</target>
+        <target state="final">nepatiess</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.tabs.general" approved="yes">
         <source>General</source>
-        <target state="final">General</target>
+        <target state="final">Vispārīgi</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.tabs.layout" approved="yes">
         <source>Layout</source>
-        <target state="final">Layout</target>
+        <target state="final">Izkārtojums</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.tabs.content" approved="yes">
         <source>Content</source>
-        <target state="final">Content</target>
+        <target state="final">Saturs</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.tabs.cookie" approved="yes">
         <source>Cookie</source>
-        <target state="final">Cookie</target>
+        <target state="final">Sīkdatne</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.tabs.advanced" approved="yes">
         <source>Advanced</source>
-        <target state="final">Advanced</target>
+        <target state="final">Papildu</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.tabs.access" approved="yes">
         <source>Access</source>
-        <target state="final">Access</target>
+        <target state="final">Piekļuve</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.palettes.general_palette" approved="yes">
         <source>General</source>
-        <target state="final">General</target>
+        <target state="final">Vispārīgi</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.palettes.setup_palette" approved="yes">
         <source>Base Configuration</source>
@@ -49,19 +49,19 @@
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.palettes.storage_palette" approved="yes">
         <source>Storage</source>
-        <target state="final">Storage</target>
+        <target state="final">Krātuve</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.palettes.services_palette" approved="yes">
         <source>Services</source>
-        <target state="final">Services</target>
+        <target state="final">Pakalpojumi</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.palettes.cookie_palette" approved="yes">
         <source>Cookie Settings</source>
-        <target state="final">Cookie Settings</target>
+        <target state="final">Sīkdatņu iestatījumi</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.palettes.callback_palette" approved="yes">
         <source>Callback</source>
-        <target state="final">Callback</target>
+        <target state="final">Atzvana funkcija</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.palettes.consent_palette" approved="yes">
         <source>Default consent status</source>
@@ -89,15 +89,15 @@
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.palettes.access_palette" approved="yes">
         <source>Access</source>
-        <target state="final">Access</target>
+        <target state="final">Piekļuve</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.palettes.translations_palette" approved="yes">
         <source>Translations</source>
-        <target state="final">Translations</target>
+        <target state="final">Tulkojumi</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.title.label" approved="yes">
         <source>Title</source>
-        <target state="final">Title</target>
+        <target state="final">Virsraksts</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.title.description" approved="yes">
         <source>Title under which this configuration can be found.</source>
@@ -109,7 +109,7 @@
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.testing.label" approved="yes">
         <source>Testing</source>
-        <target state="final">Testing</target>
+        <target state="final">Testēšana</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.testing.description" approved="yes">
         <source>Setting `testing` to `true` will cause Klaro to not show the consent notice or modal by default, except if a special hashtag is appended to the URL (#klaro-testing). This makes it possible to test Klaro on your live website without affecting normal visitors.</source>
@@ -169,7 +169,7 @@
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.storage_method.I.none" approved="yes">
         <source>None</source>
-        <target state="final">None</target>
+        <target state="final">Nav</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.storage_method.I.cookie" approved="yes">
         <source>Cookie (default)</source>
@@ -201,7 +201,7 @@
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.embedded.label" approved="yes">
         <source>Embedded</source>
-        <target state="final">Embedded</target>
+        <target state="final">Iegults</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.embedded.description" approved="yes">
         <source>Setting "embedded" to `true` will render the Klaro modal and notice without the modal background, allowing you to e.g. embed them into a specific element of your website, such as your privacy notice.</source>
@@ -233,7 +233,7 @@
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.cookie_path.description" approved="yes">
         <source>Provide a path if you have services that set cookies for a path that is not "/"</source>
-        <target state="final">Provide a path if you have services that set cookies for a path that is not "/"</target>
+        <target state="final">Norādiet ceļu, ja jums ir pakalpojumi, kas iestata sīkdatnes ceļam, kas nav "/"</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.cookie_path.placeholder" approved="yes">
         <source>/</source>
@@ -253,7 +253,7 @@
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.default.label" approved="yes">
         <source>Default</source>
-        <target state="final">Default</target>
+        <target state="final">Noklusējums</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.default.description" approved="yes">
         <source>Defines the default state for services in the consent modal (`true` = enabled by default). If this setting is set to "false", you can override it in any service.</source>
@@ -269,7 +269,7 @@
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.accept_all.label" approved="yes">
         <source>Accept all</source>
-        <target state="final">Accept all</target>
+        <target state="final">Pieņemt visu</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.accept_all.description" approved="yes">
         <source>Setting `acceptAll` to `true` will show an "accept all" button in the notice and modal, which will enable all third-party services if the user clicks on it. If set to "false", there will be an "accept" button that will only enable the services that are enabled in the consent modal.</source>
@@ -341,7 +341,7 @@
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.services.label" approved="yes">
         <source>Services</source>
-        <target state="final">Services</target>
+        <target state="final">Pakalpojumi</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.services.description" approved="yes">
         <source>Here you specify the third-party services that Klaro will manage for you.</source>
@@ -357,7 +357,7 @@
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.callback.label" approved="yes">
         <source>Callback</source>
-        <target state="final">Callback</target>
+        <target state="final">Atzvana funkcija</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.callback.description" approved="yes">
         <source>You can define an optional callback function that will be called each time the consent state for any given service changes. The consent value will be passed as the first parameter to the function (`true` = consented). The `service` config will be passed as the second parameter. The content of this field is wrapped with `callback: function(consent, service) { }`</source>
@@ -397,47 +397,47 @@
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.alignment.I.top-left" approved="yes">
         <source>Top-Left</source>
-        <target state="final">Top-Left</target>
+        <target state="final">Augšā pa kreisi</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.alignment.I.top-right" approved="yes">
         <source>Top-Right</source>
-        <target state="final">Top-Right</target>
+        <target state="final">Augšā pa labi</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.alignment.I.top-wide" approved="yes">
         <source>Top-Wide</source>
-        <target state="final">Top-Wide</target>
+        <target state="final">Augšā plats</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.alignment.I.bottom-left" approved="yes">
         <source>Bottom-Left</source>
-        <target state="final">Bottom-Left</target>
+        <target state="final">Apakšā pa kreisi</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.alignment.I.bottom-right" approved="yes">
         <source>Bottom-Right</source>
-        <target state="final">Bottom-Right</target>
+        <target state="final">Apakšā pa labi</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.alignment.I.bottom-wide" approved="yes">
         <source>Bottom-Wide</source>
-        <target state="final">Bottom-Wide</target>
+        <target state="final">Apakšā plats</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.alignment.I.top" approved="yes">
         <source>Top</source>
-        <target state="final">Top</target>
+        <target state="final">Augšā</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.alignment.I.bottom" approved="yes">
         <source>Bottom</source>
-        <target state="final">Bottom</target>
+        <target state="final">Apakšā</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.alignment.I.left" approved="yes">
         <source>left</source>
-        <target state="final">left</target>
+        <target state="final">pa kreisi</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.alignment.I.right" approved="yes">
         <source>right</source>
-        <target state="final">right</target>
+        <target state="final">pa labi</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.alignment.I.wide" approved="yes">
         <source>wide</source>
-        <target state="final">wide</target>
+        <target state="final">plats</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.color_scheme.label" approved="yes">
         <source>Color Scheme</source>
@@ -449,19 +449,19 @@
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.color_scheme.I.dark_neutral" approved="yes">
         <source>Dark (neutral)</source>
-        <target state="final">Dark (neutral)</target>
+        <target state="final">Tumšs (neitrāls)</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.color_scheme.I.light_neutral" approved="yes">
         <source>Light (neutral)</source>
-        <target state="final">Light (neutral)</target>
+        <target state="final">Gaišs (neitrāls)</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.color_scheme.I.dark" approved="yes">
         <source>Dark</source>
-        <target state="final">Dark</target>
+        <target state="final">Tumšs</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.color_scheme.I.light" approved="yes">
         <source>Light</source>
-        <target state="final">Light</target>
+        <target state="final">Gaišs</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.append_show_button.label" approved="yes">
         <source>Append Show Button</source>
@@ -489,23 +489,23 @@
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_service.tabs.general" approved="yes">
         <source>General</source>
-        <target state="final">General</target>
+        <target state="final">Vispārīgi</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_service.tabs.cookies" approved="yes">
         <source>Cookies</source>
-        <target state="final">Cookies</target>
+        <target state="final">Sīkdatnes</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_service.tabs.toggles" approved="yes">
         <source>Toggles</source>
-        <target state="final">Toggles</target>
+        <target state="final">Pārslēgi</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_service.tabs.advanced" approved="yes">
         <source>Advanced</source>
-        <target state="final">Advanced</target>
+        <target state="final">Papildu</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_service.tabs.access" approved="yes">
         <source>Access</source>
-        <target state="final">Access</target>
+        <target state="final">Piekļuve</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_service.palettes.general_palette" approved="yes">
         <source>General Settings</source>
@@ -513,11 +513,11 @@
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_service.palettes.cookie_palette" approved="yes">
         <source>Cookie Settings</source>
-        <target state="final">Cookie Settings</target>
+        <target state="final">Sīkdatņu iestatījumi</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_service.palettes.toggles_palette" approved="yes">
         <source>Toggles</source>
-        <target state="final">Toggles</target>
+        <target state="final">Pārslēgi</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_service.palettes.advanced_palette" approved="yes">
         <source>Advanced Settings</source>
@@ -525,19 +525,19 @@
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_service.palettes.access_palette" approved="yes">
         <source>Access</source>
-        <target state="final">Access</target>
+        <target state="final">Piekļuve</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_service.I.true" approved="yes">
         <source>true</source>
-        <target state="final">true</target>
+        <target state="final">patiess</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_service.I.false" approved="yes">
         <source>false</source>
-        <target state="final">false</target>
+        <target state="final">nepatiess</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_service.name.label" approved="yes">
         <source>Name</source>
-        <target state="final">Name</target>
+        <target state="final">Nosaukums</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_service.name.description" approved="yes">
         <source>Each service must have a unique name. Klaro will look for HTML elements with a matching `data-name` attribute to identify elements that belong to this service.</source>
@@ -549,7 +549,7 @@
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_service.title.label" approved="yes">
         <source>Title</source>
-        <target state="final">Title</target>
+        <target state="final">Virsraksts</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_service.title.description" approved="yes">
         <source>The title defined here is not mandatory and is intended for backend display only.</source>
@@ -569,7 +569,7 @@
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_service.name.I.camera" approved="yes">
         <source>Surveillance Camera</source>
-        <target state="final">Surveillance Camera</target>
+        <target state="final">Novērošanas kamera</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_service.name.I.career-captain" approved="yes">
         <source>Career Captain</source>
@@ -585,7 +585,7 @@
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_service.name.I.external-tracker" approved="yes">
         <source>External Tracker</source>
-        <target state="final">External Tracker</target>
+        <target state="final">Ārējs izsekotājs</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_service.name.I.facebook-pixel" approved="yes">
         <source>Facebook Pixel</source>
@@ -617,7 +617,7 @@
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_service.name.I.inline-tracker" approved="yes">
         <source>Inline Tracker</source>
-        <target state="final">Inline Tracker</target>
+        <target state="final">Iekļauts izsekotājs</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_service.name.I.instagram" approved="yes">
         <source>Instagram</source>
@@ -649,7 +649,7 @@
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_service.name.I.twitter" approved="yes">
         <source>X (formerly Twitter)</source>
-        <target state="final">X (formerly Twitter)</target>
+        <target state="final">X (agrāk Twitter)</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_service.name.I.userlike" approved="yes">
         <source>Userlike</source>
@@ -665,7 +665,7 @@
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_service.default.label" approved="yes">
         <source>Default</source>
-        <target state="final">Default</target>
+        <target state="final">Noklusējums</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_service.default.description" approved="yes">
         <source>If `default` is set to `true`, the service will be enabled by default. This overrides the global `default` setting (if this is set to "false").</source>
@@ -673,7 +673,7 @@
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_service.purposes.label" approved="yes">
         <source>Purposes</source>
-        <target state="final">Purposes</target>
+        <target state="final">Mērķi</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_service.purposes.description" approved="yes">
         <source>The purpose(s) of this service that will be listed on the consent notice. Do not forget to add translations for all purposes you list here.</source>
@@ -685,7 +685,7 @@
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_service.purposes.optgroup.default" approved="yes">
         <source>Default</source>
-        <target state="final">Default</target>
+        <target state="final">Noklusējums</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_service.purposes.optgroup.additional" approved="yes">
         <source>Additional</source>
@@ -693,51 +693,51 @@
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_service.purposes.I.functional" approved="yes">
         <source>Functional</source>
-        <target state="final">Functional</target>
+        <target state="final">Funkcionāls</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_service.purposes.I.performance" approved="yes">
         <source>Performance</source>
-        <target state="final">Performance</target>
+        <target state="final">Veiktspēja</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_service.purposes.I.marketing" approved="yes">
         <source>Marketing</source>
-        <target state="final">Marketing</target>
+        <target state="final">Mārketings</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_service.purposes.I.advertising" approved="yes">
         <source>Advertising</source>
-        <target state="final">Advertising</target>
+        <target state="final">Reklāma</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_service.purposes.I.analytics" approved="yes">
         <source>Analytics</source>
-        <target state="final">Analytics</target>
+        <target state="final">Analītika</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_service.purposes.I.security" approved="yes">
         <source>Security</source>
-        <target state="final">Security</target>
+        <target state="final">Drošība</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_service.purposes.I.livechat" approved="yes">
         <source>Live Chat</source>
-        <target state="final">Live Chat</target>
+        <target state="final">Tiešsaistes tērzēšana</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_service.purposes.I.styling" approved="yes">
         <source>Styling</source>
-        <target state="final">Styling</target>
+        <target state="final">Stilizēšana</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_service.purposes.I.videos" approved="yes">
         <source>Videos</source>
-        <target state="final">Videos</target>
+        <target state="final">Video</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_service.purposes.I.social" approved="yes">
         <source>Social Media</source>
-        <target state="final">Social Media</target>
+        <target state="final">Sociālie mediji</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_service.purposes.I.misc" approved="yes">
         <source>Miscellaneous</source>
-        <target state="final">Miscellaneous</target>
+        <target state="final">Dažādi</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_service.cookies.label" approved="yes">
         <source>Cookies</source>
-        <target state="final">Cookies</target>
+        <target state="final">Sīkdatnes</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_service.cookies.description" approved="yes">
         <source>You can either only provide a cookie name or regular expression (regex) or a list consisting of a name or regex, a path and a cookie domain. Providing a path and domain is necessary if you have services that set cookies for a path that is not "/", or a domain that is not the current domain. If you do not set these values properly, the cookie can't be deleted by Klaro, as there is no way to access the path or domain of a cookie in JS. Notice that it is not possible to delete cookies that were set on a third-party domain, or cookies that have the HTTPOnly attribute: https://developer.mozilla.org/en-US/docs/Web/API/Document/cookie#new-cookie_domain</source>
@@ -745,7 +745,7 @@
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_service.required.label" approved="yes">
         <source>Required</source>
-        <target state="final">Required</target>
+        <target state="final">Obligāts</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_service.required.description" approved="yes">
         <source>If `required` is set to `true`, Klaro will not allow this service to be disabled by the user. Use this for services that are always required for your website to function (e.g. shopping cart cookies).</source>
@@ -753,7 +753,7 @@
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_service.opt_out.label" approved="yes">
         <source>Opt-Out</source>
-        <target state="final">Opt-Out</target>
+        <target state="final">Atteikšanās</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_service.opt_out.description" approved="yes">
         <source>If `optOut` is set to `true`, Klaro will load this service even before the user has given explicit consent. We strongly advise against this.</source>
@@ -777,7 +777,7 @@
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_service.callback.label" approved="yes">
         <source>Callback</source>
-        <target state="final">Callback</target>
+        <target state="final">Atzvana funkcija</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_service.callback.description" approved="yes">
         <source>You can define an optional callback function that will be called each time the consent state for the given service changes. The consent value will be passed as the first parameter to the function (`true` = consented). The `service` config will be passed as the second parameter. The content of this field is wrapped with `callback: function(consent, service) { }`. `consent` is a bool that reflects the current state. `service` holds all information about the currently selected service. When you enter something here, you need to know what you are doing. It is your responsibility that no JavaScript errors occur.</source>
@@ -785,7 +785,7 @@
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_service.on_accept.label" approved="yes">
         <source>`onAccept` callback function</source>
-        <target state="final">`onAccept` callback function</target>
+        <target state="final">`onAccept` atzvana funkcija</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_service.on_accept.description" approved="yes">
         <source>Here you can define JavaScript code that will be called each time the service was accepted. The content of this field is wrapped with `callback: function(handlerOpts) { }`. The object `handlerOpts` contains the objects `config` (the current Klaro! configuration), `service` (the current service) and possibly `vars` (any values defined by object notation in the vars field in the backend). When you enter something here, you need to know what you are doing. It is your responsibility that no JavaScript errors occur.</source>
@@ -793,7 +793,7 @@
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_service.on_init.label" approved="yes">
         <source>`onInit` callback function</source>
-        <target state="final">`onInit` callback function</target>
+        <target state="final">`onInit` atzvana funkcija</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_service.on_init.description" approved="yes">
         <source>Here you can define JavaScript code that will be called once per page-load. The content of this field is wrapped with `callback: function(handlerOpts) { }`. The object `handlerOpts` contains the objects `config` (the current Klaro! configuration), `service` (the current service) and possibly `vars` (any values defined by object notation in the vars field in the backend). When you enter something here, you need to know what you are doing. It is your responsibility that no JavaScript errors occur.</source>
@@ -801,7 +801,7 @@
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_service.on_decline.label" approved="yes">
         <source>`onDecline` callback function</source>
-        <target state="final">`onDecline` callback function</target>
+        <target state="final">`onDecline` atzvana funkcija</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_service.on_decline.description" approved="yes">
         <source>Here you can define JavaScript code that will be called each time the service was declined. The content of this field is wrapped with `callback: function(handlerOpts) { }`. The object `handlerOpts` contains the objects `config` (the current Klaro! configuration), `service` (the current service) and possibly `vars` (any values defined by object notation in the vars field in the backend). When you enter something here, you need to know what you are doing. It is your responsibility that no JavaScript errors occur.</source>
@@ -809,7 +809,7 @@
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_service.vars.label" approved="yes">
         <source>Variables</source>
-        <target state="final">Variables</target>
+        <target state="final">Mainīgie</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_service.vars.description" approved="yes">
         <source>Variables that can be used in callback functions. The content of this field is enclosed in curly brackets. The JavaScript object notation is expected in them. When you enter something here, you need to know what you are doing. It is your responsibility that no JavaScript errors occur.</source>
@@ -821,15 +821,15 @@
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_cookie" approved="yes">
         <source>Cookie</source>
-        <target state="final">Cookie</target>
+        <target state="final">Sīkdatne</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_cookie.tabs.general" approved="yes">
         <source>General</source>
-        <target state="final">General</target>
+        <target state="final">Vispārīgi</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_cookie.tabs.access" approved="yes">
         <source>Access</source>
-        <target state="final">Access</target>
+        <target state="final">Piekļuve</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_cookie.palettes.identification_palette" approved="yes">
         <source>Identification and presentation of the cookie</source>
@@ -849,11 +849,11 @@
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_cookie.palettes.access_palette" approved="yes">
         <source>Access</source>
-        <target state="final">Access</target>
+        <target state="final">Piekļuve</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_cookie.identifier.label" approved="yes">
         <source>Identifier</source>
-        <target state="final">Identifier</target>
+        <target state="final">Identifikators</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_cookie.identifier.description" approved="yes">
         <source>This is a unique identifier for this cookie. It must be written in lower case and must not contain any spaces, only the characters a-z, 0-9 and "-" or "_". The identifier can be used in Fluid, for example.</source>
@@ -865,7 +865,7 @@
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_cookie.title.label" approved="yes">
         <source>Title</source>
-        <target state="final">Title</target>
+        <target state="final">Virsraksts</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_cookie.title.description" approved="yes">
         <source>If set, this title will be used in the frontend/backend for displaying the cookie. This title has no technical relevance (contrary to the `pattern` field).</source>
@@ -877,7 +877,7 @@
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_cookie.pattern.label" approved="yes">
         <source>Name / Pattern</source>
-        <target state="final">Name / Pattern</target>
+        <target state="final">Nosaukums / modelis</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_cookie.pattern.description" approved="yes">
         <source>Name or regular expression (regex)</source>
@@ -889,11 +889,11 @@
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_cookie.path.label" approved="yes">
         <source>Path</source>
-        <target state="final">Path</target>
+        <target state="final">Ceļš</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_cookie.path.description" approved="yes">
         <source>Provide a path if you have services that set cookies for a path that is not "/"</source>
-        <target state="final">Provide a path if you have services that set cookies for a path that is not "/"</target>
+        <target state="final">Norādiet ceļu, ja jums ir pakalpojumi, kas iestata sīkdatnes ceļam, kas nav "/"</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_cookie.path.placeholder" approved="yes">
         <source>/</source>
@@ -901,7 +901,7 @@
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_cookie.domain.label" approved="yes">
         <source>Domain</source>
-        <target state="final">Domain</target>
+        <target state="final">Domēns</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_cookie.domain.description" approved="yes">
         <source>Provide a domain if you have services that set cookies for a domain that is not the current domain.</source>
@@ -913,7 +913,7 @@
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_cookie.expires_after.label" approved="yes">
         <source>Expires after</source>
-        <target state="final">Expires after</target>
+        <target state="final">Derīgs līdz pēc</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_cookie.expires_after.description" approved="yes">
         <source>Number of years/months/days/hours/minutes/seconds that will elapse before this cookie expires.</source>
@@ -933,35 +933,35 @@
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_cookie.expires_after_unit.I.years" approved="yes">
         <source>Years</source>
-        <target state="final">Years</target>
+        <target state="final">Gadi</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_cookie.expires_after_unit.I.months" approved="yes">
         <source>Months</source>
-        <target state="final">Months</target>
+        <target state="final">Mēneši</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_cookie.expires_after_unit.I.days" approved="yes">
         <source>Days</source>
-        <target state="final">Days</target>
+        <target state="final">Dienas</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_cookie.expires_after_unit.I.hours" approved="yes">
         <source>Hours</source>
-        <target state="final">Hours</target>
+        <target state="final">Stundas</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_cookie.expires_after_unit.I.minutes" approved="yes">
         <source>Minutes</source>
-        <target state="final">Minutes</target>
+        <target state="final">Minūtes</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_cookie.expires_after_unit.I.seconds" approved="yes">
         <source>Seconds</source>
-        <target state="final">Seconds</target>
+        <target state="final">Sekundes</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_cookie.expires_after_unit.I.end-of-session" approved="yes">
         <source>End of session</source>
-        <target state="final">End of session</target>
+        <target state="final">Sesijas beigas</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_cookie.expires_after_unit.I.persistent" approved="yes">
         <source>Persistent</source>
-        <target state="final">Persistent</target>
+        <target state="final">Pastāvīgs</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_cookie.hidden" approved="yes">
         <source>Cookie visible</source>
