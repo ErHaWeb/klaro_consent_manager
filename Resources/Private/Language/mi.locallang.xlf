@@ -16,19 +16,19 @@
       </trans-unit>
       <trans-unit id="consentModal.description" approved="yes">
         <source>Here you can assess and customize the services that we'd like to use on this website. You're in charge! Enable or disable services as you see fit.</source>
-        <target state="final">Here you can assess and customize the services that we'd like to use on this website. You're in charge! Enable or disable services as you see fit.</target>
+        <target state="final">I konei ka taea e koe te aromatawai me te whakarite i ngā ratonga e hiahia ana mātou ki te whakamahi i tēnei paetukutuku. Kei a koe te mana! Whakahohea, whakawetohia rānei ngā ratonga kia rite ki tō hiahia.</target>
       </trans-unit>
       <trans-unit id="consentModal.title" approved="yes">
         <source>Services we would like to use</source>
-        <target state="final">Services we would like to use</target>
+        <target state="final">Ngā ratonga e hiahia ana mātou ki te whakamahi</target>
       </trans-unit>
       <trans-unit id="consentNotice.changeDescription" approved="yes">
         <source>There were changes since your last visit, please renew your consent.</source>
-        <target state="final">There were changes since your last visit, please renew your consent.</target>
+        <target state="final">Kua whai panonitanga mai i tō haerenga whakamutunga; tēnā whakahoungia tō whakaaetanga.</target>
       </trans-unit>
       <trans-unit id="consentNotice.description" approved="yes">
         <source>Hi! Could we please enable some additional services for {purposes}? You can always change or withdraw your consent later.</source>
-        <target state="final">Hi! Could we please enable some additional services for {purposes}? You can always change or withdraw your consent later.</target>
+        <target state="final">Kia ora! Ka taea rānei e mātou te whakahohe i ētahi ratonga tāpiri mō {purposes}? Ka taea tonu e koe te huri, te tango rānei i tō whakaaetanga ā muri ake.</target>
       </trans-unit>
       <trans-unit id="consentNotice.learnMore" approved="yes">
         <source>Let me choose</source>
@@ -36,7 +36,7 @@
       </trans-unit>
       <trans-unit id="consentNotice.testing" approved="yes">
         <source>Testing mode!</source>
-        <target state="final">Testing mode!</target>
+        <target state="final">Aratau whakamātautau!</target>
       </trans-unit>
       <trans-unit id="consentNotice.title" approved="yes">
         <source>Cookie Consent</source>
@@ -52,11 +52,11 @@
       </trans-unit>
       <trans-unit id="contextualConsent.description" approved="yes">
         <source>Do you want to load external content supplied by {title}?</source>
-        <target state="final">Do you want to load external content supplied by {title}?</target>
+        <target state="final">Kei te hiahia koe ki te uta i ngā ihirangi o waho nā {title}?</target>
       </trans-unit>
       <trans-unit id="contextualConsent.descriptionEmptyStore" approved="yes">
         <source>To agree to this service permanently, you must accept {title} in the {link}.</source>
-        <target state="final">To agree to this service permanently, you must accept {title} in the {link}.</target>
+        <target state="final">Kia whakaae pūmau ki tēnei ratonga, me whakaae koe ki {title} i te {link}.</target>
       </trans-unit>
       <trans-unit id="contextualConsent.modalLinkText" approved="yes">
         <source>Consent Manager</source>
@@ -72,7 +72,7 @@
       </trans-unit>
       <trans-unit id="poweredBy" approved="yes">
         <source>Realized with Klaro!</source>
-        <target state="final">Realized with Klaro!</target>
+        <target state="final">I hangaia mā Klaro!</target>
       </trans-unit>
       <trans-unit id="privacyPolicy.name" approved="yes">
         <source>privacy policy</source>
@@ -92,7 +92,7 @@
       </trans-unit>
       <trans-unit id="purposes.advertising.description" approved="yes">
         <source>These services process personal information to show you personalized or interest-based advertisements.</source>
-        <target state="final">These services process personal information to show you personalized or interest-based advertisements.</target>
+        <target state="final">Ka tukatuka ēnei ratonga i ngā mōhiohio whaiaro hei whakaatu pānuitanga kua whakaritea māu, kua hāngai rānei ki ō hiahia.</target>
       </trans-unit>
       <trans-unit id="purposes.advertising.title" approved="yes">
         <source>Advertising</source>
@@ -100,7 +100,7 @@
       </trans-unit>
       <trans-unit id="purposes.functional.description" approved="yes">
         <source>These services are essential for the correct functioning of this website. You cannot disable them here as the service would not work correctly otherwise.</source>
-        <target state="final">These services are essential for the correct functioning of this website. You cannot disable them here as the service would not work correctly otherwise.</target>
+        <target state="final">He mea nui ēnei ratonga kia tika te mahi a tēnei paetukutuku. Kāore e taea te whakaweto i konei, kei kore e tika te mahi a te ratonga.</target>
       </trans-unit>
       <trans-unit id="purposes.functional.title" approved="yes">
         <source>Service Provision</source>
@@ -108,7 +108,7 @@
       </trans-unit>
       <trans-unit id="purposes.marketing.description" approved="yes">
         <source>These services process personal information to show you relevant content about products, services or topics that you might be interested in.</source>
-        <target state="final">These services process personal information to show you relevant content about products, services or topics that you might be interested in.</target>
+        <target state="final">Ka tukatuka ēnei ratonga i ngā mōhiohio whaiaro hei whakaatu ihirangi hāngai mō ngā hua, ratonga, kaupapa rānei tērā pea e rata ana koe.</target>
       </trans-unit>
       <trans-unit id="purposes.marketing.title" approved="yes">
         <source>Marketing</source>
@@ -116,11 +116,11 @@
       </trans-unit>
       <trans-unit id="purposes.performance.description" approved="yes">
         <source>These services process personal information to optimize the service that this website offers.</source>
-        <target state="final">These services process personal information to optimize the service that this website offers.</target>
+        <target state="final">Ka tukatuka ēnei ratonga i ngā mōhiohio whaiaro hei whakapai ake i te ratonga ka tukuna e tēnei paetukutuku.</target>
       </trans-unit>
       <trans-unit id="purposes.performance.title" approved="yes">
         <source>Performance Optimization</source>
-        <target state="final">Performance Optimization</target>
+        <target state="final">Whakapainga mahinga</target>
       </trans-unit>
       <trans-unit id="save" approved="yes">
         <source>Save</source>
@@ -128,19 +128,19 @@
       </trans-unit>
       <trans-unit id="service.disableAll.description" approved="yes">
         <source>Use this switch to enable or disable all services.</source>
-        <target state="final">Use this switch to enable or disable all services.</target>
+        <target state="final">Whakamahia tēnei whakakā hei whakahohe, hei whakaweto rānei i ngā ratonga katoa.</target>
       </trans-unit>
       <trans-unit id="service.disableAll.title" approved="yes">
         <source>Enable or disable all services</source>
-        <target state="final">Enable or disable all services</target>
+        <target state="final">Whakahohe, whakaweto rānei i ngā ratonga katoa</target>
       </trans-unit>
       <trans-unit id="service.optOut.description" approved="yes">
         <source>This service is loaded by default (but you can opt out)</source>
-        <target state="final">This service is loaded by default (but you can opt out)</target>
+        <target state="final">Ka utaina taunoatia tēnei ratonga (engari ka taea e koe te whakaputa)</target>
       </trans-unit>
       <trans-unit id="service.optOut.title" approved="yes">
         <source>(opt-out)</source>
-        <target state="final">(opt-out)</target>
+        <target state="final">(whakaputa)</target>
       </trans-unit>
       <trans-unit id="service.purpose" approved="yes">
         <source>purpose</source>
@@ -152,11 +152,11 @@
       </trans-unit>
       <trans-unit id="service.required.description" approved="yes">
         <source>This service is always required</source>
-        <target state="final">This service is always required</target>
+        <target state="final">E hiahiatia tonutia ana tēnei ratonga</target>
       </trans-unit>
       <trans-unit id="service.required.title" approved="yes">
         <source>(always required)</source>
-        <target state="final">(always required)</target>
+        <target state="final">(e hiahiatia tonutia ana)</target>
       </trans-unit>
       <trans-unit id="purposes.analytics.title" approved="yes">
         <source>Analytics</source>
@@ -164,7 +164,7 @@
       </trans-unit>
       <trans-unit id="purposes.analytics.description" approved="yes">
         <source>These services gather anonymous data for statistical analysis and performance optimization. Enabling analytics services assists website owners in making informed decisions to enhance online services.</source>
-        <target state="final">These services gather anonymous data for statistical analysis and performance optimization. Enabling analytics services assists website owners in making informed decisions to enhance online services.</target>
+        <target state="final">Ka kohi ēnei ratonga i ngā raraunga ingoamuna mō te tātari tauanga me te whakapai ake i te mahinga. Mā te whakahohe i ngā ratonga tātaritanga ka āwhina i ngā rangatira paetukutuku ki te whakatau mōhio hei whakapai ake i ngā ratonga tuihono.</target>
       </trans-unit>
       <trans-unit id="purposes.security.title" approved="yes">
         <source>Security</source>
@@ -172,7 +172,7 @@
       </trans-unit>
       <trans-unit id="purposes.security.description" approved="yes">
         <source>Security services are crucial for safeguarding your online experience. These services help protect your data and privacy by detecting and preventing security threats, such as malware, phishing attempts, and unauthorized access. They ensure a safer browsing environment.</source>
-        <target state="final">Security services are crucial for safeguarding your online experience. These services help protect your data and privacy by detecting and preventing security threats, such as malware, phishing attempts, and unauthorized access. They ensure a safer browsing environment.</target>
+        <target state="final">He tino nui ngā ratonga haumarutanga hei tiaki i tō wheako tuihono. Ka āwhina ēnei ratonga ki te tiaki i ō raraunga me tō tūmataiti mā te kimi me te ārai i ngā mōrearea haumarutanga pērā i te malware, ngā nganatanga phishing, me te urunga kāore i whakaaetia. Ka whakarite i tētahi taiao tirotiro haumaru ake.</target>
       </trans-unit>
       <trans-unit id="purposes.livechat.title" approved="yes">
         <source>Live Chat</source>
@@ -180,7 +180,7 @@
       </trans-unit>
       <trans-unit id="purposes.livechat.description" approved="yes">
         <source>Live chat services enable real-time communication with website support teams. They offer a convenient way to ask questions, seek assistance, or engage in discussions while browsing a website. Live chat enhances your online interaction and customer support experience.</source>
-        <target state="final">Live chat services enable real-time communication with website support teams. They offer a convenient way to ask questions, seek assistance, or engage in discussions while browsing a website. Live chat enhances your online interaction and customer support experience.</target>
+        <target state="final">Ka āhei ngā ratonga kōrerorero ora ki te whakawhitiwhiti kōrero ā-tūturu me ngā tīma tautoko o te paetukutuku. He huarahi ngāwari ēnei ki te pātai, ki te rapu āwhina, ki te whai wāhi rānei ki ngā kōrerorero i a koe e tirotiro ana i tētahi paetukutuku. Ka whakapai ake te kōrerorero ora i tō taunekeneke tuihono me tō wheako tautoko kiritaki.</target>
       </trans-unit>
       <trans-unit id="purposes.styling.title" approved="yes">
         <source>Styling</source>
@@ -188,7 +188,7 @@
       </trans-unit>
       <trans-unit id="purposes.styling.description" approved="yes">
         <source>Services related to styling help to improve the appearance of the website. This can also have an impact on usability.</source>
-        <target state="final">Services related to styling help to improve the appearance of the website. This can also have an impact on usability.</target>
+        <target state="final">Ka āwhina ngā ratonga e pā ana ki te whakatahua ki te whakapai ake i te āhua o te paetukutuku. Ka pā hoki pea tēnei ki te whakamahinga.</target>
       </trans-unit>
       <trans-unit id="purposes.videos.title" approved="yes">
         <source>Videos</source>
@@ -196,7 +196,7 @@
       </trans-unit>
       <trans-unit id="purposes.videos.description" approved="yes">
         <source>Embedding videos from external platforms to enrich the content on this website.</source>
-        <target state="final">Embedding videos from external platforms to enrich the content on this website.</target>
+        <target state="final">Te tāmau ataata mai i ngā papaaho o waho hei whakarangatira i ngā ihirangi o tēnei paetukutuku.</target>
       </trans-unit>
       <trans-unit id="purposes.social.title" approved="yes">
         <source>Social Media</source>
@@ -204,7 +204,7 @@
       </trans-unit>
       <trans-unit id="purposes.social.description" approved="yes">
         <source>Embedding social media from external platforms to enrich the content on this website.</source>
-        <target state="final">Embedding social media from external platforms to enrich the content on this website.</target>
+        <target state="final">Te tāmau pāpāho pāpori mai i ngā papaaho o waho hei whakarangatira i ngā ihirangi o tēnei paetukutuku.</target>
       </trans-unit>
       <trans-unit id="purposes.misc.title" approved="yes">
         <source>Miscellaneous</source>
@@ -212,7 +212,7 @@
       </trans-unit>
       <trans-unit id="purposes.misc.description" approved="yes">
         <source>This includes services that do not fall under the other purposes.</source>
-        <target state="final">This includes services that do not fall under the other purposes.</target>
+        <target state="final">Kei roto i tēnei ko ngā ratonga kāore e taka ki raro i ērā atu kaupapa.</target>
       </trans-unit>
       <trans-unit id="consentManager.show" approved="yes">
         <source>Show Consent Manager</source>
@@ -236,7 +236,7 @@
       </trans-unit>
       <trans-unit id="services.adobe-fonts.description" approved="yes">
         <source>Adobe Fonts provides web fonts used for this website. When enabled, font files are loaded from Adobe and technical connection data may be processed.</source>
-        <target state="final">Adobe Fonts provides web fonts used for this website. When enabled, font files are loaded from Adobe and technical connection data may be processed.</target>
+        <target state="final">Ka whakarato a Adobe Fonts i ngā momotuhi tukutuku e whakamahia ana mō tēnei paetukutuku. Ina whakahohea, ka utaina ngā kōnae momotuhi mai i Adobe, ā, tērā pea ka tukatukahia ngā raraunga hononga hangarau.</target>
       </trans-unit>
       <trans-unit id="services.adsense.title" approved="yes">
         <source>Google AdSense</source>
@@ -244,7 +244,7 @@
       </trans-unit>
       <trans-unit id="services.adsense.description" approved="yes">
         <source>Google AdSense enables personalized ads on websites while respecting user privacy. By consenting, you allow relevant ads and help support free content.</source>
-        <target state="final">Google AdSense enables personalized ads on websites while respecting user privacy. By consenting, you allow relevant ads and help support free content.</target>
+        <target state="final">Ka āhei a Google AdSense ki ngā pānuitanga kua whakaritea ki runga paetukutuku me te whakaute tonu i te tūmataiti o te kaiwhakamahi. Mā tō whakaae ka whakaaetia ngā pānuitanga hāngai, ā, ka āwhina koe ki te tautoko i ngā ihirangi koreutu.</target>
       </trans-unit>
       <trans-unit id="services.camera.title" approved="yes">
         <source>Surveillance Camera</source>
@@ -252,7 +252,7 @@
       </trans-unit>
       <trans-unit id="services.camera.description" approved="yes">
         <source>Consent to the use of surveillance camera images for security and safety purposes, in compliance with applicable data privacy regulations.</source>
-        <target state="final">Consent to the use of surveillance camera images for security and safety purposes, in compliance with applicable data privacy regulations.</target>
+        <target state="final">Whakaaetanga ki te whakamahi i ngā whakaahua kāmera tirotiro mō ngā kaupapa haumarutanga me te haumaru, i raro i ngā ture tūmataiti raraunga e hāngai ana.</target>
       </trans-unit>
       <trans-unit id="services.career-captain.title" approved="yes">
         <source>Career Captain</source>
@@ -260,7 +260,7 @@
       </trans-unit>
       <trans-unit id="services.career-captain.description" approved="yes">
         <source>Career Captain provides gamified career orientation and recruiting content. When enabled, external content from Career Captain may process usage and technical connection data.</source>
-        <target state="final">Career Captain provides gamified career orientation and recruiting content. When enabled, external content from Career Captain may process usage and technical connection data.</target>
+        <target state="final">Ka whakarato a Career Captain i ngā ihirangi arataki umanga me te kimi kaimahi kua whakakēmetia. Ina whakahohea, tērā pea ka tukatukahia e ngā ihirangi o waho mai i Career Captain ngā raraunga whakamahinga me ngā raraunga hononga hangarau.</target>
       </trans-unit>
       <trans-unit id="services.clarity.title" approved="yes">
         <source>Microsoft Clarity</source>
@@ -268,7 +268,7 @@
       </trans-unit>
       <trans-unit id="services.clarity.description" approved="yes">
         <source>Microsoft Clarity is a user-friendly web analytics tool that empowers website visitors like you by providing transparency about how your interactions are tracked on a website. It ensures your privacy is respected while giving developers and website owners valuable insights into user behavior. Plus, it follows coding guidelines and best practices, ensuring a safe and secure online experience for you.</source>
-        <target state="final">Microsoft Clarity is a user-friendly web analytics tool that empowers website visitors like you by providing transparency about how your interactions are tracked on a website. It ensures your privacy is respected while giving developers and website owners valuable insights into user behavior. Plus, it follows coding guidelines and best practices, ensuring a safe and secure online experience for you.</target>
+        <target state="final">He taputapu web analytics māmā ki te kaiwhakamahi a Microsoft Clarity e tuku ana i te māramatanga mō te āhua o te aroturuki i āu taunekeneke ki tētahi paetukutuku. Ka whakarite kia whakautea tō tūmataiti, ā, ka tuku tirohanga whaihua ki ngā kaiwhakawhanake me ngā rangatira paetukutuku mō te whanonga kaiwhakamahi. Ka whai hoki i ngā coding guidelines me ngā best practices hei whakarite i tētahi wheako tuihono haumaru māu.</target>
       </trans-unit>
       <trans-unit id="services.cloudflare.title" approved="yes">
         <source>Cloudflare</source>
@@ -276,7 +276,7 @@
       </trans-unit>
       <trans-unit id="services.cloudflare.description" approved="yes">
         <source>Cloudflare helps protect and optimize websites. By using this website, you consent to Cloudflare's data processing practices as described in its Privacy Policy.</source>
-        <target state="final">Cloudflare helps protect and optimize websites. By using this website, you consent to Cloudflare's data processing practices as described in its Privacy Policy.</target>
+        <target state="final">Ka āwhina a Cloudflare ki te tiaki me te whakapai ake i ngā paetukutuku. Mā te whakamahi i tēnei paetukutuku ka whakaae koe ki ngā mahi tukatuka raraunga a Cloudflare e whakaahuatia ana i tana Privacy Policy.</target>
       </trans-unit>
       <trans-unit id="services.external-tracker.title" approved="yes">
         <source>External Tracker</source>
@@ -284,7 +284,7 @@
       </trans-unit>
       <trans-unit id="services.external-tracker.description" approved="yes">
         <source>External tracking script</source>
-        <target state="final">External tracking script</target>
+        <target state="final">Hōtuhi aroturuki o waho</target>
       </trans-unit>
       <trans-unit id="services.facebook-pixel.title" approved="yes">
         <source>Facebook Pixel</source>
@@ -292,7 +292,7 @@
       </trans-unit>
       <trans-unit id="services.facebook-pixel.description" approved="yes">
         <source>Simplifies web tracking for analytics and marketing while ensuring data compliance and control.</source>
-        <target state="final">Simplifies web tracking for analytics and marketing while ensuring data compliance and control.</target>
+        <target state="final">Ka whakamāmā i te aroturuki tukutuku mō te tātaritanga me te tauhokohoko, me te whakarite kia ū ki ngā ture raraunga me te mana whakahaere.</target>
       </trans-unit>
       <trans-unit id="services.fast-fonts.title" approved="yes">
         <source>Fast Fonts</source>
@@ -300,7 +300,7 @@
       </trans-unit>
       <trans-unit id="services.fast-fonts.description" approved="yes">
         <source>Fast Fonts, operated by fonts.com and supplied by fast.fonts.net, is a service for the provision of web fonts. It requires the use of a pixel-code for continuous price calculation.</source>
-        <target state="final">Fast Fonts, operated by fonts.com and supplied by fast.fonts.net, is a service for the provision of web fonts. It requires the use of a pixel-code for continuous price calculation.</target>
+        <target state="final">Ko Fast Fonts, e whakahaerehia ana e fonts.com, ā, e tukuna ana e fast.fonts.net, he ratonga mō te whakarato momotuhi tukutuku. Me whakamahi he pixel-code mō te tātai utu haere tonu.</target>
       </trans-unit>
       <trans-unit id="services.google-ads.title" approved="yes">
         <source>Google Ads</source>
@@ -308,7 +308,7 @@
       </trans-unit>
       <trans-unit id="services.google-ads.description" approved="yes">
         <source>Google Ads allows advertisers to reach their target audience online. To personalize ads and measure their effectiveness, Google may collect data with your consent.</source>
-        <target state="final">Google Ads allows advertisers to reach their target audience online. To personalize ads and measure their effectiveness, Google may collect data with your consent.</target>
+        <target state="final">Ka āhei a Google Ads i ngā kaiwhakapānui ki te toro ki tō rātou hunga whāinga tuihono. Hei whakarite pānuitanga me te ine i tōna whaihua, tērā pea ka kohi raraunga a Google mā tō whakaaetanga.</target>
       </trans-unit>
       <trans-unit id="services.google-analytics.title" approved="yes">
         <source>Google Analytics</source>
@@ -316,7 +316,7 @@
       </trans-unit>
       <trans-unit id="services.google-analytics.description" approved="yes">
         <source>Web analytics service provided by Google, Inc. ("Google")</source>
-        <target state="final">Web analytics service provided by Google, Inc. ("Google")</target>
+        <target state="final">Ratonga web analytics nā Google, Inc. ("Google")</target>
       </trans-unit>
       <trans-unit id="services.google-fonts.title" approved="yes">
         <source>Google Fonts</source>
@@ -324,7 +324,7 @@
       </trans-unit>
       <trans-unit id="services.google-fonts.description" approved="yes">
         <source>Web fonts hosted by Google</source>
-        <target state="final">Web fonts hosted by Google</target>
+        <target state="final">Ngā momotuhi tukutuku e manaakihia ana e Google</target>
       </trans-unit>
       <trans-unit id="services.google-maps.title" approved="yes">
         <source>Google Maps</source>
@@ -332,7 +332,7 @@
       </trans-unit>
       <trans-unit id="services.google-maps.description" approved="yes">
         <source>Google Maps allows for the integration of interactive maps on websites, enabling location-based services. Developers can utilize it while ensuring data compliance and control, adhering to coding guidelines and best practices.</source>
-        <target state="final">Google Maps allows for the integration of interactive maps on websites, enabling location-based services. Developers can utilize it while ensuring data compliance and control, adhering to coding guidelines and best practices.</target>
+        <target state="final">Ka āhei a Google Maps ki te whakauru mahere pāhekoheko ki runga paetukutuku, e tautoko ana i ngā ratonga ā-wāhi. Ka taea e ngā kaiwhakawhanake te whakamahi i a ia me te whakarite kia ū ki ngā ture raraunga me te mana whakahaere, ā, kia whai i ngā coding guidelines me ngā best practices.</target>
       </trans-unit>
       <trans-unit id="services.google-tag-manager.title" approved="yes">
         <source>Google Tag Manager</source>
@@ -340,7 +340,7 @@
       </trans-unit>
       <trans-unit id="services.google-tag-manager.description" approved="yes">
         <source>Google Tag Manager streamlines web tracking and code management, ensuring data compliance and control for developers.</source>
-        <target state="final">Google Tag Manager streamlines web tracking and code management, ensuring data compliance and control for developers.</target>
+        <target state="final">Ka whakangāwari a Google Tag Manager i te aroturuki tukutuku me te whakahaere waehere, me te whakarite kia ū ki ngā ture raraunga me te mana whakahaere mā ngā kaiwhakawhanake.</target>
       </trans-unit>
       <trans-unit id="services.inline-tracker.title" approved="yes">
         <source>Inline Tracker</source>
@@ -348,7 +348,7 @@
       </trans-unit>
       <trans-unit id="services.inline-tracker.description" approved="yes">
         <source>Inline tracking script</source>
-        <target state="final">Inline tracking script</target>
+        <target state="final">Hōtuhi aroturuki ā-rārangi</target>
       </trans-unit>
       <trans-unit id="services.instagram.title" approved="yes">
         <source>Instagram</source>
@@ -356,7 +356,7 @@
       </trans-unit>
       <trans-unit id="services.instagram.description" approved="yes">
         <source>Allows Instagram posts to be embedded. Personal data may be transferred to Instagram (Meta Platforms) in the process.</source>
-        <target state="final">Allows Instagram posts to be embedded. Personal data may be transferred to Instagram (Meta Platforms) in the process.</target>
+        <target state="final">Ka āhei ki te tāmau i ngā whakairinga Instagram. Tērā pea ka tukuna ngā raraunga whaiaro ki Instagram (Meta Platforms) i taua tukanga.</target>
       </trans-unit>
       <trans-unit id="services.intercom.title" approved="yes">
         <source>Intercom</source>
@@ -364,7 +364,7 @@
       </trans-unit>
       <trans-unit id="services.intercom.description" approved="yes">
         <source>Chat widget and collecting of visitor statistics</source>
-        <target state="final">Chat widget and collecting of visitor statistics</target>
+        <target state="final">Widget kōrerorero me te kohikohi tauanga manuhiri</target>
       </trans-unit>
       <trans-unit id="services.klaro.title" approved="yes">
         <source>Klaro!</source>
@@ -372,7 +372,7 @@
       </trans-unit>
       <trans-unit id="services.klaro.description" approved="yes">
         <source>Klaro! manages consent choices for this website and stores whether individual services may be loaded according to your preferences.</source>
-        <target state="final">Klaro! manages consent choices for this website and stores whether individual services may be loaded according to your preferences.</target>
+        <target state="final">Ka whakahaere a Klaro! i ngā kōwhiringa whakaaetanga mō tēnei paetukutuku, ā, ka rokiroki mēnā ka taea te uta i ia ratonga takitahi kia rite ki ō manakohanga.</target>
       </trans-unit>
       <trans-unit id="services.matomo.title" approved="yes">
         <source>Matomo/Piwik</source>
@@ -380,7 +380,7 @@
       </trans-unit>
       <trans-unit id="services.matomo.description" approved="yes">
         <source>Open source software for statistical analysis of visitor accesses</source>
-        <target state="final">Open source software for statistical analysis of visitor accesses</target>
+        <target state="final">Pūmanawa open source mō te tātari tauanga o ngā urunga manuhiri</target>
       </trans-unit>
       <trans-unit id="services.mouseflow.title" approved="yes">
         <source>Mouseflow</source>
@@ -388,7 +388,7 @@
       </trans-unit>
       <trans-unit id="services.mouseflow.description" approved="yes">
         <source>Real-time user analytics service that helps to understand how visitors interact with our website.</source>
-        <target state="final">Real-time user analytics service that helps to understand how visitors interact with our website.</target>
+        <target state="final">Ratonga tātaritanga kaiwhakamahi ā-tūturu e āwhina ana ki te mārama me pēhea te taunekeneke a ngā manuhiri ki tō mātou paetukutuku.</target>
       </trans-unit>
       <trans-unit id="services.salesviewer.title" approved="yes">
         <source>SalesViewer</source>
@@ -396,7 +396,7 @@
       </trans-unit>
       <trans-unit id="services.salesviewer.description" approved="yes">
         <source>SalesViewer analyzes website visits for B2B lead generation and may identify company-related visitor information based on usage and technical access data.</source>
-        <target state="final">SalesViewer analyzes website visits for B2B lead generation and may identify company-related visitor information based on usage and technical access data.</target>
+        <target state="final">Ka tātari a SalesViewer i ngā toronga paetukutuku mō te whakaputa B2B lead, ā, tērā pea ka tautuhi i ngā mōhiohio manuhiri e pā ana ki te kamupene i runga i ngā raraunga whakamahinga me ngā raraunga uru hangarau.</target>
       </trans-unit>
       <trans-unit id="services.tiktok.title" approved="yes">
         <source>TikTok</source>
@@ -404,7 +404,7 @@
       </trans-unit>
       <trans-unit id="services.tiktok.description" approved="yes">
         <source>Allows TikTok videos to be embedded. Personal data may be transferred to TikTok and processed in third countries.</source>
-        <target state="final">Allows TikTok videos to be embedded. Personal data may be transferred to TikTok and processed in third countries.</target>
+        <target state="final">Ka āhei ki te tāmau i ngā ataata TikTok. Tērā pea ka tukuna ngā raraunga whaiaro ki TikTok, ka tukatukahia hoki ki ngā whenua tuatoru.</target>
       </trans-unit>
       <trans-unit id="services.twitter.title" approved="yes">
         <source>X (formerly Twitter)</source>
@@ -412,7 +412,7 @@
       </trans-unit>
       <trans-unit id="services.twitter.description" approved="yes">
         <source>X (formerly Twitter) is a social media platform that allows users to share and interact with short messages and multimedia content. Developers can integrate Twitter features into websites to enhance user engagement and real-time updates while maintaining data privacy compliance and adhering to coding guidelines.</source>
-        <target state="final">X (formerly Twitter) is a social media platform that allows users to share and interact with short messages and multimedia content. Developers can integrate Twitter features into websites to enhance user engagement and real-time updates while maintaining data privacy compliance and adhering to coding guidelines.</target>
+        <target state="final">Ko X (i mua ko Twitter) he papaaho pāpāho pāpori e āhei ai ngā kaiwhakamahi ki te tuku me te taunekeneke ki ngā karere poto me ngā ihirangi rongorau. Ka taea e ngā kaiwhakawhanake te whakauru āhuatanga Twitter ki roto i ngā paetukutuku hei whakarei i te whai wāhi mai o ngā kaiwhakamahi me ngā whakahōutanga ā-tūturu, me te pupuri tonu i te ū ki te tūmataiti raraunga me ngā coding guidelines.</target>
       </trans-unit>
       <trans-unit id="services.userlike.title" approved="yes">
         <source>Userlike</source>
@@ -420,7 +420,7 @@
       </trans-unit>
       <trans-unit id="services.userlike.description" approved="yes">
         <source>Userlike offers a live chat solution that enhances user interactions on websites.</source>
-        <target state="final">Userlike offers a live chat solution that enhances user interactions on websites.</target>
+        <target state="final">Ka tuku a Userlike i tētahi otinga kōrerorero ora e whakarei ana i ngā taunekeneke kaiwhakamahi ki runga paetukutuku.</target>
       </trans-unit>
       <trans-unit id="services.vimeo.title" approved="yes">
         <source>Vimeo</source>
@@ -428,7 +428,7 @@
       </trans-unit>
       <trans-unit id="services.vimeo.description" approved="yes">
         <source>Popular video-sharing platform that offers a range of features for creators and developers to enhance video content on websites.</source>
-        <target state="final">Popular video-sharing platform that offers a range of features for creators and developers to enhance video content on websites.</target>
+        <target state="final">He papaaho tiritiri ataata rongonui e tuku ana i ngā āhuatanga maha mā ngā kaihanga me ngā kaiwhakawhanake hei whakarei i ngā ihirangi ataata ki runga paetukutuku.</target>
       </trans-unit>
       <trans-unit id="services.youtube.title" approved="yes">
         <source>YouTube</source>
@@ -436,7 +436,7 @@
       </trans-unit>
       <trans-unit id="services.youtube.description" approved="yes">
         <source>The leading video-sharing platform for content creators and developers to enhance user experiences on websites.</source>
-        <target state="final">The leading video-sharing platform for content creators and developers to enhance user experiences on websites.</target>
+        <target state="final">Te papaaho tiritiri ataata matua mō ngā kaihanga ihirangi me ngā kaiwhakawhanake hei whakarei i ngā wheako kaiwhakamahi ki runga paetukutuku.</target>
       </trans-unit>
       <trans-unit id="consentModal.privacyPolicy.name" approved="yes">
         <source>Privacy policy</source>
@@ -460,7 +460,7 @@
       </trans-unit>
       <trans-unit id="cookies.description" approved="yes">
         <source>Below you will find a list of all cookies used by %s</source>
-        <target state="final">Below you will find a list of all cookies used by %s</target>
+        <target state="final">Kei raro nei he rārangi o ngā pihikete katoa e whakamahia ana e %s</target>
       </trans-unit>
       <trans-unit id="cookies.headline.name" approved="yes">
         <source>Name / Pattern</source>
@@ -536,11 +536,11 @@
       </trans-unit>
       <trans-unit id="warning.noServices" approved="yes">
         <source>Why don't I see a Klaro! Modal? → You must assign at least 1 service to the Klaro! configuration! Without services, we don't need consent management at all.</source>
-        <target state="final">Why don't I see a Klaro! Modal? → You must assign at least 1 service to the Klaro! configuration! Without services, we don't need consent management at all.</target>
+        <target state="final">He aha ahau kāore ai e kite i tētahi Klaro! Modal? → Me tautapa koe i te iti rawa 1 ratonga ki te whirihoranga Klaro! Ki te kore he ratonga, kāore rawa e hiahiatia te whakahaere whakaaetanga.</target>
       </trans-unit>
       <trans-unit id="warning.noServicesPersonalized" approved="yes">
         <source>Hey %s! You missed a service in the config! Without services, we don't need consent management at all.</source>
-        <target state="final">Hey %s! You missed a service in the config! Without services, we don't need consent management at all.</target>
+        <target state="final">Kia ora %s! Kua mahue i a koe tētahi ratonga i te config! Ki te kore he ratonga, kāore rawa e hiahiatia te whakahaere whakaaetanga.</target>
       </trans-unit>
     </body>
   </file>
