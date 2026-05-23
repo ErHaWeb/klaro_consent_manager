@@ -133,7 +133,7 @@
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.element_i_d.description" approved="yes">
         <source>You can customize the ID of the `div` element that Klaro will create when starting up. By default, Klaro will use "klaro".</source>
-        <target state="final">Je kunt de ID van het "div" element dat Klaro zal maken bij het opstarten aanpassen. Standaard gebruikt Klaro "klaro".</target>
+        <target state="final">Je kunt de ID van het `div`-element dat Klaro bij het opstarten aanmaakt, aanpassen. Standaard gebruikt Klaro "klaro".</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.element_i_d.placeholder" approved="yes">
         <source>klaro</source>
@@ -153,7 +153,7 @@
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.additional_class.description" approved="yes">
         <source>You can specify an additional class (or classes) that will be added to the Klaro `div`.</source>
-        <target state="final">Je kunt een extra klasse (of klassen) specificeren die aan de Klaro "div" zal worden toegevoegd</target>
+        <target state="final">Je kunt een extra klasse (of klassen) opgeven die aan de Klaro `div` worden toegevoegd.</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.additional_class.placeholder" approved="yes">
         <source>my-klaro</source>
@@ -205,7 +205,7 @@
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.embedded.description" approved="yes">
         <source>Setting "embedded" to `true` will render the Klaro modal and notice without the modal background, allowing you to e.g. embed them into a specific element of your website, such as your privacy notice.</source>
-        <target state="final">Instelling "embedde" op "true" zal de Klaro modaal en opzegging weergeven zonder de modale achtergrond, wat je toelaat. . bed ze in een specifiek element van uw website, zoals uw privacymededeling.</target>
+        <target state="final">Door "embedded" op `true` te zetten worden de Klaro-modal en de melding zonder modale achtergrond weergegeven. Hierdoor kun je ze bijvoorbeeld inbedden in een specifiek element van je website, zoals je privacymelding.</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.group_by_purpose.label" approved="yes">
         <source>Group by purpose</source>
@@ -273,7 +273,7 @@
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.accept_all.description" approved="yes">
         <source>Setting `acceptAll` to `true` will show an "accept all" button in the notice and modal, which will enable all third-party services if the user clicks on it. If set to "false", there will be an "accept" button that will only enable the services that are enabled in the consent modal.</source>
-        <target state="final">'acceptAll' instellen op 'true' zal een 'accepteer alles' knop weergeven in de kennisgeving en modal, welke alle diensten van derden inschakelt als de gebruiker erop klikt. Indien ingesteld op "false", zal er een "accepteer" knop zijn die alleen de diensten die zijn ingeschakeld in de toestemmings-modus inschakelt.</target>
+        <target state="final">Als `acceptAll` op `true` wordt gezet, verschijnt er in de melding en de modal een knop "alles accepteren" die alle diensten van derden inschakelt zodra de gebruiker erop klikt. Bij "false" verschijnt er een knop "accepteren" die alleen de diensten inschakelt die in de toestemmingsmodal zijn aangevinkt.</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.hide_decline_all.label" approved="yes">
         <source>Hide Decline All</source>
@@ -541,7 +541,7 @@
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_service.name.description" approved="yes">
         <source>Each service must have a unique name. Klaro will look for HTML elements with a matching `data-name` attribute to identify elements that belong to this service.</source>
-        <target state="final">Elke dienst moet een unieke naam hebben. Klaro zal zoeken naar HTML-elementen met een overeenkomend 'data-name' attribuut om elementen te identificeren die tot deze dienst behoren.</target>
+        <target state="final">Elke dienst moet een unieke naam hebben. Klaro zoekt naar HTML-elementen met een overeenkomstig `data-name`-attribuut om elementen te identificeren die bij deze dienst horen.</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_service.name.placeholder" approved="yes">
         <source>matomo</source>
@@ -801,7 +801,7 @@
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_service.on_decline.label" approved="yes">
         <source>`onDecline` callback function</source>
-        <target state="final">'onDecline' callback functie</target>
+        <target state="final">`onDecline` callback-functie</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_service.on_decline.description" approved="yes">
         <source>Here you can define JavaScript code that will be called each time the service was declined. The content of this field is wrapped with `callback: function(handlerOpts) { }`. The object `handlerOpts` contains the objects `config` (the current Klaro! configuration), `service` (the current service) and possibly `vars` (any values defined by object notation in the vars field in the backend). When you enter something here, you need to know what you are doing. It is your responsibility that no JavaScript errors occur.</source>
@@ -929,7 +929,7 @@
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_cookie.expires_after_unit.description" approved="yes">
         <source>Unit used for the "Expires after" specification. The special value `end-of-session` does not need a numeric value and hides the "Expires after" field accordingly.</source>
-        <target state="final">Eenheid gebruikt voor de specificatie "Verloopt na". De speciale waarde "end-of-session" heeft geen numerieke waarde nodig en verbergt het "Verloopt na" veld.</target>
+        <target state="final">Eenheid gebruikt voor de specificatie "Verloopt na". De speciale waarde `end-of-session` heeft geen numerieke waarde nodig en verbergt daarmee het veld "Verloopt na".</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_cookie.expires_after_unit.I.years" approved="yes">
         <source>Years</source>
