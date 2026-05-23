@@ -16,19 +16,19 @@
       </trans-unit>
       <trans-unit id="consentModal.description" approved="yes">
         <source>Here you can assess and customize the services that we'd like to use on this website. You're in charge! Enable or disable services as you see fit.</source>
-        <target state="final">Here you can assess and customize the services that we'd like to use on this website. You're in charge! Enable or disable services as you see fit.</target>
+        <target state="final">Čia galite peržiūrėti ir pritaikyti paslaugas, kurias norėtume naudoti šioje svetainėje. Jūs sprendžiate! Įjunkite arba išjunkite paslaugas pagal savo poreikius.</target>
       </trans-unit>
       <trans-unit id="consentModal.title" approved="yes">
         <source>Services we would like to use</source>
-        <target state="final">Services we would like to use</target>
+        <target state="final">Paslaugos, kurias norėtume naudoti</target>
       </trans-unit>
       <trans-unit id="consentNotice.changeDescription" approved="yes">
         <source>There were changes since your last visit, please renew your consent.</source>
-        <target state="final">There were changes since your last visit, please renew your consent.</target>
+        <target state="final">Nuo paskutinio jūsų apsilankymo įvyko pakeitimų, todėl prašome atnaujinti savo sutikimą.</target>
       </trans-unit>
       <trans-unit id="consentNotice.description" approved="yes">
         <source>Hi! Could we please enable some additional services for {purposes}? You can always change or withdraw your consent later.</source>
-        <target state="final">Hi! Could we please enable some additional services for {purposes}? You can always change or withdraw your consent later.</target>
+        <target state="final">Sveiki! Ar galime įjungti kelias papildomas paslaugas tikslams {purposes}? Vėliau savo sutikimą visada galėsite pakeisti arba atšaukti.</target>
       </trans-unit>
       <trans-unit id="consentNotice.learnMore" approved="yes">
         <source>Let me choose</source>
@@ -36,7 +36,7 @@
       </trans-unit>
       <trans-unit id="consentNotice.testing" approved="yes">
         <source>Testing mode!</source>
-        <target state="final">Testing mode!</target>
+        <target state="final">Testavimo režimas!</target>
       </trans-unit>
       <trans-unit id="consentNotice.title" approved="yes">
         <source>Cookie Consent</source>
@@ -52,11 +52,11 @@
       </trans-unit>
       <trans-unit id="contextualConsent.description" approved="yes">
         <source>Do you want to load external content supplied by {title}?</source>
-        <target state="final">Do you want to load external content supplied by {title}?</target>
+        <target state="final">Ar norite įkelti išorinį turinį, kurį teikia {title}?</target>
       </trans-unit>
       <trans-unit id="contextualConsent.descriptionEmptyStore" approved="yes">
         <source>To agree to this service permanently, you must accept {title} in the {link}.</source>
-        <target state="final">To agree to this service permanently, you must accept {title} in the {link}.</target>
+        <target state="final">Norėdami nuolat sutikti su šia paslauga, turite priimti {title} skiltyje {link}.</target>
       </trans-unit>
       <trans-unit id="contextualConsent.modalLinkText" approved="yes">
         <source>Consent Manager</source>
@@ -72,7 +72,7 @@
       </trans-unit>
       <trans-unit id="poweredBy" approved="yes">
         <source>Realized with Klaro!</source>
-        <target state="final">Realized with Klaro!</target>
+        <target state="final">Įgyvendinta su Klaro!</target>
       </trans-unit>
       <trans-unit id="privacyPolicy.name" approved="yes">
         <source>privacy policy</source>
@@ -92,7 +92,7 @@
       </trans-unit>
       <trans-unit id="purposes.advertising.description" approved="yes">
         <source>These services process personal information to show you personalized or interest-based advertisements.</source>
-        <target state="final">These services process personal information to show you personalized or interest-based advertisements.</target>
+        <target state="final">Šios paslaugos tvarko asmens duomenis, kad galėtų rodyti jums suasmenintą arba interesais pagrįstą reklamą.</target>
       </trans-unit>
       <trans-unit id="purposes.advertising.title" approved="yes">
         <source>Advertising</source>
@@ -100,7 +100,7 @@
       </trans-unit>
       <trans-unit id="purposes.functional.description" approved="yes">
         <source>These services are essential for the correct functioning of this website. You cannot disable them here as the service would not work correctly otherwise.</source>
-        <target state="final">These services are essential for the correct functioning of this website. You cannot disable them here as the service would not work correctly otherwise.</target>
+        <target state="final">Šios paslaugos yra būtinos tinkamam šios svetainės veikimui. Čia jų išjungti negalite, nes kitu atveju paslauga neveiktų tinkamai.</target>
       </trans-unit>
       <trans-unit id="purposes.functional.title" approved="yes">
         <source>Service Provision</source>
@@ -108,7 +108,7 @@
       </trans-unit>
       <trans-unit id="purposes.marketing.description" approved="yes">
         <source>These services process personal information to show you relevant content about products, services or topics that you might be interested in.</source>
-        <target state="final">These services process personal information to show you relevant content about products, services or topics that you might be interested in.</target>
+        <target state="final">Šios paslaugos tvarko asmens duomenis, kad galėtų rodyti jums aktualų turinį apie produktus, paslaugas ar temas, kurios gali jus dominti.</target>
       </trans-unit>
       <trans-unit id="purposes.marketing.title" approved="yes">
         <source>Marketing</source>
@@ -116,11 +116,11 @@
       </trans-unit>
       <trans-unit id="purposes.performance.description" approved="yes">
         <source>These services process personal information to optimize the service that this website offers.</source>
-        <target state="final">These services process personal information to optimize the service that this website offers.</target>
+        <target state="final">Šios paslaugos tvarko asmens duomenis, kad optimizuotų šios svetainės teikiamą paslaugą.</target>
       </trans-unit>
       <trans-unit id="purposes.performance.title" approved="yes">
         <source>Performance Optimization</source>
-        <target state="final">Performance Optimization</target>
+        <target state="final">Našumo optimizavimas</target>
       </trans-unit>
       <trans-unit id="save" approved="yes">
         <source>Save</source>
@@ -128,19 +128,19 @@
       </trans-unit>
       <trans-unit id="service.disableAll.description" approved="yes">
         <source>Use this switch to enable or disable all services.</source>
-        <target state="final">Use this switch to enable or disable all services.</target>
+        <target state="final">Naudokite šį jungiklį, kad įjungtumėte arba išjungtumėte visas paslaugas.</target>
       </trans-unit>
       <trans-unit id="service.disableAll.title" approved="yes">
         <source>Enable or disable all services</source>
-        <target state="final">Enable or disable all services</target>
+        <target state="final">Įjungti arba išjungti visas paslaugas</target>
       </trans-unit>
       <trans-unit id="service.optOut.description" approved="yes">
         <source>This service is loaded by default (but you can opt out)</source>
-        <target state="final">This service is loaded by default (but you can opt out)</target>
+        <target state="final">Ši paslauga įkeliama pagal numatytuosius nustatymus (bet galite jos atsisakyti)</target>
       </trans-unit>
       <trans-unit id="service.optOut.title" approved="yes">
         <source>(opt-out)</source>
-        <target state="final">(opt-out)</target>
+        <target state="final">(atsisakymas)</target>
       </trans-unit>
       <trans-unit id="service.purpose" approved="yes">
         <source>purpose</source>
@@ -152,11 +152,11 @@
       </trans-unit>
       <trans-unit id="service.required.description" approved="yes">
         <source>This service is always required</source>
-        <target state="final">This service is always required</target>
+        <target state="final">Ši paslauga visada būtina</target>
       </trans-unit>
       <trans-unit id="service.required.title" approved="yes">
         <source>(always required)</source>
-        <target state="final">(always required)</target>
+        <target state="final">(visada būtina)</target>
       </trans-unit>
       <trans-unit id="purposes.analytics.title" approved="yes">
         <source>Analytics</source>
@@ -164,7 +164,7 @@
       </trans-unit>
       <trans-unit id="purposes.analytics.description" approved="yes">
         <source>These services gather anonymous data for statistical analysis and performance optimization. Enabling analytics services assists website owners in making informed decisions to enhance online services.</source>
-        <target state="final">These services gather anonymous data for statistical analysis and performance optimization. Enabling analytics services assists website owners in making informed decisions to enhance online services.</target>
+        <target state="final">Šios paslaugos renka anoniminius duomenis statistinei analizei ir našumo optimizavimui. Analitikos paslaugų įjungimas padeda svetainių savininkams priimti pagrįstus sprendimus ir gerinti internetines paslaugas.</target>
       </trans-unit>
       <trans-unit id="purposes.security.title" approved="yes">
         <source>Security</source>
@@ -172,7 +172,7 @@
       </trans-unit>
       <trans-unit id="purposes.security.description" approved="yes">
         <source>Security services are crucial for safeguarding your online experience. These services help protect your data and privacy by detecting and preventing security threats, such as malware, phishing attempts, and unauthorized access. They ensure a safer browsing environment.</source>
-        <target state="final">Security services are crucial for safeguarding your online experience. These services help protect your data and privacy by detecting and preventing security threats, such as malware, phishing attempts, and unauthorized access. They ensure a safer browsing environment.</target>
+        <target state="final">Saugumo paslaugos yra labai svarbios saugant jūsų patirtį internete. Šios paslaugos padeda apsaugoti jūsų duomenis ir privatumą aptikdamos ir užkirsdamos kelią saugumo grėsmėms, tokioms kaip kenkėjiška programinė įranga, sukčiavimo bandymai ir neteisėta prieiga. Jos užtikrina saugesnę naršymo aplinką.</target>
       </trans-unit>
       <trans-unit id="purposes.livechat.title" approved="yes">
         <source>Live Chat</source>
@@ -180,7 +180,7 @@
       </trans-unit>
       <trans-unit id="purposes.livechat.description" approved="yes">
         <source>Live chat services enable real-time communication with website support teams. They offer a convenient way to ask questions, seek assistance, or engage in discussions while browsing a website. Live chat enhances your online interaction and customer support experience.</source>
-        <target state="final">Live chat services enable real-time communication with website support teams. They offer a convenient way to ask questions, seek assistance, or engage in discussions while browsing a website. Live chat enhances your online interaction and customer support experience.</target>
+        <target state="final">Tiesioginio pokalbio paslaugos leidžia realiuoju laiku bendrauti su svetainės pagalbos komandomis. Jos suteikia patogų būdą užduoti klausimus, gauti pagalbą arba dalyvauti pokalbiuose naršant svetainėje. Tiesioginis pokalbis pagerina jūsų internetinę sąveiką ir klientų aptarnavimo patirtį.</target>
       </trans-unit>
       <trans-unit id="purposes.styling.title" approved="yes">
         <source>Styling</source>
@@ -188,7 +188,7 @@
       </trans-unit>
       <trans-unit id="purposes.styling.description" approved="yes">
         <source>Services related to styling help to improve the appearance of the website. This can also have an impact on usability.</source>
-        <target state="final">Services related to styling help to improve the appearance of the website. This can also have an impact on usability.</target>
+        <target state="final">Su stiliumi susijusios paslaugos padeda pagerinti svetainės išvaizdą. Tai taip pat gali turėti įtakos naudojimo patogumui.</target>
       </trans-unit>
       <trans-unit id="purposes.videos.title" approved="yes">
         <source>Videos</source>
@@ -196,7 +196,7 @@
       </trans-unit>
       <trans-unit id="purposes.videos.description" approved="yes">
         <source>Embedding videos from external platforms to enrich the content on this website.</source>
-        <target state="final">Embedding videos from external platforms to enrich the content on this website.</target>
+        <target state="final">Vaizdo įrašų įterpimas iš išorinių platformų, kad būtų praturtintas šios svetainės turinys.</target>
       </trans-unit>
       <trans-unit id="purposes.social.title" approved="yes">
         <source>Social Media</source>
@@ -204,7 +204,7 @@
       </trans-unit>
       <trans-unit id="purposes.social.description" approved="yes">
         <source>Embedding social media from external platforms to enrich the content on this website.</source>
-        <target state="final">Embedding social media from external platforms to enrich the content on this website.</target>
+        <target state="final">Socialinių medijų turinio įterpimas iš išorinių platformų, kad būtų praturtintas šios svetainės turinys.</target>
       </trans-unit>
       <trans-unit id="purposes.misc.title" approved="yes">
         <source>Miscellaneous</source>
@@ -212,7 +212,7 @@
       </trans-unit>
       <trans-unit id="purposes.misc.description" approved="yes">
         <source>This includes services that do not fall under the other purposes.</source>
-        <target state="final">This includes services that do not fall under the other purposes.</target>
+        <target state="final">Tai apima paslaugas, kurios nepatenka į kitus tikslus.</target>
       </trans-unit>
       <trans-unit id="consentManager.show" approved="yes">
         <source>Show Consent Manager</source>
@@ -236,7 +236,7 @@
       </trans-unit>
       <trans-unit id="services.adobe-fonts.description" approved="yes">
         <source>Adobe Fonts provides web fonts used for this website. When enabled, font files are loaded from Adobe and technical connection data may be processed.</source>
-        <target state="final">Adobe Fonts provides web fonts used for this website. When enabled, font files are loaded from Adobe and technical connection data may be processed.</target>
+        <target state="final">Adobe Fonts teikia šioje svetainėje naudojamus žiniatinklio šriftus. Įjungus paslaugą, šriftų failai įkeliami iš Adobe ir gali būti tvarkomi techniniai ryšio duomenys.</target>
       </trans-unit>
       <trans-unit id="services.adsense.title" approved="yes">
         <source>Google AdSense</source>
@@ -244,7 +244,7 @@
       </trans-unit>
       <trans-unit id="services.adsense.description" approved="yes">
         <source>Google AdSense enables personalized ads on websites while respecting user privacy. By consenting, you allow relevant ads and help support free content.</source>
-        <target state="final">Google AdSense enables personalized ads on websites while respecting user privacy. By consenting, you allow relevant ads and help support free content.</target>
+        <target state="final">Google AdSense leidžia svetainėse rodyti suasmenintus skelbimus gerbiant naudotojų privatumą. Sutikdami leidžiate rodyti aktualius skelbimus ir padedate palaikyti nemokamą turinį.</target>
       </trans-unit>
       <trans-unit id="services.camera.title" approved="yes">
         <source>Surveillance Camera</source>
@@ -252,7 +252,7 @@
       </trans-unit>
       <trans-unit id="services.camera.description" approved="yes">
         <source>Consent to the use of surveillance camera images for security and safety purposes, in compliance with applicable data privacy regulations.</source>
-        <target state="final">Consent to the use of surveillance camera images for security and safety purposes, in compliance with applicable data privacy regulations.</target>
+        <target state="final">Sutikimas naudoti stebėjimo kamerų vaizdus saugumo ir apsaugos tikslais, laikantis taikomų duomenų privatumo taisyklių.</target>
       </trans-unit>
       <trans-unit id="services.career-captain.title" approved="yes">
         <source>Career Captain</source>
@@ -260,7 +260,7 @@
       </trans-unit>
       <trans-unit id="services.career-captain.description" approved="yes">
         <source>Career Captain provides gamified career orientation and recruiting content. When enabled, external content from Career Captain may process usage and technical connection data.</source>
-        <target state="final">Career Captain provides gamified career orientation and recruiting content. When enabled, external content from Career Captain may process usage and technical connection data.</target>
+        <target state="final">Career Captain teikia žaidybinio pobūdžio karjeros orientavimo ir personalo paieškos turinį. Įjungus paslaugą, išorinis Career Captain turinys gali tvarkyti naudojimo ir techninius ryšio duomenis.</target>
       </trans-unit>
       <trans-unit id="services.clarity.title" approved="yes">
         <source>Microsoft Clarity</source>
@@ -268,7 +268,7 @@
       </trans-unit>
       <trans-unit id="services.clarity.description" approved="yes">
         <source>Microsoft Clarity is a user-friendly web analytics tool that empowers website visitors like you by providing transparency about how your interactions are tracked on a website. It ensures your privacy is respected while giving developers and website owners valuable insights into user behavior. Plus, it follows coding guidelines and best practices, ensuring a safe and secure online experience for you.</source>
-        <target state="final">Microsoft Clarity is a user-friendly web analytics tool that empowers website visitors like you by providing transparency about how your interactions are tracked on a website. It ensures your privacy is respected while giving developers and website owners valuable insights into user behavior. Plus, it follows coding guidelines and best practices, ensuring a safe and secure online experience for you.</target>
+        <target state="final">Microsoft Clarity yra patogus žiniatinklio analizės įrankis, suteikiantis svetainės lankytojams skaidrumo apie tai, kaip jų sąveika svetainėje yra stebima. Jis gerbia jūsų privatumą ir kartu suteikia kūrėjams bei svetainių savininkams vertingų įžvalgų apie naudotojų elgseną. Be to, jis laikosi programavimo gairių ir gerųjų praktikų, todėl jums užtikrinama saugesnė internetinė patirtis.</target>
       </trans-unit>
       <trans-unit id="services.cloudflare.title" approved="yes">
         <source>Cloudflare</source>
@@ -276,7 +276,7 @@
       </trans-unit>
       <trans-unit id="services.cloudflare.description" approved="yes">
         <source>Cloudflare helps protect and optimize websites. By using this website, you consent to Cloudflare's data processing practices as described in its Privacy Policy.</source>
-        <target state="final">Cloudflare helps protect and optimize websites. By using this website, you consent to Cloudflare's data processing practices as described in its Privacy Policy.</target>
+        <target state="final">Cloudflare padeda apsaugoti ir optimizuoti svetaines. Naudodamiesi šia svetaine sutinkate su Cloudflare duomenų tvarkymo praktika, aprašyta jos privatumo politikoje.</target>
       </trans-unit>
       <trans-unit id="services.external-tracker.title" approved="yes">
         <source>External Tracker</source>
@@ -284,7 +284,7 @@
       </trans-unit>
       <trans-unit id="services.external-tracker.description" approved="yes">
         <source>External tracking script</source>
-        <target state="final">External tracking script</target>
+        <target state="final">Išorinis stebėjimo scenarijus</target>
       </trans-unit>
       <trans-unit id="services.facebook-pixel.title" approved="yes">
         <source>Facebook Pixel</source>
@@ -292,7 +292,7 @@
       </trans-unit>
       <trans-unit id="services.facebook-pixel.description" approved="yes">
         <source>Simplifies web tracking for analytics and marketing while ensuring data compliance and control.</source>
-        <target state="final">Simplifies web tracking for analytics and marketing while ensuring data compliance and control.</target>
+        <target state="final">Supaprastina žiniatinklio stebėjimą analitikai ir rinkodarai, kartu užtikrindama duomenų atitiktį reikalavimams ir kontrolę.</target>
       </trans-unit>
       <trans-unit id="services.fast-fonts.title" approved="yes">
         <source>Fast Fonts</source>
@@ -300,7 +300,7 @@
       </trans-unit>
       <trans-unit id="services.fast-fonts.description" approved="yes">
         <source>Fast Fonts, operated by fonts.com and supplied by fast.fonts.net, is a service for the provision of web fonts. It requires the use of a pixel-code for continuous price calculation.</source>
-        <target state="final">Fast Fonts, operated by fonts.com and supplied by fast.fonts.net, is a service for the provision of web fonts. It requires the use of a pixel-code for continuous price calculation.</target>
+        <target state="final">Fast Fonts, valdoma fonts.com ir teikiama per fast.fonts.net, yra žiniatinklio šriftų teikimo paslauga. Jai reikia naudoti pikselio kodą nuolatiniam kainos skaičiavimui.</target>
       </trans-unit>
       <trans-unit id="services.google-ads.title" approved="yes">
         <source>Google Ads</source>
@@ -308,7 +308,7 @@
       </trans-unit>
       <trans-unit id="services.google-ads.description" approved="yes">
         <source>Google Ads allows advertisers to reach their target audience online. To personalize ads and measure their effectiveness, Google may collect data with your consent.</source>
-        <target state="final">Google Ads allows advertisers to reach their target audience online. To personalize ads and measure their effectiveness, Google may collect data with your consent.</target>
+        <target state="final">Google Ads leidžia reklamuotojams pasiekti savo tikslinę auditoriją internete. Norėdama suasmeninti skelbimus ir matuoti jų efektyvumą, Google gali rinkti duomenis gavusi jūsų sutikimą.</target>
       </trans-unit>
       <trans-unit id="services.google-analytics.title" approved="yes">
         <source>Google Analytics</source>
@@ -316,7 +316,7 @@
       </trans-unit>
       <trans-unit id="services.google-analytics.description" approved="yes">
         <source>Web analytics service provided by Google, Inc. ("Google")</source>
-        <target state="final">Web analytics service provided by Google, Inc. ("Google")</target>
+        <target state="final">Žiniatinklio analizės paslauga, kurią teikia Google, Inc. ("Google")</target>
       </trans-unit>
       <trans-unit id="services.google-fonts.title" approved="yes">
         <source>Google Fonts</source>
@@ -324,7 +324,7 @@
       </trans-unit>
       <trans-unit id="services.google-fonts.description" approved="yes">
         <source>Web fonts hosted by Google</source>
-        <target state="final">Web fonts hosted by Google</target>
+        <target state="final">Google talpinami žiniatinklio šriftai</target>
       </trans-unit>
       <trans-unit id="services.google-maps.title" approved="yes">
         <source>Google Maps</source>
@@ -332,7 +332,7 @@
       </trans-unit>
       <trans-unit id="services.google-maps.description" approved="yes">
         <source>Google Maps allows for the integration of interactive maps on websites, enabling location-based services. Developers can utilize it while ensuring data compliance and control, adhering to coding guidelines and best practices.</source>
-        <target state="final">Google Maps allows for the integration of interactive maps on websites, enabling location-based services. Developers can utilize it while ensuring data compliance and control, adhering to coding guidelines and best practices.</target>
+        <target state="final">Google Maps leidžia svetainėse integruoti interaktyvius žemėlapius ir vietove pagrįstas paslaugas. Kūrėjai gali ja naudotis užtikrindami duomenų atitiktį reikalavimams ir kontrolę bei laikydamiesi programavimo gairių ir gerųjų praktikų.</target>
       </trans-unit>
       <trans-unit id="services.google-tag-manager.title" approved="yes">
         <source>Google Tag Manager</source>
@@ -340,7 +340,7 @@
       </trans-unit>
       <trans-unit id="services.google-tag-manager.description" approved="yes">
         <source>Google Tag Manager streamlines web tracking and code management, ensuring data compliance and control for developers.</source>
-        <target state="final">Google Tag Manager streamlines web tracking and code management, ensuring data compliance and control for developers.</target>
+        <target state="final">Google Tag Manager supaprastina žiniatinklio stebėjimą ir kodo valdymą, užtikrindama kūrėjams duomenų atitiktį reikalavimams ir kontrolę.</target>
       </trans-unit>
       <trans-unit id="services.inline-tracker.title" approved="yes">
         <source>Inline Tracker</source>
@@ -348,7 +348,7 @@
       </trans-unit>
       <trans-unit id="services.inline-tracker.description" approved="yes">
         <source>Inline tracking script</source>
-        <target state="final">Inline tracking script</target>
+        <target state="final">Vidinis stebėjimo scenarijus</target>
       </trans-unit>
       <trans-unit id="services.instagram.title" approved="yes">
         <source>Instagram</source>
@@ -356,7 +356,7 @@
       </trans-unit>
       <trans-unit id="services.instagram.description" approved="yes">
         <source>Allows Instagram posts to be embedded. Personal data may be transferred to Instagram (Meta Platforms) in the process.</source>
-        <target state="final">Allows Instagram posts to be embedded. Personal data may be transferred to Instagram (Meta Platforms) in the process.</target>
+        <target state="final">Leidžia įterpti Instagram įrašus. Šio proceso metu asmens duomenys gali būti perduoti Instagram (Meta Platforms).</target>
       </trans-unit>
       <trans-unit id="services.intercom.title" approved="yes">
         <source>Intercom</source>
@@ -364,7 +364,7 @@
       </trans-unit>
       <trans-unit id="services.intercom.description" approved="yes">
         <source>Chat widget and collecting of visitor statistics</source>
-        <target state="final">Chat widget and collecting of visitor statistics</target>
+        <target state="final">Pokalbių valdiklis ir lankytojų statistikos rinkimas</target>
       </trans-unit>
       <trans-unit id="services.klaro.title" approved="yes">
         <source>Klaro!</source>
@@ -372,7 +372,7 @@
       </trans-unit>
       <trans-unit id="services.klaro.description" approved="yes">
         <source>Klaro! manages consent choices for this website and stores whether individual services may be loaded according to your preferences.</source>
-        <target state="final">Klaro! manages consent choices for this website and stores whether individual services may be loaded according to your preferences.</target>
+        <target state="final">Klaro! tvarko šios svetainės sutikimų pasirinkimus ir saugo informaciją, ar atskiros paslaugos gali būti įkeliamos pagal jūsų nuostatas.</target>
       </trans-unit>
       <trans-unit id="services.matomo.title" approved="yes">
         <source>Matomo/Piwik</source>
@@ -380,7 +380,7 @@
       </trans-unit>
       <trans-unit id="services.matomo.description" approved="yes">
         <source>Open source software for statistical analysis of visitor accesses</source>
-        <target state="final">Open source software for statistical analysis of visitor accesses</target>
+        <target state="final">Atvirojo kodo programinė įranga lankytojų prieigų statistinei analizei</target>
       </trans-unit>
       <trans-unit id="services.mouseflow.title" approved="yes">
         <source>Mouseflow</source>
@@ -388,7 +388,7 @@
       </trans-unit>
       <trans-unit id="services.mouseflow.description" approved="yes">
         <source>Real-time user analytics service that helps to understand how visitors interact with our website.</source>
-        <target state="final">Real-time user analytics service that helps to understand how visitors interact with our website.</target>
+        <target state="final">Realaus laiko naudotojų analizės paslauga, padedanti suprasti, kaip lankytojai sąveikauja su mūsų svetaine.</target>
       </trans-unit>
       <trans-unit id="services.salesviewer.title" approved="yes">
         <source>SalesViewer</source>
@@ -396,7 +396,7 @@
       </trans-unit>
       <trans-unit id="services.salesviewer.description" approved="yes">
         <source>SalesViewer analyzes website visits for B2B lead generation and may identify company-related visitor information based on usage and technical access data.</source>
-        <target state="final">SalesViewer analyzes website visits for B2B lead generation and may identify company-related visitor information based on usage and technical access data.</target>
+        <target state="final">SalesViewer analizuoja svetainės apsilankymus B2B potencialiems klientams generuoti ir gali identifikuoti su įmone susijusią lankytojų informaciją pagal naudojimo ir techninės prieigos duomenis.</target>
       </trans-unit>
       <trans-unit id="services.tiktok.title" approved="yes">
         <source>TikTok</source>
@@ -404,7 +404,7 @@
       </trans-unit>
       <trans-unit id="services.tiktok.description" approved="yes">
         <source>Allows TikTok videos to be embedded. Personal data may be transferred to TikTok and processed in third countries.</source>
-        <target state="final">Allows TikTok videos to be embedded. Personal data may be transferred to TikTok and processed in third countries.</target>
+        <target state="final">Leidžia įterpti TikTok vaizdo įrašus. Asmens duomenys gali būti perduoti TikTok ir tvarkomi trečiosiose šalyse.</target>
       </trans-unit>
       <trans-unit id="services.twitter.title" approved="yes">
         <source>X (formerly Twitter)</source>
@@ -412,7 +412,7 @@
       </trans-unit>
       <trans-unit id="services.twitter.description" approved="yes">
         <source>X (formerly Twitter) is a social media platform that allows users to share and interact with short messages and multimedia content. Developers can integrate Twitter features into websites to enhance user engagement and real-time updates while maintaining data privacy compliance and adhering to coding guidelines.</source>
-        <target state="final">X (formerly Twitter) is a social media platform that allows users to share and interact with short messages and multimedia content. Developers can integrate Twitter features into websites to enhance user engagement and real-time updates while maintaining data privacy compliance and adhering to coding guidelines.</target>
+        <target state="final">X (anksčiau Twitter) yra socialinių medijų platforma, leidžianti naudotojams dalytis trumpomis žinutėmis ir multimedijos turiniu bei su juo sąveikauti. Kūrėjai gali integruoti Twitter funkcijas į svetaines, kad pagerintų naudotojų įsitraukimą ir realiojo laiko atnaujinimus, kartu laikydamiesi duomenų privatumo reikalavimų ir programavimo gairių.</target>
       </trans-unit>
       <trans-unit id="services.userlike.title" approved="yes">
         <source>Userlike</source>
@@ -420,7 +420,7 @@
       </trans-unit>
       <trans-unit id="services.userlike.description" approved="yes">
         <source>Userlike offers a live chat solution that enhances user interactions on websites.</source>
-        <target state="final">Userlike offers a live chat solution that enhances user interactions on websites.</target>
+        <target state="final">Userlike siūlo tiesioginio pokalbio sprendimą, kuris pagerina naudotojų sąveiką svetainėse.</target>
       </trans-unit>
       <trans-unit id="services.vimeo.title" approved="yes">
         <source>Vimeo</source>
@@ -428,7 +428,7 @@
       </trans-unit>
       <trans-unit id="services.vimeo.description" approved="yes">
         <source>Popular video-sharing platform that offers a range of features for creators and developers to enhance video content on websites.</source>
-        <target state="final">Popular video-sharing platform that offers a range of features for creators and developers to enhance video content on websites.</target>
+        <target state="final">Populiari vaizdo įrašų dalijimosi platforma, siūlanti įvairias funkcijas kūrėjams ir programuotojams, kad būtų pagerintas vaizdo turinys svetainėse.</target>
       </trans-unit>
       <trans-unit id="services.youtube.title" approved="yes">
         <source>YouTube</source>
@@ -436,7 +436,7 @@
       </trans-unit>
       <trans-unit id="services.youtube.description" approved="yes">
         <source>The leading video-sharing platform for content creators and developers to enhance user experiences on websites.</source>
-        <target state="final">The leading video-sharing platform for content creators and developers to enhance user experiences on websites.</target>
+        <target state="final">Pirmaujanti vaizdo įrašų dalijimosi platforma turinio kūrėjams ir programuotojams, siekiantiems pagerinti naudotojų patirtį svetainėse.</target>
       </trans-unit>
       <trans-unit id="consentModal.privacyPolicy.name" approved="yes">
         <source>Privacy policy</source>
@@ -460,7 +460,7 @@
       </trans-unit>
       <trans-unit id="cookies.description" approved="yes">
         <source>Below you will find a list of all cookies used by %s</source>
-        <target state="final">Below you will find a list of all cookies used by %s</target>
+        <target state="final">Toliau rasite visų slapukų, kuriuos naudoja %s, sąrašą</target>
       </trans-unit>
       <trans-unit id="cookies.headline.name" approved="yes">
         <source>Name / Pattern</source>
@@ -536,11 +536,11 @@
       </trans-unit>
       <trans-unit id="warning.noServices" approved="yes">
         <source>Why don't I see a Klaro! Modal? → You must assign at least 1 service to the Klaro! configuration! Without services, we don't need consent management at all.</source>
-        <target state="final">Why don't I see a Klaro! Modal? → You must assign at least 1 service to the Klaro! configuration! Without services, we don't need consent management at all.</target>
+        <target state="final">Kodėl nematau Klaro! modalinio lango? → Klaro! konfigūracijai turite priskirti bent 1 paslaugą! Be paslaugų sutikimų tvarkymas visai nereikalingas.</target>
       </trans-unit>
       <trans-unit id="warning.noServicesPersonalized" approved="yes">
         <source>Hey %s! You missed a service in the config! Without services, we don't need consent management at all.</source>
-        <target state="final">Hey %s! You missed a service in the config! Without services, we don't need consent management at all.</target>
+        <target state="final">Sveiki, %s! Konfigūracijoje praleidote paslaugą! Be paslaugų sutikimų tvarkymas visai nereikalingas.</target>
       </trans-unit>
     </body>
   </file>
