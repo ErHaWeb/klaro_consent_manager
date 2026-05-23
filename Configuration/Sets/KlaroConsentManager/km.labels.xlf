@@ -13,27 +13,27 @@
       </trans-unit>
       <trans-unit id="categories.klaroconsentmanager.templates" approved="yes">
         <source>Templates</source>
-        <target state="final">Templates</target>
+        <target state="final">ពុម្ព</target>
       </trans-unit>
       <trans-unit id="categories.klaroconsentmanager.resources" approved="yes">
         <source>Resources</source>
-        <target state="final">Resources</target>
+        <target state="final">ធនធាន</target>
       </trans-unit>
       <trans-unit id="categories.klaroconsentmanager.settings" approved="yes">
         <source>Settings</source>
-        <target state="final">Settings</target>
+        <target state="final">ការកំណត់</target>
       </trans-unit>
       <trans-unit id="settings.plugin.tx_klaroconsentmanager.view.templateRootPath" approved="yes">
         <source>Path to template root (FE)</source>
-        <target state="final">Path to template root (FE)</target>
+        <target state="final">ផ្លូវទៅ root របស់ពុម្ព (FE)</target>
       </trans-unit>
       <trans-unit id="settings.plugin.tx_klaroconsentmanager.view.partialRootPath" approved="yes">
         <source>Path to template partials (FE)</source>
-        <target state="final">Path to template partials (FE)</target>
+        <target state="final">ផ្លូវទៅ partials របស់ពុម្ព (FE)</target>
       </trans-unit>
       <trans-unit id="settings.plugin.tx_klaroconsentmanager.view.layoutRootPath" approved="yes">
         <source>Path to template layouts (FE)</source>
-        <target state="final">Path to template layouts (FE)</target>
+        <target state="final">ផ្លូវទៅ layouts របស់ពុម្ព (FE)</target>
       </trans-unit>
       <trans-unit id="settings.plugin.tx_klaroconsentmanager.settings.css.klaro-default" approved="yes">
         <source>Klaro CSS</source>
@@ -41,7 +41,7 @@
       </trans-unit>
       <trans-unit id="settings.plugin.tx_klaroconsentmanager.settings.css.klaro-custom" approved="yes">
         <source>Custom additions for Klaro CSS</source>
-        <target state="final">Custom additions for Klaro CSS</target>
+        <target state="final">ការបន្ថែមផ្ទាល់ខ្លួនសម្រាប់ Klaro CSS</target>
       </trans-unit>
       <trans-unit id="settings.plugin.tx_klaroconsentmanager.settings.javascript.klaro-default" approved="yes">
         <source>Klaro JavaScript</source>
@@ -49,23 +49,23 @@
       </trans-unit>
       <trans-unit id="settings.plugin.tx_klaroconsentmanager.settings.contextualconsent.replaceAttributes" approved="yes">
         <source>Replace attributes</source>
-        <target state="final">Replace attributes</target>
+        <target state="final">ជំនួស attributes</target>
       </trans-unit>
       <trans-unit id="settings.description.plugin.tx_klaroconsentmanager.settings.contextualconsent.replaceAttributes" approved="yes">
         <source>Comma-separated list of attributes that should be automatically replaced within the content element of the contextual consent</source>
-        <target state="final">Comma-separated list of attributes that should be automatically replaced within the content element of the contextual consent</target>
+        <target state="final">បញ្ជី attributes ដែលបំបែកដោយសញ្ញាក្បៀស ដែលគួរត្រូវបានជំនួសដោយស្វ័យប្រវត្តិនៅក្នុងធាតុមាតិកានៃការយល់ព្រមតាមបរិបទ</target>
       </trans-unit>
       <trans-unit id="settings.plugin.tx_klaroconsentmanager.settings.contextualconsent.mainSectionOnly" approved="yes">
         <source>Main section only</source>
-        <target state="final">Main section only</target>
+        <target state="final">តែផ្នែកមេប៉ុណ្ណោះ</target>
       </trans-unit>
       <trans-unit id="settings.description.plugin.tx_klaroconsentmanager.settings.contextualconsent.mainSectionOnly" approved="yes">
         <source>Activate this option if the contextual consent box should be limited to the main content only (without heading and footer).</source>
-        <target state="final">Activate this option if the contextual consent box should be limited to the main content only (without heading and footer).</target>
+        <target state="final">បើកជម្រើសនេះ ប្រសិនបើប្រអប់ការយល់ព្រមតាមបរិបទគួរត្រូវបានកំណត់ត្រឹមតែមាតិកាមេប៉ុណ្ណោះ (ដោយគ្មានចំណងជើង និងបាតកថា)។</target>
       </trans-unit>
       <trans-unit id="settings.plugin.tx_klaroconsentmanager.settings.configuration.disabled" approved="yes">
         <source>Disable Klaro Consent Management</source>
-        <target state="final">Disable Klaro Consent Management</target>
+        <target state="final">បិទ Klaro Consent Management</target>
       </trans-unit>
     </body>
   </file>
