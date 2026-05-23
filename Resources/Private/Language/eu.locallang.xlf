@@ -4,15 +4,15 @@
     <body>
       <trans-unit id="acceptAll" approved="yes">
         <source>Accept all</source>
-        <target state="final">Accept all</target>
+        <target state="final">Onartu guztiak</target>
       </trans-unit>
       <trans-unit id="acceptSelected" approved="yes">
         <source>Accept selected</source>
-        <target state="final">Accept selected</target>
+        <target state="final">Onartu hautatutakoak</target>
       </trans-unit>
       <trans-unit id="close" approved="yes">
         <source>Close</source>
-        <target state="final">Close</target>
+        <target state="final">Itxi</target>
       </trans-unit>
       <trans-unit id="consentModal.description" approved="yes">
         <source>Here you can assess and customize the services that we'd like to use on this website. You're in charge! Enable or disable services as you see fit.</source>
@@ -32,7 +32,7 @@
       </trans-unit>
       <trans-unit id="consentNotice.learnMore" approved="yes">
         <source>Let me choose</source>
-        <target state="final">Let me choose</target>
+        <target state="final">Utzi aukeratzen</target>
       </trans-unit>
       <trans-unit id="consentNotice.testing" approved="yes">
         <source>Testing mode!</source>
@@ -40,15 +40,15 @@
       </trans-unit>
       <trans-unit id="consentNotice.title" approved="yes">
         <source>Cookie Consent</source>
-        <target state="final">Cookie Consent</target>
+        <target state="final">Cookieen baimena</target>
       </trans-unit>
       <trans-unit id="contextualConsent.acceptAlways" approved="yes">
         <source>Always</source>
-        <target state="final">Always</target>
+        <target state="final">Beti</target>
       </trans-unit>
       <trans-unit id="contextualConsent.acceptOnce" approved="yes">
         <source>Yes</source>
-        <target state="final">Yes</target>
+        <target state="final">Bai</target>
       </trans-unit>
       <trans-unit id="contextualConsent.description" approved="yes">
         <source>Do you want to load external content supplied by {title}?</source>
@@ -60,15 +60,15 @@
       </trans-unit>
       <trans-unit id="contextualConsent.modalLinkText" approved="yes">
         <source>Consent Manager</source>
-        <target state="final">Consent Manager</target>
+        <target state="final">Baimen-kudeatzailea</target>
       </trans-unit>
       <trans-unit id="decline" approved="yes">
         <source>I decline</source>
-        <target state="final">I decline</target>
+        <target state="final">Uko egiten dut</target>
       </trans-unit>
       <trans-unit id="ok" approved="yes">
         <source>That's ok</source>
-        <target state="final">That's ok</target>
+        <target state="final">Ondo dago</target>
       </trans-unit>
       <trans-unit id="poweredBy" approved="yes">
         <source>Realized with Klaro!</source>
@@ -76,19 +76,19 @@
       </trans-unit>
       <trans-unit id="privacyPolicy.name" approved="yes">
         <source>privacy policy</source>
-        <target state="final">privacy policy</target>
+        <target state="final">pribatutasun-politika</target>
       </trans-unit>
       <trans-unit id="privacyPolicy.text" approved="yes">
         <source>To learn more, please read our {privacyPolicy}.</source>
-        <target state="final">To learn more, please read our {privacyPolicy}.</target>
+        <target state="final">Gehiago jakiteko, irakurri gure {privacyPolicy}.</target>
       </trans-unit>
       <trans-unit id="purposeItem.service" approved="yes">
         <source>service</source>
-        <target state="final">service</target>
+        <target state="final">zerbitzua</target>
       </trans-unit>
       <trans-unit id="purposeItem.services" approved="yes">
         <source>services</source>
-        <target state="final">services</target>
+        <target state="final">zerbitzuak</target>
       </trans-unit>
       <trans-unit id="purposes.advertising.description" approved="yes">
         <source>These services process personal information to show you personalized or interest-based advertisements.</source>
@@ -96,7 +96,7 @@
       </trans-unit>
       <trans-unit id="purposes.advertising.title" approved="yes">
         <source>Advertising</source>
-        <target state="final">Advertising</target>
+        <target state="final">Publizitatea</target>
       </trans-unit>
       <trans-unit id="purposes.functional.description" approved="yes">
         <source>These services are essential for the correct functioning of this website. You cannot disable them here as the service would not work correctly otherwise.</source>
@@ -104,7 +104,7 @@
       </trans-unit>
       <trans-unit id="purposes.functional.title" approved="yes">
         <source>Service Provision</source>
-        <target state="final">Service Provision</target>
+        <target state="final">Zerbitzu-hornidura</target>
       </trans-unit>
       <trans-unit id="purposes.marketing.description" approved="yes">
         <source>These services process personal information to show you relevant content about products, services or topics that you might be interested in.</source>
@@ -112,7 +112,7 @@
       </trans-unit>
       <trans-unit id="purposes.marketing.title" approved="yes">
         <source>Marketing</source>
-        <target state="final">Marketing</target>
+        <target state="final">Marketina</target>
       </trans-unit>
       <trans-unit id="purposes.performance.description" approved="yes">
         <source>These services process personal information to optimize the service that this website offers.</source>
@@ -124,7 +124,7 @@
       </trans-unit>
       <trans-unit id="save" approved="yes">
         <source>Save</source>
-        <target state="final">Save</target>
+        <target state="final">Gorde</target>
       </trans-unit>
       <trans-unit id="service.disableAll.description" approved="yes">
         <source>Use this switch to enable or disable all services.</source>
@@ -144,11 +144,11 @@
       </trans-unit>
       <trans-unit id="service.purpose" approved="yes">
         <source>purpose</source>
-        <target state="final">purpose</target>
+        <target state="final">helburua</target>
       </trans-unit>
       <trans-unit id="service.purposes" approved="yes">
         <source>purposes</source>
-        <target state="final">purposes</target>
+        <target state="final">helburuak</target>
       </trans-unit>
       <trans-unit id="service.required.description" approved="yes">
         <source>This service is always required</source>
@@ -160,7 +160,7 @@
       </trans-unit>
       <trans-unit id="purposes.analytics.title" approved="yes">
         <source>Analytics</source>
-        <target state="final">Analytics</target>
+        <target state="final">Analitika</target>
       </trans-unit>
       <trans-unit id="purposes.analytics.description" approved="yes">
         <source>These services gather anonymous data for statistical analysis and performance optimization. Enabling analytics services assists website owners in making informed decisions to enhance online services.</source>
@@ -168,7 +168,7 @@
       </trans-unit>
       <trans-unit id="purposes.security.title" approved="yes">
         <source>Security</source>
-        <target state="final">Security</target>
+        <target state="final">Segurtasuna</target>
       </trans-unit>
       <trans-unit id="purposes.security.description" approved="yes">
         <source>Security services are crucial for safeguarding your online experience. These services help protect your data and privacy by detecting and preventing security threats, such as malware, phishing attempts, and unauthorized access. They ensure a safer browsing environment.</source>
@@ -176,7 +176,7 @@
       </trans-unit>
       <trans-unit id="purposes.livechat.title" approved="yes">
         <source>Live Chat</source>
-        <target state="final">Live Chat</target>
+        <target state="final">Zuzeneko txata</target>
       </trans-unit>
       <trans-unit id="purposes.livechat.description" approved="yes">
         <source>Live chat services enable real-time communication with website support teams. They offer a convenient way to ask questions, seek assistance, or engage in discussions while browsing a website. Live chat enhances your online interaction and customer support experience.</source>
@@ -184,7 +184,7 @@
       </trans-unit>
       <trans-unit id="purposes.styling.title" approved="yes">
         <source>Styling</source>
-        <target state="final">Styling</target>
+        <target state="final">Estiloa</target>
       </trans-unit>
       <trans-unit id="purposes.styling.description" approved="yes">
         <source>Services related to styling help to improve the appearance of the website. This can also have an impact on usability.</source>
@@ -192,7 +192,7 @@
       </trans-unit>
       <trans-unit id="purposes.videos.title" approved="yes">
         <source>Videos</source>
-        <target state="final">Videos</target>
+        <target state="final">Bideoak</target>
       </trans-unit>
       <trans-unit id="purposes.videos.description" approved="yes">
         <source>Embedding videos from external platforms to enrich the content on this website.</source>
@@ -200,7 +200,7 @@
       </trans-unit>
       <trans-unit id="purposes.social.title" approved="yes">
         <source>Social Media</source>
-        <target state="final">Social Media</target>
+        <target state="final">Sare sozialak</target>
       </trans-unit>
       <trans-unit id="purposes.social.description" approved="yes">
         <source>Embedding social media from external platforms to enrich the content on this website.</source>
@@ -208,7 +208,7 @@
       </trans-unit>
       <trans-unit id="purposes.misc.title" approved="yes">
         <source>Miscellaneous</source>
-        <target state="final">Miscellaneous</target>
+        <target state="final">Askotarikoa</target>
       </trans-unit>
       <trans-unit id="purposes.misc.description" approved="yes">
         <source>This includes services that do not fall under the other purposes.</source>
@@ -216,19 +216,19 @@
       </trans-unit>
       <trans-unit id="consentManager.show" approved="yes">
         <source>Show Consent Manager</source>
-        <target state="final">Show Consent Manager</target>
+        <target state="final">Erakutsi baimen-kudeatzailea</target>
       </trans-unit>
       <trans-unit id="consentManager.show.title" approved="yes">
         <source>Show Consent Manager</source>
-        <target state="final">Show Consent Manager</target>
+        <target state="final">Erakutsi baimen-kudeatzailea</target>
       </trans-unit>
       <trans-unit id="consentManager.reset" approved="yes">
         <source>Reset Consent Manager</source>
-        <target state="final">Reset Consent Manager</target>
+        <target state="final">Berrezarri baimen-kudeatzailea</target>
       </trans-unit>
       <trans-unit id="consentManager.reset.title" approved="yes">
         <source>Reset Consent Manager</source>
-        <target state="final">Reset Consent Manager</target>
+        <target state="final">Berrezarri baimen-kudeatzailea</target>
       </trans-unit>
       <trans-unit id="services.adobe-fonts.title" approved="yes">
         <source>Adobe Fonts</source>
@@ -248,7 +248,7 @@
       </trans-unit>
       <trans-unit id="services.camera.title" approved="yes">
         <source>Surveillance Camera</source>
-        <target state="final">Surveillance Camera</target>
+        <target state="final">Zaintza-kamera</target>
       </trans-unit>
       <trans-unit id="services.camera.description" approved="yes">
         <source>Consent to the use of surveillance camera images for security and safety purposes, in compliance with applicable data privacy regulations.</source>
@@ -280,7 +280,7 @@
       </trans-unit>
       <trans-unit id="services.external-tracker.title" approved="yes">
         <source>External Tracker</source>
-        <target state="final">External Tracker</target>
+        <target state="final">Kanpoko jarraitzailea</target>
       </trans-unit>
       <trans-unit id="services.external-tracker.description" approved="yes">
         <source>External tracking script</source>
@@ -344,7 +344,7 @@
       </trans-unit>
       <trans-unit id="services.inline-tracker.title" approved="yes">
         <source>Inline Tracker</source>
-        <target state="final">Inline Tracker</target>
+        <target state="final">Lerro barruko jarraitzailea</target>
       </trans-unit>
       <trans-unit id="services.inline-tracker.description" approved="yes">
         <source>Inline tracking script</source>
@@ -408,7 +408,7 @@
       </trans-unit>
       <trans-unit id="services.twitter.title" approved="yes">
         <source>X (formerly Twitter)</source>
-        <target state="final">X (formerly Twitter)</target>
+        <target state="final">X (lehen Twitter)</target>
       </trans-unit>
       <trans-unit id="services.twitter.description" approved="yes">
         <source>X (formerly Twitter) is a social media platform that allows users to share and interact with short messages and multimedia content. Developers can integrate Twitter features into websites to enhance user engagement and real-time updates while maintaining data privacy compliance and adhering to coding guidelines.</source>
@@ -440,23 +440,23 @@
       </trans-unit>
       <trans-unit id="consentModal.privacyPolicy.name" approved="yes">
         <source>Privacy policy</source>
-        <target state="final">Privacy policy</target>
+        <target state="final">Pribatutasun-politika</target>
       </trans-unit>
       <trans-unit id="consentModal.privacyPolicy.text" approved="yes">
         <source>To learn more, please read our {privacyPolicy}.</source>
-        <target state="final">To learn more, please read our {privacyPolicy}.</target>
+        <target state="final">Gehiago jakiteko, irakurri gure {privacyPolicy}.</target>
       </trans-unit>
       <trans-unit id="consentNotice.imprint.name" approved="yes">
         <source>Imprint</source>
-        <target state="final">Imprint</target>
+        <target state="final">Lege-oharra</target>
       </trans-unit>
       <trans-unit id="consentNotice.privacyPolicy.name" approved="yes">
         <source>Privacy policy</source>
-        <target state="final">Privacy policy</target>
+        <target state="final">Pribatutasun-politika</target>
       </trans-unit>
       <trans-unit id="cookies.title" approved="yes">
         <source>Cookies</source>
-        <target state="final">Cookies</target>
+        <target state="final">Cookieak</target>
       </trans-unit>
       <trans-unit id="cookies.description" approved="yes">
         <source>Below you will find a list of all cookies used by %s</source>
@@ -464,75 +464,75 @@
       </trans-unit>
       <trans-unit id="cookies.headline.name" approved="yes">
         <source>Name / Pattern</source>
-        <target state="final">Name / Pattern</target>
+        <target state="final">Izena / eredua</target>
       </trans-unit>
       <trans-unit id="cookies.headline.path" approved="yes">
         <source>Path</source>
-        <target state="final">Path</target>
+        <target state="final">Bidea</target>
       </trans-unit>
       <trans-unit id="cookies.headline.domain" approved="yes">
         <source>Domain</source>
-        <target state="final">Domain</target>
+        <target state="final">Domeinua</target>
       </trans-unit>
       <trans-unit id="cookies.headline.expiresAfter" approved="yes">
         <source>Expires after</source>
-        <target state="final">Expires after</target>
+        <target state="final">Iraungitzen da honen ondoren</target>
       </trans-unit>
       <trans-unit id="year" approved="yes">
         <source>Year</source>
-        <target state="final">Year</target>
+        <target state="final">Urtea</target>
       </trans-unit>
       <trans-unit id="years" approved="yes">
         <source>Years</source>
-        <target state="final">Years</target>
+        <target state="final">Urteak</target>
       </trans-unit>
       <trans-unit id="month" approved="yes">
         <source>Month</source>
-        <target state="final">Month</target>
+        <target state="final">Hilabetea</target>
       </trans-unit>
       <trans-unit id="months" approved="yes">
         <source>Months</source>
-        <target state="final">Months</target>
+        <target state="final">Hilabeteak</target>
       </trans-unit>
       <trans-unit id="day" approved="yes">
         <source>Day</source>
-        <target state="final">Day</target>
+        <target state="final">Eguna</target>
       </trans-unit>
       <trans-unit id="days" approved="yes">
         <source>Days</source>
-        <target state="final">Days</target>
+        <target state="final">Egunak</target>
       </trans-unit>
       <trans-unit id="hour" approved="yes">
         <source>Hour</source>
-        <target state="final">Hour</target>
+        <target state="final">Ordua</target>
       </trans-unit>
       <trans-unit id="hours" approved="yes">
         <source>Hours</source>
-        <target state="final">Hours</target>
+        <target state="final">Orduak</target>
       </trans-unit>
       <trans-unit id="minute" approved="yes">
         <source>Minute</source>
-        <target state="final">Minute</target>
+        <target state="final">Minutua</target>
       </trans-unit>
       <trans-unit id="minutes" approved="yes">
         <source>Minutes</source>
-        <target state="final">Minutes</target>
+        <target state="final">Minutuak</target>
       </trans-unit>
       <trans-unit id="second" approved="yes">
         <source>Second</source>
-        <target state="final">Second</target>
+        <target state="final">Segundoa</target>
       </trans-unit>
       <trans-unit id="seconds" approved="yes">
         <source>Seconds</source>
-        <target state="final">Seconds</target>
+        <target state="final">Segundoak</target>
       </trans-unit>
       <trans-unit id="end-of-session" approved="yes">
         <source>End of session</source>
-        <target state="final">End of session</target>
+        <target state="final">Saioaren amaiera</target>
       </trans-unit>
       <trans-unit id="persistent" approved="yes">
         <source>persistent</source>
-        <target state="final">persistent</target>
+        <target state="final">iraunkorra</target>
       </trans-unit>
       <trans-unit id="warning.noServices" approved="yes">
         <source>Why don't I see a Klaro! Modal? → You must assign at least 1 service to the Klaro! configuration! Without services, we don't need consent management at all.</source>
