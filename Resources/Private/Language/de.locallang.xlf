@@ -24,11 +24,11 @@
       </trans-unit>
       <trans-unit id="consentNotice.changeDescription" approved="yes">
         <source>There were changes since your last visit, please renew your consent.</source>
-        <target state="final">Seit Ihrem letzten Besuch gab es Änderungen, bitte erneuern Sie Ihre Zustimmung.</target>
+        <target state="final">Seit Ihrem letzten Besuch gab es Änderungen, bitte erneuern Sie Ihre Einwilligung.</target>
       </trans-unit>
       <trans-unit id="consentNotice.description" approved="yes">
         <source>Hi! Could we please enable some additional services for {purposes}? You can always change or withdraw your consent later.</source>
-        <target state="final">Hallo! Könnten wir bitte einige zusätzliche Dienste für {purposes} aktivieren? Sie können Ihre Zustimmung später jederzeit ändern oder zurückziehen.</target>
+        <target state="final">Hallo! Könnten wir bitte einige zusätzliche Dienste für {purposes} aktivieren? Sie können Ihre Einwilligung später jederzeit ändern oder zurückziehen.</target>
       </trans-unit>
       <trans-unit id="consentNotice.learnMore" approved="yes">
         <source>Let me choose</source>
@@ -40,7 +40,7 @@
       </trans-unit>
       <trans-unit id="consentNotice.title" approved="yes">
         <source>Cookie Consent</source>
-        <target state="final">Cookie-Einstellungen</target>
+        <target state="final">Cookie-Einwilligung</target>
       </trans-unit>
       <trans-unit id="contextualConsent.acceptAlways" approved="yes">
         <source>Always</source>
@@ -56,11 +56,11 @@
       </trans-unit>
       <trans-unit id="contextualConsent.descriptionEmptyStore" approved="yes">
         <source>To agree to this service permanently, you must accept {title} in the {link}.</source>
-        <target state="final">Um diesem Service dauerhaft zuzustimmen, müssen Sie {title} im {link} akzeptieren.</target>
+        <target state="final">Um diesem Dienst dauerhaft zuzustimmen, müssen Sie {title} im {link} akzeptieren.</target>
       </trans-unit>
       <trans-unit id="contextualConsent.modalLinkText" approved="yes">
         <source>Consent Manager</source>
-        <target state="final">Zustimmungsmanager anzeigen</target>
+        <target state="final">Einwilligungsmanager</target>
       </trans-unit>
       <trans-unit id="decline" approved="yes">
         <source>I decline</source>
@@ -112,11 +112,11 @@
       </trans-unit>
       <trans-unit id="purposes.marketing.title" approved="yes">
         <source>Marketing</source>
-        <target state="final">Vermarktung</target>
+        <target state="final">Marketing</target>
       </trans-unit>
       <trans-unit id="purposes.performance.description" approved="yes">
         <source>These services process personal information to optimize the service that this website offers.</source>
-        <target state="final">Diese Dienstleistungen verarbeiten persönliche Informationen, um den Service dieser Website zu optimieren.</target>
+        <target state="final">Diese Dienste verarbeiten persönliche Informationen, um den Service dieser Website zu optimieren.</target>
       </trans-unit>
       <trans-unit id="purposes.performance.title" approved="yes">
         <source>Performance Optimization</source>
@@ -188,7 +188,7 @@
       </trans-unit>
       <trans-unit id="purposes.styling.description" approved="yes">
         <source>Services related to styling help to improve the appearance of the website. This can also have an impact on usability.</source>
-        <target state="final">Dienstleistungen im Zusammenhang mit dem Styling tragen dazu bei, das Erscheinungsbild der Website zu verbessern. Dies kann auch Auswirkungen auf die Benutzerfreundlichkeit haben.</target>
+        <target state="final">Dienste im Zusammenhang mit dem Styling tragen dazu bei, das Erscheinungsbild der Website zu verbessern. Dies kann auch Auswirkungen auf die Benutzerfreundlichkeit haben.</target>
       </trans-unit>
       <trans-unit id="purposes.videos.title" approved="yes">
         <source>Videos</source>
@@ -212,11 +212,11 @@
       </trans-unit>
       <trans-unit id="purposes.misc.description" approved="yes">
         <source>This includes services that do not fall under the other purposes.</source>
-        <target state="final">Diese beinhaltet Dienste, die nicht unter die anderen Zwecke fallen.</target>
+        <target state="final">Dies umfasst Dienste, die nicht unter die anderen Zwecke fallen.</target>
       </trans-unit>
       <trans-unit id="consentManager.show" approved="yes">
         <source>Show Consent Manager</source>
-        <target state="final">Zustimmungsmanager anzeigen</target>
+        <target state="final">Einwilligungsmanager anzeigen</target>
       </trans-unit>
       <trans-unit id="consentManager.show.title" approved="yes">
         <source>Show Consent Manager</source>
@@ -224,7 +224,7 @@
       </trans-unit>
       <trans-unit id="consentManager.reset" approved="yes">
         <source>Reset Consent Manager</source>
-        <target state="final">Zustimmungsmanager zurücksetzen</target>
+        <target state="final">Einwilligungsmanager zurücksetzen</target>
       </trans-unit>
       <trans-unit id="consentManager.reset.title" approved="yes">
         <source>Reset Consent Manager</source>
@@ -252,7 +252,7 @@
       </trans-unit>
       <trans-unit id="services.camera.description" approved="yes">
         <source>Consent to the use of surveillance camera images for security and safety purposes, in compliance with applicable data privacy regulations.</source>
-        <target state="final">Zustimmung zur Verwendung von Überwachungskamerabildern zu Sicherheitszwecken unter Einhaltung der geltenden Datenschutzbestimmungen.</target>
+        <target state="final">Einwilligung zur Verwendung von Überwachungskamerabildern zu Sicherheitszwecken unter Einhaltung der geltenden Datenschutzbestimmungen.</target>
       </trans-unit>
       <trans-unit id="services.career-captain.title" approved="yes">
         <source>Career Captain</source>
@@ -308,7 +308,7 @@
       </trans-unit>
       <trans-unit id="services.google-ads.description" approved="yes">
         <source>Google Ads allows advertisers to reach their target audience online. To personalize ads and measure their effectiveness, Google may collect data with your consent.</source>
-        <target state="final">Mit Google Ads können Werbetreibende ihre Zielgruppen online erreichen. Um die Anzeigen zu personalisieren und ihre Wirksamkeit zu messen, kann Google mit Ihrer Zustimmung Daten sammeln.</target>
+        <target state="final">Mit Google Ads können Werbetreibende ihre Zielgruppen online erreichen. Um die Anzeigen zu personalisieren und ihre Wirksamkeit zu messen, kann Google mit Ihrer Einwilligung Daten sammeln.</target>
       </trans-unit>
       <trans-unit id="services.google-analytics.title" approved="yes">
         <source>Google Analytics</source>
@@ -420,7 +420,7 @@
       </trans-unit>
       <trans-unit id="services.userlike.description" approved="yes">
         <source>Userlike offers a live chat solution that enhances user interactions on websites.</source>
-        <target state="final">Userlike bietet eine Live-Chat-Lösung an, die die Interaktion zwischen Benutzern auf Websites verbessert.</target>
+        <target state="final">Userlike bietet eine Live-Chat-Lösung an, die Nutzerinteraktionen auf Websites verbessert.</target>
       </trans-unit>
       <trans-unit id="services.vimeo.title" approved="yes">
         <source>Vimeo</source>
@@ -540,7 +540,7 @@
       </trans-unit>
       <trans-unit id="warning.noServicesPersonalized" approved="yes">
         <source>Hey %s! You missed a service in the config! Without services, we don't need consent management at all.</source>
-        <target state="final">Hey %s! Du hast einen Dienst in der Konfiguration vergessen! Ohne Dienste brauchen wir überhaupt keine Einwilligungsverwaltung.</target>
+        <target state="final">Hey %s! Du hast einen Dienst in der Konfiguration vergessen! Ohne Dienste brauchen wir überhaupt kein Einwilligungsmanagement.</target>
       </trans-unit>
     </body>
   </file>
