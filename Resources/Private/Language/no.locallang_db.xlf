@@ -133,7 +133,7 @@
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.element_i_d.description" approved="yes">
         <source>You can customize the ID of the `div` element that Klaro will create when starting up. By default, Klaro will use "klaro".</source>
-        <target state="final">Du kan tilpasse ID-en til elementet 'div' som Klaro vil opprette ved oppstart. Som standard vil Klaro bruke "klaro".</target>
+        <target state="final">Du kan tilpasse ID-en til `div`-elementet som Klaro oppretter ved oppstart. Som standard bruker Klaro "klaro".</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.element_i_d.placeholder" approved="yes">
         <source>klaro</source>
@@ -145,7 +145,7 @@
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.no_auto_load.description" approved="yes">
         <source>Setting this to `true` will keep Klaro from automatically loading itself when the page is being loaded.</source>
-        <target state="final">Dersom du setter denne til 'true' vil du at Klaro automatisk vil laste seg når siden lastes inn.</target>
+        <target state="final">Hvis denne settes til `true`, vil Klaro ikke automatisk lastes når siden lastes inn.</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.additional_class.label" approved="yes">
         <source>Additional Class</source>
@@ -245,7 +245,7 @@
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.cookie_expires_after_days.description" approved="yes">
         <source>You can also set a custom expiration time for the Klaro cookie. By default, it will expire after 60 days. Only relevant if `storageMethod` is set to `cookie`.</source>
-        <target state="final">Du kan også sette en egendefinert utløpsdato for Klaro-cookien. Som standard vil det utløpe etter 60 dager. Bare relevant hvis `storageMethod` er satt til `informasjonskapsel`.</target>
+        <target state="final">Du kan også angi en egendefinert utløpstid for Klaro-cookien. Som standard utløper den etter 60 dager. Kun relevant hvis `storageMethod` er satt til `cookie`.</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.cookie_expires_after_days.placeholder" approved="yes">
         <source>30</source>
@@ -393,7 +393,7 @@
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.alignment.description" approved="yes">
         <source>Determines the alignment of the Consent box if `mustConsent` and `noticeAsModal` are disabled.</source>
-        <target state="final">Avgjør justeringen i Consent boksen hvis "mustConsent" og "noticeAsModal" er deaktivert.</target>
+        <target state="final">Avgjør justeringen av samtykke-boksen hvis `mustConsent` og `noticeAsModal` er deaktivert.</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.alignment.I.top-left" approved="yes">
         <source>Top-Left</source>
@@ -541,7 +541,7 @@
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_service.name.description" approved="yes">
         <source>Each service must have a unique name. Klaro will look for HTML elements with a matching `data-name` attribute to identify elements that belong to this service.</source>
-        <target state="final">Hver tjeneste må ha et unikt navn. Klaro vil se etter HTML-elementer med en matchende 'data-navn'-attributt for å identifisere elementer som tilhører denne tjenesten. (data-name)</target>
+        <target state="final">Hver tjeneste må ha et unikt navn. Klaro vil lete etter HTML-elementer med et samsvarende `data-name`-attributt for å identifisere elementer som tilhører denne tjenesten.</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_service.name.placeholder" approved="yes">
         <source>matomo</source>
@@ -669,7 +669,7 @@
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_service.default.description" approved="yes">
         <source>If `default` is set to `true`, the service will be enabled by default. This overrides the global `default` setting (if this is set to "false").</source>
-        <target state="final">Hvis "standard" er satt til "true", vil tjenesten bli aktivert som standard. Denne overstyrer den globale "standard"-innstillingen (hvis denne er satt til "false"). (`default`)</target>
+        <target state="final">Hvis `default` er satt til `true`, vil tjenesten være aktivert som standard. Dette overstyrer den globale `default`-innstillingen (hvis denne er satt til "false").</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_service.purposes.label" approved="yes">
         <source>Purposes</source>
@@ -749,7 +749,7 @@
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_service.required.description" approved="yes">
         <source>If `required` is set to `true`, Klaro will not allow this service to be disabled by the user. Use this for services that are always required for your website to function (e.g. shopping cart cookies).</source>
-        <target state="final">Dersom 'påkrevd' er satt til 'true', vil ikke Klaro tillate at denne tjenesten er deaktivert av brukeren. Bruk dette for tjenester som alltid er påkrevd for at nettstedet skal kunne fungere (f.eks handlekurv cookies). (`required`)</target>
+        <target state="final">Hvis `required` er satt til `true`, vil Klaro ikke tillate at denne tjenesten deaktiveres av brukeren. Bruk dette for tjenester som alltid er nødvendige for at nettstedet skal fungere (f.eks. cookies for handlekurv).</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_service.opt_out.label" approved="yes">
         <source>Opt-Out</source>
@@ -765,7 +765,7 @@
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_service.only_once.description" approved="yes">
         <source>If `onlyOnce` is set to `true`, the service will only be executed once regardless how often the user toggles it on and off. This is relevant e.g. for tracking scripts that would generate new page view events every time Klaro disables and re-enables them due to a consent change by the user.</source>
-        <target state="final">Dersom 'onlyOnce' er satt til 'true', vil tjenesten bare kjøres en gang, uavhengig av hvor ofte brukeren slår den på og av. Dette er relevant for eksempel for sporing av skript som vil generere nye sidehendelser hver gang Klaro deaktiverer og reaktiverer dem pga. et samtykke endret av brukeren.</target>
+        <target state="final">Hvis `onlyOnce` er satt til `true`, vil tjenesten kun kjøres én gang, uavhengig av hvor ofte brukeren slår den på og av. Dette er relevant for f.eks. sporingsskript som ellers ville generere nye sidevisnings-hendelser hver gang Klaro deaktiverer og reaktiverer dem på grunn av en samtykkeendring fra brukeren.</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_service.contextual_consent_only.label" approved="yes">
         <source>Contextual Consent Only</source>
