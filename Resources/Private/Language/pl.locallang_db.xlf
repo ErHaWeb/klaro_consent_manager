@@ -205,7 +205,7 @@
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.embedded.description" approved="yes">
         <source>Setting "embedded" to `true` will render the Klaro modal and notice without the modal background, allowing you to e.g. embed them into a specific element of your website, such as your privacy notice.</source>
-        <target state="final">Ustawienie "embedded" na "true" spowoduje wyrenderowanie modalu Klaro i powiadomienia bez tła modalnego, pozwalając na . . osadź je w określonym elemencie swojej strony internetowej, takim jak Twoja informacja o prywatności.</target>
+        <target state="final">Ustawienie "embedded" na `true` spowoduje wyrenderowanie modalu Klaro i powiadomienia bez tła modalnego, co pozwala np. osadzić je w określonym elemencie strony internetowej, takim jak informacja o prywatności.</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.group_by_purpose.label" approved="yes">
         <source>Group by purpose</source>
