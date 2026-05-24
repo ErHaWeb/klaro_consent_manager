@@ -493,7 +493,7 @@
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_service.tabs.cookies" approved="yes">
         <source>Cookies</source>
-        <target state="final">الكعكات</target>
+        <target state="final">ملفات تعريف الارتباط</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_service.tabs.toggles" approved="yes">
         <source>Toggles</source>
@@ -737,7 +737,7 @@
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_service.cookies.label" approved="yes">
         <source>Cookies</source>
-        <target state="final">الكعكات</target>
+        <target state="final">ملفات تعريف الارتباط</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_service.cookies.description" approved="yes">
         <source>You can either only provide a cookie name or regular expression (regex) or a list consisting of a name or regex, a path and a cookie domain. Providing a path and domain is necessary if you have services that set cookies for a path that is not "/", or a domain that is not the current domain. If you do not set these values properly, the cookie can't be deleted by Klaro, as there is no way to access the path or domain of a cookie in JS. Notice that it is not possible to delete cookies that were set on a third-party domain, or cookies that have the HTTPOnly attribute: https://developer.mozilla.org/en-US/docs/Web/API/Document/cookie#new-cookie_domain</source>
@@ -929,7 +929,7 @@
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_cookie.expires_after_unit.description" approved="yes">
         <source>Unit used for the "Expires after" specification. The special value `end-of-session` does not need a numeric value and hides the "Expires after" field accordingly.</source>
-        <target state="final">الوحدة المستخدمة لتحديد "تنتهي صلاحيته بعد"، القيمة الخاصة "نهاية الدورة" لا تحتاج إلى قيمة رقمية وتخفي حقل "تنتهي صلاحيته بعد" وفقاً لذلك. (`end-of-session`)</target>
+        <target state="final">الوحدة المستخدمة لتحديد "تنتهي صلاحيته بعد"، القيمة الخاصة "نهاية الجلسة" لا تحتاج إلى قيمة رقمية وتخفي حقل "تنتهي صلاحيته بعد" وفقاً لذلك. (`end-of-session`)</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_cookie.expires_after_unit.I.years" approved="yes">
         <source>Years</source>
@@ -957,7 +957,7 @@
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_cookie.expires_after_unit.I.end-of-session" approved="yes">
         <source>End of session</source>
-        <target state="final">نهاية الدورة</target>
+        <target state="final">نهاية الجلسة</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_cookie.expires_after_unit.I.persistent" approved="yes">
         <source>Persistent</source>
