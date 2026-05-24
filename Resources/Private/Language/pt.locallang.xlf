@@ -40,7 +40,7 @@
       </trans-unit>
       <trans-unit id="consentNotice.title" approved="yes">
         <source>Cookie Consent</source>
-        <target state="final">Concessão de Cookies</target>
+        <target state="final">Consentimento de cookies</target>
       </trans-unit>
       <trans-unit id="contextualConsent.acceptAlways" approved="yes">
         <source>Always</source>
@@ -60,7 +60,7 @@
       </trans-unit>
       <trans-unit id="contextualConsent.modalLinkText" approved="yes">
         <source>Consent Manager</source>
-        <target state="final">Consentimento gerente</target>
+        <target state="final">Gerenciador de Consentimento</target>
       </trans-unit>
       <trans-unit id="decline" approved="yes">
         <source>I decline</source>
@@ -448,7 +448,7 @@
       </trans-unit>
       <trans-unit id="consentNotice.imprint.name" approved="yes">
         <source>Imprint</source>
-        <target state="final">imprimir</target>
+        <target state="final">Aviso legal</target>
       </trans-unit>
       <trans-unit id="consentNotice.privacyPolicy.name" approved="yes">
         <source>Privacy policy</source>
@@ -456,7 +456,7 @@
       </trans-unit>
       <trans-unit id="cookies.title" approved="yes">
         <source>Cookies</source>
-        <target state="final">Biscoitos</target>
+        <target state="final">Cookies</target>
       </trans-unit>
       <trans-unit id="cookies.description" approved="yes">
         <source>Below you will find a list of all cookies used by %s</source>
@@ -540,7 +540,7 @@
       </trans-unit>
       <trans-unit id="warning.noServicesPersonalized" approved="yes">
         <source>Hey %s! You missed a service in the config! Without services, we don't need consent management at all.</source>
-        <target state="final">Ei, %s! Você perdeu um serviço na configuração! Sem serviços, não precisamos de todo de gerenciamento de consentimento.</target>
+        <target state="final">Ei, %s! Você esqueceu um serviço na configuração! Sem serviços, não precisamos de nenhuma gestão de consentimento.</target>
       </trans-unit>
     </body>
   </file>
