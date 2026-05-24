@@ -20,7 +20,7 @@
       </trans-unit>
       <trans-unit id="consentModal.title" approved="yes">
         <source>Services we would like to use</source>
-        <target state="final">Informasjon vi samler inn</target>
+        <target state="final">Tjenester vi ønsker å bruke</target>
       </trans-unit>
       <trans-unit id="consentNotice.changeDescription" approved="yes">
         <source>There were changes since your last visit, please renew your consent.</source>
@@ -60,7 +60,7 @@
       </trans-unit>
       <trans-unit id="contextualConsent.modalLinkText" approved="yes">
         <source>Consent Manager</source>
-        <target state="final">Samtykke sjef</target>
+        <target state="final">Samtykkeadministrasjon</target>
       </trans-unit>
       <trans-unit id="decline" approved="yes">
         <source>I decline</source>
@@ -216,19 +216,19 @@
       </trans-unit>
       <trans-unit id="consentManager.show" approved="yes">
         <source>Show Consent Manager</source>
-        <target state="final">Vis samtykke leder</target>
+        <target state="final">Vis samtykkeadministrasjon</target>
       </trans-unit>
       <trans-unit id="consentManager.show.title" approved="yes">
         <source>Show Consent Manager</source>
-        <target state="final">Vis samtykke leder</target>
+        <target state="final">Vis samtykkeadministrasjon</target>
       </trans-unit>
       <trans-unit id="consentManager.reset" approved="yes">
         <source>Reset Consent Manager</source>
-        <target state="final">Tilbakestille samtykke Manager</target>
+        <target state="final">Tilbakestill samtykkeadministrasjon</target>
       </trans-unit>
       <trans-unit id="consentManager.reset.title" approved="yes">
         <source>Reset Consent Manager</source>
-        <target state="final">Tilbakestille samtykke Manager</target>
+        <target state="final">Tilbakestill samtykkeadministrasjon</target>
       </trans-unit>
       <trans-unit id="services.adobe-fonts.title" approved="yes">
         <source>Adobe Fonts</source>
@@ -448,7 +448,7 @@
       </trans-unit>
       <trans-unit id="consentNotice.imprint.name" approved="yes">
         <source>Imprint</source>
-        <target state="final">Avtrykk</target>
+        <target state="final">Juridisk informasjon</target>
       </trans-unit>
       <trans-unit id="consentNotice.privacyPolicy.name" approved="yes">
         <source>Privacy policy</source>
