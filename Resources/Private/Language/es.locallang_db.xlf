@@ -29,7 +29,7 @@
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.tabs.cookie" approved="yes">
         <source>Cookie</source>
-        <target state="final">Galleta</target>
+        <target state="final">Cookie</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.tabs.advanced" approved="yes">
         <source>Advanced</source>
@@ -493,7 +493,7 @@
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_service.tabs.cookies" approved="yes">
         <source>Cookies</source>
-        <target state="final">Archivos cookie</target>
+        <target state="final">Cookies</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_service.tabs.toggles" approved="yes">
         <source>Toggles</source>
@@ -737,7 +737,7 @@
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_service.cookies.label" approved="yes">
         <source>Cookies</source>
-        <target state="final">Archivos cookie</target>
+        <target state="final">Cookies</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_service.cookies.description" approved="yes">
         <source>You can either only provide a cookie name or regular expression (regex) or a list consisting of a name or regex, a path and a cookie domain. Providing a path and domain is necessary if you have services that set cookies for a path that is not "/", or a domain that is not the current domain. If you do not set these values properly, the cookie can't be deleted by Klaro, as there is no way to access the path or domain of a cookie in JS. Notice that it is not possible to delete cookies that were set on a third-party domain, or cookies that have the HTTPOnly attribute: https://developer.mozilla.org/en-US/docs/Web/API/Document/cookie#new-cookie_domain</source>
@@ -821,7 +821,7 @@
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_cookie" approved="yes">
         <source>Cookie</source>
-        <target state="final">Galleta</target>
+        <target state="final">Cookie</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_cookie.tabs.general" approved="yes">
         <source>General</source>
