@@ -29,7 +29,7 @@
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.tabs.cookie" approved="yes">
         <source>Cookie</source>
-        <target state="final">Cookie tecnico</target>
+        <target state="final">Cookie</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.tabs.advanced" approved="yes">
         <source>Advanced</source>
@@ -821,7 +821,7 @@
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_cookie" approved="yes">
         <source>Cookie</source>
-        <target state="final">Cookie tecnico</target>
+        <target state="final">Cookie</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_cookie.tabs.general" approved="yes">
         <source>General</source>
@@ -973,7 +973,7 @@
       </trans-unit>
       <trans-unit id="tt_content.tx_klaroconsentmanager_service.description" approved="yes">
         <source>When a service is selected in this field, the content item is displayed via contextual consent only if the user has agreed to use the selected service in the Klaro! Consent Manager. Please make sure that the static TypoScript template of the Klaro! Consent Manager has been added to use this feature.</source>
-        <target state="final">Quando un servizio è selezionato in questo campo, l'elemento contenuto è visualizzato tramite consenso contestuale solo se l'utente ha accettato di utilizzare il servizio selezionato nel Klaro! Responsabile Del Consenso Assicurati che il modello TypoScript statico di Klaro! Consent Manager sia stato aggiunto per usare questa funzione.</target>
+        <target state="final">Quando un servizio è selezionato in questo campo, l'elemento contenuto viene visualizzato tramite consenso contestuale solo se l'utente ha accettato di utilizzare il servizio selezionato nel Klaro! Consent Manager. Assicurati che il modello TypoScript statico del Klaro! Consent Manager sia stato aggiunto per usare questa funzione.</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.no_notice.label" approved="yes">
         <source>Hide initial consent notice</source>
