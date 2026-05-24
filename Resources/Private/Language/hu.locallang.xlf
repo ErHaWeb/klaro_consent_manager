@@ -20,7 +20,7 @@
       </trans-unit>
       <trans-unit id="consentModal.title" approved="yes">
         <source>Services we would like to use</source>
-        <target state="final">Információk, amiket gyűjtünk</target>
+        <target state="final">Szolgáltatások, amelyeket szeretnénk használni</target>
       </trans-unit>
       <trans-unit id="consentNotice.changeDescription" approved="yes">
         <source>There were changes since your last visit, please renew your consent.</source>
@@ -204,7 +204,7 @@
       </trans-unit>
       <trans-unit id="purposes.social.description" approved="yes">
         <source>Embedding social media from external platforms to enrich the content on this website.</source>
-        <target state="final">Külső platformokról származó videók beágyazása a weboldal tartalmának gazdagítása érdekében.</target>
+        <target state="final">Közösségi média beágyazása külső platformokról a weboldal tartalmának gazdagítása érdekében.</target>
       </trans-unit>
       <trans-unit id="purposes.misc.title" approved="yes">
         <source>Miscellaneous</source>
@@ -216,7 +216,7 @@
       </trans-unit>
       <trans-unit id="consentManager.show" approved="yes">
         <source>Show Consent Manager</source>
-        <target state="final">Hozzájáruláskezelő</target>
+        <target state="final">Hozzájárulás-kezelő megjelenítése</target>
       </trans-unit>
       <trans-unit id="consentManager.show.title" approved="yes">
         <source>Show Consent Manager</source>
@@ -224,7 +224,7 @@
       </trans-unit>
       <trans-unit id="consentManager.reset" approved="yes">
         <source>Reset Consent Manager</source>
-        <target state="final">Hozzájáruláskezelő</target>
+        <target state="final">Hozzájárulás-kezelő alaphelyzetbe állítása</target>
       </trans-unit>
       <trans-unit id="consentManager.reset.title" approved="yes">
         <source>Reset Consent Manager</source>
@@ -532,7 +532,7 @@
       </trans-unit>
       <trans-unit id="persistent" approved="yes">
         <source>persistent</source>
-        <target state="final">kitartó</target>
+        <target state="final">tartós</target>
       </trans-unit>
       <trans-unit id="warning.noServices" approved="yes">
         <source>Why don't I see a Klaro! Modal? → You must assign at least 1 service to the Klaro! configuration! Without services, we don't need consent management at all.</source>
