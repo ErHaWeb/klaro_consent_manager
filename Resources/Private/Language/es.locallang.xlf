@@ -64,7 +64,7 @@
       </trans-unit>
       <trans-unit id="decline" approved="yes">
         <source>I decline</source>
-        <target state="final">Descartar todas</target>
+        <target state="final">Rechazar</target>
       </trans-unit>
       <trans-unit id="ok" approved="yes">
         <source>That's ok</source>
@@ -204,7 +204,7 @@
       </trans-unit>
       <trans-unit id="purposes.social.description" approved="yes">
         <source>Embedding social media from external platforms to enrich the content on this website.</source>
-        <target state="final">Incorporar videos de plataformas externas para enriquecer el contenido de este sitio web.</target>
+        <target state="final">Incorporar redes sociales de plataformas externas para enriquecer el contenido de este sitio web.</target>
       </trans-unit>
       <trans-unit id="purposes.misc.title" approved="yes">
         <source>Miscellaneous</source>
@@ -216,7 +216,7 @@
       </trans-unit>
       <trans-unit id="consentManager.show" approved="yes">
         <source>Show Consent Manager</source>
-        <target state="final">Consent Manager</target>
+        <target state="final">Mostrar gestor de consentimientos</target>
       </trans-unit>
       <trans-unit id="consentManager.show.title" approved="yes">
         <source>Show Consent Manager</source>
@@ -224,7 +224,7 @@
       </trans-unit>
       <trans-unit id="consentManager.reset" approved="yes">
         <source>Reset Consent Manager</source>
-        <target state="final">Consent Manager</target>
+        <target state="final">Restablecer gestor de consentimiento</target>
       </trans-unit>
       <trans-unit id="consentManager.reset.title" approved="yes">
         <source>Reset Consent Manager</source>
@@ -340,7 +340,7 @@
       </trans-unit>
       <trans-unit id="services.google-tag-manager.description" approved="yes">
         <source>Google Tag Manager streamlines web tracking and code management, ensuring data compliance and control for developers.</source>
-        <target state="final">El gestor de Google Tag facilita el seguimiento web y la gestión de códigos, garantizando el cumplimiento de los datos y el control de los desarrolladores.</target>
+        <target state="final">Google Tag Manager facilita el seguimiento web y la gestión de código, garantizando a los desarrolladores el cumplimiento de la normativa de protección de datos y el control sobre los mismos.</target>
       </trans-unit>
       <trans-unit id="services.inline-tracker.title" approved="yes">
         <source>Inline Tracker</source>
@@ -448,7 +448,7 @@
       </trans-unit>
       <trans-unit id="consentNotice.imprint.name" approved="yes">
         <source>Imprint</source>
-        <target state="final">Imprimir</target>
+        <target state="final">Aviso legal</target>
       </trans-unit>
       <trans-unit id="consentNotice.privacyPolicy.name" approved="yes">
         <source>Privacy policy</source>
@@ -456,7 +456,7 @@
       </trans-unit>
       <trans-unit id="cookies.title" approved="yes">
         <source>Cookies</source>
-        <target state="final">Archivos cookie</target>
+        <target state="final">Cookies</target>
       </trans-unit>
       <trans-unit id="cookies.description" approved="yes">
         <source>Below you will find a list of all cookies used by %s</source>
@@ -540,7 +540,7 @@
       </trans-unit>
       <trans-unit id="warning.noServicesPersonalized" approved="yes">
         <source>Hey %s! You missed a service in the config! Without services, we don't need consent management at all.</source>
-        <target state="final">¡Hola, %s! ¡Te has perdido un servicio en la configuración! Sin servicios, no necesitamos la gestión del consentimiento.</target>
+        <target state="final">¡Hola, %s! ¡Se ha olvidado un servicio en la configuración! Sin servicios, no necesitamos la gestión del consentimiento.</target>
       </trans-unit>
     </body>
   </file>
