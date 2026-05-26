@@ -140,7 +140,7 @@
       </trans-unit>
       <trans-unit id="service.optOut.title" approved="yes">
         <source>(opt-out)</source>
-        <target state="final">(الاختيار المستبعد)</target>
+        <target state="final">(إلغاء الاشتراك)</target>
       </trans-unit>
       <trans-unit id="service.purpose" approved="yes">
         <source>purpose</source>
@@ -236,7 +236,7 @@
       </trans-unit>
       <trans-unit id="services.adobe-fonts.description" approved="yes">
         <source>Adobe Fonts provides web fonts used for this website. When enabled, font files are loaded from Adobe and technical connection data may be processed.</source>
-        <target state="final">خطوط Adobe يوفر خطوط ويب المستخدمة لهذا الموقع. عند التمكين، يتم تحميل ملفات الخط من Adobe ويمكن معالجة بيانات الاتصال التقني.</target>
+        <target state="final">توفر Adobe Fonts خطوط ويب مستخدمة لهذا الموقع. عند التمكين، يتم تحميل ملفات الخطوط من Adobe ويمكن معالجة بيانات الاتصال التقنية.</target>
       </trans-unit>
       <trans-unit id="services.adsense.title" approved="yes">
         <source>Google AdSense</source>
@@ -252,7 +252,7 @@
       </trans-unit>
       <trans-unit id="services.camera.description" approved="yes">
         <source>Consent to the use of surveillance camera images for security and safety purposes, in compliance with applicable data privacy regulations.</source>
-        <target state="final">2 - الموافقة على استخدام صور كاميرا المراقبة لأغراض الأمن والسلامة، امتثالا لأنظمة خصوصية البيانات المعمول بها.</target>
+        <target state="final">الموافقة على استخدام صور كاميرا المراقبة لأغراض الأمن والسلامة، امتثالاً لأنظمة خصوصية البيانات المعمول بها.</target>
       </trans-unit>
       <trans-unit id="services.career-captain.title" approved="yes">
         <source>Career Captain</source>
@@ -268,15 +268,15 @@
       </trans-unit>
       <trans-unit id="services.clarity.description" approved="yes">
         <source>Microsoft Clarity is a user-friendly web analytics tool that empowers website visitors like you by providing transparency about how your interactions are tracked on a website. It ensures your privacy is respected while giving developers and website owners valuable insights into user behavior. Plus, it follows coding guidelines and best practices, ensuring a safe and secure online experience for you.</source>
-        <target state="final">مايكروسوفت الوضوح هو أداة تحليلات ويب سهلة الاستخدام تمكن زوار الموقع مثلك من خلال توفير الشفافية حول كيفية تتبع تفاعلاتك على موقع على شبكة الإنترنت. يضمن احترام خصوصيتك مع إعطاء المطورين وأصحاب الموقع رؤى قيمة لسلوك المستخدم. بالإضافة إلى ذلك، فإنه يتبع المبادئ التوجيهية للبرمجة وأفضل الممارسات، مما يضمن لك تجربة مأمونة وآمنة على الإنترنت.</target>
+        <target state="final">Microsoft Clarity أداة تحليلات ويب سهلة الاستخدام تمنح زوار الموقع مثلك شفافية حول كيفية تتبع تفاعلاتك على الموقع. تضمن احترام خصوصيتك مع منح المطورين وأصحاب المواقع رؤى قيمة حول سلوك المستخدمين. بالإضافة إلى ذلك، تتبع إرشادات البرمجة وأفضل الممارسات، مما يضمن لك تجربة آمنة ومأمونة على الإنترنت.</target>
       </trans-unit>
       <trans-unit id="services.cloudflare.title" approved="yes">
         <source>Cloudflare</source>
-        <target state="final">كلاودفلاري</target>
+        <target state="final">Cloudflare</target>
       </trans-unit>
       <trans-unit id="services.cloudflare.description" approved="yes">
         <source>Cloudflare helps protect and optimize websites. By using this website, you consent to Cloudflare's data processing practices as described in its Privacy Policy.</source>
-        <target state="final">السحابة تساعد في حماية المواقع وتحسينها. باستخدام هذا الموقع، فإنك توافق على ممارسات معالجة البيانات على النحو الموصوف في سياسة الخصوصية الخاصة بها.</target>
+        <target state="final">تساعد Cloudflare في حماية المواقع وتحسينها. باستخدام هذا الموقع، فإنك توافق على ممارسات معالجة البيانات لدى Cloudflare كما هي موضحة في سياسة الخصوصية الخاصة بها.</target>
       </trans-unit>
       <trans-unit id="services.external-tracker.title" approved="yes">
         <source>External Tracker</source>
@@ -300,7 +300,7 @@
       </trans-unit>
       <trans-unit id="services.fast-fonts.description" approved="yes">
         <source>Fast Fonts, operated by fonts.com and supplied by fast.fonts.net, is a service for the provision of web fonts. It requires the use of a pixel-code for continuous price calculation.</source>
-        <target state="final">أما الخطوط السريعة، التي تشغلها fonts.com وتوفيرها fast.fonts.net، فهي خدمة لتوفير خطوط الويب. وهو يتطلب استخدام رمز بكسل لحساب الأسعار باستمرار.</target>
+        <target state="final">Fast Fonts، التي تشغلها fonts.com وتوفرها fast.fonts.net، هي خدمة لتوفير خطوط الويب. وهي تتطلب استخدام رمز بكسل لحساب الأسعار بشكل مستمر.</target>
       </trans-unit>
       <trans-unit id="services.google-ads.title" approved="yes">
         <source>Google Ads</source>
@@ -348,7 +348,7 @@
       </trans-unit>
       <trans-unit id="services.inline-tracker.description" approved="yes">
         <source>Inline tracking script</source>
-        <target state="final">النص التعريفي للتعقب</target>
+        <target state="final">سكريبت تتبع مضمن</target>
       </trans-unit>
       <trans-unit id="services.instagram.title" approved="yes">
         <source>Instagram</source>
@@ -384,7 +384,7 @@
       </trans-unit>
       <trans-unit id="services.mouseflow.title" approved="yes">
         <source>Mouseflow</source>
-        <target state="final">تدفق الفأرة</target>
+        <target state="final">Mouseflow</target>
       </trans-unit>
       <trans-unit id="services.mouseflow.description" approved="yes">
         <source>Real-time user analytics service that helps to understand how visitors interact with our website.</source>
@@ -416,11 +416,11 @@
       </trans-unit>
       <trans-unit id="services.userlike.title" approved="yes">
         <source>Userlike</source>
-        <target state="final">مستخدم مشابه</target>
+        <target state="final">Userlike</target>
       </trans-unit>
       <trans-unit id="services.userlike.description" approved="yes">
         <source>Userlike offers a live chat solution that enhances user interactions on websites.</source>
-        <target state="final">يقدم المستخدم مثل حل الدردشة الحية الذي يعزز تفاعلات المستخدمين على المواقع.</target>
+        <target state="final">تقدم Userlike حل دردشة حية يعزز تفاعلات المستخدمين على المواقع.</target>
       </trans-unit>
       <trans-unit id="services.vimeo.title" approved="yes">
         <source>Vimeo</source>
@@ -520,7 +520,7 @@
       </trans-unit>
       <trans-unit id="second" approved="yes">
         <source>Second</source>
-        <target state="final">الثاني</target>
+        <target state="final">ثانية</target>
       </trans-unit>
       <trans-unit id="seconds" approved="yes">
         <source>Seconds</source>
