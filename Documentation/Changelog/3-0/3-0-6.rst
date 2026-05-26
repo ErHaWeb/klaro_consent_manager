@@ -1,0 +1,36 @@
+.. include:: /Includes.rst.txt
+
+3.0.6 - May 26, 2026
+====================
+
+
+.. contents::
+   :local:
+   :depth: 3
+
+Breaking changes
+----------------
+No breaking changes!
+
+All Changes
+-----------
+This is a list of all changes in this release: ::
+
+    2026-05-26 [TASK] Add test for inline Klaro config rendering (Commit 47812dc5 by Eric Harrer)
+    2026-05-26 [TASK] Add routing tests for Klaro configuration script (Commit 9bda125c by Eric Harrer)
+    2026-05-26 [BUGFIX] Generate Klaro configuration URL via site router (Commit b3e962af by Eric Harrer)
+    2026-05-23 [TASK] Add documentation rendering scripts (Commit 1d9d86e0 by Eric Harrer)
+    2026-05-23 [TASK] Add Crowdin translation workflow (Commit 351a5377 by Eric Harrer)
+    2026-05-22 [TASK] Follow recommended TYPO3 Crowdin setup (Commit 9d30c232 by Eric Harrer)
+    2026-05-22 [TASK] Rename Crowdin config file to .crowdin.yml (Commit b5eda9e2 by Eric Harrer)
+    2026-05-22 [TASK] Ignore Crowdin-generated translation files (Commit f0556386 by Eric Harrer)
+    2026-05-22 [BUGFIX] Map Crowdin variants for TYPO3 exports (Commit 188e707b by Eric Harrer)
+    2026-05-22 [BUGFIX] Correct grammar in default labels (Commit 41839187 by Eric Harrer)
+    2026-05-22 [BUGFIX] Use locale_with_underscore for Crowdin exports (Commit 86b6174c by Eric Harrer)
+    2026-05-21 [TASK] Add Crowdin export for site set labels (Commit 0dfafd96 by Eric Harrer)
+    2026-05-15 [DOCS] Fix README constraint rendering (Commit e4ad7927 by Eric Harrer)
+    2026-05-15 [DOCS] Optimize README as project landing page (Commit a632e30e by Eric Harrer)
+    2026-05-15 [DOCS] Move release process to maintainer docs (Commit 94b20991 by Eric Harrer)
+    2026-05-15 [BUGFIX] Use PHPUnit baselines in test runner (Commit 65ec246d by Eric Harrer)
+
+This list has been created by using `git log $(git describe --tags --abbrev=0)..HEAD --abbrev-commit --pretty='%ad %s (Commit %h by %an)' --date=short`.
