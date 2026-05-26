@@ -789,7 +789,7 @@
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_service.on_accept.description" approved="yes">
         <source>Here you can define JavaScript code that will be called each time the service was accepted. The content of this field is wrapped with `callback: function(handlerOpts) { }`. The object `handlerOpts` contains the objects `config` (the current Klaro! configuration), `service` (the current service) and possibly `vars` (any values defined by object notation in the vars field in the backend). When you enter something here, you need to know what you are doing. It is your responsibility that no JavaScript errors occur.</source>
-        <target state="final">여기에서 서비스가 승인될 때마다 호출될 JavaScript 코드를 정의할 수 있습니다. 이 필드의 내용은 `callback: function(handlerOpts) { }`로 감싸집니다. `handlerOpts` 객체에는 `config`(현재 Klaro! 구성), `service`(현재 서비스), 그리고 가능하면 backend의 vars 필드에 객체 표기법으로 정의된 값인 `vars`가 포함됩니다. 여기에 내용을 입력할 때는 자신이 무엇을 하는지 알고 있어야 합니다. JavaScript 오류가 발생하지 않도록 하는 것은 사용자의 책임입니다.</target>
+        <target state="final">여기에서 서비스가 승인될 때마다 호출될 JavaScript 코드를 정의할 수 있습니다. 이 필드의 내용은 `callback: function(handlerOpts) { }`로 감싸집니다. `handlerOpts` 객체에는 `config`(현재 Klaro! 구성), `service`(현재 서비스), 그리고 있을 경우 backend의 vars 필드에 객체 표기법으로 정의된 값인 `vars`가 포함됩니다. 여기에 내용을 입력할 때는 자신이 무엇을 하는지 알고 있어야 합니다. JavaScript 오류가 발생하지 않도록 하는 것은 사용자의 책임입니다.</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_service.on_init.label" approved="yes">
         <source>`onInit` callback function</source>
@@ -797,7 +797,7 @@
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_service.on_init.description" approved="yes">
         <source>Here you can define JavaScript code that will be called once per page-load. The content of this field is wrapped with `callback: function(handlerOpts) { }`. The object `handlerOpts` contains the objects `config` (the current Klaro! configuration), `service` (the current service) and possibly `vars` (any values defined by object notation in the vars field in the backend). When you enter something here, you need to know what you are doing. It is your responsibility that no JavaScript errors occur.</source>
-        <target state="final">여기에서 페이지 로드마다 한 번 호출될 JavaScript 코드를 정의할 수 있습니다. 이 필드의 내용은 `callback: function(handlerOpts) { }`로 감싸집니다. `handlerOpts` 객체에는 `config`(현재 Klaro! 구성), `service`(현재 서비스), 그리고 가능하면 backend의 vars 필드에 객체 표기법으로 정의된 값인 `vars`가 포함됩니다. 여기에 내용을 입력할 때는 자신이 무엇을 하는지 알고 있어야 합니다. JavaScript 오류가 발생하지 않도록 하는 것은 사용자의 책임입니다.</target>
+        <target state="final">여기에서 페이지 로드마다 한 번 호출될 JavaScript 코드를 정의할 수 있습니다. 이 필드의 내용은 `callback: function(handlerOpts) { }`로 감싸집니다. `handlerOpts` 객체에는 `config`(현재 Klaro! 구성), `service`(현재 서비스), 그리고 있을 경우 backend의 vars 필드에 객체 표기법으로 정의된 값인 `vars`가 포함됩니다. 여기에 내용을 입력할 때는 자신이 무엇을 하는지 알고 있어야 합니다. JavaScript 오류가 발생하지 않도록 하는 것은 사용자의 책임입니다.</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_service.on_decline.label" approved="yes">
         <source>`onDecline` callback function</source>
@@ -805,7 +805,7 @@
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_service.on_decline.description" approved="yes">
         <source>Here you can define JavaScript code that will be called each time the service was declined. The content of this field is wrapped with `callback: function(handlerOpts) { }`. The object `handlerOpts` contains the objects `config` (the current Klaro! configuration), `service` (the current service) and possibly `vars` (any values defined by object notation in the vars field in the backend). When you enter something here, you need to know what you are doing. It is your responsibility that no JavaScript errors occur.</source>
-        <target state="final">여기에서 서비스가 거부될 때마다 호출될 JavaScript 코드를 정의할 수 있습니다. 이 필드의 내용은 `callback: function(handlerOpts) { }`로 감싸집니다. `handlerOpts` 객체에는 `config`(현재 Klaro! 구성), `service`(현재 서비스), 그리고 가능하면 backend의 vars 필드에 객체 표기법으로 정의된 값인 `vars`가 포함됩니다. 여기에 내용을 입력할 때는 자신이 무엇을 하는지 알고 있어야 합니다. JavaScript 오류가 발생하지 않도록 하는 것은 사용자의 책임입니다.</target>
+        <target state="final">여기에서 서비스가 거부될 때마다 호출될 JavaScript 코드를 정의할 수 있습니다. 이 필드의 내용은 `callback: function(handlerOpts) { }`로 감싸집니다. `handlerOpts` 객체에는 `config`(현재 Klaro! 구성), `service`(현재 서비스), 그리고 있을 경우 backend의 vars 필드에 객체 표기법으로 정의된 값인 `vars`가 포함됩니다. 여기에 내용을 입력할 때는 자신이 무엇을 하는지 알고 있어야 합니다. JavaScript 오류가 발생하지 않도록 하는 것은 사용자의 책임입니다.</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_service.vars.label" approved="yes">
         <source>Variables</source>
@@ -913,7 +913,7 @@
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_cookie.expires_after.label" approved="yes">
         <source>Expires after</source>
-        <target state="final">다음 이후 만료</target>
+        <target state="final">다음 기간 후 만료</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_cookie.expires_after.description" approved="yes">
         <source>Number of years/months/days/hours/minutes/seconds that will elapse before this cookie expires.</source>
@@ -929,7 +929,7 @@
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_cookie.expires_after_unit.description" approved="yes">
         <source>Unit used for the "Expires after" specification. The special value `end-of-session` does not need a numeric value and hides the "Expires after" field accordingly.</source>
-        <target state="final">"Expires after" 지정에 사용되는 단위입니다. 특수 값 `end-of-session`은 숫자 값이 필요 없으며 이에 따라 "Expires after" 필드를 숨깁니다.</target>
+        <target state="final">"다음 기간 후 만료" 설정에 사용되는 단위입니다. 특수 값 `end-of-session`은 숫자 값이 필요 없으며 이에 따라 "다음 기간 후 만료" 필드를 숨깁니다.</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_cookie.expires_after_unit.I.years" approved="yes">
         <source>Years</source>
