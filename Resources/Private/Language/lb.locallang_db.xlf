@@ -113,7 +113,7 @@
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.testing.description" approved="yes">
         <source>Setting `testing` to `true` will cause Klaro to not show the consent notice or modal by default, except if a special hashtag is appended to the URL (#klaro-testing). This makes it possible to test Klaro on your live website without affecting normal visitors.</source>
-        <target state="final">Wann `testing` op `true` gesat gëtt, weist Klaro standardméisseg weder den Zoustëmmungs­hiweis nach de Modal, ausser e spezielle Anker gëtt un d'URL drangehäng (#klaro-testing). Esou kann Klaro op Ärer Live-Websäit getest ginn, ouni datt normal Besucher dovun ageholl ginn.</target>
+        <target state="final">Wann `testing` op `true` gesat gëtt, weist Klaro standardméisseg weder den Zoustëmmungs­hiweis nach de Modal, ausser e spezielle Anker gëtt un d'URL drangehäng (#klaro-testing). Esou kann Klaro op Ärer Live-Websäit getest ginn, ouni datt normal Besucher dovun beaflosst ginn.</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.config_variable_name.label" approved="yes">
         <source>Config Variable Name</source>
@@ -321,7 +321,7 @@
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.show_description_empty_store.description" approved="yes">
         <source>Show an explanatory text in contextual consent placeholders when no consent storage exists yet (first visit / empty store). This informs users that a permanent decision ("Always") requires allowing Klaro to store consent first. This only has an effect in contextual consent widgets/overlays (e.g. for embedded media) and only if the consent store (cookie/localStorage) is empty.</source>
-        <target state="final">Weist en erklärenden Text an de Plazhalter vum kontextuelle Zoustëmmen, wann nach kee Späicher fir Zoustëmmungen existéiert (éischte Besuch / eidele Späicher). Dat informéiert d'Benotzer, datt eng dauerhaft Entscheedung („Ëmmer") et erfuerdert, fir éischter Klaro z'erlaben, d'Zoustëmmung ze späicheren. Et huet nëmmen Effekt an de Widgeten/Overlay vum kontextuelle Zoustëmmen (z.B. fir agebaute Medien) an nëmme wann de Späicher (Cookie/localStorage) eidel ass.</target>
+        <target state="final">Weist en erklärenden Text an de Plazhalter vum kontextuelle Zoustëmmen, wann nach kee Späicher fir Zoustëmmungen existéiert (éischte Besuch / eidele Späicher). Dat informéiert d'Benotzer, datt eng dauerhaft Entscheedung („Ëmmer") et erfuerdert, fir Klaro als éischt z'erlaben, d'Zoustëmmung ze späicheren. Et huet nëmmen Effekt an de Widgeten/Overlay vum kontextuelle Zoustëmmen (z.B. fir agebaute Medien) an nëmme wann de Späicher (Cookie/localStorage) eidel ass.</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.auto_focus.label" approved="yes">
         <source>Auto Focus</source>
@@ -469,7 +469,7 @@
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.append_show_button.description" approved="yes">
         <source>If this option is set to `true`, a button is created in the frontend (via JavaScript) directly in front of the closing body tag, which triggers the opening of the Klaro consent management.</source>
-        <target state="final">Wann dës Optioun op `true` gesat ass, gëtt am Frontend (iwwer JavaScript) direkt virum schléissende Body-Tag e Knäppche generéiert, deen d'Opmaache vum Klaro Zoustëmmungs­management auslouert.</target>
+        <target state="final">Wann dës Optioun op `true` gesat ass, gëtt am Frontend (iwwer JavaScript) direkt virum schléissende Body-Tag e Knäppche generéiert, deen d'Opmaache vum Klaro Zoustëmmungs­management ausléist.</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.append_reset_button.label" approved="yes">
         <source>Append Reset Button</source>
@@ -477,7 +477,7 @@
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.append_reset_button.description" approved="yes">
         <source>If this option is set to `true`, a button is generated in the frontend (via JavaScript) directly in front of the closing body tag, which triggers the resetting of all settings and the opening of the Klaro consent management.</source>
-        <target state="final">Wann dës Optioun op `true` gesat ass, gëtt am Frontend (iwwer JavaScript) direkt virum schléissende Body-Tag e Knäppche generéiert, dee fir d'Réckstelle vun alle Astellungen an d'Opmaache vum Klaro Zoustëmmungs­management ausléist.</target>
+        <target state="final">Wann dës Optioun op `true` gesat ass, gëtt am Frontend (iwwer JavaScript) direkt virum schléissende Body-Tag e Knäppche generéiert, deen d'Zrécksetze vun allen Astellungen an d'Opmaache vum Klaro Zoustëmmungs­management ausléist.</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.hidden" approved="yes">
         <source>Configuration visible</source>
@@ -757,7 +757,7 @@
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_service.opt_out.description" approved="yes">
         <source>If `optOut` is set to `true`, Klaro will load this service even before the user has given explicit consent. We strongly advise against this.</source>
-        <target state="final">Wann `optOut` op `true` gesat ass, luet Klaro dëse Service och scho virdrun, ier de Benotzer eng explizit Zoustëmmung gëtt. Mir roden eindreidlech dovun of.</target>
+        <target state="final">Wann `optOut` op `true` gesat ass, luet Klaro dëse Service och scho virdrun, ier de Benotzer eng explizit Zoustëmmung gëtt. Mir roden dréngend dovun of.</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_service.only_once.label" approved="yes">
         <source>Only Once</source>
@@ -813,7 +813,7 @@
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_service.vars.description" approved="yes">
         <source>Variables that can be used in callback functions. The content of this field is enclosed in curly brackets. The JavaScript object notation is expected in them. When you enter something here, you need to know what you are doing. It is your responsibility that no JavaScript errors occur.</source>
-        <target state="final">Variabelen, déi a Callback-Funktioune benotzt kënne ginn. Den Inhalt vun dëser Fält gëtt a Bouchstänner ënnergewéckelt. An deenen ass d'JavaScript-Objet-Notatioun erwaart. Wann Dir hei eppes aginn, musst Dir wëssen, wat Dir maacht. Dir sidd verantwortlech dofir, datt keng JavaScript-Feeler optrieden.</target>
+        <target state="final">Variabelen, déi a Callback-Funktioune benotzt kënne ginn. Den Inhalt vun dëser Fält gëtt a geschweifte Klameren ageschloss. An dësen ass d'JavaScript-Objet-Notatioun erwaart. Wann Dir hei eppes aginn, musst Dir wëssen, wat Dir maacht. Dir sidd verantwortlech dofir, datt keng JavaScript-Feeler optrieden.</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_service.hidden" approved="yes">
         <source>Service visible</source>
@@ -857,7 +857,7 @@
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_cookie.identifier.description" approved="yes">
         <source>This is a unique identifier for this cookie. It must be written in lower case and must not contain any spaces, only the characters a-z, 0-9 and "-" or "_". The identifier can be used in Fluid, for example.</source>
-        <target state="final">Dat ass en eenzegaartegen Identifizéierer fir dës Cookie. Hie muss a Kleeschrëft geschriwwe sinn an däerf keng Espacen enthalen, nëmme Buschtawen a-z, 0-9 an „-" oder „_". Den Identifizéierer kann zum Beispill am Fluid benotzt ginn.</target>
+        <target state="final">Dat ass en eenzegaartegen Identifizéierer fir dës Cookie. Hie muss mat klenge Buschtawen geschriwwe sinn an däerf keng Espacen enthalen, nëmme Buschtawen a-z, 0-9 an „-" oder „_". Den Identifizéierer kann zum Beispill am Fluid benotzt ginn.</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_cookie.identifier.placeholder" approved="yes">
         <source>lowercase_alphanum-x</source>
@@ -973,7 +973,7 @@
       </trans-unit>
       <trans-unit id="tt_content.tx_klaroconsentmanager_service.description" approved="yes">
         <source>When a service is selected in this field, the content item is displayed via contextual consent only if the user has agreed to use the selected service in the Klaro! Consent Manager. Please make sure that the static TypoScript template of the Klaro! Consent Manager has been added to use this feature.</source>
-        <target state="final">Wann an dëser Fält e Service ausgewielt gëtt, gëtt den Inhaltselement nëmmen iwwer kontextuell Zoustëmmung ugewisen, wann de Benotzer am Klaro! Consent Manager mat der Notzung vum ausgewielte Service averstanen ass. Vergiess net, dat statescht TypoScript-Template vum Klaro! Consent Manager dranzehunn, fir dës Funktioun ze notzen.</target>
+        <target state="final">Wann an dëser Fält e Service ausgewielt gëtt, gëtt den Inhaltselement nëmmen iwwer kontextuell Zoustëmmung ugewisen, wann de Benotzer am Klaro! Consent Manager mat der Notzung vum ausgewielte Service averstanen ass. Vergiess net, dat statescht TypoScript-Template vum Klaro! Consent Manager dobäigesat ze hunn, fir dës Funktioun ze notzen.</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.no_notice.label" approved="yes">
         <source>Hide initial consent notice</source>
@@ -1001,7 +1001,7 @@
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.style_prefix.description" approved="yes">
         <source>Prefix for CSS classes/container to namespace Klaro styles.</source>
-        <target state="final">Prefix fir CSS-Klassen/Container fir d'Klaro-Stiler an en eegene Numespace ze huelen.</target>
+        <target state="final">Prefix fir CSS-Klassen/Container, fir d'Klaro-Stiler an en eegene Namespace ze placéieren.</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.style_prefix.placeholder" approved="yes">
         <source>my-klaro</source>
