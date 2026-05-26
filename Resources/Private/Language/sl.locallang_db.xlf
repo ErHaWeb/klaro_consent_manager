@@ -9,11 +9,11 @@
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.I.true" approved="yes">
         <source>true</source>
-        <target state="final">pravilno</target>
+        <target state="final">resnično</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.I.false" approved="yes">
         <source>false</source>
-        <target state="final">napačno</target>
+        <target state="final">neresnično</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.tabs.general" approved="yes">
         <source>General</source>
@@ -317,7 +317,7 @@
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.show_description_empty_store.label" approved="yes">
         <source>Show Description (Empty Store)</source>
-        <target state="final">Prikaži opis (prazno shrambo)</target>
+        <target state="final">Prikaži opis (prazna shramba)</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.show_description_empty_store.description" approved="yes">
         <source>Show an explanatory text in contextual consent placeholders when no consent storage exists yet (first visit / empty store). This informs users that a permanent decision ("Always") requires allowing Klaro to store consent first. This only has an effect in contextual consent widgets/overlays (e.g. for embedded media) and only if the consent store (cookie/localStorage) is empty.</source>
@@ -325,11 +325,11 @@
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.auto_focus.label" approved="yes">
         <source>Auto Focus</source>
-        <target state="final">Samodejna ostrina</target>
+        <target state="final">Samodejno fokusiranje</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.auto_focus.description" approved="yes">
         <source>Automatically focus the Klaro consent notice/modal container when it opens to improve keyboard navigation and accessibility.</source>
-        <target state="final">Ob odpiranju samodejno postavi v ostrino vsebnik obvestila/modalnega okna Klaro, da izboljša navigacijo s tipkovnico in dostopnost.</target>
+        <target state="final">Ob odpiranju samodejno fokusira vsebnik obvestila/modalnega okna Klaro, da izboljša navigacijo s tipkovnico in dostopnost.</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.disable_powered_by.label" approved="yes">
         <source>Disable Powered By</source>
@@ -529,11 +529,11 @@
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_service.I.true" approved="yes">
         <source>true</source>
-        <target state="final">pravilno</target>
+        <target state="final">resnično</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_service.I.false" approved="yes">
         <source>false</source>
-        <target state="final">napačno</target>
+        <target state="final">neresnično</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_service.name.label" approved="yes">
         <source>Name</source>
