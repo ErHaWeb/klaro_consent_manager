@@ -1,0 +1,9 @@
+pages
+,uid,pid,title,slug,doktype,is_siteroot,deleted
+,1,0,Klaro functional root page,/,1,1,0
+tx_klaroconsentmanager_service
+,uid,title,name,purposes
+,1,Functional service,functional,functional
+tx_klaroconsentmanager_configuration
+,uid,title,config_variable_name,storage_method,color_scheme,alignment,services
+,1,Functional Klaro configuration,klaroConfig,cookie,dark_neutral,bottom-right,1
