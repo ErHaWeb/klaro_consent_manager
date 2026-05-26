@@ -4,7 +4,7 @@
     <body>
       <trans-unit id="acceptAll" approved="yes">
         <source>Accept all</source>
-        <target state="final">Acceptă la toate</target>
+        <target state="final">Acceptă toate</target>
       </trans-unit>
       <trans-unit id="acceptSelected" approved="yes">
         <source>Accept selected</source>
@@ -76,7 +76,7 @@
       </trans-unit>
       <trans-unit id="privacyPolicy.name" approved="yes">
         <source>privacy policy</source>
-        <target state="final">politica pentru protectia datelor</target>
+        <target state="final">politica de confidențialitate</target>
       </trans-unit>
       <trans-unit id="privacyPolicy.text" approved="yes">
         <source>To learn more, please read our {privacyPolicy}.</source>
@@ -96,7 +96,7 @@
       </trans-unit>
       <trans-unit id="purposes.advertising.title" approved="yes">
         <source>Advertising</source>
-        <target state="final">Publicitate</target>
+        <target state="final">Marketing</target>
       </trans-unit>
       <trans-unit id="purposes.functional.description" approved="yes">
         <source>These services are essential for the correct functioning of this website. You cannot disable them here as the service would not work correctly otherwise.</source>
@@ -264,11 +264,11 @@
       </trans-unit>
       <trans-unit id="services.clarity.title" approved="yes">
         <source>Microsoft Clarity</source>
-        <target state="final">Clarity</target>
+        <target state="final">Microsoft Clarity</target>
       </trans-unit>
       <trans-unit id="services.clarity.description" approved="yes">
         <source>Microsoft Clarity is a user-friendly web analytics tool that empowers website visitors like you by providing transparency about how your interactions are tracked on a website. It ensures your privacy is respected while giving developers and website owners valuable insights into user behavior. Plus, it follows coding guidelines and best practices, ensuring a safe and secure online experience for you.</source>
-        <target state="final">Microsoft Clarity este un instrument de analiză web prietenos cu utilizatorii, care oferă vizitatorilor site-ului ca tine, oferind transparență cu privire la modul în care interacțiunile tale sunt urmărite pe un website. Asigurați-vă că confidențialitatea dvs. este respectată în timp ce oferiți dezvoltatorilor și proprietarilor de site-uri informații valoroase despre comportamentul utilizatorului. În plus, urmează recomandările de codificare și cele mai bune practici, asigurând o experiență online sigură și sigură pentru tine.</target>
+        <target state="final">Microsoft Clarity este un instrument prietenos de analiză web care oferă vizitatorilor site-ului transparență cu privire la modul în care sunt urmărite interacțiunile lor pe un website. Se asigură că vă este respectată confidențialitatea, oferind în același timp dezvoltatorilor și proprietarilor de site-uri informații valoroase despre comportamentul utilizatorilor. În plus, respectă recomandările de codare și bunele practici, asigurându-vă o experiență online sigură.</target>
       </trans-unit>
       <trans-unit id="services.cloudflare.title" approved="yes">
         <source>Cloudflare</source>
@@ -300,15 +300,15 @@
       </trans-unit>
       <trans-unit id="services.fast-fonts.description" approved="yes">
         <source>Fast Fonts, operated by fonts.com and supplied by fast.fonts.net, is a service for the provision of web fonts. It requires the use of a pixel-code for continuous price calculation.</source>
-        <target state="final">Fonturi rapide, operate de fonts.com și furnizate de fast.fonts.net, este un serviciu pentru furnizarea de fonturi web. Aceasta necesită utilizarea unui cod de pixeli pentru calculul prețului continuu.</target>
+        <target state="final">Fast Fonts, operat de fonts.com și furnizat de fast.fonts.net, este un serviciu pentru furnizarea de fonturi web. Necesită utilizarea unui cod pixel pentru calcularea continuă a prețului.</target>
       </trans-unit>
       <trans-unit id="services.google-ads.title" approved="yes">
         <source>Google Ads</source>
-        <target state="final">Google Reclame</target>
+        <target state="final">Google Ads</target>
       </trans-unit>
       <trans-unit id="services.google-ads.description" approved="yes">
         <source>Google Ads allows advertisers to reach their target audience online. To personalize ads and measure their effectiveness, Google may collect data with your consent.</source>
-        <target state="final">Google Adds permite advertiserilor să își atingă publicul țintă online. Pentru a personaliza anunțurile și a măsura eficacitatea lor, Google poate colecta date cu consimțământul dvs.</target>
+        <target state="final">Google Ads permite agenților de publicitate să ajungă online la publicul lor țintă. Pentru a personaliza anunțurile și a le măsura eficacitatea, Google poate colecta date cu consimțământul dvs.</target>
       </trans-unit>
       <trans-unit id="services.google-analytics.title" approved="yes">
         <source>Google Analytics</source>
@@ -356,11 +356,11 @@
       </trans-unit>
       <trans-unit id="services.instagram.description" approved="yes">
         <source>Allows Instagram posts to be embedded. Personal data may be transferred to Instagram (Meta Platforms) in the process.</source>
-        <target state="final">Permite postărilor Instagram să fie încorporate. Datele personale pot fi transferate în Instagram (Platforme Meta) în acest proces.</target>
+        <target state="final">Permite încorporarea postărilor Instagram. Datele personale pot fi transferate către Instagram (Meta Platforms) în acest proces.</target>
       </trans-unit>
       <trans-unit id="services.intercom.title" approved="yes">
         <source>Intercom</source>
-        <target state="final">Interfon</target>
+        <target state="final">Intercom</target>
       </trans-unit>
       <trans-unit id="services.intercom.description" approved="yes">
         <source>Chat widget and collecting of visitor statistics</source>
@@ -416,11 +416,11 @@
       </trans-unit>
       <trans-unit id="services.userlike.title" approved="yes">
         <source>Userlike</source>
-        <target state="final">Utilizator</target>
+        <target state="final">Userlike</target>
       </trans-unit>
       <trans-unit id="services.userlike.description" approved="yes">
         <source>Userlike offers a live chat solution that enhances user interactions on websites.</source>
-        <target state="final">Utilizatorul oferă o soluție de chat în direct care îmbunătățește interacțiunile utilizatorilor pe site-urile web.</target>
+        <target state="final">Userlike oferă o soluție de chat în direct care îmbunătățește interacțiunile utilizatorilor pe site-urile web.</target>
       </trans-unit>
       <trans-unit id="services.vimeo.title" approved="yes">
         <source>Vimeo</source>
