@@ -8,7 +8,7 @@
       </trans-unit>
       <trans-unit id="acceptSelected" approved="yes">
         <source>Accept selected</source>
-        <target state="final">Прийняти обрано</target>
+        <target state="final">Прийняти вибране</target>
       </trans-unit>
       <trans-unit id="close" approved="yes">
         <source>Close</source>
@@ -24,11 +24,11 @@
       </trans-unit>
       <trans-unit id="consentNotice.changeDescription" approved="yes">
         <source>There were changes since your last visit, please renew your consent.</source>
-        <target state="final">Відбулися зміни після вашого останнього візиту, будь ласка, продовжіть вашу згоду.</target>
+        <target state="final">Після вашого останнього візиту відбулися зміни, будь ласка, оновіть вашу згоду.</target>
       </trans-unit>
       <trans-unit id="consentNotice.description" approved="yes">
         <source>Hi! Could we please enable some additional services for {purposes}? You can always change or withdraw your consent later.</source>
-        <target state="final">Привіт! Чи не могли б ми включити додаткові служби для {purposes}? Ви завжди можете змінити або зняти вашу згоду пізніше.</target>
+        <target state="final">Привіт! Чи можемо ми увімкнути додаткові сервіси для {purposes}? Ви завжди можете змінити або відкликати вашу згоду пізніше.</target>
       </trans-unit>
       <trans-unit id="consentNotice.learnMore" approved="yes">
         <source>Let me choose</source>
@@ -56,7 +56,7 @@
       </trans-unit>
       <trans-unit id="contextualConsent.descriptionEmptyStore" approved="yes">
         <source>To agree to this service permanently, you must accept {title} in the {link}.</source>
-        <target state="final">Для того, щоб погодитися з цією службою без обмежень, ви повинні прийняти {title} в {link}.</target>
+        <target state="final">Щоб погодитися з цим сервісом назавжди, потрібно прийняти {title} у {link}.</target>
       </trans-unit>
       <trans-unit id="contextualConsent.modalLinkText" approved="yes">
         <source>Consent Manager</source>
@@ -88,11 +88,11 @@
       </trans-unit>
       <trans-unit id="purposeItem.services" approved="yes">
         <source>services</source>
-        <target state="final">обслуговуючі організації</target>
+        <target state="final">сервіси</target>
       </trans-unit>
       <trans-unit id="purposes.advertising.description" approved="yes">
         <source>These services process personal information to show you personalized or interest-based advertisements.</source>
-        <target state="final">Ці послуги обробляють особисту інформацію, щоб показати вам персоналізовану або цікаву рекламу.</target>
+        <target state="final">Ці сервіси обробляють персональну інформацію, щоб показувати вам персоналізовану рекламу або рекламу на основі інтересів.</target>
       </trans-unit>
       <trans-unit id="purposes.advertising.title" approved="yes">
         <source>Advertising</source>
@@ -104,7 +104,7 @@
       </trans-unit>
       <trans-unit id="purposes.functional.title" approved="yes">
         <source>Service Provision</source>
-        <target state="final">Сервісний Призначення</target>
+        <target state="final">Надання послуг</target>
       </trans-unit>
       <trans-unit id="purposes.marketing.description" approved="yes">
         <source>These services process personal information to show you relevant content about products, services or topics that you might be interested in.</source>
@@ -164,7 +164,7 @@
       </trans-unit>
       <trans-unit id="purposes.analytics.description" approved="yes">
         <source>These services gather anonymous data for statistical analysis and performance optimization. Enabling analytics services assists website owners in making informed decisions to enhance online services.</source>
-        <target state="final">Ці послуги збираються анонімні дані для статистичного аналізу та оптимізації продуктивності. Увімкнення аналітичних послуг допомагає власникам веб-сайтів приймати обгрунтовані рішення для покращення онлайн-послуг.</target>
+        <target state="final">Ці сервіси збирають анонімні дані для статистичного аналізу та оптимізації продуктивності. Увімкнення аналітичних сервісів допомагає власникам веб-сайтів приймати обґрунтовані рішення для покращення онлайн-послуг.</target>
       </trans-unit>
       <trans-unit id="purposes.security.title" approved="yes">
         <source>Security</source>
@@ -172,7 +172,7 @@
       </trans-unit>
       <trans-unit id="purposes.security.description" approved="yes">
         <source>Security services are crucial for safeguarding your online experience. These services help protect your data and privacy by detecting and preventing security threats, such as malware, phishing attempts, and unauthorized access. They ensure a safer browsing environment.</source>
-        <target state="final">Служби безпеки мають вирішальне значення для захисту Вашого онлайн-досвіду. Ці послуги допомагають захистити ваші дані та конфіденційність, виявляючи і запобігаючи загрози безпеці, такі як згубні, спроби фішингу та несанкціонований доступ. Вони забезпечують більш безпечне середовище перегляду.</target>
+        <target state="final">Сервіси безпеки мають вирішальне значення для захисту вашого онлайн-досвіду. Ці сервіси допомагають захистити ваші дані та конфіденційність, виявляючи й запобігаючи загрозам безпеці, таким як шкідливе ПЗ, спроби фішингу та несанкціонований доступ. Вони забезпечують безпечніше середовище перегляду.</target>
       </trans-unit>
       <trans-unit id="purposes.livechat.title" approved="yes">
         <source>Live Chat</source>
@@ -180,7 +180,7 @@
       </trans-unit>
       <trans-unit id="purposes.livechat.description" approved="yes">
         <source>Live chat services enable real-time communication with website support teams. They offer a convenient way to ask questions, seek assistance, or engage in discussions while browsing a website. Live chat enhances your online interaction and customer support experience.</source>
-        <target state="final">Можливість спілкування з іншими людьми в реальному часі та групами підтримки сайту в реальному часі. Вони пропонують зручний спосіб ставити питання, шукати допомогу або брати участь в обговореннях під час перегляду веб-сайту. Онлайн-чат підвищує вашу взаємодію та досвід підтримки.</target>
+        <target state="final">Сервіси живого чату забезпечують спілкування з командами підтримки веб-сайту в реальному часі. Вони пропонують зручний спосіб ставити запитання, шукати допомогу або брати участь в обговореннях під час перегляду веб-сайту. Живий чат покращує вашу онлайн-взаємодію та досвід підтримки.</target>
       </trans-unit>
       <trans-unit id="purposes.styling.title" approved="yes">
         <source>Styling</source>
@@ -188,7 +188,7 @@
       </trans-unit>
       <trans-unit id="purposes.styling.description" approved="yes">
         <source>Services related to styling help to improve the appearance of the website. This can also have an impact on usability.</source>
-        <target state="final">Сервіси, пов'язані з стилем допомоги для покращення вигляду веб-сайту. Це також може мати вплив на здатність.</target>
+        <target state="final">Сервіси, пов'язані зі стилізацією, допомагають покращити вигляд веб-сайту. Це також може впливати на зручність використання.</target>
       </trans-unit>
       <trans-unit id="purposes.videos.title" approved="yes">
         <source>Videos</source>
@@ -196,7 +196,7 @@
       </trans-unit>
       <trans-unit id="purposes.videos.description" approved="yes">
         <source>Embedding videos from external platforms to enrich the content on this website.</source>
-        <target state="final">Вбудовані відео із зовнішніх платформ до збагачення вмісту на цьому сайті.</target>
+        <target state="final">Вбудовування відео із зовнішніх платформ для збагачення вмісту на цьому сайті.</target>
       </trans-unit>
       <trans-unit id="purposes.social.title" approved="yes">
         <source>Social Media</source>
@@ -204,7 +204,7 @@
       </trans-unit>
       <trans-unit id="purposes.social.description" approved="yes">
         <source>Embedding social media from external platforms to enrich the content on this website.</source>
-        <target state="final">Вбудовані соціальні медіа від зовнішніх платформ до збагачення вмісту на цьому сайті.</target>
+        <target state="final">Вбудовування соціальних медіа із зовнішніх платформ для збагачення вмісту на цьому сайті.</target>
       </trans-unit>
       <trans-unit id="purposes.misc.title" approved="yes">
         <source>Miscellaneous</source>
@@ -212,7 +212,7 @@
       </trans-unit>
       <trans-unit id="purposes.misc.description" approved="yes">
         <source>This includes services that do not fall under the other purposes.</source>
-        <target state="final">Це включає в себе послуги, які не потрапляють в інші мети.</target>
+        <target state="final">Сюди входять сервіси, які не належать до інших цілей.</target>
       </trans-unit>
       <trans-unit id="consentManager.show" approved="yes">
         <source>Show Consent Manager</source>
@@ -236,23 +236,23 @@
       </trans-unit>
       <trans-unit id="services.adobe-fonts.description" approved="yes">
         <source>Adobe Fonts provides web fonts used for this website. When enabled, font files are loaded from Adobe and technical connection data may be processed.</source>
-        <target state="final">Для цього веб-шрифти Adobe забезпечує веб-шрифти, які використовуються для цього веб-сайту. Якщо цей параметр увімкнено файли шрифтів завантажуються з Adobe і можуть оброблятися технічне з'єднання.</target>
+        <target state="final">Adobe Fonts надає веб-шрифти, що використовуються на цьому сайті. Якщо сервіс увімкнено, файли шрифтів завантажуються з Adobe, а технічні дані з'єднання можуть оброблятися.</target>
       </trans-unit>
       <trans-unit id="services.adsense.title" approved="yes">
         <source>Google AdSense</source>
-        <target state="final">Google Аденс</target>
+        <target state="final">Google AdSense</target>
       </trans-unit>
       <trans-unit id="services.adsense.description" approved="yes">
         <source>Google AdSense enables personalized ads on websites while respecting user privacy. By consenting, you allow relevant ads and help support free content.</source>
-        <target state="final">Google AdSense дозволяє персоналізувати рекламу на веб-сайтах при повазі конфіденційності користувача. Погоджуючи, ви дозволяєте відповідну рекламу та допомагаєте підтримувати вільний вміст.</target>
+        <target state="final">Google AdSense дає змогу показувати персоналізовану рекламу на веб-сайтах із дотриманням конфіденційності користувачів. Надаючи згоду, ви дозволяєте показ релевантної реклами та допомагаєте підтримувати безкоштовний вміст.</target>
       </trans-unit>
       <trans-unit id="services.camera.title" approved="yes">
         <source>Surveillance Camera</source>
-        <target state="final">Камера перегляду</target>
+        <target state="final">Камера спостереження</target>
       </trans-unit>
       <trans-unit id="services.camera.description" approved="yes">
         <source>Consent to the use of surveillance camera images for security and safety purposes, in compliance with applicable data privacy regulations.</source>
-        <target state="final">Згода на використання зображень для нагляду за камерою, в цілях безпеки та безпеки, у відповідності з застосовними правилами конфіденційності даних.</target>
+        <target state="final">Згода на використання зображень із камер спостереження з метою безпеки та захисту відповідно до чинних правил конфіденційності даних.</target>
       </trans-unit>
       <trans-unit id="services.career-captain.title" approved="yes">
         <source>Career Captain</source>
@@ -268,11 +268,11 @@
       </trans-unit>
       <trans-unit id="services.clarity.description" approved="yes">
         <source>Microsoft Clarity is a user-friendly web analytics tool that empowers website visitors like you by providing transparency about how your interactions are tracked on a website. It ensures your privacy is respected while giving developers and website owners valuable insights into user behavior. Plus, it follows coding guidelines and best practices, ensuring a safe and secure online experience for you.</source>
-        <target state="final">Microsoft Clarity - це зручний веб-аналітичний інструмент, що дозволяє відвідувачам веб-сайту, як ви, через забезпечення прозорості стосовно того, як ваша взаємодія відстежується на веб-сайті. Це забезпечує дотримання вашої приватності при переданні розробників і власників веб-сайтів цінне уявлення про поведінку користувачів. До того ж, він слідує рекомендаціям із програмування та вдосконалення практики, забезпечення безпечного і безпечного онлайн-досвіду для вас.</target>
+        <target state="final">Microsoft Clarity - це зручний інструмент веб-аналітики, який забезпечує прозорість щодо того, як відстежуються ваші взаємодії на веб-сайті. Він поважає вашу конфіденційність і водночас надає розробникам та власникам веб-сайтів цінну інформацію про поведінку користувачів. Крім того, він дотримується рекомендацій із програмування та найкращих практик, забезпечуючи для вас безпечний онлайн-досвід.</target>
       </trans-unit>
       <trans-unit id="services.cloudflare.title" approved="yes">
         <source>Cloudflare</source>
-        <target state="final">Хмарний</target>
+        <target state="final">Cloudflare</target>
       </trans-unit>
       <trans-unit id="services.cloudflare.description" approved="yes">
         <source>Cloudflare helps protect and optimize websites. By using this website, you consent to Cloudflare's data processing practices as described in its Privacy Policy.</source>
@@ -292,7 +292,7 @@
       </trans-unit>
       <trans-unit id="services.facebook-pixel.description" approved="yes">
         <source>Simplifies web tracking for analytics and marketing while ensuring data compliance and control.</source>
-        <target state="final">Спрощує веб-відстеження для аналітики та маркетингу при забезпеченні дотримання та контролю даних.</target>
+        <target state="final">Спрощує веб-відстеження для аналітики та маркетингу, забезпечуючи відповідність вимогам щодо даних і контроль.</target>
       </trans-unit>
       <trans-unit id="services.fast-fonts.title" approved="yes">
         <source>Fast Fonts</source>
@@ -300,19 +300,19 @@
       </trans-unit>
       <trans-unit id="services.fast-fonts.description" approved="yes">
         <source>Fast Fonts, operated by fonts.com and supplied by fast.fonts.net, is a service for the provision of web fonts. It requires the use of a pixel-code for continuous price calculation.</source>
-        <target state="final">Швидкі шрифти, які керуються fonts.com і надаються fast.fonts.net, є послугою для забезпечення веб-шрифтів. Він вимагає використання піксельного коду для безперервного розрахунку цін.</target>
+        <target state="final">Fast Fonts, яким керує fonts.com і який надається через fast.fonts.net, є сервісом для надання веб-шрифтів. Він потребує використання піксельного коду для безперервного розрахунку ціни.</target>
       </trans-unit>
       <trans-unit id="services.google-ads.title" approved="yes">
         <source>Google Ads</source>
-        <target state="final">Оголошення Google</target>
+        <target state="final">Google Ads</target>
       </trans-unit>
       <trans-unit id="services.google-ads.description" approved="yes">
         <source>Google Ads allows advertisers to reach their target audience online. To personalize ads and measure their effectiveness, Google may collect data with your consent.</source>
-        <target state="final">Реклама Google дозволяє рекламодавцям знаходити свою цільову аудиторію в Інтернеті. Для персоналізації реклами та вимірювання їх ефективності, Google може збирати дані з вашою згодою.</target>
+        <target state="final">Google Ads дає рекламодавцям змогу охоплювати свою цільову аудиторію онлайн. Для персоналізації реклами та вимірювання її ефективності Google може збирати дані за вашою згодою.</target>
       </trans-unit>
       <trans-unit id="services.google-analytics.title" approved="yes">
         <source>Google Analytics</source>
-        <target state="final">Google Аналітика</target>
+        <target state="final">Google Analytics</target>
       </trans-unit>
       <trans-unit id="services.google-analytics.description" approved="yes">
         <source>Web analytics service provided by Google, Inc. ("Google")</source>
@@ -320,27 +320,27 @@
       </trans-unit>
       <trans-unit id="services.google-fonts.title" approved="yes">
         <source>Google Fonts</source>
-        <target state="final">Шрифти Google</target>
+        <target state="final">Google Fonts</target>
       </trans-unit>
       <trans-unit id="services.google-fonts.description" approved="yes">
         <source>Web fonts hosted by Google</source>
-        <target state="final">Веб-шрифти, на які розміщені Google</target>
+        <target state="final">Веб-шрифти, розміщені Google</target>
       </trans-unit>
       <trans-unit id="services.google-maps.title" approved="yes">
         <source>Google Maps</source>
-        <target state="final">Карти Google</target>
+        <target state="final">Google Maps</target>
       </trans-unit>
       <trans-unit id="services.google-maps.description" approved="yes">
         <source>Google Maps allows for the integration of interactive maps on websites, enabling location-based services. Developers can utilize it while ensuring data compliance and control, adhering to coding guidelines and best practices.</source>
-        <target state="final">Google Maps дозволяє інтегрувати інтерактивні карти на веб-сайтах, використовувати сервіси на основі локацій. Розробники можуть використовувати його, забезпечуючи дотримання даних і контроль, дотримання керівних принципів кодування та найкращих практик.</target>
+        <target state="final">Google Maps дає змогу інтегрувати інтерактивні карти на веб-сайтах і використовувати сервіси на основі місцезнаходження. Розробники можуть використовувати його, забезпечуючи відповідність вимогам щодо даних і контроль, а також дотримуючись рекомендацій із програмування та найкращих практик.</target>
       </trans-unit>
       <trans-unit id="services.google-tag-manager.title" approved="yes">
         <source>Google Tag Manager</source>
-        <target state="final">Менеджер Google тегів</target>
+        <target state="final">Google Tag Manager</target>
       </trans-unit>
       <trans-unit id="services.google-tag-manager.description" approved="yes">
         <source>Google Tag Manager streamlines web tracking and code management, ensuring data compliance and control for developers.</source>
-        <target state="final">Google Tag Manager спрощує напрямок веб-відстеження та управління кодами, забезпечуючи дотримання даних і контроль для розробників.</target>
+        <target state="final">Google Tag Manager спрощує веб-відстеження та керування кодом, забезпечуючи для розробників відповідність вимогам щодо даних і контроль.</target>
       </trans-unit>
       <trans-unit id="services.inline-tracker.title" approved="yes">
         <source>Inline Tracker</source>
@@ -352,19 +352,19 @@
       </trans-unit>
       <trans-unit id="services.instagram.title" approved="yes">
         <source>Instagram</source>
-        <target state="final">Інстаграм</target>
+        <target state="final">Instagram</target>
       </trans-unit>
       <trans-unit id="services.instagram.description" approved="yes">
         <source>Allows Instagram posts to be embedded. Personal data may be transferred to Instagram (Meta Platforms) in the process.</source>
-        <target state="final">Дозволяє вбудовувати записи Instagram. В процесі ручну передачу персональних даних в Instagram (Meta Platforms).</target>
+        <target state="final">Дозволяє вбудовувати дописи Instagram. У процесі персональні дані можуть передаватися до Instagram (Meta Platforms).</target>
       </trans-unit>
       <trans-unit id="services.intercom.title" approved="yes">
         <source>Intercom</source>
-        <target state="final">Інтерком</target>
+        <target state="final">Intercom</target>
       </trans-unit>
       <trans-unit id="services.intercom.description" approved="yes">
         <source>Chat widget and collecting of visitor statistics</source>
-        <target state="final">Віджет чату та колекція статистики відвідувань</target>
+        <target state="final">Віджет чату та збирання статистики відвідувачів</target>
       </trans-unit>
       <trans-unit id="services.klaro.title" approved="yes">
         <source>Klaro!</source>
@@ -380,11 +380,11 @@
       </trans-unit>
       <trans-unit id="services.matomo.description" approved="yes">
         <source>Open source software for statistical analysis of visitor accesses</source>
-        <target state="final">Відкрите програмне забезпечення для статистичного аналізу доступу до відвідувачів</target>
+        <target state="final">Програмне забезпечення з відкритим кодом для статистичного аналізу відвідувань</target>
       </trans-unit>
       <trans-unit id="services.mouseflow.title" approved="yes">
         <source>Mouseflow</source>
-        <target state="final">Мусевен</target>
+        <target state="final">Mouseflow</target>
       </trans-unit>
       <trans-unit id="services.mouseflow.description" approved="yes">
         <source>Real-time user analytics service that helps to understand how visitors interact with our website.</source>
@@ -404,7 +404,7 @@
       </trans-unit>
       <trans-unit id="services.tiktok.description" approved="yes">
         <source>Allows TikTok videos to be embedded. Personal data may be transferred to TikTok and processed in third countries.</source>
-        <target state="final">Дозволяє завантажувати відеофайли TikTok в мережі. Особисті дані можуть бути передані в TikTok та оброблені в третіх країнах.</target>
+        <target state="final">Дозволяє вбудовувати відео TikTok. Персональні дані можуть передаватися до TikTok і оброблятися в третіх країнах.</target>
       </trans-unit>
       <trans-unit id="services.twitter.title" approved="yes">
         <source>X (formerly Twitter)</source>
@@ -412,15 +412,15 @@
       </trans-unit>
       <trans-unit id="services.twitter.description" approved="yes">
         <source>X (formerly Twitter) is a social media platform that allows users to share and interact with short messages and multimedia content. Developers can integrate Twitter features into websites to enhance user engagement and real-time updates while maintaining data privacy compliance and adhering to coding guidelines.</source>
-        <target state="final">X (раніше Twitter) - це платформа соціальних медіа, що дозволяє користувачам обмінюватися та взаємодіяти з короткими повідомленнями та мультимедійним контентом. Розробники можуть інтегрувати функції Twitter на веб-сайти, щоб покращити зацікавленість користувачів і оновлення в режимі реального часу при збереженні дотриманні конфіденційності даних та дотриманні рекомендацій з кодування.</target>
+        <target state="final">X (раніше Twitter) - це платформа соціальних медіа, яка дає користувачам змогу ділитися короткими повідомленнями й мультимедійним контентом та взаємодіяти з ним. Розробники можуть інтегрувати функції Twitter у веб-сайти, щоб підвищити залученість користувачів і забезпечити оновлення в реальному часі, дотримуючись вимог конфіденційності даних та рекомендацій із програмування.</target>
       </trans-unit>
       <trans-unit id="services.userlike.title" approved="yes">
         <source>Userlike</source>
-        <target state="final">Сподобалось ім'я користувача</target>
+        <target state="final">Userlike</target>
       </trans-unit>
       <trans-unit id="services.userlike.description" approved="yes">
         <source>Userlike offers a live chat solution that enhances user interactions on websites.</source>
-        <target state="final">Користувачі, такі як пропонує можливість жити в чаті, і водночас взаємодіє з ним на сайтах.</target>
+        <target state="final">Userlike пропонує рішення для живого чату, яке покращує взаємодію користувачів на веб-сайтах.</target>
       </trans-unit>
       <trans-unit id="services.vimeo.title" approved="yes">
         <source>Vimeo</source>
@@ -432,11 +432,11 @@
       </trans-unit>
       <trans-unit id="services.youtube.title" approved="yes">
         <source>YouTube</source>
-        <target state="final">Ютуб</target>
+        <target state="final">YouTube</target>
       </trans-unit>
       <trans-unit id="services.youtube.description" approved="yes">
         <source>The leading video-sharing platform for content creators and developers to enhance user experiences on websites.</source>
-        <target state="final">Проведена платформа спільного використання відео для створення контенту та розробників, щоб розширити досвід роботи користувача на веб-сайтах.</target>
+        <target state="final">Провідна платформа для обміну відео для авторів контенту та розробників, яка допомагає покращувати користувацький досвід на веб-сайтах.</target>
       </trans-unit>
       <trans-unit id="consentModal.privacyPolicy.name" approved="yes">
         <source>Privacy policy</source>
@@ -456,11 +456,11 @@
       </trans-unit>
       <trans-unit id="cookies.title" approved="yes">
         <source>Cookies</source>
-        <target state="final">Файли Cookies</target>
+        <target state="final">Файли cookie</target>
       </trans-unit>
       <trans-unit id="cookies.description" approved="yes">
         <source>Below you will find a list of all cookies used by %s</source>
-        <target state="final">Нижче ви знайдете список всіх куків, що використовуються %s</target>
+        <target state="final">Нижче ви знайдете список усіх файлів cookie, які використовує %s</target>
       </trans-unit>
       <trans-unit id="cookies.headline.name" approved="yes">
         <source>Name / Pattern</source>
@@ -512,7 +512,7 @@
       </trans-unit>
       <trans-unit id="minute" approved="yes">
         <source>Minute</source>
-        <target state="final">Хвилин</target>
+        <target state="final">Хвилина</target>
       </trans-unit>
       <trans-unit id="minutes" approved="yes">
         <source>Minutes</source>
@@ -540,7 +540,7 @@
       </trans-unit>
       <trans-unit id="warning.noServicesPersonalized" approved="yes">
         <source>Hey %s! You missed a service in the config! Without services, we don't need consent management at all.</source>
-        <target state="final">Гей, %s! Ви пропустили послугу в конфігурації! Без послуг нам взагалі не потрібна підтримка в управлінні.</target>
+        <target state="final">Гей, %s! Ви пропустили сервіс у конфігурації! Без сервісів нам взагалі не потрібне керування згодою.</target>
       </trans-unit>
     </body>
   </file>
