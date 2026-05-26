@@ -105,7 +105,7 @@
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.title.placeholder" approved="yes">
         <source>My Klaro! Configuration</source>
-        <target state="final">My Klaro! Configuration</target>
+        <target state="final">Mano Klaro! konfigūracija</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.testing.label" approved="yes">
         <source>Testing</source>
@@ -369,7 +369,7 @@
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.locallang_path.description" approved="yes">
         <source>Optional path to an additional XLIFF file that overwrites the default labels or adds new labels (e.g. for custom purposes or services). If fluid templates have been stored for the labels created in this file (see the "Fluid Template Root Path" field), these will overwrite the classic labels from the Locallang file. Nevertheless, it is possible and common to reference the locallang file from the respective fluid template and obtain the actual label there (the label key is passed to the fluid template).</source>
-        <target state="final">Neprivalomas kelias į papildomą XLIFF failą, kuris perrašo numatytąsias etiketes arba prideda naujų etikečių (pvz., pasirinktiems tikslams ar paslaugoms). Jei šiame faile sukurtoms etiketėms buvo išsaugoti Fluid šablonai (žr. lauką „Fluid Template Root Path“), jie perrašys klasikines etiketes iš Locallang failo. Vis dėlto galima ir įprasta iš atitinkamo Fluid šablono nurodyti locallang failą ir ten gauti faktinę etiketę (etiketės raktas perduodamas Fluid šablonui).</target>
+        <target state="final">Neprivalomas kelias į papildomą XLIFF failą, kuris perrašo numatytąsias etiketes arba prideda naujų etikečių (pvz., pasirinktinėms paskirtims ar paslaugoms). Jei šiame faile sukurtoms etiketėms buvo išsaugoti Fluid šablonai (žr. lauką „Fluid Template Root Path“), jie perrašys klasikines etiketes iš Locallang failo. Vis dėlto galima ir įprasta iš atitinkamo Fluid šablono nurodyti locallang failą ir ten gauti faktinę etiketę (etiketės raktas perduodamas Fluid šablonui).</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.locallang_path.placeholder" approved="yes">
         <source>EXT:sitepackage/Resources/Private/Language/Klaro/locallang.xlf</source>
