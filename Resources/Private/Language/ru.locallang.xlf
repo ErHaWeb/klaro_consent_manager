@@ -40,7 +40,7 @@
       </trans-unit>
       <trans-unit id="consentNotice.title" approved="yes">
         <source>Cookie Consent</source>
-        <target state="final">Согласие Cookie</target>
+        <target state="final">Согласие на cookie</target>
       </trans-unit>
       <trans-unit id="contextualConsent.acceptAlways" approved="yes">
         <source>Always</source>
@@ -56,7 +56,7 @@
       </trans-unit>
       <trans-unit id="contextualConsent.descriptionEmptyStore" approved="yes">
         <source>To agree to this service permanently, you must accept {title} in the {link}.</source>
-        <target state="final">Чтобы окончательно согласиться с этой услугой, вы должны принять {title} на сайте {link}.</target>
+        <target state="final">Чтобы окончательно согласиться на этот сервис, необходимо принять {title} в {link}.</target>
       </trans-unit>
       <trans-unit id="contextualConsent.modalLinkText" approved="yes">
         <source>Consent Manager</source>
@@ -100,7 +100,7 @@
       </trans-unit>
       <trans-unit id="purposes.functional.description" approved="yes">
         <source>These services are essential for the correct functioning of this website. You cannot disable them here as the service would not work correctly otherwise.</source>
-        <target state="final">Эти службы необходимы для правильного функционирования этого веб-сайта. Вы не можете их отключить, так как служба работает неправильно.</target>
+        <target state="final">Эти сервисы необходимы для правильной работы этого веб-сайта. Здесь их нельзя отключить, иначе сервис не будет работать корректно.</target>
       </trans-unit>
       <trans-unit id="purposes.functional.title" approved="yes">
         <source>Service Provision</source>
@@ -208,7 +208,7 @@
       </trans-unit>
       <trans-unit id="purposes.misc.title" approved="yes">
         <source>Miscellaneous</source>
-        <target state="final">Прочие вопросы</target>
+        <target state="final">Разное</target>
       </trans-unit>
       <trans-unit id="purposes.misc.description" approved="yes">
         <source>This includes services that do not fall under the other purposes.</source>
@@ -236,7 +236,7 @@
       </trans-unit>
       <trans-unit id="services.adobe-fonts.description" approved="yes">
         <source>Adobe Fonts provides web fonts used for this website. When enabled, font files are loaded from Adobe and technical connection data may be processed.</source>
-        <target state="final">Adobe Fonts предоставляет веб-шрифты, используемые для этого веб-сайта. Если включено, файлы шрифтов загружаются из Adobe и техническое соединение может обрабатываться.</target>
+        <target state="final">Adobe Fonts предоставляет веб-шрифты, используемые для этого веб-сайта. Если сервис включен, файлы шрифтов загружаются из Adobe, и технические данные соединения могут обрабатываться.</target>
       </trans-unit>
       <trans-unit id="services.adsense.title" approved="yes">
         <source>Google AdSense</source>
@@ -244,7 +244,7 @@
       </trans-unit>
       <trans-unit id="services.adsense.description" approved="yes">
         <source>Google AdSense enables personalized ads on websites while respecting user privacy. By consenting, you allow relevant ads and help support free content.</source>
-        <target state="final">Google AdSense разрешает персонализированную рекламу на веб-сайтах при уважении конфиденциальности пользователей. Согласитесь, вы разрешаете релевантную рекламу и помогаете поддерживать свободный контент.</target>
+        <target state="final">Google AdSense включает персонализированную рекламу на веб-сайтах с учетом конфиденциальности пользователей. Давая согласие, вы разрешаете показывать релевантную рекламу и помогаете поддерживать бесплатный контент.</target>
       </trans-unit>
       <trans-unit id="services.camera.title" approved="yes">
         <source>Surveillance Camera</source>
@@ -272,7 +272,7 @@
       </trans-unit>
       <trans-unit id="services.cloudflare.title" approved="yes">
         <source>Cloudflare</source>
-        <target state="final">Огонь из облака</target>
+        <target state="final">Cloudflare</target>
       </trans-unit>
       <trans-unit id="services.cloudflare.description" approved="yes">
         <source>Cloudflare helps protect and optimize websites. By using this website, you consent to Cloudflare's data processing practices as described in its Privacy Policy.</source>
@@ -300,7 +300,7 @@
       </trans-unit>
       <trans-unit id="services.fast-fonts.description" approved="yes">
         <source>Fast Fonts, operated by fonts.com and supplied by fast.fonts.net, is a service for the provision of web fonts. It requires the use of a pixel-code for continuous price calculation.</source>
-        <target state="final">Быстрые шрифты, управляемые fonts.com и поставляемые fast.fonts.net, являются сервисом для предоставления веб-шрифтов. Это требует использования пиксельного кода для расчета непрерывной цены.</target>
+        <target state="final">Fast Fonts, управляемый fonts.com и предоставляемый fast.fonts.net, является сервисом для предоставления веб-шрифтов. Для этого требуется использование пиксельного кода для непрерывного расчета цены.</target>
       </trans-unit>
       <trans-unit id="services.google-ads.title" approved="yes">
         <source>Google Ads</source>
@@ -320,7 +320,7 @@
       </trans-unit>
       <trans-unit id="services.google-fonts.title" approved="yes">
         <source>Google Fonts</source>
-        <target state="final">Google шрифты</target>
+        <target state="final">Google Fonts</target>
       </trans-unit>
       <trans-unit id="services.google-fonts.description" approved="yes">
         <source>Web fonts hosted by Google</source>
@@ -352,7 +352,7 @@
       </trans-unit>
       <trans-unit id="services.instagram.title" approved="yes">
         <source>Instagram</source>
-        <target state="final">Инстаграмма</target>
+        <target state="final">Instagram</target>
       </trans-unit>
       <trans-unit id="services.instagram.description" approved="yes">
         <source>Allows Instagram posts to be embedded. Personal data may be transferred to Instagram (Meta Platforms) in the process.</source>
@@ -360,7 +360,7 @@
       </trans-unit>
       <trans-unit id="services.intercom.title" approved="yes">
         <source>Intercom</source>
-        <target state="final">Интерком</target>
+        <target state="final">Intercom</target>
       </trans-unit>
       <trans-unit id="services.intercom.description" approved="yes">
         <source>Chat widget and collecting of visitor statistics</source>
@@ -384,7 +384,7 @@
       </trans-unit>
       <trans-unit id="services.mouseflow.title" approved="yes">
         <source>Mouseflow</source>
-        <target state="final">Мусеток</target>
+        <target state="final">Mouseflow</target>
       </trans-unit>
       <trans-unit id="services.mouseflow.description" approved="yes">
         <source>Real-time user analytics service that helps to understand how visitors interact with our website.</source>
@@ -408,7 +408,7 @@
       </trans-unit>
       <trans-unit id="services.twitter.title" approved="yes">
         <source>X (formerly Twitter)</source>
-        <target state="final">X (ранее Твиттер)</target>
+        <target state="final">X (ранее Twitter)</target>
       </trans-unit>
       <trans-unit id="services.twitter.description" approved="yes">
         <source>X (formerly Twitter) is a social media platform that allows users to share and interact with short messages and multimedia content. Developers can integrate Twitter features into websites to enhance user engagement and real-time updates while maintaining data privacy compliance and adhering to coding guidelines.</source>
@@ -416,7 +416,7 @@
       </trans-unit>
       <trans-unit id="services.userlike.title" approved="yes">
         <source>Userlike</source>
-        <target state="final">Пользователь</target>
+        <target state="final">Userlike</target>
       </trans-unit>
       <trans-unit id="services.userlike.description" approved="yes">
         <source>Userlike offers a live chat solution that enhances user interactions on websites.</source>
@@ -428,7 +428,7 @@
       </trans-unit>
       <trans-unit id="services.vimeo.description" approved="yes">
         <source>Popular video-sharing platform that offers a range of features for creators and developers to enhance video content on websites.</source>
-        <target state="final">Популярная платформа для обмена видео, предлагающая ряд функций для разработчиков и разработчиков для улучшения видеоконтента на веб-сайтах.</target>
+        <target state="final">Популярная платформа для обмена видео, предлагающая ряд функций для авторов и разработчиков, чтобы улучшать видеоконтент на веб-сайтах.</target>
       </trans-unit>
       <trans-unit id="services.youtube.title" approved="yes">
         <source>YouTube</source>
@@ -456,7 +456,7 @@
       </trans-unit>
       <trans-unit id="cookies.title" approved="yes">
         <source>Cookies</source>
-        <target state="final">Печенье</target>
+        <target state="final">Cookie</target>
       </trans-unit>
       <trans-unit id="cookies.description" approved="yes">
         <source>Below you will find a list of all cookies used by %s</source>
