@@ -24,7 +24,7 @@
       </trans-unit>
       <trans-unit id="consentNotice.changeDescription" approved="yes">
         <source>There were changes since your last visit, please renew your consent.</source>
-        <target state="final">Ha habido cambios en las cookies desde su última visita. Debe renovar su consentimiento.</target>
+        <target state="final">Ha habido cambios desde su última visita. Renueve su consentimiento.</target>
       </trans-unit>
       <trans-unit id="consentNotice.description" approved="yes">
         <source>Hi! Could we please enable some additional services for {purposes}? You can always change or withdraw your consent later.</source>
@@ -40,7 +40,7 @@
       </trans-unit>
       <trans-unit id="consentNotice.title" approved="yes">
         <source>Cookie Consent</source>
-        <target state="final">Consenso de cookies</target>
+        <target state="final">Consentimiento de cookies</target>
       </trans-unit>
       <trans-unit id="contextualConsent.acceptAlways" approved="yes">
         <source>Always</source>
@@ -56,7 +56,7 @@
       </trans-unit>
       <trans-unit id="contextualConsent.descriptionEmptyStore" approved="yes">
         <source>To agree to this service permanently, you must accept {title} in the {link}.</source>
-        <target state="final">Para aceptar este servicio de forma permanente, debes aceptar {title} en la {link}.</target>
+        <target state="final">Para aceptar este servicio de forma permanente, debes aceptar {title} en el {link}.</target>
       </trans-unit>
       <trans-unit id="contextualConsent.modalLinkText" approved="yes">
         <source>Consent Manager</source>
@@ -136,7 +136,7 @@
       </trans-unit>
       <trans-unit id="service.optOut.description" approved="yes">
         <source>This service is loaded by default (but you can opt out)</source>
-        <target state="final">Este servicio está habilitado por defecto (pero puede optar por lo contrario)</target>
+        <target state="final">Este servicio está habilitado por defecto (pero puede rechazarlo)</target>
       </trans-unit>
       <trans-unit id="service.optOut.title" approved="yes">
         <source>(opt-out)</source>
@@ -252,7 +252,7 @@
       </trans-unit>
       <trans-unit id="services.camera.description" approved="yes">
         <source>Consent to the use of surveillance camera images for security and safety purposes, in compliance with applicable data privacy regulations.</source>
-        <target state="final">Consenso al uso de imágenes de cámaras de vigilancia para fines de seguridad y seguridad, de conformidad con las normas de privacidad de datos aplicables.</target>
+        <target state="final">Consentimiento para el uso de imágenes de cámaras de vigilancia con fines de seguridad y protección, de conformidad con las normas de privacidad de datos aplicables.</target>
       </trans-unit>
       <trans-unit id="services.career-captain.title" approved="yes">
         <source>Career Captain</source>
@@ -336,7 +336,7 @@
       </trans-unit>
       <trans-unit id="services.google-tag-manager.title" approved="yes">
         <source>Google Tag Manager</source>
-        <target state="final">Gestor de Google Tag</target>
+        <target state="final">Google Tag Manager</target>
       </trans-unit>
       <trans-unit id="services.google-tag-manager.description" approved="yes">
         <source>Google Tag Manager streamlines web tracking and code management, ensuring data compliance and control for developers.</source>
@@ -348,7 +348,7 @@
       </trans-unit>
       <trans-unit id="services.inline-tracker.description" approved="yes">
         <source>Inline tracking script</source>
-        <target state="final">Script de seguimiento externo</target>
+        <target state="final">Script de seguimiento en línea</target>
       </trans-unit>
       <trans-unit id="services.instagram.title" approved="yes">
         <source>Instagram</source>
@@ -416,7 +416,7 @@
       </trans-unit>
       <trans-unit id="services.userlike.title" approved="yes">
         <source>Userlike</source>
-        <target state="final">Usuario</target>
+        <target state="final">Userlike</target>
       </trans-unit>
       <trans-unit id="services.userlike.description" approved="yes">
         <source>Userlike offers a live chat solution that enhances user interactions on websites.</source>
@@ -460,7 +460,7 @@
       </trans-unit>
       <trans-unit id="cookies.description" approved="yes">
         <source>Below you will find a list of all cookies used by %s</source>
-        <target state="final">A continuación encontrará una lista de todas las galletas usadas por %s</target>
+        <target state="final">A continuación encontrará una lista de todas las cookies usadas por %s</target>
       </trans-unit>
       <trans-unit id="cookies.headline.name" approved="yes">
         <source>Name / Pattern</source>
