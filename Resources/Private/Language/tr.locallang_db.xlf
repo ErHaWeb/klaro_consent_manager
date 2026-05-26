@@ -241,7 +241,7 @@
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.cookie_expires_after_days.label" approved="yes">
         <source>Cookie expires after days</source>
-        <target state="final">Çerez gün sonra sona erer</target>
+        <target state="final">Çerezin sona erme süresi (gün)</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.cookie_expires_after_days.description" approved="yes">
         <source>You can also set a custom expiration time for the Klaro cookie. By default, it will expire after 60 days. Only relevant if `storageMethod` is set to `cookie`.</source>
@@ -293,11 +293,11 @@
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.hide_toggle_all.label" approved="yes">
         <source>Hide Toggle All</source>
-        <target state="final">Tümünü değiştirme bağlantısını gizle</target>
+        <target state="final">Tümünü aç/kapat bağlantısını gizle</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.hide_toggle_all.description" approved="yes">
         <source>Setting `hideToggleAll` to `true` will hide the "toggle all" link in the consent notice.</source>
-        <target state="final">`hideToggleAll` `true` olarak ayarlanırsa onay bildirimindeki "tümünü değiştir" bağlantısı gizlenir.</target>
+        <target state="final">`hideToggleAll` `true` olarak ayarlanırsa onay bildirimindeki "tümünü aç/kapat" bağlantısı gizlenir.</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.notice_as_modal.label" approved="yes">
         <source>Notice As Modal</source>
