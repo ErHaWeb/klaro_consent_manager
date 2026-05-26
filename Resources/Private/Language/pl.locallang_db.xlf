@@ -13,7 +13,7 @@
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.I.false" approved="yes">
         <source>false</source>
-        <target state="final">fałszywy</target>
+        <target state="final">fałsz</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.tabs.general" approved="yes">
         <source>General</source>
@@ -97,7 +97,7 @@
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.title.label" approved="yes">
         <source>Title</source>
-        <target state="final">Rozporządzenie Rady (EWG) nr 2658/87 z dnia 23 lipca 1987 r. w sprawie nomenklatury taryfowej i statystycznej oraz w sprawie Wspólnej Taryfy Celnej (Dz.U. L 256 z 7.9.1987, s. 1).</target>
+        <target state="final">Tytuł</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.title.description" approved="yes">
         <source>Title under which this configuration can be found.</source>
@@ -197,7 +197,7 @@
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.html_texts.description" approved="yes">
         <source>If set to `true`, Klaro will render the texts given in the `consentModal.description` and `consentNotice.description` translations as HTML. This enables you to e.g. add custom links or interactive content. If you want to be able to output HTML tags via fluid-enriched labels (see "Content" → "Translations"), this option must be enabled.</source>
-        <target state="final">Jeśli ustawione na `true`, Klaro wyrenderuje teksty podane w tłumaczeniach `consentModal.description` i `consentNotice.description` jako HTML. Pozwala to na np.: dodaj linki niestandardowe lub interaktywne treści. Jeśli chcesz mieć możliwość wyświetlania tagów HTML za pomocą ulepszonych w płynie etykiet (patrz "Treść" → "Tłumaczenia"), ta opcja musi być włączona.</target>
+        <target state="final">Jeśli ustawiono na `true`, Klaro wyrenderuje jako HTML teksty podane w tłumaczeniach `consentModal.description` i `consentNotice.description`. Pozwala to np. dodać własne linki lub interaktywne treści. Jeśli chcesz wyświetlać tagi HTML za pomocą etykiet wzbogaconych przez Fluid (patrz "Treść" → "Tłumaczenia"), ta opcja musi być włączona.</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.embedded.label" approved="yes">
         <source>Embedded</source>
@@ -273,7 +273,7 @@
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.accept_all.description" approved="yes">
         <source>Setting `acceptAll` to `true` will show an "accept all" button in the notice and modal, which will enable all third-party services if the user clicks on it. If set to "false", there will be an "accept" button that will only enable the services that are enabled in the consent modal.</source>
-        <target state="final">Ustawienie `acceptAll` na `true` pokaże przycisk "accept all" w powiadomieniu i modalu, która umożliwi korzystanie z wszystkich usług firm trzecich, jeśli użytkownik kliknie na nią. Jeśli ustawione na "fałsz", pojawi się przycisk "akceptuj", który włączy tylko usługi, które są włączone w modze zgody.</target>
+        <target state="final">Ustawienie `acceptAll` na `true` pokaże przycisk "accept all" w powiadomieniu i modalu, który włączy wszystkie usługi stron trzecich, jeśli użytkownik go kliknie. Jeśli ustawiono na "fałsz", pojawi się przycisk "akceptuj", który włączy tylko usługi aktywne w modalu zgody.</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.hide_decline_all.label" approved="yes">
         <source>Hide Decline All</source>
@@ -289,7 +289,7 @@
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.hide_learn_more.description" approved="yes">
         <source>Setting `hideLearnMore` to `true` will hide the "learn more / customize" link in the consent notice. We strongly advise against using this under most circumstances, as it keeps the user from customizing his/her consent choices.</source>
-        <target state="final">Ustawienie `hideLearnMore` na `true` ukryje link "dowiedz się więcej / dostosuj" w powiadomieniu o zgodzie. Zdecydowanie zalecamy korzystanie z tego w większości okoliczności, ponieważ pozwala on użytkownikowi na dostosowywanie decyzji dotyczących jego zgody.</target>
+        <target state="final">Ustawienie `hideLearnMore` na `true` ukryje link "dowiedz się więcej / dostosuj" w powiadomieniu o zgodzie. Zdecydowanie odradzamy używanie tego w większości sytuacji, ponieważ uniemożliwia to użytkownikowi dostosowanie jego decyzji dotyczących zgody.</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.hide_toggle_all.label" approved="yes">
         <source>Hide Toggle All</source>
@@ -325,15 +325,15 @@
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.auto_focus.label" approved="yes">
         <source>Auto Focus</source>
-        <target state="final">Auto ostrość</target>
+        <target state="final">Automatyczne ustawienie fokusu</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.auto_focus.description" approved="yes">
         <source>Automatically focus the Klaro consent notice/modal container when it opens to improve keyboard navigation and accessibility.</source>
-        <target state="final">Automatycznie skupiaj powiadomienie o zgodzie Klaro / pojemnik modalny, gdy otworzy się na poprawę nawigacji i dostępności klawiatury.</target>
+        <target state="final">Automatycznie ustawiaj fokus na kontenerze powiadomienia/modalu zgody Klaro po jego otwarciu, aby poprawić nawigację klawiaturą i dostępność.</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.disable_powered_by.label" approved="yes">
         <source>Disable Powered By</source>
-        <target state="final">Wyłącz zasilane przez</target>
+        <target state="final">Wyłącz "Powered by"</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.disable_powered_by.description" approved="yes">
         <source>You can also remove the "Realized with Klaro!" text in the consent modal. Please don't do this! We provide Klaro as a free open source tool. Placing a link to our website helps us spread the word about it, which ultimately enables us to make Klaro! better for everyone. So please be fair and keep the link enabled. Thanks :)</source>
@@ -353,7 +353,7 @@
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.purpose_order.description" approved="yes">
         <source>The order in which purposes appear in the notice and modal can be changed via the `purposeOrder` parameter, which can be given a list with purpose names and will display those purposes in the order in which they appear in the list.</source>
-        <target state="final">Kolejność, w której cele pojawiają się w ogłoszeniu i w jaki sposób można zmienić za pomocą parametru `purposeOrder`, który może otrzymać listę z nazwami celów i będzie wyświetlać te cele w kolejności, w jakiej pojawiają się na liście.</target>
+        <target state="final">Kolejność, w której cele pojawiają się w powiadomieniu i modalu, można zmienić za pomocą parametru `purposeOrder`, któremu można przekazać listę nazw celów. Cele będą wyświetlane w kolejności, w jakiej występują na tej liście.</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.callback.label" approved="yes">
         <source>Callback</source>
@@ -369,7 +369,7 @@
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.locallang_path.description" approved="yes">
         <source>Optional path to an additional XLIFF file that overwrites the default labels or adds new labels (e.g. for custom purposes or services). If fluid templates have been stored for the labels created in this file (see the "Fluid Template Root Path" field), these will overwrite the classic labels from the Locallang file. Nevertheless, it is possible and common to reference the locallang file from the respective fluid template and obtain the actual label there (the label key is passed to the fluid template).</source>
-        <target state="final">Opcjonalna ścieżka do dodatkowego pliku XLIFF, który nadpisuje domyślne etykiety lub dodaje nowe etykiety (np. do celów niestandardowych lub usług). Jeśli szablony płynów zostały zapisane dla etykiet utworzonych w tym pliku (zobacz pole "Główna ścieżka szablonu"), spowoduje to nadpisanie klasycznych etykiet z pliku Locallang. Niemniej jednak, możliwe i wspólne jest odwołanie się do pliku locallang z odpowiedniego płynnego szablonu i uzyskanie tam rzeczywistej etykiety (klucz etykiety jest przekazywany do szablonu płynu). (Fluid)</target>
+        <target state="final">Opcjonalna ścieżka do dodatkowego pliku XLIFF, który nadpisuje domyślne etykiety lub dodaje nowe etykiety (np. dla własnych celów lub usług). Jeśli dla etykiet utworzonych w tym pliku zapisano szablony Fluid (patrz pole "Ścieżka główna szablonów Fluid"), nadpiszą one klasyczne etykiety z pliku Locallang. Mimo to można i często warto odwołać się do pliku locallang z odpowiedniego szablonu Fluid i pobrać tam właściwą etykietę (klucz etykiety jest przekazywany do szablonu Fluid).</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.locallang_path.placeholder" approved="yes">
         <source>EXT:sitepackage/Resources/Private/Language/Klaro/locallang.xlf</source>
@@ -377,7 +377,7 @@
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.fluidtemplate_rootpath.label" approved="yes">
         <source>Fluid Template Root Path</source>
-        <target state="final">Ścieżka główna szablonu płynu (Fluid)</target>
+        <target state="final">Ścieżka główna szablonów Fluid</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.fluidtemplate_rootpath.description" approved="yes">
         <source>As an alternative to the usual TypoScript configuration via constants under `plugin.tx_klaroconsentmanager.view`, a Fluid root path can be defined here, which has a higher priority than the paths configured in TypoScript. The three default directories `/Layouts/`, `/Partials/` and `/Templates/` are expected under this path. Fluid templates created here are used to enrich Locallang labels with additional functionality or to replace them completely. In this way, dynamic content or more complex HTML structures can be provided in a simple way. Fluid templates that are to override labels are expected in the subdirectory `/Templates/Labels/`.</source>
@@ -405,7 +405,7 @@
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.alignment.I.top-wide" approved="yes">
         <source>Top-Wide</source>
-        <target state="final">Górna Szerokość</target>
+        <target state="final">Góra - pełna szerokość</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.alignment.I.bottom-left" approved="yes">
         <source>Bottom-Left</source>
@@ -417,7 +417,7 @@
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.alignment.I.bottom-wide" approved="yes">
         <source>Bottom-Wide</source>
-        <target state="final">Szerokość na dole</target>
+        <target state="final">Dół - pełna szerokość</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.alignment.I.top" approved="yes">
         <source>Top</source>
@@ -453,7 +453,7 @@
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.color_scheme.I.light_neutral" approved="yes">
         <source>Light (neutral)</source>
-        <target state="final">Światło (neutralne)</target>
+        <target state="final">Jasny (neutralny)</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.color_scheme.I.dark" approved="yes">
         <source>Dark</source>
@@ -461,7 +461,7 @@
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.color_scheme.I.light" approved="yes">
         <source>Light</source>
-        <target state="final">Światło</target>
+        <target state="final">Jasny</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.append_show_button.label" approved="yes">
         <source>Append Show Button</source>
@@ -533,11 +533,11 @@
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_service.I.false" approved="yes">
         <source>false</source>
-        <target state="final">fałszywy</target>
+        <target state="final">fałsz</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_service.name.label" approved="yes">
         <source>Name</source>
-        <target state="final">Nazwisko</target>
+        <target state="final">Nazwa</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_service.name.description" approved="yes">
         <source>Each service must have a unique name. Klaro will look for HTML elements with a matching `data-name` attribute to identify elements that belong to this service.</source>
@@ -549,7 +549,7 @@
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_service.title.label" approved="yes">
         <source>Title</source>
-        <target state="final">Rozporządzenie Rady (EWG) nr 2658/87 z dnia 23 lipca 1987 r. w sprawie nomenklatury taryfowej i statystycznej oraz w sprawie Wspólnej Taryfy Celnej (Dz.U. L 256 z 7.9.1987, s. 1).</target>
+        <target state="final">Tytuł</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_service.title.description" approved="yes">
         <source>The title defined here is not mandatory and is intended for backend display only.</source>
@@ -565,7 +565,7 @@
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_service.name.I.adsense" approved="yes">
         <source>Google AdSense</source>
-        <target state="final">AdSense Google</target>
+        <target state="final">Google AdSense</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_service.name.I.camera" approved="yes">
         <source>Surveillance Camera</source>
@@ -625,7 +625,7 @@
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_service.name.I.intercom" approved="yes">
         <source>Intercom</source>
-        <target state="final">Interfejs</target>
+        <target state="final">Intercom</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_service.name.I.klaro" approved="yes">
         <source>Klaro!</source>
@@ -637,7 +637,7 @@
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_service.name.I.mouseflow" approved="yes">
         <source>Mouseflow</source>
-        <target state="final">Przepływ myszy</target>
+        <target state="final">Mouseflow</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_service.name.I.salesviewer" approved="yes">
         <source>SalesViewer</source>
@@ -653,7 +653,7 @@
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_service.name.I.userlike" approved="yes">
         <source>Userlike</source>
-        <target state="final">Polubienie użytkownika</target>
+        <target state="final">Userlike</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_service.name.I.vimeo" approved="yes">
         <source>Vimeo</source>
@@ -701,7 +701,7 @@
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_service.purposes.I.marketing" approved="yes">
         <source>Marketing</source>
-        <target state="final">Wprowadzanie do obrotu</target>
+        <target state="final">Marketing</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_service.purposes.I.advertising" approved="yes">
         <source>Advertising</source>
@@ -857,7 +857,7 @@
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_cookie.identifier.description" approved="yes">
         <source>This is a unique identifier for this cookie. It must be written in lower case and must not contain any spaces, only the characters a-z, 0-9 and "-" or "_". The identifier can be used in Fluid, for example.</source>
-        <target state="final">To jest unikalny identyfikator dla tego ciasteczka. Musi być napisany małymi literami i nie może zawierać żadnych spacji, tylko znaków a-z, 0-9 oraz "-" lub "_". Identyfikator może być stosowany na przykład w płynie. (Fluid)</target>
+        <target state="final">To jest unikalny identyfikator tego ciasteczka. Musi być zapisany małymi literami i nie może zawierać spacji, a jedynie znaki a-z, 0-9 oraz "-" lub "_". Identyfikatora można używać na przykład w Fluid.</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_cookie.identifier.placeholder" approved="yes">
         <source>lowercase_alphanum-x</source>
@@ -865,7 +865,7 @@
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_cookie.title.label" approved="yes">
         <source>Title</source>
-        <target state="final">Rozporządzenie Rady (EWG) nr 2658/87 z dnia 23 lipca 1987 r. w sprawie nomenklatury taryfowej i statystycznej oraz w sprawie Wspólnej Taryfy Celnej (Dz.U. L 256 z 7.9.1987, s. 1).</target>
+        <target state="final">Tytuł</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_cookie.title.description" approved="yes">
         <source>If set, this title will be used in the frontend/backend for displaying the cookie. This title has no technical relevance (contrary to the `pattern` field).</source>
@@ -949,7 +949,7 @@
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_cookie.expires_after_unit.I.minutes" approved="yes">
         <source>Minutes</source>
-        <target state="final">Protokoły</target>
+        <target state="final">Minuty</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_cookie.expires_after_unit.I.seconds" approved="yes">
         <source>Seconds</source>
@@ -985,11 +985,11 @@
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.powered_by.label" approved="yes">
         <source>Powered by URL override</source>
-        <target state="final">Zastąpiony przez adres URL</target>
+        <target state="final">Nadpisanie adresu URL "Powered by"</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.powered_by.description" approved="yes">
         <source>Override the “powered by” link in the consent modal. Leave empty to use Klaro default.</source>
-        <target state="final">Zastąp link "zasilany przez" w modalu zgody. Pozostaw puste, aby użyć domyślnego Klaro.</target>
+        <target state="final">Nadpisz link "powered by" w modalu zgody. Pozostaw puste, aby użyć domyślnej wartości Klaro.</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.powered_by.placeholder" approved="yes">
         <source>https://example.com/your-link</source>
