@@ -24,7 +24,7 @@
       </trans-unit>
       <trans-unit id="consentNotice.changeDescription" approved="yes">
         <source>There were changes since your last visit, please renew your consent.</source>
-        <target state="final">Der har været ændringer siden dit sidste besøg. Opdater dit valg.</target>
+        <target state="final">Der har været ændringer siden dit sidste besøg. Forny dit samtykke.</target>
       </trans-unit>
       <trans-unit id="consentNotice.description" approved="yes">
         <source>Hi! Could we please enable some additional services for {purposes}? You can always change or withdraw your consent later.</source>
@@ -60,7 +60,7 @@
       </trans-unit>
       <trans-unit id="contextualConsent.modalLinkText" approved="yes">
         <source>Consent Manager</source>
-        <target state="final">Samtykke Håndtering</target>
+        <target state="final">Samtykkehåndtering</target>
       </trans-unit>
       <trans-unit id="decline" approved="yes">
         <source>I decline</source>
@@ -236,7 +236,7 @@
       </trans-unit>
       <trans-unit id="services.adobe-fonts.description" approved="yes">
         <source>Adobe Fonts provides web fonts used for this website. When enabled, font files are loaded from Adobe and technical connection data may be processed.</source>
-        <target state="final">Adobe skrifttyper leverer web-skrifttyper, der bruges til dette websted. Når de er aktiveret, indlæses skrifttypefilerne fra Adobe og tekniske forbindelsesdata kan behandles.</target>
+        <target state="final">Adobe Fonts leverer webskrifttyper, der bruges til dette websted. Når tjenesten er aktiveret, indlæses skrifttypefilerne fra Adobe, og tekniske forbindelsesdata kan behandles.</target>
       </trans-unit>
       <trans-unit id="services.adsense.title" approved="yes">
         <source>Google AdSense</source>
@@ -292,7 +292,7 @@
       </trans-unit>
       <trans-unit id="services.facebook-pixel.description" approved="yes">
         <source>Simplifies web tracking for analytics and marketing while ensuring data compliance and control.</source>
-        <target state="final">Forenkler web-sporing til analyse og markedsføring og samtidig sikre datamodkendelse og kontrol.</target>
+        <target state="final">Forenkler websporing til analyse og markedsføring, samtidig med at overholdelse af databeskyttelse og kontrol sikres.</target>
       </trans-unit>
       <trans-unit id="services.fast-fonts.title" approved="yes">
         <source>Fast Fonts</source>
@@ -300,11 +300,11 @@
       </trans-unit>
       <trans-unit id="services.fast-fonts.description" approved="yes">
         <source>Fast Fonts, operated by fonts.com and supplied by fast.fonts.net, is a service for the provision of web fonts. It requires the use of a pixel-code for continuous price calculation.</source>
-        <target state="final">Hurtige skrifttyper, der drives af fonts.com og leveres af fast.fonts.net, er en service til levering af web-skrifttyper. Det kræver brug af en pixel-kode til kontinuerlig prisberegning.</target>
+        <target state="final">Fast Fonts, der drives af fonts.com og leveres af fast.fonts.net, er en tjeneste til levering af webskrifttyper. Den kræver brug af en pixel-kode til løbende prisberegning.</target>
       </trans-unit>
       <trans-unit id="services.google-ads.title" approved="yes">
         <source>Google Ads</source>
-        <target state="final">Google Annoncer</target>
+        <target state="final">Google Ads</target>
       </trans-unit>
       <trans-unit id="services.google-ads.description" approved="yes">
         <source>Google Ads allows advertisers to reach their target audience online. To personalize ads and measure their effectiveness, Google may collect data with your consent.</source>
@@ -320,7 +320,7 @@
       </trans-unit>
       <trans-unit id="services.google-fonts.title" approved="yes">
         <source>Google Fonts</source>
-        <target state="final">Google Fonte</target>
+        <target state="final">Google Fonts</target>
       </trans-unit>
       <trans-unit id="services.google-fonts.description" approved="yes">
         <source>Web fonts hosted by Google</source>
@@ -416,7 +416,7 @@
       </trans-unit>
       <trans-unit id="services.userlike.title" approved="yes">
         <source>Userlike</source>
-        <target state="final">Brugerlignende</target>
+        <target state="final">Userlike</target>
       </trans-unit>
       <trans-unit id="services.userlike.description" approved="yes">
         <source>Userlike offers a live chat solution that enhances user interactions on websites.</source>
