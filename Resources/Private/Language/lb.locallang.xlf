@@ -28,7 +28,7 @@
       </trans-unit>
       <trans-unit id="consentNotice.description" approved="yes">
         <source>Hi! Could we please enable some additional services for {purposes}? You can always change or withdraw your consent later.</source>
-        <target state="final">Bonjour! Kéime mir w.e.g. e puer zousätzlech Servicer fir {purposes} aktivéieren? Dir kënnt Är Zoustëmmung ëmmer méi spéit änneren oder zréckzéien.</target>
+        <target state="final">Bonjour! Kënne mir w.e.g. e puer zousätzlech Servicer fir {purposes} aktivéieren? Dir kënnt Är Zoustëmmung ëmmer méi spéit änneren oder zréckzéien.</target>
       </trans-unit>
       <trans-unit id="consentNotice.learnMore" approved="yes">
         <source>Let me choose</source>
@@ -136,11 +136,11 @@
       </trans-unit>
       <trans-unit id="service.optOut.description" approved="yes">
         <source>This service is loaded by default (but you can opt out)</source>
-        <target state="final">Dëse Service gëtt standardméisseg gelueden (Dir kënnt awer ophalen)</target>
+        <target state="final">Dëse Service gëtt standardméisseg gelueden (Dir kënnt en awer ofwielen)</target>
       </trans-unit>
       <trans-unit id="service.optOut.title" approved="yes">
         <source>(opt-out)</source>
-        <target state="final">(ophalen)</target>
+        <target state="final">(ofwielen)</target>
       </trans-unit>
       <trans-unit id="service.purpose" approved="yes">
         <source>purpose</source>
@@ -164,7 +164,7 @@
       </trans-unit>
       <trans-unit id="purposes.analytics.description" approved="yes">
         <source>These services gather anonymous data for statistical analysis and performance optimization. Enabling analytics services assists website owners in making informed decisions to enhance online services.</source>
-        <target state="final">Dës Servicer sammelen anonym Donnéeë fir statistesch Analyse a Performance-Optimisatioun. D'Aktivéiere vun Analysezerwicer hëlleft de Besëtzer vu Websäiten, informéiert Entscheedungen ze treffen, fir Online-Servicer ze verbesseren.</target>
+        <target state="final">Dës Servicer sammelen anonym Donnéeë fir statistesch Analyse a Performance-Optimisatioun. D'Aktivéiere vun Analyseservicer hëlleft de Besëtzer vu Websäiten, informéiert Entscheedungen ze treffen, fir Online-Servicer ze verbesseren.</target>
       </trans-unit>
       <trans-unit id="purposes.security.title" approved="yes">
         <source>Security</source>
@@ -172,7 +172,7 @@
       </trans-unit>
       <trans-unit id="purposes.security.description" approved="yes">
         <source>Security services are crucial for safeguarding your online experience. These services help protect your data and privacy by detecting and preventing security threats, such as malware, phishing attempts, and unauthorized access. They ensure a safer browsing environment.</source>
-        <target state="final">Sécherheetszerwicer si ganz wichteg, fir Är Online-Erfarung ze schützen. Dës Servicer hëllefen, Är Donnéeën an Är Privatsphär ze schützen, andeems se Sécherheetsbedrohunge wéi Malware, Phishing-Versich an net erlaabten Zougrëff erkennen a verhënneren. Si garantéieren eng méi sécher Browsing-Ëmgéigend.</target>
+        <target state="final">Sécherheetsservicer si ganz wichteg, fir Är Online-Erfarung ze schützen. Dës Servicer hëllefen, Är Donnéeën an Är Privatsphär ze schützen, andeems se Sécherheetsbedrohunge wéi Malware, Phishing-Versich an net erlaabten Zougrëff erkennen a verhënneren. Si garantéieren eng méi sécher Browsing-Ëmgéigend.</target>
       </trans-unit>
       <trans-unit id="purposes.livechat.title" approved="yes">
         <source>Live Chat</source>
@@ -196,7 +196,7 @@
       </trans-unit>
       <trans-unit id="purposes.videos.description" approved="yes">
         <source>Embedding videos from external platforms to enrich the content on this website.</source>
-        <target state="final">Aginn vu Videoe vun externe Plattforme, fir den Inhalt op dëser Websäit ze beräicheren.</target>
+        <target state="final">Abanne vu Videoe vun externe Plattforme, fir den Inhalt op dëser Websäit ze beräicheren.</target>
       </trans-unit>
       <trans-unit id="purposes.social.title" approved="yes">
         <source>Social Media</source>
@@ -204,7 +204,7 @@
       </trans-unit>
       <trans-unit id="purposes.social.description" approved="yes">
         <source>Embedding social media from external platforms to enrich the content on this website.</source>
-        <target state="final">Aginn vu Bäiträg vu soziale Medien aus externe Plattformen, fir den Inhalt op dëser Websäit ze beräicheren.</target>
+        <target state="final">Abanne vu Bäiträg vu soziale Medien aus externe Plattformen, fir den Inhalt op dëser Websäit ze beräicheren.</target>
       </trans-unit>
       <trans-unit id="purposes.misc.title" approved="yes">
         <source>Miscellaneous</source>
@@ -332,7 +332,7 @@
       </trans-unit>
       <trans-unit id="services.google-maps.description" approved="yes">
         <source>Google Maps allows for the integration of interactive maps on websites, enabling location-based services. Developers can utilize it while ensuring data compliance and control, adhering to coding guidelines and best practices.</source>
-        <target state="final">Google Maps erlaabt d'Integratioun vun interaktive Kaarten op Websäiten an de Bereetstellung vu standuertbaséierte Servicer. Entwéckler kënnen et notzen ënner Garantie vun der Konformitéit an der Kontroll vun den Donnéeën, am Aklang mat Coderichtlinnen a bewährte Praktiken.</target>
+        <target state="final">Google Maps erlaabt d'Integratioun vun interaktive Kaarten op Websäiten an d'Bereetstellung vu standuertbaséierte Servicer. Entwéckler kënnen et notzen ënner Garantie vun der Konformitéit an der Kontroll vun den Donnéeën, am Aklang mat Coderichtlinnen a bewährte Praktiken.</target>
       </trans-unit>
       <trans-unit id="services.google-tag-manager.title" approved="yes">
         <source>Google Tag Manager</source>
@@ -540,7 +540,7 @@
       </trans-unit>
       <trans-unit id="warning.noServicesPersonalized" approved="yes">
         <source>Hey %s! You missed a service in the config! Without services, we don't need consent management at all.</source>
-        <target state="final">Hei %s! Dir hutt e Service an der Konfiguratioun vergiess! Ouni Servicer brauche mir guer keng Zoustëmmungs­gestioun.</target>
+        <target state="final">Hey %s! Dir hutt e Service an der Konfiguratioun vergiess! Ouni Servicer brauche mir guer keng Zoustëmmungs­gestioun.</target>
       </trans-unit>
     </body>
   </file>
