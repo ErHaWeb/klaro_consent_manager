@@ -9,7 +9,7 @@
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.I.true" approved="yes">
         <source>true</source>
-        <target state="final">verdad</target>
+        <target state="final">verdadero</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.I.false" approved="yes">
         <source>false</source>
@@ -37,7 +37,7 @@
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.tabs.access" approved="yes">
         <source>Access</source>
-        <target state="final">Acceder</target>
+        <target state="final">Acceso</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.palettes.general_palette" approved="yes">
         <source>General</source>
@@ -89,7 +89,7 @@
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.palettes.access_palette" approved="yes">
         <source>Access</source>
-        <target state="final">Acceder</target>
+        <target state="final">Acceso</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.palettes.translations_palette" approved="yes">
         <source>Translations</source>
@@ -117,7 +117,7 @@
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.config_variable_name.label" approved="yes">
         <source>Config Variable Name</source>
-        <target state="final">Configurar nombre variable</target>
+        <target state="final">Nombre de variable de configuración</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.config_variable_name.description" approved="yes">
         <source>By default, Klaro loads the configuration from a global variable `klaroConfig`. You can change this here. Specifying this field will cause the attribute data-klaro-config="yourConfigVariableName" to be set.</source>
@@ -185,7 +185,7 @@
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.storage_name.description" approved="yes">
         <source>You can customize the name of the cookie or localStorage entry that Klaro will use for storing the consent information. By default, Klaro will use "klaro".</source>
-        <target state="final">Puede personalizar el nombre de la entrada de la cookie o local Storage que Klaro utilizará para almacenar la información de consentimiento. De forma predeterminada, Klaro usará "klaro". (localStorage)</target>
+        <target state="final">Puede personalizar el nombre de la cookie o de la entrada de localStorage que Klaro utilizará para almacenar la información de consentimiento. De forma predeterminada, Klaro usará "klaro".</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.storage_name.placeholder" approved="yes">
         <source>klaro</source>
@@ -197,7 +197,7 @@
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.html_texts.description" approved="yes">
         <source>If set to `true`, Klaro will render the texts given in the `consentModal.description` and `consentNotice.description` translations as HTML. This enables you to e.g. add custom links or interactive content. If you want to be able to output HTML tags via fluid-enriched labels (see "Content" → "Translations"), this option must be enabled.</source>
-        <target state="final">Si se establece en `true`, Klaro renderizará los textos dados en las traducciones `consentModal.description` y `consentNotice.description` como HTML. Esto te permite p.e. añadir enlaces personalizados o contenido interactivo. Si desea ser capaz de mostrar etiquetas HTML mediante etiquetas con fluido enriched (ver "Contenido" → "Traducciones"), esta opción debe estar habilitada.</target>
+        <target state="final">Si se establece en `true`, Klaro renderizará los textos dados en las traducciones `consentModal.description` y `consentNotice.description` como HTML. Esto le permite, por ejemplo, añadir enlaces personalizados o contenido interactivo. Si desea poder mostrar etiquetas HTML mediante etiquetas enriquecidas con Fluid (ver "Contenido" → "Traducciones"), esta opción debe estar habilitada.</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.embedded.label" approved="yes">
         <source>Embedded</source>
@@ -317,11 +317,11 @@
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.show_description_empty_store.label" approved="yes">
         <source>Show Description (Empty Store)</source>
-        <target state="final">Mostrar descripción (tienda vacía)</target>
+        <target state="final">Mostrar descripción (almacenamiento vacío)</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.show_description_empty_store.description" approved="yes">
         <source>Show an explanatory text in contextual consent placeholders when no consent storage exists yet (first visit / empty store). This informs users that a permanent decision ("Always") requires allowing Klaro to store consent first. This only has an effect in contextual consent widgets/overlays (e.g. for embedded media) and only if the consent store (cookie/localStorage) is empty.</source>
-        <target state="final">Mostrar un texto explicativo en marcadores de posición de consentimiento contextual cuando aún no existe almacenamiento de consentimiento (primera visita / tienda vacía). Esto informa a los usuarios que una decisión permanente ("Siempre") requiere permitir que Klaro almacene primero su consentimiento. Esto sólo tiene un efecto en los widgets/overlays de consentimiento contextual (por ejemplo, para soportes embebidos) y sólo si la tienda de consentimiento (cookie/localStorage) está vacía.</target>
+        <target state="final">Mostrar un texto explicativo en marcadores de posición de consentimiento contextual cuando aún no existe almacenamiento de consentimiento (primera visita / almacenamiento vacío). Esto informa a los usuarios de que una decisión permanente ("Siempre") requiere permitir primero que Klaro almacene el consentimiento. Esto solo tiene efecto en los widgets/overlays de consentimiento contextual (por ejemplo, para medios incrustados) y solo si el almacenamiento de consentimiento (cookie/localStorage) está vacío.</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.auto_focus.label" approved="yes">
         <source>Auto Focus</source>
@@ -365,7 +365,7 @@
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.locallang_path.label" approved="yes">
         <source>Locallang Path</source>
-        <target state="final">Ruta local</target>
+        <target state="final">Ruta Locallang</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.locallang_path.description" approved="yes">
         <source>Optional path to an additional XLIFF file that overwrites the default labels or adds new labels (e.g. for custom purposes or services). If fluid templates have been stored for the labels created in this file (see the "Fluid Template Root Path" field), these will overwrite the classic labels from the Locallang file. Nevertheless, it is possible and common to reference the locallang file from the respective fluid template and obtain the actual label there (the label key is passed to the fluid template).</source>
@@ -401,27 +401,27 @@
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.alignment.I.top-right" approved="yes">
         <source>Top-Right</source>
-        <target state="final">Derecha</target>
+        <target state="final">Arriba a la derecha</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.alignment.I.top-wide" approved="yes">
         <source>Top-Wide</source>
-        <target state="final">Ancho</target>
+        <target state="final">Ancho superior</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.alignment.I.bottom-left" approved="yes">
         <source>Bottom-Left</source>
-        <target state="final">Bottom-izquierda</target>
+        <target state="final">Abajo a la izquierda</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.alignment.I.bottom-right" approved="yes">
         <source>Bottom-Right</source>
-        <target state="final">Botón-derecha</target>
+        <target state="final">Abajo a la derecha</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.alignment.I.bottom-wide" approved="yes">
         <source>Bottom-Wide</source>
-        <target state="final">Ancho de Botón</target>
+        <target state="final">Ancho inferior</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.alignment.I.top" approved="yes">
         <source>Top</source>
-        <target state="final">Subir</target>
+        <target state="final">Arriba</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.alignment.I.bottom" approved="yes">
         <source>Bottom</source>
@@ -429,7 +429,7 @@
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.alignment.I.left" approved="yes">
         <source>left</source>
-        <target state="final">restante</target>
+        <target state="final">izquierda</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.alignment.I.right" approved="yes">
         <source>right</source>
@@ -453,7 +453,7 @@
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.color_scheme.I.light_neutral" approved="yes">
         <source>Light (neutral)</source>
-        <target state="final">Luz (neutral)</target>
+        <target state="final">Claro (neutral)</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.color_scheme.I.dark" approved="yes">
         <source>Dark</source>
@@ -505,7 +505,7 @@
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_service.tabs.access" approved="yes">
         <source>Access</source>
-        <target state="final">Acceder</target>
+        <target state="final">Acceso</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_service.palettes.general_palette" approved="yes">
         <source>General Settings</source>
@@ -525,11 +525,11 @@
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_service.palettes.access_palette" approved="yes">
         <source>Access</source>
-        <target state="final">Acceder</target>
+        <target state="final">Acceso</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_service.I.true" approved="yes">
         <source>true</source>
-        <target state="final">verdad</target>
+        <target state="final">verdadero</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_service.I.false" approved="yes">
         <source>false</source>
@@ -565,7 +565,7 @@
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_service.name.I.adsense" approved="yes">
         <source>Google AdSense</source>
-        <target state="final">AdSense de Google</target>
+        <target state="final">Google AdSense</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_service.name.I.camera" approved="yes">
         <source>Surveillance Camera</source>
@@ -581,7 +581,7 @@
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_service.name.I.cloudflare" approved="yes">
         <source>Cloudflare</source>
-        <target state="final">Bofetón</target>
+        <target state="final">Cloudflare</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_service.name.I.external-tracker" approved="yes">
         <source>External Tracker</source>
@@ -589,7 +589,7 @@
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_service.name.I.facebook-pixel" approved="yes">
         <source>Facebook Pixel</source>
-        <target state="final">Pixel de Facebook</target>
+        <target state="final">Facebook Pixel</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_service.name.I.fast-fonts" approved="yes">
         <source>Fast Fonts</source>
@@ -597,7 +597,7 @@
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_service.name.I.google-ads" approved="yes">
         <source>Google Ads</source>
-        <target state="final">Anuncios de Google</target>
+        <target state="final">Google Ads</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_service.name.I.google-analytics" approved="yes">
         <source>Google Analytics</source>
@@ -609,11 +609,11 @@
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_service.name.I.google-maps" approved="yes">
         <source>Google Maps</source>
-        <target state="final">Mapas de Google</target>
+        <target state="final">Google Maps</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_service.name.I.google-tag-manager" approved="yes">
         <source>Google Tag Manager</source>
-        <target state="final">Gestor de Google Tag</target>
+        <target state="final">Google Tag Manager</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_service.name.I.inline-tracker" approved="yes">
         <source>Inline Tracker</source>
@@ -621,7 +621,7 @@
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_service.name.I.instagram" approved="yes">
         <source>Instagram</source>
-        <target state="final">Instagrama</target>
+        <target state="final">Instagram</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_service.name.I.intercom" approved="yes">
         <source>Intercom</source>
@@ -637,7 +637,7 @@
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_service.name.I.mouseflow" approved="yes">
         <source>Mouseflow</source>
-        <target state="final">Ratón</target>
+        <target state="final">Mouseflow</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_service.name.I.salesviewer" approved="yes">
         <source>SalesViewer</source>
@@ -653,7 +653,7 @@
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_service.name.I.userlike" approved="yes">
         <source>Userlike</source>
-        <target state="final">Usuario</target>
+        <target state="final">Userlike</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_service.name.I.vimeo" approved="yes">
         <source>Vimeo</source>
@@ -705,7 +705,7 @@
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_service.purposes.I.advertising" approved="yes">
         <source>Advertising</source>
-        <target state="final">Anuncio</target>
+        <target state="final">Publicidad</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_service.purposes.I.analytics" approved="yes">
         <source>Analytics</source>
@@ -725,7 +725,7 @@
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_service.purposes.I.videos" approved="yes">
         <source>Videos</source>
-        <target state="final">Vídeo</target>
+        <target state="final">Vídeos</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_service.purposes.I.social" approved="yes">
         <source>Social Media</source>
@@ -733,7 +733,7 @@
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_service.purposes.I.misc" approved="yes">
         <source>Miscellaneous</source>
-        <target state="final">Miscellano</target>
+        <target state="final">Misceláneo</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_service.cookies.label" approved="yes">
         <source>Cookies</source>
@@ -829,7 +829,7 @@
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_cookie.tabs.access" approved="yes">
         <source>Access</source>
-        <target state="final">Acceder</target>
+        <target state="final">Acceso</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_cookie.palettes.identification_palette" approved="yes">
         <source>Identification and presentation of the cookie</source>
@@ -849,7 +849,7 @@
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_cookie.palettes.access_palette" approved="yes">
         <source>Access</source>
-        <target state="final">Acceder</target>
+        <target state="final">Acceso</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_cookie.identifier.label" approved="yes">
         <source>Identifier</source>
@@ -925,11 +925,11 @@
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_cookie.expires_after_unit.label" approved="yes">
         <source>Expires after unit</source>
-        <target state="final">Caduca después de la unidad</target>
+        <target state="final">Unidad de caducidad</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_cookie.expires_after_unit.description" approved="yes">
         <source>Unit used for the "Expires after" specification. The special value `end-of-session` does not need a numeric value and hides the "Expires after" field accordingly.</source>
-        <target state="final">Unidad usada para la especificación "Expira después". El valor especial "final de sesión" no necesita un valor numérico y oculta el campo "Expira después" en consecuencia. (`end-of-session`)</target>
+        <target state="final">Unidad usada para la especificación "Caduca tras". El valor especial `end-of-session` no necesita un valor numérico y oculta el campo "Caduca tras" en consecuencia.</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_cookie.expires_after_unit.I.years" approved="yes">
         <source>Years</source>
@@ -969,11 +969,11 @@
       </trans-unit>
       <trans-unit id="tt_content.tx_klaroconsentmanager_service.label" approved="yes">
         <source>Contextual Consent</source>
-        <target state="final">Consenso contextual</target>
+        <target state="final">Consentimiento contextual</target>
       </trans-unit>
       <trans-unit id="tt_content.tx_klaroconsentmanager_service.description" approved="yes">
         <source>When a service is selected in this field, the content item is displayed via contextual consent only if the user has agreed to use the selected service in the Klaro! Consent Manager. Please make sure that the static TypoScript template of the Klaro! Consent Manager has been added to use this feature.</source>
-        <target state="final">Cuando se selecciona un servicio en este campo, el Content Item se muestra a través del consentimiento contextual sólo si el usuario ha aceptado utilizar el servicio seleccionado en el Klaro! Administrador de Consentimientos. Por favor, asegúrese de que la plantilla de TypoScript estática de Klaro! Administrador de Consentimiento se ha añadido para utilizar esta función.</target>
+        <target state="final">Cuando se selecciona un servicio en este campo, el elemento de contenido se muestra mediante consentimiento contextual solo si el usuario ha aceptado utilizar el servicio seleccionado en el gestor de consentimientos Klaro!. Asegúrese de que la plantilla TypoScript estática de Klaro! Consent Manager se haya añadido para utilizar esta función.</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.no_notice.label" approved="yes">
         <source>Hide initial consent notice</source>
@@ -985,11 +985,11 @@
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.powered_by.label" approved="yes">
         <source>Powered by URL override</source>
-        <target state="final">Desarrollado por la anulación de URL</target>
+        <target state="final">Sobrescritura de URL de “powered by”</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.powered_by.description" approved="yes">
         <source>Override the “powered by” link in the consent modal. Leave empty to use Klaro default.</source>
-        <target state="final">Reemplace el enlace “alimentado por” en el modal de consentimiento. Deje en blanco para usar Klaro por defecto.</target>
+        <target state="final">Sobrescribe el enlace “powered by” en el modal de consentimiento. Déjelo vacío para usar el valor predeterminado de Klaro.</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.powered_by.placeholder" approved="yes">
         <source>https://example.com/your-link</source>
@@ -1001,7 +1001,7 @@
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.style_prefix.description" approved="yes">
         <source>Prefix for CSS classes/container to namespace Klaro styles.</source>
-        <target state="final">Prefijo para las clases/contenedor CSS para los estilos Klaro del espacio de nombres.</target>
+        <target state="final">Prefijo para las clases/contenedor CSS para aislar los estilos de Klaro en un espacio de nombres.</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.style_prefix.placeholder" approved="yes">
         <source>my-klaro</source>
