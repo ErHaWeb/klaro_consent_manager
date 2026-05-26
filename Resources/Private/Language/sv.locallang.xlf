@@ -8,7 +8,7 @@
       </trans-unit>
       <trans-unit id="acceptSelected" approved="yes">
         <source>Accept selected</source>
-        <target state="final">Godkänn vald</target>
+        <target state="final">Acceptera valda</target>
       </trans-unit>
       <trans-unit id="close" approved="yes">
         <source>Close</source>
@@ -36,11 +36,11 @@
       </trans-unit>
       <trans-unit id="consentNotice.testing" approved="yes">
         <source>Testing mode!</source>
-        <target state="final">Testar läge!</target>
+        <target state="final">Testläge!</target>
       </trans-unit>
       <trans-unit id="consentNotice.title" approved="yes">
         <source>Cookie Consent</source>
-        <target state="final">Cookie Samtycke</target>
+        <target state="final">Cookiesamtycke</target>
       </trans-unit>
       <trans-unit id="contextualConsent.acceptAlways" approved="yes">
         <source>Always</source>
@@ -60,7 +60,7 @@
       </trans-unit>
       <trans-unit id="contextualConsent.modalLinkText" approved="yes">
         <source>Consent Manager</source>
-        <target state="final">Samtycke Manager</target>
+        <target state="final">Samtyckeshanterare</target>
       </trans-unit>
       <trans-unit id="decline" approved="yes">
         <source>I decline</source>
@@ -176,7 +176,7 @@
       </trans-unit>
       <trans-unit id="purposes.livechat.title" approved="yes">
         <source>Live Chat</source>
-        <target state="final">Live Chatt</target>
+        <target state="final">Livechatt</target>
       </trans-unit>
       <trans-unit id="purposes.livechat.description" approved="yes">
         <source>Live chat services enable real-time communication with website support teams. They offer a convenient way to ask questions, seek assistance, or engage in discussions while browsing a website. Live chat enhances your online interaction and customer support experience.</source>
@@ -188,7 +188,7 @@
       </trans-unit>
       <trans-unit id="purposes.styling.description" approved="yes">
         <source>Services related to styling help to improve the appearance of the website. This can also have an impact on usability.</source>
-        <target state="final">Tjänster relaterade till styling bidra till att förbättra utseendet på webbplatsen. Detta kan också ha en inverkan på användbarheten.</target>
+        <target state="final">Tjänster relaterade till formgivning bidrar till att förbättra utseendet på webbplatsen. Detta kan också ha en inverkan på användbarheten.</target>
       </trans-unit>
       <trans-unit id="purposes.videos.title" approved="yes">
         <source>Videos</source>
@@ -216,19 +216,19 @@
       </trans-unit>
       <trans-unit id="consentManager.show" approved="yes">
         <source>Show Consent Manager</source>
-        <target state="final">Visa Samtycke Manager</target>
+        <target state="final">Visa samtyckeshanteraren</target>
       </trans-unit>
       <trans-unit id="consentManager.show.title" approved="yes">
         <source>Show Consent Manager</source>
-        <target state="final">Visa Samtycke Manager</target>
+        <target state="final">Visa samtyckeshanteraren</target>
       </trans-unit>
       <trans-unit id="consentManager.reset" approved="yes">
         <source>Reset Consent Manager</source>
-        <target state="final">Återställ Samtycke Manager</target>
+        <target state="final">Återställ samtyckeshanteraren</target>
       </trans-unit>
       <trans-unit id="consentManager.reset.title" approved="yes">
         <source>Reset Consent Manager</source>
-        <target state="final">Återställ Samtycke Manager</target>
+        <target state="final">Återställ samtyckeshanteraren</target>
       </trans-unit>
       <trans-unit id="services.adobe-fonts.title" approved="yes">
         <source>Adobe Fonts</source>
@@ -272,7 +272,7 @@
       </trans-unit>
       <trans-unit id="services.cloudflare.title" approved="yes">
         <source>Cloudflare</source>
-        <target state="final">Molnflare</target>
+        <target state="final">Cloudflare</target>
       </trans-unit>
       <trans-unit id="services.cloudflare.description" approved="yes">
         <source>Cloudflare helps protect and optimize websites. By using this website, you consent to Cloudflare's data processing practices as described in its Privacy Policy.</source>
@@ -300,11 +300,11 @@
       </trans-unit>
       <trans-unit id="services.fast-fonts.description" approved="yes">
         <source>Fast Fonts, operated by fonts.com and supplied by fast.fonts.net, is a service for the provision of web fonts. It requires the use of a pixel-code for continuous price calculation.</source>
-        <target state="final">Snabba teckensnitt, som drivs av fonts.com och levereras av fast.fonts.net, är en tjänst för tillhandahållande av webbteckensnitt. Det kräver användning av en pixel-kod för kontinuerlig prisberäkning.</target>
+        <target state="final">Fast Fonts, som drivs av fonts.com och levereras av fast.fonts.net, är en tjänst för tillhandahållande av webbteckensnitt. Det kräver användning av en pixel-kod för kontinuerlig prisberäkning.</target>
       </trans-unit>
       <trans-unit id="services.google-ads.title" approved="yes">
         <source>Google Ads</source>
-        <target state="final">Google annonser</target>
+        <target state="final">Google Ads</target>
       </trans-unit>
       <trans-unit id="services.google-ads.description" approved="yes">
         <source>Google Ads allows advertisers to reach their target audience online. To personalize ads and measure their effectiveness, Google may collect data with your consent.</source>
@@ -320,7 +320,7 @@
       </trans-unit>
       <trans-unit id="services.google-fonts.title" approved="yes">
         <source>Google Fonts</source>
-        <target state="final">Google Teckensnitt</target>
+        <target state="final">Google Fonts</target>
       </trans-unit>
       <trans-unit id="services.google-fonts.description" approved="yes">
         <source>Web fonts hosted by Google</source>
@@ -384,7 +384,7 @@
       </trans-unit>
       <trans-unit id="services.mouseflow.title" approved="yes">
         <source>Mouseflow</source>
-        <target state="final">Musflöde</target>
+        <target state="final">Mouseflow</target>
       </trans-unit>
       <trans-unit id="services.mouseflow.description" approved="yes">
         <source>Real-time user analytics service that helps to understand how visitors interact with our website.</source>
@@ -416,7 +416,7 @@
       </trans-unit>
       <trans-unit id="services.userlike.title" approved="yes">
         <source>Userlike</source>
-        <target state="final">Användare som</target>
+        <target state="final">Userlike</target>
       </trans-unit>
       <trans-unit id="services.userlike.description" approved="yes">
         <source>Userlike offers a live chat solution that enhances user interactions on websites.</source>
