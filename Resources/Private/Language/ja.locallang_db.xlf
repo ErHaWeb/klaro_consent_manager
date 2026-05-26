@@ -205,7 +205,7 @@
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.embedded.description" approved="yes">
         <source>Setting "embedded" to `true` will render the Klaro modal and notice without the modal background, allowing you to e.g. embed them into a specific element of your website, such as your privacy notice.</source>
-        <target state="final">"embedded" を `true` に設定すると、Klaro モーダルと通知がモーダルバックグラウンドなしでレンダリングされます。 をクリックします。</target>
+        <target state="final">"embedded" を `true` に設定すると、Klaro モーダルと通知がモーダル背景なしでレンダリングされ、プライバシー通知など、ウェブサイトの特定の要素内に埋め込めるようになります。</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.group_by_purpose.label" approved="yes">
         <source>Group by purpose</source>
@@ -241,7 +241,7 @@
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.cookie_expires_after_days.label" approved="yes">
         <source>Cookie expires after days</source>
-        <target state="final">Cookieの有効期限は日後に切れます</target>
+        <target state="final">Cookie の有効期限（日数）</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.cookie_expires_after_days.description" approved="yes">
         <source>You can also set a custom expiration time for the Klaro cookie. By default, it will expire after 60 days. Only relevant if `storageMethod` is set to `cookie`.</source>
@@ -277,7 +277,7 @@
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.hide_decline_all.label" approved="yes">
         <source>Hide Decline All</source>
-        <target state="final">拒否すべてを隠す</target>
+        <target state="final">すべて拒否を非表示</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.hide_decline_all.description" approved="yes">
         <source>Setting `hideDeclineAll` to `true` will hide the "decline" button in the consent modal and force the user to open the modal in order to change his/her consent or disable all third-party services. We strongly advise you to not use this feature, as it opposes the "privacy by default" and "privacy by design" principles of the GDPR (but might be acceptable in other legislations such as under the CCPA)</source>
@@ -285,7 +285,7 @@
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.hide_learn_more.label" approved="yes">
         <source>Hide Learn More</source>
-        <target state="final">詳細を隠す</target>
+        <target state="final">詳細を非表示</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.hide_learn_more.description" approved="yes">
         <source>Setting `hideLearnMore` to `true` will hide the "learn more / customize" link in the consent notice. We strongly advise against using this under most circumstances, as it keeps the user from customizing his/her consent choices.</source>
@@ -293,7 +293,7 @@
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.hide_toggle_all.label" approved="yes">
         <source>Hide Toggle All</source>
-        <target state="final">すべてを隠す</target>
+        <target state="final">すべて切り替えを非表示</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.hide_toggle_all.description" approved="yes">
         <source>Setting `hideToggleAll` to `true` will hide the "toggle all" link in the consent notice.</source>
@@ -317,11 +317,11 @@
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.show_description_empty_store.label" approved="yes">
         <source>Show Description (Empty Store)</source>
-        <target state="final">説明を表示 (空の店舗)</target>
+        <target state="final">説明を表示 (空のストア)</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.show_description_empty_store.description" approved="yes">
         <source>Show an explanatory text in contextual consent placeholders when no consent storage exists yet (first visit / empty store). This informs users that a permanent decision ("Always") requires allowing Klaro to store consent first. This only has an effect in contextual consent widgets/overlays (e.g. for embedded media) and only if the consent store (cookie/localStorage) is empty.</source>
-        <target state="final">コンセントストレージがまだ存在しない場合、コンセントプレースホルダに説明文を表示します (最初の訪問/空の店舗)。 これにより、ユーザーは永続的な決定(「常時」)が、Klaroが最初に同意を保存することを許可する必要があることを知らせます。 これはコンセントウィジェット/オーバーレイ(埋め込まれたメディアの場合など)にのみ影響し、同意ストア(クッキー/ロケールストレージ)が空の場合にのみ影響します。 (localStorage)</target>
+        <target state="final">同意ストレージがまだ存在しない場合（初回訪問/空のストア）、コンテキスト同意プレースホルダーに説明文を表示します。これにより、永続的な決定（「常に」）には、まず Klaro に同意の保存を許可する必要があることをユーザーに知らせます。この設定はコンテキスト同意ウィジェット/オーバーレイ（埋め込みメディアなど）にのみ影響し、同意ストア（cookie/localStorage）が空の場合にのみ有効です。</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.auto_focus.label" approved="yes">
         <source>Auto Focus</source>
@@ -337,7 +337,7 @@
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.disable_powered_by.description" approved="yes">
         <source>You can also remove the "Realized with Klaro!" text in the consent modal. Please don't do this! We provide Klaro as a free open source tool. Placing a link to our website helps us spread the word about it, which ultimately enables us to make Klaro! better for everyone. So please be fair and keep the link enabled. Thanks :)</source>
-        <target state="final">同意モーダルで「Klaro!で実現!」テキストを削除することもできます。 私たちはKlaroを無料のオープンソースツールとして提供しています。 私たちのウェブサイトへのリンクを配置すると、私たちはそれについての言葉を広めることができます, 最終的に私たちはKlaroを作ることができます! だから公平であり、リンクを有効にしてください。ありがとう:)</target>
+        <target state="final">同意モーダルの「Klaro!で実現!」テキストを削除することもできます。これは行わないでください。私たちは Klaro を無料のオープンソースツールとして提供しています。私たちのウェブサイトへのリンクを配置することで、Klaro の認知を広げる助けになり、最終的にはすべての人にとって Klaro! をより良いものにできます。公平に、リンクを有効のままにしてください。ありがとうございます :)</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.services.label" approved="yes">
         <source>Services</source>
@@ -349,7 +349,7 @@
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.purpose_order.label" approved="yes">
         <source>Purpose Order</source>
-        <target state="final">目的の注文</target>
+        <target state="final">目的の順序</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.purpose_order.description" approved="yes">
         <source>The order in which purposes appear in the notice and modal can be changed via the `purposeOrder` parameter, which can be given a list with purpose names and will display those purposes in the order in which they appear in the list.</source>
@@ -365,11 +365,11 @@
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.locallang_path.label" approved="yes">
         <source>Locallang Path</source>
-        <target state="final">ローカルパス</target>
+        <target state="final">Locallang パス</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.locallang_path.description" approved="yes">
         <source>Optional path to an additional XLIFF file that overwrites the default labels or adds new labels (e.g. for custom purposes or services). If fluid templates have been stored for the labels created in this file (see the "Fluid Template Root Path" field), these will overwrite the classic labels from the Locallang file. Nevertheless, it is possible and common to reference the locallang file from the respective fluid template and obtain the actual label there (the label key is passed to the fluid template).</source>
-        <target state="final">デフォルトのラベルを上書きしたり、新しいラベルを追加したりする追加のXLIFFファイルへのオプションのパス(カスタム目的やサービスなど)があります。 このファイルに作成されたラベルに流体テンプレートが保存されている場合 ("Fluid Template Root Path" フィールドを参照してください) これにより、Locallangファイルのクラシックラベルが上書きされます。 にもかかわらず、 それぞれの流体テンプレートからローカルラングファイルを参照し、実際のラベルを取得することができます(ラベルキーは流体テンプレートに渡されます)。</target>
+        <target state="final">デフォルトのラベルを上書きしたり、新しいラベルを追加したりする追加 XLIFF ファイルへの任意のパスです（カスタム目的やサービスなど）。このファイルで作成されたラベル用に Fluid テンプレートが保存されている場合（「Fluid Template Root Path」フィールドを参照）、それらは Locallang ファイルの従来のラベルを上書きします。それでも、それぞれの Fluid テンプレートから locallang ファイルを参照し、そこで実際のラベルを取得することは可能であり一般的です（ラベルキーは Fluid テンプレートに渡されます）。</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.locallang_path.placeholder" approved="yes">
         <source>EXT:sitepackage/Resources/Private/Language/Klaro/locallang.xlf</source>
@@ -377,7 +377,7 @@
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.fluidtemplate_rootpath.label" approved="yes">
         <source>Fluid Template Root Path</source>
-        <target state="final">流体テンプレートのルートパス (Fluid)</target>
+        <target state="final">Fluid テンプレートルートパス</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.fluidtemplate_rootpath.description" approved="yes">
         <source>As an alternative to the usual TypoScript configuration via constants under `plugin.tx_klaroconsentmanager.view`, a Fluid root path can be defined here, which has a higher priority than the paths configured in TypoScript. The three default directories `/Layouts/`, `/Partials/` and `/Templates/` are expected under this path. Fluid templates created here are used to enrich Locallang labels with additional functionality or to replace them completely. In this way, dynamic content or more complex HTML structures can be provided in a simple way. Fluid templates that are to override labels are expected in the subdirectory `/Templates/Labels/`.</source>
@@ -397,15 +397,15 @@
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.alignment.I.top-left" approved="yes">
         <source>Top-Left</source>
-        <target state="final">上 - 左</target>
+        <target state="final">左上</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.alignment.I.top-right" approved="yes">
         <source>Top-Right</source>
-        <target state="final">右</target>
+        <target state="final">右上</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.alignment.I.top-wide" approved="yes">
         <source>Top-Wide</source>
-        <target state="final">一番上へ</target>
+        <target state="final">上部ワイド</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.alignment.I.bottom-left" approved="yes">
         <source>Bottom-Left</source>
@@ -417,7 +417,7 @@
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.alignment.I.bottom-wide" approved="yes">
         <source>Bottom-Wide</source>
-        <target state="final">底幅</target>
+        <target state="final">下部ワイド</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.alignment.I.top" approved="yes">
         <source>Top</source>
@@ -425,7 +425,7 @@
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.alignment.I.bottom" approved="yes">
         <source>Bottom</source>
-        <target state="final">下揃え</target>
+        <target state="final">下</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.alignment.I.left" approved="yes">
         <source>left</source>
@@ -433,11 +433,11 @@
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.alignment.I.right" approved="yes">
         <source>right</source>
-        <target state="final">右|右</target>
+        <target state="final">右</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.alignment.I.wide" approved="yes">
         <source>wide</source>
-        <target state="final">幅</target>
+        <target state="final">ワイド</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.color_scheme.label" approved="yes">
         <source>Color Scheme</source>
@@ -469,7 +469,7 @@
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.append_show_button.description" approved="yes">
         <source>If this option is set to `true`, a button is created in the frontend (via JavaScript) directly in front of the closing body tag, which triggers the opening of the Klaro consent management.</source>
-        <target state="final">このオプションが `true` に設定されている場合、閉じる本文タグの正面にある(JavaScript経由で)フロントエンドにボタンが作成されます。 これにより、Klaroの同意管理が開始されます。</target>
+        <target state="final">このオプションが `true` に設定されている場合、終了 body タグの直前にフロントエンドで (JavaScript 経由で) ボタンが作成されます。このボタンにより、Klaro の同意管理が開きます。</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.append_reset_button.label" approved="yes">
         <source>Append Reset Button</source>
@@ -477,7 +477,7 @@
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.append_reset_button.description" approved="yes">
         <source>If this option is set to `true`, a button is generated in the frontend (via JavaScript) directly in front of the closing body tag, which triggers the resetting of all settings and the opening of the Klaro consent management.</source>
-        <target state="final">このオプションが `true` に設定されている場合、閉じる本文タグの正面にある(JavaScript経由で)フロントエンドにボタンが生成されます。 これは、すべての設定のリセットとKlaroの同意管理の開始を引き起こします。</target>
+        <target state="final">このオプションが `true` に設定されている場合、終了 body タグの直前にフロントエンドで (JavaScript 経由で) ボタンが生成されます。このボタンにより、すべての設定がリセットされ、Klaro の同意管理が開きます。</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.hidden" approved="yes">
         <source>Configuration visible</source>
@@ -625,7 +625,7 @@
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_service.name.I.intercom" approved="yes">
         <source>Intercom</source>
-        <target state="final">インターホン(Intercom)</target>
+        <target state="final">Intercom</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_service.name.I.klaro" approved="yes">
         <source>Klaro!</source>
@@ -677,7 +677,7 @@
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_service.purposes.description" approved="yes">
         <source>The purpose(s) of this service that will be listed on the consent notice. Do not forget to add translations for all purposes you list here.</source>
-        <target state="final">このサービスの目的は、同意通知に記載されています。ここでリストされているすべての目的のために翻訳を追加することを忘れないでください。</target>
+        <target state="final">このサービスの目的を同意通知に表示します。ここに列挙したすべての目的について、翻訳の追加を忘れないでください。</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_service.purposes.optgroup.custom" approved="yes">
         <source>Custom</source>
@@ -689,7 +689,7 @@
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_service.purposes.optgroup.additional" approved="yes">
         <source>Additional</source>
-        <target state="final">追加情報</target>
+        <target state="final">追加</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_service.purposes.I.functional" approved="yes">
         <source>Functional</source>
@@ -741,7 +741,7 @@
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_service.cookies.description" approved="yes">
         <source>You can either only provide a cookie name or regular expression (regex) or a list consisting of a name or regex, a path and a cookie domain. Providing a path and domain is necessary if you have services that set cookies for a path that is not "/", or a domain that is not the current domain. If you do not set these values properly, the cookie can't be deleted by Klaro, as there is no way to access the path or domain of a cookie in JS. Notice that it is not possible to delete cookies that were set on a third-party domain, or cookies that have the HTTPOnly attribute: https://developer.mozilla.org/en-US/docs/Web/API/Document/cookie#new-cookie_domain</source>
-        <target state="final">クッキー名または正規表現(regex)または名前またはregexで構成されるリストのみを提供できます。 パスとクッキーのドメインです 「/」ではないパスにクッキーを設定するサービスがある場合は、パスとドメインを提供する必要があります。 あるいは現在のドメインではない領域です これらの値を適切に設定しないと、Klaro はクッキーを削除できません。 クッキーのパスまたはドメインにアクセスする方法がないからです。 サードパーティのドメインに設定された Cookie 、または HTTPOnly 属性を持つ Cookie は削除できないことに注意してください: https://developer.mozilla.org/en-US/docs/Web/API/Document/cookie#new-cookie_domain</target>
+        <target state="final">Cookie 名または正規表現 (regex) だけを指定することも、名前または regex、パス、Cookie ドメインで構成されるリストを指定することもできます。「/」ではないパス、または現在のドメインではないドメインに Cookie を設定するサービスがある場合は、パスとドメインを指定する必要があります。これらの値を正しく設定しないと、JS では Cookie のパスやドメインにアクセスできないため、Klaro は Cookie を削除できません。サードパーティドメインに設定された Cookie や HTTPOnly 属性を持つ Cookie は削除できないことに注意してください: https://developer.mozilla.org/en-US/docs/Web/API/Document/cookie#new-cookie_domain</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_service.required.label" approved="yes">
         <source>Required</source>
@@ -757,7 +757,7 @@
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_service.opt_out.description" approved="yes">
         <source>If `optOut` is set to `true`, Klaro will load this service even before the user has given explicit consent. We strongly advise against this.</source>
-        <target state="final">`optOut`が`true`に設定されている場合、Klaroはユーザーが明示的な同意を得る前でもこのサービスをロードします。これに対して強くお勧めします。</target>
+        <target state="final">`optOut` が `true` に設定されている場合、Klaro はユーザーが明示的な同意を与える前でもこのサービスを読み込みます。これは使用しないことを強くお勧めします。</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_service.only_once.label" approved="yes">
         <source>Only Once</source>
@@ -769,11 +769,11 @@
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_service.contextual_consent_only.label" approved="yes">
         <source>Contextual Consent Only</source>
-        <target state="final">文脈同意のみ</target>
+        <target state="final">コンテキスト同意のみ</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_service.contextual_consent_only.description" approved="yes">
         <source>Content can be excluded from general consent by setting contextualConsentOnly to `true`. In this case, the consent must be contextual.</source>
-        <target state="final">contextualConsentOnly を `true` に設定することで、コンテンツを一般的な同意から除外することができます。この場合、同意はコンテキストである必要があります。</target>
+        <target state="final">contextualConsentOnly を `true` に設定することで、コンテンツを一般的な同意の対象から除外できます。この場合、同意はコンテキスト同意で行う必要があります。</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_service.callback.label" approved="yes">
         <source>Callback</source>
@@ -857,7 +857,7 @@
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_cookie.identifier.description" approved="yes">
         <source>This is a unique identifier for this cookie. It must be written in lower case and must not contain any spaces, only the characters a-z, 0-9 and "-" or "_". The identifier can be used in Fluid, for example.</source>
-        <target state="final">これはこのクッキーの一意の識別子です。 小文字で記述する必要があり、a-z、0-9、"-"または"_"の文字のみを含めることはできません。 識別子は Fluid などで使用できます。</target>
+        <target state="final">これはこの Cookie の一意の識別子です。小文字で記述する必要があり、使用できる文字は a-z、0-9、"-" または "_" のみです。識別子は Fluid などで使用できます。</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_cookie.identifier.placeholder" approved="yes">
         <source>lowercase_alphanum-x</source>
@@ -913,7 +913,7 @@
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_cookie.expires_after.label" approved="yes">
         <source>Expires after</source>
-        <target state="final">有効期限：</target>
+        <target state="final">有効期間</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_cookie.expires_after.description" approved="yes">
         <source>Number of years/months/days/hours/minutes/seconds that will elapse before this cookie expires.</source>
@@ -925,11 +925,11 @@
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_cookie.expires_after_unit.label" approved="yes">
         <source>Expires after unit</source>
-        <target state="final">ユニットの後に期限切れ</target>
+        <target state="final">有効期間の単位</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_cookie.expires_after_unit.description" approved="yes">
         <source>Unit used for the "Expires after" specification. The special value `end-of-session` does not need a numeric value and hides the "Expires after" field accordingly.</source>
-        <target state="final">"Expires after" 仕様で使用される単位。特別な値 `end-of-session` は数値を必要とせず、それに応じて「Expires after」フィールドを非表示にします。</target>
+        <target state="final">「有効期間」の指定で使用される単位。特別な値 `end-of-session` は数値を必要とせず、それに応じて「有効期間」フィールドを非表示にします。</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_cookie.expires_after_unit.I.years" approved="yes">
         <source>Years</source>
@@ -969,11 +969,11 @@
       </trans-unit>
       <trans-unit id="tt_content.tx_klaroconsentmanager_service.label" approved="yes">
         <source>Contextual Consent</source>
-        <target state="final">文脈同意書</target>
+        <target state="final">コンテキスト同意</target>
       </trans-unit>
       <trans-unit id="tt_content.tx_klaroconsentmanager_service.description" approved="yes">
         <source>When a service is selected in this field, the content item is displayed via contextual consent only if the user has agreed to use the selected service in the Klaro! Consent Manager. Please make sure that the static TypoScript template of the Klaro! Consent Manager has been added to use this feature.</source>
-        <target state="final">このフィールドでサービスが選択された場合 コンテンツ項目は、ユーザーがKlaro!で選択したサービスを使用することに同意した場合にのみ、コンテキスト同意を介して表示されます! 同意マネージャー。 この機能を使用するには、Klaroの静的TypoScriptテンプレートが追加されていることを確認してください!</target>
+        <target state="final">このフィールドでサービスが選択されている場合、ユーザーが Klaro! Consent Manager で選択したサービスの使用に同意した場合にのみ、コンテンツ要素がコンテキスト同意を介して表示されます。この機能を使用するには、Klaro! Consent Manager の静的 TypoScript テンプレートが追加されていることを確認してください。</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.no_notice.label" approved="yes">
         <source>Hide initial consent notice</source>
@@ -981,11 +981,11 @@
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.no_notice.description" approved="yes">
         <source>Do not show the initial notice. The manager can still be opened manually or via contextual consent.</source>
-        <target state="final">最初の通知を表示しないでください。管理者は、手動または文脈依存の同意を介して開くことができます。</target>
+        <target state="final">最初の通知を表示しません。マネージャーは、手動またはコンテキスト同意を介して開くことができます。</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.powered_by.label" approved="yes">
         <source>Powered by URL override</source>
-        <target state="final">Powered by URL 上書きする</target>
+        <target state="final">Powered by URL の上書き</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.powered_by.description" approved="yes">
         <source>Override the “powered by” link in the consent modal. Leave empty to use Klaro default.</source>
@@ -1001,7 +1001,7 @@
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.style_prefix.description" approved="yes">
         <source>Prefix for CSS classes/container to namespace Klaro styles.</source>
-        <target state="final">CSS classes/container と namespace Klaro スタイルのプレフィックス。</target>
+        <target state="final">Klaro スタイルの名前空間用 CSS classes/container のプレフィックス。</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.style_prefix.placeholder" approved="yes">
         <source>my-klaro</source>
