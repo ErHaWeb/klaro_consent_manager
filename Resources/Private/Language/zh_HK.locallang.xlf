@@ -88,7 +88,7 @@
       </trans-unit>
       <trans-unit id="purposeItem.services" approved="yes">
         <source>services</source>
-        <target state="final">经常预算 支助账户</target>
+        <target state="final">服务</target>
       </trans-unit>
       <trans-unit id="purposes.advertising.description" approved="yes">
         <source>These services process personal information to show you personalized or interest-based advertisements.</source>
@@ -112,7 +112,7 @@
       </trans-unit>
       <trans-unit id="purposes.marketing.title" approved="yes">
         <source>Marketing</source>
-        <target state="final">市场</target>
+        <target state="final">营销</target>
       </trans-unit>
       <trans-unit id="purposes.performance.description" approved="yes">
         <source>These services process personal information to optimize the service that this website offers.</source>
@@ -120,7 +120,7 @@
       </trans-unit>
       <trans-unit id="purposes.performance.title" approved="yes">
         <source>Performance Optimization</source>
-        <target state="final">优化了播放性能</target>
+        <target state="final">性能优化</target>
       </trans-unit>
       <trans-unit id="save" approved="yes">
         <source>Save</source>
@@ -208,7 +208,7 @@
       </trans-unit>
       <trans-unit id="purposes.misc.title" approved="yes">
         <source>Miscellaneous</source>
-        <target state="final">其他界面选项</target>
+        <target state="final">其他</target>
       </trans-unit>
       <trans-unit id="purposes.misc.description" approved="yes">
         <source>This includes services that do not fall under the other purposes.</source>
@@ -248,7 +248,7 @@
       </trans-unit>
       <trans-unit id="services.camera.title" approved="yes">
         <source>Surveillance Camera</source>
-        <target state="final">摄像头</target>
+        <target state="final">监控摄像机</target>
       </trans-unit>
       <trans-unit id="services.camera.description" approved="yes">
         <source>Consent to the use of surveillance camera images for security and safety purposes, in compliance with applicable data privacy regulations.</source>
@@ -276,7 +276,7 @@
       </trans-unit>
       <trans-unit id="services.cloudflare.description" approved="yes">
         <source>Cloudflare helps protect and optimize websites. By using this website, you consent to Cloudflare's data processing practices as described in its Privacy Policy.</source>
-        <target state="final">Cloudflare帮助保护和优化网站。通过使用这个网站，您同意云端隐私政策中描述的数据处理做法。</target>
+        <target state="final">Cloudflare 帮助保护和优化网站。使用本网站即表示您同意 Cloudflare 按其隐私政策所述处理数据。</target>
       </trans-unit>
       <trans-unit id="services.external-tracker.title" approved="yes">
         <source>External Tracker</source>
@@ -300,7 +300,7 @@
       </trans-unit>
       <trans-unit id="services.fast-fonts.description" approved="yes">
         <source>Fast Fonts, operated by fonts.com and supplied by fast.fonts.net, is a service for the provision of web fonts. It requires the use of a pixel-code for continuous price calculation.</source>
-        <target state="final">Fast Fonts, operated by fonts.com and supply by fast.fonts.net, is a service for provide web fons. 它需要使用像素代码来连续计算价格。</target>
+        <target state="final">Fast Fonts 由 fonts.com 运营，并由 fast.fonts.net 提供，是用于提供网页字体的服务。它需要使用像素代码来持续计算价格。</target>
       </trans-unit>
       <trans-unit id="services.google-ads.title" approved="yes">
         <source>Google Ads</source>
@@ -328,7 +328,7 @@
       </trans-unit>
       <trans-unit id="services.google-maps.title" approved="yes">
         <source>Google Maps</source>
-        <target state="final">谷哥地图</target>
+        <target state="final">谷歌地图</target>
       </trans-unit>
       <trans-unit id="services.google-maps.description" approved="yes">
         <source>Google Maps allows for the integration of interactive maps on websites, enabling location-based services. Developers can utilize it while ensuring data compliance and control, adhering to coding guidelines and best practices.</source>
@@ -336,7 +336,7 @@
       </trans-unit>
       <trans-unit id="services.google-tag-manager.title" approved="yes">
         <source>Google Tag Manager</source>
-        <target state="final">谷歌标记管理器</target>
+        <target state="final">Google 标签管理器</target>
       </trans-unit>
       <trans-unit id="services.google-tag-manager.description" approved="yes">
         <source>Google Tag Manager streamlines web tracking and code management, ensuring data compliance and control for developers.</source>
@@ -384,7 +384,7 @@
       </trans-unit>
       <trans-unit id="services.mouseflow.title" approved="yes">
         <source>Mouseflow</source>
-        <target state="final">鼠标流</target>
+        <target state="final">Mouseflow</target>
       </trans-unit>
       <trans-unit id="services.mouseflow.description" approved="yes">
         <source>Real-time user analytics service that helps to understand how visitors interact with our website.</source>
@@ -416,11 +416,11 @@
       </trans-unit>
       <trans-unit id="services.userlike.title" approved="yes">
         <source>Userlike</source>
-        <target state="final">用户赞</target>
+        <target state="final">Userlike</target>
       </trans-unit>
       <trans-unit id="services.userlike.description" approved="yes">
         <source>Userlike offers a live chat solution that enhances user interactions on websites.</source>
-        <target state="final">用户提供了一个在线聊天解决方案，可以增强用户在网站上的互动。</target>
+        <target state="final">Userlike 提供在线聊天解决方案，可增强网站上的用户互动。</target>
       </trans-unit>
       <trans-unit id="services.vimeo.title" approved="yes">
         <source>Vimeo</source>
@@ -460,7 +460,7 @@
       </trans-unit>
       <trans-unit id="cookies.description" approved="yes">
         <source>Below you will find a list of all cookies used by %s</source>
-        <target state="final">下面你会找到一个 %s 使用的所有 cookie 列表</target>
+        <target state="final">以下列出 %s 使用的所有 cookie</target>
       </trans-unit>
       <trans-unit id="cookies.headline.name" approved="yes">
         <source>Name / Pattern</source>
@@ -496,7 +496,7 @@
       </trans-unit>
       <trans-unit id="day" approved="yes">
         <source>Day</source>
-        <target state="final">白天</target>
+        <target state="final">天</target>
       </trans-unit>
       <trans-unit id="days" approved="yes">
         <source>Days</source>
