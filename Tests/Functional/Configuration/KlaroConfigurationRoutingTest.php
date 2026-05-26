@@ -21,6 +21,7 @@ use ErHaWeb\KlaroConsentManager\EventListener\KlaroConfigurationRouteEnhancer;
 use PHPUnit\Framework\Attributes\Test;
 use Symfony\Component\Yaml\Yaml;
 use TYPO3\CMS\Core\Cache\CacheManager;
+use TYPO3\CMS\Core\Configuration\ExtensionConfiguration;
 use TYPO3\CMS\Core\Routing\PageArguments;
 use TYPO3\CMS\Core\Routing\RouterInterface;
 use TYPO3\CMS\Core\Routing\SiteMatcher;
@@ -186,6 +187,22 @@ final class KlaroConfigurationRoutingTest extends FunctionalTestCase
     }
 
     #[Test]
+    public function frontendPageRendersInlineKlaroConfigurationWhenConfigurationPathIsEmpty(): void
+    {
+        $this->configureSiteBaseAndKlaroConfigurationPath('https://example.com/path/', '');
+
+        $pageResponse = $this->executeFrontendSubRequest(
+            new InternalRequest('https://example.com/path/')
+        );
+        $body = (string) $pageResponse->getBody();
+
+        self::assertSame(200, $pageResponse->getStatusCode());
+        self::assertMatchesRegularExpression('#<script\b(?![^>]*\bsrc=)[^>]*>\s*var klaroConfig=#', $body);
+        self::assertStringNotContainsString('src="/path/klaro-config.js', $body);
+        self::assertStringNotContainsString('type=' . KlaroConfigurationRouteEnhancer::PAGE_TYPE, $body);
+    }
+
+    #[Test]
     public function generatedKlaroConfigurationPathBelowSiteBasePathMapsToConfiguredPageType(): void
     {
         foreach ([
@@ -269,7 +286,13 @@ final class KlaroConfigurationRoutingTest extends FunctionalTestCase
 
     private function configureSiteBaseAndKlaroConfigurationPath(string $siteBase, string $klaroConfigurationPath): Site
     {
-        $GLOBALS['TYPO3_CONF_VARS']['EXTENSIONS']['klaro_consent_manager']['klaroConfigurationPath'] = $klaroConfigurationPath;
+        $this->get(ExtensionConfiguration::class)->set('klaro_consent_manager', [
+            'replaceUrl' => [
+                'show' => 'https://KLARO_CONSENT.com',
+                'reset' => 'https://KLARO_RESET.com',
+            ],
+            'klaroConfigurationPath' => $klaroConfigurationPath,
+        ]);
 
         $siteConfigurationPath = $this->instancePath . '/typo3conf/sites/klaro-functional';
         GeneralUtility::mkdir_deep($siteConfigurationPath);
