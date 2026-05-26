@@ -265,7 +265,7 @@
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.must_consent.description" approved="yes">
         <source>If `mustConsent` is set to `true`, Klaro will directly display the consent manager modal and not allow the user to close it before having actively consented to or declined the use of third-party services.</source>
-        <target state="final">Ha a `mustConsent` értéke `true`, a Klaro közvetlenül megjeleníti a hozzájárulás-kezelő modalt, és nem engedi a felhasználónak bezárni azt, amíg aktívan hozzá nem járul vagy el nem utasítja a harmadik féltől származó szolgáltatások használatát.</target>
+        <target state="final">Ha a `mustConsent` értéke `true`, a Klaro közvetlenül megjeleníti a hozzájárulás-kezelő modalt, és nem engedi a felhasználónak bezárni azt, amíg aktívan hozzá nem járul a harmadik féltől származó szolgáltatások használatához, vagy el nem utasítja azt.</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.accept_all.label" approved="yes">
         <source>Accept all</source>
