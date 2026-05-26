@@ -61,7 +61,7 @@
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.palettes.callback_palette" approved="yes">
         <source>Callback</source>
-        <target state="final">Kufona kudzoka</target>
+        <target state="final">Callback</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.palettes.consent_palette" approved="yes">
         <source>Default consent status</source>
@@ -253,7 +253,7 @@
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.default.label" approved="yes">
         <source>Default</source>
-        <target state="final">Zvakajairika</target>
+        <target state="final">Yekusarudzika</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.default.description" approved="yes">
         <source>Defines the default state for services in the consent modal (`true` = enabled by default). If this setting is set to "false", you can override it in any service.</source>
@@ -357,7 +357,7 @@
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.callback.label" approved="yes">
         <source>Callback</source>
-        <target state="final">Kufona kudzoka</target>
+        <target state="final">Callback</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.callback.description" approved="yes">
         <source>You can define an optional callback function that will be called each time the consent state for any given service changes. The consent value will be passed as the first parameter to the function (`true` = consented). The `service` config will be passed as the second parameter. The content of this field is wrapped with `callback: function(consent, service) { }`</source>
@@ -489,7 +489,7 @@
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_service.tabs.general" approved="yes">
         <source>General</source>
-        <target state="final">Zvakajairika</target>
+        <target state="final">Yekusarudzika</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_service.tabs.cookies" approved="yes">
         <source>Cookies</source>
@@ -665,7 +665,7 @@
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_service.default.label" approved="yes">
         <source>Default</source>
-        <target state="final">Zvakajairika</target>
+        <target state="final">Yekusarudzika</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_service.default.description" approved="yes">
         <source>If `default` is set to `true`, the service will be enabled by default. This overrides the global `default` setting (if this is set to "false").</source>
@@ -777,7 +777,7 @@
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_service.callback.label" approved="yes">
         <source>Callback</source>
-        <target state="final">Kufona kudzoka</target>
+        <target state="final">Callback</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_service.callback.description" approved="yes">
         <source>You can define an optional callback function that will be called each time the consent state for the given service changes. The consent value will be passed as the first parameter to the function (`true` = consented). The `service` config will be passed as the second parameter. The content of this field is wrapped with `callback: function(consent, service) { }`. `consent` is a bool that reflects the current state. `service` holds all information about the currently selected service. When you enter something here, you need to know what you are doing. It is your responsibility that no JavaScript errors occur.</source>
@@ -853,11 +853,11 @@
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_cookie.identifier.label" approved="yes">
         <source>Identifier</source>
-        <target state="final">Chiziviso</target>
+        <target state="final">Identifier</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_cookie.identifier.description" approved="yes">
         <source>This is a unique identifier for this cookie. It must be written in lower case and must not contain any spaces, only the characters a-z, 0-9 and "-" or "_". The identifier can be used in Fluid, for example.</source>
-        <target state="final">Ichi chiziviso chakasiyana chekuki iyi. Chinofanira kunyorwa nemavara madiki uye hachifaniri kuva nemaspaces, asi mavara a-z, 0-9 uye "-" kana "_" chete. Chiziviso chinogona kushandiswa muFluid, semuenzaniso.</target>
+        <target state="final">Iyi iidentifier yakasarudzika yekuki iyi. Inofanira kunyorwa nemavara madiki uye haifaniri kuva nemaspaces, asi mavara a-z, 0-9 uye "-" kana "_" chete. Identifier inogona kushandiswa muFluid, semuenzaniso.</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_cookie.identifier.placeholder" approved="yes">
         <source>lowercase_alphanum-x</source>
