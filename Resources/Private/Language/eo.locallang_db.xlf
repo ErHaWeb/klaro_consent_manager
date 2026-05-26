@@ -293,11 +293,11 @@
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.hide_toggle_all.label" approved="yes">
         <source>Hide Toggle All</source>
-        <target state="final">Kaŝi Ŝalti ĉion</target>
+        <target state="final">Kaŝi ŝalti/malŝalti ĉion</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.hide_toggle_all.description" approved="yes">
         <source>Setting `hideToggleAll` to `true` will hide the "toggle all" link in the consent notice.</source>
-        <target state="final">Agordi `hideToggleAll` al `true` kaŝos la ligilon "ŝalti ĉion" en la konsentoavizo.</target>
+        <target state="final">Agordi `hideToggleAll` al `true` kaŝos la ligilon "ŝalti/malŝalti ĉion" en la konsentoavizo.</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.notice_as_modal.label" approved="yes">
         <source>Notice As Modal</source>
