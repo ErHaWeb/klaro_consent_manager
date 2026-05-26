@@ -53,7 +53,7 @@
       </trans-unit>
       <trans-unit id="settings.description.plugin.tx_klaroconsentmanager.settings.contextualconsent.replaceAttributes" approved="yes">
         <source>Comma-separated list of attributes that should be automatically replaced within the content element of the contextual consent</source>
-        <target state="final">Listë e atributeve të ndara me presje që duhet të zëvendësohen automatikisht brenda elementit të përmbajtjes së miratimit kontekstual</target>
+        <target state="final">Listë e atributeve të ndara me presje që duhet të zëvendësohen automatikisht brenda elementit të përmbajtjes së pëlqimit kontekstual</target>
       </trans-unit>
       <trans-unit id="settings.plugin.tx_klaroconsentmanager.settings.contextualconsent.mainSectionOnly" approved="yes">
         <source>Main section only</source>
@@ -61,11 +61,11 @@
       </trans-unit>
       <trans-unit id="settings.description.plugin.tx_klaroconsentmanager.settings.contextualconsent.mainSectionOnly" approved="yes">
         <source>Activate this option if the contextual consent box should be limited to the main content only (without heading and footer).</source>
-        <target state="final">Aktivizoni këtë opsion nëse kutia e miratimit kontekstual duhet të kufizohet vetëm te përmbajtja kryesore (pa titull dhe fundfaqe).</target>
+        <target state="final">Aktivizoni këtë opsion nëse kutia e pëlqimit kontekstual duhet të kufizohet vetëm te përmbajtja kryesore (pa titull dhe fundfaqe).</target>
       </trans-unit>
       <trans-unit id="settings.plugin.tx_klaroconsentmanager.settings.configuration.disabled" approved="yes">
         <source>Disable Klaro Consent Management</source>
-        <target state="final">Çaktivizo menaxhimin e miratimeve Klaro</target>
+        <target state="final">Çaktivizo menaxhimin e pëlqimit Klaro</target>
       </trans-unit>
     </body>
   </file>
