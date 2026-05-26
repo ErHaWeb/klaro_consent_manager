@@ -44,7 +44,7 @@
       </trans-unit>
       <trans-unit id="contextualConsent.acceptAlways" approved="yes">
         <source>Always</source>
-        <target state="final">常に表示</target>
+        <target state="final">常に許可</target>
       </trans-unit>
       <trans-unit id="contextualConsent.acceptOnce" approved="yes">
         <source>Yes</source>
@@ -56,7 +56,7 @@
       </trans-unit>
       <trans-unit id="contextualConsent.descriptionEmptyStore" approved="yes">
         <source>To agree to this service permanently, you must accept {title} in the {link}.</source>
-        <target state="final">このサービスに永続的に同意するには、 {title} に {link}を承認する必要があります。</target>
+        <target state="final">このサービスに永続的に同意するには、{link}で {title} を承認する必要があります。</target>
       </trans-unit>
       <trans-unit id="contextualConsent.modalLinkText" approved="yes">
         <source>Consent Manager</source>
@@ -92,7 +92,7 @@
       </trans-unit>
       <trans-unit id="purposes.advertising.description" approved="yes">
         <source>These services process personal information to show you personalized or interest-based advertisements.</source>
-        <target state="final">これらのサービスは個人情報を処理し、パーソナライズされた広告または興味深い広告を表示します。</target>
+        <target state="final">これらのサービスは個人情報を処理し、パーソナライズされた広告または興味関心に基づく広告を表示します。</target>
       </trans-unit>
       <trans-unit id="purposes.advertising.title" approved="yes">
         <source>Advertising</source>
@@ -172,7 +172,7 @@
       </trans-unit>
       <trans-unit id="purposes.security.description" approved="yes">
         <source>Security services are crucial for safeguarding your online experience. These services help protect your data and privacy by detecting and preventing security threats, such as malware, phishing attempts, and unauthorized access. They ensure a safer browsing environment.</source>
-        <target state="final">セキュリティサービスは、オンライン体験を保護するために不可欠です。 これらのサービスは、マルウェア、フィッシングの試み、不正アクセスなどのセキュリティ脅威を検出して防止することで、データとプライバシーを保護します。 彼らは安全なブラウジング環境を確保します。</target>
+        <target state="final">セキュリティサービスは、オンライン体験を保護するために不可欠です。これらのサービスは、マルウェア、フィッシングの試み、不正アクセスなどのセキュリティ脅威を検出して防止することで、データとプライバシーを保護します。より安全な閲覧環境を確保します。</target>
       </trans-unit>
       <trans-unit id="purposes.livechat.title" approved="yes">
         <source>Live Chat</source>
@@ -180,7 +180,7 @@
       </trans-unit>
       <trans-unit id="purposes.livechat.description" approved="yes">
         <source>Live chat services enable real-time communication with website support teams. They offer a convenient way to ask questions, seek assistance, or engage in discussions while browsing a website. Live chat enhances your online interaction and customer support experience.</source>
-        <target state="final">ライブチャットサービスは、ウェブサイトサポートチームとのリアルタイム通信を可能にします。 彼らは、質問をしたり、支援を求めたり、ウェブサイトを閲覧したりするときに議論を行うための便利な方法を提供します。 ライブチャットは、オンラインのインタラクションとカスタマーサポートの経験を強化します。</target>
+        <target state="final">ライブチャットサービスは、ウェブサイトサポートチームとのリアルタイム通信を可能にします。ウェブサイト閲覧中に質問したり、支援を求めたり、会話したりする便利な方法を提供します。ライブチャットは、オンラインでのやり取りとカスタマーサポート体験を向上させます。</target>
       </trans-unit>
       <trans-unit id="purposes.styling.title" approved="yes">
         <source>Styling</source>
@@ -188,7 +188,7 @@
       </trans-unit>
       <trans-unit id="purposes.styling.description" approved="yes">
         <source>Services related to styling help to improve the appearance of the website. This can also have an impact on usability.</source>
-        <target state="final">ウェブサイトの外観を改善するためのスタイリングヘルプに関連するサービス. これはまた、ユーザビリティに影響を与える可能性があります.</target>
+        <target state="final">スタイリングに関連するサービスは、ウェブサイトの外観を改善するのに役立ちます。これはユーザビリティにも影響する場合があります。</target>
       </trans-unit>
       <trans-unit id="purposes.videos.title" approved="yes">
         <source>Videos</source>
@@ -300,7 +300,7 @@
       </trans-unit>
       <trans-unit id="services.fast-fonts.description" approved="yes">
         <source>Fast Fonts, operated by fonts.com and supplied by fast.fonts.net, is a service for the provision of web fonts. It requires the use of a pixel-code for continuous price calculation.</source>
-        <target state="final">fonts.comによって運営され、fast.fonts.netによって供給される高速フォントは、Webフォントの提供のためのサービスです。 連続価格計算にはピクセルコードを使用する必要があります。</target>
+        <target state="final">fonts.com が運営し fast.fonts.net が提供する Fast Fonts は、Web フォントを提供するサービスです。継続的な価格計算のためにピクセルコードを使用する必要があります。</target>
       </trans-unit>
       <trans-unit id="services.google-ads.title" approved="yes">
         <source>Google Ads</source>
@@ -360,7 +360,7 @@
       </trans-unit>
       <trans-unit id="services.intercom.title" approved="yes">
         <source>Intercom</source>
-        <target state="final">インターホン(Intercom)</target>
+        <target state="final">Intercom</target>
       </trans-unit>
       <trans-unit id="services.intercom.description" approved="yes">
         <source>Chat widget and collecting of visitor statistics</source>
@@ -420,7 +420,7 @@
       </trans-unit>
       <trans-unit id="services.userlike.description" approved="yes">
         <source>Userlike offers a live chat solution that enhances user interactions on websites.</source>
-        <target state="final">ユーザー様は、ウェブサイト上のユーザーの相互作用を強化するライブチャットソリューションを提供しています。</target>
+        <target state="final">Userlike は、ウェブサイト上のユーザーとのやり取りを強化するライブチャットソリューションを提供しています。</target>
       </trans-unit>
       <trans-unit id="services.vimeo.title" approved="yes">
         <source>Vimeo</source>
@@ -436,7 +436,7 @@
       </trans-unit>
       <trans-unit id="services.youtube.description" approved="yes">
         <source>The leading video-sharing platform for content creators and developers to enhance user experiences on websites.</source>
-        <target state="final">主要な動画共有プラットフォームは、コンテンツクリエイターや開発者がウェブサイト上でユーザーエクスペリエンスを向上させるためのものです。</target>
+        <target state="final">コンテンツクリエイターや開発者がウェブサイト上のユーザー体験を向上させるために利用できる、主要な動画共有プラットフォームです。</target>
       </trans-unit>
       <trans-unit id="consentModal.privacyPolicy.name" approved="yes">
         <source>Privacy policy</source>
@@ -476,7 +476,7 @@
       </trans-unit>
       <trans-unit id="cookies.headline.expiresAfter" approved="yes">
         <source>Expires after</source>
-        <target state="final">有効期限：</target>
+        <target state="final">有効期間</target>
       </trans-unit>
       <trans-unit id="year" approved="yes">
         <source>Year</source>
