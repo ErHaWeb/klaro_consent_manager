@@ -29,7 +29,7 @@
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.tabs.cookie" approved="yes">
         <source>Cookie</source>
-        <target state="final">Печенье</target>
+        <target state="final">Cookie</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.tabs.advanced" approved="yes">
         <source>Advanced</source>
@@ -145,11 +145,11 @@
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.no_auto_load.description" approved="yes">
         <source>Setting this to `true` will keep Klaro from automatically loading itself when the page is being loaded.</source>
-        <target state="final">Установка этого параметра в `true` позволит Klaro автоматически загружать себя при загрузке страницы.</target>
+        <target state="final">Установка этого параметра в `true` не позволит Klaro автоматически загружаться при загрузке страницы.</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.additional_class.label" approved="yes">
         <source>Additional Class</source>
-        <target state="final">Дополнительный урок</target>
+        <target state="final">Дополнительный класс</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.additional_class.description" approved="yes">
         <source>You can specify an additional class (or classes) that will be added to the Klaro `div`.</source>
@@ -221,7 +221,7 @@
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.cookie_domain.description" approved="yes">
         <source>You can change the cookie domain for the consent manager itself. Use this if you want to get consent once for multiple matching domains. By default, Klaro will use the current domain. Only relevant if `storageMethod` is set to `cookie`.</source>
-        <target state="final">Вы можете изменить домен cookie для самого менеджера согласия. Используйте это, если вы хотите получить согласие один раз для нескольких подходящих доменов. По умолчанию, Klaro будет использовать текущий домен. Решена только если `storageMethod` установлен в `cookie`.</target>
+        <target state="final">Вы можете изменить домен cookie для самого менеджера согласия. Используйте это, если хотите получить согласие один раз для нескольких подходящих доменов. По умолчанию Klaro будет использовать текущий домен. Актуально только если `storageMethod` установлен в `cookie`.</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.cookie_domain.placeholder" approved="yes">
         <source>.example.com</source>
@@ -245,7 +245,7 @@
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.cookie_expires_after_days.description" approved="yes">
         <source>You can also set a custom expiration time for the Klaro cookie. By default, it will expire after 60 days. Only relevant if `storageMethod` is set to `cookie`.</source>
-        <target state="final">Вы также можете установить время истечения срока действия cookie Klaro. По умолчанию срок действия `storageMethod` истекает через 60 дней. Только если параметр `storageMethod` имеет значение `cookie`.</target>
+        <target state="final">Вы также можете задать собственный срок действия cookie Klaro. По умолчанию срок действия cookie истекает через 60 дней. Актуально только если `storageMethod` установлен в `cookie`.</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.cookie_expires_after_days.placeholder" approved="yes">
         <source>30</source>
@@ -273,7 +273,7 @@
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.accept_all.description" approved="yes">
         <source>Setting `acceptAll` to `true` will show an "accept all" button in the notice and modal, which will enable all third-party services if the user clicks on it. If set to "false", there will be an "accept" button that will only enable the services that are enabled in the consent modal.</source>
-        <target state="final">При установке `acceptAll` на `true` появится кнопка "accept all " в уведомлении и модальном, , который включит все сторонние сервисы, если пользователь нажимает на них. Если установлено значение "false", то будет кнопка "Принять", которая включит только те сервисы, которые включены в режим согласия.</target>
+        <target state="final">Установка `acceptAll` в `true` покажет кнопку "accept all" в уведомлении и модальном окне; при нажатии она включит все сторонние сервисы. Если установлено значение "false", будет показана кнопка "accept", которая включит только сервисы, выбранные в модальном окне согласия.</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.hide_decline_all.label" approved="yes">
         <source>Hide Decline All</source>
@@ -301,7 +301,7 @@
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.notice_as_modal.label" approved="yes">
         <source>Notice As Modal</source>
-        <target state="final">Заметьте, как модаль</target>
+        <target state="final">Уведомление как модальное окно</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.notice_as_modal.description" approved="yes">
         <source>Show cookie notice as modal</source>
@@ -313,7 +313,7 @@
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.show_notice_title.description" approved="yes">
         <source>When this option is enabled, Klaro displays the title in the notice modal.</source>
-        <target state="final">Когда эта опция включена, Klaro отображает заголовок в режиме уведомлений.</target>
+        <target state="final">Когда эта опция включена, Klaro отображает заголовок в модальном уведомлении.</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.show_description_empty_store.label" approved="yes">
         <source>Show Description (Empty Store)</source>
@@ -333,7 +333,7 @@
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.disable_powered_by.label" approved="yes">
         <source>Disable Powered By</source>
-        <target state="final">Отключить питание от</target>
+        <target state="final">Отключить ссылку Powered by</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.disable_powered_by.description" approved="yes">
         <source>You can also remove the "Realized with Klaro!" text in the consent modal. Please don't do this! We provide Klaro as a free open source tool. Placing a link to our website helps us spread the word about it, which ultimately enables us to make Klaro! better for everyone. So please be fair and keep the link enabled. Thanks :)</source>
@@ -345,11 +345,11 @@
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.services.description" approved="yes">
         <source>Here you specify the third-party services that Klaro will manage for you.</source>
-        <target state="final">Здесь вы указываете сторонние сервисы, которыми Klaro будет вам управлять.</target>
+        <target state="final">Здесь указываются сторонние сервисы, которыми Klaro будет управлять для вас.</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.purpose_order.label" approved="yes">
         <source>Purpose Order</source>
-        <target state="final">Порядок назначения</target>
+        <target state="final">Порядок целей</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.purpose_order.description" approved="yes">
         <source>The order in which purposes appear in the notice and modal can be changed via the `purposeOrder` parameter, which can be given a list with purpose names and will display those purposes in the order in which they appear in the list.</source>
@@ -469,7 +469,7 @@
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.append_show_button.description" approved="yes">
         <source>If this option is set to `true`, a button is created in the frontend (via JavaScript) directly in front of the closing body tag, which triggers the opening of the Klaro consent management.</source>
-        <target state="final">Если эта опция установлена в `true`, то в фронтенде (через JavaScript) создается кнопка непосредственно перед закрывающим тегом тега, что приводит к открытию управления Klaro согласия.</target>
+        <target state="final">Если эта опция установлена в `true`, во фронтенде (через JavaScript) непосредственно перед закрывающим тегом body создается кнопка, которая открывает Klaro Consent Management.</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.append_reset_button.label" approved="yes">
         <source>Append Reset Button</source>
@@ -477,7 +477,7 @@
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.append_reset_button.description" approved="yes">
         <source>If this option is set to `true`, a button is generated in the frontend (via JavaScript) directly in front of the closing body tag, which triggers the resetting of all settings and the opening of the Klaro consent management.</source>
-        <target state="final">Если эта опция установлена в `true`, то в фронтенде (через JavaScript) создается кнопка непосредственно перед закрывающим тегом тега, , которая вызывает сброс всех настроек и открытие Klaro согласия управления.</target>
+        <target state="final">Если эта опция установлена в `true`, во фронтенде (через JavaScript) непосредственно перед закрывающим тегом body создается кнопка, которая сбрасывает все настройки и открывает Klaro Consent Management.</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.hidden" approved="yes">
         <source>Configuration visible</source>
@@ -493,7 +493,7 @@
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_service.tabs.cookies" approved="yes">
         <source>Cookies</source>
-        <target state="final">Печенье</target>
+        <target state="final">Cookie</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_service.tabs.toggles" approved="yes">
         <source>Toggles</source>
@@ -581,7 +581,7 @@
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_service.name.I.cloudflare" approved="yes">
         <source>Cloudflare</source>
-        <target state="final">Огонь из облака</target>
+        <target state="final">Cloudflare</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_service.name.I.external-tracker" approved="yes">
         <source>External Tracker</source>
@@ -605,7 +605,7 @@
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_service.name.I.google-fonts" approved="yes">
         <source>Google Fonts</source>
-        <target state="final">Google шрифты</target>
+        <target state="final">Google Fonts</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_service.name.I.google-maps" approved="yes">
         <source>Google Maps</source>
@@ -621,11 +621,11 @@
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_service.name.I.instagram" approved="yes">
         <source>Instagram</source>
-        <target state="final">Инстаграмма</target>
+        <target state="final">Instagram</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_service.name.I.intercom" approved="yes">
         <source>Intercom</source>
-        <target state="final">Интерком</target>
+        <target state="final">Intercom</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_service.name.I.klaro" approved="yes">
         <source>Klaro!</source>
@@ -637,7 +637,7 @@
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_service.name.I.mouseflow" approved="yes">
         <source>Mouseflow</source>
-        <target state="final">Мусеток</target>
+        <target state="final">Mouseflow</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_service.name.I.salesviewer" approved="yes">
         <source>SalesViewer</source>
@@ -649,11 +649,11 @@
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_service.name.I.twitter" approved="yes">
         <source>X (formerly Twitter)</source>
-        <target state="final">X (ранее Твиттер)</target>
+        <target state="final">X (ранее Twitter)</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_service.name.I.userlike" approved="yes">
         <source>Userlike</source>
-        <target state="final">Пользователь</target>
+        <target state="final">Userlike</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_service.name.I.vimeo" approved="yes">
         <source>Vimeo</source>
@@ -733,11 +733,11 @@
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_service.purposes.I.misc" approved="yes">
         <source>Miscellaneous</source>
-        <target state="final">Прочие вопросы</target>
+        <target state="final">Разное</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_service.cookies.label" approved="yes">
         <source>Cookies</source>
-        <target state="final">Печенье</target>
+        <target state="final">Cookie</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_service.cookies.description" approved="yes">
         <source>You can either only provide a cookie name or regular expression (regex) or a list consisting of a name or regex, a path and a cookie domain. Providing a path and domain is necessary if you have services that set cookies for a path that is not "/", or a domain that is not the current domain. If you do not set these values properly, the cookie can't be deleted by Klaro, as there is no way to access the path or domain of a cookie in JS. Notice that it is not possible to delete cookies that were set on a third-party domain, or cookies that have the HTTPOnly attribute: https://developer.mozilla.org/en-US/docs/Web/API/Document/cookie#new-cookie_domain</source>
@@ -769,11 +769,11 @@
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_service.contextual_consent_only.label" approved="yes">
         <source>Contextual Consent Only</source>
-        <target state="final">Контекстное согласие</target>
+        <target state="final">Только контекстное согласие</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_service.contextual_consent_only.description" approved="yes">
         <source>Content can be excluded from general consent by setting contextualConsentOnly to `true`. In this case, the consent must be contextual.</source>
-        <target state="final">Контент может быть исключён из общего согласия, установив contextualConsentOnly to `true`. В этом случае согласие должно быть контекстным.</target>
+        <target state="final">Контент можно исключить из общего согласия, установив contextualConsentOnly в `true`. В этом случае согласие должно быть контекстным.</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_service.callback.label" approved="yes">
         <source>Callback</source>
@@ -821,7 +821,7 @@
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_cookie" approved="yes">
         <source>Cookie</source>
-        <target state="final">Печенье</target>
+        <target state="final">Cookie</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_cookie.tabs.general" approved="yes">
         <source>General</source>
@@ -857,7 +857,7 @@
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_cookie.identifier.description" approved="yes">
         <source>This is a unique identifier for this cookie. It must be written in lower case and must not contain any spaces, only the characters a-z, 0-9 and "-" or "_". The identifier can be used in Fluid, for example.</source>
-        <target state="final">Это уникальный идентификатор для этого cookie. Оно должно быть написано в нижнем регистре и не должно содержать пробелов, только символы a-z, 0-9 и "-" или "_". Идентификатор может быть использован в жидкости, например. (Fluid)</target>
+        <target state="final">Это уникальный идентификатор для этого cookie. Он должен быть написан в нижнем регистре и не должен содержать пробелов, только символы a-z, 0-9 и "-" или "_". Например, идентификатор можно использовать во Fluid.</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_cookie.identifier.placeholder" approved="yes">
         <source>lowercase_alphanum-x</source>
@@ -869,7 +869,7 @@
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_cookie.title.description" approved="yes">
         <source>If set, this title will be used in the frontend/backend for displaying the cookie. This title has no technical relevance (contrary to the `pattern` field).</source>
-        <target state="final">Если установлено, это название будет использоваться в интерфейсе/бэкэнде для отображения cookie. Это название не имеет технического значения (противоречит полю `pattern`).</target>
+        <target state="final">Если задано, это название будет использоваться во фронтенде/бэкэнде для отображения cookie. Это название не имеет технического значения (в отличие от поля `pattern`).</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_cookie.title.placeholder" approved="yes">
         <source>mf_[Session]</source>
@@ -881,7 +881,7 @@
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_cookie.pattern.description" approved="yes">
         <source>Name or regular expression (regex)</source>
-        <target state="final">Имя или регулярное выражение (регулярное)</target>
+        <target state="final">Имя или регулярное выражение (regex)</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_cookie.pattern.placeholder" approved="yes">
         <source>/^_pk_.*$/</source>
@@ -929,7 +929,7 @@
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_cookie.expires_after_unit.description" approved="yes">
         <source>Unit used for the "Expires after" specification. The special value `end-of-session` does not need a numeric value and hides the "Expires after" field accordingly.</source>
-        <target state="final">Единица, используемая для спецификации "Истекает после", специальное значение "конец сессии" не требует числового значения и соответственно скрывает поле "Истекает после". (`end-of-session`)</target>
+        <target state="final">Единица, используемая для значения "Истекает после". Специальное значение `end-of-session` не требует числового значения и соответственно скрывает поле "Истекает после".</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_cookie.expires_after_unit.I.years" approved="yes">
         <source>Years</source>
@@ -973,7 +973,7 @@
       </trans-unit>
       <trans-unit id="tt_content.tx_klaroconsentmanager_service.description" approved="yes">
         <source>When a service is selected in this field, the content item is displayed via contextual consent only if the user has agreed to use the selected service in the Klaro! Consent Manager. Please make sure that the static TypoScript template of the Klaro! Consent Manager has been added to use this feature.</source>
-        <target state="final">Когда служба выбрана в этом поле, элемент содержимого отображается по контекстному согласию только в том случае, если пользователь согласился использовать выбранную службу в Klaro! Менеджер согласия. Пожалуйста, убедитесь, что статический шаблон TypoScript для Klaro! Консенсус менеджер был добавлен для использования этой функции.</target>
+        <target state="final">Когда сервис выбран в этом поле, элемент содержимого отображается через контекстное согласие только в том случае, если пользователь согласился использовать выбранный сервис в Klaro! Consent Manager. Убедитесь, что для использования этой функции добавлен статический шаблон TypoScript Klaro! Consent Manager.</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.no_notice.label" approved="yes">
         <source>Hide initial consent notice</source>
@@ -981,15 +981,15 @@
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.no_notice.description" approved="yes">
         <source>Do not show the initial notice. The manager can still be opened manually or via contextual consent.</source>
-        <target state="final">Не показывать начальную запись. Менеджер по-прежнему может быть открыт вручную или через контекстное согласие.</target>
+        <target state="final">Не показывать первоначальное уведомление. Менеджер по-прежнему можно открыть вручную или через контекстное согласие.</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.powered_by.label" approved="yes">
         <source>Powered by URL override</source>
-        <target state="final">Работает на переопределение URL</target>
+        <target state="final">Переопределение URL ссылки Powered by</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.powered_by.description" approved="yes">
         <source>Override the “powered by” link in the consent modal. Leave empty to use Klaro default.</source>
-        <target state="final">Переопределить ссылку «выключено» в режиме согласия. Оставьте пустым, чтобы использовать Klaro по умолчанию.</target>
+        <target state="final">Переопределяет ссылку "powered by" в модальном окне согласия. Оставьте пустым, чтобы использовать значение Klaro по умолчанию.</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.powered_by.placeholder" approved="yes">
         <source>https://example.com/your-link</source>
@@ -1001,7 +1001,7 @@
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.style_prefix.description" approved="yes">
         <source>Prefix for CSS classes/container to namespace Klaro styles.</source>
-        <target state="final">Префикс для классов/контейнера CSS в стили пространства имён Klaro.</target>
+        <target state="final">Префикс для CSS-классов/контейнера, чтобы изолировать стили Klaro в пространстве имен.</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.style_prefix.placeholder" approved="yes">
         <source>my-klaro</source>
