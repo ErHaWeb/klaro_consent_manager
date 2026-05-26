@@ -4,7 +4,7 @@
     <body>
       <trans-unit id="acceptAll" approved="yes">
         <source>Accept all</source>
-        <target state="final">Accepteer alle</target>
+        <target state="final">Alles accepteren</target>
       </trans-unit>
       <trans-unit id="acceptSelected" approved="yes">
         <source>Accept selected</source>
@@ -28,7 +28,7 @@
       </trans-unit>
       <trans-unit id="consentNotice.description" approved="yes">
         <source>Hi! Could we please enable some additional services for {purposes}? You can always change or withdraw your consent later.</source>
-        <target state="final">Hallo, kunnen wij u een aantal extra diensten aanbieden voor {purposes}? U kunt uw toestemming later altijd nog wijzigen of intrekken.</target>
+        <target state="final">Hallo! Mogen we enkele aanvullende diensten inschakelen voor {purposes}? U kunt uw toestemming later altijd wijzigen of intrekken.</target>
       </trans-unit>
       <trans-unit id="consentNotice.learnMore" approved="yes">
         <source>Let me choose</source>
@@ -88,7 +88,7 @@
       </trans-unit>
       <trans-unit id="purposeItem.services" approved="yes">
         <source>services</source>
-        <target state="final">service</target>
+        <target state="final">diensten</target>
       </trans-unit>
       <trans-unit id="purposes.advertising.description" approved="yes">
         <source>These services process personal information to show you personalized or interest-based advertisements.</source>
@@ -300,7 +300,7 @@
       </trans-unit>
       <trans-unit id="services.fast-fonts.description" approved="yes">
         <source>Fast Fonts, operated by fonts.com and supplied by fast.fonts.net, is a service for the provision of web fonts. It requires the use of a pixel-code for continuous price calculation.</source>
-        <target state="final">Snel Fonts, beheerd door fonts.com en geleverd door fast.fonts.net, is een service voor de voorziening van weblettertypes. Het vereist het gebruik van een pixel-code voor continue prijsberekening.</target>
+        <target state="final">Fast Fonts, beheerd door fonts.com en geleverd door fast.fonts.net, is een dienst voor het aanbieden van weblettertypen. Het vereist het gebruik van een pixelcode voor doorlopende prijsberekening.</target>
       </trans-unit>
       <trans-unit id="services.google-ads.title" approved="yes">
         <source>Google Ads</source>
@@ -336,7 +336,7 @@
       </trans-unit>
       <trans-unit id="services.google-tag-manager.title" approved="yes">
         <source>Google Tag Manager</source>
-        <target state="final">Google Ad Manager</target>
+        <target state="final">Google Tag Manager</target>
       </trans-unit>
       <trans-unit id="services.google-tag-manager.description" approved="yes">
         <source>Google Tag Manager streamlines web tracking and code management, ensuring data compliance and control for developers.</source>
@@ -348,7 +348,7 @@
       </trans-unit>
       <trans-unit id="services.inline-tracker.description" approved="yes">
         <source>Inline tracking script</source>
-        <target state="final">Extern trackingscript</target>
+        <target state="final">Inline-trackingscript</target>
       </trans-unit>
       <trans-unit id="services.instagram.title" approved="yes">
         <source>Instagram</source>
@@ -416,11 +416,11 @@
       </trans-unit>
       <trans-unit id="services.userlike.title" approved="yes">
         <source>Userlike</source>
-        <target state="final">Gebruiker</target>
+        <target state="final">Userlike</target>
       </trans-unit>
       <trans-unit id="services.userlike.description" approved="yes">
         <source>Userlike offers a live chat solution that enhances user interactions on websites.</source>
-        <target state="final">Gebruikers bieden een live-chatoplossing die gebruikersinteracties op websites verbetert.</target>
+        <target state="final">Userlike biedt een live-chatoplossing die gebruikersinteracties op websites verbetert.</target>
       </trans-unit>
       <trans-unit id="services.vimeo.title" approved="yes">
         <source>Vimeo</source>
