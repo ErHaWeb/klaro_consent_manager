@@ -221,7 +221,7 @@
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.cookie_domain.description" approved="yes">
         <source>You can change the cookie domain for the consent manager itself. Use this if you want to get consent once for multiple matching domains. By default, Klaro will use the current domain. Only relevant if `storageMethod` is set to `cookie`.</source>
-        <target state="final">អ្នកអាចប្តូរដែនខូគីសម្រាប់អ្នកគ្រប់គ្រងការយល់ព្រម។ ប្រើវាបើចង់ទទួលការយល់ព្រមម្តងសម្រាប់ដែនច្រើនដែលត្រូវគ្នា។ តាមលំនាំដើម Klaro ប្រើដែនបច្ចុប្បន្ន។ ពាក់ព័ន្ធតែបើ `storageMethod` កំណត់ជា `cookie`។</target>
+        <target state="final">អ្នកអាចប្តូរដែនខូគីសម្រាប់កម្មវិធីគ្រប់គ្រងការយល់ព្រមខ្លួនវា។ ប្រើវាបើចង់ទទួលការយល់ព្រមម្តងសម្រាប់ដែនច្រើនដែលត្រូវគ្នា។ តាមលំនាំដើម Klaro ប្រើដែនបច្ចុប្បន្ន។ ពាក់ព័ន្ធតែបើ `storageMethod` កំណត់ជា `cookie`។</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.cookie_domain.placeholder" approved="yes">
         <source>.example.com</source>
@@ -265,7 +265,7 @@
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.must_consent.description" approved="yes">
         <source>If `mustConsent` is set to `true`, Klaro will directly display the consent manager modal and not allow the user to close it before having actively consented to or declined the use of third-party services.</source>
-        <target state="final">បើ `mustConsent` កំណត់ជា `true` Klaro នឹងបង្ហាញម៉ូឌាល់អ្នកគ្រប់គ្រងការយល់ព្រមភ្លាមៗ ហើយមិនអនុញ្ញាតឱ្យអ្នកប្រើបិទ មុនពេលយល់ព្រម ឬបដិសេធការប្រើសេវាបុគ្គលទីបី។</target>
+        <target state="final">បើ `mustConsent` កំណត់ជា `true` Klaro នឹងបង្ហាញម៉ូឌាល់កម្មវិធីគ្រប់គ្រងការយល់ព្រមភ្លាមៗ ហើយមិនអនុញ្ញាតឱ្យអ្នកប្រើបិទ មុនពេលយល់ព្រម ឬបដិសេធការប្រើសេវាបុគ្គលទីបី។</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.accept_all.label" approved="yes">
         <source>Accept all</source>
@@ -981,7 +981,7 @@
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.no_notice.description" approved="yes">
         <source>Do not show the initial notice. The manager can still be opened manually or via contextual consent.</source>
-        <target state="final">កុំបង្ហាញសេចក្តីជូនដំណឹងដំបូង។ អ្នកគ្រប់គ្រងនៅតែអាចបើកដោយដៃ ឬតាមការយល់ព្រមតាមបរិបទ។</target>
+        <target state="final">កុំបង្ហាញសេចក្តីជូនដំណឹងដំបូង។ កម្មវិធីគ្រប់គ្រងការយល់ព្រមនៅតែអាចបើកដោយដៃ ឬតាមការយល់ព្រមតាមបរិបទ។</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.powered_by.label" approved="yes">
         <source>Powered by URL override</source>
