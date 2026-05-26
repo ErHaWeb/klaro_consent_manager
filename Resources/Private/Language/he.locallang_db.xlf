@@ -321,7 +321,7 @@
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.show_description_empty_store.description" approved="yes">
         <source>Show an explanatory text in contextual consent placeholders when no consent storage exists yet (first visit / empty store). This informs users that a permanent decision ("Always") requires allowing Klaro to store consent first. This only has an effect in contextual consent widgets/overlays (e.g. for embedded media) and only if the consent store (cookie/localStorage) is empty.</source>
-        <target state="final">הצגת טקסט הסבר במצייני מקום של הסכמה הקשרית כאשר עדיין אין אחסון הסכמה (ביקור ראשון / אחסון ריק). הדבר מודיע למשתמשים שהחלטה קבועה ("Always") דורשת תחילה לאפשר ל-Klaro לשמור הסכמה. אפשרות זו משפיעה רק בווידגטים/שכבות של הסכמה הקשרית (למשל מדיה מוטמעת) ורק כאשר אחסון ההסכמה (cookie/localStorage) ריק.</target>
+        <target state="final">הצגת טקסט הסבר במצייני מקום של הסכמה הקשרית כאשר עדיין אין אחסון הסכמה (ביקור ראשון / אחסון ריק). הדבר מודיע למשתמשים שהחלטה קבועה ("תמיד") דורשת תחילה לאפשר ל-Klaro לשמור הסכמה. אפשרות זו משפיעה רק בווידגטים/שכבות של הסכמה הקשרית (למשל מדיה מוטמעת) ורק כאשר אחסון ההסכמה (cookie/localStorage) ריק.</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.auto_focus.label" approved="yes">
         <source>Auto Focus</source>
