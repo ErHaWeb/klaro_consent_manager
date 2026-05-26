@@ -113,7 +113,7 @@
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.testing.description" approved="yes">
         <source>Setting `testing` to `true` will cause Klaro to not show the consent notice or modal by default, except if a special hashtag is appended to the URL (#klaro-testing). This makes it possible to test Klaro on your live website without affecting normal visitors.</source>
-        <target state="final">Η ρύθμιση `testing` στο `true` θα κάνει το Klaro να μην εμφανίσει την ειδοποίηση ή τη μέθοδο κατάθεσης από προεπιλογή, εκτός εάν ένα ειδικό hashtag προστίθεται στο URL (#klaro-testing). Αυτό καθιστά δυνατή τη δοκιμή Klaro στη ζωντανή ιστοσελίδα σας χωρίς να επηρεάζει τους κανονικούς επισκέπτες.</target>
+        <target state="final">Η ρύθμιση `testing` στο `true` θα κάνει το Klaro να μην εμφανίζει την ειδοποίηση συγκατάθεσης ή το modal από προεπιλογή, εκτός εάν προστεθεί ένα ειδικό hashtag στο URL (#klaro-testing). Αυτό καθιστά δυνατή τη δοκιμή του Klaro στον ζωντανό ιστότοπό σας χωρίς να επηρεάζονται οι κανονικοί επισκέπτες.</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.config_variable_name.label" approved="yes">
         <source>Config Variable Name</source>
@@ -121,7 +121,7 @@
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.config_variable_name.description" approved="yes">
         <source>By default, Klaro loads the configuration from a global variable `klaroConfig`. You can change this here. Specifying this field will cause the attribute data-klaro-config="yourConfigVariableName" to be set.</source>
-        <target state="final">Από προεπιλογή, το Klaro φορτώνει τις ρυθμίσεις από μια καθολική μεταβλητή `klaroConfig`. Μπορείτε να τις αλλάξετε εδώ. Καθορίζοντας αυτό το πεδίο θα προκαλέσει τον ορισμό των δεδομένων χαρακτηριστικού-klaro-config="yourConfigVariableName". (data-klaro-config="yourConfigVariableName")</target>
+        <target state="final">Από προεπιλογή, το Klaro φορτώνει τη διαμόρφωση από μια καθολική μεταβλητή `klaroConfig`. Μπορείτε να την αλλάξετε εδώ. Ο καθορισμός αυτού του πεδίου θα προκαλέσει τον ορισμό του χαρακτηριστικού data-klaro-config="yourConfigVariableName".</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.config_variable_name.placeholder" approved="yes">
         <source>klaroConfig</source>
@@ -145,7 +145,7 @@
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.no_auto_load.description" approved="yes">
         <source>Setting this to `true` will keep Klaro from automatically loading itself when the page is being loaded.</source>
-        <target state="final">Ρυθμίζοντας αυτό το `true` θα κρατήσει το Klaro να φορτώνεται αυτόματα όταν φορτώνεται η σελίδα.</target>
+        <target state="final">Η ρύθμιση αυτού σε `true` θα εμποδίσει το Klaro να φορτώνεται αυτόματα όταν φορτώνεται η σελίδα.</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.additional_class.label" approved="yes">
         <source>Additional Class</source>
@@ -165,7 +165,7 @@
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.storage_method.description" approved="yes">
         <source>You can customize how Klaro persists consent information in the browser. Specify either `cookie` (the default) or `localStorage`.</source>
-        <target state="final">Μπορείτε να προσαρμόσετε τον τρόπο με τον οποίο το Klaro επιμένει να συναινεί στο πρόγραμμα περιήγησης. Καθορίστε είτε το `cookie` (προκαθορισμένο) είτε το `localStorage`.</target>
+        <target state="final">Μπορείτε να προσαρμόσετε τον τρόπο με τον οποίο το Klaro διατηρεί τις πληροφορίες συγκατάθεσης στο πρόγραμμα περιήγησης. Καθορίστε είτε το `cookie` (η προεπιλογή) είτε το `localStorage`.</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.storage_method.I.none" approved="yes">
         <source>None</source>
@@ -197,7 +197,7 @@
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.html_texts.description" approved="yes">
         <source>If set to `true`, Klaro will render the texts given in the `consentModal.description` and `consentNotice.description` translations as HTML. This enables you to e.g. add custom links or interactive content. If you want to be able to output HTML tags via fluid-enriched labels (see "Content" → "Translations"), this option must be enabled.</source>
-        <target state="final">Εάν οριστεί σε `true`, το Klaro θα εμφανίσει τις μεταφράσεις `consentModal.description` και `consentNotice.description` ως HTML. Αυτό σας επιτρέπει π.χ. προσθέστε προσαρμοσμένους συνδέσμους ή διαδραστικό περιεχόμενο. Αν θέλετε να μπορείτε να εξάγετε ετικέτες HTML μέσω ετικετών εμπλουτισμένων με υγρό (βλ. "Περιεχόμενο" → "Μεταφράσεις"), αυτή η επιλογή πρέπει να είναι ενεργοποιημένη.</target>
+        <target state="final">Εάν οριστεί σε `true`, το Klaro θα αποδώσει τα κείμενα που δίνονται στις μεταφράσεις `consentModal.description` και `consentNotice.description` ως HTML. Αυτό σας επιτρέπει π.χ. να προσθέσετε προσαρμοσμένους συνδέσμους ή διαδραστικό περιεχόμενο. Αν θέλετε να μπορείτε να εξάγετε ετικέτες HTML μέσω ετικετών εμπλουτισμένων με Fluid (βλ. "Περιεχόμενο" → "Μεταφράσεις"), αυτή η επιλογή πρέπει να είναι ενεργοποιημένη.</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.embedded.label" approved="yes">
         <source>Embedded</source>
@@ -205,7 +205,7 @@
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.embedded.description" approved="yes">
         <source>Setting "embedded" to `true` will render the Klaro modal and notice without the modal background, allowing you to e.g. embed them into a specific element of your website, such as your privacy notice.</source>
-        <target state="final">Η ρύθμιση "embedded" σε `true` θα καταστήσει το Klaro modal και θα παρατηρήσετε χωρίς το φόντο modal, επιτρέποντάς σας να ε. . ενσωματώστε τους σε ένα συγκεκριμένο στοιχείο της ιστοσελίδας σας, όπως η ειδοποίηση απορρήτου σας.</target>
+        <target state="final">Η ρύθμιση "embedded" σε `true` θα αποδώσει το modal και την ειδοποίηση του Klaro χωρίς το φόντο του modal, επιτρέποντάς σας π.χ. να τα ενσωματώσετε σε ένα συγκεκριμένο στοιχείο του ιστότοπού σας, όπως η ειδοποίηση απορρήτου σας.</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.group_by_purpose.label" approved="yes">
         <source>Group by purpose</source>
@@ -285,7 +285,7 @@
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.hide_learn_more.label" approved="yes">
         <source>Hide Learn More</source>
-        <target state="final">Hide Learn Περισσότερα</target>
+        <target state="final">Απόκρυψη «Μάθετε περισσότερα»</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.hide_learn_more.description" approved="yes">
         <source>Setting `hideLearnMore` to `true` will hide the "learn more / customize" link in the consent notice. We strongly advise against using this under most circumstances, as it keeps the user from customizing his/her consent choices.</source>
@@ -293,7 +293,7 @@
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.hide_toggle_all.label" approved="yes">
         <source>Hide Toggle All</source>
-        <target state="final">Απόκρυψη Όλων</target>
+        <target state="final">Απόκρυψη εναλλαγής όλων</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.hide_toggle_all.description" approved="yes">
         <source>Setting `hideToggleAll` to `true` will hide the "toggle all" link in the consent notice.</source>
@@ -321,7 +321,7 @@
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.show_description_empty_store.description" approved="yes">
         <source>Show an explanatory text in contextual consent placeholders when no consent storage exists yet (first visit / empty store). This informs users that a permanent decision ("Always") requires allowing Klaro to store consent first. This only has an effect in contextual consent widgets/overlays (e.g. for embedded media) and only if the consent store (cookie/localStorage) is empty.</source>
-        <target state="final">Εμφάνιση ενός επεξηγηματικού κειμένου σε σχετικούς κατόχους θέσης συναίνεσης όταν δεν υπάρχει ακόμα χώρος αποθήκευσης συναίνεσης (πρώτη επίσκεψη / άδειο κατάστημα). Αυτό ενημερώνει τους χρήστες ότι μια μόνιμη απόφαση ("Πάντα") απαιτεί επιτρέποντας στο Klaro να αποθηκεύσει πρώτα τη συναίνεση. Αυτό έχει αποτέλεσμα μόνο σε γραφικά στοιχεία/επικαλύψεις συγκατάθεσης (π.χ., για ενσωματωμένα πολυμέσα) και μόνο αν το κατάστημα συγκατάθεσης (cookie/localStorage) είναι κενό.</target>
+        <target state="final">Εμφάνιση ενός επεξηγηματικού κειμένου σε placeholders συμφραζόμενης συγκατάθεσης όταν δεν υπάρχει ακόμη αποθήκευση συγκατάθεσης (πρώτη επίσκεψη / κενή αποθήκευση). Αυτό ενημερώνει τους χρήστες ότι μια μόνιμη απόφαση ("Πάντα") απαιτεί να επιτρέψουν πρώτα στο Klaro να αποθηκεύσει τη συγκατάθεση. Αυτό έχει αποτέλεσμα μόνο σε widgets/overlays συμφραζόμενης συγκατάθεσης (π.χ. για ενσωματωμένα πολυμέσα) και μόνο αν η αποθήκευση συγκατάθεσης (cookie/localStorage) είναι κενή.</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.auto_focus.label" approved="yes">
         <source>Auto Focus</source>
@@ -333,11 +333,11 @@
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.disable_powered_by.label" approved="yes">
         <source>Disable Powered By</source>
-        <target state="final">Απενεργοποίηση Τροφοδοτημένου Από</target>
+        <target state="final">Απενεργοποίηση ένδειξης "Powered by"</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.disable_powered_by.description" approved="yes">
         <source>You can also remove the "Realized with Klaro!" text in the consent modal. Please don't do this! We provide Klaro as a free open source tool. Placing a link to our website helps us spread the word about it, which ultimately enables us to make Klaro! better for everyone. So please be fair and keep the link enabled. Thanks :)</source>
-        <target state="final">Μπορείτε επίσης να αφαιρέσετε το κείμενο "Πραγματοποιήθηκε με Klaro!" στο πλαίσιο συναίνεσης. Παρακαλώ μην το κάνετε! Παρέχουμε το Klaro ως δωρεάν εργαλείο ανοιχτού κώδικα. Τοποθετώντας ένα σύνδεσμο στην ιστοσελίδα μας βοηθά να διαδώσουμε τη λέξη γι 'αυτό, η οποία τελικά μας δίνει τη δυνατότητα να κάνουμε το Κλάρο! καλύτερο για όλους. Σας παρακαλώ λοιπόν να είστε δίκαιοι και κρατήστε τον σύνδεσμο ενεργοποιημένο. Ευχαριστούμε :)</target>
+        <target state="final">Μπορείτε επίσης να αφαιρέσετε το κείμενο "Realized with Klaro!" στο modal συγκατάθεσης. Παρακαλώ μην το κάνετε! Παρέχουμε το Klaro ως δωρεάν εργαλείο ανοιχτού κώδικα. Η τοποθέτηση ενός συνδέσμου προς τον ιστότοπό μας μας βοηθά να το κάνουμε γνωστό, κάτι που τελικά μας επιτρέπει να κάνουμε το Klaro! καλύτερο για όλους. Γι' αυτό, παρακαλούμε να είστε δίκαιοι και να διατηρήσετε τον σύνδεσμο ενεργοποιημένο. Ευχαριστούμε :)</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.services.label" approved="yes">
         <source>Services</source>
@@ -349,7 +349,7 @@
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.purpose_order.label" approved="yes">
         <source>Purpose Order</source>
-        <target state="final">Σειρά Σκοπός</target>
+        <target state="final">Σειρά σκοπών</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.purpose_order.description" approved="yes">
         <source>The order in which purposes appear in the notice and modal can be changed via the `purposeOrder` parameter, which can be given a list with purpose names and will display those purposes in the order in which they appear in the list.</source>
@@ -369,7 +369,7 @@
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.locallang_path.description" approved="yes">
         <source>Optional path to an additional XLIFF file that overwrites the default labels or adds new labels (e.g. for custom purposes or services). If fluid templates have been stored for the labels created in this file (see the "Fluid Template Root Path" field), these will overwrite the classic labels from the Locallang file. Nevertheless, it is possible and common to reference the locallang file from the respective fluid template and obtain the actual label there (the label key is passed to the fluid template).</source>
-        <target state="final">Προαιρετική διαδρομή για ένα πρόσθετο αρχείο XLIFF που αντικαθιστά τις προεπιλεγμένες ετικέτες ή προσθέτει νέες ετικέτες (π.χ. για προσαρμοσμένους σκοπούς ή υπηρεσίες). Εάν έχουν αποθηκευτεί πρότυπα υγρών για τις ετικέτες που δημιουργήθηκαν σε αυτό το αρχείο (δείτε το πεδίο "Διαδρομή Root Πρότυπου Υγρός"), αυτά θα αντικαταστήσουν τις κλασικές ετικέτες από το αρχείο Locallang. Ωστόσο, είναι δυνατό και κοινό να αναφέρετε το αρχείο locallang από το αντίστοιχο πρότυπο ρευστό και να αποκτήσετε την πραγματική ετικέτα εκεί (το κλειδί ετικέτα έχει περάσει στο πρότυπο ρευστού). (Fluid)</target>
+        <target state="final">Προαιρετική διαδρομή προς ένα πρόσθετο αρχείο XLIFF που αντικαθιστά τις προεπιλεγμένες ετικέτες ή προσθέτει νέες ετικέτες (π.χ. για προσαρμοσμένους σκοπούς ή υπηρεσίες). Εάν έχουν αποθηκευτεί πρότυπα Fluid για τις ετικέτες που δημιουργήθηκαν σε αυτό το αρχείο (βλ. το πεδίο "Fluid Template Root Path"), αυτά θα αντικαταστήσουν τις κλασικές ετικέτες από το αρχείο Locallang. Ωστόσο, είναι δυνατό και συνηθισμένο να γίνεται αναφορά στο αρχείο locallang από το αντίστοιχο πρότυπο Fluid και να λαμβάνεται εκεί η πραγματική ετικέτα (το κλειδί της ετικέτας περνά στο πρότυπο Fluid).</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.locallang_path.placeholder" approved="yes">
         <source>EXT:sitepackage/Resources/Private/Language/Klaro/locallang.xlf</source>
@@ -377,7 +377,7 @@
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.fluidtemplate_rootpath.label" approved="yes">
         <source>Fluid Template Root Path</source>
-        <target state="final">Ρευστό Πρότυπου Ριζικής Διαδρομής (Fluid)</target>
+        <target state="final">Ριζική διαδρομή προτύπων Fluid</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.fluidtemplate_rootpath.description" approved="yes">
         <source>As an alternative to the usual TypoScript configuration via constants under `plugin.tx_klaroconsentmanager.view`, a Fluid root path can be defined here, which has a higher priority than the paths configured in TypoScript. The three default directories `/Layouts/`, `/Partials/` and `/Templates/` are expected under this path. Fluid templates created here are used to enrich Locallang labels with additional functionality or to replace them completely. In this way, dynamic content or more complex HTML structures can be provided in a simple way. Fluid templates that are to override labels are expected in the subdirectory `/Templates/Labels/`.</source>
@@ -469,7 +469,7 @@
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.append_show_button.description" approved="yes">
         <source>If this option is set to `true`, a button is created in the frontend (via JavaScript) directly in front of the closing body tag, which triggers the opening of the Klaro consent management.</source>
-        <target state="final">Αν αυτή η επιλογή έχει οριστεί σε `true`, δημιουργείται ένα κουμπί στο frontend (μέσω JavaScript) ακριβώς μπροστά από την ετικέτα του αμαξώματος κλεισίματος, η οποία ενεργοποιεί το άνοιγμα της διαχείρισης συγκατάθεσης Klaro.</target>
+        <target state="final">Αν αυτή η επιλογή έχει οριστεί σε `true`, δημιουργείται ένα κουμπί στο frontend (μέσω JavaScript) ακριβώς πριν από την ετικέτα κλεισίματος body, το οποίο ενεργοποιεί το άνοιγμα της διαχείρισης συγκατάθεσης Klaro.</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.append_reset_button.label" approved="yes">
         <source>Append Reset Button</source>
@@ -477,7 +477,7 @@
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.append_reset_button.description" approved="yes">
         <source>If this option is set to `true`, a button is generated in the frontend (via JavaScript) directly in front of the closing body tag, which triggers the resetting of all settings and the opening of the Klaro consent management.</source>
-        <target state="final">Αν αυτή η επιλογή οριστεί σε `true`, δημιουργείται ένα κουμπί στο frontend (μέσω JavaScript) ακριβώς μπροστά από την ετικέτα του αμαξώματος κλεισίματος, που ενεργοποιεί την επαναφορά όλων των ρυθμίσεων και το άνοιγμα της διαχείρισης συγκατάθεσης Klaro.</target>
+        <target state="final">Αν αυτή η επιλογή οριστεί σε `true`, δημιουργείται ένα κουμπί στο frontend (μέσω JavaScript) ακριβώς πριν από την ετικέτα κλεισίματος body, το οποίο ενεργοποιεί την επαναφορά όλων των ρυθμίσεων και το άνοιγμα της διαχείρισης συγκατάθεσης Klaro.</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.hidden" approved="yes">
         <source>Configuration visible</source>
@@ -553,7 +553,7 @@
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_service.title.description" approved="yes">
         <source>The title defined here is not mandatory and is intended for backend display only.</source>
-        <target state="final">Ο τίτλος που ορίζεται εδώ δεν είναι υποχρεωτικός και προορίζεται μόνο για την οθόνη του συστήματος υποστήριξης.</target>
+        <target state="final">Ο τίτλος που ορίζεται εδώ δεν είναι υποχρεωτικός και προορίζεται μόνο για εμφάνιση στο backend.</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_service.title.placeholder" approved="yes">
         <source>Matomo/Piwik</source>
@@ -569,7 +569,7 @@
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_service.name.I.camera" approved="yes">
         <source>Surveillance Camera</source>
-        <target state="final">Εποπτεία Κάμερας</target>
+        <target state="final">Κάμερα επιτήρησης</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_service.name.I.career-captain" approved="yes">
         <source>Career Captain</source>
@@ -589,7 +589,7 @@
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_service.name.I.facebook-pixel" approved="yes">
         <source>Facebook Pixel</source>
-        <target state="final">Εικονοστοιχείο Facebook</target>
+        <target state="final">Facebook Pixel</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_service.name.I.fast-fonts" approved="yes">
         <source>Fast Fonts</source>
@@ -597,7 +597,7 @@
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_service.name.I.google-ads" approved="yes">
         <source>Google Ads</source>
-        <target state="final">Διαφημίσεις Google</target>
+        <target state="final">Google Ads</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_service.name.I.google-analytics" approved="yes">
         <source>Google Analytics</source>
@@ -605,15 +605,15 @@
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_service.name.I.google-fonts" approved="yes">
         <source>Google Fonts</source>
-        <target state="final">Γραμματοσειρές Google</target>
+        <target state="final">Google Fonts</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_service.name.I.google-maps" approved="yes">
         <source>Google Maps</source>
-        <target state="final">Χάρτες Google</target>
+        <target state="final">Google Maps</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_service.name.I.google-tag-manager" approved="yes">
         <source>Google Tag Manager</source>
-        <target state="final">Διαχειριστής Ετικετών Google</target>
+        <target state="final">Google Tag Manager</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_service.name.I.inline-tracker" approved="yes">
         <source>Inline Tracker</source>
@@ -625,7 +625,7 @@
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_service.name.I.intercom" approved="yes">
         <source>Intercom</source>
-        <target state="final">Ενδοεπικοινωνία</target>
+        <target state="final">Intercom</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_service.name.I.klaro" approved="yes">
         <source>Klaro!</source>
@@ -653,7 +653,7 @@
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_service.name.I.userlike" approved="yes">
         <source>Userlike</source>
-        <target state="final">Χρήστης</target>
+        <target state="final">Userlike</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_service.name.I.vimeo" approved="yes">
         <source>Vimeo</source>
@@ -701,7 +701,7 @@
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_service.purposes.I.marketing" approved="yes">
         <source>Marketing</source>
-        <target state="final">Εμπορία</target>
+        <target state="final">Μάρκετινγκ</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_service.purposes.I.advertising" approved="yes">
         <source>Advertising</source>
@@ -769,11 +769,11 @@
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_service.contextual_consent_only.label" approved="yes">
         <source>Contextual Consent Only</source>
-        <target state="final">Συναίνεση Μόνο</target>
+        <target state="final">Μόνο συμφραζόμενη συγκατάθεση</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_service.contextual_consent_only.description" approved="yes">
         <source>Content can be excluded from general consent by setting contextualConsentOnly to `true`. In this case, the consent must be contextual.</source>
-        <target state="final">Το περιεχόμενο μπορεί να αποκλειστεί από τη γενική συναίνεση ορίζοντας το συμφραζόμενοΣυγκατάθεσηΜόνο σε `true`. Σε αυτή την περίπτωση, η συγκατάθεση πρέπει να είναι συμφραζόμενο. (contextualConsentOnly)</target>
+        <target state="final">Το περιεχόμενο μπορεί να εξαιρεθεί από τη γενική συγκατάθεση ορίζοντας το contextualConsentOnly σε `true`. Σε αυτή την περίπτωση, η συγκατάθεση πρέπει να είναι συμφραζόμενη.</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_service.callback.label" approved="yes">
         <source>Callback</source>
@@ -781,7 +781,7 @@
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_service.callback.description" approved="yes">
         <source>You can define an optional callback function that will be called each time the consent state for the given service changes. The consent value will be passed as the first parameter to the function (`true` = consented). The `service` config will be passed as the second parameter. The content of this field is wrapped with `callback: function(consent, service) { }`. `consent` is a bool that reflects the current state. `service` holds all information about the currently selected service. When you enter something here, you need to know what you are doing. It is your responsibility that no JavaScript errors occur.</source>
-        <target state="final">Μπορείτε να ορίσετε μια προαιρετική λειτουργία callback που θα καλείται κάθε φορά που η κατάσταση συγκατάθεσης για τις αλλαγές της δεδομένης υπηρεσίας. Η τιμή της συγκατάθεσης θα περάσει ως πρώτη παράμετρος στη συνάρτηση (`true` = συναίνεση). Η ρύθμιση `service` θα περάσει ως δεύτερη παράμετρος. Το περιεχόμενο αυτού του πεδίου είναι τυλιγμένο με `callback: function(consent, service) { }`. `consent` είναι ένα κόλπο που αντανακλά την τρέχουσα κατάσταση. το `service` διατηρεί όλες τις πληροφορίες σχετικά με την τρέχουσα επιλεγμένη υπηρεσία. Όταν εισάγετε κάτι εδώ, πρέπει να ξέρετε τι κάνετε. Είναι δική σας ευθύνη ότι δεν εμφανίζονται σφάλματα JavaScript.</target>
+        <target state="final">Μπορείτε να ορίσετε μια προαιρετική συνάρτηση callback που θα καλείται κάθε φορά που αλλάζει η κατάσταση συγκατάθεσης για τη συγκεκριμένη υπηρεσία. Η τιμή συγκατάθεσης θα περάσει ως πρώτη παράμετρος στη συνάρτηση (`true` = έχει δοθεί συγκατάθεση). Η διαμόρφωση `service` θα περάσει ως δεύτερη παράμετρος. Το περιεχόμενο αυτού του πεδίου περιβάλλεται με `callback: function(consent, service) { }`. Το `consent` είναι μια boolean τιμή που αντικατοπτρίζει την τρέχουσα κατάσταση. Το `service` περιέχει όλες τις πληροφορίες σχετικά με την τρέχουσα επιλεγμένη υπηρεσία. Όταν εισάγετε κάτι εδώ, πρέπει να ξέρετε τι κάνετε. Είναι δική σας ευθύνη να μην προκύψουν σφάλματα JavaScript.</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_service.on_accept.label" approved="yes">
         <source>`onAccept` callback function</source>
@@ -797,7 +797,7 @@
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_service.on_init.description" approved="yes">
         <source>Here you can define JavaScript code that will be called once per page-load. The content of this field is wrapped with `callback: function(handlerOpts) { }`. The object `handlerOpts` contains the objects `config` (the current Klaro! configuration), `service` (the current service) and possibly `vars` (any values defined by object notation in the vars field in the backend). When you enter something here, you need to know what you are doing. It is your responsibility that no JavaScript errors occur.</source>
-        <target state="final">Εδώ μπορείτε να ορίσετε κώδικα JavaScript που θα ονομάζεται μία φορά ανά σελίδα-φόρτωση. Το περιεχόμενο αυτού του πεδίου είναι τυλιγμένο με `callback: function(handlerOpts) { }`. Το αντικείμενο `handlerOpts` περιέχει τα αντικείμενα `config` (το τρέχον Klaro! configuration), `service` (η τρέχουσα υπηρεσία) και ενδεχομένως `vars` (οποιεσδήποτε τιμές ορίζονται από την σημειογραφία αντικειμένου στο πεδίο vars στο backend). Όταν εισάγετε κάτι εδώ, πρέπει να ξέρετε τι κάνετε. Είναι δική σας ευθύνη ότι δεν εμφανίζονται σφάλματα JavaScript.</target>
+        <target state="final">Εδώ μπορείτε να ορίσετε κώδικα JavaScript που θα καλείται μία φορά ανά φόρτωση σελίδας. Το περιεχόμενο αυτού του πεδίου είναι τυλιγμένο με `callback: function(handlerOpts) { }`. Το αντικείμενο `handlerOpts` περιέχει τα αντικείμενα `config` (η τρέχουσα διαμόρφωση Klaro!), `service` (η τρέχουσα υπηρεσία) και ενδεχομένως `vars` (οποιεσδήποτε τιμές ορίζονται με σημειογραφία αντικειμένου στο πεδίο vars στο backend). Όταν εισάγετε κάτι εδώ, πρέπει να ξέρετε τι κάνετε. Είναι δική σας ευθύνη να μην προκύψουν σφάλματα JavaScript.</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_service.on_decline.label" approved="yes">
         <source>`onDecline` callback function</source>
@@ -813,7 +813,7 @@
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_service.vars.description" approved="yes">
         <source>Variables that can be used in callback functions. The content of this field is enclosed in curly brackets. The JavaScript object notation is expected in them. When you enter something here, you need to know what you are doing. It is your responsibility that no JavaScript errors occur.</source>
-        <target state="final">Μεταβλητές που μπορούν να χρησιμοποιηθούν σε λειτουργίες επανάκλησης. Το περιεχόμενο αυτού του πεδίου εσωκλείεται σε αγκύλες σγουριών. Η σημειογραφία αντικειμένου JavaScript αναμένεται σε αυτά. Όταν εισάγετε κάτι εδώ, πρέπει να ξέρετε τι κάνετε. Είναι δική σας ευθύνη ότι δεν εμφανίζονται σφάλματα JavaScript.</target>
+        <target state="final">Μεταβλητές που μπορούν να χρησιμοποιηθούν σε συναρτήσεις callback. Το περιεχόμενο αυτού του πεδίου περικλείεται σε άγκιστρα. Σε αυτά αναμένεται σημειογραφία αντικειμένου JavaScript. Όταν εισάγετε κάτι εδώ, πρέπει να ξέρετε τι κάνετε. Είναι δική σας ευθύνη να μην προκύψουν σφάλματα JavaScript.</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_service.hidden" approved="yes">
         <source>Service visible</source>
@@ -841,7 +841,7 @@
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_cookie.palettes.technic_palette.description" approved="yes">
         <source>This information is technically evaluated by Klaro! to manipulate the cookie.</source>
-        <target state="final">Αυτές οι πληροφορίες αξιολογούνται τεχνικά από την Κλάρο! για το χειρισμό του cookie. Klaro!</target>
+        <target state="final">Αυτές οι πληροφορίες αξιολογούνται τεχνικά από το Klaro! για τον χειρισμό του cookie.</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_cookie.palettes.expiration_palette" approved="yes">
         <source>Expiration Time</source>
@@ -857,7 +857,7 @@
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_cookie.identifier.description" approved="yes">
         <source>This is a unique identifier for this cookie. It must be written in lower case and must not contain any spaces, only the characters a-z, 0-9 and "-" or "_". The identifier can be used in Fluid, for example.</source>
-        <target state="final">Αυτό είναι ένα μοναδικό αναγνωριστικό για αυτό το cookie. Πρέπει να είναι γραμμένο με πεζά γράμματα και δεν πρέπει να περιέχει κενά, μόνο τους χαρακτήρες a-z, 0-9 και "-" ή "_". Το αναγνωριστικό μπορεί να χρησιμοποιηθεί σε υγρό, για παράδειγμα. (Fluid)</target>
+        <target state="final">Αυτό είναι ένα μοναδικό αναγνωριστικό για αυτό το cookie. Πρέπει να είναι γραμμένο με πεζά γράμματα και δεν πρέπει να περιέχει κενά, μόνο τους χαρακτήρες a-z, 0-9 και "-" ή "_". Το αναγνωριστικό μπορεί να χρησιμοποιηθεί σε Fluid, για παράδειγμα.</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_cookie.identifier.placeholder" approved="yes">
         <source>lowercase_alphanum-x</source>
@@ -969,7 +969,7 @@
       </trans-unit>
       <trans-unit id="tt_content.tx_klaroconsentmanager_service.label" approved="yes">
         <source>Contextual Consent</source>
-        <target state="final">Συγκατάθεση Περιεχομένου</target>
+        <target state="final">Συμφραζόμενη συγκατάθεση</target>
       </trans-unit>
       <trans-unit id="tt_content.tx_klaroconsentmanager_service.description" approved="yes">
         <source>When a service is selected in this field, the content item is displayed via contextual consent only if the user has agreed to use the selected service in the Klaro! Consent Manager. Please make sure that the static TypoScript template of the Klaro! Consent Manager has been added to use this feature.</source>
@@ -985,7 +985,7 @@
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.powered_by.label" approved="yes">
         <source>Powered by URL override</source>
-        <target state="final">Τροφοδοτείται από αντικατάσταση URL</target>
+        <target state="final">Παράκαμψη URL "Powered by"</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.powered_by.description" approved="yes">
         <source>Override the “powered by” link in the consent modal. Leave empty to use Klaro default.</source>
@@ -1001,7 +1001,7 @@
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.style_prefix.description" approved="yes">
         <source>Prefix for CSS classes/container to namespace Klaro styles.</source>
-        <target state="final">Πρόθεμα για κλάσεις CSS / κοντέινερ σε στυλ Klaro.</target>
+        <target state="final">Πρόθεμα για κλάσεις CSS/κοντέινερ για την ονοματοθέτηση των στυλ Klaro.</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.style_prefix.placeholder" approved="yes">
         <source>my-klaro</source>
