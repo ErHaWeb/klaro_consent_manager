@@ -109,7 +109,7 @@
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.testing.label" approved="yes">
         <source>Testing</source>
-        <target state="final">Testar</target>
+        <target state="final">Testläge</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.testing.description" approved="yes">
         <source>Setting `testing` to `true` will cause Klaro to not show the consent notice or modal by default, except if a special hashtag is appended to the URL (#klaro-testing). This makes it possible to test Klaro on your live website without affecting normal visitors.</source>
@@ -193,11 +193,11 @@
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.html_texts.label" approved="yes">
         <source>HTML Texts</source>
-        <target state="final">HTML Texter</target>
+        <target state="final">HTML-texter</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.html_texts.description" approved="yes">
         <source>If set to `true`, Klaro will render the texts given in the `consentModal.description` and `consentNotice.description` translations as HTML. This enables you to e.g. add custom links or interactive content. If you want to be able to output HTML tags via fluid-enriched labels (see "Content" → "Translations"), this option must be enabled.</source>
-        <target state="final">Om satt till `true`, kommer Klaro att rendera texterna som anges i `consentModal.description` och `consentNotice.description` översättningarna som HTML. Detta gör att du kan t.ex. lägg till anpassade länkar eller interaktivt innehåll. Om du vill kunna skriva ut HTML-taggar via vätske-berikade etiketter (se "Innehåll" → "Översättare"), måste detta alternativ vara aktiverat.</target>
+        <target state="final">Om detta är satt till `true` renderar Klaro texterna i översättningarna `consentModal.description` och `consentNotice.description` som HTML. Det gör att du t.ex. kan lägga till egna länkar eller interaktivt innehåll. Om du vill kunna mata ut HTML-taggar via Fluid-berikade etiketter (se "Innehåll" → "Översättningar") måste detta alternativ vara aktiverat.</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.embedded.label" approved="yes">
         <source>Embedded</source>
@@ -301,7 +301,7 @@
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.notice_as_modal.label" approved="yes">
         <source>Notice As Modal</source>
-        <target state="final">Notera som Modal</target>
+        <target state="final">Meddelande som modal</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.notice_as_modal.description" approved="yes">
         <source>Show cookie notice as modal</source>
@@ -349,7 +349,7 @@
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.purpose_order.label" approved="yes">
         <source>Purpose Order</source>
-        <target state="final">Syfte Order</target>
+        <target state="final">Ordning för ändamål</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.purpose_order.description" approved="yes">
         <source>The order in which purposes appear in the notice and modal can be changed via the `purposeOrder` parameter, which can be given a list with purpose names and will display those purposes in the order in which they appear in the list.</source>
@@ -369,7 +369,7 @@
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.locallang_path.description" approved="yes">
         <source>Optional path to an additional XLIFF file that overwrites the default labels or adds new labels (e.g. for custom purposes or services). If fluid templates have been stored for the labels created in this file (see the "Fluid Template Root Path" field), these will overwrite the classic labels from the Locallang file. Nevertheless, it is possible and common to reference the locallang file from the respective fluid template and obtain the actual label there (the label key is passed to the fluid template).</source>
-        <target state="final">Valfri sökväg till en extra XLIFF-fil som skriver över standardetiketter eller lägger till nya etiketter (t.ex. för anpassade ändamål eller tjänster). Om flytande mallar har lagrats för etiketterna som skapas i denna fil (se fältet "Fluid mallrot sökväg" ), dessa kommer att skriva över klassiska etiketter från Locallang-filen. Men ändå, det är möjligt och vanligt att hänvisa locallang filen från respektive flytande mall och få den faktiska etiketten där (etiketten nyckeln skickas till vätskemallen).</target>
+        <target state="final">Valfri sökväg till en extra XLIFF-fil som skriver över standardetiketter eller lägger till nya etiketter (t.ex. för anpassade ändamål eller tjänster). Om Fluidmallar har sparats för etiketterna som skapas i denna fil (se fältet "Fluidmallens rotsökväg") skriver de över de klassiska etiketterna från Locallang-filen. Det är ändå möjligt och vanligt att referera till locallang-filen från respektive Fluidmall och hämta den faktiska etiketten där (etikettnyckeln skickas till Fluidmallen).</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.locallang_path.placeholder" approved="yes">
         <source>EXT:sitepackage/Resources/Private/Language/Klaro/locallang.xlf</source>
@@ -393,7 +393,7 @@
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.alignment.description" approved="yes">
         <source>Determines the alignment of the Consent box if `mustConsent` and `noticeAsModal` are disabled.</source>
-        <target state="final">Bestämmer justeringen av Samtycke rutan om `mustConsent` och `noticeAsModal` är inaktiverade.</target>
+        <target state="final">Bestämmer justeringen av samtyckesrutan om `mustConsent` och `noticeAsModal` är inaktiverade.</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.alignment.I.top-left" approved="yes">
         <source>Top-Left</source>
@@ -465,7 +465,7 @@
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.append_show_button.label" approved="yes">
         <source>Append Show Button</source>
-        <target state="final">Lägg till serieknapp</target>
+        <target state="final">Lägg till visningsknapp</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.append_show_button.description" approved="yes">
         <source>If this option is set to `true`, a button is created in the frontend (via JavaScript) directly in front of the closing body tag, which triggers the opening of the Klaro consent management.</source>
@@ -581,7 +581,7 @@
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_service.name.I.cloudflare" approved="yes">
         <source>Cloudflare</source>
-        <target state="final">Molnflare</target>
+        <target state="final">Cloudflare</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_service.name.I.external-tracker" approved="yes">
         <source>External Tracker</source>
@@ -597,7 +597,7 @@
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_service.name.I.google-ads" approved="yes">
         <source>Google Ads</source>
-        <target state="final">Google annonser</target>
+        <target state="final">Google Ads</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_service.name.I.google-analytics" approved="yes">
         <source>Google Analytics</source>
@@ -605,7 +605,7 @@
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_service.name.I.google-fonts" approved="yes">
         <source>Google Fonts</source>
-        <target state="final">Google Teckensnitt</target>
+        <target state="final">Google Fonts</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_service.name.I.google-maps" approved="yes">
         <source>Google Maps</source>
@@ -637,7 +637,7 @@
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_service.name.I.mouseflow" approved="yes">
         <source>Mouseflow</source>
-        <target state="final">Musflöde</target>
+        <target state="final">Mouseflow</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_service.name.I.salesviewer" approved="yes">
         <source>SalesViewer</source>
@@ -653,7 +653,7 @@
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_service.name.I.userlike" approved="yes">
         <source>Userlike</source>
-        <target state="final">Användare som</target>
+        <target state="final">Userlike</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_service.name.I.vimeo" approved="yes">
         <source>Vimeo</source>
@@ -673,7 +673,7 @@
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_service.purposes.label" approved="yes">
         <source>Purposes</source>
-        <target state="final">Syfte</target>
+        <target state="final">Ändamål</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_service.purposes.description" approved="yes">
         <source>The purpose(s) of this service that will be listed on the consent notice. Do not forget to add translations for all purposes you list here.</source>
@@ -697,7 +697,7 @@
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_service.purposes.I.performance" approved="yes">
         <source>Performance</source>
-        <target state="final">Prestation</target>
+        <target state="final">Prestanda</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_service.purposes.I.marketing" approved="yes">
         <source>Marketing</source>
@@ -717,7 +717,7 @@
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_service.purposes.I.livechat" approved="yes">
         <source>Live Chat</source>
-        <target state="final">Live Chatt</target>
+        <target state="final">Livechatt</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_service.purposes.I.styling" approved="yes">
         <source>Styling</source>
@@ -773,7 +773,7 @@
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_service.contextual_consent_only.description" approved="yes">
         <source>Content can be excluded from general consent by setting contextualConsentOnly to `true`. In this case, the consent must be contextual.</source>
-        <target state="final">Innehåll kan uteslutas från allmänt samtycke genom att sätta kontextuellSamtyckeEndast till `true`. I detta fall måste samtycket vara kontextuellt. (contextualConsentOnly)</target>
+        <target state="final">Innehåll kan undantas från allmänt samtycke genom att sätta contextualConsentOnly till `true`. I detta fall måste samtycket vara kontextuellt.</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_service.callback.label" approved="yes">
         <source>Callback</source>
@@ -973,7 +973,7 @@
       </trans-unit>
       <trans-unit id="tt_content.tx_klaroconsentmanager_service.description" approved="yes">
         <source>When a service is selected in this field, the content item is displayed via contextual consent only if the user has agreed to use the selected service in the Klaro! Consent Manager. Please make sure that the static TypoScript template of the Klaro! Consent Manager has been added to use this feature.</source>
-        <target state="final">När en tjänst är markerad i detta fält, innehållsobjektet visas med kontextuellt samtycke endast om användaren har gått med på att använda den valda tjänsten i Klaro! Samtycke Manager. Se till att den statiska TypoScript mallen för Klaro! Samtycke Manager har lagts till för att använda denna funktion.</target>
+        <target state="final">När en tjänst är vald i detta fält visas innehållselementet via kontextuellt samtycke endast om användaren har samtyckt till att använda den valda tjänsten i Klaro! samtyckeshanterare. Se till att den statiska TypoScript-mallen för Klaro! samtyckeshanterare har lagts till för att använda denna funktion.</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.no_notice.label" approved="yes">
         <source>Hide initial consent notice</source>
@@ -985,7 +985,7 @@
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.powered_by.label" approved="yes">
         <source>Powered by URL override</source>
-        <target state="final">Drivs av åsidosättande av URL</target>
+        <target state="final">Åsidosättning av Powered by-URL</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.powered_by.description" approved="yes">
         <source>Override the “powered by” link in the consent modal. Leave empty to use Klaro default.</source>
