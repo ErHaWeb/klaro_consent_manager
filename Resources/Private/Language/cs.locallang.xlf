@@ -84,7 +84,7 @@
       </trans-unit>
       <trans-unit id="purposeItem.service" approved="yes">
         <source>service</source>
-        <target state="final">služby</target>
+        <target state="final">služba</target>
       </trans-unit>
       <trans-unit id="purposeItem.services" approved="yes">
         <source>services</source>
@@ -164,7 +164,7 @@
       </trans-unit>
       <trans-unit id="purposes.analytics.description" approved="yes">
         <source>These services gather anonymous data for statistical analysis and performance optimization. Enabling analytics services assists website owners in making informed decisions to enhance online services.</source>
-        <target state="final">Tyto služby shromažďují anonymní data pro statistickou analýzu a optimalizaci výkonu.</target>
+        <target state="final">Tyto služby shromažďují anonymní data pro statistickou analýzu a optimalizaci výkonu. Povolení analytických služeb pomáhá provozovatelům webů činit informovaná rozhodnutí ke zlepšení online služeb.</target>
       </trans-unit>
       <trans-unit id="purposes.security.title" approved="yes">
         <source>Security</source>
@@ -196,7 +196,7 @@
       </trans-unit>
       <trans-unit id="purposes.videos.description" approved="yes">
         <source>Embedding videos from external platforms to enrich the content on this website.</source>
-        <target state="final">Vložte videa z externích platforem pro obohacení obsahu na této webové stránce.</target>
+        <target state="final">Vkládání videí z externích platforem pro obohacení obsahu na této webové stránce.</target>
       </trans-unit>
       <trans-unit id="purposes.social.title" approved="yes">
         <source>Social Media</source>
@@ -204,7 +204,7 @@
       </trans-unit>
       <trans-unit id="purposes.social.description" approved="yes">
         <source>Embedding social media from external platforms to enrich the content on this website.</source>
-        <target state="final">Vložte sociální média z externích platforem k obohacení obsahu na těchto webových stránkách.</target>
+        <target state="final">Vkládání sociálních médií z externích platforem k obohacení obsahu na těchto webových stránkách.</target>
       </trans-unit>
       <trans-unit id="purposes.misc.title" approved="yes">
         <source>Miscellaneous</source>
@@ -352,11 +352,11 @@
       </trans-unit>
       <trans-unit id="services.instagram.title" approved="yes">
         <source>Instagram</source>
-        <target state="final">Instalační schéma</target>
+        <target state="final">Instagram</target>
       </trans-unit>
       <trans-unit id="services.instagram.description" approved="yes">
         <source>Allows Instagram posts to be embedded. Personal data may be transferred to Instagram (Meta Platforms) in the process.</source>
-        <target state="final">Umožňuje vložit do Instagramu. Osobní data mohou být přenesena na Instagramu (Meta Platforms).</target>
+        <target state="final">Umožňuje vkládání příspěvků z Instagramu. Osobní údaje mohou být při tom přeneseny do Instagramu (Meta Platforms).</target>
       </trans-unit>
       <trans-unit id="services.intercom.title" approved="yes">
         <source>Intercom</source>
@@ -384,7 +384,7 @@
       </trans-unit>
       <trans-unit id="services.mouseflow.title" approved="yes">
         <source>Mouseflow</source>
-        <target state="final">Myš tok</target>
+        <target state="final">Mouseflow</target>
       </trans-unit>
       <trans-unit id="services.mouseflow.description" approved="yes">
         <source>Real-time user analytics service that helps to understand how visitors interact with our website.</source>
@@ -400,7 +400,7 @@
       </trans-unit>
       <trans-unit id="services.tiktok.title" approved="yes">
         <source>TikTok</source>
-        <target state="final">TikTok sluzby</target>
+        <target state="final">TikTok</target>
       </trans-unit>
       <trans-unit id="services.tiktok.description" approved="yes">
         <source>Allows TikTok videos to be embedded. Personal data may be transferred to TikTok and processed in third countries.</source>
@@ -416,11 +416,11 @@
       </trans-unit>
       <trans-unit id="services.userlike.title" approved="yes">
         <source>Userlike</source>
-        <target state="final">Uživatelé se líbí</target>
+        <target state="final">Userlike</target>
       </trans-unit>
       <trans-unit id="services.userlike.description" approved="yes">
         <source>Userlike offers a live chat solution that enhances user interactions on websites.</source>
-        <target state="final">Uživatelská podoba nabízí řešení živého chatu, které zlepšuje interakce uživatelů na webových stránkách.</target>
+        <target state="final">Userlike nabízí řešení živého chatu, které zlepšuje interakce uživatelů na webových stránkách.</target>
       </trans-unit>
       <trans-unit id="services.vimeo.title" approved="yes">
         <source>Vimeo</source>
@@ -464,7 +464,7 @@
       </trans-unit>
       <trans-unit id="cookies.headline.name" approved="yes">
         <source>Name / Pattern</source>
-        <target state="final">Jméno / gesto</target>
+        <target state="final">Název / vzor</target>
       </trans-unit>
       <trans-unit id="cookies.headline.path" approved="yes">
         <source>Path</source>
@@ -520,7 +520,7 @@
       </trans-unit>
       <trans-unit id="second" approved="yes">
         <source>Second</source>
-        <target state="final">Druhý</target>
+        <target state="final">Sekunda</target>
       </trans-unit>
       <trans-unit id="seconds" approved="yes">
         <source>Seconds</source>
@@ -540,7 +540,7 @@
       </trans-unit>
       <trans-unit id="warning.noServicesPersonalized" approved="yes">
         <source>Hey %s! You missed a service in the config! Without services, we don't need consent management at all.</source>
-        <target state="final">Ahoj %s! Zmeškali jste službu v konfiguraci! Bez služeb vůbec nepotřebujeme správu souhlasu.</target>
+        <target state="final">Ahoj %s! V konfiguraci chybí služba! Bez služeb vůbec nepotřebujeme správu souhlasu.</target>
       </trans-unit>
     </body>
   </file>
