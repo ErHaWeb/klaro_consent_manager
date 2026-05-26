@@ -21,7 +21,7 @@
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.tabs.layout" approved="yes">
         <source>Layout</source>
-        <target state="final">Útseting</target>
+        <target state="final">Layout</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.tabs.content" approved="yes">
         <source>Content</source>
@@ -61,7 +61,7 @@
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.palettes.callback_palette" approved="yes">
         <source>Callback</source>
-        <target state="final">Afturkall</target>
+        <target state="final">Callback</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.palettes.consent_palette" approved="yes">
         <source>Default consent status</source>
@@ -73,7 +73,7 @@
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.palettes.layout_palette" approved="yes">
         <source>Layout settings</source>
-        <target state="final">Útsetingarstillingar</target>
+        <target state="final">Layout-stillingar</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.palettes.behavior_palette" approved="yes">
         <source>Behavior</source>
@@ -357,11 +357,11 @@
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.callback.label" approved="yes">
         <source>Callback</source>
-        <target state="final">Afturkall</target>
+        <target state="final">Callback</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.callback.description" approved="yes">
         <source>You can define an optional callback function that will be called each time the consent state for any given service changes. The consent value will be passed as the first parameter to the function (`true` = consented). The `service` config will be passed as the second parameter. The content of this field is wrapped with `callback: function(consent, service) { }`</source>
-        <target state="final">Tú kanst skilmarka eina valfría afturkallsfunktión, sum verður kallað hvørja ferð samtykkisstøðan fyri eina ávísa tænastu broytist. Samtykkisvirðið verður latið funktiónini sum fyrsti parametur (`true` = samtykt). `service`-samansetingin verður latin sum annar parametur. Innihaldið í hesum teigi verður pakkað inn við `callback: function(consent, service) { }`</target>
+        <target state="final">Tú kanst skilmarka eina valfría callback-funktión, sum verður kallað hvørja ferð samtykkisstøðan fyri eina ávísa tænastu broytist. Samtykkisvirðið verður latið funktiónini sum fyrsti parametur (`true` = samtykt). `service`-samansetingin verður latin sum annar parametur. Innihaldið í hesum teigi verður pakkað inn við `callback: function(consent, service) { }`</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.locallang_path.label" approved="yes">
         <source>Locallang Path</source>
@@ -777,15 +777,15 @@
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_service.callback.label" approved="yes">
         <source>Callback</source>
-        <target state="final">Afturkall</target>
+        <target state="final">Callback</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_service.callback.description" approved="yes">
         <source>You can define an optional callback function that will be called each time the consent state for the given service changes. The consent value will be passed as the first parameter to the function (`true` = consented). The `service` config will be passed as the second parameter. The content of this field is wrapped with `callback: function(consent, service) { }`. `consent` is a bool that reflects the current state. `service` holds all information about the currently selected service. When you enter something here, you need to know what you are doing. It is your responsibility that no JavaScript errors occur.</source>
-        <target state="final">Tú kanst skilmarka eina valfría afturkallsfunktión, sum verður kallað hvørja ferð samtykkisstøðan fyri givnu tænastuna broytist. Samtykkisvirðið verður latið funktiónini sum fyrsti parametur (`true` = samtykt). `service`-samansetingin verður latin sum annar parametur. Innihaldið í hesum teigi verður pakkað inn við `callback: function(consent, service) { }`. `consent` er ein bool, sum endurspeglar núverandi støðu. `service` inniheldur allar upplýsingar um tænastuna, sum nú er vald. Tá tú skrivar nakað her, mást tú vita, hvat tú gert. Tað er tín ábyrgd, at eingir JavaScript-villir koma fyri.</target>
+        <target state="final">Tú kanst skilmarka eina valfría callback-funktión, sum verður kallað hvørja ferð samtykkisstøðan fyri givnu tænastuna broytist. Samtykkisvirðið verður latið funktiónini sum fyrsti parametur (`true` = samtykt). `service`-samansetingin verður latin sum annar parametur. Innihaldið í hesum teigi verður pakkað inn við `callback: function(consent, service) { }`. `consent` er ein bool, sum endurspeglar núverandi støðu. `service` inniheldur allar upplýsingar um tænastuna, sum nú er vald. Tá tú skrivar nakað her, mást tú vita, hvat tú gert. Tað er tín ábyrgd, at eingir JavaScript-villir koma fyri.</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_service.on_accept.label" approved="yes">
         <source>`onAccept` callback function</source>
-        <target state="final">`onAccept` afturkalls-funktión</target>
+        <target state="final">`onAccept` callback-funktión</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_service.on_accept.description" approved="yes">
         <source>Here you can define JavaScript code that will be called each time the service was accepted. The content of this field is wrapped with `callback: function(handlerOpts) { }`. The object `handlerOpts` contains the objects `config` (the current Klaro! configuration), `service` (the current service) and possibly `vars` (any values defined by object notation in the vars field in the backend). When you enter something here, you need to know what you are doing. It is your responsibility that no JavaScript errors occur.</source>
@@ -793,7 +793,7 @@
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_service.on_init.label" approved="yes">
         <source>`onInit` callback function</source>
-        <target state="final">`onInit` afturkalls-funktión</target>
+        <target state="final">`onInit` callback-funktión</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_service.on_init.description" approved="yes">
         <source>Here you can define JavaScript code that will be called once per page-load. The content of this field is wrapped with `callback: function(handlerOpts) { }`. The object `handlerOpts` contains the objects `config` (the current Klaro! configuration), `service` (the current service) and possibly `vars` (any values defined by object notation in the vars field in the backend). When you enter something here, you need to know what you are doing. It is your responsibility that no JavaScript errors occur.</source>
@@ -801,7 +801,7 @@
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_service.on_decline.label" approved="yes">
         <source>`onDecline` callback function</source>
-        <target state="final">`onDecline` afturkalls-funktión</target>
+        <target state="final">`onDecline` callback-funktión</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_service.on_decline.description" approved="yes">
         <source>Here you can define JavaScript code that will be called each time the service was declined. The content of this field is wrapped with `callback: function(handlerOpts) { }`. The object `handlerOpts` contains the objects `config` (the current Klaro! configuration), `service` (the current service) and possibly `vars` (any values defined by object notation in the vars field in the backend). When you enter something here, you need to know what you are doing. It is your responsibility that no JavaScript errors occur.</source>
@@ -813,7 +813,7 @@
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_service.vars.description" approved="yes">
         <source>Variables that can be used in callback functions. The content of this field is enclosed in curly brackets. The JavaScript object notation is expected in them. When you enter something here, you need to know what you are doing. It is your responsibility that no JavaScript errors occur.</source>
-        <target state="final">Variablar, sum kunnu brúkast í afturkallsfunktiónum. Innihaldið í hesum teigi verður sett í krullklombrum. JavaScript-objekt-notatión verður væntað har. Tá tú skrivar nakað her, mást tú vita, hvat tú gert. Tað er tín ábyrgd, at eingir JavaScript-villir koma fyri.</target>
+        <target state="final">Variablar, sum kunnu brúkast í callback-funktiónum. Innihaldið í hesum teigi verður sett í krullklombrum. JavaScript-objekt-notatión verður væntað har. Tá tú skrivar nakað her, mást tú vita, hvat tú gert. Tað er tín ábyrgd, at eingir JavaScript-villir koma fyri.</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_service.hidden" approved="yes">
         <source>Service visible</source>
