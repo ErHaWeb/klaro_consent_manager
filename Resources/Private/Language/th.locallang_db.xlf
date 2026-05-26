@@ -277,7 +277,7 @@
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.hide_decline_all.label" approved="yes">
         <source>Hide Decline All</source>
-        <target state="final">ซ่อนปฏิเสธทั้งหมด</target>
+        <target state="final">ซ่อนปุ่มปฏิเสธทั้งหมด</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.hide_decline_all.description" approved="yes">
         <source>Setting `hideDeclineAll` to `true` will hide the "decline" button in the consent modal and force the user to open the modal in order to change his/her consent or disable all third-party services. We strongly advise you to not use this feature, as it opposes the "privacy by default" and "privacy by design" principles of the GDPR (but might be acceptable in other legislations such as under the CCPA)</source>
@@ -285,7 +285,7 @@
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.hide_learn_more.label" approved="yes">
         <source>Hide Learn More</source>
-        <target state="final">ซ่อนเรียนรู้เพิ่มเติม</target>
+        <target state="final">ซ่อนลิงก์เรียนรู้เพิ่มเติม</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.hide_learn_more.description" approved="yes">
         <source>Setting `hideLearnMore` to `true` will hide the "learn more / customize" link in the consent notice. We strongly advise against using this under most circumstances, as it keeps the user from customizing his/her consent choices.</source>
@@ -293,7 +293,7 @@
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.hide_toggle_all.label" approved="yes">
         <source>Hide Toggle All</source>
-        <target state="final">ซ่อนสลับทั้งหมด</target>
+        <target state="final">ซ่อนลิงก์สลับทั้งหมด</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.hide_toggle_all.description" approved="yes">
         <source>Setting `hideToggleAll` to `true` will hide the "toggle all" link in the consent notice.</source>
@@ -753,7 +753,7 @@
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_service.opt_out.label" approved="yes">
         <source>Opt-Out</source>
-        <target state="final">ปฏิเสธเข้าร่วม</target>
+        <target state="final">เลือกไม่ใช้</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_service.opt_out.description" approved="yes">
         <source>If `optOut` is set to `true`, Klaro will load this service even before the user has given explicit consent. We strongly advise against this.</source>
