@@ -25,6 +25,7 @@ use TYPO3\CMS\Core\Attribute\AsEventListener;
 use TYPO3\CMS\Core\Http\ApplicationType;
 use TYPO3\CMS\Core\Information\Typo3Version;
 use TYPO3\CMS\Core\Page\Event\BeforeJavaScriptsRenderingEvent;
+use TYPO3\CMS\Core\Routing\RouterInterface;
 use TYPO3\CMS\Core\Site\Entity\Site;
 
 #[AsEventListener(identifier: 'KlaroConsentManager/KlaroJavaScript')]
@@ -43,8 +44,8 @@ class KlaroJavaScript
         }
 
         $klaroService = $this->klaroServiceFactory->create($request);
-        $configuration = $klaroService->getRawConfiguration();
-        if ($configuration === []) {
+        $klaroConfiguration = $klaroService->getRawConfiguration();
+        if ($klaroConfiguration === []) {
             return;
         }
 
@@ -79,26 +80,36 @@ class KlaroJavaScript
         if ($klaroConfigurationPath !== '') {
             /** @var Site $site */
             $site = $request->getAttribute('site');
-            $configuration = $site->getConfiguration();
-            $rootPageId = (int) ($configuration['rootPageId'] ?? 0);
+            $siteConfiguration = $site->getConfiguration();
+            $rootPageId = (int) ($siteConfiguration['rootPageId'] ?? 0);
 
             if ($rootPageId > 0) {
                 $useInlineKlaroConfiguration = false;
 
+                $klaroConfigurationPath = (string) $site->getRouter()->generateUri(
+                    $rootPageId,
+                    ['type' => KlaroConfigurationRouteEnhancer::PAGE_TYPE],
+                    '',
+                    RouterInterface::ABSOLUTE_PATH
+                );
+
+                $klaroConfigurationAssetOptions = $assetOptions;
                 if (version_compare($this->typo3Version->getVersion(), '14.0.0', '>=')) {
-                    $klaroConfigurationPath = 'URI:/' . $klaroConfigurationPath;
+                    $klaroConfigurationPath = 'URI:' . $klaroConfigurationPath;
+                } else {
+                    $klaroConfigurationAssetOptions['external'] = true;
                 }
 
                 $event->getAssetCollector()->addJavaScript(
                     'klaro-config',
                     $klaroConfigurationPath,
                     $attributes,
-                    $assetOptions
+                    $klaroConfigurationAssetOptions
                 );
             }
         }
 
-        $configVariableName = ($configuration['config_variable_name'] ?? null) ?: 'klaroConfig';
+        $configVariableName = ($klaroConfiguration['config_variable_name'] ?? null) ?: 'klaroConfig';
         if ($useInlineKlaroConfiguration && $event->isInline()) {
             $asset = $event->getAssetCollector()->getInlineJavaScripts();
 

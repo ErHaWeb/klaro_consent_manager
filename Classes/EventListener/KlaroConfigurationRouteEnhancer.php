@@ -34,7 +34,8 @@ final readonly class KlaroConfigurationRouteEnhancer
         if (str_starts_with($klaroConfigurationPath, 'URI:')) {
             $klaroConfigurationPath = substr($klaroConfigurationPath, 4);
         }
-        $klaroConfigurationPath = ltrim($klaroConfigurationPath, '/');
+
+        $klaroConfigurationPath = trim($klaroConfigurationPath, '/');
         if ($klaroConfigurationPath === '') {
             return;
         }
@@ -46,7 +47,12 @@ final readonly class KlaroConfigurationRouteEnhancer
             return;
         }
 
-        $routeEnhancer = [
+        $routeEnhancers = $configuration['routeEnhancers'] ?? [];
+        if (!is_array($routeEnhancers)) {
+            $routeEnhancers = [];
+        }
+
+        $routeEnhancers['KlaroConsentManagerConfiguration'] = [
             'type' => 'PageType',
             'limitToPages' => [
                 $rootPageId,
@@ -55,13 +61,6 @@ final readonly class KlaroConfigurationRouteEnhancer
                 $klaroConfigurationPath => self::PAGE_TYPE,
             ],
         ];
-
-        $routeEnhancers = $configuration['routeEnhancers'] ?? [];
-        if (!\is_array($routeEnhancers)) {
-            $routeEnhancers = [];
-        }
-
-        $routeEnhancers['KlaroConsentManagerConfiguration'] = $routeEnhancer;
 
         $configuration['routeEnhancers'] = $routeEnhancers;
         $event->setConfiguration($configuration);
