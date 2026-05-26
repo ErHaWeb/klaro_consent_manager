@@ -24,7 +24,7 @@
       </trans-unit>
       <trans-unit id="consentNotice.changeDescription" approved="yes">
         <source>There were changes since your last visit, please renew your consent.</source>
-        <target state="final">Olemme tehneet muutoksia ehtoihin viime vierailusi jälkeen, tarkista ehdot.</target>
+        <target state="final">Viime käyntisi jälkeen on tehty muutoksia, ole hyvä ja uusi suostumuksesi.</target>
       </trans-unit>
       <trans-unit id="consentNotice.description" approved="yes">
         <source>Hi! Could we please enable some additional services for {purposes}? You can always change or withdraw your consent later.</source>
@@ -36,11 +36,11 @@
       </trans-unit>
       <trans-unit id="consentNotice.testing" approved="yes">
         <source>Testing mode!</source>
-        <target state="final">Testataan tilaa!</target>
+        <target state="final">Testitila!</target>
       </trans-unit>
       <trans-unit id="consentNotice.title" approved="yes">
         <source>Cookie Consent</source>
-        <target state="final">Evästeen Suostumus</target>
+        <target state="final">Evästesuostumus</target>
       </trans-unit>
       <trans-unit id="contextualConsent.acceptAlways" approved="yes">
         <source>Always</source>
@@ -56,11 +56,11 @@
       </trans-unit>
       <trans-unit id="contextualConsent.descriptionEmptyStore" approved="yes">
         <source>To agree to this service permanently, you must accept {title} in the {link}.</source>
-        <target state="final">Hyväksyäksesi tämän palvelun pysyvästi, sinun on hyväksyttävä {title} osoitteessa {link}.</target>
+        <target state="final">Hyväksyäksesi tämän palvelun pysyvästi sinun on hyväksyttävä {title} kohdassa {link}.</target>
       </trans-unit>
       <trans-unit id="contextualConsent.modalLinkText" approved="yes">
         <source>Consent Manager</source>
-        <target state="final">Suostumuksen Hallinta</target>
+        <target state="final">Suostumusten hallinta</target>
       </trans-unit>
       <trans-unit id="decline" approved="yes">
         <source>I decline</source>
@@ -76,11 +76,11 @@
       </trans-unit>
       <trans-unit id="privacyPolicy.name" approved="yes">
         <source>privacy policy</source>
-        <target state="final">yksityisyyden suoja</target>
+        <target state="final">tietosuojakäytäntö</target>
       </trans-unit>
       <trans-unit id="privacyPolicy.text" approved="yes">
         <source>To learn more, please read our {privacyPolicy}.</source>
-        <target state="final">Lue lisää meidän {privacyPolicy}.</target>
+        <target state="final">Lue lisätietoja: {privacyPolicy}.</target>
       </trans-unit>
       <trans-unit id="purposeItem.service" approved="yes">
         <source>service</source>
@@ -104,7 +104,7 @@
       </trans-unit>
       <trans-unit id="purposes.functional.title" approved="yes">
         <source>Service Provision</source>
-        <target state="final">Palvelun Tarjous</target>
+        <target state="final">Palvelun tarjoaminen</target>
       </trans-unit>
       <trans-unit id="purposes.marketing.description" approved="yes">
         <source>These services process personal information to show you relevant content about products, services or topics that you might be interested in.</source>
@@ -116,7 +116,7 @@
       </trans-unit>
       <trans-unit id="purposes.performance.description" approved="yes">
         <source>These services process personal information to optimize the service that this website offers.</source>
-        <target state="final">Nämä palvelut käsittelevät henkilökohtaisia tietoja optimoida palvelun, että tämä sivusto tarjoaa.</target>
+        <target state="final">Nämä palvelut käsittelevät henkilötietoja optimoidakseen tämän sivuston tarjoamaa palvelua.</target>
       </trans-unit>
       <trans-unit id="purposes.performance.title" approved="yes">
         <source>Performance Optimization</source>
@@ -140,7 +140,7 @@
       </trans-unit>
       <trans-unit id="service.optOut.title" approved="yes">
         <source>(opt-out)</source>
-        <target state="final">(ladataan oletuksena)</target>
+        <target state="final">(opt-out)</target>
       </trans-unit>
       <trans-unit id="service.purpose" approved="yes">
         <source>purpose</source>
@@ -164,7 +164,7 @@
       </trans-unit>
       <trans-unit id="purposes.analytics.description" approved="yes">
         <source>These services gather anonymous data for statistical analysis and performance optimization. Enabling analytics services assists website owners in making informed decisions to enhance online services.</source>
-        <target state="final">Nämä palvelut keräävät anonyymiä dataa tilastollista analyysia ja suorituskyvyn optimointia varten. Mahdollistamalla analytiikkapalvelut auttavat verkkosivujen omistajia tekemään tietoon perustuvia päätöksiä verkkopalvelujen parantamiseksi.</target>
+        <target state="final">Nämä palvelut keräävät anonyymiä dataa tilastollista analyysia ja suorituskyvyn optimointia varten. Analytiikkapalvelujen käyttöönotto auttaa verkkosivustojen omistajia tekemään tietoon perustuvia päätöksiä verkkopalvelujen parantamiseksi.</target>
       </trans-unit>
       <trans-unit id="purposes.security.title" approved="yes">
         <source>Security</source>
@@ -196,7 +196,7 @@
       </trans-unit>
       <trans-unit id="purposes.videos.description" approved="yes">
         <source>Embedding videos from external platforms to enrich the content on this website.</source>
-        <target state="final">Upottaa videoita ulkoisilta alustoilta rikastuttaa sisältöä tällä sivustolla.</target>
+        <target state="final">Ulkoisten alustojen videoiden upottaminen rikastamaan tämän sivuston sisältöä.</target>
       </trans-unit>
       <trans-unit id="purposes.social.title" approved="yes">
         <source>Social Media</source>
@@ -216,19 +216,19 @@
       </trans-unit>
       <trans-unit id="consentManager.show" approved="yes">
         <source>Show Consent Manager</source>
-        <target state="final">Näytä Suostumuksen Hallinta</target>
+        <target state="final">Näytä suostumusten hallinta</target>
       </trans-unit>
       <trans-unit id="consentManager.show.title" approved="yes">
         <source>Show Consent Manager</source>
-        <target state="final">Näytä Suostumuksen Hallinta</target>
+        <target state="final">Näytä suostumusten hallinta</target>
       </trans-unit>
       <trans-unit id="consentManager.reset" approved="yes">
         <source>Reset Consent Manager</source>
-        <target state="final">Nollaa Hyväksynnän Hallinta</target>
+        <target state="final">Nollaa suostumusten hallinta</target>
       </trans-unit>
       <trans-unit id="consentManager.reset.title" approved="yes">
         <source>Reset Consent Manager</source>
-        <target state="final">Nollaa Hyväksynnän Hallinta</target>
+        <target state="final">Nollaa suostumusten hallinta</target>
       </trans-unit>
       <trans-unit id="services.adobe-fonts.title" approved="yes">
         <source>Adobe Fonts</source>
@@ -272,11 +272,11 @@
       </trans-unit>
       <trans-unit id="services.cloudflare.title" approved="yes">
         <source>Cloudflare</source>
-        <target state="final">Pilvikampela</target>
+        <target state="final">Cloudflare</target>
       </trans-unit>
       <trans-unit id="services.cloudflare.description" approved="yes">
         <source>Cloudflare helps protect and optimize websites. By using this website, you consent to Cloudflare's data processing practices as described in its Privacy Policy.</source>
-        <target state="final">Cloudflare auttaa suojaamaan ja optimoimaan verkkosivustoja. Käyttämällä tätä verkkosivustoa hyväksyt Cloudflareen tietojen käsittelykäytännöt, jotka on kuvattu sen tietosuojakäytännössä.</target>
+        <target state="final">Cloudflare auttaa suojaamaan ja optimoimaan verkkosivustoja. Käyttämällä tätä verkkosivustoa hyväksyt Cloudflaren tietojen käsittelykäytännöt, jotka on kuvattu sen tietosuojakäytännössä.</target>
       </trans-unit>
       <trans-unit id="services.external-tracker.title" approved="yes">
         <source>External Tracker</source>
@@ -288,7 +288,7 @@
       </trans-unit>
       <trans-unit id="services.facebook-pixel.title" approved="yes">
         <source>Facebook Pixel</source>
-        <target state="final">Facebook Pikseli</target>
+        <target state="final">Facebook Pixel</target>
       </trans-unit>
       <trans-unit id="services.facebook-pixel.description" approved="yes">
         <source>Simplifies web tracking for analytics and marketing while ensuring data compliance and control.</source>
@@ -304,11 +304,11 @@
       </trans-unit>
       <trans-unit id="services.google-ads.title" approved="yes">
         <source>Google Ads</source>
-        <target state="final">Google Mainokset</target>
+        <target state="final">Google Ads</target>
       </trans-unit>
       <trans-unit id="services.google-ads.description" approved="yes">
         <source>Google Ads allows advertisers to reach their target audience online. To personalize ads and measure their effectiveness, Google may collect data with your consent.</source>
-        <target state="final">Google mainosten avulla mainostajat voivat tavoittaa kohdeyleisön verkossa. Mainosten personoimiseksi ja niiden tehokkuuden mittaamiseksi Google voi kerätä tietoja suostumuksellasi.</target>
+        <target state="final">Google Ads auttaa mainostajia tavoittamaan kohdeyleisönsä verkossa. Mainosten personoimiseksi ja niiden tehokkuuden mittaamiseksi Google voi kerätä tietoja suostumuksellasi.</target>
       </trans-unit>
       <trans-unit id="services.google-analytics.title" approved="yes">
         <source>Google Analytics</source>
@@ -320,7 +320,7 @@
       </trans-unit>
       <trans-unit id="services.google-fonts.title" approved="yes">
         <source>Google Fonts</source>
-        <target state="final">Google Fontit</target>
+        <target state="final">Google Fonts</target>
       </trans-unit>
       <trans-unit id="services.google-fonts.description" approved="yes">
         <source>Web fonts hosted by Google</source>
@@ -344,11 +344,11 @@
       </trans-unit>
       <trans-unit id="services.inline-tracker.title" approved="yes">
         <source>Inline Tracker</source>
-        <target state="final">Sisäinen Seurantapalvelin</target>
+        <target state="final">Inline Tracker</target>
       </trans-unit>
       <trans-unit id="services.inline-tracker.description" approved="yes">
         <source>Inline tracking script</source>
-        <target state="final">Inline seuranta skripti</target>
+        <target state="final">Inline-seurantaskripti</target>
       </trans-unit>
       <trans-unit id="services.instagram.title" approved="yes">
         <source>Instagram</source>
@@ -364,7 +364,7 @@
       </trans-unit>
       <trans-unit id="services.intercom.description" approved="yes">
         <source>Chat widget and collecting of visitor statistics</source>
-        <target state="final">Keskustele widgetistä ja kerää kävijätilastoja</target>
+        <target state="final">Chat-widget ja kävijätilastojen kerääminen</target>
       </trans-unit>
       <trans-unit id="services.klaro.title" approved="yes">
         <source>Klaro!</source>
@@ -380,11 +380,11 @@
       </trans-unit>
       <trans-unit id="services.matomo.description" approved="yes">
         <source>Open source software for statistical analysis of visitor accesses</source>
-        <target state="final">Avoimen lähdekoodin ohjelmisto vierailijoiden käyttöoikeuksien tilastollista analysointia varten</target>
+        <target state="final">Avoimen lähdekoodin ohjelmisto kävijäliikenteen tilastollista analysointia varten</target>
       </trans-unit>
       <trans-unit id="services.mouseflow.title" approved="yes">
         <source>Mouseflow</source>
-        <target state="final">Hiiren virtaus</target>
+        <target state="final">Mouseflow</target>
       </trans-unit>
       <trans-unit id="services.mouseflow.description" approved="yes">
         <source>Real-time user analytics service that helps to understand how visitors interact with our website.</source>
@@ -416,11 +416,11 @@
       </trans-unit>
       <trans-unit id="services.userlike.title" approved="yes">
         <source>Userlike</source>
-        <target state="final">Käyttäjätyyli</target>
+        <target state="final">Userlike</target>
       </trans-unit>
       <trans-unit id="services.userlike.description" approved="yes">
         <source>Userlike offers a live chat solution that enhances user interactions on websites.</source>
-        <target state="final">Userlike tarjoaa live chat ratkaisu, joka parantaa käyttäjien vuorovaikutusta sivustoilla.</target>
+        <target state="final">Userlike tarjoaa live chat -ratkaisun, joka parantaa käyttäjien vuorovaikutusta sivustoilla.</target>
       </trans-unit>
       <trans-unit id="services.vimeo.title" approved="yes">
         <source>Vimeo</source>
@@ -440,7 +440,7 @@
       </trans-unit>
       <trans-unit id="consentModal.privacyPolicy.name" approved="yes">
         <source>Privacy policy</source>
-        <target state="final">tietosuojasivultamme</target>
+        <target state="final">Tietosuojakäytäntö</target>
       </trans-unit>
       <trans-unit id="consentModal.privacyPolicy.text" approved="yes">
         <source>To learn more, please read our {privacyPolicy}.</source>
@@ -452,7 +452,7 @@
       </trans-unit>
       <trans-unit id="consentNotice.privacyPolicy.name" approved="yes">
         <source>Privacy policy</source>
-        <target state="final">tietosuojasivultamme</target>
+        <target state="final">Tietosuojakäytäntö</target>
       </trans-unit>
       <trans-unit id="cookies.title" approved="yes">
         <source>Cookies</source>
@@ -460,7 +460,7 @@
       </trans-unit>
       <trans-unit id="cookies.description" approved="yes">
         <source>Below you will find a list of all cookies used by %s</source>
-        <target state="final">Aalta löydät luettelon kaikista %s käyttämistä evästeistä</target>
+        <target state="final">Alta löydät luettelon kaikista %s käyttämistä evästeistä</target>
       </trans-unit>
       <trans-unit id="cookies.headline.name" approved="yes">
         <source>Name / Pattern</source>
@@ -540,7 +540,7 @@
       </trans-unit>
       <trans-unit id="warning.noServicesPersonalized" approved="yes">
         <source>Hey %s! You missed a service in the config! Without services, we don't need consent management at all.</source>
-        <target state="final">Hei %s! Olet unohtanut palvelun config ! Ilman palveluita emme tarvitse suostumuksen hallintaa lainkaan.</target>
+        <target state="final">Hei %s! Määrityksestä puuttuu palvelu! Ilman palveluita emme tarvitse suostumusten hallintaa lainkaan.</target>
       </trans-unit>
     </body>
   </file>
