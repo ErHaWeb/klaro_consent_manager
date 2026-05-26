@@ -121,7 +121,7 @@
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.config_variable_name.description" approved="yes">
         <source>By default, Klaro loads the configuration from a global variable `klaroConfig`. You can change this here. Specifying this field will cause the attribute data-klaro-config="yourConfigVariableName" to be set.</source>
-        <target state="final">بشكل افتراضي، يحمّل Klaro التكوين من متغير عالمي `klaroConfig`. يمكنك تغيير هذا هنا. سيؤدي تحديد هذا الحقل إلى تعيين بيانات - klaro-config="yourConfigVvariableName". (data-klaro-config="yourConfigVariableName")</target>
+        <target state="final">بشكل افتراضي، يحمّل Klaro التكوين من متغير عالمي `klaroConfig`. يمكنك تغيير ذلك هنا. سيؤدي تحديد هذا الحقل إلى تعيين السمة data-klaro-config="yourConfigVariableName".</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.config_variable_name.placeholder" approved="yes">
         <source>klaroConfig</source>
@@ -213,7 +213,7 @@
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.group_by_purpose.description" approved="yes">
         <source>You can group services by their purpose in the modal. This is advisable if you have a large number of services. Users can then enable or disable entire groups of services instead of having to enable or disable every service.</source>
-        <target state="final">يمكنك تجميع الخدمات حسب الغرض في النموذج. هذا أمر مستحسن إذا كان لديك عدد كبير من الخدمات. يمكن للمستخدمين بعد ذلك تمكين أو تعطيل مجموعات كاملة من الخدمات بدلاً من تمكين أو تعطيل كل خدمة.</target>
+        <target state="final">يمكنك تجميع الخدمات حسب الغرض في النافذة. يُنصح بذلك إذا كان لديك عدد كبير من الخدمات. يمكن للمستخدمين بعد ذلك تمكين أو تعطيل مجموعات كاملة من الخدمات بدلاً من تمكين أو تعطيل كل خدمة.</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.cookie_domain.label" approved="yes">
         <source>Cookie Domain</source>
@@ -265,7 +265,7 @@
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.must_consent.description" approved="yes">
         <source>If `mustConsent` is set to `true`, Klaro will directly display the consent manager modal and not allow the user to close it before having actively consented to or declined the use of third-party services.</source>
-        <target state="final">إذا تم تعيين `mustConsent` إلى `true`، وسيعرض Klaro بشكل مباشر طريقة مدير الموافقة ولا يسمح للمستخدم بإغلاقها قبل أن يوافق بشكل نشط على استخدام خدمات طرف ثالث أو يرفضها.</target>
+        <target state="final">إذا تم تعيين `mustConsent` إلى `true`، فسيعرض Klaro نافذة مدير الموافقة مباشرة ولن يسمح للمستخدم بإغلاقها قبل أن يوافق بشكل نشط على استخدام خدمات طرف ثالث أو يرفضها.</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.accept_all.label" approved="yes">
         <source>Accept all</source>
@@ -301,11 +301,11 @@
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.notice_as_modal.label" approved="yes">
         <source>Notice As Modal</source>
-        <target state="final">اشعار كموديل</target>
+        <target state="final">الإشعار كنافذة منبثقة</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.notice_as_modal.description" approved="yes">
         <source>Show cookie notice as modal</source>
-        <target state="final">إظهار إشعار ملفات تعريف الارتباط كوسيط</target>
+        <target state="final">إظهار إشعار ملفات تعريف الارتباط كنافذة منبثقة</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.show_notice_title.label" approved="yes">
         <source>Show title in consent notice</source>
@@ -313,7 +313,7 @@
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.show_notice_title.description" approved="yes">
         <source>When this option is enabled, Klaro displays the title in the notice modal.</source>
-        <target state="final">عند تمكين هذا الخيار، يعرض Klaro العنوان في صيغة الإشعار.</target>
+        <target state="final">عند تمكين هذا الخيار، يعرض Klaro العنوان في نافذة الإشعار.</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.show_description_empty_store.label" approved="yes">
         <source>Show Description (Empty Store)</source>
@@ -329,15 +329,15 @@
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.auto_focus.description" approved="yes">
         <source>Automatically focus the Klaro consent notice/modal container when it opens to improve keyboard navigation and accessibility.</source>
-        <target state="final">تركيز إشعار الموافقة على Klaro/حاوية الوسائط تلقائياً عند فتحها لتحسين التنقل والوصول إلى لوحة المفاتيح.</target>
+        <target state="final">تركيز حاوية إشعار/نافذة موافقة Klaro تلقائيًا عند فتحها لتحسين التنقل بلوحة المفاتيح وإمكانية الوصول.</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.disable_powered_by.label" approved="yes">
         <source>Disable Powered By</source>
-        <target state="final">تعطيل بواسطة</target>
+        <target state="final">تعطيل عبارة "مدعوم بواسطة"</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.disable_powered_by.description" approved="yes">
         <source>You can also remove the "Realized with Klaro!" text in the consent modal. Please don't do this! We provide Klaro as a free open source tool. Placing a link to our website helps us spread the word about it, which ultimately enables us to make Klaro! better for everyone. So please be fair and keep the link enabled. Thanks :)</source>
-        <target state="final">يمكنك أيضًا إزالة نص "تحقق مع Klaro!" في صيغة الموافقة. من فضلك لا تفعل ذلك! نحن نقدم Klaro كأداة مفتوحة المصدر. إن وضع رابط لموقعنا على شبكة الإنترنت يساعدنا على نشر الكلمة عنه، مما يمكننا في نهاية المطاف من جعل Klaro! أفضل للجميع. لذا يرجى أن تكون عادلة وأن تبقي الرابط ممكناً. شكراً :) Klaro!</target>
+        <target state="final">يمكنك أيضًا إزالة نص "Realized with Klaro!" في نافذة الموافقة. من فضلك لا تفعل ذلك! نحن نقدم Klaro كأداة مجانية مفتوحة المصدر. إن وضع رابط لموقعنا على شبكة الإنترنت يساعدنا على نشر الكلمة عنه، مما يمكننا في نهاية المطاف من جعل Klaro! أفضل للجميع. لذا يرجى أن تكون منصفًا وأن تبقي الرابط مفعلاً. شكرًا :)</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.services.label" approved="yes">
         <source>Services</source>
@@ -349,7 +349,7 @@
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.purpose_order.label" approved="yes">
         <source>Purpose Order</source>
-        <target state="final">أمر الغرض</target>
+        <target state="final">ترتيب الأغراض</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.purpose_order.description" approved="yes">
         <source>The order in which purposes appear in the notice and modal can be changed via the `purposeOrder` parameter, which can be given a list with purpose names and will display those purposes in the order in which they appear in the list.</source>
@@ -405,7 +405,7 @@
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.alignment.I.top-wide" approved="yes">
         <source>Top-Wide</source>
-        <target state="final">أوسع</target>
+        <target state="final">علوي عريض</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.alignment.I.bottom-left" approved="yes">
         <source>Bottom-Left</source>
@@ -417,7 +417,7 @@
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.alignment.I.bottom-wide" approved="yes">
         <source>Bottom-Wide</source>
-        <target state="final">أسفل</target>
+        <target state="final">سفلي عريض</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.alignment.I.top" approved="yes">
         <source>Top</source>
@@ -453,7 +453,7 @@
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.color_scheme.I.light_neutral" approved="yes">
         <source>Light (neutral)</source>
-        <target state="final">ضوء (محايد)</target>
+        <target state="final">فاتح (محايد)</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.color_scheme.I.dark" approved="yes">
         <source>Dark</source>
@@ -553,7 +553,7 @@
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_service.title.description" approved="yes">
         <source>The title defined here is not mandatory and is intended for backend display only.</source>
-        <target state="final">العنوان المعرف هنا ليس إلزاميا وهو مخصص لعرض الخلفية فقط.</target>
+        <target state="final">العنوان المعرّف هنا ليس إلزاميًا وهو مخصص للعرض في الواجهة الخلفية فقط.</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_service.title.placeholder" approved="yes">
         <source>Matomo/Piwik</source>
@@ -581,7 +581,7 @@
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_service.name.I.cloudflare" approved="yes">
         <source>Cloudflare</source>
-        <target state="final">كلاودفلاري</target>
+        <target state="final">Cloudflare</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_service.name.I.external-tracker" approved="yes">
         <source>External Tracker</source>
@@ -637,7 +637,7 @@
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_service.name.I.mouseflow" approved="yes">
         <source>Mouseflow</source>
-        <target state="final">تدفق الفأرة</target>
+        <target state="final">Mouseflow</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_service.name.I.salesviewer" approved="yes">
         <source>SalesViewer</source>
@@ -653,7 +653,7 @@
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_service.name.I.userlike" approved="yes">
         <source>Userlike</source>
-        <target state="final">مستخدم مشابه</target>
+        <target state="final">Userlike</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_service.name.I.vimeo" approved="yes">
         <source>Vimeo</source>
@@ -753,7 +753,7 @@
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_service.opt_out.label" approved="yes">
         <source>Opt-Out</source>
-        <target state="final">الخروج التلقائي</target>
+        <target state="final">إلغاء الاشتراك</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_service.opt_out.description" approved="yes">
         <source>If `optOut` is set to `true`, Klaro will load this service even before the user has given explicit consent. We strongly advise against this.</source>
@@ -813,7 +813,7 @@
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_service.vars.description" approved="yes">
         <source>Variables that can be used in callback functions. The content of this field is enclosed in curly brackets. The JavaScript object notation is expected in them. When you enter something here, you need to know what you are doing. It is your responsibility that no JavaScript errors occur.</source>
-        <target state="final">المتغيرات التي يمكن استخدامها في وظائف رد الاتصال. محتوى هذا الحقل مرتبط بين قوسين متعجلين. يتوقع تدوين كائن JavaScript فيها. عندما تدخل شيئا هنا، تحتاج إلى معرفة ما تفعله. مسؤوليتك هي أنه لا تحدث أخطاء في JavaScript. (JavaScript)</target>
+        <target state="final">المتغيرات التي يمكن استخدامها في دوال رد النداء. يُحاط محتوى هذا الحقل بأقواس معقوفة. يُتوقع فيها تدوين كائن JavaScript. عند إدخال شيء هنا، يجب أن تعرف ما تفعله. تقع عليك مسؤولية عدم حدوث أخطاء JavaScript.</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_service.hidden" approved="yes">
         <source>Service visible</source>
@@ -841,7 +841,7 @@
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_cookie.palettes.technic_palette.description" approved="yes">
         <source>This information is technically evaluated by Klaro! to manipulate the cookie.</source>
-        <target state="final">يتم تقييم هذه المعلومات تقنياً بواسطة Klaro! لمعالجة ملفات تعريف الارتباط. Klaro!</target>
+        <target state="final">يتم تقييم هذه المعلومات تقنيًا بواسطة Klaro! لمعالجة ملف تعريف الارتباط.</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_cookie.palettes.expiration_palette" approved="yes">
         <source>Expiration Time</source>
@@ -857,7 +857,7 @@
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_cookie.identifier.description" approved="yes">
         <source>This is a unique identifier for this cookie. It must be written in lower case and must not contain any spaces, only the characters a-z, 0-9 and "-" or "_". The identifier can be used in Fluid, for example.</source>
-        <target state="final">هذا معرف فريد لهذه الكوكيه. يجب أن يكتب في حالة أقل ويجب ألا يحتوي على أي مسافات، فقط الأحرف a-z، 0-9 و "-" أو "_". يمكن استخدام المعرف في Fluid على سبيل المثال.</target>
+        <target state="final">هذا معرّف فريد لملف تعريف الارتباط هذا. يجب أن يُكتب بأحرف صغيرة وألا يحتوي على أي مسافات، فقط الأحرف a-z و0-9 و"-" أو "_". يمكن استخدام المعرّف في Fluid على سبيل المثال.</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_cookie.identifier.placeholder" approved="yes">
         <source>lowercase_alphanum-x</source>
@@ -973,7 +973,7 @@
       </trans-unit>
       <trans-unit id="tt_content.tx_klaroconsentmanager_service.description" approved="yes">
         <source>When a service is selected in this field, the content item is displayed via contextual consent only if the user has agreed to use the selected service in the Klaro! Consent Manager. Please make sure that the static TypoScript template of the Klaro! Consent Manager has been added to use this feature.</source>
-        <target state="final">عندما يتم تحديد خدمة في هذا الحقل، يتم عرض عنصر المحتوى عن طريق الموافقة السياقية فقط إذا وافق المستخدم على استخدام الخدمة المحددة في Klaro! مدير الموافقة. الرجاء التأكد من أن قالب TypoScript الثابت من Klaro! تم إضافة مدير الموافقة لاستخدام هذه الميزة.</target>
+        <target state="final">عند تحديد خدمة في هذا الحقل، يُعرض عنصر المحتوى عبر الموافقة السياقية فقط إذا وافق المستخدم على استخدام الخدمة المحددة في مدير موافقات Klaro!. يرجى التأكد من إضافة قالب TypoScript الثابت الخاص بمدير موافقات Klaro! لاستخدام هذه الميزة.</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.no_notice.label" approved="yes">
         <source>Hide initial consent notice</source>
@@ -981,15 +981,15 @@
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.no_notice.description" approved="yes">
         <source>Do not show the initial notice. The manager can still be opened manually or via contextual consent.</source>
-        <target state="final">لا تظهر الإشعار الأولي. لا يزال من الممكن فتح المدير يدوياً أو عن طريق الموافقة السياقية.</target>
+        <target state="final">لا تعرض الإشعار الأولي. لا يزال من الممكن فتح المدير يدويًا أو عبر الموافقة السياقية.</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.powered_by.label" approved="yes">
         <source>Powered by URL override</source>
-        <target state="final">مدعوم بتجاوز عنوان URL</target>
+        <target state="final">تجاوز URL لعبارة "مدعوم بواسطة"</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.powered_by.description" approved="yes">
         <source>Override the “powered by” link in the consent modal. Leave empty to use Klaro default.</source>
-        <target state="final">تجاوز الرابط "مدعوم من قبل" في صيغة الموافقة. اتركه فارغاً لاستخدام الإفتراضي Klaro.</target>
+        <target state="final">تجاوز رابط "مدعوم بواسطة" في نافذة الموافقة. اتركه فارغًا لاستخدام افتراضي Klaro.</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.powered_by.placeholder" approved="yes">
         <source>https://example.com/your-link</source>
@@ -1001,7 +1001,7 @@
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.style_prefix.description" approved="yes">
         <source>Prefix for CSS classes/container to namespace Klaro styles.</source>
-        <target state="final">بادئة لفصول CSS / حاوية إلى أنماط Klaro الخاصة بالفضاء الاسم.</target>
+        <target state="final">بادئة لفئات CSS/الحاوية لعزل أنماط Klaro ضمن مساحة أسماء.</target>
       </trans-unit>
       <trans-unit id="tx_klaroconsentmanager_configuration.style_prefix.placeholder" approved="yes">
         <source>my-klaro</source>
