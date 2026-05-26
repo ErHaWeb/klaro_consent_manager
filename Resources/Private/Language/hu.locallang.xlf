@@ -4,11 +4,11 @@
     <body>
       <trans-unit id="acceptAll" approved="yes">
         <source>Accept all</source>
-        <target state="final">Mind elfogad</target>
+        <target state="final">Összes elfogadása</target>
       </trans-unit>
       <trans-unit id="acceptSelected" approved="yes">
         <source>Accept selected</source>
-        <target state="final">Kiválasztottat elfogad</target>
+        <target state="final">Kiválasztottak elfogadása</target>
       </trans-unit>
       <trans-unit id="close" approved="yes">
         <source>Close</source>
@@ -56,7 +56,7 @@
       </trans-unit>
       <trans-unit id="contextualConsent.descriptionEmptyStore" approved="yes">
         <source>To agree to this service permanently, you must accept {title} in the {link}.</source>
-        <target state="final">Ahhoz, hogy véglegesen elfogadja ezt a szolgáltatást, el kell fogadnia a {link} oldalon található {title} feltételeket.</target>
+        <target state="final">Ahhoz, hogy tartósan hozzájáruljon ehhez a szolgáltatáshoz, el kell fogadnia a(z) {title} szolgáltatást a {link} felületen.</target>
       </trans-unit>
       <trans-unit id="contextualConsent.modalLinkText" approved="yes">
         <source>Consent Manager</source>
@@ -72,11 +72,11 @@
       </trans-unit>
       <trans-unit id="poweredBy" approved="yes">
         <source>Realized with Klaro!</source>
-        <target state="final">Powered by Klaro!</target>
+        <target state="final">Klaro! segítségével megvalósítva</target>
       </trans-unit>
       <trans-unit id="privacyPolicy.name" approved="yes">
         <source>privacy policy</source>
-        <target state="final">adatvédelmi irányelvek</target>
+        <target state="final">adatvédelmi szabályzatunkat</target>
       </trans-unit>
       <trans-unit id="privacyPolicy.text" approved="yes">
         <source>To learn more, please read our {privacyPolicy}.</source>
@@ -84,7 +84,7 @@
       </trans-unit>
       <trans-unit id="purposeItem.service" approved="yes">
         <source>service</source>
-        <target state="final">szolgáltatás</target>
+        <target state="final">szolgáltatások</target>
       </trans-unit>
       <trans-unit id="purposeItem.services" approved="yes">
         <source>services</source>
@@ -144,7 +144,7 @@
       </trans-unit>
       <trans-unit id="service.purpose" approved="yes">
         <source>purpose</source>
-        <target state="final">célok</target>
+        <target state="final">cél</target>
       </trans-unit>
       <trans-unit id="service.purposes" approved="yes">
         <source>purposes</source>
@@ -244,7 +244,7 @@
       </trans-unit>
       <trans-unit id="services.adsense.description" approved="yes">
         <source>Google AdSense enables personalized ads on websites while respecting user privacy. By consenting, you allow relevant ads and help support free content.</source>
-        <target state="final">A Google AdSense lehetővé teszi a személyre szabott hirdetések megjelenítését a webhelyeken, miközben tiszteletben tartja a felhasználók adatainak védelmét. A hozzájárulásával releváns hirdetések megjelenítését engedélyezi, és ezzel támogat.</target>
+        <target state="final">A Google AdSense lehetővé teszi a személyre szabott hirdetések megjelenítését a webhelyeken, miközben tiszteletben tartja a felhasználók adatainak védelmét. A hozzájárulásával releváns hirdetések megjelenítését engedélyezi, és ezzel támogatja az ingyenes tartalmat.</target>
       </trans-unit>
       <trans-unit id="services.camera.title" approved="yes">
         <source>Surveillance Camera</source>
@@ -488,7 +488,7 @@
       </trans-unit>
       <trans-unit id="month" approved="yes">
         <source>Month</source>
-        <target state="final">Hónap</target>
+        <target state="final">Hónapok</target>
       </trans-unit>
       <trans-unit id="months" approved="yes">
         <source>Months</source>
@@ -496,7 +496,7 @@
       </trans-unit>
       <trans-unit id="day" approved="yes">
         <source>Day</source>
-        <target state="final">Nappal</target>
+        <target state="final">Nap</target>
       </trans-unit>
       <trans-unit id="days" approved="yes">
         <source>Days</source>
@@ -504,7 +504,7 @@
       </trans-unit>
       <trans-unit id="hour" approved="yes">
         <source>Hour</source>
-        <target state="final">Óra</target>
+        <target state="final">Órák</target>
       </trans-unit>
       <trans-unit id="hours" approved="yes">
         <source>Hours</source>
@@ -512,7 +512,7 @@
       </trans-unit>
       <trans-unit id="minute" approved="yes">
         <source>Minute</source>
-        <target state="final">Perc</target>
+        <target state="final">Percek</target>
       </trans-unit>
       <trans-unit id="minutes" approved="yes">
         <source>Minutes</source>
@@ -520,11 +520,11 @@
       </trans-unit>
       <trans-unit id="second" approved="yes">
         <source>Second</source>
-        <target state="final">Második</target>
+        <target state="final">Másodperc</target>
       </trans-unit>
       <trans-unit id="seconds" approved="yes">
         <source>Seconds</source>
-        <target state="final">Másodperc</target>
+        <target state="final">Másodpercek</target>
       </trans-unit>
       <trans-unit id="end-of-session" approved="yes">
         <source>End of session</source>
