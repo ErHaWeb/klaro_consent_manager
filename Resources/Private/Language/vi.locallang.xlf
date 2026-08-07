@@ -1,0 +1,547 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file source-language="en" original="EXT:klaro_consent_manager/Resources/Private/Language/locallang.xlf" datatype="plaintext" product-name="klaro_consent_manager" date="2025-10-13T15:15:27+02:00" target-language="vi">
+    <body>
+      <trans-unit id="acceptAll" approved="yes">
+        <source>Accept all</source>
+        <target state="final">Chấp nhận tất cả</target>
+      </trans-unit>
+      <trans-unit id="acceptSelected" approved="yes">
+        <source>Accept selected</source>
+        <target state="final">Chấp nhận mục đã chọn</target>
+      </trans-unit>
+      <trans-unit id="close" approved="yes">
+        <source>Close</source>
+        <target state="final">Đóng</target>
+      </trans-unit>
+      <trans-unit id="consentModal.description" approved="yes">
+        <source>Here you can assess and customize the services that we'd like to use on this website. You're in charge! Enable or disable services as you see fit.</source>
+        <target state="final">Tại đây bạn có thể xem xét và tùy chỉnh các dịch vụ mà chúng tôi muốn sử dụng trên trang web này. Bạn là người quyết định! Hãy bật hoặc tắt dịch vụ theo ý bạn.</target>
+      </trans-unit>
+      <trans-unit id="consentModal.title" approved="yes">
+        <source>Services we would like to use</source>
+        <target state="final">Các dịch vụ chúng tôi muốn sử dụng</target>
+      </trans-unit>
+      <trans-unit id="consentNotice.changeDescription" approved="yes">
+        <source>There were changes since your last visit, please renew your consent.</source>
+        <target state="final">Đã có thay đổi kể từ lần truy cập trước của bạn, vui lòng xác nhận lại sự đồng ý.</target>
+      </trans-unit>
+      <trans-unit id="consentNotice.description" approved="yes">
+        <source>Hi! Could we please enable some additional services for {purposes}? You can always change or withdraw your consent later.</source>
+        <target state="final">Xin chào! Chúng tôi có thể bật một số dịch vụ bổ sung cho {purposes} không? Bạn luôn có thể thay đổi hoặc rút lại sự đồng ý sau này.</target>
+      </trans-unit>
+      <trans-unit id="consentNotice.learnMore" approved="yes">
+        <source>Let me choose</source>
+        <target state="final">Để tôi chọn</target>
+      </trans-unit>
+      <trans-unit id="consentNotice.testing" approved="yes">
+        <source>Testing mode!</source>
+        <target state="final">Chế độ thử nghiệm!</target>
+      </trans-unit>
+      <trans-unit id="consentNotice.title" approved="yes">
+        <source>Cookie Consent</source>
+        <target state="final">Đồng ý cookie</target>
+      </trans-unit>
+      <trans-unit id="contextualConsent.acceptAlways" approved="yes">
+        <source>Always</source>
+        <target state="final">Luôn luôn</target>
+      </trans-unit>
+      <trans-unit id="contextualConsent.acceptOnce" approved="yes">
+        <source>Yes</source>
+        <target state="final">Có</target>
+      </trans-unit>
+      <trans-unit id="contextualConsent.description" approved="yes">
+        <source>Do you want to load external content supplied by {title}?</source>
+        <target state="final">Bạn có muốn tải nội dung bên ngoài do {title} cung cấp không?</target>
+      </trans-unit>
+      <trans-unit id="contextualConsent.descriptionEmptyStore" approved="yes">
+        <source>To agree to this service permanently, you must accept {title} in the {link}.</source>
+        <target state="final">Để đồng ý lâu dài với dịch vụ này, bạn phải chấp nhận {title} trong {link}.</target>
+      </trans-unit>
+      <trans-unit id="contextualConsent.modalLinkText" approved="yes">
+        <source>Consent Manager</source>
+        <target state="final">Trình quản lý đồng ý</target>
+      </trans-unit>
+      <trans-unit id="decline" approved="yes">
+        <source>I decline</source>
+        <target state="final">Tôi từ chối</target>
+      </trans-unit>
+      <trans-unit id="ok" approved="yes">
+        <source>That's ok</source>
+        <target state="final">Được rồi</target>
+      </trans-unit>
+      <trans-unit id="poweredBy" approved="yes">
+        <source>Realized with Klaro!</source>
+        <target state="final">Được thực hiện bằng Klaro!</target>
+      </trans-unit>
+      <trans-unit id="privacyPolicy.name" approved="yes">
+        <source>privacy policy</source>
+        <target state="final">chính sách quyền riêng tư</target>
+      </trans-unit>
+      <trans-unit id="privacyPolicy.text" approved="yes">
+        <source>To learn more, please read our {privacyPolicy}.</source>
+        <target state="final">Để tìm hiểu thêm, vui lòng đọc {privacyPolicy} của chúng tôi.</target>
+      </trans-unit>
+      <trans-unit id="purposeItem.service" approved="yes">
+        <source>service</source>
+        <target state="final">dịch vụ</target>
+      </trans-unit>
+      <trans-unit id="purposeItem.services" approved="yes">
+        <source>services</source>
+        <target state="final">dịch vụ</target>
+      </trans-unit>
+      <trans-unit id="purposes.advertising.description" approved="yes">
+        <source>These services process personal information to show you personalized or interest-based advertisements.</source>
+        <target state="final">Các dịch vụ này xử lý thông tin cá nhân để hiển thị cho bạn quảng cáo được cá nhân hóa hoặc dựa trên sở thích.</target>
+      </trans-unit>
+      <trans-unit id="purposes.advertising.title" approved="yes">
+        <source>Advertising</source>
+        <target state="final">Quảng cáo</target>
+      </trans-unit>
+      <trans-unit id="purposes.functional.description" approved="yes">
+        <source>These services are essential for the correct functioning of this website. You cannot disable them here as the service would not work correctly otherwise.</source>
+        <target state="final">Các dịch vụ này cần thiết để trang web này hoạt động chính xác. Bạn không thể tắt chúng tại đây vì nếu không dịch vụ sẽ không hoạt động đúng.</target>
+      </trans-unit>
+      <trans-unit id="purposes.functional.title" approved="yes">
+        <source>Service Provision</source>
+        <target state="final">Cung cấp dịch vụ</target>
+      </trans-unit>
+      <trans-unit id="purposes.marketing.description" approved="yes">
+        <source>These services process personal information to show you relevant content about products, services or topics that you might be interested in.</source>
+        <target state="final">Các dịch vụ này xử lý thông tin cá nhân để hiển thị cho bạn nội dung liên quan về sản phẩm, dịch vụ hoặc chủ đề mà bạn có thể quan tâm.</target>
+      </trans-unit>
+      <trans-unit id="purposes.marketing.title" approved="yes">
+        <source>Marketing</source>
+        <target state="final">Tiếp thị</target>
+      </trans-unit>
+      <trans-unit id="purposes.performance.description" approved="yes">
+        <source>These services process personal information to optimize the service that this website offers.</source>
+        <target state="final">Các dịch vụ này xử lý thông tin cá nhân để tối ưu hóa dịch vụ mà trang web này cung cấp.</target>
+      </trans-unit>
+      <trans-unit id="purposes.performance.title" approved="yes">
+        <source>Performance Optimization</source>
+        <target state="final">Tối ưu hóa hiệu suất</target>
+      </trans-unit>
+      <trans-unit id="save" approved="yes">
+        <source>Save</source>
+        <target state="final">Lưu</target>
+      </trans-unit>
+      <trans-unit id="service.disableAll.description" approved="yes">
+        <source>Use this switch to enable or disable all services.</source>
+        <target state="final">Dùng công tắc này để bật hoặc tắt tất cả dịch vụ.</target>
+      </trans-unit>
+      <trans-unit id="service.disableAll.title" approved="yes">
+        <source>Enable or disable all services</source>
+        <target state="final">Bật hoặc tắt tất cả dịch vụ</target>
+      </trans-unit>
+      <trans-unit id="service.optOut.description" approved="yes">
+        <source>This service is loaded by default (but you can opt out)</source>
+        <target state="final">Dịch vụ này được tải theo mặc định (nhưng bạn có thể từ chối)</target>
+      </trans-unit>
+      <trans-unit id="service.optOut.title" approved="yes">
+        <source>(opt-out)</source>
+        <target state="final">(từ chối)</target>
+      </trans-unit>
+      <trans-unit id="service.purpose" approved="yes">
+        <source>purpose</source>
+        <target state="final">mục đích</target>
+      </trans-unit>
+      <trans-unit id="service.purposes" approved="yes">
+        <source>purposes</source>
+        <target state="final">mục đích</target>
+      </trans-unit>
+      <trans-unit id="service.required.description" approved="yes">
+        <source>This service is always required</source>
+        <target state="final">Dịch vụ này luôn bắt buộc</target>
+      </trans-unit>
+      <trans-unit id="service.required.title" approved="yes">
+        <source>(always required)</source>
+        <target state="final">(luôn bắt buộc)</target>
+      </trans-unit>
+      <trans-unit id="purposes.analytics.title" approved="yes">
+        <source>Analytics</source>
+        <target state="final">Phân tích</target>
+      </trans-unit>
+      <trans-unit id="purposes.analytics.description" approved="yes">
+        <source>These services gather anonymous data for statistical analysis and performance optimization. Enabling analytics services assists website owners in making informed decisions to enhance online services.</source>
+        <target state="final">Các dịch vụ này thu thập dữ liệu ẩn danh để phân tích thống kê và tối ưu hóa hiệu suất. Việc bật các dịch vụ phân tích giúp chủ sở hữu trang web đưa ra quyết định sáng suốt để cải thiện dịch vụ trực tuyến.</target>
+      </trans-unit>
+      <trans-unit id="purposes.security.title" approved="yes">
+        <source>Security</source>
+        <target state="final">Bảo mật</target>
+      </trans-unit>
+      <trans-unit id="purposes.security.description" approved="yes">
+        <source>Security services are crucial for safeguarding your online experience. These services help protect your data and privacy by detecting and preventing security threats, such as malware, phishing attempts, and unauthorized access. They ensure a safer browsing environment.</source>
+        <target state="final">Các dịch vụ bảo mật rất quan trọng để bảo vệ trải nghiệm trực tuyến của bạn. Chúng giúp bảo vệ dữ liệu và quyền riêng tư của bạn bằng cách phát hiện và ngăn chặn các mối đe dọa bảo mật như phần mềm độc hại, nỗ lực lừa đảo và truy cập trái phép. Chúng đảm bảo môi trường duyệt web an toàn hơn.</target>
+      </trans-unit>
+      <trans-unit id="purposes.livechat.title" approved="yes">
+        <source>Live Chat</source>
+        <target state="final">Trò chuyện trực tiếp</target>
+      </trans-unit>
+      <trans-unit id="purposes.livechat.description" approved="yes">
+        <source>Live chat services enable real-time communication with website support teams. They offer a convenient way to ask questions, seek assistance, or engage in discussions while browsing a website. Live chat enhances your online interaction and customer support experience.</source>
+        <target state="final">Các dịch vụ trò chuyện trực tiếp cho phép giao tiếp theo thời gian thực với đội ngũ hỗ trợ trang web. Chúng cung cấp cách thuận tiện để đặt câu hỏi, nhận trợ giúp hoặc trao đổi trong khi duyệt trang web. Trò chuyện trực tiếp nâng cao trải nghiệm tương tác trực tuyến và hỗ trợ khách hàng của bạn.</target>
+      </trans-unit>
+      <trans-unit id="purposes.styling.title" approved="yes">
+        <source>Styling</source>
+        <target state="final">Tạo kiểu</target>
+      </trans-unit>
+      <trans-unit id="purposes.styling.description" approved="yes">
+        <source>Services related to styling help to improve the appearance of the website. This can also have an impact on usability.</source>
+        <target state="final">Các dịch vụ liên quan đến kiểu hiển thị giúp cải thiện diện mạo của trang web. Điều này cũng có thể ảnh hưởng đến khả năng sử dụng.</target>
+      </trans-unit>
+      <trans-unit id="purposes.videos.title" approved="yes">
+        <source>Videos</source>
+        <target state="final">Video</target>
+      </trans-unit>
+      <trans-unit id="purposes.videos.description" approved="yes">
+        <source>Embedding videos from external platforms to enrich the content on this website.</source>
+        <target state="final">Nhúng video từ các nền tảng bên ngoài để làm phong phú nội dung trên trang web này.</target>
+      </trans-unit>
+      <trans-unit id="purposes.social.title" approved="yes">
+        <source>Social Media</source>
+        <target state="final">Mạng xã hội</target>
+      </trans-unit>
+      <trans-unit id="purposes.social.description" approved="yes">
+        <source>Embedding social media from external platforms to enrich the content on this website.</source>
+        <target state="final">Nhúng mạng xã hội từ các nền tảng bên ngoài để làm phong phú nội dung trên trang web này.</target>
+      </trans-unit>
+      <trans-unit id="purposes.misc.title" approved="yes">
+        <source>Miscellaneous</source>
+        <target state="final">Khác</target>
+      </trans-unit>
+      <trans-unit id="purposes.misc.description" approved="yes">
+        <source>This includes services that do not fall under the other purposes.</source>
+        <target state="final">Mục này bao gồm các dịch vụ không thuộc các mục đích khác.</target>
+      </trans-unit>
+      <trans-unit id="consentManager.show" approved="yes">
+        <source>Show Consent Manager</source>
+        <target state="final">Hiển thị trình quản lý đồng ý</target>
+      </trans-unit>
+      <trans-unit id="consentManager.show.title" approved="yes">
+        <source>Show Consent Manager</source>
+        <target state="final">Hiển thị trình quản lý đồng ý</target>
+      </trans-unit>
+      <trans-unit id="consentManager.reset" approved="yes">
+        <source>Reset Consent Manager</source>
+        <target state="final">Đặt lại trình quản lý đồng ý</target>
+      </trans-unit>
+      <trans-unit id="consentManager.reset.title" approved="yes">
+        <source>Reset Consent Manager</source>
+        <target state="final">Đặt lại trình quản lý đồng ý</target>
+      </trans-unit>
+      <trans-unit id="services.adobe-fonts.title" approved="yes">
+        <source>Adobe Fonts</source>
+        <target state="final">Adobe Fonts</target>
+      </trans-unit>
+      <trans-unit id="services.adobe-fonts.description" approved="yes">
+        <source>Adobe Fonts provides web fonts used for this website. When enabled, font files are loaded from Adobe and technical connection data may be processed.</source>
+        <target state="final">Adobe Fonts cung cấp phông chữ web được sử dụng cho trang web này. Khi được bật, các tệp phông chữ được tải từ Adobe và dữ liệu kết nối kỹ thuật có thể được xử lý.</target>
+      </trans-unit>
+      <trans-unit id="services.adsense.title" approved="yes">
+        <source>Google AdSense</source>
+        <target state="final">Google AdSense</target>
+      </trans-unit>
+      <trans-unit id="services.adsense.description" approved="yes">
+        <source>Google AdSense enables personalized ads on websites while respecting user privacy. By consenting, you allow relevant ads and help support free content.</source>
+        <target state="final">Google AdSense cho phép quảng cáo được cá nhân hóa trên trang web đồng thời tôn trọng quyền riêng tư của người dùng. Khi đồng ý, bạn cho phép quảng cáo phù hợp và giúp hỗ trợ nội dung miễn phí.</target>
+      </trans-unit>
+      <trans-unit id="services.camera.title" approved="yes">
+        <source>Surveillance Camera</source>
+        <target state="final">Camera giám sát</target>
+      </trans-unit>
+      <trans-unit id="services.camera.description" approved="yes">
+        <source>Consent to the use of surveillance camera images for security and safety purposes, in compliance with applicable data privacy regulations.</source>
+        <target state="final">Đồng ý sử dụng hình ảnh từ camera giám sát cho mục đích an ninh và an toàn, phù hợp với các quy định bảo vệ dữ liệu hiện hành.</target>
+      </trans-unit>
+      <trans-unit id="services.career-captain.title" approved="yes">
+        <source>Career Captain</source>
+        <target state="final">Career Captain</target>
+      </trans-unit>
+      <trans-unit id="services.career-captain.description" approved="yes">
+        <source>Career Captain provides gamified career orientation and recruiting content. When enabled, external content from Career Captain may process usage and technical connection data.</source>
+        <target state="final">Career Captain cung cấp nội dung định hướng nghề nghiệp và tuyển dụng theo hình thức trò chơi hóa. Khi được bật, nội dung bên ngoài từ Career Captain có thể xử lý dữ liệu sử dụng và dữ liệu kết nối kỹ thuật.</target>
+      </trans-unit>
+      <trans-unit id="services.clarity.title" approved="yes">
+        <source>Microsoft Clarity</source>
+        <target state="final">Microsoft Clarity</target>
+      </trans-unit>
+      <trans-unit id="services.clarity.description" approved="yes">
+        <source>Microsoft Clarity is a user-friendly web analytics tool that empowers website visitors like you by providing transparency about how your interactions are tracked on a website. It ensures your privacy is respected while giving developers and website owners valuable insights into user behavior. Plus, it follows coding guidelines and best practices, ensuring a safe and secure online experience for you.</source>
+        <target state="final">Microsoft Clarity là công cụ phân tích web thân thiện với người dùng, giúp khách truy cập trang web như bạn hiểu rõ cách các tương tác của mình được theo dõi trên trang web. Công cụ này tôn trọng quyền riêng tư của bạn đồng thời cung cấp cho nhà phát triển và chủ sở hữu trang web những thông tin giá trị về hành vi người dùng. Ngoài ra, nó tuân theo các hướng dẫn lập trình và thông lệ tốt nhất, giúp mang lại trải nghiệm trực tuyến an toàn và bảo mật cho bạn.</target>
+      </trans-unit>
+      <trans-unit id="services.cloudflare.title" approved="yes">
+        <source>Cloudflare</source>
+        <target state="final">Cloudflare</target>
+      </trans-unit>
+      <trans-unit id="services.cloudflare.description" approved="yes">
+        <source>Cloudflare helps protect and optimize websites. By using this website, you consent to Cloudflare's data processing practices as described in its Privacy Policy.</source>
+        <target state="final">Cloudflare giúp bảo vệ và tối ưu hóa trang web. Khi sử dụng trang web này, bạn đồng ý với các hoạt động xử lý dữ liệu của Cloudflare như được mô tả trong Chính sách quyền riêng tư của Cloudflare.</target>
+      </trans-unit>
+      <trans-unit id="services.external-tracker.title" approved="yes">
+        <source>External Tracker</source>
+        <target state="final">Trình theo dõi bên ngoài</target>
+      </trans-unit>
+      <trans-unit id="services.external-tracker.description" approved="yes">
+        <source>External tracking script</source>
+        <target state="final">Tập lệnh theo dõi bên ngoài</target>
+      </trans-unit>
+      <trans-unit id="services.facebook-pixel.title" approved="yes">
+        <source>Facebook Pixel</source>
+        <target state="final">Facebook Pixel</target>
+      </trans-unit>
+      <trans-unit id="services.facebook-pixel.description" approved="yes">
+        <source>Simplifies web tracking for analytics and marketing while ensuring data compliance and control.</source>
+        <target state="final">Đơn giản hóa việc theo dõi web cho phân tích và tiếp thị, đồng thời đảm bảo tuân thủ và kiểm soát dữ liệu.</target>
+      </trans-unit>
+      <trans-unit id="services.fast-fonts.title" approved="yes">
+        <source>Fast Fonts</source>
+        <target state="final">Fast Fonts</target>
+      </trans-unit>
+      <trans-unit id="services.fast-fonts.description" approved="yes">
+        <source>Fast Fonts, operated by fonts.com and supplied by fast.fonts.net, is a service for the provision of web fonts. It requires the use of a pixel-code for continuous price calculation.</source>
+        <target state="final">Fast Fonts, do fonts.com vận hành và được cung cấp bởi fast.fonts.net, là dịch vụ cung cấp phông chữ web. Dịch vụ này yêu cầu sử dụng mã pixel để tính giá liên tục.</target>
+      </trans-unit>
+      <trans-unit id="services.google-ads.title" approved="yes">
+        <source>Google Ads</source>
+        <target state="final">Google Ads</target>
+      </trans-unit>
+      <trans-unit id="services.google-ads.description" approved="yes">
+        <source>Google Ads allows advertisers to reach their target audience online. To personalize ads and measure their effectiveness, Google may collect data with your consent.</source>
+        <target state="final">Google Ads cho phép nhà quảng cáo tiếp cận đối tượng mục tiêu trực tuyến. Để cá nhân hóa quảng cáo và đo lường hiệu quả, Google có thể thu thập dữ liệu khi có sự đồng ý của bạn.</target>
+      </trans-unit>
+      <trans-unit id="services.google-analytics.title" approved="yes">
+        <source>Google Analytics</source>
+        <target state="final">Google Analytics</target>
+      </trans-unit>
+      <trans-unit id="services.google-analytics.description" approved="yes">
+        <source>Web analytics service provided by Google, Inc. ("Google")</source>
+        <target state="final">Dịch vụ phân tích web do Google, Inc. ("Google") cung cấp</target>
+      </trans-unit>
+      <trans-unit id="services.google-fonts.title" approved="yes">
+        <source>Google Fonts</source>
+        <target state="final">Google Fonts</target>
+      </trans-unit>
+      <trans-unit id="services.google-fonts.description" approved="yes">
+        <source>Web fonts hosted by Google</source>
+        <target state="final">Phông chữ web được Google lưu trữ</target>
+      </trans-unit>
+      <trans-unit id="services.google-maps.title" approved="yes">
+        <source>Google Maps</source>
+        <target state="final">Google Maps</target>
+      </trans-unit>
+      <trans-unit id="services.google-maps.description" approved="yes">
+        <source>Google Maps allows for the integration of interactive maps on websites, enabling location-based services. Developers can utilize it while ensuring data compliance and control, adhering to coding guidelines and best practices.</source>
+        <target state="final">Google Maps cho phép tích hợp bản đồ tương tác trên trang web, hỗ trợ các dịch vụ dựa trên vị trí. Nhà phát triển có thể sử dụng dịch vụ này đồng thời đảm bảo tuân thủ và kiểm soát dữ liệu, tuân theo các hướng dẫn lập trình và thông lệ tốt nhất.</target>
+      </trans-unit>
+      <trans-unit id="services.google-tag-manager.title" approved="yes">
+        <source>Google Tag Manager</source>
+        <target state="final">Google Tag Manager</target>
+      </trans-unit>
+      <trans-unit id="services.google-tag-manager.description" approved="yes">
+        <source>Google Tag Manager streamlines web tracking and code management, ensuring data compliance and control for developers.</source>
+        <target state="final">Google Tag Manager hợp lý hóa việc theo dõi web và quản lý mã, đồng thời đảm bảo tuân thủ và kiểm soát dữ liệu cho nhà phát triển.</target>
+      </trans-unit>
+      <trans-unit id="services.inline-tracker.title" approved="yes">
+        <source>Inline Tracker</source>
+        <target state="final">Trình theo dõi nội tuyến</target>
+      </trans-unit>
+      <trans-unit id="services.inline-tracker.description" approved="yes">
+        <source>Inline tracking script</source>
+        <target state="final">Tập lệnh theo dõi nội tuyến</target>
+      </trans-unit>
+      <trans-unit id="services.instagram.title" approved="yes">
+        <source>Instagram</source>
+        <target state="final">Instagram</target>
+      </trans-unit>
+      <trans-unit id="services.instagram.description" approved="yes">
+        <source>Allows Instagram posts to be embedded. Personal data may be transferred to Instagram (Meta Platforms) in the process.</source>
+        <target state="final">Cho phép nhúng bài đăng Instagram. Dữ liệu cá nhân có thể được chuyển đến Instagram (Meta Platforms) trong quá trình này.</target>
+      </trans-unit>
+      <trans-unit id="services.intercom.title" approved="yes">
+        <source>Intercom</source>
+        <target state="final">Intercom</target>
+      </trans-unit>
+      <trans-unit id="services.intercom.description" approved="yes">
+        <source>Chat widget and collecting of visitor statistics</source>
+        <target state="final">Tiện ích trò chuyện và thu thập thống kê khách truy cập</target>
+      </trans-unit>
+      <trans-unit id="services.klaro.title" approved="yes">
+        <source>Klaro!</source>
+        <target state="final">Klaro!</target>
+      </trans-unit>
+      <trans-unit id="services.klaro.description" approved="yes">
+        <source>Klaro! manages consent choices for this website and stores whether individual services may be loaded according to your preferences.</source>
+        <target state="final">Klaro! quản lý các lựa chọn đồng ý cho trang web này và lưu trữ việc từng dịch vụ có thể được tải theo tùy chọn của bạn hay không.</target>
+      </trans-unit>
+      <trans-unit id="services.matomo.title" approved="yes">
+        <source>Matomo/Piwik</source>
+        <target state="final">Matomo/Piwik</target>
+      </trans-unit>
+      <trans-unit id="services.matomo.description" approved="yes">
+        <source>Open source software for statistical analysis of visitor accesses</source>
+        <target state="final">Phần mềm mã nguồn mở để phân tích thống kê lượt truy cập của khách truy cập</target>
+      </trans-unit>
+      <trans-unit id="services.mouseflow.title" approved="yes">
+        <source>Mouseflow</source>
+        <target state="final">Mouseflow</target>
+      </trans-unit>
+      <trans-unit id="services.mouseflow.description" approved="yes">
+        <source>Real-time user analytics service that helps to understand how visitors interact with our website.</source>
+        <target state="final">Dịch vụ phân tích người dùng theo thời gian thực giúp hiểu cách khách truy cập tương tác với trang web của chúng tôi.</target>
+      </trans-unit>
+      <trans-unit id="services.salesviewer.title" approved="yes">
+        <source>SalesViewer</source>
+        <target state="final">SalesViewer</target>
+      </trans-unit>
+      <trans-unit id="services.salesviewer.description" approved="yes">
+        <source>SalesViewer analyzes website visits for B2B lead generation and may identify company-related visitor information based on usage and technical access data.</source>
+        <target state="final">SalesViewer phân tích lượt truy cập trang web để tạo khách hàng tiềm năng B2B và có thể xác định thông tin khách truy cập liên quan đến công ty dựa trên dữ liệu sử dụng và dữ liệu truy cập kỹ thuật.</target>
+      </trans-unit>
+      <trans-unit id="services.tiktok.title" approved="yes">
+        <source>TikTok</source>
+        <target state="final">TikTok</target>
+      </trans-unit>
+      <trans-unit id="services.tiktok.description" approved="yes">
+        <source>Allows TikTok videos to be embedded. Personal data may be transferred to TikTok and processed in third countries.</source>
+        <target state="final">Cho phép nhúng video TikTok. Dữ liệu cá nhân có thể được chuyển đến TikTok và được xử lý tại các nước thứ ba.</target>
+      </trans-unit>
+      <trans-unit id="services.twitter.title" approved="yes">
+        <source>X (formerly Twitter)</source>
+        <target state="final">X (trước đây là Twitter)</target>
+      </trans-unit>
+      <trans-unit id="services.twitter.description" approved="yes">
+        <source>X (formerly Twitter) is a social media platform that allows users to share and interact with short messages and multimedia content. Developers can integrate Twitter features into websites to enhance user engagement and real-time updates while maintaining data privacy compliance and adhering to coding guidelines.</source>
+        <target state="final">X (trước đây là Twitter) là nền tảng mạng xã hội cho phép người dùng chia sẻ và tương tác với các tin nhắn ngắn cũng như nội dung đa phương tiện. Nhà phát triển có thể tích hợp các tính năng Twitter vào trang web để tăng tương tác người dùng và cập nhật theo thời gian thực, đồng thời vẫn duy trì tuân thủ quyền riêng tư dữ liệu và các hướng dẫn lập trình.</target>
+      </trans-unit>
+      <trans-unit id="services.userlike.title" approved="yes">
+        <source>Userlike</source>
+        <target state="final">Userlike</target>
+      </trans-unit>
+      <trans-unit id="services.userlike.description" approved="yes">
+        <source>Userlike offers a live chat solution that enhances user interactions on websites.</source>
+        <target state="final">Userlike cung cấp giải pháp trò chuyện trực tiếp giúp tăng cường tương tác của người dùng trên trang web.</target>
+      </trans-unit>
+      <trans-unit id="services.vimeo.title" approved="yes">
+        <source>Vimeo</source>
+        <target state="final">Vimeo</target>
+      </trans-unit>
+      <trans-unit id="services.vimeo.description" approved="yes">
+        <source>Popular video-sharing platform that offers a range of features for creators and developers to enhance video content on websites.</source>
+        <target state="final">Nền tảng chia sẻ video phổ biến cung cấp nhiều tính năng cho người sáng tạo và nhà phát triển để nâng cao nội dung video trên trang web.</target>
+      </trans-unit>
+      <trans-unit id="services.youtube.title" approved="yes">
+        <source>YouTube</source>
+        <target state="final">YouTube</target>
+      </trans-unit>
+      <trans-unit id="services.youtube.description" approved="yes">
+        <source>The leading video-sharing platform for content creators and developers to enhance user experiences on websites.</source>
+        <target state="final">Nền tảng chia sẻ video hàng đầu dành cho người sáng tạo nội dung và nhà phát triển để nâng cao trải nghiệm người dùng trên trang web.</target>
+      </trans-unit>
+      <trans-unit id="consentModal.privacyPolicy.name" approved="yes">
+        <source>Privacy policy</source>
+        <target state="final">Chính sách quyền riêng tư</target>
+      </trans-unit>
+      <trans-unit id="consentModal.privacyPolicy.text" approved="yes">
+        <source>To learn more, please read our {privacyPolicy}.</source>
+        <target state="final">Để tìm hiểu thêm, vui lòng đọc {privacyPolicy} của chúng tôi.</target>
+      </trans-unit>
+      <trans-unit id="consentNotice.imprint.name" approved="yes">
+        <source>Imprint</source>
+        <target state="final">Thông tin pháp lý</target>
+      </trans-unit>
+      <trans-unit id="consentNotice.privacyPolicy.name" approved="yes">
+        <source>Privacy policy</source>
+        <target state="final">Chính sách quyền riêng tư</target>
+      </trans-unit>
+      <trans-unit id="cookies.title" approved="yes">
+        <source>Cookies</source>
+        <target state="final">Cookie</target>
+      </trans-unit>
+      <trans-unit id="cookies.description" approved="yes">
+        <source>Below you will find a list of all cookies used by %s</source>
+        <target state="final">Dưới đây là danh sách tất cả cookie được %s sử dụng</target>
+      </trans-unit>
+      <trans-unit id="cookies.headline.name" approved="yes">
+        <source>Name / Pattern</source>
+        <target state="final">Tên / mẫu</target>
+      </trans-unit>
+      <trans-unit id="cookies.headline.path" approved="yes">
+        <source>Path</source>
+        <target state="final">Đường dẫn</target>
+      </trans-unit>
+      <trans-unit id="cookies.headline.domain" approved="yes">
+        <source>Domain</source>
+        <target state="final">Miền</target>
+      </trans-unit>
+      <trans-unit id="cookies.headline.expiresAfter" approved="yes">
+        <source>Expires after</source>
+        <target state="final">Hết hạn sau</target>
+      </trans-unit>
+      <trans-unit id="year" approved="yes">
+        <source>Year</source>
+        <target state="final">Năm</target>
+      </trans-unit>
+      <trans-unit id="years" approved="yes">
+        <source>Years</source>
+        <target state="final">Năm</target>
+      </trans-unit>
+      <trans-unit id="month" approved="yes">
+        <source>Month</source>
+        <target state="final">Tháng</target>
+      </trans-unit>
+      <trans-unit id="months" approved="yes">
+        <source>Months</source>
+        <target state="final">Tháng</target>
+      </trans-unit>
+      <trans-unit id="day" approved="yes">
+        <source>Day</source>
+        <target state="final">Ngày</target>
+      </trans-unit>
+      <trans-unit id="days" approved="yes">
+        <source>Days</source>
+        <target state="final">Ngày</target>
+      </trans-unit>
+      <trans-unit id="hour" approved="yes">
+        <source>Hour</source>
+        <target state="final">Giờ</target>
+      </trans-unit>
+      <trans-unit id="hours" approved="yes">
+        <source>Hours</source>
+        <target state="final">Giờ</target>
+      </trans-unit>
+      <trans-unit id="minute" approved="yes">
+        <source>Minute</source>
+        <target state="final">Phút</target>
+      </trans-unit>
+      <trans-unit id="minutes" approved="yes">
+        <source>Minutes</source>
+        <target state="final">Phút</target>
+      </trans-unit>
+      <trans-unit id="second" approved="yes">
+        <source>Second</source>
+        <target state="final">Giây</target>
+      </trans-unit>
+      <trans-unit id="seconds" approved="yes">
+        <source>Seconds</source>
+        <target state="final">Giây</target>
+      </trans-unit>
+      <trans-unit id="end-of-session" approved="yes">
+        <source>End of session</source>
+        <target state="final">Kết thúc phiên</target>
+      </trans-unit>
+      <trans-unit id="persistent" approved="yes">
+        <source>persistent</source>
+        <target state="final">lâu dài</target>
+      </trans-unit>
+      <trans-unit id="warning.noServices" approved="yes">
+        <source>Why don't I see a Klaro! Modal? → You must assign at least 1 service to the Klaro! configuration! Without services, we don't need consent management at all.</source>
+        <target state="final">Tại sao tôi không thấy Modal Klaro!? → Bạn phải gán ít nhất 1 dịch vụ cho cấu hình Klaro! Nếu không có dịch vụ, chúng ta hoàn toàn không cần quản lý đồng ý.</target>
+      </trans-unit>
+      <trans-unit id="warning.noServicesPersonalized" approved="yes">
+        <source>Hey %s! You missed a service in the config! Without services, we don't need consent management at all.</source>
+        <target state="final">Xin chào %s! Bạn đã thiếu một dịch vụ trong cấu hình! Nếu không có dịch vụ, chúng ta hoàn toàn không cần quản lý đồng ý.</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

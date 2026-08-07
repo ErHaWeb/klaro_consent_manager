@@ -1,0 +1,547 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file source-language="en" original="EXT:klaro_consent_manager/Resources/Private/Language/locallang.xlf" datatype="plaintext" product-name="klaro_consent_manager" date="2025-10-13T15:15:27+02:00" target-language="rw">
+    <body>
+      <trans-unit id="acceptAll" approved="yes">
+        <source>Accept all</source>
+        <target state="final">Emera byose</target>
+      </trans-unit>
+      <trans-unit id="acceptSelected" approved="yes">
+        <source>Accept selected</source>
+        <target state="final">Emera ibyatoranyijwe</target>
+      </trans-unit>
+      <trans-unit id="close" approved="yes">
+        <source>Close</source>
+        <target state="final">Funga</target>
+      </trans-unit>
+      <trans-unit id="consentModal.description" approved="yes">
+        <source>Here you can assess and customize the services that we'd like to use on this website. You're in charge! Enable or disable services as you see fit.</source>
+        <target state="final">Hano ushobora gusuzuma no guhindura serivisi twifuza gukoresha kuri uru rubuga. Ni wowe ufata icyemezo! Emerera cyangwa uhagarike serivisi uko ubishaka.</target>
+      </trans-unit>
+      <trans-unit id="consentModal.title" approved="yes">
+        <source>Services we would like to use</source>
+        <target state="final">Serivisi twifuza gukoresha</target>
+      </trans-unit>
+      <trans-unit id="consentNotice.changeDescription" approved="yes">
+        <source>There were changes since your last visit, please renew your consent.</source>
+        <target state="final">Hari ibyahindutse kuva uheruka gusura; nyamuneka ongera wemeze.</target>
+      </trans-unit>
+      <trans-unit id="consentNotice.description" approved="yes">
+        <source>Hi! Could we please enable some additional services for {purposes}? You can always change or withdraw your consent later.</source>
+        <target state="final">Muraho! Ese twakoresha izindi serivisi z’inyongera za {purposes}? Ushobora guhindura cyangwa gukuraho ubwumvikane bwawe nyuma.</target>
+      </trans-unit>
+      <trans-unit id="consentNotice.learnMore" approved="yes">
+        <source>Let me choose</source>
+        <target state="final">Reka mpitemo</target>
+      </trans-unit>
+      <trans-unit id="consentNotice.testing" approved="yes">
+        <source>Testing mode!</source>
+        <target state="final">Uburyo bwo kugerageza!</target>
+      </trans-unit>
+      <trans-unit id="consentNotice.title" approved="yes">
+        <source>Cookie Consent</source>
+        <target state="final">Kwemera kuki</target>
+      </trans-unit>
+      <trans-unit id="contextualConsent.acceptAlways" approved="yes">
+        <source>Always</source>
+        <target state="final">Buri gihe</target>
+      </trans-unit>
+      <trans-unit id="contextualConsent.acceptOnce" approved="yes">
+        <source>Yes</source>
+        <target state="final">Yego</target>
+      </trans-unit>
+      <trans-unit id="contextualConsent.description" approved="yes">
+        <source>Do you want to load external content supplied by {title}?</source>
+        <target state="final">Urashaka gufungura ibirimo byo hanze bitangwa na {title}?</target>
+      </trans-unit>
+      <trans-unit id="contextualConsent.descriptionEmptyStore" approved="yes">
+        <source>To agree to this service permanently, you must accept {title} in the {link}.</source>
+        <target state="final">Kugira ngo wemere iyi serivisi ku buryo buhoraho, ugomba kwemera {title} muri {link}.</target>
+      </trans-unit>
+      <trans-unit id="contextualConsent.modalLinkText" approved="yes">
+        <source>Consent Manager</source>
+        <target state="final">Umuyobozi w’ubwumvikane</target>
+      </trans-unit>
+      <trans-unit id="decline" approved="yes">
+        <source>I decline</source>
+        <target state="final">Ndanze</target>
+      </trans-unit>
+      <trans-unit id="ok" approved="yes">
+        <source>That's ok</source>
+        <target state="final">Ni sawa</target>
+      </trans-unit>
+      <trans-unit id="poweredBy" approved="yes">
+        <source>Realized with Klaro!</source>
+        <target state="final">Byakozwe hifashishijwe Klaro!</target>
+      </trans-unit>
+      <trans-unit id="privacyPolicy.name" approved="yes">
+        <source>privacy policy</source>
+        <target state="final">politiki y’ibanga</target>
+      </trans-unit>
+      <trans-unit id="privacyPolicy.text" approved="yes">
+        <source>To learn more, please read our {privacyPolicy}.</source>
+        <target state="final">Kugira ngo umenye byinshi, soma {privacyPolicy} yacu.</target>
+      </trans-unit>
+      <trans-unit id="purposeItem.service" approved="yes">
+        <source>service</source>
+        <target state="final">serivisi</target>
+      </trans-unit>
+      <trans-unit id="purposeItem.services" approved="yes">
+        <source>services</source>
+        <target state="final">serivisi</target>
+      </trans-unit>
+      <trans-unit id="purposes.advertising.description" approved="yes">
+        <source>These services process personal information to show you personalized or interest-based advertisements.</source>
+        <target state="final">Izi serivisi zitunganya amakuru bwite kugira ngo zikwereke amatangazo yamamaza yagenewe wowe cyangwa ajyanye n’ibyo ukunda.</target>
+      </trans-unit>
+      <trans-unit id="purposes.advertising.title" approved="yes">
+        <source>Advertising</source>
+        <target state="final">Kwamamaza</target>
+      </trans-unit>
+      <trans-unit id="purposes.functional.description" approved="yes">
+        <source>These services are essential for the correct functioning of this website. You cannot disable them here as the service would not work correctly otherwise.</source>
+        <target state="final">Izi serivisi ni ngombwa kugira ngo uru rubuga rukore neza. Ntushobora kuzikuraho hano kuko bitabaye ibyo serivisi itakora neza.</target>
+      </trans-unit>
+      <trans-unit id="purposes.functional.title" approved="yes">
+        <source>Service Provision</source>
+        <target state="final">Gutanga serivisi</target>
+      </trans-unit>
+      <trans-unit id="purposes.marketing.description" approved="yes">
+        <source>These services process personal information to show you relevant content about products, services or topics that you might be interested in.</source>
+        <target state="final">Izi serivisi zitunganya amakuru bwite kugira ngo zikwereke ibirimo bijyanye n’ibicuruzwa, serivisi cyangwa ingingo ushobora kuba ukunda.</target>
+      </trans-unit>
+      <trans-unit id="purposes.marketing.title" approved="yes">
+        <source>Marketing</source>
+        <target state="final">Kwamamaza ibicuruzwa</target>
+      </trans-unit>
+      <trans-unit id="purposes.performance.description" approved="yes">
+        <source>These services process personal information to optimize the service that this website offers.</source>
+        <target state="final">Izi serivisi zitunganya amakuru bwite kugira ngo zinoze serivisi uru rubuga rutanga.</target>
+      </trans-unit>
+      <trans-unit id="purposes.performance.title" approved="yes">
+        <source>Performance Optimization</source>
+        <target state="final">Kunoza imikorere</target>
+      </trans-unit>
+      <trans-unit id="save" approved="yes">
+        <source>Save</source>
+        <target state="final">Bika</target>
+      </trans-unit>
+      <trans-unit id="service.disableAll.description" approved="yes">
+        <source>Use this switch to enable or disable all services.</source>
+        <target state="final">Koresha aka kabuto kugira ngo wemere cyangwa uhagarike serivisi zose.</target>
+      </trans-unit>
+      <trans-unit id="service.disableAll.title" approved="yes">
+        <source>Enable or disable all services</source>
+        <target state="final">Emera cyangwa uhagarike serivisi zose</target>
+      </trans-unit>
+      <trans-unit id="service.optOut.description" approved="yes">
+        <source>This service is loaded by default (but you can opt out)</source>
+        <target state="final">Iyi serivisi ifungurwa ku buryo mburabuzi (ariko ushobora kuyanga)</target>
+      </trans-unit>
+      <trans-unit id="service.optOut.title" approved="yes">
+        <source>(opt-out)</source>
+        <target state="final">(kwanga)</target>
+      </trans-unit>
+      <trans-unit id="service.purpose" approved="yes">
+        <source>purpose</source>
+        <target state="final">intego</target>
+      </trans-unit>
+      <trans-unit id="service.purposes" approved="yes">
+        <source>purposes</source>
+        <target state="final">intego</target>
+      </trans-unit>
+      <trans-unit id="service.required.description" approved="yes">
+        <source>This service is always required</source>
+        <target state="final">Iyi serivisi ihora isabwa</target>
+      </trans-unit>
+      <trans-unit id="service.required.title" approved="yes">
+        <source>(always required)</source>
+        <target state="final">(ihora isabwa)</target>
+      </trans-unit>
+      <trans-unit id="purposes.analytics.title" approved="yes">
+        <source>Analytics</source>
+        <target state="final">Isesengura</target>
+      </trans-unit>
+      <trans-unit id="purposes.analytics.description" approved="yes">
+        <source>These services gather anonymous data for statistical analysis and performance optimization. Enabling analytics services assists website owners in making informed decisions to enhance online services.</source>
+        <target state="final">Izi serivisi zegeranya amakuru atagaragaza umuntu kugira ngo hakorwe isesengura ry’imibare no kunoza imikorere. Kwemera serivisi z’isesengura bifasha ba nyiri imbuga gufata ibyemezo bishingiye ku makuru kugira ngo bateze imbere serivisi zo kuri internet.</target>
+      </trans-unit>
+      <trans-unit id="purposes.security.title" approved="yes">
+        <source>Security</source>
+        <target state="final">Umutekano</target>
+      </trans-unit>
+      <trans-unit id="purposes.security.description" approved="yes">
+        <source>Security services are crucial for safeguarding your online experience. These services help protect your data and privacy by detecting and preventing security threats, such as malware, phishing attempts, and unauthorized access. They ensure a safer browsing environment.</source>
+        <target state="final">Serivisi z’umutekano ni ingenzi mu kurinda uko ukoresha internet. Izi serivisi zifasha kurinda amakuru yawe n’ibanga ryawe zimenya kandi zikabuza ibyago by’umutekano nka malware, uburiganya bwa phishing, n’ukwinjira kutemewe. Zituma habaho ahantu ho gusura internet hatekanye kurushaho.</target>
+      </trans-unit>
+      <trans-unit id="purposes.livechat.title" approved="yes">
+        <source>Live Chat</source>
+        <target state="final">Ikiganiro kizima</target>
+      </trans-unit>
+      <trans-unit id="purposes.livechat.description" approved="yes">
+        <source>Live chat services enable real-time communication with website support teams. They offer a convenient way to ask questions, seek assistance, or engage in discussions while browsing a website. Live chat enhances your online interaction and customer support experience.</source>
+        <target state="final">Serivisi z’ikiganiro kizima zituma habaho itumanaho ryo ako kanya n’amatsinda ashinzwe gufasha ku rubuga. Zitanga uburyo bworoshye bwo kubaza ibibazo, gusaba ubufasha cyangwa kuganira mu gihe usura urubuga. Ikiganiro kizima cyongera imikoranire yawe yo kuri internet n’ubunararibonye bwo gufashwa nk’umukiriya.</target>
+      </trans-unit>
+      <trans-unit id="purposes.styling.title" approved="yes">
+        <source>Styling</source>
+        <target state="final">Gutegura isura</target>
+      </trans-unit>
+      <trans-unit id="purposes.styling.description" approved="yes">
+        <source>Services related to styling help to improve the appearance of the website. This can also have an impact on usability.</source>
+        <target state="final">Serivisi zijyanye no gutegura isura zifasha kunoza uko urubuga rugaragara. Ibi bishobora no kugira ingaruka ku buryo rukoreshwa.</target>
+      </trans-unit>
+      <trans-unit id="purposes.videos.title" approved="yes">
+        <source>Videos</source>
+        <target state="final">Amavidewo</target>
+      </trans-unit>
+      <trans-unit id="purposes.videos.description" approved="yes">
+        <source>Embedding videos from external platforms to enrich the content on this website.</source>
+        <target state="final">Kwinjiza amavidewo avuye ku mbuga zo hanze kugira ngo ibiri kuri uru rubuga bikungahare.</target>
+      </trans-unit>
+      <trans-unit id="purposes.social.title" approved="yes">
+        <source>Social Media</source>
+        <target state="final">Imbuga nkoranyambaga</target>
+      </trans-unit>
+      <trans-unit id="purposes.social.description" approved="yes">
+        <source>Embedding social media from external platforms to enrich the content on this website.</source>
+        <target state="final">Kwinjiza imbuga nkoranyambaga zivuye ku mbuga zo hanze kugira ngo ibiri kuri uru rubuga bikungahare.</target>
+      </trans-unit>
+      <trans-unit id="purposes.misc.title" approved="yes">
+        <source>Miscellaneous</source>
+        <target state="final">Ibindi</target>
+      </trans-unit>
+      <trans-unit id="purposes.misc.description" approved="yes">
+        <source>This includes services that do not fall under the other purposes.</source>
+        <target state="final">Ibi birimo serivisi zitari mu zindi ntego.</target>
+      </trans-unit>
+      <trans-unit id="consentManager.show" approved="yes">
+        <source>Show Consent Manager</source>
+        <target state="final">Erekana umuyobozi w’ubwumvikane</target>
+      </trans-unit>
+      <trans-unit id="consentManager.show.title" approved="yes">
+        <source>Show Consent Manager</source>
+        <target state="final">Erekana umuyobozi w’ubwumvikane</target>
+      </trans-unit>
+      <trans-unit id="consentManager.reset" approved="yes">
+        <source>Reset Consent Manager</source>
+        <target state="final">Subiza umuyobozi w’ubwumvikane ku ntangiriro</target>
+      </trans-unit>
+      <trans-unit id="consentManager.reset.title" approved="yes">
+        <source>Reset Consent Manager</source>
+        <target state="final">Subiza umuyobozi w’ubwumvikane ku ntangiriro</target>
+      </trans-unit>
+      <trans-unit id="services.adobe-fonts.title" approved="yes">
+        <source>Adobe Fonts</source>
+        <target state="final">Adobe Fonts</target>
+      </trans-unit>
+      <trans-unit id="services.adobe-fonts.description" approved="yes">
+        <source>Adobe Fonts provides web fonts used for this website. When enabled, font files are loaded from Adobe and technical connection data may be processed.</source>
+        <target state="final">Adobe Fonts itanga web fonts zikoreshwa kuri uru rubuga. Iyo yemerewe, amadosiye y’imyandikire akurwa kuri Adobe kandi amakuru ya tekiniki y’ihuza ashobora gutunganywa.</target>
+      </trans-unit>
+      <trans-unit id="services.adsense.title" approved="yes">
+        <source>Google AdSense</source>
+        <target state="final">Google AdSense</target>
+      </trans-unit>
+      <trans-unit id="services.adsense.description" approved="yes">
+        <source>Google AdSense enables personalized ads on websites while respecting user privacy. By consenting, you allow relevant ads and help support free content.</source>
+        <target state="final">Google AdSense ituma habaho amatangazo yamamaza yihariye ku mbuga kandi yubahiriza ibanga ry’umukoresha. Iyo ubyemeye, wemera amatangazo ajyanye n’ibikureba kandi ugafasha gushyigikira ibirimo bitishyurwa.</target>
+      </trans-unit>
+      <trans-unit id="services.camera.title" approved="yes">
+        <source>Surveillance Camera</source>
+        <target state="final">Kamera y’umutekano</target>
+      </trans-unit>
+      <trans-unit id="services.camera.description" approved="yes">
+        <source>Consent to the use of surveillance camera images for security and safety purposes, in compliance with applicable data privacy regulations.</source>
+        <target state="final">Kwemera ikoreshwa ry’amashusho ya kamera y’umutekano ku mpamvu z’umutekano no kurinda abantu, hakurikijwe amategeko agenga ibanga ry’amakuru akurikizwa.</target>
+      </trans-unit>
+      <trans-unit id="services.career-captain.title" approved="yes">
+        <source>Career Captain</source>
+        <target state="final">Career Captain</target>
+      </trans-unit>
+      <trans-unit id="services.career-captain.description" approved="yes">
+        <source>Career Captain provides gamified career orientation and recruiting content. When enabled, external content from Career Captain may process usage and technical connection data.</source>
+        <target state="final">Career Captain itanga ibirimo byo kuyobora abantu mu mwuga no gushaka abakozi mu buryo bw’imikino. Iyo yemerewe, ibirimo byo hanze biva kuri Career Captain bishobora gutunganya amakuru y’imikoreshereze n’amakuru ya tekiniki y’ihuza.</target>
+      </trans-unit>
+      <trans-unit id="services.clarity.title" approved="yes">
+        <source>Microsoft Clarity</source>
+        <target state="final">Microsoft Clarity</target>
+      </trans-unit>
+      <trans-unit id="services.clarity.description" approved="yes">
+        <source>Microsoft Clarity is a user-friendly web analytics tool that empowers website visitors like you by providing transparency about how your interactions are tracked on a website. It ensures your privacy is respected while giving developers and website owners valuable insights into user behavior. Plus, it follows coding guidelines and best practices, ensuring a safe and secure online experience for you.</source>
+        <target state="final">Microsoft Clarity ni igikoresho cya web analytics cyorohereza umukoresha, gitanga umucyo ku buryo ibikorwa byawe bikurikiranwa ku rubuga. Gikora ku buryo ibanga ryawe ryubahirizwa, kandi kigaha abateza imbere n’abanyiri imbuga amakuru y’ingirakamaro ku myitwarire y’abakoresha. Ikindi kandi gikurikiza coding guidelines na best practices kugira ngo uburambe bwawe kuri internet bube butekanye.</target>
+      </trans-unit>
+      <trans-unit id="services.cloudflare.title" approved="yes">
+        <source>Cloudflare</source>
+        <target state="final">Cloudflare</target>
+      </trans-unit>
+      <trans-unit id="services.cloudflare.description" approved="yes">
+        <source>Cloudflare helps protect and optimize websites. By using this website, you consent to Cloudflare's data processing practices as described in its Privacy Policy.</source>
+        <target state="final">Cloudflare ifasha kurinda no kunoza imbuga. Iyo ukoresha uru rubuga, uba wemeye uburyo Cloudflare itunganya amakuru nk’uko bisobanuwe muri Privacy Policy yayo.</target>
+      </trans-unit>
+      <trans-unit id="services.external-tracker.title" approved="yes">
+        <source>External Tracker</source>
+        <target state="final">Mukurikirana wo hanze</target>
+      </trans-unit>
+      <trans-unit id="services.external-tracker.description" approved="yes">
+        <source>External tracking script</source>
+        <target state="final">Script yo gukurikirana yo hanze</target>
+      </trans-unit>
+      <trans-unit id="services.facebook-pixel.title" approved="yes">
+        <source>Facebook Pixel</source>
+        <target state="final">Facebook Pixel</target>
+      </trans-unit>
+      <trans-unit id="services.facebook-pixel.description" approved="yes">
+        <source>Simplifies web tracking for analytics and marketing while ensuring data compliance and control.</source>
+        <target state="final">Yoroshya web tracking ku isesengura no kwamamaza, kandi igafasha kubahiriza amategeko y’amakuru no kuyagenzura.</target>
+      </trans-unit>
+      <trans-unit id="services.fast-fonts.title" approved="yes">
+        <source>Fast Fonts</source>
+        <target state="final">Fast Fonts</target>
+      </trans-unit>
+      <trans-unit id="services.fast-fonts.description" approved="yes">
+        <source>Fast Fonts, operated by fonts.com and supplied by fast.fonts.net, is a service for the provision of web fonts. It requires the use of a pixel-code for continuous price calculation.</source>
+        <target state="final">Fast Fonts, ikoreshwa na fonts.com kandi itangwa na fast.fonts.net, ni serivisi yo gutanga web fonts. Isaba gukoresha pixel-code kugira ngo ibiciro bibazwe ku buryo bukomeza.</target>
+      </trans-unit>
+      <trans-unit id="services.google-ads.title" approved="yes">
+        <source>Google Ads</source>
+        <target state="final">Google Ads</target>
+      </trans-unit>
+      <trans-unit id="services.google-ads.description" approved="yes">
+        <source>Google Ads allows advertisers to reach their target audience online. To personalize ads and measure their effectiveness, Google may collect data with your consent.</source>
+        <target state="final">Google Ads ifasha abamamaza kugera ku bo bagamije kuri internet. Kugira ngo amatangazo ahuzwe n’abantu kandi hapimwe uko akora, Google ishobora gukusanya amakuru ubyemeye.</target>
+      </trans-unit>
+      <trans-unit id="services.google-analytics.title" approved="yes">
+        <source>Google Analytics</source>
+        <target state="final">Google Analytics</target>
+      </trans-unit>
+      <trans-unit id="services.google-analytics.description" approved="yes">
+        <source>Web analytics service provided by Google, Inc. ("Google")</source>
+        <target state="final">Serivisi ya web analytics itangwa na Google, Inc. ("Google")</target>
+      </trans-unit>
+      <trans-unit id="services.google-fonts.title" approved="yes">
+        <source>Google Fonts</source>
+        <target state="final">Google Fonts</target>
+      </trans-unit>
+      <trans-unit id="services.google-fonts.description" approved="yes">
+        <source>Web fonts hosted by Google</source>
+        <target state="final">Web fonts zakiriwe na Google</target>
+      </trans-unit>
+      <trans-unit id="services.google-maps.title" approved="yes">
+        <source>Google Maps</source>
+        <target state="final">Google Maps</target>
+      </trans-unit>
+      <trans-unit id="services.google-maps.description" approved="yes">
+        <source>Google Maps allows for the integration of interactive maps on websites, enabling location-based services. Developers can utilize it while ensuring data compliance and control, adhering to coding guidelines and best practices.</source>
+        <target state="final">Google Maps ituma hashyirwa amakarita akorana ku mbuga, igafasha serivisi zishingiye ku hantu. Abateza imbere bashobora kuyikoresha mu gihe hubahirizwa amategeko y’amakuru no kuyagenzura, kandi hakurikizwa coding guidelines na best practices.</target>
+      </trans-unit>
+      <trans-unit id="services.google-tag-manager.title" approved="yes">
+        <source>Google Tag Manager</source>
+        <target state="final">Google Tag Manager</target>
+      </trans-unit>
+      <trans-unit id="services.google-tag-manager.description" approved="yes">
+        <source>Google Tag Manager streamlines web tracking and code management, ensuring data compliance and control for developers.</source>
+        <target state="final">Google Tag Manager yoroshya web tracking no gucunga code, igafasha abateza imbere kubahiriza amategeko y’amakuru no kuyagenzura.</target>
+      </trans-unit>
+      <trans-unit id="services.inline-tracker.title" approved="yes">
+        <source>Inline Tracker</source>
+        <target state="final">Mukurikirana uri imbere</target>
+      </trans-unit>
+      <trans-unit id="services.inline-tracker.description" approved="yes">
+        <source>Inline tracking script</source>
+        <target state="final">Script yo gukurikirana iri imbere</target>
+      </trans-unit>
+      <trans-unit id="services.instagram.title" approved="yes">
+        <source>Instagram</source>
+        <target state="final">Instagram</target>
+      </trans-unit>
+      <trans-unit id="services.instagram.description" approved="yes">
+        <source>Allows Instagram posts to be embedded. Personal data may be transferred to Instagram (Meta Platforms) in the process.</source>
+        <target state="final">Yemerera kwinjiza posts za Instagram. Muri icyo gikorwa, amakuru bwite ashobora koherezwa kuri Instagram (Meta Platforms).</target>
+      </trans-unit>
+      <trans-unit id="services.intercom.title" approved="yes">
+        <source>Intercom</source>
+        <target state="final">Intercom</target>
+      </trans-unit>
+      <trans-unit id="services.intercom.description" approved="yes">
+        <source>Chat widget and collecting of visitor statistics</source>
+        <target state="final">Widget y’ikiganiro no gukusanya imibare y’abasura</target>
+      </trans-unit>
+      <trans-unit id="services.klaro.title" approved="yes">
+        <source>Klaro!</source>
+        <target state="final">Klaro!</target>
+      </trans-unit>
+      <trans-unit id="services.klaro.description" approved="yes">
+        <source>Klaro! manages consent choices for this website and stores whether individual services may be loaded according to your preferences.</source>
+        <target state="final">Klaro! icunga amahitamo y’ubwumvikane kuri uru rubuga kandi ikabika niba serivisi imwe ku yindi ishobora gufungurwa hakurikijwe ibyo wahisemo.</target>
+      </trans-unit>
+      <trans-unit id="services.matomo.title" approved="yes">
+        <source>Matomo/Piwik</source>
+        <target state="final">Matomo/Piwik</target>
+      </trans-unit>
+      <trans-unit id="services.matomo.description" approved="yes">
+        <source>Open source software for statistical analysis of visitor accesses</source>
+        <target state="final">Porogaramu ya open source yo gusesengura imibare y’uko abasura binjira</target>
+      </trans-unit>
+      <trans-unit id="services.mouseflow.title" approved="yes">
+        <source>Mouseflow</source>
+        <target state="final">Mouseflow</target>
+      </trans-unit>
+      <trans-unit id="services.mouseflow.description" approved="yes">
+        <source>Real-time user analytics service that helps to understand how visitors interact with our website.</source>
+        <target state="final">Serivisi y’isesengura ry’abakoresha mu gihe nyacyo ifasha kumva uko abasura bakorana n’urubuga rwacu.</target>
+      </trans-unit>
+      <trans-unit id="services.salesviewer.title" approved="yes">
+        <source>SalesViewer</source>
+        <target state="final">SalesViewer</target>
+      </trans-unit>
+      <trans-unit id="services.salesviewer.description" approved="yes">
+        <source>SalesViewer analyzes website visits for B2B lead generation and may identify company-related visitor information based on usage and technical access data.</source>
+        <target state="final">SalesViewer isesengura gusura urubuga hagamijwe B2B lead generation kandi ishobora kumenya amakuru y’umusura ajyanye n’isosiyete hashingiwe ku makuru y’imikoreshereze n’ay’ukwinjira kwa tekiniki.</target>
+      </trans-unit>
+      <trans-unit id="services.tiktok.title" approved="yes">
+        <source>TikTok</source>
+        <target state="final">TikTok</target>
+      </trans-unit>
+      <trans-unit id="services.tiktok.description" approved="yes">
+        <source>Allows TikTok videos to be embedded. Personal data may be transferred to TikTok and processed in third countries.</source>
+        <target state="final">Yemerera kwinjiza amavidewo ya TikTok. Amakuru bwite ashobora koherezwa kuri TikTok no gutunganyirizwa mu bihugu bya gatatu.</target>
+      </trans-unit>
+      <trans-unit id="services.twitter.title" approved="yes">
+        <source>X (formerly Twitter)</source>
+        <target state="final">X (yahoze ari Twitter)</target>
+      </trans-unit>
+      <trans-unit id="services.twitter.description" approved="yes">
+        <source>X (formerly Twitter) is a social media platform that allows users to share and interact with short messages and multimedia content. Developers can integrate Twitter features into websites to enhance user engagement and real-time updates while maintaining data privacy compliance and adhering to coding guidelines.</source>
+        <target state="final">X (yahoze ari Twitter) ni urubuga nkoranyambaga rutuma abakoresha basangiza abandi kandi bagakorana n’ubutumwa bugufi n’ibirimo bya multimedia. Abateza imbere bashobora kwinjiza ibiranga Twitter mu mbuga kugira ngo bongere uruhare rw’abakoresha n’amakuru agezweho mu gihe nyacyo, bubahiriza ibanga ry’amakuru na coding guidelines.</target>
+      </trans-unit>
+      <trans-unit id="services.userlike.title" approved="yes">
+        <source>Userlike</source>
+        <target state="final">Userlike</target>
+      </trans-unit>
+      <trans-unit id="services.userlike.description" approved="yes">
+        <source>Userlike offers a live chat solution that enhances user interactions on websites.</source>
+        <target state="final">Userlike itanga igisubizo cya live chat cyongera imikoranire y’abakoresha ku mbuga.</target>
+      </trans-unit>
+      <trans-unit id="services.vimeo.title" approved="yes">
+        <source>Vimeo</source>
+        <target state="final">Vimeo</target>
+      </trans-unit>
+      <trans-unit id="services.vimeo.description" approved="yes">
+        <source>Popular video-sharing platform that offers a range of features for creators and developers to enhance video content on websites.</source>
+        <target state="final">Urubuga ruzwi rwo gusangira amavidewo rutanga ibiranga bitandukanye ku bakora ibirimo n’abateza imbere kugira ngo banoze ibirimo bya videwo ku mbuga.</target>
+      </trans-unit>
+      <trans-unit id="services.youtube.title" approved="yes">
+        <source>YouTube</source>
+        <target state="final">YouTube</target>
+      </trans-unit>
+      <trans-unit id="services.youtube.description" approved="yes">
+        <source>The leading video-sharing platform for content creators and developers to enhance user experiences on websites.</source>
+        <target state="final">Urubuga ruyoboye mu gusangira amavidewo, rukoreshwa n’abakora ibirimo n’abateza imbere kugira ngo bongere uburambe bw’abakoresha ku mbuga.</target>
+      </trans-unit>
+      <trans-unit id="consentModal.privacyPolicy.name" approved="yes">
+        <source>Privacy policy</source>
+        <target state="final">Politiki y’ibanga</target>
+      </trans-unit>
+      <trans-unit id="consentModal.privacyPolicy.text" approved="yes">
+        <source>To learn more, please read our {privacyPolicy}.</source>
+        <target state="final">Kugira ngo umenye byinshi, soma {privacyPolicy} yacu.</target>
+      </trans-unit>
+      <trans-unit id="consentNotice.imprint.name" approved="yes">
+        <source>Imprint</source>
+        <target state="final">Amakuru y’uwasohoye</target>
+      </trans-unit>
+      <trans-unit id="consentNotice.privacyPolicy.name" approved="yes">
+        <source>Privacy policy</source>
+        <target state="final">Politiki y’ibanga</target>
+      </trans-unit>
+      <trans-unit id="cookies.title" approved="yes">
+        <source>Cookies</source>
+        <target state="final">Kuki</target>
+      </trans-unit>
+      <trans-unit id="cookies.description" approved="yes">
+        <source>Below you will find a list of all cookies used by %s</source>
+        <target state="final">Hasi urahasanga urutonde rwa kuki zose zikoreshwa na %s</target>
+      </trans-unit>
+      <trans-unit id="cookies.headline.name" approved="yes">
+        <source>Name / Pattern</source>
+        <target state="final">Izina / ishusho</target>
+      </trans-unit>
+      <trans-unit id="cookies.headline.path" approved="yes">
+        <source>Path</source>
+        <target state="final">Inzira</target>
+      </trans-unit>
+      <trans-unit id="cookies.headline.domain" approved="yes">
+        <source>Domain</source>
+        <target state="final">Domeni</target>
+      </trans-unit>
+      <trans-unit id="cookies.headline.expiresAfter" approved="yes">
+        <source>Expires after</source>
+        <target state="final">Kirangira nyuma ya</target>
+      </trans-unit>
+      <trans-unit id="year" approved="yes">
+        <source>Year</source>
+        <target state="final">Umwaka</target>
+      </trans-unit>
+      <trans-unit id="years" approved="yes">
+        <source>Years</source>
+        <target state="final">Imyaka</target>
+      </trans-unit>
+      <trans-unit id="month" approved="yes">
+        <source>Month</source>
+        <target state="final">Ukwezi</target>
+      </trans-unit>
+      <trans-unit id="months" approved="yes">
+        <source>Months</source>
+        <target state="final">Amezi</target>
+      </trans-unit>
+      <trans-unit id="day" approved="yes">
+        <source>Day</source>
+        <target state="final">Umunsi</target>
+      </trans-unit>
+      <trans-unit id="days" approved="yes">
+        <source>Days</source>
+        <target state="final">Iminsi</target>
+      </trans-unit>
+      <trans-unit id="hour" approved="yes">
+        <source>Hour</source>
+        <target state="final">Isaha</target>
+      </trans-unit>
+      <trans-unit id="hours" approved="yes">
+        <source>Hours</source>
+        <target state="final">Amasaha</target>
+      </trans-unit>
+      <trans-unit id="minute" approved="yes">
+        <source>Minute</source>
+        <target state="final">Umunota</target>
+      </trans-unit>
+      <trans-unit id="minutes" approved="yes">
+        <source>Minutes</source>
+        <target state="final">Iminota</target>
+      </trans-unit>
+      <trans-unit id="second" approved="yes">
+        <source>Second</source>
+        <target state="final">Isegonda</target>
+      </trans-unit>
+      <trans-unit id="seconds" approved="yes">
+        <source>Seconds</source>
+        <target state="final">Amasegonda</target>
+      </trans-unit>
+      <trans-unit id="end-of-session" approved="yes">
+        <source>End of session</source>
+        <target state="final">Iherezo ry’umukoro</target>
+      </trans-unit>
+      <trans-unit id="persistent" approved="yes">
+        <source>persistent</source>
+        <target state="final">bihoraho</target>
+      </trans-unit>
+      <trans-unit id="warning.noServices" approved="yes">
+        <source>Why don't I see a Klaro! Modal? → You must assign at least 1 service to the Klaro! configuration! Without services, we don't need consent management at all.</source>
+        <target state="final">Kuki ntagaragarirwa na Klaro! Modal? → Ugomba guha byibura serivisi 1 igenamiterere rya Klaro! Hatari serivisi, nta mpamvu yo kugira gucunga ubwumvikane.</target>
+      </trans-unit>
+      <trans-unit id="warning.noServicesPersonalized" approved="yes">
+        <source>Hey %s! You missed a service in the config! Without services, we don't need consent management at all.</source>
+        <target state="final">Muraho %s! Wasize serivisi muri config! Hatari serivisi, nta mpamvu yo kugira gucunga ubwumvikane.</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

@@ -1,0 +1,547 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file source-language="en" original="EXT:klaro_consent_manager/Resources/Private/Language/locallang.xlf" datatype="plaintext" product-name="klaro_consent_manager" date="2025-10-13T15:15:27+02:00" target-language="hi">
+    <body>
+      <trans-unit id="acceptAll" approved="yes">
+        <source>Accept all</source>
+        <target state="final">सभी स्वीकार करें</target>
+      </trans-unit>
+      <trans-unit id="acceptSelected" approved="yes">
+        <source>Accept selected</source>
+        <target state="final">चयनित स्वीकार करें</target>
+      </trans-unit>
+      <trans-unit id="close" approved="yes">
+        <source>Close</source>
+        <target state="final">बंद करें</target>
+      </trans-unit>
+      <trans-unit id="consentModal.description" approved="yes">
+        <source>Here you can assess and customize the services that we'd like to use on this website. You're in charge! Enable or disable services as you see fit.</source>
+        <target state="final">यहाँ आप इस वेबसाइट पर उपयोग की जाने वाली सेवाओं की जाँच और उन्हें अनुकूलित कर सकते हैं। नियंत्रण आपके हाथ में है! अपनी आवश्यकता के अनुसार सेवाएँ सक्षम या अक्षम करें।</target>
+      </trans-unit>
+      <trans-unit id="consentModal.title" approved="yes">
+        <source>Services we would like to use</source>
+        <target state="final">वे सेवाएँ जिन्हें हम उपयोग करना चाहेंगे</target>
+      </trans-unit>
+      <trans-unit id="consentNotice.changeDescription" approved="yes">
+        <source>There were changes since your last visit, please renew your consent.</source>
+        <target state="final">आपकी पिछली विज़िट के बाद बदलाव हुए हैं, कृपया अपनी सहमति फिर से दें।</target>
+      </trans-unit>
+      <trans-unit id="consentNotice.description" approved="yes">
+        <source>Hi! Could we please enable some additional services for {purposes}? You can always change or withdraw your consent later.</source>
+        <target state="final">नमस्ते! क्या हम {purposes} के लिए कुछ अतिरिक्त सेवाएँ सक्षम कर सकते हैं? आप बाद में कभी भी अपनी सहमति बदल या वापस ले सकते हैं।</target>
+      </trans-unit>
+      <trans-unit id="consentNotice.learnMore" approved="yes">
+        <source>Let me choose</source>
+        <target state="final">मुझे चुनने दें</target>
+      </trans-unit>
+      <trans-unit id="consentNotice.testing" approved="yes">
+        <source>Testing mode!</source>
+        <target state="final">परीक्षण मोड!</target>
+      </trans-unit>
+      <trans-unit id="consentNotice.title" approved="yes">
+        <source>Cookie Consent</source>
+        <target state="final">कुकी सहमति</target>
+      </trans-unit>
+      <trans-unit id="contextualConsent.acceptAlways" approved="yes">
+        <source>Always</source>
+        <target state="final">हमेशा</target>
+      </trans-unit>
+      <trans-unit id="contextualConsent.acceptOnce" approved="yes">
+        <source>Yes</source>
+        <target state="final">हाँ</target>
+      </trans-unit>
+      <trans-unit id="contextualConsent.description" approved="yes">
+        <source>Do you want to load external content supplied by {title}?</source>
+        <target state="final">क्या आप {title} द्वारा प्रदान की गई बाहरी सामग्री लोड करना चाहते हैं?</target>
+      </trans-unit>
+      <trans-unit id="contextualConsent.descriptionEmptyStore" approved="yes">
+        <source>To agree to this service permanently, you must accept {title} in the {link}.</source>
+        <target state="final">इस सेवा को स्थायी रूप से स्वीकार करने के लिए, आपको {link} में {title} को स्वीकार करना होगा।</target>
+      </trans-unit>
+      <trans-unit id="contextualConsent.modalLinkText" approved="yes">
+        <source>Consent Manager</source>
+        <target state="final">सहमति प्रबंधक</target>
+      </trans-unit>
+      <trans-unit id="decline" approved="yes">
+        <source>I decline</source>
+        <target state="final">मैं अस्वीकार करता हूँ</target>
+      </trans-unit>
+      <trans-unit id="ok" approved="yes">
+        <source>That's ok</source>
+        <target state="final">ठीक है</target>
+      </trans-unit>
+      <trans-unit id="poweredBy" approved="yes">
+        <source>Realized with Klaro!</source>
+        <target state="final">Klaro! के साथ बनाया गया</target>
+      </trans-unit>
+      <trans-unit id="privacyPolicy.name" approved="yes">
+        <source>privacy policy</source>
+        <target state="final">गोपनीयता नीति</target>
+      </trans-unit>
+      <trans-unit id="privacyPolicy.text" approved="yes">
+        <source>To learn more, please read our {privacyPolicy}.</source>
+        <target state="final">अधिक जानने के लिए, कृपया हमारी {privacyPolicy} पढ़ें.</target>
+      </trans-unit>
+      <trans-unit id="purposeItem.service" approved="yes">
+        <source>service</source>
+        <target state="final">सेवा</target>
+      </trans-unit>
+      <trans-unit id="purposeItem.services" approved="yes">
+        <source>services</source>
+        <target state="final">सेवाएँ</target>
+      </trans-unit>
+      <trans-unit id="purposes.advertising.description" approved="yes">
+        <source>These services process personal information to show you personalized or interest-based advertisements.</source>
+        <target state="final">ये सेवाएँ आपको वैयक्तिकृत या रुचि-आधारित विज्ञापन दिखाने के लिए व्यक्तिगत जानकारी संसाधित करती हैं।</target>
+      </trans-unit>
+      <trans-unit id="purposes.advertising.title" approved="yes">
+        <source>Advertising</source>
+        <target state="final">विज्ञापन</target>
+      </trans-unit>
+      <trans-unit id="purposes.functional.description" approved="yes">
+        <source>These services are essential for the correct functioning of this website. You cannot disable them here as the service would not work correctly otherwise.</source>
+        <target state="final">ये सेवाएँ इस वेबसाइट के सही ढंग से काम करने के लिए आवश्यक हैं। आप इन्हें यहाँ अक्षम नहीं कर सकते, क्योंकि अन्यथा सेवा सही ढंग से काम नहीं करेगी।</target>
+      </trans-unit>
+      <trans-unit id="purposes.functional.title" approved="yes">
+        <source>Service Provision</source>
+        <target state="final">सेवा प्रावधान</target>
+      </trans-unit>
+      <trans-unit id="purposes.marketing.description" approved="yes">
+        <source>These services process personal information to show you relevant content about products, services or topics that you might be interested in.</source>
+        <target state="final">ये सेवाएँ आपको उन उत्पादों, सेवाओं या विषयों से संबंधित सामग्री दिखाने के लिए व्यक्तिगत जानकारी संसाधित करती हैं जिनमें आपकी रुचि हो सकती है।</target>
+      </trans-unit>
+      <trans-unit id="purposes.marketing.title" approved="yes">
+        <source>Marketing</source>
+        <target state="final">मार्केटिंग</target>
+      </trans-unit>
+      <trans-unit id="purposes.performance.description" approved="yes">
+        <source>These services process personal information to optimize the service that this website offers.</source>
+        <target state="final">ये सेवाएँ इस वेबसाइट द्वारा प्रदान की जाने वाली सेवा को अनुकूलित करने के लिए व्यक्तिगत जानकारी संसाधित करती हैं।</target>
+      </trans-unit>
+      <trans-unit id="purposes.performance.title" approved="yes">
+        <source>Performance Optimization</source>
+        <target state="final">प्रदर्शन अनुकूलन</target>
+      </trans-unit>
+      <trans-unit id="save" approved="yes">
+        <source>Save</source>
+        <target state="final">सहेजें</target>
+      </trans-unit>
+      <trans-unit id="service.disableAll.description" approved="yes">
+        <source>Use this switch to enable or disable all services.</source>
+        <target state="final">सभी सेवाओं को सक्षम या अक्षम करने के लिए इस स्विच का उपयोग करें।</target>
+      </trans-unit>
+      <trans-unit id="service.disableAll.title" approved="yes">
+        <source>Enable or disable all services</source>
+        <target state="final">सभी सेवाएँ सक्षम या अक्षम करें</target>
+      </trans-unit>
+      <trans-unit id="service.optOut.description" approved="yes">
+        <source>This service is loaded by default (but you can opt out)</source>
+        <target state="final">यह सेवा डिफ़ॉल्ट रूप से लोड होती है (लेकिन आप इससे बाहर निकल सकते हैं)</target>
+      </trans-unit>
+      <trans-unit id="service.optOut.title" approved="yes">
+        <source>(opt-out)</source>
+        <target state="final">(ऑप्ट-आउट)</target>
+      </trans-unit>
+      <trans-unit id="service.purpose" approved="yes">
+        <source>purpose</source>
+        <target state="final">उद्देश्य</target>
+      </trans-unit>
+      <trans-unit id="service.purposes" approved="yes">
+        <source>purposes</source>
+        <target state="final">उद्देश्य</target>
+      </trans-unit>
+      <trans-unit id="service.required.description" approved="yes">
+        <source>This service is always required</source>
+        <target state="final">यह सेवा हमेशा आवश्यक है</target>
+      </trans-unit>
+      <trans-unit id="service.required.title" approved="yes">
+        <source>(always required)</source>
+        <target state="final">(हमेशा आवश्यक)</target>
+      </trans-unit>
+      <trans-unit id="purposes.analytics.title" approved="yes">
+        <source>Analytics</source>
+        <target state="final">विश्लेषिकी</target>
+      </trans-unit>
+      <trans-unit id="purposes.analytics.description" approved="yes">
+        <source>These services gather anonymous data for statistical analysis and performance optimization. Enabling analytics services assists website owners in making informed decisions to enhance online services.</source>
+        <target state="final">ये सेवाएँ सांख्यिकीय विश्लेषण और प्रदर्शन अनुकूलन के लिए अनाम डेटा एकत्र करती हैं। एनालिटिक्स सेवाएँ सक्षम करने से वेबसाइट स्वामियों को ऑनलाइन सेवाएँ बेहतर बनाने के लिए सूचित निर्णय लेने में मदद मिलती है।</target>
+      </trans-unit>
+      <trans-unit id="purposes.security.title" approved="yes">
+        <source>Security</source>
+        <target state="final">सुरक्षा</target>
+      </trans-unit>
+      <trans-unit id="purposes.security.description" approved="yes">
+        <source>Security services are crucial for safeguarding your online experience. These services help protect your data and privacy by detecting and preventing security threats, such as malware, phishing attempts, and unauthorized access. They ensure a safer browsing environment.</source>
+        <target state="final">सुरक्षा सेवाएँ आपके ऑनलाइन अनुभव की सुरक्षा के लिए महत्वपूर्ण हैं। ये सेवाएँ मैलवेयर, फ़िशिंग प्रयासों और अनधिकृत पहुँच जैसे सुरक्षा खतरों का पता लगाकर और उन्हें रोककर आपके डेटा और गोपनीयता की रक्षा करती हैं। वे अधिक सुरक्षित ब्राउज़िंग वातावरण सुनिश्चित करती हैं।</target>
+      </trans-unit>
+      <trans-unit id="purposes.livechat.title" approved="yes">
+        <source>Live Chat</source>
+        <target state="final">लाइव चैट</target>
+      </trans-unit>
+      <trans-unit id="purposes.livechat.description" approved="yes">
+        <source>Live chat services enable real-time communication with website support teams. They offer a convenient way to ask questions, seek assistance, or engage in discussions while browsing a website. Live chat enhances your online interaction and customer support experience.</source>
+        <target state="final">लाइव चैट सेवाएँ वेबसाइट सहायता टीमों के साथ रीयल-टाइम संवाद सक्षम करती हैं। वे वेबसाइट ब्राउज़ करते समय प्रश्न पूछने, सहायता पाने या चर्चा करने का सुविधाजनक तरीका देती हैं। लाइव चैट आपके ऑनलाइन संवाद और ग्राहक सहायता अनुभव को बेहतर बनाती है।</target>
+      </trans-unit>
+      <trans-unit id="purposes.styling.title" approved="yes">
+        <source>Styling</source>
+        <target state="final">स्टाइलिंग</target>
+      </trans-unit>
+      <trans-unit id="purposes.styling.description" approved="yes">
+        <source>Services related to styling help to improve the appearance of the website. This can also have an impact on usability.</source>
+        <target state="final">स्टाइलिंग से संबंधित सेवाएँ वेबसाइट के रूप-रंग को बेहतर बनाने में मदद करती हैं। इसका उपयोगिता पर भी प्रभाव पड़ सकता है।</target>
+      </trans-unit>
+      <trans-unit id="purposes.videos.title" approved="yes">
+        <source>Videos</source>
+        <target state="final">वीडियो</target>
+      </trans-unit>
+      <trans-unit id="purposes.videos.description" approved="yes">
+        <source>Embedding videos from external platforms to enrich the content on this website.</source>
+        <target state="final">इस वेबसाइट की सामग्री को समृद्ध करने के लिए बाहरी प्लेटफ़ॉर्म से वीडियो एम्बेड करना।</target>
+      </trans-unit>
+      <trans-unit id="purposes.social.title" approved="yes">
+        <source>Social Media</source>
+        <target state="final">सोशल मीडिया</target>
+      </trans-unit>
+      <trans-unit id="purposes.social.description" approved="yes">
+        <source>Embedding social media from external platforms to enrich the content on this website.</source>
+        <target state="final">इस वेबसाइट की सामग्री को समृद्ध करने के लिए बाहरी प्लेटफ़ॉर्म से सोशल मीडिया एम्बेड करना।</target>
+      </trans-unit>
+      <trans-unit id="purposes.misc.title" approved="yes">
+        <source>Miscellaneous</source>
+        <target state="final">विविध</target>
+      </trans-unit>
+      <trans-unit id="purposes.misc.description" approved="yes">
+        <source>This includes services that do not fall under the other purposes.</source>
+        <target state="final">इसमें वे सेवाएँ शामिल हैं जो अन्य उद्देश्यों में नहीं आतीं।</target>
+      </trans-unit>
+      <trans-unit id="consentManager.show" approved="yes">
+        <source>Show Consent Manager</source>
+        <target state="final">सहमति प्रबंधक दिखाएँ</target>
+      </trans-unit>
+      <trans-unit id="consentManager.show.title" approved="yes">
+        <source>Show Consent Manager</source>
+        <target state="final">सहमति प्रबंधक दिखाएँ</target>
+      </trans-unit>
+      <trans-unit id="consentManager.reset" approved="yes">
+        <source>Reset Consent Manager</source>
+        <target state="final">सहमति प्रबंधक रीसेट करें</target>
+      </trans-unit>
+      <trans-unit id="consentManager.reset.title" approved="yes">
+        <source>Reset Consent Manager</source>
+        <target state="final">सहमति प्रबंधक रीसेट करें</target>
+      </trans-unit>
+      <trans-unit id="services.adobe-fonts.title" approved="yes">
+        <source>Adobe Fonts</source>
+        <target state="final">Adobe Fonts</target>
+      </trans-unit>
+      <trans-unit id="services.adobe-fonts.description" approved="yes">
+        <source>Adobe Fonts provides web fonts used for this website. When enabled, font files are loaded from Adobe and technical connection data may be processed.</source>
+        <target state="final">Adobe Fonts इस वेबसाइट के लिए उपयोग किए जाने वाले वेब फ़ॉन्ट प्रदान करता है। सक्षम होने पर, फ़ॉन्ट फ़ाइलें Adobe से लोड होती हैं और तकनीकी कनेक्शन डेटा संसाधित किया जा सकता है।</target>
+      </trans-unit>
+      <trans-unit id="services.adsense.title" approved="yes">
+        <source>Google AdSense</source>
+        <target state="final">Google AdSense</target>
+      </trans-unit>
+      <trans-unit id="services.adsense.description" approved="yes">
+        <source>Google AdSense enables personalized ads on websites while respecting user privacy. By consenting, you allow relevant ads and help support free content.</source>
+        <target state="final">Google AdSense उपयोगकर्ता गोपनीयता का सम्मान करते हुए वेबसाइटों पर वैयक्तिकृत विज्ञापन सक्षम करता है। सहमति देकर, आप प्रासंगिक विज्ञापन की अनुमति देते हैं और मुफ़्त सामग्री का समर्थन करने में मदद करते हैं।</target>
+      </trans-unit>
+      <trans-unit id="services.camera.title" approved="yes">
+        <source>Surveillance Camera</source>
+        <target state="final">निगरानी कैमरा</target>
+      </trans-unit>
+      <trans-unit id="services.camera.description" approved="yes">
+        <source>Consent to the use of surveillance camera images for security and safety purposes, in compliance with applicable data privacy regulations.</source>
+        <target state="final">लागू डेटा गोपनीयता नियमों के अनुपालन में सुरक्षा और संरक्षण उद्देश्यों के लिए निगरानी कैमरा छवियों के उपयोग की सहमति।</target>
+      </trans-unit>
+      <trans-unit id="services.career-captain.title" approved="yes">
+        <source>Career Captain</source>
+        <target state="final">Career Captain</target>
+      </trans-unit>
+      <trans-unit id="services.career-captain.description" approved="yes">
+        <source>Career Captain provides gamified career orientation and recruiting content. When enabled, external content from Career Captain may process usage and technical connection data.</source>
+        <target state="final">Career Captain खेल-आधारित करियर मार्गदर्शन और भर्ती सामग्री प्रदान करता है। सक्षम होने पर, Career Captain की बाहरी सामग्री उपयोग और तकनीकी कनेक्शन डेटा संसाधित कर सकती है।</target>
+      </trans-unit>
+      <trans-unit id="services.clarity.title" approved="yes">
+        <source>Microsoft Clarity</source>
+        <target state="final">Microsoft Clarity</target>
+      </trans-unit>
+      <trans-unit id="services.clarity.description" approved="yes">
+        <source>Microsoft Clarity is a user-friendly web analytics tool that empowers website visitors like you by providing transparency about how your interactions are tracked on a website. It ensures your privacy is respected while giving developers and website owners valuable insights into user behavior. Plus, it follows coding guidelines and best practices, ensuring a safe and secure online experience for you.</source>
+        <target state="final">Microsoft Clarity एक उपयोगकर्ता-अनुकूल वेब एनालिटिक्स टूल है जो आप जैसे वेबसाइट आगंतुकों को यह पारदर्शिता देता है कि वेबसाइट पर आपकी गतिविधियाँ कैसे ट्रैक की जाती हैं। यह आपकी गोपनीयता का सम्मान करता है और डेवलपर्स तथा वेबसाइट स्वामियों को उपयोगकर्ता व्यवहार की मूल्यवान जानकारी देता है। साथ ही, यह कोडिंग दिशानिर्देशों और सर्वोत्तम प्रथाओं का पालन करता है, जिससे आपका ऑनलाइन अनुभव सुरक्षित रहता है।</target>
+      </trans-unit>
+      <trans-unit id="services.cloudflare.title" approved="yes">
+        <source>Cloudflare</source>
+        <target state="final">Cloudflare</target>
+      </trans-unit>
+      <trans-unit id="services.cloudflare.description" approved="yes">
+        <source>Cloudflare helps protect and optimize websites. By using this website, you consent to Cloudflare's data processing practices as described in its Privacy Policy.</source>
+        <target state="final">Cloudflare वेबसाइटों की सुरक्षा और अनुकूलन में मदद करता है। इस वेबसाइट का उपयोग करके आप Cloudflare की गोपनीयता नीति में वर्णित डेटा संसाधन प्रथाओं से सहमत होते हैं।</target>
+      </trans-unit>
+      <trans-unit id="services.external-tracker.title" approved="yes">
+        <source>External Tracker</source>
+        <target state="final">बाहरी ट्रैकर</target>
+      </trans-unit>
+      <trans-unit id="services.external-tracker.description" approved="yes">
+        <source>External tracking script</source>
+        <target state="final">बाहरी ट्रैकिंग स्क्रिप्ट</target>
+      </trans-unit>
+      <trans-unit id="services.facebook-pixel.title" approved="yes">
+        <source>Facebook Pixel</source>
+        <target state="final">Facebook Pixel</target>
+      </trans-unit>
+      <trans-unit id="services.facebook-pixel.description" approved="yes">
+        <source>Simplifies web tracking for analytics and marketing while ensuring data compliance and control.</source>
+        <target state="final">डेटा अनुपालन और नियंत्रण सुनिश्चित करते हुए एनालिटिक्स और मार्केटिंग के लिए वेब ट्रैकिंग को सरल बनाता है।</target>
+      </trans-unit>
+      <trans-unit id="services.fast-fonts.title" approved="yes">
+        <source>Fast Fonts</source>
+        <target state="final">Fast Fonts</target>
+      </trans-unit>
+      <trans-unit id="services.fast-fonts.description" approved="yes">
+        <source>Fast Fonts, operated by fonts.com and supplied by fast.fonts.net, is a service for the provision of web fonts. It requires the use of a pixel-code for continuous price calculation.</source>
+        <target state="final">Fast Fonts, जिसे fonts.com संचालित करता है और fast.fonts.net प्रदान करता है, वेब फ़ॉन्ट उपलब्ध कराने की सेवा है। निरंतर मूल्य गणना के लिए इसे पिक्सेल-कोड के उपयोग की आवश्यकता होती है।</target>
+      </trans-unit>
+      <trans-unit id="services.google-ads.title" approved="yes">
+        <source>Google Ads</source>
+        <target state="final">Google Ads</target>
+      </trans-unit>
+      <trans-unit id="services.google-ads.description" approved="yes">
+        <source>Google Ads allows advertisers to reach their target audience online. To personalize ads and measure their effectiveness, Google may collect data with your consent.</source>
+        <target state="final">Google Ads विज्ञापनदाताओं को ऑनलाइन अपने लक्षित दर्शकों तक पहुँचने देता है। विज्ञापनों को वैयक्तिकृत करने और उनकी प्रभावशीलता मापने के लिए, Google आपकी सहमति से डेटा एकत्र कर सकता है।</target>
+      </trans-unit>
+      <trans-unit id="services.google-analytics.title" approved="yes">
+        <source>Google Analytics</source>
+        <target state="final">Google Analytics</target>
+      </trans-unit>
+      <trans-unit id="services.google-analytics.description" approved="yes">
+        <source>Web analytics service provided by Google, Inc. ("Google")</source>
+        <target state="final">Google, Inc. ("Google") द्वारा प्रदान की गई वेब एनालिटिक्स सेवा</target>
+      </trans-unit>
+      <trans-unit id="services.google-fonts.title" approved="yes">
+        <source>Google Fonts</source>
+        <target state="final">Google Fonts</target>
+      </trans-unit>
+      <trans-unit id="services.google-fonts.description" approved="yes">
+        <source>Web fonts hosted by Google</source>
+        <target state="final">Google द्वारा होस्ट किए गए वेब फ़ॉन्ट</target>
+      </trans-unit>
+      <trans-unit id="services.google-maps.title" approved="yes">
+        <source>Google Maps</source>
+        <target state="final">Google Maps</target>
+      </trans-unit>
+      <trans-unit id="services.google-maps.description" approved="yes">
+        <source>Google Maps allows for the integration of interactive maps on websites, enabling location-based services. Developers can utilize it while ensuring data compliance and control, adhering to coding guidelines and best practices.</source>
+        <target state="final">Google Maps वेबसाइटों पर इंटरैक्टिव मानचित्रों के एकीकरण की अनुमति देता है और स्थान-आधारित सेवाएँ सक्षम करता है। डेवलपर डेटा अनुपालन और नियंत्रण सुनिश्चित करते हुए, कोडिंग दिशानिर्देशों और सर्वोत्तम प्रथाओं का पालन करते हुए इसका उपयोग कर सकते हैं।</target>
+      </trans-unit>
+      <trans-unit id="services.google-tag-manager.title" approved="yes">
+        <source>Google Tag Manager</source>
+        <target state="final">Google Tag Manager</target>
+      </trans-unit>
+      <trans-unit id="services.google-tag-manager.description" approved="yes">
+        <source>Google Tag Manager streamlines web tracking and code management, ensuring data compliance and control for developers.</source>
+        <target state="final">Google Tag Manager वेब ट्रैकिंग और कोड प्रबंधन को सरल बनाता है और डेवलपर्स के लिए डेटा अनुपालन और नियंत्रण सुनिश्चित करता है।</target>
+      </trans-unit>
+      <trans-unit id="services.inline-tracker.title" approved="yes">
+        <source>Inline Tracker</source>
+        <target state="final">इनलाइन ट्रैकर</target>
+      </trans-unit>
+      <trans-unit id="services.inline-tracker.description" approved="yes">
+        <source>Inline tracking script</source>
+        <target state="final">इनलाइन ट्रैकिंग स्क्रिप्ट</target>
+      </trans-unit>
+      <trans-unit id="services.instagram.title" approved="yes">
+        <source>Instagram</source>
+        <target state="final">Instagram</target>
+      </trans-unit>
+      <trans-unit id="services.instagram.description" approved="yes">
+        <source>Allows Instagram posts to be embedded. Personal data may be transferred to Instagram (Meta Platforms) in the process.</source>
+        <target state="final">Instagram पोस्ट एम्बेड करने की अनुमति देता है। इस प्रक्रिया में व्यक्तिगत डेटा Instagram (Meta Platforms) को स्थानांतरित किया जा सकता है।</target>
+      </trans-unit>
+      <trans-unit id="services.intercom.title" approved="yes">
+        <source>Intercom</source>
+        <target state="final">Intercom</target>
+      </trans-unit>
+      <trans-unit id="services.intercom.description" approved="yes">
+        <source>Chat widget and collecting of visitor statistics</source>
+        <target state="final">चैट विजेट और आगंतुक आँकड़ों का संग्रह</target>
+      </trans-unit>
+      <trans-unit id="services.klaro.title" approved="yes">
+        <source>Klaro!</source>
+        <target state="final">Klaro!</target>
+      </trans-unit>
+      <trans-unit id="services.klaro.description" approved="yes">
+        <source>Klaro! manages consent choices for this website and stores whether individual services may be loaded according to your preferences.</source>
+        <target state="final">Klaro! इस वेबसाइट के लिए सहमति विकल्पों का प्रबंधन करता है और यह सहेजता है कि आपकी प्राथमिकताओं के अनुसार अलग-अलग सेवाएँ लोड की जा सकती हैं या नहीं।</target>
+      </trans-unit>
+      <trans-unit id="services.matomo.title" approved="yes">
+        <source>Matomo/Piwik</source>
+        <target state="final">Matomo/Piwik</target>
+      </trans-unit>
+      <trans-unit id="services.matomo.description" approved="yes">
+        <source>Open source software for statistical analysis of visitor accesses</source>
+        <target state="final">आगंतुक पहुँच के सांख्यिकीय विश्लेषण के लिए ओपन सोर्स सॉफ़्टवेयर</target>
+      </trans-unit>
+      <trans-unit id="services.mouseflow.title" approved="yes">
+        <source>Mouseflow</source>
+        <target state="final">Mouseflow</target>
+      </trans-unit>
+      <trans-unit id="services.mouseflow.description" approved="yes">
+        <source>Real-time user analytics service that helps to understand how visitors interact with our website.</source>
+        <target state="final">रीयल-टाइम उपयोगकर्ता एनालिटिक्स सेवा, जो यह समझने में मदद करती है कि आगंतुक हमारी वेबसाइट से कैसे इंटरैक्ट करते हैं।</target>
+      </trans-unit>
+      <trans-unit id="services.salesviewer.title" approved="yes">
+        <source>SalesViewer</source>
+        <target state="final">SalesViewer</target>
+      </trans-unit>
+      <trans-unit id="services.salesviewer.description" approved="yes">
+        <source>SalesViewer analyzes website visits for B2B lead generation and may identify company-related visitor information based on usage and technical access data.</source>
+        <target state="final">SalesViewer B2B लीड जनरेशन के लिए वेबसाइट विज़िट का विश्लेषण करता है और उपयोग तथा तकनीकी पहुँच डेटा के आधार पर कंपनी-संबंधित आगंतुक जानकारी पहचान सकता है।</target>
+      </trans-unit>
+      <trans-unit id="services.tiktok.title" approved="yes">
+        <source>TikTok</source>
+        <target state="final">TikTok</target>
+      </trans-unit>
+      <trans-unit id="services.tiktok.description" approved="yes">
+        <source>Allows TikTok videos to be embedded. Personal data may be transferred to TikTok and processed in third countries.</source>
+        <target state="final">TikTok वीडियो एम्बेड करने की अनुमति देता है। व्यक्तिगत डेटा TikTok को स्थानांतरित होकर तीसरे देशों में संसाधित किया जा सकता है।</target>
+      </trans-unit>
+      <trans-unit id="services.twitter.title" approved="yes">
+        <source>X (formerly Twitter)</source>
+        <target state="final">X (पूर्व में Twitter)</target>
+      </trans-unit>
+      <trans-unit id="services.twitter.description" approved="yes">
+        <source>X (formerly Twitter) is a social media platform that allows users to share and interact with short messages and multimedia content. Developers can integrate Twitter features into websites to enhance user engagement and real-time updates while maintaining data privacy compliance and adhering to coding guidelines.</source>
+        <target state="final">X (पूर्व में Twitter) एक सोशल मीडिया प्लेटफ़ॉर्म है जो उपयोगकर्ताओं को छोटे संदेश और मल्टीमीडिया सामग्री साझा करने और उनसे इंटरैक्ट करने देता है। डेवलपर डेटा गोपनीयता अनुपालन और कोडिंग दिशानिर्देशों का पालन करते हुए उपयोगकर्ता सहभागिता और रीयल-टाइम अपडेट बढ़ाने के लिए Twitter सुविधाओं को वेबसाइटों में एकीकृत कर सकते हैं।</target>
+      </trans-unit>
+      <trans-unit id="services.userlike.title" approved="yes">
+        <source>Userlike</source>
+        <target state="final">Userlike</target>
+      </trans-unit>
+      <trans-unit id="services.userlike.description" approved="yes">
+        <source>Userlike offers a live chat solution that enhances user interactions on websites.</source>
+        <target state="final">Userlike एक लाइव चैट समाधान प्रदान करता है जो वेबसाइटों पर उपयोगकर्ता संवाद को बेहतर बनाता है।</target>
+      </trans-unit>
+      <trans-unit id="services.vimeo.title" approved="yes">
+        <source>Vimeo</source>
+        <target state="final">Vimeo</target>
+      </trans-unit>
+      <trans-unit id="services.vimeo.description" approved="yes">
+        <source>Popular video-sharing platform that offers a range of features for creators and developers to enhance video content on websites.</source>
+        <target state="final">लोकप्रिय वीडियो-साझाकरण प्लेटफ़ॉर्म जो वेबसाइटों पर वीडियो सामग्री बेहतर बनाने के लिए रचनाकारों और डेवलपर्स के लिए कई सुविधाएँ प्रदान करता है।</target>
+      </trans-unit>
+      <trans-unit id="services.youtube.title" approved="yes">
+        <source>YouTube</source>
+        <target state="final">YouTube</target>
+      </trans-unit>
+      <trans-unit id="services.youtube.description" approved="yes">
+        <source>The leading video-sharing platform for content creators and developers to enhance user experiences on websites.</source>
+        <target state="final">वेबसाइटों पर उपयोगकर्ता अनुभव बेहतर बनाने के लिए सामग्री निर्माताओं और डेवलपर्स हेतु अग्रणी वीडियो-साझाकरण प्लेटफ़ॉर्म।</target>
+      </trans-unit>
+      <trans-unit id="consentModal.privacyPolicy.name" approved="yes">
+        <source>Privacy policy</source>
+        <target state="final">गोपनीयता नीति</target>
+      </trans-unit>
+      <trans-unit id="consentModal.privacyPolicy.text" approved="yes">
+        <source>To learn more, please read our {privacyPolicy}.</source>
+        <target state="final">अधिक जानने के लिए, कृपया हमारी {privacyPolicy} पढ़ें.</target>
+      </trans-unit>
+      <trans-unit id="consentNotice.imprint.name" approved="yes">
+        <source>Imprint</source>
+        <target state="final">इम्प्रिंट</target>
+      </trans-unit>
+      <trans-unit id="consentNotice.privacyPolicy.name" approved="yes">
+        <source>Privacy policy</source>
+        <target state="final">गोपनीयता नीति</target>
+      </trans-unit>
+      <trans-unit id="cookies.title" approved="yes">
+        <source>Cookies</source>
+        <target state="final">कुकीज़</target>
+      </trans-unit>
+      <trans-unit id="cookies.description" approved="yes">
+        <source>Below you will find a list of all cookies used by %s</source>
+        <target state="final">नीचे आपको %s द्वारा उपयोग की जाने वाली सभी कुकीज़ की सूची मिलेगी</target>
+      </trans-unit>
+      <trans-unit id="cookies.headline.name" approved="yes">
+        <source>Name / Pattern</source>
+        <target state="final">नाम / पैटर्न</target>
+      </trans-unit>
+      <trans-unit id="cookies.headline.path" approved="yes">
+        <source>Path</source>
+        <target state="final">पथ</target>
+      </trans-unit>
+      <trans-unit id="cookies.headline.domain" approved="yes">
+        <source>Domain</source>
+        <target state="final">डोमेन</target>
+      </trans-unit>
+      <trans-unit id="cookies.headline.expiresAfter" approved="yes">
+        <source>Expires after</source>
+        <target state="final">इसके बाद समाप्त</target>
+      </trans-unit>
+      <trans-unit id="year" approved="yes">
+        <source>Year</source>
+        <target state="final">वर्ष</target>
+      </trans-unit>
+      <trans-unit id="years" approved="yes">
+        <source>Years</source>
+        <target state="final">वर्ष</target>
+      </trans-unit>
+      <trans-unit id="month" approved="yes">
+        <source>Month</source>
+        <target state="final">महीना</target>
+      </trans-unit>
+      <trans-unit id="months" approved="yes">
+        <source>Months</source>
+        <target state="final">महीने</target>
+      </trans-unit>
+      <trans-unit id="day" approved="yes">
+        <source>Day</source>
+        <target state="final">दिन</target>
+      </trans-unit>
+      <trans-unit id="days" approved="yes">
+        <source>Days</source>
+        <target state="final">दिन</target>
+      </trans-unit>
+      <trans-unit id="hour" approved="yes">
+        <source>Hour</source>
+        <target state="final">घंटा</target>
+      </trans-unit>
+      <trans-unit id="hours" approved="yes">
+        <source>Hours</source>
+        <target state="final">घंटे</target>
+      </trans-unit>
+      <trans-unit id="minute" approved="yes">
+        <source>Minute</source>
+        <target state="final">मिनट</target>
+      </trans-unit>
+      <trans-unit id="minutes" approved="yes">
+        <source>Minutes</source>
+        <target state="final">मिनट</target>
+      </trans-unit>
+      <trans-unit id="second" approved="yes">
+        <source>Second</source>
+        <target state="final">सेकंड</target>
+      </trans-unit>
+      <trans-unit id="seconds" approved="yes">
+        <source>Seconds</source>
+        <target state="final">सेकंड</target>
+      </trans-unit>
+      <trans-unit id="end-of-session" approved="yes">
+        <source>End of session</source>
+        <target state="final">सत्र समाप्ति</target>
+      </trans-unit>
+      <trans-unit id="persistent" approved="yes">
+        <source>persistent</source>
+        <target state="final">स्थायी</target>
+      </trans-unit>
+      <trans-unit id="warning.noServices" approved="yes">
+        <source>Why don't I see a Klaro! Modal? → You must assign at least 1 service to the Klaro! configuration! Without services, we don't need consent management at all.</source>
+        <target state="final">मुझे Klaro! Modal क्यों नहीं दिख रहा? → आपको Klaro! कॉन्फ़िगरेशन में कम से कम 1 सेवा असाइन करनी होगी! सेवाओं के बिना हमें सहमति प्रबंधन की बिल्कुल आवश्यकता नहीं है।</target>
+      </trans-unit>
+      <trans-unit id="warning.noServicesPersonalized" approved="yes">
+        <source>Hey %s! You missed a service in the config! Without services, we don't need consent management at all.</source>
+        <target state="final">नमस्ते %s! आपने कॉन्फ़िग में एक सेवा छोड़ दी है! सेवाओं के बिना हमें सहमति प्रबंधन की बिल्कुल आवश्यकता नहीं है।</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

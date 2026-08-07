@@ -1,0 +1,547 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file source-language="en" original="EXT:klaro_consent_manager/Resources/Private/Language/locallang.xlf" datatype="plaintext" product-name="klaro_consent_manager" date="2025-10-13T15:15:27+02:00" target-language="gd">
+    <body>
+      <trans-unit id="acceptAll" approved="yes">
+        <source>Accept all</source>
+        <target state="final">Gabh ris a h-uile</target>
+      </trans-unit>
+      <trans-unit id="acceptSelected" approved="yes">
+        <source>Accept selected</source>
+        <target state="final">Gabh ris na taghte</target>
+      </trans-unit>
+      <trans-unit id="close" approved="yes">
+        <source>Close</source>
+        <target state="final">Dùin</target>
+      </trans-unit>
+      <trans-unit id="consentModal.description" approved="yes">
+        <source>Here you can assess and customize the services that we'd like to use on this website. You're in charge! Enable or disable services as you see fit.</source>
+        <target state="final">An seo faodaidh tu na seirbheisean a tha sinn airson a chleachdadh air an làrach-lìn seo a mheasadh agus a ghnàthachadh. Tha an smachd agad fhèin! Cuir seirbheisean an comas no à comas mar a chì thu iomchaidh.</target>
+      </trans-unit>
+      <trans-unit id="consentModal.title" approved="yes">
+        <source>Services we would like to use</source>
+        <target state="final">Seirbheisean a tha sinn airson a chleachdadh</target>
+      </trans-unit>
+      <trans-unit id="consentNotice.changeDescription" approved="yes">
+        <source>There were changes since your last visit, please renew your consent.</source>
+        <target state="final">Bha atharrachaidhean ann bhon turas mu dheireadh agad, feuch an ùraich thu do chead.</target>
+      </trans-unit>
+      <trans-unit id="consentNotice.description" approved="yes">
+        <source>Hi! Could we please enable some additional services for {purposes}? You can always change or withdraw your consent later.</source>
+        <target state="final">Halò! Am faod sinn cuid de sheirbheisean a bharrachd a chur an comas airson {purposes}? Faodaidh tu do chead atharrachadh no a tharraing air ais an-còmhnaidh nas fhaide air adhart.</target>
+      </trans-unit>
+      <trans-unit id="consentNotice.learnMore" approved="yes">
+        <source>Let me choose</source>
+        <target state="final">Leig dhomh taghadh</target>
+      </trans-unit>
+      <trans-unit id="consentNotice.testing" approved="yes">
+        <source>Testing mode!</source>
+        <target state="final">Modh deuchainn!</target>
+      </trans-unit>
+      <trans-unit id="consentNotice.title" approved="yes">
+        <source>Cookie Consent</source>
+        <target state="final">Cead bhriosgaidean</target>
+      </trans-unit>
+      <trans-unit id="contextualConsent.acceptAlways" approved="yes">
+        <source>Always</source>
+        <target state="final">An-còmhnaidh</target>
+      </trans-unit>
+      <trans-unit id="contextualConsent.acceptOnce" approved="yes">
+        <source>Yes</source>
+        <target state="final">Tha</target>
+      </trans-unit>
+      <trans-unit id="contextualConsent.description" approved="yes">
+        <source>Do you want to load external content supplied by {title}?</source>
+        <target state="final">A bheil thu airson susbaint a-muigh a luchdadh a tha air a thoirt seachad le {title}?</target>
+      </trans-unit>
+      <trans-unit id="contextualConsent.descriptionEmptyStore" approved="yes">
+        <source>To agree to this service permanently, you must accept {title} in the {link}.</source>
+        <target state="final">Gus cead maireannach a thoirt don t-seirbheis seo, feumaidh tu {title} a ghabhail ris ann an {link}.</target>
+      </trans-unit>
+      <trans-unit id="contextualConsent.modalLinkText" approved="yes">
+        <source>Consent Manager</source>
+        <target state="final">Manaidsear ceadachaidh</target>
+      </trans-unit>
+      <trans-unit id="decline" approved="yes">
+        <source>I decline</source>
+        <target state="final">Tha mi a diùltadh</target>
+      </trans-unit>
+      <trans-unit id="ok" approved="yes">
+        <source>That's ok</source>
+        <target state="final">Tha sin ceart gu leòr</target>
+      </trans-unit>
+      <trans-unit id="poweredBy" approved="yes">
+        <source>Realized with Klaro!</source>
+        <target state="final">Air a thoirt gu buil le Klaro!</target>
+      </trans-unit>
+      <trans-unit id="privacyPolicy.name" approved="yes">
+        <source>privacy policy</source>
+        <target state="final">poileasaidh prìobhaideachd</target>
+      </trans-unit>
+      <trans-unit id="privacyPolicy.text" approved="yes">
+        <source>To learn more, please read our {privacyPolicy}.</source>
+        <target state="final">Airson barrachd ionnsachadh, leugh ar {privacyPolicy}.</target>
+      </trans-unit>
+      <trans-unit id="purposeItem.service" approved="yes">
+        <source>service</source>
+        <target state="final">seirbheis</target>
+      </trans-unit>
+      <trans-unit id="purposeItem.services" approved="yes">
+        <source>services</source>
+        <target state="final">seirbheisean</target>
+      </trans-unit>
+      <trans-unit id="purposes.advertising.description" approved="yes">
+        <source>These services process personal information to show you personalized or interest-based advertisements.</source>
+        <target state="final">Bidh na seirbheisean seo a’ giullachd fiosrachadh pearsanta gus sanasan pearsanaichte no stèidhichte air ùidh a shealltainn dhut.</target>
+      </trans-unit>
+      <trans-unit id="purposes.advertising.title" approved="yes">
+        <source>Advertising</source>
+        <target state="final">Sanasachd</target>
+      </trans-unit>
+      <trans-unit id="purposes.functional.description" approved="yes">
+        <source>These services are essential for the correct functioning of this website. You cannot disable them here as the service would not work correctly otherwise.</source>
+        <target state="final">Tha na seirbheisean seo riatanach airson obrachadh ceart na làraich-lìn seo. Chan urrainn dhut an cur à comas an seo, oir air dhòigh eile cha bhiodh an t-seirbheis ag obair gu ceart.</target>
+      </trans-unit>
+      <trans-unit id="purposes.functional.title" approved="yes">
+        <source>Service Provision</source>
+        <target state="final">Solar seirbheis</target>
+      </trans-unit>
+      <trans-unit id="purposes.marketing.description" approved="yes">
+        <source>These services process personal information to show you relevant content about products, services or topics that you might be interested in.</source>
+        <target state="final">Bidh na seirbheisean seo a’ giullachd fiosrachadh pearsanta gus susbaint iomchaidh mu thoraidhean, seirbheisean no cuspairean a dh’fhaodadh ùidh a bhith agad annta a shealltainn dhut.</target>
+      </trans-unit>
+      <trans-unit id="purposes.marketing.title" approved="yes">
+        <source>Marketing</source>
+        <target state="final">Margaidheachd</target>
+      </trans-unit>
+      <trans-unit id="purposes.performance.description" approved="yes">
+        <source>These services process personal information to optimize the service that this website offers.</source>
+        <target state="final">Bidh na seirbheisean seo a’ giullachd fiosrachadh pearsanta gus an t-seirbheis a tha an làrach-lìn seo a’ tabhann a bharrachadh.</target>
+      </trans-unit>
+      <trans-unit id="purposes.performance.title" approved="yes">
+        <source>Performance Optimization</source>
+        <target state="final">Barrrachadh dèanadais</target>
+      </trans-unit>
+      <trans-unit id="save" approved="yes">
+        <source>Save</source>
+        <target state="final">Sàbhail</target>
+      </trans-unit>
+      <trans-unit id="service.disableAll.description" approved="yes">
+        <source>Use this switch to enable or disable all services.</source>
+        <target state="final">Cleachd an suidse seo gus na seirbheisean uile a chur an comas no à comas.</target>
+      </trans-unit>
+      <trans-unit id="service.disableAll.title" approved="yes">
+        <source>Enable or disable all services</source>
+        <target state="final">Cuir na seirbheisean uile an comas no à comas</target>
+      </trans-unit>
+      <trans-unit id="service.optOut.description" approved="yes">
+        <source>This service is loaded by default (but you can opt out)</source>
+        <target state="final">Thèid an t-seirbheis seo a luchdadh gu bunaiteach (ach faodaidh tu tarraing a-mach)</target>
+      </trans-unit>
+      <trans-unit id="service.optOut.title" approved="yes">
+        <source>(opt-out)</source>
+        <target state="final">(tarraing a-mach)</target>
+      </trans-unit>
+      <trans-unit id="service.purpose" approved="yes">
+        <source>purpose</source>
+        <target state="final">adhbhar</target>
+      </trans-unit>
+      <trans-unit id="service.purposes" approved="yes">
+        <source>purposes</source>
+        <target state="final">adhbharan</target>
+      </trans-unit>
+      <trans-unit id="service.required.description" approved="yes">
+        <source>This service is always required</source>
+        <target state="final">Tha an t-seirbheis seo riatanach an-còmhnaidh</target>
+      </trans-unit>
+      <trans-unit id="service.required.title" approved="yes">
+        <source>(always required)</source>
+        <target state="final">(riatanach an-còmhnaidh)</target>
+      </trans-unit>
+      <trans-unit id="purposes.analytics.title" approved="yes">
+        <source>Analytics</source>
+        <target state="final">Anailisean</target>
+      </trans-unit>
+      <trans-unit id="purposes.analytics.description" approved="yes">
+        <source>These services gather anonymous data for statistical analysis and performance optimization. Enabling analytics services assists website owners in making informed decisions to enhance online services.</source>
+        <target state="final">Bidh na seirbheisean seo a’ cruinneachadh dàta gun urra airson mion-sgrùdadh staitistigeil agus leasachadh dèanadais. Le bhith a’ cur seirbheisean anailis an comas, cuidichidh e sealbhadairean làraich-lìn gus co-dhùnaidhean fiosraichte a dhèanamh airson seirbheisean air-loidhne a leasachadh.</target>
+      </trans-unit>
+      <trans-unit id="purposes.security.title" approved="yes">
+        <source>Security</source>
+        <target state="final">Tèarainteachd</target>
+      </trans-unit>
+      <trans-unit id="purposes.security.description" approved="yes">
+        <source>Security services are crucial for safeguarding your online experience. These services help protect your data and privacy by detecting and preventing security threats, such as malware, phishing attempts, and unauthorized access. They ensure a safer browsing environment.</source>
+        <target state="final">Tha seirbheisean tèarainteachd deatamach airson d’ eòlas air-loidhne a dhìon. Cuidichidh na seirbheisean seo le bhith a’ dìon do dhàta agus do phrìobhaideachd le bhith a’ lorg agus a’ casg chunnartan tèarainteachd, leithid bathar-bog droch-rùnach, oidhirpean phishing agus ruigsinneachd gun chead. Bidh iad a’ dèanamh àrainneachd brobhsaidh nas sàbhailte.</target>
+      </trans-unit>
+      <trans-unit id="purposes.livechat.title" approved="yes">
+        <source>Live Chat</source>
+        <target state="final">Cabadaich bheò</target>
+      </trans-unit>
+      <trans-unit id="purposes.livechat.description" approved="yes">
+        <source>Live chat services enable real-time communication with website support teams. They offer a convenient way to ask questions, seek assistance, or engage in discussions while browsing a website. Live chat enhances your online interaction and customer support experience.</source>
+        <target state="final">Leigidh seirbheisean cabadaich bheò leat conaltradh ann an àm fìor le sgiobaidhean taice na làraich-lìn. Tha iad a’ tabhann dòigh ghoireasach air ceistean fhaighneachd, cuideachadh iarraidh no còmhraidhean a dhèanamh fhad ’s a tha thu a’ brobhsadh làrach-lìn. Bidh cabadaich bheò a’ leasachadh d’ eadar-obrachadh air-loidhne agus eòlas taic luchd-ceannach.</target>
+      </trans-unit>
+      <trans-unit id="purposes.styling.title" approved="yes">
+        <source>Styling</source>
+        <target state="final">Stoidhleadh</target>
+      </trans-unit>
+      <trans-unit id="purposes.styling.description" approved="yes">
+        <source>Services related to styling help to improve the appearance of the website. This can also have an impact on usability.</source>
+        <target state="final">Cuidichidh seirbheisean co-cheangailte ri stoidhle le coltas na làraich-lìn a leasachadh. Faodaidh seo buaidh a thoirt air so-chleachdadh cuideachd.</target>
+      </trans-unit>
+      <trans-unit id="purposes.videos.title" approved="yes">
+        <source>Videos</source>
+        <target state="final">Bhideothan</target>
+      </trans-unit>
+      <trans-unit id="purposes.videos.description" approved="yes">
+        <source>Embedding videos from external platforms to enrich the content on this website.</source>
+        <target state="final">A’ leabachadh bhideothan bho àrd-ùrlaran a-muigh gus susbaint na làraich-lìn seo a shaibhreachadh.</target>
+      </trans-unit>
+      <trans-unit id="purposes.social.title" approved="yes">
+        <source>Social Media</source>
+        <target state="final">Na meadhanan sòisealta</target>
+      </trans-unit>
+      <trans-unit id="purposes.social.description" approved="yes">
+        <source>Embedding social media from external platforms to enrich the content on this website.</source>
+        <target state="final">A’ leabachadh mheadhanan sòisealta bho àrd-ùrlaran a-muigh gus susbaint na làraich-lìn seo a shaibhreachadh.</target>
+      </trans-unit>
+      <trans-unit id="purposes.misc.title" approved="yes">
+        <source>Miscellaneous</source>
+        <target state="final">Measgaichte</target>
+      </trans-unit>
+      <trans-unit id="purposes.misc.description" approved="yes">
+        <source>This includes services that do not fall under the other purposes.</source>
+        <target state="final">Tha seo a’ gabhail a-steach seirbheisean nach eil a’ tuiteam fo na h-adhbharan eile.</target>
+      </trans-unit>
+      <trans-unit id="consentManager.show" approved="yes">
+        <source>Show Consent Manager</source>
+        <target state="final">Seall manaidsear ceadachaidh</target>
+      </trans-unit>
+      <trans-unit id="consentManager.show.title" approved="yes">
+        <source>Show Consent Manager</source>
+        <target state="final">Seall manaidsear ceadachaidh</target>
+      </trans-unit>
+      <trans-unit id="consentManager.reset" approved="yes">
+        <source>Reset Consent Manager</source>
+        <target state="final">Ath-shuidhich manaidsear ceadachaidh</target>
+      </trans-unit>
+      <trans-unit id="consentManager.reset.title" approved="yes">
+        <source>Reset Consent Manager</source>
+        <target state="final">Ath-shuidhich manaidsear ceadachaidh</target>
+      </trans-unit>
+      <trans-unit id="services.adobe-fonts.title" approved="yes">
+        <source>Adobe Fonts</source>
+        <target state="final">Adobe Fonts</target>
+      </trans-unit>
+      <trans-unit id="services.adobe-fonts.description" approved="yes">
+        <source>Adobe Fonts provides web fonts used for this website. When enabled, font files are loaded from Adobe and technical connection data may be processed.</source>
+        <target state="final">Tha Adobe Fonts a’ solarachadh fhontan lìn a thathar a’ cleachdadh airson na làraich-lìn seo. Nuair a tha e comasach, thèid faidhlichean font a luchdadh bho Adobe agus faodaidh dàta ceangail teicnigeach a bhith air a ghiullachd.</target>
+      </trans-unit>
+      <trans-unit id="services.adsense.title" approved="yes">
+        <source>Google AdSense</source>
+        <target state="final">Google AdSense</target>
+      </trans-unit>
+      <trans-unit id="services.adsense.description" approved="yes">
+        <source>Google AdSense enables personalized ads on websites while respecting user privacy. By consenting, you allow relevant ads and help support free content.</source>
+        <target state="final">Leigidh Google AdSense le sanasan pearsanaichte air làraich-lìn agus e a’ toirt urram do phrìobhaideachd luchd-cleachdaidh. Le bhith a’ toirt cead, leigidh tu le sanasan iomchaidh agus cuidichidh tu le susbaint shaor a chumail suas.</target>
+      </trans-unit>
+      <trans-unit id="services.camera.title" approved="yes">
+        <source>Surveillance Camera</source>
+        <target state="final">Camara faire</target>
+      </trans-unit>
+      <trans-unit id="services.camera.description" approved="yes">
+        <source>Consent to the use of surveillance camera images for security and safety purposes, in compliance with applicable data privacy regulations.</source>
+        <target state="final">Cead airson ìomhaighean camara-faire a chleachdadh airson adhbharan tèarainteachd is sàbhailteachd, a rèir riaghailtean prìobhaideachd dàta iomchaidh.</target>
+      </trans-unit>
+      <trans-unit id="services.career-captain.title" approved="yes">
+        <source>Career Captain</source>
+        <target state="final">Career Captain</target>
+      </trans-unit>
+      <trans-unit id="services.career-captain.description" approved="yes">
+        <source>Career Captain provides gamified career orientation and recruiting content. When enabled, external content from Career Captain may process usage and technical connection data.</source>
+        <target state="final">Tha Career Captain a’ toirt seachad susbaint stiùiridh dreuchdail agus fastaidh le eileamaidean geama. Nuair a tha e comasach, faodaidh susbaint a-muigh bho Career Captain dàta cleachdaidh agus dàta ceangail teicnigeach a ghiullachd.</target>
+      </trans-unit>
+      <trans-unit id="services.clarity.title" approved="yes">
+        <source>Microsoft Clarity</source>
+        <target state="final">Microsoft Clarity</target>
+      </trans-unit>
+      <trans-unit id="services.clarity.description" approved="yes">
+        <source>Microsoft Clarity is a user-friendly web analytics tool that empowers website visitors like you by providing transparency about how your interactions are tracked on a website. It ensures your privacy is respected while giving developers and website owners valuable insights into user behavior. Plus, it follows coding guidelines and best practices, ensuring a safe and secure online experience for you.</source>
+        <target state="final">Tha Microsoft Clarity na inneal anailis lìn furasta a chleachdadh a bheir follaiseachd do luchd-tadhail làraich-lìn mu mar a thathar a’ tracadh an eadar-obrachadh air làrach-lìn. Bidh e a’ dèanamh cinnteach gu bheil do phrìobhaideachd air a meas, agus aig an aon àm a’ toirt lèirsinn luachmhor do luchd-leasachaidh agus sealbhadairean làraich-lìn mu ghiùlan luchd-cleachdaidh. A bharrachd air sin, bidh e a’ leantainn stiùiridhean còdaidh agus deagh chleachdaidhean, a’ dèanamh eòlas air-loidhne sàbhailte agus tèarainte dhut.</target>
+      </trans-unit>
+      <trans-unit id="services.cloudflare.title" approved="yes">
+        <source>Cloudflare</source>
+        <target state="final">Cloudflare</target>
+      </trans-unit>
+      <trans-unit id="services.cloudflare.description" approved="yes">
+        <source>Cloudflare helps protect and optimize websites. By using this website, you consent to Cloudflare's data processing practices as described in its Privacy Policy.</source>
+        <target state="final">Cuidichidh Cloudflare le làraich-lìn a dhìon agus a bharrachadh. Le bhith a’ cleachdadh na làraich-lìn seo, tha thu ag aontachadh ri cleachdaidhean giullachd dàta Cloudflare mar a tha iad air am mìneachadh sa phoileasaidh prìobhaideachd aige.</target>
+      </trans-unit>
+      <trans-unit id="services.external-tracker.title" approved="yes">
+        <source>External Tracker</source>
+        <target state="final">Tracair taobh a-muigh</target>
+      </trans-unit>
+      <trans-unit id="services.external-tracker.description" approved="yes">
+        <source>External tracking script</source>
+        <target state="final">Sgriobt tracadh a-muigh</target>
+      </trans-unit>
+      <trans-unit id="services.facebook-pixel.title" approved="yes">
+        <source>Facebook Pixel</source>
+        <target state="final">Facebook Pixel</target>
+      </trans-unit>
+      <trans-unit id="services.facebook-pixel.description" approved="yes">
+        <source>Simplifies web tracking for analytics and marketing while ensuring data compliance and control.</source>
+        <target state="final">Nì e tracadh lìn nas sìmplidhe airson anailis agus margaidheachd agus e a’ dèanamh cinnteach à gèilleadh agus smachd dàta.</target>
+      </trans-unit>
+      <trans-unit id="services.fast-fonts.title" approved="yes">
+        <source>Fast Fonts</source>
+        <target state="final">Fast Fonts</target>
+      </trans-unit>
+      <trans-unit id="services.fast-fonts.description" approved="yes">
+        <source>Fast Fonts, operated by fonts.com and supplied by fast.fonts.net, is a service for the provision of web fonts. It requires the use of a pixel-code for continuous price calculation.</source>
+        <target state="final">Tha Fast Fonts, air a ruith le fonts.com agus air a sholarachadh le fast.fonts.net, na sheirbheis airson fontan lìn a thoirt seachad. Feumaidh e còd piogsail a chleachdadh airson àireamhachadh prìse leantainneach.</target>
+      </trans-unit>
+      <trans-unit id="services.google-ads.title" approved="yes">
+        <source>Google Ads</source>
+        <target state="final">Google Ads</target>
+      </trans-unit>
+      <trans-unit id="services.google-ads.description" approved="yes">
+        <source>Google Ads allows advertisers to reach their target audience online. To personalize ads and measure their effectiveness, Google may collect data with your consent.</source>
+        <target state="final">Leigidh Google Ads le luchd-sanasachd an luchd-èisteachd targaid aca a ruigsinn air-loidhne. Gus sanasan a phearsanachadh agus an èifeachdas a thomhas, faodaidh Google dàta a chruinneachadh le do chead.</target>
+      </trans-unit>
+      <trans-unit id="services.google-analytics.title" approved="yes">
+        <source>Google Analytics</source>
+        <target state="final">Google Analytics</target>
+      </trans-unit>
+      <trans-unit id="services.google-analytics.description" approved="yes">
+        <source>Web analytics service provided by Google, Inc. ("Google")</source>
+        <target state="final">Seirbheis anailis lìn air a toirt seachad le Google, Inc. ("Google")</target>
+      </trans-unit>
+      <trans-unit id="services.google-fonts.title" approved="yes">
+        <source>Google Fonts</source>
+        <target state="final">Google Fonts</target>
+      </trans-unit>
+      <trans-unit id="services.google-fonts.description" approved="yes">
+        <source>Web fonts hosted by Google</source>
+        <target state="final">Fontan lìn air an aoigheachd le Google</target>
+      </trans-unit>
+      <trans-unit id="services.google-maps.title" approved="yes">
+        <source>Google Maps</source>
+        <target state="final">Google Maps</target>
+      </trans-unit>
+      <trans-unit id="services.google-maps.description" approved="yes">
+        <source>Google Maps allows for the integration of interactive maps on websites, enabling location-based services. Developers can utilize it while ensuring data compliance and control, adhering to coding guidelines and best practices.</source>
+        <target state="final">Leigidh Google Maps le mapaichean eadar-ghnìomhach a bhith air an amalachadh ann an làraich-lìn, a’ comasachadh seirbheisean stèidhichte air àite. Faodaidh luchd-leasachaidh a chleachdadh fhad ’s a tha iad a’ dèanamh cinnteach à gèilleadh agus smachd dàta agus a’ leantainn stiùiridhean còdaidh agus deagh chleachdaidhean.</target>
+      </trans-unit>
+      <trans-unit id="services.google-tag-manager.title" approved="yes">
+        <source>Google Tag Manager</source>
+        <target state="final">Google Tag Manager</target>
+      </trans-unit>
+      <trans-unit id="services.google-tag-manager.description" approved="yes">
+        <source>Google Tag Manager streamlines web tracking and code management, ensuring data compliance and control for developers.</source>
+        <target state="final">Bidh Google Tag Manager a’ sgioblachadh tracadh lìn agus stiùireadh còd, a’ dèanamh cinnteach à gèilleadh agus smachd dàta do luchd-leasachaidh.</target>
+      </trans-unit>
+      <trans-unit id="services.inline-tracker.title" approved="yes">
+        <source>Inline Tracker</source>
+        <target state="final">Tracair in-loidhne</target>
+      </trans-unit>
+      <trans-unit id="services.inline-tracker.description" approved="yes">
+        <source>Inline tracking script</source>
+        <target state="final">Sgriobt tracadh a-staigh</target>
+      </trans-unit>
+      <trans-unit id="services.instagram.title" approved="yes">
+        <source>Instagram</source>
+        <target state="final">Instagram</target>
+      </trans-unit>
+      <trans-unit id="services.instagram.description" approved="yes">
+        <source>Allows Instagram posts to be embedded. Personal data may be transferred to Instagram (Meta Platforms) in the process.</source>
+        <target state="final">Leigidh e le puist Instagram a bhith air an leabachadh. Faodar dàta pearsanta a ghluasad gu Instagram (Meta Platforms) sa phròiseas.</target>
+      </trans-unit>
+      <trans-unit id="services.intercom.title" approved="yes">
+        <source>Intercom</source>
+        <target state="final">Intercom</target>
+      </trans-unit>
+      <trans-unit id="services.intercom.description" approved="yes">
+        <source>Chat widget and collecting of visitor statistics</source>
+        <target state="final">Widget cabadaich agus cruinneachadh staitistig luchd-tadhail</target>
+      </trans-unit>
+      <trans-unit id="services.klaro.title" approved="yes">
+        <source>Klaro!</source>
+        <target state="final">Klaro!</target>
+      </trans-unit>
+      <trans-unit id="services.klaro.description" approved="yes">
+        <source>Klaro! manages consent choices for this website and stores whether individual services may be loaded according to your preferences.</source>
+        <target state="final">Bidh Klaro! a’ riaghladh roghainnean cead airson na làraich-lìn seo agus a’ stòradh am faodar seirbheisean fa leth a luchdadh a rèir do roghainnean.</target>
+      </trans-unit>
+      <trans-unit id="services.matomo.title" approved="yes">
+        <source>Matomo/Piwik</source>
+        <target state="final">Matomo/Piwik</target>
+      </trans-unit>
+      <trans-unit id="services.matomo.description" approved="yes">
+        <source>Open source software for statistical analysis of visitor accesses</source>
+        <target state="final">Bathar-bog stòr fosgailte airson mion-sgrùdadh staitistigeil air ruigsinneachdan luchd-tadhail</target>
+      </trans-unit>
+      <trans-unit id="services.mouseflow.title" approved="yes">
+        <source>Mouseflow</source>
+        <target state="final">Mouseflow</target>
+      </trans-unit>
+      <trans-unit id="services.mouseflow.description" approved="yes">
+        <source>Real-time user analytics service that helps to understand how visitors interact with our website.</source>
+        <target state="final">Seirbheis anailis luchd-cleachdaidh ann an àm fìor a chuidicheas le tuigsinn mar a bhios luchd-tadhail ag eadar-obrachadh leis an làrach-lìn againn.</target>
+      </trans-unit>
+      <trans-unit id="services.salesviewer.title" approved="yes">
+        <source>SalesViewer</source>
+        <target state="final">SalesViewer</target>
+      </trans-unit>
+      <trans-unit id="services.salesviewer.description" approved="yes">
+        <source>SalesViewer analyzes website visits for B2B lead generation and may identify company-related visitor information based on usage and technical access data.</source>
+        <target state="final">Bidh SalesViewer a’ sgrùdadh tadhalan làraich-lìn airson gineadh stiùiridhean B2B agus faodaidh e fiosrachadh luchd-tadhail co-cheangailte ri companaidh aithneachadh stèidhichte air dàta cleachdaidh agus ruigsinneachd teicnigeach.</target>
+      </trans-unit>
+      <trans-unit id="services.tiktok.title" approved="yes">
+        <source>TikTok</source>
+        <target state="final">TikTok</target>
+      </trans-unit>
+      <trans-unit id="services.tiktok.description" approved="yes">
+        <source>Allows TikTok videos to be embedded. Personal data may be transferred to TikTok and processed in third countries.</source>
+        <target state="final">Leigidh e le bhideothan TikTok a bhith air an leabachadh. Faodar dàta pearsanta a ghluasad gu TikTok agus a ghiullachd ann an treas dùthchannan.</target>
+      </trans-unit>
+      <trans-unit id="services.twitter.title" approved="yes">
+        <source>X (formerly Twitter)</source>
+        <target state="final">X (Twitter roimhe seo)</target>
+      </trans-unit>
+      <trans-unit id="services.twitter.description" approved="yes">
+        <source>X (formerly Twitter) is a social media platform that allows users to share and interact with short messages and multimedia content. Developers can integrate Twitter features into websites to enhance user engagement and real-time updates while maintaining data privacy compliance and adhering to coding guidelines.</source>
+        <target state="final">Tha X (Twitter roimhe) na àrd-ùrlar mheadhanan sòisealta a leigeas le luchd-cleachdaidh teachdaireachdan goirid agus susbaint ioma-mheadhanach a cho-roinn agus eadar-obrachadh leotha. Faodaidh luchd-leasachaidh feartan Twitter amalachadh ann an làraich-lìn gus com-pàirteachadh luchd-cleachdaidh agus ùrachaidhean ann an àm fìor a leasachadh, fhad ’s a tha iad a’ cumail ri gèilleadh prìobhaideachd dàta agus stiùiridhean còdaidh.</target>
+      </trans-unit>
+      <trans-unit id="services.userlike.title" approved="yes">
+        <source>Userlike</source>
+        <target state="final">Userlike</target>
+      </trans-unit>
+      <trans-unit id="services.userlike.description" approved="yes">
+        <source>Userlike offers a live chat solution that enhances user interactions on websites.</source>
+        <target state="final">Tha Userlike a’ tabhann fuasgladh cabadaich bheò a leasaicheas eadar-obrachadh luchd-cleachdaidh air làraich-lìn.</target>
+      </trans-unit>
+      <trans-unit id="services.vimeo.title" approved="yes">
+        <source>Vimeo</source>
+        <target state="final">Vimeo</target>
+      </trans-unit>
+      <trans-unit id="services.vimeo.description" approved="yes">
+        <source>Popular video-sharing platform that offers a range of features for creators and developers to enhance video content on websites.</source>
+        <target state="final">Àrd-ùrlar mòr-chòrdte airson bhideothan a cho-roinn a tha a’ tabhann raon de fheartan do luchd-cruthachaidh agus luchd-leasachaidh gus susbaint bhidio a leasachadh air làraich-lìn.</target>
+      </trans-unit>
+      <trans-unit id="services.youtube.title" approved="yes">
+        <source>YouTube</source>
+        <target state="final">YouTube</target>
+      </trans-unit>
+      <trans-unit id="services.youtube.description" approved="yes">
+        <source>The leading video-sharing platform for content creators and developers to enhance user experiences on websites.</source>
+        <target state="final">Am prìomh àrd-ùrlar roinneadh bhideothan do luchd-cruthachaidh susbaint agus luchd-leasachaidh gus eòlasan luchd-cleachdaidh a leasachadh air làraich-lìn.</target>
+      </trans-unit>
+      <trans-unit id="consentModal.privacyPolicy.name" approved="yes">
+        <source>Privacy policy</source>
+        <target state="final">Poileasaidh prìobhaideachd</target>
+      </trans-unit>
+      <trans-unit id="consentModal.privacyPolicy.text" approved="yes">
+        <source>To learn more, please read our {privacyPolicy}.</source>
+        <target state="final">Airson barrachd ionnsachadh, leugh ar {privacyPolicy}.</target>
+      </trans-unit>
+      <trans-unit id="consentNotice.imprint.name" approved="yes">
+        <source>Imprint</source>
+        <target state="final">Fiosrachadh laghail</target>
+      </trans-unit>
+      <trans-unit id="consentNotice.privacyPolicy.name" approved="yes">
+        <source>Privacy policy</source>
+        <target state="final">Poileasaidh prìobhaideachd</target>
+      </trans-unit>
+      <trans-unit id="cookies.title" approved="yes">
+        <source>Cookies</source>
+        <target state="final">Briosgaidean</target>
+      </trans-unit>
+      <trans-unit id="cookies.description" approved="yes">
+        <source>Below you will find a list of all cookies used by %s</source>
+        <target state="final">Gu h-ìosal gheibh thu liosta de na briosgaidean uile a chleachdas %s</target>
+      </trans-unit>
+      <trans-unit id="cookies.headline.name" approved="yes">
+        <source>Name / Pattern</source>
+        <target state="final">Ainm / pàtran</target>
+      </trans-unit>
+      <trans-unit id="cookies.headline.path" approved="yes">
+        <source>Path</source>
+        <target state="final">Slighe</target>
+      </trans-unit>
+      <trans-unit id="cookies.headline.domain" approved="yes">
+        <source>Domain</source>
+        <target state="final">Àrainn</target>
+      </trans-unit>
+      <trans-unit id="cookies.headline.expiresAfter" approved="yes">
+        <source>Expires after</source>
+        <target state="final">Falbhaidh e an dèidh</target>
+      </trans-unit>
+      <trans-unit id="year" approved="yes">
+        <source>Year</source>
+        <target state="final">Bliadhna</target>
+      </trans-unit>
+      <trans-unit id="years" approved="yes">
+        <source>Years</source>
+        <target state="final">Bliadhnaichean</target>
+      </trans-unit>
+      <trans-unit id="month" approved="yes">
+        <source>Month</source>
+        <target state="final">Mìos</target>
+      </trans-unit>
+      <trans-unit id="months" approved="yes">
+        <source>Months</source>
+        <target state="final">Mìosan</target>
+      </trans-unit>
+      <trans-unit id="day" approved="yes">
+        <source>Day</source>
+        <target state="final">Latha</target>
+      </trans-unit>
+      <trans-unit id="days" approved="yes">
+        <source>Days</source>
+        <target state="final">Làithean</target>
+      </trans-unit>
+      <trans-unit id="hour" approved="yes">
+        <source>Hour</source>
+        <target state="final">Uair</target>
+      </trans-unit>
+      <trans-unit id="hours" approved="yes">
+        <source>Hours</source>
+        <target state="final">Uairean</target>
+      </trans-unit>
+      <trans-unit id="minute" approved="yes">
+        <source>Minute</source>
+        <target state="final">Mionaid</target>
+      </trans-unit>
+      <trans-unit id="minutes" approved="yes">
+        <source>Minutes</source>
+        <target state="final">Mionaidean</target>
+      </trans-unit>
+      <trans-unit id="second" approved="yes">
+        <source>Second</source>
+        <target state="final">Diog</target>
+      </trans-unit>
+      <trans-unit id="seconds" approved="yes">
+        <source>Seconds</source>
+        <target state="final">Diogan</target>
+      </trans-unit>
+      <trans-unit id="end-of-session" approved="yes">
+        <source>End of session</source>
+        <target state="final">Deireadh an t-seisein</target>
+      </trans-unit>
+      <trans-unit id="persistent" approved="yes">
+        <source>persistent</source>
+        <target state="final">maireannach</target>
+      </trans-unit>
+      <trans-unit id="warning.noServices" approved="yes">
+        <source>Why don't I see a Klaro! Modal? → You must assign at least 1 service to the Klaro! configuration! Without services, we don't need consent management at all.</source>
+        <target state="final">Carson nach fhaic mi modal Klaro!? → Feumaidh tu co-dhiù 1 seirbheis a shònrachadh do rèiteachadh Klaro! Gun sheirbheisean, chan eil feum againn air stiùireadh cead idir.</target>
+      </trans-unit>
+      <trans-unit id="warning.noServicesPersonalized" approved="yes">
+        <source>Hey %s! You missed a service in the config! Without services, we don't need consent management at all.</source>
+        <target state="final">Halò %s! Dhìochuimhnich thu seirbheis san rèiteachadh! Gun sheirbheisean, chan eil feum againn air stiùireadh cead idir.</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

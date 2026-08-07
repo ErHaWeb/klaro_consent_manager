@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file source-language="en" original="EXT:klaro_consent_manager/Configuration/Sets/KlaroConsentManager/labels.xlf" datatype="plaintext" product-name="klaro_consent_manager" date="2025-07-10T17:20:02+02:00" target-language="ga-IE">
+    <header/>
+    <body>
+      <trans-unit id="label" approved="yes">
+        <source>Klaro! Consent Manager</source>
+        <target state="final">Bainisteoir Toilithe Klaro!</target>
+      </trans-unit>
+      <trans-unit id="categories.klaroconsentmanager" approved="yes">
+        <source>Klaro</source>
+        <target state="final">Klaro</target>
+      </trans-unit>
+      <trans-unit id="categories.klaroconsentmanager.templates" approved="yes">
+        <source>Templates</source>
+        <target state="final">Teimpléid</target>
+      </trans-unit>
+      <trans-unit id="categories.klaroconsentmanager.resources" approved="yes">
+        <source>Resources</source>
+        <target state="final">Acmhainní</target>
+      </trans-unit>
+      <trans-unit id="categories.klaroconsentmanager.settings" approved="yes">
+        <source>Settings</source>
+        <target state="final">Socruithe</target>
+      </trans-unit>
+      <trans-unit id="settings.plugin.tx_klaroconsentmanager.view.templateRootPath" approved="yes">
+        <source>Path to template root (FE)</source>
+        <target state="final">Conair chuig fréamh na dteimpléad (FE)</target>
+      </trans-unit>
+      <trans-unit id="settings.plugin.tx_klaroconsentmanager.view.partialRootPath" approved="yes">
+        <source>Path to template partials (FE)</source>
+        <target state="final">Conair chuig páirteanna teimpléid (FE)</target>
+      </trans-unit>
+      <trans-unit id="settings.plugin.tx_klaroconsentmanager.view.layoutRootPath" approved="yes">
+        <source>Path to template layouts (FE)</source>
+        <target state="final">Conair chuig leaganacha amach teimpléid (FE)</target>
+      </trans-unit>
+      <trans-unit id="settings.plugin.tx_klaroconsentmanager.settings.css.klaro-default" approved="yes">
+        <source>Klaro CSS</source>
+        <target state="final">Klaro CSS</target>
+      </trans-unit>
+      <trans-unit id="settings.plugin.tx_klaroconsentmanager.settings.css.klaro-custom" approved="yes">
+        <source>Custom additions for Klaro CSS</source>
+        <target state="final">Breiseáin shaincheaptha do Klaro CSS</target>
+      </trans-unit>
+      <trans-unit id="settings.plugin.tx_klaroconsentmanager.settings.javascript.klaro-default" approved="yes">
+        <source>Klaro JavaScript</source>
+        <target state="final">Klaro JavaScript</target>
+      </trans-unit>
+      <trans-unit id="settings.plugin.tx_klaroconsentmanager.settings.contextualconsent.replaceAttributes" approved="yes">
+        <source>Replace attributes</source>
+        <target state="final">Ionadaigh tréithe</target>
+      </trans-unit>
+      <trans-unit id="settings.description.plugin.tx_klaroconsentmanager.settings.contextualconsent.replaceAttributes" approved="yes">
+        <source>Comma-separated list of attributes that should be automatically replaced within the content element of the contextual consent</source>
+        <target state="final">Liosta tréithe scartha le camóga ar cheart iad a ionadú go huathoibríoch laistigh d'eilimint ábhair an toilithe chomhthéacsúil</target>
+      </trans-unit>
+      <trans-unit id="settings.plugin.tx_klaroconsentmanager.settings.contextualconsent.mainSectionOnly" approved="yes">
+        <source>Main section only</source>
+        <target state="final">An phríomhchuid amháin</target>
+      </trans-unit>
+      <trans-unit id="settings.description.plugin.tx_klaroconsentmanager.settings.contextualconsent.mainSectionOnly" approved="yes">
+        <source>Activate this option if the contextual consent box should be limited to the main content only (without heading and footer).</source>
+        <target state="final">Gníomhachtaigh an rogha seo má ba chóir bosca an toilithe chomhthéacsúil a theorannú don phríomhábhar amháin (gan ceannteideal ná buntásc).</target>
+      </trans-unit>
+      <trans-unit id="settings.plugin.tx_klaroconsentmanager.settings.configuration.disabled" approved="yes">
+        <source>Disable Klaro Consent Management</source>
+        <target state="final">Díchumasaigh bainistíocht toilithe Klaro</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

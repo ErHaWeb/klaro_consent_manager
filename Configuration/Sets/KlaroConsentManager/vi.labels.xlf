@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file source-language="en" original="EXT:klaro_consent_manager/Configuration/Sets/KlaroConsentManager/labels.xlf" datatype="plaintext" product-name="klaro_consent_manager" date="2025-07-10T17:20:02+02:00" target-language="vi">
+    <header/>
+    <body>
+      <trans-unit id="label" approved="yes">
+        <source>Klaro! Consent Manager</source>
+        <target state="final">Klaro! Consent Manager</target>
+      </trans-unit>
+      <trans-unit id="categories.klaroconsentmanager" approved="yes">
+        <source>Klaro</source>
+        <target state="final">Klaro</target>
+      </trans-unit>
+      <trans-unit id="categories.klaroconsentmanager.templates" approved="yes">
+        <source>Templates</source>
+        <target state="final">Mẫu</target>
+      </trans-unit>
+      <trans-unit id="categories.klaroconsentmanager.resources" approved="yes">
+        <source>Resources</source>
+        <target state="final">Tài nguyên</target>
+      </trans-unit>
+      <trans-unit id="categories.klaroconsentmanager.settings" approved="yes">
+        <source>Settings</source>
+        <target state="final">Cài đặt</target>
+      </trans-unit>
+      <trans-unit id="settings.plugin.tx_klaroconsentmanager.view.templateRootPath" approved="yes">
+        <source>Path to template root (FE)</source>
+        <target state="final">Đường dẫn tới thư mục gốc mẫu (FE)</target>
+      </trans-unit>
+      <trans-unit id="settings.plugin.tx_klaroconsentmanager.view.partialRootPath" approved="yes">
+        <source>Path to template partials (FE)</source>
+        <target state="final">Đường dẫn tới các phần mẫu (FE)</target>
+      </trans-unit>
+      <trans-unit id="settings.plugin.tx_klaroconsentmanager.view.layoutRootPath" approved="yes">
+        <source>Path to template layouts (FE)</source>
+        <target state="final">Đường dẫn tới bố cục mẫu (FE)</target>
+      </trans-unit>
+      <trans-unit id="settings.plugin.tx_klaroconsentmanager.settings.css.klaro-default" approved="yes">
+        <source>Klaro CSS</source>
+        <target state="final">Klaro CSS</target>
+      </trans-unit>
+      <trans-unit id="settings.plugin.tx_klaroconsentmanager.settings.css.klaro-custom" approved="yes">
+        <source>Custom additions for Klaro CSS</source>
+        <target state="final">Phần bổ sung tùy chỉnh cho Klaro CSS</target>
+      </trans-unit>
+      <trans-unit id="settings.plugin.tx_klaroconsentmanager.settings.javascript.klaro-default" approved="yes">
+        <source>Klaro JavaScript</source>
+        <target state="final">Klaro JavaScript</target>
+      </trans-unit>
+      <trans-unit id="settings.plugin.tx_klaroconsentmanager.settings.contextualconsent.replaceAttributes" approved="yes">
+        <source>Replace attributes</source>
+        <target state="final">Thay thế thuộc tính</target>
+      </trans-unit>
+      <trans-unit id="settings.description.plugin.tx_klaroconsentmanager.settings.contextualconsent.replaceAttributes" approved="yes">
+        <source>Comma-separated list of attributes that should be automatically replaced within the content element of the contextual consent</source>
+        <target state="final">Danh sách thuộc tính phân tách bằng dấu phẩy cần được tự động thay thế trong phần tử nội dung của đồng ý theo ngữ cảnh</target>
+      </trans-unit>
+      <trans-unit id="settings.plugin.tx_klaroconsentmanager.settings.contextualconsent.mainSectionOnly" approved="yes">
+        <source>Main section only</source>
+        <target state="final">Chỉ phần chính</target>
+      </trans-unit>
+      <trans-unit id="settings.description.plugin.tx_klaroconsentmanager.settings.contextualconsent.mainSectionOnly" approved="yes">
+        <source>Activate this option if the contextual consent box should be limited to the main content only (without heading and footer).</source>
+        <target state="final">Bật tùy chọn này nếu hộp đồng ý theo ngữ cảnh chỉ nên giới hạn trong nội dung chính (không bao gồm tiêu đề và chân trang).</target>
+      </trans-unit>
+      <trans-unit id="settings.plugin.tx_klaroconsentmanager.settings.configuration.disabled" approved="yes">
+        <source>Disable Klaro Consent Management</source>
+        <target state="final">Tắt quản lý đồng ý Klaro</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
