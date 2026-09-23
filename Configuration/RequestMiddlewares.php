@@ -8,12 +8,10 @@ return [
     'frontend' => [
         'erhaweb/klaro-consent-manager/replace-content' => [
             'target' => ReplaceBeforeOutput::class,
-            'before' => [
-                'typo3/cms-frontend/output-compression',
-                'typo3/cms-frontend/content-length-headers',
-            ],
+            // Ensure Klaro modifies the final HTML before Content-Length is calculated.
             'after' => [
-                'typo3/cms-frontend/tsfe',
+                'typo3/cms-frontend/prepare-tsfe-rendering',
+                'typo3/cms-frontend/content-length-headers',
             ],
         ],
     ],
