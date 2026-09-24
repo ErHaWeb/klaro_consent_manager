@@ -1,0 +1,21 @@
+.. include:: /Includes.rst.txt
+
+3.0.7 - September 24, 2026
+==========================
+
+
+.. contents::
+   :local:
+   :depth: 3
+
+Breaking changes
+----------------
+No breaking changes!
+
+All Changes
+-----------
+This is a list of all changes in this release: ::
+
+    2026-09-23 [BUGFIX] Fix Content-Length after Klaro response modification (Commit 1f143351 by Eric Harrer)
+
+This list has been created by using `git log $(git describe --tags --abbrev=0)..HEAD --abbrev-commit --pretty='%ad %s (Commit %h by %an)' --date=short`.
