@@ -36,7 +36,7 @@ class TypoScriptUtility
         $frontendTypoScriptSetupArray = [];
 
         $frontendTypoScript = $request->getAttribute('frontend.typoscript');
-        if ($frontendTypoScript) {
+        if ($frontendTypoScript && $frontendTypoScript->hasSetup()) {
             $frontendTypoScriptSetupArray = $frontendTypoScript->getSetupArray();
         }
 

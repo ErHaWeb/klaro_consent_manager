@@ -19,8 +19,11 @@ namespace ErHaWeb\KlaroConsentManager\Tests\Unit\Utility;
 
 use ErHaWeb\KlaroConsentManager\Utility\TypoScriptUtility;
 use GuzzleHttp\Psr7\ServerRequest;
+use PHPUnit\Framework\Attributes\DataProvider;
 use PHPUnit\Framework\Attributes\Test;
 use PHPUnit\Framework\TestCase;
+use TYPO3\CMS\Core\TypoScript\AST\Node\RootNode;
+use TYPO3\CMS\Core\TypoScript\FrontendTypoScript;
 
 final class TypoScriptUtilityTest extends TestCase
 {
@@ -52,29 +55,20 @@ final class TypoScriptUtilityTest extends TestCase
     #[Test]
     public function getSettingsReturnsConfiguredPluginSettingsFromFrontendTypoScript(): void
     {
-        $request = (new ServerRequest('GET', '/'))->withAttribute(
-            'frontend.typoscript',
-            new class () {
-                /** @return array<string, mixed> */
-                public function getSetupArray(): array
-                {
-                    return [
-                        'plugin.' => [
-                            'tx_klaroconsentmanager.' => [
-                                'settings.' => [
-                                    'css.' => [
-                                        'klaro-default' => 'EXT:klaro_consent_manager/Resources/Public/Css/klaro.min.css',
-                                    ],
-                                    'configuration.' => [
-                                        'disabled' => '0',
-                                    ],
-                                ],
-                            ],
+        $request = $this->createRequestWithSetup([
+            'plugin.' => [
+                'tx_klaroconsentmanager.' => [
+                    'settings.' => [
+                        'css.' => [
+                            'klaro-default' => 'EXT:klaro_consent_manager/Resources/Public/Css/klaro.min.css',
                         ],
-                    ];
-                }
-            }
-        );
+                        'configuration.' => [
+                            'disabled' => '0',
+                        ],
+                    ],
+                ],
+            ],
+        ]);
 
         self::assertSame(
             [
@@ -93,5 +87,55 @@ final class TypoScriptUtilityTest extends TestCase
     public function getSettingsReturnsEmptyArrayWhenFrontendTypoScriptIsMissing(): void
     {
         self::assertSame([], TypoScriptUtility::getSettings(new ServerRequest('GET', '/')));
+    }
+
+    #[Test]
+    public function getFrameworkPreservesViewConfigurationAndCustomExtensionName(): void
+    {
+        $request = $this->createRequestWithSetup([
+            'plugin.' => [
+                'tx_customextension.' => [
+                    'settings.' => ['configuration.' => ['disabled' => '0']],
+                    'view.' => ['templateRootPaths.' => ['10' => 'EXT:custom/Resources/Private/Templates/']],
+                ],
+            ],
+        ]);
+
+        self::assertSame([
+            'settings' => ['configuration' => ['disabled' => '0']],
+            'view' => ['templateRootPaths' => ['10' => 'EXT:custom/Resources/Private/Templates/']],
+        ], TypoScriptUtility::getFramework($request, 'CustomExtension'));
+        self::assertSame(
+            ['configuration' => ['disabled' => '0']],
+            TypoScriptUtility::getSettings($request, 'CustomExtension')
+        );
+    }
+
+    public static function unconfiguredSetupProvider(): array
+    {
+        return [
+            'empty setup' => [[]],
+            'no plugin configuration' => [['page' => 'PAGE']],
+            'different plugin' => [['plugin.' => ['tx_other.' => ['settings.' => ['enabled' => '1']]]]],
+        ];
+    }
+
+    #[Test]
+    #[DataProvider('unconfiguredSetupProvider')]
+    public function getFrameworkAndSettingsReturnEmptyArrayWithoutPluginConfiguration(array $setup): void
+    {
+        $request = $this->createRequestWithSetup($setup);
+
+        self::assertSame([], TypoScriptUtility::getFramework($request));
+        self::assertSame([], TypoScriptUtility::getSettings($request));
+    }
+
+    private function createRequestWithSetup(array $setup): ServerRequest
+    {
+        $frontendTypoScript = new FrontendTypoScript(new RootNode(), [], [], []);
+        $frontendTypoScript->setSetupTree(new RootNode());
+        $frontendTypoScript->setSetupArray($setup);
+
+        return (new ServerRequest('GET', '/'))->withAttribute('frontend.typoscript', $frontendTypoScript);
     }
 }
