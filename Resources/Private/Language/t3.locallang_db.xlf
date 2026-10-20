@@ -1,0 +1,1012 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file source-language="en" original="EXT:klaro_consent_manager/Resources/Private/Language/locallang_db.xlf" datatype="plaintext" product-name="lang" date="2025-10-13T13:41:04+02:00" target-language="t3">
+    <header/>
+    <body>
+      <trans-unit id="tx_klaroconsentmanager_configuration">
+        <source>Klaro! Configuration</source>
+        <target>crwdns296808:0crwdne296808:0</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_configuration.I.true">
+        <source>true</source>
+        <target>crwdns339822:0crwdne339822:0</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_configuration.I.false">
+        <source>false</source>
+        <target>crwdns339824:0crwdne339824:0</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_configuration.tabs.general">
+        <source>General</source>
+        <target>crwdns296814:0crwdne296814:0</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_configuration.tabs.layout">
+        <source>Layout</source>
+        <target>crwdns297334:0crwdne297334:0</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_configuration.tabs.content">
+        <source>Content</source>
+        <target>crwdns297336:0crwdne297336:0</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_configuration.tabs.cookie">
+        <source>Cookie</source>
+        <target>crwdns297338:0crwdne297338:0</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_configuration.tabs.advanced">
+        <source>Advanced</source>
+        <target>crwdns296818:0crwdne296818:0</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_configuration.tabs.access">
+        <source>Access</source>
+        <target>crwdns296820:0crwdne296820:0</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_configuration.palettes.general_palette">
+        <source>General</source>
+        <target>crwdns296822:0crwdne296822:0</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_configuration.palettes.setup_palette">
+        <source>Base Configuration</source>
+        <target>crwdns296824:0crwdne296824:0</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_configuration.palettes.storage_palette">
+        <source>Storage</source>
+        <target>crwdns296826:0crwdne296826:0</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_configuration.palettes.services_palette">
+        <source>Services</source>
+        <target>crwdns296828:0crwdne296828:0</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_configuration.palettes.cookie_palette">
+        <source>Cookie Settings</source>
+        <target>crwdns296830:0crwdne296830:0</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_configuration.palettes.callback_palette">
+        <source>Callback</source>
+        <target>crwdns296832:0crwdne296832:0</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_configuration.palettes.consent_palette">
+        <source>Default consent status</source>
+        <target>crwdns296834:0crwdne296834:0</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_configuration.palettes.display_palette">
+        <source>Other display settings</source>
+        <target>crwdns296836:0crwdne296836:0</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_configuration.palettes.layout_palette">
+        <source>Layout settings</source>
+        <target>crwdns297340:0crwdne297340:0</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_configuration.palettes.behavior_palette">
+        <source>Behavior</source>
+        <target>crwdns297342:0crwdne297342:0</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_configuration.palettes.hide_buttons_palette">
+        <source>Hide Buttons</source>
+        <target>crwdns297344:0crwdne297344:0</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_configuration.palettes.append_buttons_palette">
+        <source>Append Buttons</source>
+        <target>crwdns297346:0crwdne297346:0</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_configuration.palettes.access_palette">
+        <source>Access</source>
+        <target>crwdns296838:0crwdne296838:0</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_configuration.palettes.translations_palette">
+        <source>Translations</source>
+        <target>crwdns296840:0crwdne296840:0</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_configuration.title.label">
+        <source>Title</source>
+        <target>crwdns296842:0crwdne296842:0</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_configuration.title.description">
+        <source>Title under which this configuration can be found.</source>
+        <target>crwdns296844:0crwdne296844:0</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_configuration.title.placeholder">
+        <source>My Klaro! Configuration</source>
+        <target>crwdns296846:0crwdne296846:0</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_configuration.testing.label">
+        <source>Testing</source>
+        <target>crwdns296848:0crwdne296848:0</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_configuration.testing.description">
+        <source>Setting `testing` to `true` will cause Klaro to not show the consent notice or modal by default, except if a special hashtag is appended to the URL (#klaro-testing). This makes it possible to test Klaro on your live website without affecting normal visitors.</source>
+        <target>crwdns339326:0crwdne339326:0</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_configuration.config_variable_name.label">
+        <source>Config Variable Name</source>
+        <target>crwdns296852:0crwdne296852:0</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_configuration.config_variable_name.description">
+        <source>By default, Klaro loads the configuration from a global variable `klaroConfig`. You can change this here. Specifying this field will cause the attribute data-klaro-config="yourConfigVariableName" to be set.</source>
+        <target>crwdns297406:0crwdne297406:0</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_configuration.config_variable_name.placeholder">
+        <source>klaroConfig</source>
+        <target>crwdns296856:0crwdne296856:0</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_configuration.element_i_d.label">
+        <source>Element ID</source>
+        <target>crwdns296858:0crwdne296858:0</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_configuration.element_i_d.description">
+        <source>You can customize the ID of the `div` element that Klaro will create when starting up. By default, Klaro will use "klaro".</source>
+        <target>crwdns297408:0crwdne297408:0</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_configuration.element_i_d.placeholder">
+        <source>klaro</source>
+        <target>crwdns296862:0crwdne296862:0</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_configuration.no_auto_load.label">
+        <source>No Auto-Load</source>
+        <target>crwdns296864:0crwdne296864:0</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_configuration.no_auto_load.description">
+        <source>Setting this to `true` will keep Klaro from automatically loading itself when the page is being loaded.</source>
+        <target>crwdns339826:0crwdne339826:0</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_configuration.additional_class.label">
+        <source>Additional Class</source>
+        <target>crwdns296868:0crwdne296868:0</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_configuration.additional_class.description">
+        <source>You can specify an additional class (or classes) that will be added to the Klaro `div`.</source>
+        <target>crwdns409605:0crwdne409605:0</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_configuration.additional_class.placeholder">
+        <source>my-klaro</source>
+        <target>crwdns296872:0crwdne296872:0</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_configuration.storage_method.label">
+        <source>Storage Method</source>
+        <target>crwdns296874:0crwdne296874:0</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_configuration.storage_method.description">
+        <source>You can customize how Klaro persists consent information in the browser. Specify either `cookie` (the default) or `localStorage`.</source>
+        <target>crwdns297410:0crwdne297410:0</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_configuration.storage_method.I.none">
+        <source>None</source>
+        <target>crwdns296878:0crwdne296878:0</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_configuration.storage_method.I.cookie">
+        <source>Cookie (default)</source>
+        <target>crwdns296880:0crwdne296880:0</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_configuration.storage_method.I.localStorage">
+        <source>Local Storage</source>
+        <target>crwdns296882:0crwdne296882:0</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_configuration.storage_name.label">
+        <source>Storage Name</source>
+        <target>crwdns296884:0crwdne296884:0</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_configuration.storage_name.description">
+        <source>You can customize the name of the cookie or localStorage entry that Klaro will use for storing the consent information. By default, Klaro will use "klaro".</source>
+        <target>crwdns297412:0crwdne297412:0</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_configuration.storage_name.placeholder">
+        <source>klaro</source>
+        <target>crwdns296888:0crwdne296888:0</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_configuration.html_texts.label">
+        <source>HTML Texts</source>
+        <target>crwdns296890:0crwdne296890:0</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_configuration.html_texts.description">
+        <source>If set to `true`, Klaro will render the texts given in the `consentModal.description` and `consentNotice.description` translations as HTML. This enables you to e.g. add custom links or interactive content. If you want to be able to output HTML tags via fluid-enriched labels (see "Content" → "Translations"), this option must be enabled.</source>
+        <target>crwdns297414:0crwdne297414:0</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_configuration.embedded.label">
+        <source>Embedded</source>
+        <target>crwdns296894:0crwdne296894:0</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_configuration.embedded.description">
+        <source>Setting "embedded" to `true` will render the Klaro modal and notice without the modal background, allowing you to e.g. embed them into a specific element of your website, such as your privacy notice.</source>
+        <target>crwdns339828:0crwdne339828:0</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_configuration.group_by_purpose.label">
+        <source>Group by purpose</source>
+        <target>crwdns296898:0crwdne296898:0</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_configuration.group_by_purpose.description">
+        <source>You can group services by their purpose in the modal. This is advisable if you have a large number of services. Users can then enable or disable entire groups of services instead of having to enable or disable every service.</source>
+        <target>crwdns296900:0crwdne296900:0</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_configuration.cookie_domain.label">
+        <source>Cookie Domain</source>
+        <target>crwdns296902:0crwdne296902:0</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_configuration.cookie_domain.description">
+        <source>You can change the cookie domain for the consent manager itself. Use this if you want to get consent once for multiple matching domains. By default, Klaro will use the current domain. Only relevant if `storageMethod` is set to `cookie`.</source>
+        <target>crwdns297418:0crwdne297418:0</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_configuration.cookie_domain.placeholder">
+        <source>.example.com</source>
+        <target>crwdns296906:0crwdne296906:0</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_configuration.cookie_path.label">
+        <source>Cookie Path</source>
+        <target>crwdns296908:0crwdne296908:0</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_configuration.cookie_path.description">
+        <source>Provide a path if you have services that set cookies for a path that is not "/"</source>
+        <target>crwdns296910:0crwdne296910:0</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_configuration.cookie_path.placeholder">
+        <source>/</source>
+        <target>crwdns296912:0crwdne296912:0</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_configuration.cookie_expires_after_days.label">
+        <source>Cookie expires after days</source>
+        <target>crwdns296914:0crwdne296914:0</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_configuration.cookie_expires_after_days.description">
+        <source>You can also set a custom expiration time for the Klaro cookie. By default, it will expire after 60 days. Only relevant if `storageMethod` is set to `cookie`.</source>
+        <target>crwdns297420:0crwdne297420:0</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_configuration.cookie_expires_after_days.placeholder">
+        <source>30</source>
+        <target>crwdns296918:0crwdne296918:0</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_configuration.default.label">
+        <source>Default</source>
+        <target>crwdns296920:0crwdne296920:0</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_configuration.default.description">
+        <source>Defines the default state for services in the consent modal (`true` = enabled by default). If this setting is set to "false", you can override it in any service.</source>
+        <target>crwdns339830:0crwdne339830:0</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_configuration.must_consent.label">
+        <source>Must consent</source>
+        <target>crwdns296924:0crwdne296924:0</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_configuration.must_consent.description">
+        <source>If `mustConsent` is set to `true`, Klaro will directly display the consent manager modal and not allow the user to close it before having actively consented to or declined the use of third-party services.</source>
+        <target>crwdns409607:0crwdne409607:0</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_configuration.accept_all.label">
+        <source>Accept all</source>
+        <target>crwdns296928:0crwdne296928:0</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_configuration.accept_all.description">
+        <source>Setting `acceptAll` to `true` will show an "accept all" button in the notice and modal, which will enable all third-party services if the user clicks on it. If set to "false", there will be an "accept" button that will only enable the services that are enabled in the consent modal.</source>
+        <target>crwdns297426:0crwdne297426:0</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_configuration.hide_decline_all.label">
+        <source>Hide Decline All</source>
+        <target>crwdns296932:0crwdne296932:0</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_configuration.hide_decline_all.description">
+        <source>Setting `hideDeclineAll` to `true` will hide the "decline" button in the consent modal and force the user to open the modal in order to change his/her consent or disable all third-party services. We strongly advise you to not use this feature, as it opposes the "privacy by default" and "privacy by design" principles of the GDPR (but might be acceptable in other legislations such as under the CCPA)</source>
+        <target>crwdns297428:0crwdne297428:0</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_configuration.hide_learn_more.label">
+        <source>Hide Learn More</source>
+        <target>crwdns296936:0crwdne296936:0</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_configuration.hide_learn_more.description">
+        <source>Setting `hideLearnMore` to `true` will hide the "learn more / customize" link in the consent notice. We strongly advise against using this under most circumstances, as it keeps the user from customizing his/her consent choices.</source>
+        <target>crwdns297430:0crwdne297430:0</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_configuration.hide_toggle_all.label">
+        <source>Hide Toggle All</source>
+        <target>crwdns296940:0crwdne296940:0</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_configuration.hide_toggle_all.description">
+        <source>Setting `hideToggleAll` to `true` will hide the "toggle all" link in the consent notice.</source>
+        <target>crwdns377674:0crwdne377674:0</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_configuration.notice_as_modal.label">
+        <source>Notice As Modal</source>
+        <target>crwdns296944:0crwdne296944:0</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_configuration.notice_as_modal.description">
+        <source>Show cookie notice as modal</source>
+        <target>crwdns296946:0crwdne296946:0</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_configuration.show_notice_title.label">
+        <source>Show title in consent notice</source>
+        <target>crwdns377676:0crwdne377676:0</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_configuration.show_notice_title.description">
+        <source>When this option is enabled, Klaro displays the title in the notice modal.</source>
+        <target>crwdns377682:0crwdne377682:0</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_configuration.show_description_empty_store.label">
+        <source>Show Description (Empty Store)</source>
+        <target>crwdns377688:0crwdne377688:0</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_configuration.show_description_empty_store.description">
+        <source>Show an explanatory text in contextual consent placeholders when no consent storage exists yet (first visit / empty store). This informs users that a permanent decision ("Always") requires allowing Klaro to store consent first. This only has an effect in contextual consent widgets/overlays (e.g. for embedded media) and only if the consent store (cookie/localStorage) is empty.</source>
+        <target>crwdns377690:0crwdne377690:0</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_configuration.auto_focus.label">
+        <source>Auto Focus</source>
+        <target>crwdns377684:0crwdne377684:0</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_configuration.auto_focus.description">
+        <source>Automatically focus the Klaro consent notice/modal container when it opens to improve keyboard navigation and accessibility.</source>
+        <target>crwdns377686:0crwdne377686:0</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_configuration.disable_powered_by.label">
+        <source>Disable Powered By</source>
+        <target>crwdns296948:0crwdne296948:0</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_configuration.disable_powered_by.description">
+        <source>You can also remove the "Realized with Klaro!" text in the consent modal. Please don't do this! We provide Klaro as a free open source tool. Placing a link to our website helps us spread the word about it, which ultimately enables us to make Klaro! better for everyone. So please be fair and keep the link enabled. Thanks :)</source>
+        <target>crwdns297434:0crwdne297434:0</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_configuration.services.label">
+        <source>Services</source>
+        <target>crwdns296952:0crwdne296952:0</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_configuration.services.description">
+        <source>Here you specify the third-party services that Klaro will manage for you.</source>
+        <target>crwdns296954:0crwdne296954:0</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_configuration.purpose_order.label">
+        <source>Purpose Order</source>
+        <target>crwdns296956:0crwdne296956:0</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_configuration.purpose_order.description">
+        <source>The order in which purposes appear in the notice and modal can be changed via the `purposeOrder` parameter, which can be given a list with purpose names and will display those purposes in the order in which they appear in the list.</source>
+        <target>crwdns296958:0crwdne296958:0</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_configuration.callback.label">
+        <source>Callback</source>
+        <target>crwdns296960:0crwdne296960:0</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_configuration.callback.description">
+        <source>You can define an optional callback function that will be called each time the consent state for any given service changes. The consent value will be passed as the first parameter to the function (`true` = consented). The `service` config will be passed as the second parameter. The content of this field is wrapped with `callback: function(consent, service) { }`</source>
+        <target>crwdns339834:0crwdne339834:0</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_configuration.locallang_path.label">
+        <source>Locallang Path</source>
+        <target>crwdns296964:0crwdne296964:0</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_configuration.locallang_path.description">
+        <source>Optional path to an additional XLIFF file that overwrites the default labels or adds new labels (e.g. for custom purposes or services). If fluid templates have been stored for the labels created in this file (see the "Fluid Template Root Path" field), these will overwrite the classic labels from the Locallang file. Nevertheless, it is possible and common to reference the locallang file from the respective fluid template and obtain the actual label there (the label key is passed to the fluid template).</source>
+        <target>crwdns297350:0crwdne297350:0</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_configuration.locallang_path.placeholder">
+        <source>EXT:sitepackage/Resources/Private/Language/Klaro/locallang.xlf</source>
+        <target>crwdns296968:0crwdne296968:0</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_configuration.fluidtemplate_rootpath.label">
+        <source>Fluid Template Root Path</source>
+        <target>crwdns297352:0crwdne297352:0</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_configuration.fluidtemplate_rootpath.description">
+        <source>As an alternative to the usual TypoScript configuration via constants under `plugin.tx_klaroconsentmanager.view`, a Fluid root path can be defined here, which has a higher priority than the paths configured in TypoScript. The three default directories `/Layouts/`, `/Partials/` and `/Templates/` are expected under this path. Fluid templates created here are used to enrich Locallang labels with additional functionality or to replace them completely. In this way, dynamic content or more complex HTML structures can be provided in a simple way. Fluid templates that are to override labels are expected in the subdirectory `/Templates/Labels/`.</source>
+        <target>crwdns297354:0crwdne297354:0</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_configuration.fluidtemplate_rootpath.placeholder">
+        <source>EXT:sitepackage/Resources/Private/</source>
+        <target>crwdns297356:0crwdne297356:0</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_configuration.alignment.label">
+        <source>Alignment</source>
+        <target>crwdns296970:0crwdne296970:0</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_configuration.alignment.description">
+        <source>Determines the alignment of the Consent box if `mustConsent` and `noticeAsModal` are disabled.</source>
+        <target>crwdns339470:0crwdne339470:0</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_configuration.alignment.I.top-left">
+        <source>Top-Left</source>
+        <target>crwdns296974:0crwdne296974:0</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_configuration.alignment.I.top-right">
+        <source>Top-Right</source>
+        <target>crwdns296976:0crwdne296976:0</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_configuration.alignment.I.top-wide">
+        <source>Top-Wide</source>
+        <target>crwdns296978:0crwdne296978:0</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_configuration.alignment.I.bottom-left">
+        <source>Bottom-Left</source>
+        <target>crwdns296980:0crwdne296980:0</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_configuration.alignment.I.bottom-right">
+        <source>Bottom-Right</source>
+        <target>crwdns296982:0crwdne296982:0</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_configuration.alignment.I.bottom-wide">
+        <source>Bottom-Wide</source>
+        <target>crwdns296984:0crwdne296984:0</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_configuration.alignment.I.top">
+        <source>Top</source>
+        <target>crwdns296986:0crwdne296986:0</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_configuration.alignment.I.bottom">
+        <source>Bottom</source>
+        <target>crwdns296988:0crwdne296988:0</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_configuration.alignment.I.left">
+        <source>left</source>
+        <target>crwdns296990:0crwdne296990:0</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_configuration.alignment.I.right">
+        <source>right</source>
+        <target>crwdns296992:0crwdne296992:0</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_configuration.alignment.I.wide">
+        <source>wide</source>
+        <target>crwdns296994:0crwdne296994:0</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_configuration.color_scheme.label">
+        <source>Color Scheme</source>
+        <target>crwdns296996:0crwdne296996:0</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_configuration.color_scheme.description">
+        <source>Default color scheme used for the display. The colors can also be overridden later via CSS variables.</source>
+        <target>crwdns296998:0crwdne296998:0</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_configuration.color_scheme.I.dark_neutral">
+        <source>Dark (neutral)</source>
+        <target>crwdns297464:0crwdne297464:0</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_configuration.color_scheme.I.light_neutral">
+        <source>Light (neutral)</source>
+        <target>crwdns297466:0crwdne297466:0</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_configuration.color_scheme.I.dark">
+        <source>Dark</source>
+        <target>crwdns297002:0crwdne297002:0</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_configuration.color_scheme.I.light">
+        <source>Light</source>
+        <target>crwdns297000:0crwdne297000:0</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_configuration.append_show_button.label">
+        <source>Append Show Button</source>
+        <target>crwdns297004:0crwdne297004:0</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_configuration.append_show_button.description">
+        <source>If this option is set to `true`, a button is created in the frontend (via JavaScript) directly in front of the closing body tag, which triggers the opening of the Klaro consent management.</source>
+        <target>crwdns339836:0crwdne339836:0</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_configuration.append_reset_button.label">
+        <source>Append Reset Button</source>
+        <target>crwdns297008:0crwdne297008:0</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_configuration.append_reset_button.description">
+        <source>If this option is set to `true`, a button is generated in the frontend (via JavaScript) directly in front of the closing body tag, which triggers the resetting of all settings and the opening of the Klaro consent management.</source>
+        <target>crwdns339838:0crwdne339838:0</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_configuration.hidden">
+        <source>Configuration visible</source>
+        <target>crwdns377842:0crwdne377842:0</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_service">
+        <source>Klaro! Service</source>
+        <target>crwdns297012:0crwdne297012:0</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_service.tabs.general">
+        <source>General</source>
+        <target>crwdns297358:0crwdne297358:0</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_service.tabs.cookies">
+        <source>Cookies</source>
+        <target>crwdns297360:0crwdne297360:0</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_service.tabs.toggles">
+        <source>Toggles</source>
+        <target>crwdns297362:0crwdne297362:0</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_service.tabs.advanced">
+        <source>Advanced</source>
+        <target>crwdns297364:0crwdne297364:0</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_service.tabs.access">
+        <source>Access</source>
+        <target>crwdns297366:0crwdne297366:0</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_service.palettes.general_palette">
+        <source>General Settings</source>
+        <target>crwdns297368:0crwdne297368:0</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_service.palettes.cookie_palette">
+        <source>Cookie Settings</source>
+        <target>crwdns297370:0crwdne297370:0</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_service.palettes.toggles_palette">
+        <source>Toggles</source>
+        <target>crwdns297372:0crwdne297372:0</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_service.palettes.advanced_palette">
+        <source>Advanced Settings</source>
+        <target>crwdns297374:0crwdne297374:0</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_service.palettes.access_palette">
+        <source>Access</source>
+        <target>crwdns297376:0crwdne297376:0</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_service.I.true">
+        <source>true</source>
+        <target>crwdns339840:0crwdne339840:0</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_service.I.false">
+        <source>false</source>
+        <target>crwdns339842:0crwdne339842:0</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_service.name.label">
+        <source>Name</source>
+        <target>crwdns297018:0crwdne297018:0</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_service.name.description">
+        <source>Each service must have a unique name. Klaro will look for HTML elements with a matching `data-name` attribute to identify elements that belong to this service.</source>
+        <target>crwdns297436:0crwdne297436:0</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_service.name.placeholder">
+        <source>matomo</source>
+        <target>crwdns297022:0crwdne297022:0</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_service.title.label">
+        <source>Title</source>
+        <target>crwdns297024:0crwdne297024:0</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_service.title.description">
+        <source>The title defined here is not mandatory and is intended for backend display only.</source>
+        <target>crwdns297026:0crwdne297026:0</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_service.title.placeholder">
+        <source>Matomo/Piwik</source>
+        <target>crwdns297028:0crwdne297028:0</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_service.name.I.adobe-fonts">
+        <source>Adobe Fonts</source>
+        <target>crwdns409384:0crwdne409384:0</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_service.name.I.adsense">
+        <source>Google AdSense</source>
+        <target>crwdns297030:0crwdne297030:0</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_service.name.I.camera">
+        <source>Surveillance Camera</source>
+        <target>crwdns297032:0crwdne297032:0</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_service.name.I.career-captain">
+        <source>Career Captain</source>
+        <target>crwdns409386:0crwdne409386:0</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_service.name.I.clarity">
+        <source>Microsoft Clarity</source>
+        <target>crwdns297034:0crwdne297034:0</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_service.name.I.cloudflare">
+        <source>Cloudflare</source>
+        <target>crwdns297036:0crwdne297036:0</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_service.name.I.external-tracker">
+        <source>External Tracker</source>
+        <target>crwdns297038:0crwdne297038:0</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_service.name.I.facebook-pixel">
+        <source>Facebook Pixel</source>
+        <target>crwdns297040:0crwdne297040:0</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_service.name.I.fast-fonts">
+        <source>Fast Fonts</source>
+        <target>crwdns304640:0crwdne304640:0</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_service.name.I.google-ads">
+        <source>Google Ads</source>
+        <target>crwdns339328:0crwdne339328:0</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_service.name.I.google-analytics">
+        <source>Google Analytics</source>
+        <target>crwdns297042:0crwdne297042:0</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_service.name.I.google-fonts">
+        <source>Google Fonts</source>
+        <target>crwdns297044:0crwdne297044:0</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_service.name.I.google-maps">
+        <source>Google Maps</source>
+        <target>crwdns297046:0crwdne297046:0</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_service.name.I.google-tag-manager">
+        <source>Google Tag Manager</source>
+        <target>crwdns297048:0crwdne297048:0</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_service.name.I.inline-tracker">
+        <source>Inline Tracker</source>
+        <target>crwdns297050:0crwdne297050:0</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_service.name.I.instagram">
+        <source>Instagram</source>
+        <target>crwdns372840:0crwdne372840:0</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_service.name.I.intercom">
+        <source>Intercom</source>
+        <target>crwdns297052:0crwdne297052:0</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_service.name.I.klaro">
+        <source>Klaro!</source>
+        <target>crwdns409388:0crwdne409388:0</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_service.name.I.matomo">
+        <source>Matomo/Piwik</source>
+        <target>crwdns297054:0crwdne297054:0</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_service.name.I.mouseflow">
+        <source>Mouseflow</source>
+        <target>crwdns297056:0crwdne297056:0</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_service.name.I.salesviewer">
+        <source>SalesViewer</source>
+        <target>crwdns409390:0crwdne409390:0</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_service.name.I.tiktok">
+        <source>TikTok</source>
+        <target>crwdns372842:0crwdne372842:0</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_service.name.I.twitter">
+        <source>X (formerly Twitter)</source>
+        <target>crwdns297058:0crwdne297058:0</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_service.name.I.userlike">
+        <source>Userlike</source>
+        <target>crwdns297060:0crwdne297060:0</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_service.name.I.vimeo">
+        <source>Vimeo</source>
+        <target>crwdns297062:0crwdne297062:0</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_service.name.I.youtube">
+        <source>YouTube</source>
+        <target>crwdns297064:0crwdne297064:0</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_service.default.label">
+        <source>Default</source>
+        <target>crwdns297066:0crwdne297066:0</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_service.default.description">
+        <source>If `default` is set to `true`, the service will be enabled by default. This overrides the global `default` setting (if this is set to "false").</source>
+        <target>crwdns297438:0crwdne297438:0</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_service.purposes.label">
+        <source>Purposes</source>
+        <target>crwdns297070:0crwdne297070:0</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_service.purposes.description">
+        <source>The purpose(s) of this service that will be listed on the consent notice. Do not forget to add translations for all purposes you list here.</source>
+        <target>crwdns297072:0crwdne297072:0</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_service.purposes.optgroup.custom">
+        <source>Custom</source>
+        <target>crwdns297074:0crwdne297074:0</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_service.purposes.optgroup.default">
+        <source>Default</source>
+        <target>crwdns297076:0crwdne297076:0</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_service.purposes.optgroup.additional">
+        <source>Additional</source>
+        <target>crwdns297078:0crwdne297078:0</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_service.purposes.I.functional">
+        <source>Functional</source>
+        <target>crwdns297080:0crwdne297080:0</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_service.purposes.I.performance">
+        <source>Performance</source>
+        <target>crwdns297082:0crwdne297082:0</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_service.purposes.I.marketing">
+        <source>Marketing</source>
+        <target>crwdns297084:0crwdne297084:0</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_service.purposes.I.advertising">
+        <source>Advertising</source>
+        <target>crwdns297086:0crwdne297086:0</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_service.purposes.I.analytics">
+        <source>Analytics</source>
+        <target>crwdns297088:0crwdne297088:0</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_service.purposes.I.security">
+        <source>Security</source>
+        <target>crwdns297090:0crwdne297090:0</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_service.purposes.I.livechat">
+        <source>Live Chat</source>
+        <target>crwdns297092:0crwdne297092:0</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_service.purposes.I.styling">
+        <source>Styling</source>
+        <target>crwdns297094:0crwdne297094:0</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_service.purposes.I.videos">
+        <source>Videos</source>
+        <target>crwdns339448:0crwdne339448:0</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_service.purposes.I.social">
+        <source>Social Media</source>
+        <target>crwdns339450:0crwdne339450:0</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_service.purposes.I.misc">
+        <source>Miscellaneous</source>
+        <target>crwdns339452:0crwdne339452:0</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_service.cookies.label">
+        <source>Cookies</source>
+        <target>crwdns297104:0crwdne297104:0</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_service.cookies.description">
+        <source>You can either only provide a cookie name or regular expression (regex) or a list consisting of a name or regex, a path and a cookie domain. Providing a path and domain is necessary if you have services that set cookies for a path that is not "/", or a domain that is not the current domain. If you do not set these values properly, the cookie can't be deleted by Klaro, as there is no way to access the path or domain of a cookie in JS. Notice that it is not possible to delete cookies that were set on a third-party domain, or cookies that have the HTTPOnly attribute: https://developer.mozilla.org/en-US/docs/Web/API/Document/cookie#new-cookie_domain</source>
+        <target>crwdns297106:0crwdne297106:0</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_service.required.label">
+        <source>Required</source>
+        <target>crwdns297112:0crwdne297112:0</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_service.required.description">
+        <source>If `required` is set to `true`, Klaro will not allow this service to be disabled by the user. Use this for services that are always required for your website to function (e.g. shopping cart cookies).</source>
+        <target>crwdns297440:0crwdne297440:0</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_service.opt_out.label">
+        <source>Opt-Out</source>
+        <target>crwdns297116:0crwdne297116:0</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_service.opt_out.description">
+        <source>If `optOut` is set to `true`, Klaro will load this service even before the user has given explicit consent. We strongly advise against this.</source>
+        <target>crwdns297442:0crwdne297442:0</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_service.only_once.label">
+        <source>Only Once</source>
+        <target>crwdns297120:0crwdne297120:0</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_service.only_once.description">
+        <source>If `onlyOnce` is set to `true`, the service will only be executed once regardless how often the user toggles it on and off. This is relevant e.g. for tracking scripts that would generate new page view events every time Klaro disables and re-enables them due to a consent change by the user.</source>
+        <target>crwdns297444:0crwdne297444:0</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_service.contextual_consent_only.label">
+        <source>Contextual Consent Only</source>
+        <target>crwdns297124:0crwdne297124:0</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_service.contextual_consent_only.description">
+        <source>Content can be excluded from general consent by setting contextualConsentOnly to `true`. In this case, the consent must be contextual.</source>
+        <target>crwdns339844:0crwdne339844:0</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_service.callback.label">
+        <source>Callback</source>
+        <target>crwdns297108:0crwdne297108:0</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_service.callback.description">
+        <source>You can define an optional callback function that will be called each time the consent state for the given service changes. The consent value will be passed as the first parameter to the function (`true` = consented). The `service` config will be passed as the second parameter. The content of this field is wrapped with `callback: function(consent, service) { }`. `consent` is a bool that reflects the current state. `service` holds all information about the currently selected service. When you enter something here, you need to know what you are doing. It is your responsibility that no JavaScript errors occur.</source>
+        <target>crwdns409609:0crwdne409609:0</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_service.on_accept.label">
+        <source>`onAccept` callback function</source>
+        <target>crwdns297446:0crwdne297446:0</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_service.on_accept.description">
+        <source>Here you can define JavaScript code that will be called each time the service was accepted. The content of this field is wrapped with `callback: function(handlerOpts) { }`. The object `handlerOpts` contains the objects `config` (the current Klaro! configuration), `service` (the current service) and possibly `vars` (any values defined by object notation in the vars field in the backend). When you enter something here, you need to know what you are doing. It is your responsibility that no JavaScript errors occur.</source>
+        <target>crwdns297248:0crwdne297248:0</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_service.on_init.label">
+        <source>`onInit` callback function</source>
+        <target>crwdns297448:0crwdne297448:0</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_service.on_init.description">
+        <source>Here you can define JavaScript code that will be called once per page-load. The content of this field is wrapped with `callback: function(handlerOpts) { }`. The object `handlerOpts` contains the objects `config` (the current Klaro! configuration), `service` (the current service) and possibly `vars` (any values defined by object notation in the vars field in the backend). When you enter something here, you need to know what you are doing. It is your responsibility that no JavaScript errors occur.</source>
+        <target>crwdns297252:0crwdne297252:0</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_service.on_decline.label">
+        <source>`onDecline` callback function</source>
+        <target>crwdns297450:0crwdne297450:0</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_service.on_decline.description">
+        <source>Here you can define JavaScript code that will be called each time the service was declined. The content of this field is wrapped with `callback: function(handlerOpts) { }`. The object `handlerOpts` contains the objects `config` (the current Klaro! configuration), `service` (the current service) and possibly `vars` (any values defined by object notation in the vars field in the backend). When you enter something here, you need to know what you are doing. It is your responsibility that no JavaScript errors occur.</source>
+        <target>crwdns297256:0crwdne297256:0</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_service.vars.label">
+        <source>Variables</source>
+        <target>crwdns297258:0crwdne297258:0</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_service.vars.description">
+        <source>Variables that can be used in callback functions. The content of this field is enclosed in curly brackets. The JavaScript object notation is expected in them. When you enter something here, you need to know what you are doing. It is your responsibility that no JavaScript errors occur.</source>
+        <target>crwdns297260:0crwdne297260:0</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_service.hidden">
+        <source>Service visible</source>
+        <target>crwdns377844:0crwdne377844:0</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_cookie">
+        <source>Cookie</source>
+        <target>crwdns297128:0crwdne297128:0</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_cookie.tabs.general">
+        <source>General</source>
+        <target>crwdns297378:0crwdne297378:0</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_cookie.tabs.access">
+        <source>Access</source>
+        <target>crwdns297380:0crwdne297380:0</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_cookie.palettes.identification_palette">
+        <source>Identification and presentation of the cookie</source>
+        <target>crwdns297382:0crwdne297382:0</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_cookie.palettes.technic_palette">
+        <source>Technically relevant settings</source>
+        <target>crwdns297384:0crwdne297384:0</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_cookie.palettes.technic_palette.description">
+        <source>This information is technically evaluated by Klaro! to manipulate the cookie.</source>
+        <target>crwdns297386:0crwdne297386:0</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_cookie.palettes.expiration_palette">
+        <source>Expiration Time</source>
+        <target>crwdns297388:0crwdne297388:0</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_cookie.palettes.access_palette">
+        <source>Access</source>
+        <target>crwdns297390:0crwdne297390:0</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_cookie.identifier.label">
+        <source>Identifier</source>
+        <target>crwdns297328:0crwdne297328:0</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_cookie.identifier.description">
+        <source>This is a unique identifier for this cookie. It must be written in lower case and must not contain any spaces, only the characters a-z, 0-9 and "-" or "_". The identifier can be used in Fluid, for example.</source>
+        <target>crwdns297330:0crwdne297330:0</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_cookie.identifier.placeholder">
+        <source>lowercase_alphanum-x</source>
+        <target>crwdns297332:0crwdne297332:0</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_cookie.title.label">
+        <source>Title</source>
+        <target>crwdns297288:0crwdne297288:0</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_cookie.title.description">
+        <source>If set, this title will be used in the frontend/backend for displaying the cookie. This title has no technical relevance (contrary to the `pattern` field).</source>
+        <target>crwdns297452:0crwdne297452:0</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_cookie.title.placeholder">
+        <source>mf_[Session]</source>
+        <target>crwdns297454:0crwdne297454:0</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_cookie.pattern.label">
+        <source>Name / Pattern</source>
+        <target>crwdns297294:0crwdne297294:0</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_cookie.pattern.description">
+        <source>Name or regular expression (regex)</source>
+        <target>crwdns297132:0crwdne297132:0</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_cookie.pattern.placeholder">
+        <source>/^_pk_.*$/</source>
+        <target>crwdns297134:0crwdne297134:0</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_cookie.path.label">
+        <source>Path</source>
+        <target>crwdns297136:0crwdne297136:0</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_cookie.path.description">
+        <source>Provide a path if you have services that set cookies for a path that is not "/"</source>
+        <target>crwdns297138:0crwdne297138:0</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_cookie.path.placeholder">
+        <source>/</source>
+        <target>crwdns297140:0crwdne297140:0</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_cookie.domain.label">
+        <source>Domain</source>
+        <target>crwdns297142:0crwdne297142:0</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_cookie.domain.description">
+        <source>Provide a domain if you have services that set cookies for a domain that is not the current domain.</source>
+        <target>crwdns297144:0crwdne297144:0</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_cookie.domain.placeholder">
+        <source>klaro.kiprotect.com</source>
+        <target>crwdns297146:0crwdne297146:0</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_cookie.expires_after.label">
+        <source>Expires after</source>
+        <target>crwdns297296:0crwdne297296:0</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_cookie.expires_after.description">
+        <source>Number of years/months/days/hours/minutes/seconds that will elapse before this cookie expires.</source>
+        <target>crwdns297298:0crwdne297298:0</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_cookie.expires_after.placeholder">
+        <source>60</source>
+        <target>crwdns297300:0crwdne297300:0</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_cookie.expires_after_unit.label">
+        <source>Expires after unit</source>
+        <target>crwdns297302:0crwdne297302:0</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_cookie.expires_after_unit.description">
+        <source>Unit used for the "Expires after" specification. The special value `end-of-session` does not need a numeric value and hides the "Expires after" field accordingly.</source>
+        <target>crwdns297456:0crwdne297456:0</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_cookie.expires_after_unit.I.years">
+        <source>Years</source>
+        <target>crwdns297306:0crwdne297306:0</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_cookie.expires_after_unit.I.months">
+        <source>Months</source>
+        <target>crwdns297308:0crwdne297308:0</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_cookie.expires_after_unit.I.days">
+        <source>Days</source>
+        <target>crwdns297310:0crwdne297310:0</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_cookie.expires_after_unit.I.hours">
+        <source>Hours</source>
+        <target>crwdns297312:0crwdne297312:0</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_cookie.expires_after_unit.I.minutes">
+        <source>Minutes</source>
+        <target>crwdns297314:0crwdne297314:0</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_cookie.expires_after_unit.I.seconds">
+        <source>Seconds</source>
+        <target>crwdns297316:0crwdne297316:0</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_cookie.expires_after_unit.I.end-of-session">
+        <source>End of session</source>
+        <target>crwdns297396:0crwdne297396:0</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_cookie.expires_after_unit.I.persistent">
+        <source>Persistent</source>
+        <target>crwdns377848:0crwdne377848:0</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_cookie.hidden">
+        <source>Cookie visible</source>
+        <target>crwdns377846:0crwdne377846:0</target>
+      </trans-unit>
+      <trans-unit id="tt_content.tx_klaroconsentmanager_service.label">
+        <source>Contextual Consent</source>
+        <target>crwdns297158:0crwdne297158:0</target>
+      </trans-unit>
+      <trans-unit id="tt_content.tx_klaroconsentmanager_service.description">
+        <source>When a service is selected in this field, the content item is displayed via contextual consent only if the user has agreed to use the selected service in the Klaro! Consent Manager. Please make sure that the static TypoScript template of the Klaro! Consent Manager has been added to use this feature.</source>
+        <target>crwdns297160:0crwdne297160:0</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_configuration.no_notice.label">
+        <source>Hide initial consent notice</source>
+        <target>crwdns377692:0crwdne377692:0</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_configuration.no_notice.description">
+        <source>Do not show the initial notice. The manager can still be opened manually or via contextual consent.</source>
+        <target>crwdns377694:0crwdne377694:0</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_configuration.powered_by.label">
+        <source>Powered by URL override</source>
+        <target>crwdns377696:0crwdne377696:0</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_configuration.powered_by.description">
+        <source>Override the “powered by” link in the consent modal. Leave empty to use Klaro default.</source>
+        <target>crwdns377698:0crwdne377698:0</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_configuration.powered_by.placeholder">
+        <source>https://example.com/your-link</source>
+        <target>crwdns377700:0crwdne377700:0</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_configuration.style_prefix.label">
+        <source>Style prefix</source>
+        <target>crwdns377702:0crwdne377702:0</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_configuration.style_prefix.description">
+        <source>Prefix for CSS classes/container to namespace Klaro styles.</source>
+        <target>crwdns377704:0crwdne377704:0</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_configuration.style_prefix.placeholder">
+        <source>my-klaro</source>
+        <target>crwdns377706:0crwdne377706:0</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
