@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file source-language="en" original="EXT:klaro_consent_manager/Configuration/Sets/KlaroConsentManager/labels.xlf" datatype="plaintext" product-name="klaro_consent_manager" date="2025-07-10T17:20:02+02:00" target-language="t3">
+    <header/>
+    <body>
+      <trans-unit id="label">
+        <source>Klaro! Consent Manager</source>
+        <target>crwdns409561:0crwdne409561:0</target>
+      </trans-unit>
+      <trans-unit id="categories.klaroconsentmanager">
+        <source>Klaro</source>
+        <target>crwdns409563:0crwdne409563:0</target>
+      </trans-unit>
+      <trans-unit id="categories.klaroconsentmanager.templates">
+        <source>Templates</source>
+        <target>crwdns409565:0crwdne409565:0</target>
+      </trans-unit>
+      <trans-unit id="categories.klaroconsentmanager.resources">
+        <source>Resources</source>
+        <target>crwdns409567:0crwdne409567:0</target>
+      </trans-unit>
+      <trans-unit id="categories.klaroconsentmanager.settings">
+        <source>Settings</source>
+        <target>crwdns409569:0crwdne409569:0</target>
+      </trans-unit>
+      <trans-unit id="settings.plugin.tx_klaroconsentmanager.view.templateRootPath">
+        <source>Path to template root (FE)</source>
+        <target>crwdns409571:0crwdne409571:0</target>
+      </trans-unit>
+      <trans-unit id="settings.plugin.tx_klaroconsentmanager.view.partialRootPath">
+        <source>Path to template partials (FE)</source>
+        <target>crwdns409573:0crwdne409573:0</target>
+      </trans-unit>
+      <trans-unit id="settings.plugin.tx_klaroconsentmanager.view.layoutRootPath">
+        <source>Path to template layouts (FE)</source>
+        <target>crwdns409575:0crwdne409575:0</target>
+      </trans-unit>
+      <trans-unit id="settings.plugin.tx_klaroconsentmanager.settings.css.klaro-default">
+        <source>Klaro CSS</source>
+        <target>crwdns409577:0crwdne409577:0</target>
+      </trans-unit>
+      <trans-unit id="settings.plugin.tx_klaroconsentmanager.settings.css.klaro-custom">
+        <source>Custom additions for Klaro CSS</source>
+        <target>crwdns409579:0crwdne409579:0</target>
+      </trans-unit>
+      <trans-unit id="settings.plugin.tx_klaroconsentmanager.settings.javascript.klaro-default">
+        <source>Klaro JavaScript</source>
+        <target>crwdns409581:0crwdne409581:0</target>
+      </trans-unit>
+      <trans-unit id="settings.plugin.tx_klaroconsentmanager.settings.contextualconsent.replaceAttributes">
+        <source>Replace attributes</source>
+        <target>crwdns409583:0crwdne409583:0</target>
+      </trans-unit>
+      <trans-unit id="settings.description.plugin.tx_klaroconsentmanager.settings.contextualconsent.replaceAttributes">
+        <source>Comma-separated list of attributes that should be automatically replaced within the content element of the contextual consent</source>
+        <target>crwdns409585:0crwdne409585:0</target>
+      </trans-unit>
+      <trans-unit id="settings.plugin.tx_klaroconsentmanager.settings.contextualconsent.mainSectionOnly">
+        <source>Main section only</source>
+        <target>crwdns409587:0crwdne409587:0</target>
+      </trans-unit>
+      <trans-unit id="settings.description.plugin.tx_klaroconsentmanager.settings.contextualconsent.mainSectionOnly">
+        <source>Activate this option if the contextual consent box should be limited to the main content only (without heading and footer).</source>
+        <target>crwdns409593:0crwdne409593:0</target>
+      </trans-unit>
+      <trans-unit id="settings.plugin.tx_klaroconsentmanager.settings.configuration.disabled">
+        <source>Disable Klaro Consent Management</source>
+        <target>crwdns409591:0crwdne409591:0</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

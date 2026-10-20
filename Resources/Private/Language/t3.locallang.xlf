@@ -1,0 +1,547 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file source-language="en" original="EXT:klaro_consent_manager/Resources/Private/Language/locallang.xlf" datatype="plaintext" product-name="klaro_consent_manager" date="2025-10-13T15:15:27+02:00" target-language="t3">
+    <body>
+      <trans-unit id="acceptAll">
+        <source>Accept all</source>
+        <target>crwdns377650:0crwdne377650:0</target>
+      </trans-unit>
+      <trans-unit id="acceptSelected">
+        <source>Accept selected</source>
+        <target>crwdns377652:0crwdne377652:0</target>
+      </trans-unit>
+      <trans-unit id="close">
+        <source>Close</source>
+        <target>crwdns377654:0crwdne377654:0</target>
+      </trans-unit>
+      <trans-unit id="consentModal.description">
+        <source>Here you can assess and customize the services that we'd like to use on this website. You're in charge! Enable or disable services as you see fit.</source>
+        <target>crwdns296648:0crwdne296648:0</target>
+      </trans-unit>
+      <trans-unit id="consentModal.title">
+        <source>Services we would like to use</source>
+        <target>crwdns296646:0crwdne296646:0</target>
+      </trans-unit>
+      <trans-unit id="consentNotice.changeDescription">
+        <source>There were changes since your last visit, please renew your consent.</source>
+        <target>crwdns296654:0crwdne296654:0</target>
+      </trans-unit>
+      <trans-unit id="consentNotice.description">
+        <source>Hi! Could we please enable some additional services for {purposes}? You can always change or withdraw your consent later.</source>
+        <target>crwdns296656:0{purposes}crwdne296656:0</target>
+      </trans-unit>
+      <trans-unit id="consentNotice.learnMore">
+        <source>Let me choose</source>
+        <target>crwdns296658:0crwdne296658:0</target>
+      </trans-unit>
+      <trans-unit id="consentNotice.testing">
+        <source>Testing mode!</source>
+        <target>crwdns296650:0crwdne296650:0</target>
+      </trans-unit>
+      <trans-unit id="consentNotice.title">
+        <source>Cookie Consent</source>
+        <target>crwdns296652:0crwdne296652:0</target>
+      </trans-unit>
+      <trans-unit id="contextualConsent.acceptAlways">
+        <source>Always</source>
+        <target>crwdns296730:0crwdne296730:0</target>
+      </trans-unit>
+      <trans-unit id="contextualConsent.acceptOnce">
+        <source>Yes</source>
+        <target>crwdns296728:0crwdne296728:0</target>
+      </trans-unit>
+      <trans-unit id="contextualConsent.description">
+        <source>Do you want to load external content supplied by {title}?</source>
+        <target>crwdns296726:0{title}crwdne296726:0</target>
+      </trans-unit>
+      <trans-unit id="contextualConsent.descriptionEmptyStore">
+        <source>To agree to this service permanently, you must accept {title} in the {link}.</source>
+        <target>crwdns377656:0{title}crwdnd377656:0{link}crwdne377656:0</target>
+      </trans-unit>
+      <trans-unit id="contextualConsent.modalLinkText">
+        <source>Consent Manager</source>
+        <target>crwdns377658:0crwdne377658:0</target>
+      </trans-unit>
+      <trans-unit id="decline">
+        <source>I decline</source>
+        <target>crwdns296700:0crwdne296700:0</target>
+      </trans-unit>
+      <trans-unit id="ok">
+        <source>That's ok</source>
+        <target>crwdns296696:0crwdne296696:0</target>
+      </trans-unit>
+      <trans-unit id="poweredBy">
+        <source>Realized with Klaro!</source>
+        <target>crwdns296724:0crwdne296724:0</target>
+      </trans-unit>
+      <trans-unit id="privacyPolicy.name">
+        <source>privacy policy</source>
+        <target>crwdns296642:0crwdne296642:0</target>
+      </trans-unit>
+      <trans-unit id="privacyPolicy.text">
+        <source>To learn more, please read our {privacyPolicy}.</source>
+        <target>crwdns296644:0{privacyPolicy}crwdne296644:0</target>
+      </trans-unit>
+      <trans-unit id="purposeItem.service">
+        <source>service</source>
+        <target>crwdns377660:0crwdne377660:0</target>
+      </trans-unit>
+      <trans-unit id="purposeItem.services">
+        <source>services</source>
+        <target>crwdns377662:0crwdne377662:0</target>
+      </trans-unit>
+      <trans-unit id="purposes.advertising.description">
+        <source>These services process personal information to show you personalized or interest-based advertisements.</source>
+        <target>crwdns296674:0crwdne296674:0</target>
+      </trans-unit>
+      <trans-unit id="purposes.advertising.title">
+        <source>Advertising</source>
+        <target>crwdns296672:0crwdne296672:0</target>
+      </trans-unit>
+      <trans-unit id="purposes.functional.description">
+        <source>These services are essential for the correct functioning of this website. You cannot disable them here as the service would not work correctly otherwise.</source>
+        <target>crwdns377892:0crwdne377892:0</target>
+      </trans-unit>
+      <trans-unit id="purposes.functional.title">
+        <source>Service Provision</source>
+        <target>crwdns296660:0crwdne296660:0</target>
+      </trans-unit>
+      <trans-unit id="purposes.marketing.description">
+        <source>These services process personal information to show you relevant content about products, services or topics that you might be interested in.</source>
+        <target>crwdns296670:0crwdne296670:0</target>
+      </trans-unit>
+      <trans-unit id="purposes.marketing.title">
+        <source>Marketing</source>
+        <target>crwdns296668:0crwdne296668:0</target>
+      </trans-unit>
+      <trans-unit id="purposes.performance.description">
+        <source>These services process personal information to optimize the service that this website offers.</source>
+        <target>crwdns377894:0crwdne377894:0</target>
+      </trans-unit>
+      <trans-unit id="purposes.performance.title">
+        <source>Performance Optimization</source>
+        <target>crwdns296664:0crwdne296664:0</target>
+      </trans-unit>
+      <trans-unit id="save">
+        <source>Save</source>
+        <target>crwdns377668:0crwdne377668:0</target>
+      </trans-unit>
+      <trans-unit id="service.disableAll.description">
+        <source>Use this switch to enable or disable all services.</source>
+        <target>crwdns296710:0crwdne296710:0</target>
+      </trans-unit>
+      <trans-unit id="service.disableAll.title">
+        <source>Enable or disable all services</source>
+        <target>crwdns296708:0crwdne296708:0</target>
+      </trans-unit>
+      <trans-unit id="service.optOut.description">
+        <source>This service is loaded by default (but you can opt out)</source>
+        <target>crwdns409595:0crwdne409595:0</target>
+      </trans-unit>
+      <trans-unit id="service.optOut.title">
+        <source>(opt-out)</source>
+        <target>crwdns296712:0crwdne296712:0</target>
+      </trans-unit>
+      <trans-unit id="service.purpose">
+        <source>purpose</source>
+        <target>crwdns377670:0crwdne377670:0</target>
+      </trans-unit>
+      <trans-unit id="service.purposes">
+        <source>purposes</source>
+        <target>crwdns377672:0crwdne377672:0</target>
+      </trans-unit>
+      <trans-unit id="service.required.description">
+        <source>This service is always required</source>
+        <target>crwdns409597:0crwdne409597:0</target>
+      </trans-unit>
+      <trans-unit id="service.required.title">
+        <source>(always required)</source>
+        <target>crwdns296716:0crwdne296716:0</target>
+      </trans-unit>
+      <trans-unit id="purposes.analytics.title">
+        <source>Analytics</source>
+        <target>crwdns296676:0crwdne296676:0</target>
+      </trans-unit>
+      <trans-unit id="purposes.analytics.description">
+        <source>These services gather anonymous data for statistical analysis and performance optimization. Enabling analytics services assists website owners in making informed decisions to enhance online services.</source>
+        <target>crwdns296678:0crwdne296678:0</target>
+      </trans-unit>
+      <trans-unit id="purposes.security.title">
+        <source>Security</source>
+        <target>crwdns296680:0crwdne296680:0</target>
+      </trans-unit>
+      <trans-unit id="purposes.security.description">
+        <source>Security services are crucial for safeguarding your online experience. These services help protect your data and privacy by detecting and preventing security threats, such as malware, phishing attempts, and unauthorized access. They ensure a safer browsing environment.</source>
+        <target>crwdns296682:0crwdne296682:0</target>
+      </trans-unit>
+      <trans-unit id="purposes.livechat.title">
+        <source>Live Chat</source>
+        <target>crwdns296684:0crwdne296684:0</target>
+      </trans-unit>
+      <trans-unit id="purposes.livechat.description">
+        <source>Live chat services enable real-time communication with website support teams. They offer a convenient way to ask questions, seek assistance, or engage in discussions while browsing a website. Live chat enhances your online interaction and customer support experience.</source>
+        <target>crwdns296686:0crwdne296686:0</target>
+      </trans-unit>
+      <trans-unit id="purposes.styling.title">
+        <source>Styling</source>
+        <target>crwdns296688:0crwdne296688:0</target>
+      </trans-unit>
+      <trans-unit id="purposes.styling.description">
+        <source>Services related to styling help to improve the appearance of the website. This can also have an impact on usability.</source>
+        <target>crwdns296690:0crwdne296690:0</target>
+      </trans-unit>
+      <trans-unit id="purposes.videos.title">
+        <source>Videos</source>
+        <target>crwdns339436:0crwdne339436:0</target>
+      </trans-unit>
+      <trans-unit id="purposes.videos.description">
+        <source>Embedding videos from external platforms to enrich the content on this website.</source>
+        <target>crwdns339438:0crwdne339438:0</target>
+      </trans-unit>
+      <trans-unit id="purposes.social.title">
+        <source>Social Media</source>
+        <target>crwdns339440:0crwdne339440:0</target>
+      </trans-unit>
+      <trans-unit id="purposes.social.description">
+        <source>Embedding social media from external platforms to enrich the content on this website.</source>
+        <target>crwdns339442:0crwdne339442:0</target>
+      </trans-unit>
+      <trans-unit id="purposes.misc.title">
+        <source>Miscellaneous</source>
+        <target>crwdns339444:0crwdne339444:0</target>
+      </trans-unit>
+      <trans-unit id="purposes.misc.description">
+        <source>This includes services that do not fall under the other purposes.</source>
+        <target>crwdns339446:0crwdne339446:0</target>
+      </trans-unit>
+      <trans-unit id="consentManager.show">
+        <source>Show Consent Manager</source>
+        <target>crwdns296732:0crwdne296732:0</target>
+      </trans-unit>
+      <trans-unit id="consentManager.show.title">
+        <source>Show Consent Manager</source>
+        <target>crwdns394388:0crwdne394388:0</target>
+      </trans-unit>
+      <trans-unit id="consentManager.reset">
+        <source>Reset Consent Manager</source>
+        <target>crwdns296734:0crwdne296734:0</target>
+      </trans-unit>
+      <trans-unit id="consentManager.reset.title">
+        <source>Reset Consent Manager</source>
+        <target>crwdns394390:0crwdne394390:0</target>
+      </trans-unit>
+      <trans-unit id="services.adobe-fonts.title">
+        <source>Adobe Fonts</source>
+        <target>crwdns409368:0crwdne409368:0</target>
+      </trans-unit>
+      <trans-unit id="services.adobe-fonts.description">
+        <source>Adobe Fonts provides web fonts used for this website. When enabled, font files are loaded from Adobe and technical connection data may be processed.</source>
+        <target>crwdns409370:0crwdne409370:0</target>
+      </trans-unit>
+      <trans-unit id="services.adsense.title">
+        <source>Google AdSense</source>
+        <target>crwdns296736:0crwdne296736:0</target>
+      </trans-unit>
+      <trans-unit id="services.adsense.description">
+        <source>Google AdSense enables personalized ads on websites while respecting user privacy. By consenting, you allow relevant ads and help support free content.</source>
+        <target>crwdns296738:0crwdne296738:0</target>
+      </trans-unit>
+      <trans-unit id="services.camera.title">
+        <source>Surveillance Camera</source>
+        <target>crwdns296740:0crwdne296740:0</target>
+      </trans-unit>
+      <trans-unit id="services.camera.description">
+        <source>Consent to the use of surveillance camera images for security and safety purposes, in compliance with applicable data privacy regulations.</source>
+        <target>crwdns296742:0crwdne296742:0</target>
+      </trans-unit>
+      <trans-unit id="services.career-captain.title">
+        <source>Career Captain</source>
+        <target>crwdns409372:0crwdne409372:0</target>
+      </trans-unit>
+      <trans-unit id="services.career-captain.description">
+        <source>Career Captain provides gamified career orientation and recruiting content. When enabled, external content from Career Captain may process usage and technical connection data.</source>
+        <target>crwdns409374:0crwdne409374:0</target>
+      </trans-unit>
+      <trans-unit id="services.clarity.title">
+        <source>Microsoft Clarity</source>
+        <target>crwdns296744:0crwdne296744:0</target>
+      </trans-unit>
+      <trans-unit id="services.clarity.description">
+        <source>Microsoft Clarity is a user-friendly web analytics tool that empowers website visitors like you by providing transparency about how your interactions are tracked on a website. It ensures your privacy is respected while giving developers and website owners valuable insights into user behavior. Plus, it follows coding guidelines and best practices, ensuring a safe and secure online experience for you.</source>
+        <target>crwdns296746:0crwdne296746:0</target>
+      </trans-unit>
+      <trans-unit id="services.cloudflare.title">
+        <source>Cloudflare</source>
+        <target>crwdns296748:0crwdne296748:0</target>
+      </trans-unit>
+      <trans-unit id="services.cloudflare.description">
+        <source>Cloudflare helps protect and optimize websites. By using this website, you consent to Cloudflare's data processing practices as described in its Privacy Policy.</source>
+        <target>crwdns296750:0crwdne296750:0</target>
+      </trans-unit>
+      <trans-unit id="services.external-tracker.title">
+        <source>External Tracker</source>
+        <target>crwdns296752:0crwdne296752:0</target>
+      </trans-unit>
+      <trans-unit id="services.external-tracker.description">
+        <source>External tracking script</source>
+        <target>crwdns296754:0crwdne296754:0</target>
+      </trans-unit>
+      <trans-unit id="services.facebook-pixel.title">
+        <source>Facebook Pixel</source>
+        <target>crwdns296756:0crwdne296756:0</target>
+      </trans-unit>
+      <trans-unit id="services.facebook-pixel.description">
+        <source>Simplifies web tracking for analytics and marketing while ensuring data compliance and control.</source>
+        <target>crwdns296758:0crwdne296758:0</target>
+      </trans-unit>
+      <trans-unit id="services.fast-fonts.title">
+        <source>Fast Fonts</source>
+        <target>crwdns304636:0crwdne304636:0</target>
+      </trans-unit>
+      <trans-unit id="services.fast-fonts.description">
+        <source>Fast Fonts, operated by fonts.com and supplied by fast.fonts.net, is a service for the provision of web fonts. It requires the use of a pixel-code for continuous price calculation.</source>
+        <target>crwdns304638:0crwdne304638:0</target>
+      </trans-unit>
+      <trans-unit id="services.google-ads.title">
+        <source>Google Ads</source>
+        <target>crwdns297468:0crwdne297468:0</target>
+      </trans-unit>
+      <trans-unit id="services.google-ads.description">
+        <source>Google Ads allows advertisers to reach their target audience online. To personalize ads and measure their effectiveness, Google may collect data with your consent.</source>
+        <target>crwdns297470:0crwdne297470:0</target>
+      </trans-unit>
+      <trans-unit id="services.google-analytics.title">
+        <source>Google Analytics</source>
+        <target>crwdns296760:0crwdne296760:0</target>
+      </trans-unit>
+      <trans-unit id="services.google-analytics.description">
+        <source>Web analytics service provided by Google, Inc. ("Google")</source>
+        <target>crwdns296762:0crwdne296762:0</target>
+      </trans-unit>
+      <trans-unit id="services.google-fonts.title">
+        <source>Google Fonts</source>
+        <target>crwdns296764:0crwdne296764:0</target>
+      </trans-unit>
+      <trans-unit id="services.google-fonts.description">
+        <source>Web fonts hosted by Google</source>
+        <target>crwdns296766:0crwdne296766:0</target>
+      </trans-unit>
+      <trans-unit id="services.google-maps.title">
+        <source>Google Maps</source>
+        <target>crwdns296768:0crwdne296768:0</target>
+      </trans-unit>
+      <trans-unit id="services.google-maps.description">
+        <source>Google Maps allows for the integration of interactive maps on websites, enabling location-based services. Developers can utilize it while ensuring data compliance and control, adhering to coding guidelines and best practices.</source>
+        <target>crwdns296770:0crwdne296770:0</target>
+      </trans-unit>
+      <trans-unit id="services.google-tag-manager.title">
+        <source>Google Tag Manager</source>
+        <target>crwdns296772:0crwdne296772:0</target>
+      </trans-unit>
+      <trans-unit id="services.google-tag-manager.description">
+        <source>Google Tag Manager streamlines web tracking and code management, ensuring data compliance and control for developers.</source>
+        <target>crwdns296774:0crwdne296774:0</target>
+      </trans-unit>
+      <trans-unit id="services.inline-tracker.title">
+        <source>Inline Tracker</source>
+        <target>crwdns296776:0crwdne296776:0</target>
+      </trans-unit>
+      <trans-unit id="services.inline-tracker.description">
+        <source>Inline tracking script</source>
+        <target>crwdns296778:0crwdne296778:0</target>
+      </trans-unit>
+      <trans-unit id="services.instagram.title">
+        <source>Instagram</source>
+        <target>crwdns372832:0crwdne372832:0</target>
+      </trans-unit>
+      <trans-unit id="services.instagram.description">
+        <source>Allows Instagram posts to be embedded. Personal data may be transferred to Instagram (Meta Platforms) in the process.</source>
+        <target>crwdns372834:0crwdne372834:0</target>
+      </trans-unit>
+      <trans-unit id="services.intercom.title">
+        <source>Intercom</source>
+        <target>crwdns296780:0crwdne296780:0</target>
+      </trans-unit>
+      <trans-unit id="services.intercom.description">
+        <source>Chat widget and collecting of visitor statistics</source>
+        <target>crwdns297400:0crwdne297400:0</target>
+      </trans-unit>
+      <trans-unit id="services.klaro.title">
+        <source>Klaro!</source>
+        <target>crwdns409376:0crwdne409376:0</target>
+      </trans-unit>
+      <trans-unit id="services.klaro.description">
+        <source>Klaro! manages consent choices for this website and stores whether individual services may be loaded according to your preferences.</source>
+        <target>crwdns409378:0crwdne409378:0</target>
+      </trans-unit>
+      <trans-unit id="services.matomo.title">
+        <source>Matomo/Piwik</source>
+        <target>crwdns296784:0crwdne296784:0</target>
+      </trans-unit>
+      <trans-unit id="services.matomo.description">
+        <source>Open source software for statistical analysis of visitor accesses</source>
+        <target>crwdns296786:0crwdne296786:0</target>
+      </trans-unit>
+      <trans-unit id="services.mouseflow.title">
+        <source>Mouseflow</source>
+        <target>crwdns296788:0crwdne296788:0</target>
+      </trans-unit>
+      <trans-unit id="services.mouseflow.description">
+        <source>Real-time user analytics service that helps to understand how visitors interact with our website.</source>
+        <target>crwdns296790:0crwdne296790:0</target>
+      </trans-unit>
+      <trans-unit id="services.salesviewer.title">
+        <source>SalesViewer</source>
+        <target>crwdns409380:0crwdne409380:0</target>
+      </trans-unit>
+      <trans-unit id="services.salesviewer.description">
+        <source>SalesViewer analyzes website visits for B2B lead generation and may identify company-related visitor information based on usage and technical access data.</source>
+        <target>crwdns409382:0crwdne409382:0</target>
+      </trans-unit>
+      <trans-unit id="services.tiktok.title">
+        <source>TikTok</source>
+        <target>crwdns372836:0crwdne372836:0</target>
+      </trans-unit>
+      <trans-unit id="services.tiktok.description">
+        <source>Allows TikTok videos to be embedded. Personal data may be transferred to TikTok and processed in third countries.</source>
+        <target>crwdns372838:0crwdne372838:0</target>
+      </trans-unit>
+      <trans-unit id="services.twitter.title">
+        <source>X (formerly Twitter)</source>
+        <target>crwdns296792:0crwdne296792:0</target>
+      </trans-unit>
+      <trans-unit id="services.twitter.description">
+        <source>X (formerly Twitter) is a social media platform that allows users to share and interact with short messages and multimedia content. Developers can integrate Twitter features into websites to enhance user engagement and real-time updates while maintaining data privacy compliance and adhering to coding guidelines.</source>
+        <target>crwdns409599:0crwdne409599:0</target>
+      </trans-unit>
+      <trans-unit id="services.userlike.title">
+        <source>Userlike</source>
+        <target>crwdns296796:0crwdne296796:0</target>
+      </trans-unit>
+      <trans-unit id="services.userlike.description">
+        <source>Userlike offers a live chat solution that enhances user interactions on websites.</source>
+        <target>crwdns296798:0crwdne296798:0</target>
+      </trans-unit>
+      <trans-unit id="services.vimeo.title">
+        <source>Vimeo</source>
+        <target>crwdns296800:0crwdne296800:0</target>
+      </trans-unit>
+      <trans-unit id="services.vimeo.description">
+        <source>Popular video-sharing platform that offers a range of features for creators and developers to enhance video content on websites.</source>
+        <target>crwdns296802:0crwdne296802:0</target>
+      </trans-unit>
+      <trans-unit id="services.youtube.title">
+        <source>YouTube</source>
+        <target>crwdns296804:0crwdne296804:0</target>
+      </trans-unit>
+      <trans-unit id="services.youtube.description">
+        <source>The leading video-sharing platform for content creators and developers to enhance user experiences on websites.</source>
+        <target>crwdns296806:0crwdne296806:0</target>
+      </trans-unit>
+      <trans-unit id="consentModal.privacyPolicy.name">
+        <source>Privacy policy</source>
+        <target>crwdns297148:0crwdne297148:0</target>
+      </trans-unit>
+      <trans-unit id="consentModal.privacyPolicy.text">
+        <source>To learn more, please read our {privacyPolicy}.</source>
+        <target>crwdns297150:0{privacyPolicy}crwdne297150:0</target>
+      </trans-unit>
+      <trans-unit id="consentNotice.imprint.name">
+        <source>Imprint</source>
+        <target>crwdns297152:0crwdne297152:0</target>
+      </trans-unit>
+      <trans-unit id="consentNotice.privacyPolicy.name">
+        <source>Privacy policy</source>
+        <target>crwdns297154:0crwdne297154:0</target>
+      </trans-unit>
+      <trans-unit id="cookies.title">
+        <source>Cookies</source>
+        <target>crwdns297204:0crwdne297204:0</target>
+      </trans-unit>
+      <trans-unit id="cookies.description">
+        <source>Below you will find a list of all cookies used by %s</source>
+        <target>crwdns297206:0%scrwdne297206:0</target>
+      </trans-unit>
+      <trans-unit id="cookies.headline.name">
+        <source>Name / Pattern</source>
+        <target>crwdns297212:0crwdne297212:0</target>
+      </trans-unit>
+      <trans-unit id="cookies.headline.path">
+        <source>Path</source>
+        <target>crwdns297214:0crwdne297214:0</target>
+      </trans-unit>
+      <trans-unit id="cookies.headline.domain">
+        <source>Domain</source>
+        <target>crwdns297216:0crwdne297216:0</target>
+      </trans-unit>
+      <trans-unit id="cookies.headline.expiresAfter">
+        <source>Expires after</source>
+        <target>crwdns297262:0crwdne297262:0</target>
+      </trans-unit>
+      <trans-unit id="year">
+        <source>Year</source>
+        <target>crwdns297264:0crwdne297264:0</target>
+      </trans-unit>
+      <trans-unit id="years">
+        <source>Years</source>
+        <target>crwdns297266:0crwdne297266:0</target>
+      </trans-unit>
+      <trans-unit id="month">
+        <source>Month</source>
+        <target>crwdns297268:0crwdne297268:0</target>
+      </trans-unit>
+      <trans-unit id="months">
+        <source>Months</source>
+        <target>crwdns297270:0crwdne297270:0</target>
+      </trans-unit>
+      <trans-unit id="day">
+        <source>Day</source>
+        <target>crwdns297272:0crwdne297272:0</target>
+      </trans-unit>
+      <trans-unit id="days">
+        <source>Days</source>
+        <target>crwdns297274:0crwdne297274:0</target>
+      </trans-unit>
+      <trans-unit id="hour">
+        <source>Hour</source>
+        <target>crwdns297276:0crwdne297276:0</target>
+      </trans-unit>
+      <trans-unit id="hours">
+        <source>Hours</source>
+        <target>crwdns297278:0crwdne297278:0</target>
+      </trans-unit>
+      <trans-unit id="minute">
+        <source>Minute</source>
+        <target>crwdns297280:0crwdne297280:0</target>
+      </trans-unit>
+      <trans-unit id="minutes">
+        <source>Minutes</source>
+        <target>crwdns297282:0crwdne297282:0</target>
+      </trans-unit>
+      <trans-unit id="second">
+        <source>Second</source>
+        <target>crwdns297402:0crwdne297402:0</target>
+      </trans-unit>
+      <trans-unit id="seconds">
+        <source>Seconds</source>
+        <target>crwdns297286:0crwdne297286:0</target>
+      </trans-unit>
+      <trans-unit id="end-of-session">
+        <source>End of session</source>
+        <target>crwdns297392:0crwdne297392:0</target>
+      </trans-unit>
+      <trans-unit id="persistent">
+        <source>persistent</source>
+        <target>crwdns377850:0crwdne377850:0</target>
+      </trans-unit>
+      <trans-unit id="warning.noServices">
+        <source>Why don't I see a Klaro! Modal? → You must assign at least 1 service to the Klaro! configuration! Without services, we don't need consent management at all.</source>
+        <target>crwdns339318:0crwdne339318:0</target>
+      </trans-unit>
+      <trans-unit id="warning.noServicesPersonalized">
+        <source>Hey %s! You missed a service in the config! Without services, we don't need consent management at all.</source>
+        <target>crwdns339320:0%scrwdne339320:0</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

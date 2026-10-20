@@ -1,0 +1,1012 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file source-language="en" original="EXT:klaro_consent_manager/Resources/Private/Language/locallang_db.xlf" datatype="plaintext" product-name="lang" date="2025-10-13T13:41:04+02:00" target-language="vi">
+    <header/>
+    <body>
+      <trans-unit id="tx_klaroconsentmanager_configuration" approved="yes">
+        <source>Klaro! Configuration</source>
+        <target state="final">Cấu hình Klaro!</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_configuration.I.true" approved="yes">
+        <source>true</source>
+        <target state="final">đúng</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_configuration.I.false" approved="yes">
+        <source>false</source>
+        <target state="final">sai</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_configuration.tabs.general" approved="yes">
+        <source>General</source>
+        <target state="final">Chung</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_configuration.tabs.layout" approved="yes">
+        <source>Layout</source>
+        <target state="final">Bố cục</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_configuration.tabs.content" approved="yes">
+        <source>Content</source>
+        <target state="final">Nội dung</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_configuration.tabs.cookie" approved="yes">
+        <source>Cookie</source>
+        <target state="final">Cookie</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_configuration.tabs.advanced" approved="yes">
+        <source>Advanced</source>
+        <target state="final">Nâng cao</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_configuration.tabs.access" approved="yes">
+        <source>Access</source>
+        <target state="final">Truy cập</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_configuration.palettes.general_palette" approved="yes">
+        <source>General</source>
+        <target state="final">Chung</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_configuration.palettes.setup_palette" approved="yes">
+        <source>Base Configuration</source>
+        <target state="final">Cấu hình cơ bản</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_configuration.palettes.storage_palette" approved="yes">
+        <source>Storage</source>
+        <target state="final">Lưu trữ</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_configuration.palettes.services_palette" approved="yes">
+        <source>Services</source>
+        <target state="final">Dịch vụ</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_configuration.palettes.cookie_palette" approved="yes">
+        <source>Cookie Settings</source>
+        <target state="final">Cài đặt cookie</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_configuration.palettes.callback_palette" approved="yes">
+        <source>Callback</source>
+        <target state="final">Hàm gọi lại</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_configuration.palettes.consent_palette" approved="yes">
+        <source>Default consent status</source>
+        <target state="final">Trạng thái đồng ý mặc định</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_configuration.palettes.display_palette" approved="yes">
+        <source>Other display settings</source>
+        <target state="final">Các thiết lập hiển thị khác</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_configuration.palettes.layout_palette" approved="yes">
+        <source>Layout settings</source>
+        <target state="final">Thiết lập bố cục</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_configuration.palettes.behavior_palette" approved="yes">
+        <source>Behavior</source>
+        <target state="final">Hành vi</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_configuration.palettes.hide_buttons_palette" approved="yes">
+        <source>Hide Buttons</source>
+        <target state="final">Ẩn nút</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_configuration.palettes.append_buttons_palette" approved="yes">
+        <source>Append Buttons</source>
+        <target state="final">Thêm nút</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_configuration.palettes.access_palette" approved="yes">
+        <source>Access</source>
+        <target state="final">Truy cập</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_configuration.palettes.translations_palette" approved="yes">
+        <source>Translations</source>
+        <target state="final">Bản dịch</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_configuration.title.label" approved="yes">
+        <source>Title</source>
+        <target state="final">Tiêu đề</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_configuration.title.description" approved="yes">
+        <source>Title under which this configuration can be found.</source>
+        <target state="final">Tiêu đề dùng để tìm cấu hình này.</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_configuration.title.placeholder" approved="yes">
+        <source>My Klaro! Configuration</source>
+        <target state="final">My Klaro! Configuration</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_configuration.testing.label" approved="yes">
+        <source>Testing</source>
+        <target state="final">Kiểm thử</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_configuration.testing.description" approved="yes">
+        <source>Setting `testing` to `true` will cause Klaro to not show the consent notice or modal by default, except if a special hashtag is appended to the URL (#klaro-testing). This makes it possible to test Klaro on your live website without affecting normal visitors.</source>
+        <target state="final">Khi đặt `testing` thành `true`, Klaro sẽ mặc định không hiển thị thông báo đồng ý hoặc modal, trừ khi một hashtag đặc biệt được thêm vào URL (#klaro-testing). Điều này cho phép kiểm thử Klaro trên trang web đang hoạt động mà không ảnh hưởng đến khách truy cập thông thường.</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_configuration.config_variable_name.label" approved="yes">
+        <source>Config Variable Name</source>
+        <target state="final">Tên biến cấu hình</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_configuration.config_variable_name.description" approved="yes">
+        <source>By default, Klaro loads the configuration from a global variable `klaroConfig`. You can change this here. Specifying this field will cause the attribute data-klaro-config="yourConfigVariableName" to be set.</source>
+        <target state="final">Theo mặc định, Klaro tải cấu hình từ biến toàn cục `klaroConfig`. Bạn có thể thay đổi tại đây. Khi chỉ định trường này, thuộc tính data-klaro-config="yourConfigVariableName" sẽ được đặt.</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_configuration.config_variable_name.placeholder" approved="yes">
+        <source>klaroConfig</source>
+        <target state="final">klaroConfig</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_configuration.element_i_d.label" approved="yes">
+        <source>Element ID</source>
+        <target state="final">ID phần tử</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_configuration.element_i_d.description" approved="yes">
+        <source>You can customize the ID of the `div` element that Klaro will create when starting up. By default, Klaro will use "klaro".</source>
+        <target state="final">Bạn có thể tùy chỉnh ID của phần tử `div` mà Klaro sẽ tạo khi khởi động. Theo mặc định, Klaro sẽ sử dụng "klaro".</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_configuration.element_i_d.placeholder" approved="yes">
+        <source>klaro</source>
+        <target state="final">klaro</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_configuration.no_auto_load.label" approved="yes">
+        <source>No Auto-Load</source>
+        <target state="final">Không tự động tải</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_configuration.no_auto_load.description" approved="yes">
+        <source>Setting this to `true` will keep Klaro from automatically loading itself when the page is being loaded.</source>
+        <target state="final">Đặt mục này thành `true` sẽ ngăn Klaro tự động tải khi trang đang được tải.</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_configuration.additional_class.label" approved="yes">
+        <source>Additional Class</source>
+        <target state="final">Lớp bổ sung</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_configuration.additional_class.description" approved="yes">
+        <source>You can specify an additional class (or classes) that will be added to the Klaro `div`.</source>
+        <target state="final">Bạn có thể chỉ định một lớp bổ sung (hoặc nhiều lớp) sẽ được thêm vào `div` Klaro.</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_configuration.additional_class.placeholder" approved="yes">
+        <source>my-klaro</source>
+        <target state="final">my-klaro</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_configuration.storage_method.label" approved="yes">
+        <source>Storage Method</source>
+        <target state="final">Phương thức lưu trữ</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_configuration.storage_method.description" approved="yes">
+        <source>You can customize how Klaro persists consent information in the browser. Specify either `cookie` (the default) or `localStorage`.</source>
+        <target state="final">Bạn có thể tùy chỉnh cách Klaro lưu thông tin đồng ý trong trình duyệt. Chỉ định `cookie` (mặc định) hoặc `localStorage`.</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_configuration.storage_method.I.none" approved="yes">
+        <source>None</source>
+        <target state="final">Không có</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_configuration.storage_method.I.cookie" approved="yes">
+        <source>Cookie (default)</source>
+        <target state="final">Cookie (mặc định)</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_configuration.storage_method.I.localStorage" approved="yes">
+        <source>Local Storage</source>
+        <target state="final">Local Storage</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_configuration.storage_name.label" approved="yes">
+        <source>Storage Name</source>
+        <target state="final">Tên lưu trữ</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_configuration.storage_name.description" approved="yes">
+        <source>You can customize the name of the cookie or localStorage entry that Klaro will use for storing the consent information. By default, Klaro will use "klaro".</source>
+        <target state="final">Bạn có thể tùy chỉnh tên của cookie hoặc mục localStorage mà Klaro sẽ sử dụng để lưu thông tin đồng ý. Theo mặc định, Klaro sẽ sử dụng "klaro".</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_configuration.storage_name.placeholder" approved="yes">
+        <source>klaro</source>
+        <target state="final">klaro</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_configuration.html_texts.label" approved="yes">
+        <source>HTML Texts</source>
+        <target state="final">Văn bản HTML</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_configuration.html_texts.description" approved="yes">
+        <source>If set to `true`, Klaro will render the texts given in the `consentModal.description` and `consentNotice.description` translations as HTML. This enables you to e.g. add custom links or interactive content. If you want to be able to output HTML tags via fluid-enriched labels (see "Content" → "Translations"), this option must be enabled.</source>
+        <target state="final">Nếu đặt thành `true`, Klaro sẽ kết xuất các văn bản trong bản dịch `consentModal.description` và `consentNotice.description` dưới dạng HTML. Điều này cho phép bạn, ví dụ, thêm liên kết tùy chỉnh hoặc nội dung tương tác. Nếu bạn muốn có thể xuất các thẻ HTML thông qua các nhãn được làm phong phú bằng Fluid (xem "Nội dung" → "Bản dịch"), tùy chọn này phải được bật.</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_configuration.embedded.label" approved="yes">
+        <source>Embedded</source>
+        <target state="final">Được nhúng</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_configuration.embedded.description" approved="yes">
+        <source>Setting "embedded" to `true` will render the Klaro modal and notice without the modal background, allowing you to e.g. embed them into a specific element of your website, such as your privacy notice.</source>
+        <target state="final">Đặt "embedded" thành `true` sẽ kết xuất modal và thông báo Klaro không có nền modal, cho phép bạn, ví dụ, nhúng chúng vào một phần tử cụ thể trên trang web, chẳng hạn như thông báo quyền riêng tư của bạn.</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_configuration.group_by_purpose.label" approved="yes">
+        <source>Group by purpose</source>
+        <target state="final">Nhóm theo mục đích</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_configuration.group_by_purpose.description" approved="yes">
+        <source>You can group services by their purpose in the modal. This is advisable if you have a large number of services. Users can then enable or disable entire groups of services instead of having to enable or disable every service.</source>
+        <target state="final">Bạn có thể nhóm các dịch vụ theo mục đích trong modal. Điều này được khuyến nghị nếu bạn có nhiều dịch vụ. Khi đó người dùng có thể bật hoặc tắt toàn bộ nhóm dịch vụ thay vì phải bật hoặc tắt từng dịch vụ.</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_configuration.cookie_domain.label" approved="yes">
+        <source>Cookie Domain</source>
+        <target state="final">Miền cookie</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_configuration.cookie_domain.description" approved="yes">
+        <source>You can change the cookie domain for the consent manager itself. Use this if you want to get consent once for multiple matching domains. By default, Klaro will use the current domain. Only relevant if `storageMethod` is set to `cookie`.</source>
+        <target state="final">Bạn có thể thay đổi miền cookie cho chính trình quản lý đồng ý. Dùng tùy chọn này nếu bạn muốn xin đồng ý một lần cho nhiều miền phù hợp. Theo mặc định, Klaro sẽ sử dụng miền hiện tại. Chỉ liên quan nếu `storageMethod` được đặt thành `cookie`.</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_configuration.cookie_domain.placeholder" approved="yes">
+        <source>.example.com</source>
+        <target state="final">.example.com</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_configuration.cookie_path.label" approved="yes">
+        <source>Cookie Path</source>
+        <target state="final">Đường dẫn cookie</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_configuration.cookie_path.description" approved="yes">
+        <source>Provide a path if you have services that set cookies for a path that is not "/"</source>
+        <target state="final">Cung cấp đường dẫn nếu bạn có các dịch vụ đặt cookie cho đường dẫn không phải "/"</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_configuration.cookie_path.placeholder" approved="yes">
+        <source>/</source>
+        <target state="final">/</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_configuration.cookie_expires_after_days.label" approved="yes">
+        <source>Cookie expires after days</source>
+        <target state="final">Cookie hết hạn sau số ngày</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_configuration.cookie_expires_after_days.description" approved="yes">
+        <source>You can also set a custom expiration time for the Klaro cookie. By default, it will expire after 60 days. Only relevant if `storageMethod` is set to `cookie`.</source>
+        <target state="final">Bạn cũng có thể đặt thời gian hết hạn tùy chỉnh cho cookie Klaro. Theo mặc định, cookie sẽ hết hạn sau 60 ngày. Chỉ liên quan nếu `storageMethod` được đặt thành `cookie`.</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_configuration.cookie_expires_after_days.placeholder" approved="yes">
+        <source>30</source>
+        <target state="final">30</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_configuration.default.label" approved="yes">
+        <source>Default</source>
+        <target state="final">Mặc định</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_configuration.default.description" approved="yes">
+        <source>Defines the default state for services in the consent modal (`true` = enabled by default). If this setting is set to "false", you can override it in any service.</source>
+        <target state="final">Xác định trạng thái mặc định cho các dịch vụ trong modal đồng ý (`true` = được bật theo mặc định). Nếu thiết lập này được đặt thành "false", bạn có thể ghi đè trong từng dịch vụ.</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_configuration.must_consent.label" approved="yes">
+        <source>Must consent</source>
+        <target state="final">Bắt buộc đồng ý</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_configuration.must_consent.description" approved="yes">
+        <source>If `mustConsent` is set to `true`, Klaro will directly display the consent manager modal and not allow the user to close it before having actively consented to or declined the use of third-party services.</source>
+        <target state="final">Nếu `mustConsent` được đặt thành `true`, Klaro sẽ hiển thị trực tiếp modal trình quản lý đồng ý và không cho phép người dùng đóng modal trước khi họ chủ động đồng ý hoặc từ chối việc sử dụng các dịch vụ bên thứ ba.</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_configuration.accept_all.label" approved="yes">
+        <source>Accept all</source>
+        <target state="final">Chấp nhận tất cả</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_configuration.accept_all.description" approved="yes">
+        <source>Setting `acceptAll` to `true` will show an "accept all" button in the notice and modal, which will enable all third-party services if the user clicks on it. If set to "false", there will be an "accept" button that will only enable the services that are enabled in the consent modal.</source>
+        <target state="final">Đặt `acceptAll` thành `true` sẽ hiển thị nút "accept all" trong thông báo và modal, nút này sẽ bật tất cả dịch vụ bên thứ ba nếu người dùng nhấp vào. Nếu đặt thành "false", sẽ có nút "accept" chỉ bật những dịch vụ đã được bật trong modal đồng ý.</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_configuration.hide_decline_all.label" approved="yes">
+        <source>Hide Decline All</source>
+        <target state="final">Ẩn Từ chối tất cả</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_configuration.hide_decline_all.description" approved="yes">
+        <source>Setting `hideDeclineAll` to `true` will hide the "decline" button in the consent modal and force the user to open the modal in order to change his/her consent or disable all third-party services. We strongly advise you to not use this feature, as it opposes the "privacy by default" and "privacy by design" principles of the GDPR (but might be acceptable in other legislations such as under the CCPA)</source>
+        <target state="final">Đặt `hideDeclineAll` thành `true` sẽ ẩn nút "decline" trong modal đồng ý và buộc người dùng phải mở modal để thay đổi sự đồng ý hoặc tắt tất cả dịch vụ bên thứ ba. Chúng tôi khuyến nghị mạnh mẽ không sử dụng tính năng này, vì nó đi ngược các nguyên tắc "privacy by default" và "privacy by design" của GDPR (nhưng có thể được chấp nhận trong các quy định khác như CCPA).</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_configuration.hide_learn_more.label" approved="yes">
+        <source>Hide Learn More</source>
+        <target state="final">Ẩn Tìm hiểu thêm</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_configuration.hide_learn_more.description" approved="yes">
+        <source>Setting `hideLearnMore` to `true` will hide the "learn more / customize" link in the consent notice. We strongly advise against using this under most circumstances, as it keeps the user from customizing his/her consent choices.</source>
+        <target state="final">Đặt `hideLearnMore` thành `true` sẽ ẩn liên kết "learn more / customize" trong thông báo đồng ý. Chúng tôi khuyến nghị mạnh mẽ không sử dụng tùy chọn này trong hầu hết trường hợp, vì nó ngăn người dùng tùy chỉnh các lựa chọn đồng ý của họ.</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_configuration.hide_toggle_all.label" approved="yes">
+        <source>Hide Toggle All</source>
+        <target state="final">Ẩn Bật/tắt tất cả</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_configuration.hide_toggle_all.description" approved="yes">
+        <source>Setting `hideToggleAll` to `true` will hide the "toggle all" link in the consent notice.</source>
+        <target state="final">Đặt `hideToggleAll` thành `true` sẽ ẩn liên kết "toggle all" trong thông báo đồng ý.</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_configuration.notice_as_modal.label" approved="yes">
+        <source>Notice As Modal</source>
+        <target state="final">Thông báo dưới dạng modal</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_configuration.notice_as_modal.description" approved="yes">
+        <source>Show cookie notice as modal</source>
+        <target state="final">Hiển thị thông báo cookie dưới dạng modal</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_configuration.show_notice_title.label" approved="yes">
+        <source>Show title in consent notice</source>
+        <target state="final">Hiển thị tiêu đề trong thông báo đồng ý</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_configuration.show_notice_title.description" approved="yes">
+        <source>When this option is enabled, Klaro displays the title in the notice modal.</source>
+        <target state="final">Khi tùy chọn này được bật, Klaro hiển thị tiêu đề trong modal thông báo.</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_configuration.show_description_empty_store.label" approved="yes">
+        <source>Show Description (Empty Store)</source>
+        <target state="final">Hiển thị mô tả (kho trống)</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_configuration.show_description_empty_store.description" approved="yes">
+        <source>Show an explanatory text in contextual consent placeholders when no consent storage exists yet (first visit / empty store). This informs users that a permanent decision ("Always") requires allowing Klaro to store consent first. This only has an effect in contextual consent widgets/overlays (e.g. for embedded media) and only if the consent store (cookie/localStorage) is empty.</source>
+        <target state="final">Hiển thị văn bản giải thích trong trình giữ chỗ đồng ý theo ngữ cảnh khi chưa có kho lưu trữ đồng ý (lần truy cập đầu tiên / kho trống). Nội dung này thông báo cho người dùng rằng quyết định vĩnh viễn ("Luôn luôn") yêu cầu cho phép Klaro lưu trữ sự đồng ý trước. Tùy chọn này chỉ có hiệu lực trong các tiện ích/lớp phủ đồng ý theo ngữ cảnh (ví dụ: cho nội dung nhúng) và chỉ khi kho đồng ý (cookie/localStorage) trống.</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_configuration.auto_focus.label" approved="yes">
+        <source>Auto Focus</source>
+        <target state="final">Tự động lấy tiêu điểm</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_configuration.auto_focus.description" approved="yes">
+        <source>Automatically focus the Klaro consent notice/modal container when it opens to improve keyboard navigation and accessibility.</source>
+        <target state="final">Tự động đưa tiêu điểm vào vùng chứa thông báo/modal đồng ý Klaro khi nó mở để cải thiện điều hướng bằng bàn phím và khả năng truy cập.</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_configuration.disable_powered_by.label" approved="yes">
+        <source>Disable Powered By</source>
+        <target state="final">Tắt Powered By</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_configuration.disable_powered_by.description" approved="yes">
+        <source>You can also remove the "Realized with Klaro!" text in the consent modal. Please don't do this! We provide Klaro as a free open source tool. Placing a link to our website helps us spread the word about it, which ultimately enables us to make Klaro! better for everyone. So please be fair and keep the link enabled. Thanks :)</source>
+        <target state="final">Bạn cũng có thể xóa văn bản "Realized with Klaro!" trong modal đồng ý. Vui lòng đừng làm vậy! Chúng tôi cung cấp Klaro như một công cụ mã nguồn mở miễn phí. Việc đặt liên kết đến trang web của chúng tôi giúp chúng tôi lan tỏa thông tin về công cụ này, từ đó giúp chúng tôi làm Klaro! tốt hơn cho mọi người. Vì vậy, vui lòng công bằng và giữ liên kết được bật. Cảm ơn :)</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_configuration.services.label" approved="yes">
+        <source>Services</source>
+        <target state="final">Dịch vụ</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_configuration.services.description" approved="yes">
+        <source>Here you specify the third-party services that Klaro will manage for you.</source>
+        <target state="final">Tại đây bạn chỉ định các dịch vụ bên thứ ba mà Klaro sẽ quản lý cho bạn.</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_configuration.purpose_order.label" approved="yes">
+        <source>Purpose Order</source>
+        <target state="final">Thứ tự mục đích</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_configuration.purpose_order.description" approved="yes">
+        <source>The order in which purposes appear in the notice and modal can be changed via the `purposeOrder` parameter, which can be given a list with purpose names and will display those purposes in the order in which they appear in the list.</source>
+        <target state="final">Thứ tự các mục đích xuất hiện trong thông báo và modal có thể được thay đổi thông qua tham số `purposeOrder`, tham số này có thể nhận danh sách tên mục đích và sẽ hiển thị các mục đích theo thứ tự chúng xuất hiện trong danh sách.</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_configuration.callback.label" approved="yes">
+        <source>Callback</source>
+        <target state="final">Hàm gọi lại</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_configuration.callback.description" approved="yes">
+        <source>You can define an optional callback function that will be called each time the consent state for any given service changes. The consent value will be passed as the first parameter to the function (`true` = consented). The `service` config will be passed as the second parameter. The content of this field is wrapped with `callback: function(consent, service) { }`</source>
+        <target state="final">Bạn có thể định nghĩa một hàm callback tùy chọn sẽ được gọi mỗi khi trạng thái đồng ý cho bất kỳ dịch vụ nào thay đổi. Giá trị đồng ý sẽ được truyền làm tham số đầu tiên cho hàm (`true` = đã đồng ý). Cấu hình `service` sẽ được truyền làm tham số thứ hai. Nội dung của trường này được bọc bằng `callback: function(consent, service) { }`</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_configuration.locallang_path.label" approved="yes">
+        <source>Locallang Path</source>
+        <target state="final">Đường dẫn Locallang</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_configuration.locallang_path.description" approved="yes">
+        <source>Optional path to an additional XLIFF file that overwrites the default labels or adds new labels (e.g. for custom purposes or services). If fluid templates have been stored for the labels created in this file (see the "Fluid Template Root Path" field), these will overwrite the classic labels from the Locallang file. Nevertheless, it is possible and common to reference the locallang file from the respective fluid template and obtain the actual label there (the label key is passed to the fluid template).</source>
+        <target state="final">Đường dẫn tùy chọn đến một tệp XLIFF bổ sung ghi đè các nhãn mặc định hoặc thêm nhãn mới (ví dụ: cho mục đích hoặc dịch vụ tùy chỉnh). Nếu các mẫu Fluid đã được lưu cho các nhãn được tạo trong tệp này (xem trường "Fluid Template Root Path"), chúng sẽ ghi đè các nhãn cổ điển từ tệp Locallang. Tuy vậy, vẫn có thể và thường gặp việc tham chiếu tệp locallang từ mẫu fluid tương ứng và lấy nhãn thực tế tại đó (khóa nhãn được truyền cho mẫu fluid).</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_configuration.locallang_path.placeholder" approved="yes">
+        <source>EXT:sitepackage/Resources/Private/Language/Klaro/locallang.xlf</source>
+        <target state="final">EXT:sitepackage/Resources/Private/Language/Klaro/locallang.xlf</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_configuration.fluidtemplate_rootpath.label" approved="yes">
+        <source>Fluid Template Root Path</source>
+        <target state="final">Đường dẫn gốc Fluid Template</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_configuration.fluidtemplate_rootpath.description" approved="yes">
+        <source>As an alternative to the usual TypoScript configuration via constants under `plugin.tx_klaroconsentmanager.view`, a Fluid root path can be defined here, which has a higher priority than the paths configured in TypoScript. The three default directories `/Layouts/`, `/Partials/` and `/Templates/` are expected under this path. Fluid templates created here are used to enrich Locallang labels with additional functionality or to replace them completely. In this way, dynamic content or more complex HTML structures can be provided in a simple way. Fluid templates that are to override labels are expected in the subdirectory `/Templates/Labels/`.</source>
+        <target state="final">Thay cho cấu hình TypoScript thông thường qua constants trong `plugin.tx_klaroconsentmanager.view`, bạn có thể định nghĩa tại đây một đường dẫn gốc Fluid có mức ưu tiên cao hơn các đường dẫn được cấu hình trong TypoScript. Ba thư mục mặc định `/Layouts/`, `/Partials/` và `/Templates/` được mong đợi nằm dưới đường dẫn này. Các mẫu Fluid được tạo tại đây được dùng để bổ sung chức năng cho nhãn Locallang hoặc thay thế hoàn toàn các nhãn đó. Các mẫu Fluid dùng để ghi đè nhãn được mong đợi nằm trong thư mục con `/Templates/Labels/`.</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_configuration.fluidtemplate_rootpath.placeholder" approved="yes">
+        <source>EXT:sitepackage/Resources/Private/</source>
+        <target state="final">EXT:sitepackage/Resources/Private/</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_configuration.alignment.label" approved="yes">
+        <source>Alignment</source>
+        <target state="final">Căn chỉnh</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_configuration.alignment.description" approved="yes">
+        <source>Determines the alignment of the Consent box if `mustConsent` and `noticeAsModal` are disabled.</source>
+        <target state="final">Xác định căn chỉnh của hộp đồng ý nếu `mustConsent` và `noticeAsModal` bị tắt.</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_configuration.alignment.I.top-left" approved="yes">
+        <source>Top-Left</source>
+        <target state="final">Trên-trái</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_configuration.alignment.I.top-right" approved="yes">
+        <source>Top-Right</source>
+        <target state="final">Trên-phải</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_configuration.alignment.I.top-wide" approved="yes">
+        <source>Top-Wide</source>
+        <target state="final">Trên-rộng</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_configuration.alignment.I.bottom-left" approved="yes">
+        <source>Bottom-Left</source>
+        <target state="final">Dưới-trái</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_configuration.alignment.I.bottom-right" approved="yes">
+        <source>Bottom-Right</source>
+        <target state="final">Dưới-phải</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_configuration.alignment.I.bottom-wide" approved="yes">
+        <source>Bottom-Wide</source>
+        <target state="final">Dưới-rộng</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_configuration.alignment.I.top" approved="yes">
+        <source>Top</source>
+        <target state="final">Trên</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_configuration.alignment.I.bottom" approved="yes">
+        <source>Bottom</source>
+        <target state="final">Dưới</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_configuration.alignment.I.left" approved="yes">
+        <source>left</source>
+        <target state="final">trái</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_configuration.alignment.I.right" approved="yes">
+        <source>right</source>
+        <target state="final">phải</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_configuration.alignment.I.wide" approved="yes">
+        <source>wide</source>
+        <target state="final">rộng</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_configuration.color_scheme.label" approved="yes">
+        <source>Color Scheme</source>
+        <target state="final">Bảng màu</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_configuration.color_scheme.description" approved="yes">
+        <source>Default color scheme used for the display. The colors can also be overridden later via CSS variables.</source>
+        <target state="final">Bảng màu mặc định được dùng để hiển thị. Màu sắc cũng có thể được ghi đè sau này bằng biến CSS.</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_configuration.color_scheme.I.dark_neutral" approved="yes">
+        <source>Dark (neutral)</source>
+        <target state="final">Tối (trung tính)</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_configuration.color_scheme.I.light_neutral" approved="yes">
+        <source>Light (neutral)</source>
+        <target state="final">Sáng (trung tính)</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_configuration.color_scheme.I.dark" approved="yes">
+        <source>Dark</source>
+        <target state="final">Tối</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_configuration.color_scheme.I.light" approved="yes">
+        <source>Light</source>
+        <target state="final">Sáng</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_configuration.append_show_button.label" approved="yes">
+        <source>Append Show Button</source>
+        <target state="final">Thêm nút hiển thị</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_configuration.append_show_button.description" approved="yes">
+        <source>If this option is set to `true`, a button is created in the frontend (via JavaScript) directly in front of the closing body tag, which triggers the opening of the Klaro consent management.</source>
+        <target state="final">Nếu tùy chọn này được đặt thành `true`, một nút sẽ được tạo ở frontend (bằng JavaScript) ngay trước thẻ đóng body, nút này kích hoạt việc mở trình quản lý đồng ý Klaro.</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_configuration.append_reset_button.label" approved="yes">
+        <source>Append Reset Button</source>
+        <target state="final">Thêm nút đặt lại</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_configuration.append_reset_button.description" approved="yes">
+        <source>If this option is set to `true`, a button is generated in the frontend (via JavaScript) directly in front of the closing body tag, which triggers the resetting of all settings and the opening of the Klaro consent management.</source>
+        <target state="final">Nếu tùy chọn này được đặt thành `true`, một nút sẽ được tạo ở frontend (bằng JavaScript) ngay trước thẻ đóng body, nút này kích hoạt việc đặt lại tất cả thiết lập và mở trình quản lý đồng ý Klaro.</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_configuration.hidden" approved="yes">
+        <source>Configuration visible</source>
+        <target state="final">Cấu hình hiển thị</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_service" approved="yes">
+        <source>Klaro! Service</source>
+        <target state="final">Dịch vụ Klaro!</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_service.tabs.general" approved="yes">
+        <source>General</source>
+        <target state="final">Chung</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_service.tabs.cookies" approved="yes">
+        <source>Cookies</source>
+        <target state="final">Cookie</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_service.tabs.toggles" approved="yes">
+        <source>Toggles</source>
+        <target state="final">Công tắc</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_service.tabs.advanced" approved="yes">
+        <source>Advanced</source>
+        <target state="final">Nâng cao</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_service.tabs.access" approved="yes">
+        <source>Access</source>
+        <target state="final">Truy cập</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_service.palettes.general_palette" approved="yes">
+        <source>General Settings</source>
+        <target state="final">Thiết lập chung</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_service.palettes.cookie_palette" approved="yes">
+        <source>Cookie Settings</source>
+        <target state="final">Cài đặt cookie</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_service.palettes.toggles_palette" approved="yes">
+        <source>Toggles</source>
+        <target state="final">Công tắc</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_service.palettes.advanced_palette" approved="yes">
+        <source>Advanced Settings</source>
+        <target state="final">Thiết lập nâng cao</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_service.palettes.access_palette" approved="yes">
+        <source>Access</source>
+        <target state="final">Truy cập</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_service.I.true" approved="yes">
+        <source>true</source>
+        <target state="final">đúng</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_service.I.false" approved="yes">
+        <source>false</source>
+        <target state="final">sai</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_service.name.label" approved="yes">
+        <source>Name</source>
+        <target state="final">Tên</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_service.name.description" approved="yes">
+        <source>Each service must have a unique name. Klaro will look for HTML elements with a matching `data-name` attribute to identify elements that belong to this service.</source>
+        <target state="final">Mỗi dịch vụ phải có một tên duy nhất. Klaro sẽ tìm các phần tử HTML có thuộc tính `data-name` phù hợp để xác định các phần tử thuộc về dịch vụ này.</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_service.name.placeholder" approved="yes">
+        <source>matomo</source>
+        <target state="final">matomo</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_service.title.label" approved="yes">
+        <source>Title</source>
+        <target state="final">Tiêu đề</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_service.title.description" approved="yes">
+        <source>The title defined here is not mandatory and is intended for backend display only.</source>
+        <target state="final">Tiêu đề được định nghĩa tại đây không bắt buộc và chỉ dùng để hiển thị trong backend.</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_service.title.placeholder" approved="yes">
+        <source>Matomo/Piwik</source>
+        <target state="final">Matomo/Piwik</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_service.name.I.adobe-fonts" approved="yes">
+        <source>Adobe Fonts</source>
+        <target state="final">Adobe Fonts</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_service.name.I.adsense" approved="yes">
+        <source>Google AdSense</source>
+        <target state="final">Google AdSense</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_service.name.I.camera" approved="yes">
+        <source>Surveillance Camera</source>
+        <target state="final">Camera giám sát</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_service.name.I.career-captain" approved="yes">
+        <source>Career Captain</source>
+        <target state="final">Career Captain</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_service.name.I.clarity" approved="yes">
+        <source>Microsoft Clarity</source>
+        <target state="final">Microsoft Clarity</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_service.name.I.cloudflare" approved="yes">
+        <source>Cloudflare</source>
+        <target state="final">Cloudflare</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_service.name.I.external-tracker" approved="yes">
+        <source>External Tracker</source>
+        <target state="final">Trình theo dõi bên ngoài</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_service.name.I.facebook-pixel" approved="yes">
+        <source>Facebook Pixel</source>
+        <target state="final">Facebook Pixel</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_service.name.I.fast-fonts" approved="yes">
+        <source>Fast Fonts</source>
+        <target state="final">Fast Fonts</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_service.name.I.google-ads" approved="yes">
+        <source>Google Ads</source>
+        <target state="final">Google Ads</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_service.name.I.google-analytics" approved="yes">
+        <source>Google Analytics</source>
+        <target state="final">Google Analytics</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_service.name.I.google-fonts" approved="yes">
+        <source>Google Fonts</source>
+        <target state="final">Google Fonts</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_service.name.I.google-maps" approved="yes">
+        <source>Google Maps</source>
+        <target state="final">Google Maps</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_service.name.I.google-tag-manager" approved="yes">
+        <source>Google Tag Manager</source>
+        <target state="final">Google Tag Manager</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_service.name.I.inline-tracker" approved="yes">
+        <source>Inline Tracker</source>
+        <target state="final">Trình theo dõi nội tuyến</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_service.name.I.instagram" approved="yes">
+        <source>Instagram</source>
+        <target state="final">Instagram</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_service.name.I.intercom" approved="yes">
+        <source>Intercom</source>
+        <target state="final">Intercom</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_service.name.I.klaro" approved="yes">
+        <source>Klaro!</source>
+        <target state="final">Klaro!</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_service.name.I.matomo" approved="yes">
+        <source>Matomo/Piwik</source>
+        <target state="final">Matomo/Piwik</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_service.name.I.mouseflow" approved="yes">
+        <source>Mouseflow</source>
+        <target state="final">Mouseflow</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_service.name.I.salesviewer" approved="yes">
+        <source>SalesViewer</source>
+        <target state="final">SalesViewer</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_service.name.I.tiktok" approved="yes">
+        <source>TikTok</source>
+        <target state="final">TikTok</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_service.name.I.twitter" approved="yes">
+        <source>X (formerly Twitter)</source>
+        <target state="final">X (trước đây là Twitter)</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_service.name.I.userlike" approved="yes">
+        <source>Userlike</source>
+        <target state="final">Userlike</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_service.name.I.vimeo" approved="yes">
+        <source>Vimeo</source>
+        <target state="final">Vimeo</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_service.name.I.youtube" approved="yes">
+        <source>YouTube</source>
+        <target state="final">YouTube</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_service.default.label" approved="yes">
+        <source>Default</source>
+        <target state="final">Mặc định</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_service.default.description" approved="yes">
+        <source>If `default` is set to `true`, the service will be enabled by default. This overrides the global `default` setting (if this is set to "false").</source>
+        <target state="final">Nếu `default` được đặt thành `true`, dịch vụ sẽ được bật theo mặc định. Điều này ghi đè thiết lập `default` toàn cục (nếu thiết lập này được đặt thành "false").</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_service.purposes.label" approved="yes">
+        <source>Purposes</source>
+        <target state="final">Mục đích</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_service.purposes.description" approved="yes">
+        <source>The purpose(s) of this service that will be listed on the consent notice. Do not forget to add translations for all purposes you list here.</source>
+        <target state="final">Mục đích của dịch vụ này sẽ được liệt kê trong thông báo đồng ý. Đừng quên thêm bản dịch cho tất cả mục đích bạn liệt kê tại đây.</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_service.purposes.optgroup.custom" approved="yes">
+        <source>Custom</source>
+        <target state="final">Tùy chỉnh</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_service.purposes.optgroup.default" approved="yes">
+        <source>Default</source>
+        <target state="final">Mặc định</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_service.purposes.optgroup.additional" approved="yes">
+        <source>Additional</source>
+        <target state="final">Bổ sung</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_service.purposes.I.functional" approved="yes">
+        <source>Functional</source>
+        <target state="final">Chức năng</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_service.purposes.I.performance" approved="yes">
+        <source>Performance</source>
+        <target state="final">Hiệu năng</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_service.purposes.I.marketing" approved="yes">
+        <source>Marketing</source>
+        <target state="final">Tiếp thị</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_service.purposes.I.advertising" approved="yes">
+        <source>Advertising</source>
+        <target state="final">Quảng cáo</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_service.purposes.I.analytics" approved="yes">
+        <source>Analytics</source>
+        <target state="final">Phân tích</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_service.purposes.I.security" approved="yes">
+        <source>Security</source>
+        <target state="final">Bảo mật</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_service.purposes.I.livechat" approved="yes">
+        <source>Live Chat</source>
+        <target state="final">Trò chuyện trực tiếp</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_service.purposes.I.styling" approved="yes">
+        <source>Styling</source>
+        <target state="final">Tạo kiểu</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_service.purposes.I.videos" approved="yes">
+        <source>Videos</source>
+        <target state="final">Video</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_service.purposes.I.social" approved="yes">
+        <source>Social Media</source>
+        <target state="final">Mạng xã hội</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_service.purposes.I.misc" approved="yes">
+        <source>Miscellaneous</source>
+        <target state="final">Khác</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_service.cookies.label" approved="yes">
+        <source>Cookies</source>
+        <target state="final">Cookie</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_service.cookies.description" approved="yes">
+        <source>You can either only provide a cookie name or regular expression (regex) or a list consisting of a name or regex, a path and a cookie domain. Providing a path and domain is necessary if you have services that set cookies for a path that is not "/", or a domain that is not the current domain. If you do not set these values properly, the cookie can't be deleted by Klaro, as there is no way to access the path or domain of a cookie in JS. Notice that it is not possible to delete cookies that were set on a third-party domain, or cookies that have the HTTPOnly attribute: https://developer.mozilla.org/en-US/docs/Web/API/Document/cookie#new-cookie_domain</source>
+        <target state="final">Bạn có thể chỉ cung cấp tên cookie hoặc biểu thức chính quy (regex), hoặc một danh sách gồm tên hoặc regex, đường dẫn và miền cookie. Việc cung cấp đường dẫn và miền là cần thiết nếu bạn có các dịch vụ đặt cookie cho một đường dẫn không phải là "/", hoặc cho một miền không phải miền hiện tại. Nếu bạn không đặt đúng các giá trị này, Klaro không thể xóa cookie, vì trong JS không có cách nào truy cập đường dẫn hoặc miền của cookie. Lưu ý rằng không thể xóa cookie được đặt trên miền bên thứ ba, hoặc cookie có thuộc tính HTTPOnly: https://developer.mozilla.org/en-US/docs/Web/API/Document/cookie#new-cookie_domain</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_service.required.label" approved="yes">
+        <source>Required</source>
+        <target state="final">Bắt buộc</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_service.required.description" approved="yes">
+        <source>If `required` is set to `true`, Klaro will not allow this service to be disabled by the user. Use this for services that are always required for your website to function (e.g. shopping cart cookies).</source>
+        <target state="final">Nếu `required` được đặt thành `true`, Klaro sẽ không cho phép người dùng tắt dịch vụ này. Dùng tùy chọn này cho các dịch vụ luôn cần thiết để trang web của bạn hoạt động (ví dụ: cookie giỏ hàng).</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_service.opt_out.label" approved="yes">
+        <source>Opt-Out</source>
+        <target state="final">Từ chối tham gia</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_service.opt_out.description" approved="yes">
+        <source>If `optOut` is set to `true`, Klaro will load this service even before the user has given explicit consent. We strongly advise against this.</source>
+        <target state="final">Nếu `optOut` được đặt thành `true`, Klaro sẽ tải dịch vụ này ngay cả trước khi người dùng đưa ra sự đồng ý rõ ràng. Chúng tôi khuyến nghị mạnh mẽ không làm điều này.</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_service.only_once.label" approved="yes">
+        <source>Only Once</source>
+        <target state="final">Chỉ một lần</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_service.only_once.description" approved="yes">
+        <source>If `onlyOnce` is set to `true`, the service will only be executed once regardless how often the user toggles it on and off. This is relevant e.g. for tracking scripts that would generate new page view events every time Klaro disables and re-enables them due to a consent change by the user.</source>
+        <target state="final">Nếu `onlyOnce` được đặt thành `true`, dịch vụ sẽ chỉ được thực thi một lần bất kể người dùng bật và tắt nó bao nhiêu lần. Điều này liên quan, ví dụ, đến các tập lệnh theo dõi có thể tạo sự kiện xem trang mới mỗi khi Klaro tắt và bật lại chúng do thay đổi đồng ý của người dùng.</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_service.contextual_consent_only.label" approved="yes">
+        <source>Contextual Consent Only</source>
+        <target state="final">Chỉ đồng ý theo ngữ cảnh</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_service.contextual_consent_only.description" approved="yes">
+        <source>Content can be excluded from general consent by setting contextualConsentOnly to `true`. In this case, the consent must be contextual.</source>
+        <target state="final">Nội dung có thể được loại khỏi đồng ý chung bằng cách đặt contextualConsentOnly thành `true`. Trong trường hợp này, sự đồng ý phải theo ngữ cảnh.</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_service.callback.label" approved="yes">
+        <source>Callback</source>
+        <target state="final">Hàm gọi lại</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_service.callback.description" approved="yes">
+        <source>You can define an optional callback function that will be called each time the consent state for the given service changes. The consent value will be passed as the first parameter to the function (`true` = consented). The `service` config will be passed as the second parameter. The content of this field is wrapped with `callback: function(consent, service) { }`. `consent` is a bool that reflects the current state. `service` holds all information about the currently selected service. When you enter something here, you need to know what you are doing. It is your responsibility that no JavaScript errors occur.</source>
+        <target state="final">Bạn có thể định nghĩa một hàm callback tùy chọn sẽ được gọi mỗi khi trạng thái đồng ý cho dịch vụ đã cho thay đổi. Giá trị đồng ý sẽ được truyền làm tham số đầu tiên cho hàm (`true` = đã đồng ý). Cấu hình `service` sẽ được truyền làm tham số thứ hai. Nội dung của trường này được bọc bằng `callback: function(consent, service) { }`. `consent` là một bool phản ánh trạng thái hiện tại. `service` chứa tất cả thông tin về dịch vụ hiện được chọn. Khi nhập nội dung tại đây, bạn cần biết mình đang làm gì. Bạn chịu trách nhiệm bảo đảm không xảy ra lỗi JavaScript.</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_service.on_accept.label" approved="yes">
+        <source>`onAccept` callback function</source>
+        <target state="final">Hàm callback `onAccept`</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_service.on_accept.description" approved="yes">
+        <source>Here you can define JavaScript code that will be called each time the service was accepted. The content of this field is wrapped with `callback: function(handlerOpts) { }`. The object `handlerOpts` contains the objects `config` (the current Klaro! configuration), `service` (the current service) and possibly `vars` (any values defined by object notation in the vars field in the backend). When you enter something here, you need to know what you are doing. It is your responsibility that no JavaScript errors occur.</source>
+        <target state="final">Tại đây bạn có thể định nghĩa mã JavaScript sẽ được gọi mỗi khi dịch vụ được chấp nhận. Nội dung của trường này được bọc bằng `callback: function(handlerOpts) { }`. Đối tượng `handlerOpts` chứa các đối tượng `config` (cấu hình Klaro! hiện tại), `service` (dịch vụ hiện tại) và có thể có `vars` (bất kỳ giá trị nào được định nghĩa bằng ký pháp đối tượng trong trường vars ở backend). Khi nhập nội dung tại đây, bạn cần biết mình đang làm gì. Bạn chịu trách nhiệm bảo đảm không xảy ra lỗi JavaScript.</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_service.on_init.label" approved="yes">
+        <source>`onInit` callback function</source>
+        <target state="final">Hàm callback `onInit`</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_service.on_init.description" approved="yes">
+        <source>Here you can define JavaScript code that will be called once per page-load. The content of this field is wrapped with `callback: function(handlerOpts) { }`. The object `handlerOpts` contains the objects `config` (the current Klaro! configuration), `service` (the current service) and possibly `vars` (any values defined by object notation in the vars field in the backend). When you enter something here, you need to know what you are doing. It is your responsibility that no JavaScript errors occur.</source>
+        <target state="final">Tại đây bạn có thể định nghĩa mã JavaScript sẽ được gọi một lần cho mỗi lần tải trang. Nội dung của trường này được bọc bằng `callback: function(handlerOpts) { }`. Đối tượng `handlerOpts` chứa các đối tượng `config` (cấu hình Klaro! hiện tại), `service` (dịch vụ hiện tại) và có thể có `vars` (bất kỳ giá trị nào được định nghĩa bằng ký pháp đối tượng trong trường vars ở backend). Khi nhập nội dung tại đây, bạn cần biết mình đang làm gì. Bạn chịu trách nhiệm bảo đảm không xảy ra lỗi JavaScript.</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_service.on_decline.label" approved="yes">
+        <source>`onDecline` callback function</source>
+        <target state="final">Hàm callback `onDecline`</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_service.on_decline.description" approved="yes">
+        <source>Here you can define JavaScript code that will be called each time the service was declined. The content of this field is wrapped with `callback: function(handlerOpts) { }`. The object `handlerOpts` contains the objects `config` (the current Klaro! configuration), `service` (the current service) and possibly `vars` (any values defined by object notation in the vars field in the backend). When you enter something here, you need to know what you are doing. It is your responsibility that no JavaScript errors occur.</source>
+        <target state="final">Tại đây bạn có thể định nghĩa mã JavaScript sẽ được gọi mỗi khi dịch vụ bị từ chối. Nội dung của trường này được bọc bằng `callback: function(handlerOpts) { }`. Đối tượng `handlerOpts` chứa các đối tượng `config` (cấu hình Klaro! hiện tại), `service` (dịch vụ hiện tại) và có thể có `vars` (bất kỳ giá trị nào được định nghĩa bằng ký pháp đối tượng trong trường vars ở backend). Khi nhập nội dung tại đây, bạn cần biết mình đang làm gì. Bạn chịu trách nhiệm bảo đảm không xảy ra lỗi JavaScript.</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_service.vars.label" approved="yes">
+        <source>Variables</source>
+        <target state="final">Biến</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_service.vars.description" approved="yes">
+        <source>Variables that can be used in callback functions. The content of this field is enclosed in curly brackets. The JavaScript object notation is expected in them. When you enter something here, you need to know what you are doing. It is your responsibility that no JavaScript errors occur.</source>
+        <target state="final">Các biến có thể được sử dụng trong hàm callback. Nội dung của trường này được đặt trong dấu ngoặc nhọn. Ký pháp đối tượng JavaScript được mong đợi bên trong đó. Khi nhập nội dung tại đây, bạn cần biết mình đang làm gì. Bạn chịu trách nhiệm bảo đảm không xảy ra lỗi JavaScript.</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_service.hidden" approved="yes">
+        <source>Service visible</source>
+        <target state="final">Dịch vụ hiển thị</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_cookie" approved="yes">
+        <source>Cookie</source>
+        <target state="final">Cookie</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_cookie.tabs.general" approved="yes">
+        <source>General</source>
+        <target state="final">Chung</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_cookie.tabs.access" approved="yes">
+        <source>Access</source>
+        <target state="final">Truy cập</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_cookie.palettes.identification_palette" approved="yes">
+        <source>Identification and presentation of the cookie</source>
+        <target state="final">Nhận dạng và trình bày cookie</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_cookie.palettes.technic_palette" approved="yes">
+        <source>Technically relevant settings</source>
+        <target state="final">Thiết lập liên quan đến kỹ thuật</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_cookie.palettes.technic_palette.description" approved="yes">
+        <source>This information is technically evaluated by Klaro! to manipulate the cookie.</source>
+        <target state="final">Thông tin này được Klaro! đánh giá về mặt kỹ thuật để thao tác cookie.</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_cookie.palettes.expiration_palette" approved="yes">
+        <source>Expiration Time</source>
+        <target state="final">Thời gian hết hạn</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_cookie.palettes.access_palette" approved="yes">
+        <source>Access</source>
+        <target state="final">Truy cập</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_cookie.identifier.label" approved="yes">
+        <source>Identifier</source>
+        <target state="final">Mã định danh</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_cookie.identifier.description" approved="yes">
+        <source>This is a unique identifier for this cookie. It must be written in lower case and must not contain any spaces, only the characters a-z, 0-9 and "-" or "_". The identifier can be used in Fluid, for example.</source>
+        <target state="final">Đây là định danh duy nhất cho cookie này. Nó phải được viết bằng chữ thường và không được chứa khoảng trắng, chỉ dùng các ký tự a-z, 0-9 và "-" hoặc "_". Ví dụ, định danh có thể được dùng trong Fluid.</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_cookie.identifier.placeholder" approved="yes">
+        <source>lowercase_alphanum-x</source>
+        <target state="final">lowercase_alphanum-x</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_cookie.title.label" approved="yes">
+        <source>Title</source>
+        <target state="final">Tiêu đề</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_cookie.title.description" approved="yes">
+        <source>If set, this title will be used in the frontend/backend for displaying the cookie. This title has no technical relevance (contrary to the `pattern` field).</source>
+        <target state="final">Nếu được đặt, tiêu đề này sẽ được dùng trong frontend/backend để hiển thị cookie. Tiêu đề này không có ý nghĩa kỹ thuật (khác với trường `pattern`).</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_cookie.title.placeholder" approved="yes">
+        <source>mf_[Session]</source>
+        <target state="final">mf_[Session]</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_cookie.pattern.label" approved="yes">
+        <source>Name / Pattern</source>
+        <target state="final">Tên / mẫu</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_cookie.pattern.description" approved="yes">
+        <source>Name or regular expression (regex)</source>
+        <target state="final">Tên hoặc biểu thức chính quy (regex)</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_cookie.pattern.placeholder" approved="yes">
+        <source>/^_pk_.*$/</source>
+        <target state="final">/^_pk_.*$/</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_cookie.path.label" approved="yes">
+        <source>Path</source>
+        <target state="final">Đường dẫn</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_cookie.path.description" approved="yes">
+        <source>Provide a path if you have services that set cookies for a path that is not "/"</source>
+        <target state="final">Cung cấp đường dẫn nếu bạn có các dịch vụ đặt cookie cho đường dẫn không phải "/"</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_cookie.path.placeholder" approved="yes">
+        <source>/</source>
+        <target state="final">/</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_cookie.domain.label" approved="yes">
+        <source>Domain</source>
+        <target state="final">Miền</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_cookie.domain.description" approved="yes">
+        <source>Provide a domain if you have services that set cookies for a domain that is not the current domain.</source>
+        <target state="final">Cung cấp một miền nếu bạn có các dịch vụ đặt cookie cho một miền không phải là miền hiện tại.</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_cookie.domain.placeholder" approved="yes">
+        <source>klaro.kiprotect.com</source>
+        <target state="final">klaro.kiprotect.com</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_cookie.expires_after.label" approved="yes">
+        <source>Expires after</source>
+        <target state="final">Hết hạn sau</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_cookie.expires_after.description" approved="yes">
+        <source>Number of years/months/days/hours/minutes/seconds that will elapse before this cookie expires.</source>
+        <target state="final">Số năm/tháng/ngày/giờ/phút/giây sẽ trôi qua trước khi cookie này hết hạn.</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_cookie.expires_after.placeholder" approved="yes">
+        <source>60</source>
+        <target state="final">60</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_cookie.expires_after_unit.label" approved="yes">
+        <source>Expires after unit</source>
+        <target state="final">Đơn vị hết hạn sau</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_cookie.expires_after_unit.description" approved="yes">
+        <source>Unit used for the "Expires after" specification. The special value `end-of-session` does not need a numeric value and hides the "Expires after" field accordingly.</source>
+        <target state="final">Đơn vị dùng cho thông số "Expires after". Giá trị đặc biệt `end-of-session` không cần giá trị số và ẩn trường "Expires after" tương ứng.</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_cookie.expires_after_unit.I.years" approved="yes">
+        <source>Years</source>
+        <target state="final">Năm</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_cookie.expires_after_unit.I.months" approved="yes">
+        <source>Months</source>
+        <target state="final">Tháng</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_cookie.expires_after_unit.I.days" approved="yes">
+        <source>Days</source>
+        <target state="final">Ngày</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_cookie.expires_after_unit.I.hours" approved="yes">
+        <source>Hours</source>
+        <target state="final">Giờ</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_cookie.expires_after_unit.I.minutes" approved="yes">
+        <source>Minutes</source>
+        <target state="final">Phút</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_cookie.expires_after_unit.I.seconds" approved="yes">
+        <source>Seconds</source>
+        <target state="final">Giây</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_cookie.expires_after_unit.I.end-of-session" approved="yes">
+        <source>End of session</source>
+        <target state="final">Kết thúc phiên</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_cookie.expires_after_unit.I.persistent" approved="yes">
+        <source>Persistent</source>
+        <target state="final">Lâu dài</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_cookie.hidden" approved="yes">
+        <source>Cookie visible</source>
+        <target state="final">Cookie hiển thị</target>
+      </trans-unit>
+      <trans-unit id="tt_content.tx_klaroconsentmanager_service.label" approved="yes">
+        <source>Contextual Consent</source>
+        <target state="final">Đồng ý theo ngữ cảnh</target>
+      </trans-unit>
+      <trans-unit id="tt_content.tx_klaroconsentmanager_service.description" approved="yes">
+        <source>When a service is selected in this field, the content item is displayed via contextual consent only if the user has agreed to use the selected service in the Klaro! Consent Manager. Please make sure that the static TypoScript template of the Klaro! Consent Manager has been added to use this feature.</source>
+        <target state="final">Khi một dịch vụ được chọn trong trường này, mục nội dung chỉ được hiển thị qua đồng ý theo ngữ cảnh nếu người dùng đã đồng ý sử dụng dịch vụ đã chọn trong Klaro! Consent Manager. Vui lòng bảo đảm rằng mẫu TypoScript tĩnh của Klaro! Consent Manager đã được thêm để sử dụng tính năng này.</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_configuration.no_notice.label" approved="yes">
+        <source>Hide initial consent notice</source>
+        <target state="final">Ẩn thông báo đồng ý ban đầu</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_configuration.no_notice.description" approved="yes">
+        <source>Do not show the initial notice. The manager can still be opened manually or via contextual consent.</source>
+        <target state="final">Không hiển thị thông báo ban đầu. Trình quản lý vẫn có thể được mở thủ công hoặc thông qua đồng ý theo ngữ cảnh.</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_configuration.powered_by.label" approved="yes">
+        <source>Powered by URL override</source>
+        <target state="final">Ghi đè URL powered by</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_configuration.powered_by.description" approved="yes">
+        <source>Override the “powered by” link in the consent modal. Leave empty to use Klaro default.</source>
+        <target state="final">Ghi đè liên kết “powered by” trong modal đồng ý. Để trống để dùng mặc định của Klaro.</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_configuration.powered_by.placeholder" approved="yes">
+        <source>https://example.com/your-link</source>
+        <target state="final">https://example.com/your-link</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_configuration.style_prefix.label" approved="yes">
+        <source>Style prefix</source>
+        <target state="final">Tiền tố kiểu</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_configuration.style_prefix.description" approved="yes">
+        <source>Prefix for CSS classes/container to namespace Klaro styles.</source>
+        <target state="final">Tiền tố cho các lớp CSS/vùng chứa để đặt namespace cho kiểu của Klaro.</target>
+      </trans-unit>
+      <trans-unit id="tx_klaroconsentmanager_configuration.style_prefix.placeholder" approved="yes">
+        <source>my-klaro</source>
+        <target state="final">my-klaro</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

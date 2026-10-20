@@ -1,0 +1,547 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file source-language="en" original="EXT:klaro_consent_manager/Resources/Private/Language/locallang.xlf" datatype="plaintext" product-name="klaro_consent_manager" date="2025-10-13T15:15:27+02:00" target-language="th">
+    <body>
+      <trans-unit id="acceptAll" approved="yes">
+        <source>Accept all</source>
+        <target state="final">ยอมรับทั้งหมด</target>
+      </trans-unit>
+      <trans-unit id="acceptSelected" approved="yes">
+        <source>Accept selected</source>
+        <target state="final">ยอมรับรายการที่เลือก</target>
+      </trans-unit>
+      <trans-unit id="close" approved="yes">
+        <source>Close</source>
+        <target state="final">ปิด</target>
+      </trans-unit>
+      <trans-unit id="consentModal.description" approved="yes">
+        <source>Here you can assess and customize the services that we'd like to use on this website. You're in charge! Enable or disable services as you see fit.</source>
+        <target state="final">ที่นี่คุณสามารถตรวจสอบและปรับแต่งบริการที่เราต้องการใช้บนเว็บไซต์นี้ได้ คุณเป็นผู้ตัดสินใจ! เปิดหรือปิดบริการได้ตามที่เห็นสมควร</target>
+      </trans-unit>
+      <trans-unit id="consentModal.title" approved="yes">
+        <source>Services we would like to use</source>
+        <target state="final">บริการที่เราต้องการใช้</target>
+      </trans-unit>
+      <trans-unit id="consentNotice.changeDescription" approved="yes">
+        <source>There were changes since your last visit, please renew your consent.</source>
+        <target state="final">มีการเปลี่ยนแปลงตั้งแต่การเข้าชมครั้งล่าสุดของคุณ โปรดยืนยันความยินยอมอีกครั้ง</target>
+      </trans-unit>
+      <trans-unit id="consentNotice.description" approved="yes">
+        <source>Hi! Could we please enable some additional services for {purposes}? You can always change or withdraw your consent later.</source>
+        <target state="final">สวัสดี! เราขอเปิดใช้บริการเพิ่มเติมบางอย่างสำหรับ {purposes} ได้ไหม? คุณสามารถเปลี่ยนหรือถอนความยินยอมได้ตลอดเวลาในภายหลัง</target>
+      </trans-unit>
+      <trans-unit id="consentNotice.learnMore" approved="yes">
+        <source>Let me choose</source>
+        <target state="final">ให้ฉันเลือก</target>
+      </trans-unit>
+      <trans-unit id="consentNotice.testing" approved="yes">
+        <source>Testing mode!</source>
+        <target state="final">โหมดทดสอบ!</target>
+      </trans-unit>
+      <trans-unit id="consentNotice.title" approved="yes">
+        <source>Cookie Consent</source>
+        <target state="final">ความยินยอมคุกกี้</target>
+      </trans-unit>
+      <trans-unit id="contextualConsent.acceptAlways" approved="yes">
+        <source>Always</source>
+        <target state="final">เสมอ</target>
+      </trans-unit>
+      <trans-unit id="contextualConsent.acceptOnce" approved="yes">
+        <source>Yes</source>
+        <target state="final">ใช่</target>
+      </trans-unit>
+      <trans-unit id="contextualConsent.description" approved="yes">
+        <source>Do you want to load external content supplied by {title}?</source>
+        <target state="final">คุณต้องการโหลดเนื้อหาภายนอกที่จัดหาโดย {title} หรือไม่?</target>
+      </trans-unit>
+      <trans-unit id="contextualConsent.descriptionEmptyStore" approved="yes">
+        <source>To agree to this service permanently, you must accept {title} in the {link}.</source>
+        <target state="final">หากต้องการยินยอมใช้บริการนี้อย่างถาวร คุณต้องยอมรับ {title} ใน {link}</target>
+      </trans-unit>
+      <trans-unit id="contextualConsent.modalLinkText" approved="yes">
+        <source>Consent Manager</source>
+        <target state="final">ตัวจัดการความยินยอม</target>
+      </trans-unit>
+      <trans-unit id="decline" approved="yes">
+        <source>I decline</source>
+        <target state="final">ฉันปฏิเสธ</target>
+      </trans-unit>
+      <trans-unit id="ok" approved="yes">
+        <source>That's ok</source>
+        <target state="final">ตกลง</target>
+      </trans-unit>
+      <trans-unit id="poweredBy" approved="yes">
+        <source>Realized with Klaro!</source>
+        <target state="final">สร้างด้วย Klaro!</target>
+      </trans-unit>
+      <trans-unit id="privacyPolicy.name" approved="yes">
+        <source>privacy policy</source>
+        <target state="final">นโยบายความเป็นส่วนตัว</target>
+      </trans-unit>
+      <trans-unit id="privacyPolicy.text" approved="yes">
+        <source>To learn more, please read our {privacyPolicy}.</source>
+        <target state="final">หากต้องการเรียนรู้เพิ่มเติม โปรดอ่าน {privacyPolicy} ของเรา</target>
+      </trans-unit>
+      <trans-unit id="purposeItem.service" approved="yes">
+        <source>service</source>
+        <target state="final">บริการ</target>
+      </trans-unit>
+      <trans-unit id="purposeItem.services" approved="yes">
+        <source>services</source>
+        <target state="final">บริการ</target>
+      </trans-unit>
+      <trans-unit id="purposes.advertising.description" approved="yes">
+        <source>These services process personal information to show you personalized or interest-based advertisements.</source>
+        <target state="final">บริการเหล่านี้ประมวลผลข้อมูลส่วนบุคคลเพื่อแสดงโฆษณาแบบปรับให้เหมาะกับคุณหรือตามความสนใจ</target>
+      </trans-unit>
+      <trans-unit id="purposes.advertising.title" approved="yes">
+        <source>Advertising</source>
+        <target state="final">โฆษณา</target>
+      </trans-unit>
+      <trans-unit id="purposes.functional.description" approved="yes">
+        <source>These services are essential for the correct functioning of this website. You cannot disable them here as the service would not work correctly otherwise.</source>
+        <target state="final">บริการเหล่านี้จำเป็นต่อการทำงานที่ถูกต้องของเว็บไซต์นี้ คุณไม่สามารถปิดได้ที่นี่ เพราะมิฉะนั้นบริการจะทำงานไม่ถูกต้อง</target>
+      </trans-unit>
+      <trans-unit id="purposes.functional.title" approved="yes">
+        <source>Service Provision</source>
+        <target state="final">การให้บริการ</target>
+      </trans-unit>
+      <trans-unit id="purposes.marketing.description" approved="yes">
+        <source>These services process personal information to show you relevant content about products, services or topics that you might be interested in.</source>
+        <target state="final">บริการเหล่านี้ประมวลผลข้อมูลส่วนบุคคลเพื่อแสดงเนื้อหาที่เกี่ยวข้องกับสินค้า บริการ หรือหัวข้อที่คุณอาจสนใจ</target>
+      </trans-unit>
+      <trans-unit id="purposes.marketing.title" approved="yes">
+        <source>Marketing</source>
+        <target state="final">การตลาด</target>
+      </trans-unit>
+      <trans-unit id="purposes.performance.description" approved="yes">
+        <source>These services process personal information to optimize the service that this website offers.</source>
+        <target state="final">บริการเหล่านี้ประมวลผลข้อมูลส่วนบุคคลเพื่อปรับปรุงบริการที่เว็บไซต์นี้นำเสนอ</target>
+      </trans-unit>
+      <trans-unit id="purposes.performance.title" approved="yes">
+        <source>Performance Optimization</source>
+        <target state="final">การเพิ่มประสิทธิภาพ</target>
+      </trans-unit>
+      <trans-unit id="save" approved="yes">
+        <source>Save</source>
+        <target state="final">บันทึก</target>
+      </trans-unit>
+      <trans-unit id="service.disableAll.description" approved="yes">
+        <source>Use this switch to enable or disable all services.</source>
+        <target state="final">ใช้สวิตช์นี้เพื่อเปิดหรือปิดบริการทั้งหมด</target>
+      </trans-unit>
+      <trans-unit id="service.disableAll.title" approved="yes">
+        <source>Enable or disable all services</source>
+        <target state="final">เปิดหรือปิดบริการทั้งหมด</target>
+      </trans-unit>
+      <trans-unit id="service.optOut.description" approved="yes">
+        <source>This service is loaded by default (but you can opt out)</source>
+        <target state="final">บริการนี้โหลดตามค่าเริ่มต้น (แต่คุณสามารถเลือกไม่ใช้ได้)</target>
+      </trans-unit>
+      <trans-unit id="service.optOut.title" approved="yes">
+        <source>(opt-out)</source>
+        <target state="final">(เลือกไม่ใช้)</target>
+      </trans-unit>
+      <trans-unit id="service.purpose" approved="yes">
+        <source>purpose</source>
+        <target state="final">วัตถุประสงค์</target>
+      </trans-unit>
+      <trans-unit id="service.purposes" approved="yes">
+        <source>purposes</source>
+        <target state="final">วัตถุประสงค์</target>
+      </trans-unit>
+      <trans-unit id="service.required.description" approved="yes">
+        <source>This service is always required</source>
+        <target state="final">บริการนี้จำเป็นเสมอ</target>
+      </trans-unit>
+      <trans-unit id="service.required.title" approved="yes">
+        <source>(always required)</source>
+        <target state="final">(จำเป็นเสมอ)</target>
+      </trans-unit>
+      <trans-unit id="purposes.analytics.title" approved="yes">
+        <source>Analytics</source>
+        <target state="final">การวิเคราะห์</target>
+      </trans-unit>
+      <trans-unit id="purposes.analytics.description" approved="yes">
+        <source>These services gather anonymous data for statistical analysis and performance optimization. Enabling analytics services assists website owners in making informed decisions to enhance online services.</source>
+        <target state="final">บริการเหล่านี้รวบรวมข้อมูลนิรนามเพื่อการวิเคราะห์ทางสถิติและการเพิ่มประสิทธิภาพ การเปิดใช้บริการวิเคราะห์ช่วยให้เจ้าของเว็บไซต์ตัดสินใจปรับปรุงบริการออนไลน์ได้อย่างมีข้อมูล</target>
+      </trans-unit>
+      <trans-unit id="purposes.security.title" approved="yes">
+        <source>Security</source>
+        <target state="final">ความปลอดภัย</target>
+      </trans-unit>
+      <trans-unit id="purposes.security.description" approved="yes">
+        <source>Security services are crucial for safeguarding your online experience. These services help protect your data and privacy by detecting and preventing security threats, such as malware, phishing attempts, and unauthorized access. They ensure a safer browsing environment.</source>
+        <target state="final">บริการด้านความปลอดภัยมีความสำคัญต่อการปกป้องประสบการณ์ออนไลน์ของคุณ บริการเหล่านี้ช่วยปกป้องข้อมูลและความเป็นส่วนตัวโดยตรวจจับและป้องกันภัยคุกคาม เช่น มัลแวร์ ความพยายามฟิชชิง และการเข้าถึงโดยไม่ได้รับอนุญาต ทำให้สภาพแวดล้อมการท่องเว็บปลอดภัยยิ่งขึ้น</target>
+      </trans-unit>
+      <trans-unit id="purposes.livechat.title" approved="yes">
+        <source>Live Chat</source>
+        <target state="final">แชทสด</target>
+      </trans-unit>
+      <trans-unit id="purposes.livechat.description" approved="yes">
+        <source>Live chat services enable real-time communication with website support teams. They offer a convenient way to ask questions, seek assistance, or engage in discussions while browsing a website. Live chat enhances your online interaction and customer support experience.</source>
+        <target state="final">บริการแชทสดช่วยให้สื่อสารกับทีมสนับสนุนของเว็บไซต์ได้แบบเรียลไทม์ เป็นวิธีที่สะดวกในการถามคำถาม ขอความช่วยเหลือ หรือสนทนาขณะเรียกดูเว็บไซต์ และช่วยยกระดับประสบการณ์การติดต่อและการสนับสนุนลูกค้าออนไลน์ของคุณ</target>
+      </trans-unit>
+      <trans-unit id="purposes.styling.title" approved="yes">
+        <source>Styling</source>
+        <target state="final">การจัดรูปแบบ</target>
+      </trans-unit>
+      <trans-unit id="purposes.styling.description" approved="yes">
+        <source>Services related to styling help to improve the appearance of the website. This can also have an impact on usability.</source>
+        <target state="final">บริการที่เกี่ยวข้องกับการจัดรูปแบบช่วยปรับปรุงรูปลักษณ์ของเว็บไซต์ และอาจมีผลต่อการใช้งานด้วย</target>
+      </trans-unit>
+      <trans-unit id="purposes.videos.title" approved="yes">
+        <source>Videos</source>
+        <target state="final">วิดีโอ</target>
+      </trans-unit>
+      <trans-unit id="purposes.videos.description" approved="yes">
+        <source>Embedding videos from external platforms to enrich the content on this website.</source>
+        <target state="final">ฝังวิดีโอจากแพลตฟอร์มภายนอกเพื่อเพิ่มคุณค่าให้เนื้อหาบนเว็บไซต์นี้</target>
+      </trans-unit>
+      <trans-unit id="purposes.social.title" approved="yes">
+        <source>Social Media</source>
+        <target state="final">โซเชียลมีเดีย</target>
+      </trans-unit>
+      <trans-unit id="purposes.social.description" approved="yes">
+        <source>Embedding social media from external platforms to enrich the content on this website.</source>
+        <target state="final">ฝังโซเชียลมีเดียจากแพลตฟอร์มภายนอกเพื่อเพิ่มคุณค่าให้เนื้อหาบนเว็บไซต์นี้</target>
+      </trans-unit>
+      <trans-unit id="purposes.misc.title" approved="yes">
+        <source>Miscellaneous</source>
+        <target state="final">เบ็ดเตล็ด</target>
+      </trans-unit>
+      <trans-unit id="purposes.misc.description" approved="yes">
+        <source>This includes services that do not fall under the other purposes.</source>
+        <target state="final">รวมบริการที่ไม่อยู่ในวัตถุประสงค์อื่น</target>
+      </trans-unit>
+      <trans-unit id="consentManager.show" approved="yes">
+        <source>Show Consent Manager</source>
+        <target state="final">แสดงตัวจัดการความยินยอม</target>
+      </trans-unit>
+      <trans-unit id="consentManager.show.title" approved="yes">
+        <source>Show Consent Manager</source>
+        <target state="final">แสดงตัวจัดการความยินยอม</target>
+      </trans-unit>
+      <trans-unit id="consentManager.reset" approved="yes">
+        <source>Reset Consent Manager</source>
+        <target state="final">รีเซ็ตตัวจัดการความยินยอม</target>
+      </trans-unit>
+      <trans-unit id="consentManager.reset.title" approved="yes">
+        <source>Reset Consent Manager</source>
+        <target state="final">รีเซ็ตตัวจัดการความยินยอม</target>
+      </trans-unit>
+      <trans-unit id="services.adobe-fonts.title" approved="yes">
+        <source>Adobe Fonts</source>
+        <target state="final">Adobe Fonts</target>
+      </trans-unit>
+      <trans-unit id="services.adobe-fonts.description" approved="yes">
+        <source>Adobe Fonts provides web fonts used for this website. When enabled, font files are loaded from Adobe and technical connection data may be processed.</source>
+        <target state="final">Adobe Fonts ให้บริการฟอนต์เว็บที่ใช้สำหรับเว็บไซต์นี้ เมื่อเปิดใช้ ไฟล์ฟอนต์จะถูกโหลดจาก Adobe และข้อมูลการเชื่อมต่อทางเทคนิคอาจถูกประมวลผล</target>
+      </trans-unit>
+      <trans-unit id="services.adsense.title" approved="yes">
+        <source>Google AdSense</source>
+        <target state="final">Google AdSense</target>
+      </trans-unit>
+      <trans-unit id="services.adsense.description" approved="yes">
+        <source>Google AdSense enables personalized ads on websites while respecting user privacy. By consenting, you allow relevant ads and help support free content.</source>
+        <target state="final">Google AdSense ช่วยให้เว็บไซต์แสดงโฆษณาแบบปรับให้เหมาะกับบุคคลโดยเคารพความเป็นส่วนตัวของผู้ใช้ เมื่อคุณยินยอม คุณอนุญาตให้แสดงโฆษณาที่เกี่ยวข้องและช่วยสนับสนุนเนื้อหาฟรี</target>
+      </trans-unit>
+      <trans-unit id="services.camera.title" approved="yes">
+        <source>Surveillance Camera</source>
+        <target state="final">กล้องวงจรปิด</target>
+      </trans-unit>
+      <trans-unit id="services.camera.description" approved="yes">
+        <source>Consent to the use of surveillance camera images for security and safety purposes, in compliance with applicable data privacy regulations.</source>
+        <target state="final">ยินยอมให้ใช้ภาพจากกล้องวงจรปิดเพื่อวัตถุประสงค์ด้านความมั่นคงและความปลอดภัย โดยเป็นไปตามกฎระเบียบความเป็นส่วนตัวของข้อมูลที่ใช้บังคับ</target>
+      </trans-unit>
+      <trans-unit id="services.career-captain.title" approved="yes">
+        <source>Career Captain</source>
+        <target state="final">Career Captain</target>
+      </trans-unit>
+      <trans-unit id="services.career-captain.description" approved="yes">
+        <source>Career Captain provides gamified career orientation and recruiting content. When enabled, external content from Career Captain may process usage and technical connection data.</source>
+        <target state="final">Career Captain ให้บริการเนื้อหาแนะแนวอาชีพและสรรหาบุคลากรแบบเกมมิฟิเคชัน เมื่อเปิดใช้ เนื้อหาภายนอกจาก Career Captain อาจประมวลผลข้อมูลการใช้งานและข้อมูลการเชื่อมต่อทางเทคนิค</target>
+      </trans-unit>
+      <trans-unit id="services.clarity.title" approved="yes">
+        <source>Microsoft Clarity</source>
+        <target state="final">Microsoft Clarity</target>
+      </trans-unit>
+      <trans-unit id="services.clarity.description" approved="yes">
+        <source>Microsoft Clarity is a user-friendly web analytics tool that empowers website visitors like you by providing transparency about how your interactions are tracked on a website. It ensures your privacy is respected while giving developers and website owners valuable insights into user behavior. Plus, it follows coding guidelines and best practices, ensuring a safe and secure online experience for you.</source>
+        <target state="final">Microsoft Clarity เป็นเครื่องมือวิเคราะห์เว็บที่ใช้งานง่าย ช่วยให้ผู้เข้าชมอย่างคุณเห็นอย่างโปร่งใสว่าการโต้ตอบของคุณบนเว็บไซต์ถูกติดตามอย่างไร โดยเคารพความเป็นส่วนตัวของคุณและให้ข้อมูลเชิงลึกที่มีคุณค่าแก่ผู้พัฒนาและเจ้าของเว็บไซต์เกี่ยวกับพฤติกรรมผู้ใช้ อีกทั้งยังปฏิบัติตามแนวทางการเขียนโค้ดและแนวทางปฏิบัติที่ดีเพื่อประสบการณ์ออนไลน์ที่ปลอดภัย</target>
+      </trans-unit>
+      <trans-unit id="services.cloudflare.title" approved="yes">
+        <source>Cloudflare</source>
+        <target state="final">Cloudflare</target>
+      </trans-unit>
+      <trans-unit id="services.cloudflare.description" approved="yes">
+        <source>Cloudflare helps protect and optimize websites. By using this website, you consent to Cloudflare's data processing practices as described in its Privacy Policy.</source>
+        <target state="final">Cloudflare ช่วยปกป้องและเพิ่มประสิทธิภาพเว็บไซต์ การใช้เว็บไซต์นี้หมายความว่าคุณยินยอมต่อแนวปฏิบัติการประมวลผลข้อมูลของ Cloudflare ตามที่อธิบายในนโยบายความเป็นส่วนตัว</target>
+      </trans-unit>
+      <trans-unit id="services.external-tracker.title" approved="yes">
+        <source>External Tracker</source>
+        <target state="final">ตัวติดตามภายนอก</target>
+      </trans-unit>
+      <trans-unit id="services.external-tracker.description" approved="yes">
+        <source>External tracking script</source>
+        <target state="final">สคริปต์ติดตามภายนอก</target>
+      </trans-unit>
+      <trans-unit id="services.facebook-pixel.title" approved="yes">
+        <source>Facebook Pixel</source>
+        <target state="final">Facebook Pixel</target>
+      </trans-unit>
+      <trans-unit id="services.facebook-pixel.description" approved="yes">
+        <source>Simplifies web tracking for analytics and marketing while ensuring data compliance and control.</source>
+        <target state="final">ทำให้การติดตามเว็บสำหรับการวิเคราะห์และการตลาดง่ายขึ้น พร้อมคงการปฏิบัติตามข้อกำหนดและการควบคุมข้อมูล</target>
+      </trans-unit>
+      <trans-unit id="services.fast-fonts.title" approved="yes">
+        <source>Fast Fonts</source>
+        <target state="final">Fast Fonts</target>
+      </trans-unit>
+      <trans-unit id="services.fast-fonts.description" approved="yes">
+        <source>Fast Fonts, operated by fonts.com and supplied by fast.fonts.net, is a service for the provision of web fonts. It requires the use of a pixel-code for continuous price calculation.</source>
+        <target state="final">Fast Fonts ดำเนินการโดย fonts.com และให้บริการโดย fast.fonts.net เป็นบริการจัดหาเว็บฟอนต์ ซึ่งต้องใช้ pixel-code สำหรับการคำนวณราคาอย่างต่อเนื่อง</target>
+      </trans-unit>
+      <trans-unit id="services.google-ads.title" approved="yes">
+        <source>Google Ads</source>
+        <target state="final">Google Ads</target>
+      </trans-unit>
+      <trans-unit id="services.google-ads.description" approved="yes">
+        <source>Google Ads allows advertisers to reach their target audience online. To personalize ads and measure their effectiveness, Google may collect data with your consent.</source>
+        <target state="final">Google Ads ช่วยให้ผู้ลงโฆษณาเข้าถึงกลุ่มเป้าหมายออนไลน์ได้ เพื่อปรับแต่งโฆษณาและวัดประสิทธิผล Google อาจรวบรวมข้อมูลโดยอาศัยความยินยอมของคุณ</target>
+      </trans-unit>
+      <trans-unit id="services.google-analytics.title" approved="yes">
+        <source>Google Analytics</source>
+        <target state="final">Google Analytics</target>
+      </trans-unit>
+      <trans-unit id="services.google-analytics.description" approved="yes">
+        <source>Web analytics service provided by Google, Inc. ("Google")</source>
+        <target state="final">บริการวิเคราะห์เว็บที่ให้บริการโดย Google, Inc. ("Google")</target>
+      </trans-unit>
+      <trans-unit id="services.google-fonts.title" approved="yes">
+        <source>Google Fonts</source>
+        <target state="final">Google Fonts</target>
+      </trans-unit>
+      <trans-unit id="services.google-fonts.description" approved="yes">
+        <source>Web fonts hosted by Google</source>
+        <target state="final">เว็บฟอนต์ที่โฮสต์โดย Google</target>
+      </trans-unit>
+      <trans-unit id="services.google-maps.title" approved="yes">
+        <source>Google Maps</source>
+        <target state="final">Google Maps</target>
+      </trans-unit>
+      <trans-unit id="services.google-maps.description" approved="yes">
+        <source>Google Maps allows for the integration of interactive maps on websites, enabling location-based services. Developers can utilize it while ensuring data compliance and control, adhering to coding guidelines and best practices.</source>
+        <target state="final">Google Maps ช่วยให้ผสานแผนที่เชิงโต้ตอบบนเว็บไซต์และให้บริการตามตำแหน่งได้ นักพัฒนาสามารถใช้ได้พร้อมรักษาการปฏิบัติตามข้อกำหนดและการควบคุมข้อมูล รวมถึงแนวทางการเขียนโค้ดและแนวทางปฏิบัติที่ดี</target>
+      </trans-unit>
+      <trans-unit id="services.google-tag-manager.title" approved="yes">
+        <source>Google Tag Manager</source>
+        <target state="final">Google Tag Manager</target>
+      </trans-unit>
+      <trans-unit id="services.google-tag-manager.description" approved="yes">
+        <source>Google Tag Manager streamlines web tracking and code management, ensuring data compliance and control for developers.</source>
+        <target state="final">Google Tag Manager ช่วยจัดการการติดตามเว็บและโค้ดให้ง่ายขึ้น พร้อมคงการปฏิบัติตามข้อกำหนดและการควบคุมข้อมูลสำหรับนักพัฒนา</target>
+      </trans-unit>
+      <trans-unit id="services.inline-tracker.title" approved="yes">
+        <source>Inline Tracker</source>
+        <target state="final">ตัวติดตามแบบอินไลน์</target>
+      </trans-unit>
+      <trans-unit id="services.inline-tracker.description" approved="yes">
+        <source>Inline tracking script</source>
+        <target state="final">สคริปต์ติดตามแบบอินไลน์</target>
+      </trans-unit>
+      <trans-unit id="services.instagram.title" approved="yes">
+        <source>Instagram</source>
+        <target state="final">Instagram</target>
+      </trans-unit>
+      <trans-unit id="services.instagram.description" approved="yes">
+        <source>Allows Instagram posts to be embedded. Personal data may be transferred to Instagram (Meta Platforms) in the process.</source>
+        <target state="final">อนุญาตให้ฝังโพสต์ Instagram ได้ ข้อมูลส่วนบุคคลอาจถูกส่งไปยัง Instagram (Meta Platforms) ในกระบวนการนี้</target>
+      </trans-unit>
+      <trans-unit id="services.intercom.title" approved="yes">
+        <source>Intercom</source>
+        <target state="final">Intercom</target>
+      </trans-unit>
+      <trans-unit id="services.intercom.description" approved="yes">
+        <source>Chat widget and collecting of visitor statistics</source>
+        <target state="final">วิดเจ็ตแชทและการเก็บสถิติผู้เข้าชม</target>
+      </trans-unit>
+      <trans-unit id="services.klaro.title" approved="yes">
+        <source>Klaro!</source>
+        <target state="final">Klaro!</target>
+      </trans-unit>
+      <trans-unit id="services.klaro.description" approved="yes">
+        <source>Klaro! manages consent choices for this website and stores whether individual services may be loaded according to your preferences.</source>
+        <target state="final">Klaro! จัดการตัวเลือกความยินยอมสำหรับเว็บไซต์นี้และบันทึกว่าบริการแต่ละรายการสามารถโหลดตามการตั้งค่าของคุณได้หรือไม่</target>
+      </trans-unit>
+      <trans-unit id="services.matomo.title" approved="yes">
+        <source>Matomo/Piwik</source>
+        <target state="final">Matomo/Piwik</target>
+      </trans-unit>
+      <trans-unit id="services.matomo.description" approved="yes">
+        <source>Open source software for statistical analysis of visitor accesses</source>
+        <target state="final">ซอฟต์แวร์โอเพนซอร์สสำหรับการวิเคราะห์ทางสถิติของการเข้าชม</target>
+      </trans-unit>
+      <trans-unit id="services.mouseflow.title" approved="yes">
+        <source>Mouseflow</source>
+        <target state="final">Mouseflow</target>
+      </trans-unit>
+      <trans-unit id="services.mouseflow.description" approved="yes">
+        <source>Real-time user analytics service that helps to understand how visitors interact with our website.</source>
+        <target state="final">บริการวิเคราะห์ผู้ใช้แบบเรียลไทม์ที่ช่วยให้เข้าใจว่าผู้เข้าชมโต้ตอบกับเว็บไซต์ของเราอย่างไร</target>
+      </trans-unit>
+      <trans-unit id="services.salesviewer.title" approved="yes">
+        <source>SalesViewer</source>
+        <target state="final">SalesViewer</target>
+      </trans-unit>
+      <trans-unit id="services.salesviewer.description" approved="yes">
+        <source>SalesViewer analyzes website visits for B2B lead generation and may identify company-related visitor information based on usage and technical access data.</source>
+        <target state="final">SalesViewer วิเคราะห์การเข้าชมเว็บไซต์เพื่อสร้างลีด B2B และอาจระบุข้อมูลผู้เข้าชมที่เกี่ยวข้องกับบริษัทจากข้อมูลการใช้งานและข้อมูลการเข้าถึงทางเทคนิค</target>
+      </trans-unit>
+      <trans-unit id="services.tiktok.title" approved="yes">
+        <source>TikTok</source>
+        <target state="final">TikTok</target>
+      </trans-unit>
+      <trans-unit id="services.tiktok.description" approved="yes">
+        <source>Allows TikTok videos to be embedded. Personal data may be transferred to TikTok and processed in third countries.</source>
+        <target state="final">อนุญาตให้ฝังวิดีโอ TikTok ได้ ข้อมูลส่วนบุคคลอาจถูกส่งไปยัง TikTok และประมวลผลในประเทศที่สาม</target>
+      </trans-unit>
+      <trans-unit id="services.twitter.title" approved="yes">
+        <source>X (formerly Twitter)</source>
+        <target state="final">X (เดิมคือ Twitter)</target>
+      </trans-unit>
+      <trans-unit id="services.twitter.description" approved="yes">
+        <source>X (formerly Twitter) is a social media platform that allows users to share and interact with short messages and multimedia content. Developers can integrate Twitter features into websites to enhance user engagement and real-time updates while maintaining data privacy compliance and adhering to coding guidelines.</source>
+        <target state="final">X (เดิมคือ Twitter) เป็นแพลตฟอร์มโซเชียลมีเดียที่ให้ผู้ใช้แชร์และโต้ตอบกับข้อความสั้นและเนื้อหามัลติมีเดีย นักพัฒนาสามารถผสานฟีเจอร์ Twitter ในเว็บไซต์เพื่อเพิ่มการมีส่วนร่วมและการอัปเดตแบบเรียลไทม์ โดยรักษาการปฏิบัติตามความเป็นส่วนตัวของข้อมูลและแนวทางการเขียนโค้ด</target>
+      </trans-unit>
+      <trans-unit id="services.userlike.title" approved="yes">
+        <source>Userlike</source>
+        <target state="final">Userlike</target>
+      </trans-unit>
+      <trans-unit id="services.userlike.description" approved="yes">
+        <source>Userlike offers a live chat solution that enhances user interactions on websites.</source>
+        <target state="final">Userlike ให้บริการโซลูชันแชทสดที่ช่วยเพิ่มปฏิสัมพันธ์ของผู้ใช้บนเว็บไซต์</target>
+      </trans-unit>
+      <trans-unit id="services.vimeo.title" approved="yes">
+        <source>Vimeo</source>
+        <target state="final">Vimeo</target>
+      </trans-unit>
+      <trans-unit id="services.vimeo.description" approved="yes">
+        <source>Popular video-sharing platform that offers a range of features for creators and developers to enhance video content on websites.</source>
+        <target state="final">แพลตฟอร์มแชร์วิดีโอยอดนิยมที่มีฟีเจอร์หลากหลายสำหรับผู้สร้างและนักพัฒนาเพื่อยกระดับเนื้อหาวิดีโอบนเว็บไซต์</target>
+      </trans-unit>
+      <trans-unit id="services.youtube.title" approved="yes">
+        <source>YouTube</source>
+        <target state="final">YouTube</target>
+      </trans-unit>
+      <trans-unit id="services.youtube.description" approved="yes">
+        <source>The leading video-sharing platform for content creators and developers to enhance user experiences on websites.</source>
+        <target state="final">แพลตฟอร์มแชร์วิดีโอชั้นนำสำหรับผู้สร้างเนื้อหาและนักพัฒนาเพื่อยกระดับประสบการณ์ผู้ใช้บนเว็บไซต์</target>
+      </trans-unit>
+      <trans-unit id="consentModal.privacyPolicy.name" approved="yes">
+        <source>Privacy policy</source>
+        <target state="final">นโยบายความเป็นส่วนตัว</target>
+      </trans-unit>
+      <trans-unit id="consentModal.privacyPolicy.text" approved="yes">
+        <source>To learn more, please read our {privacyPolicy}.</source>
+        <target state="final">หากต้องการเรียนรู้เพิ่มเติม โปรดอ่าน {privacyPolicy} ของเรา</target>
+      </trans-unit>
+      <trans-unit id="consentNotice.imprint.name" approved="yes">
+        <source>Imprint</source>
+        <target state="final">ข้อมูลเจ้าของเว็บไซต์</target>
+      </trans-unit>
+      <trans-unit id="consentNotice.privacyPolicy.name" approved="yes">
+        <source>Privacy policy</source>
+        <target state="final">นโยบายความเป็นส่วนตัว</target>
+      </trans-unit>
+      <trans-unit id="cookies.title" approved="yes">
+        <source>Cookies</source>
+        <target state="final">คุกกี้</target>
+      </trans-unit>
+      <trans-unit id="cookies.description" approved="yes">
+        <source>Below you will find a list of all cookies used by %s</source>
+        <target state="final">ด้านล่างคือรายการคุกกี้ทั้งหมดที่ %s ใช้</target>
+      </trans-unit>
+      <trans-unit id="cookies.headline.name" approved="yes">
+        <source>Name / Pattern</source>
+        <target state="final">ชื่อ / รูปแบบ</target>
+      </trans-unit>
+      <trans-unit id="cookies.headline.path" approved="yes">
+        <source>Path</source>
+        <target state="final">เส้นทาง</target>
+      </trans-unit>
+      <trans-unit id="cookies.headline.domain" approved="yes">
+        <source>Domain</source>
+        <target state="final">โดเมน</target>
+      </trans-unit>
+      <trans-unit id="cookies.headline.expiresAfter" approved="yes">
+        <source>Expires after</source>
+        <target state="final">หมดอายุหลังจาก</target>
+      </trans-unit>
+      <trans-unit id="year" approved="yes">
+        <source>Year</source>
+        <target state="final">ปี</target>
+      </trans-unit>
+      <trans-unit id="years" approved="yes">
+        <source>Years</source>
+        <target state="final">ปี</target>
+      </trans-unit>
+      <trans-unit id="month" approved="yes">
+        <source>Month</source>
+        <target state="final">เดือน</target>
+      </trans-unit>
+      <trans-unit id="months" approved="yes">
+        <source>Months</source>
+        <target state="final">เดือน</target>
+      </trans-unit>
+      <trans-unit id="day" approved="yes">
+        <source>Day</source>
+        <target state="final">วัน</target>
+      </trans-unit>
+      <trans-unit id="days" approved="yes">
+        <source>Days</source>
+        <target state="final">วัน</target>
+      </trans-unit>
+      <trans-unit id="hour" approved="yes">
+        <source>Hour</source>
+        <target state="final">ชั่วโมง</target>
+      </trans-unit>
+      <trans-unit id="hours" approved="yes">
+        <source>Hours</source>
+        <target state="final">ชั่วโมง</target>
+      </trans-unit>
+      <trans-unit id="minute" approved="yes">
+        <source>Minute</source>
+        <target state="final">นาที</target>
+      </trans-unit>
+      <trans-unit id="minutes" approved="yes">
+        <source>Minutes</source>
+        <target state="final">นาที</target>
+      </trans-unit>
+      <trans-unit id="second" approved="yes">
+        <source>Second</source>
+        <target state="final">วินาที</target>
+      </trans-unit>
+      <trans-unit id="seconds" approved="yes">
+        <source>Seconds</source>
+        <target state="final">วินาที</target>
+      </trans-unit>
+      <trans-unit id="end-of-session" approved="yes">
+        <source>End of session</source>
+        <target state="final">สิ้นสุดเซสชัน</target>
+      </trans-unit>
+      <trans-unit id="persistent" approved="yes">
+        <source>persistent</source>
+        <target state="final">ถาวร</target>
+      </trans-unit>
+      <trans-unit id="warning.noServices" approved="yes">
+        <source>Why don't I see a Klaro! Modal? → You must assign at least 1 service to the Klaro! configuration! Without services, we don't need consent management at all.</source>
+        <target state="final">ทำไมฉันจึงไม่เห็น Klaro! Modal? → คุณต้องกำหนดอย่างน้อย 1 บริการให้กับการกำหนดค่า Klaro! หากไม่มีบริการ เราก็ไม่จำเป็นต้องมีการจัดการความยินยอมเลย</target>
+      </trans-unit>
+      <trans-unit id="warning.noServicesPersonalized" approved="yes">
+        <source>Hey %s! You missed a service in the config! Without services, we don't need consent management at all.</source>
+        <target state="final">สวัสดี %s! คุณพลาดบริการหนึ่งรายการใน config! หากไม่มีบริการ เราก็ไม่จำเป็นต้องมีการจัดการความยินยอมเลย</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

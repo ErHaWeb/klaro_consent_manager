@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file source-language="en" original="EXT:klaro_consent_manager/Configuration/Sets/KlaroConsentManager/labels.xlf" datatype="plaintext" product-name="klaro_consent_manager" date="2025-07-10T17:20:02+02:00" target-language="mk">
+    <header/>
+    <body>
+      <trans-unit id="label" approved="yes">
+        <source>Klaro! Consent Manager</source>
+        <target state="final">Klaro! Consent Manager</target>
+      </trans-unit>
+      <trans-unit id="categories.klaroconsentmanager" approved="yes">
+        <source>Klaro</source>
+        <target state="final">Klaro</target>
+      </trans-unit>
+      <trans-unit id="categories.klaroconsentmanager.templates" approved="yes">
+        <source>Templates</source>
+        <target state="final">Шаблони</target>
+      </trans-unit>
+      <trans-unit id="categories.klaroconsentmanager.resources" approved="yes">
+        <source>Resources</source>
+        <target state="final">Ресурси</target>
+      </trans-unit>
+      <trans-unit id="categories.klaroconsentmanager.settings" approved="yes">
+        <source>Settings</source>
+        <target state="final">Поставки</target>
+      </trans-unit>
+      <trans-unit id="settings.plugin.tx_klaroconsentmanager.view.templateRootPath" approved="yes">
+        <source>Path to template root (FE)</source>
+        <target state="final">Патека до коренот на шаблоните (FE)</target>
+      </trans-unit>
+      <trans-unit id="settings.plugin.tx_klaroconsentmanager.view.partialRootPath" approved="yes">
+        <source>Path to template partials (FE)</source>
+        <target state="final">Патека до парцијалите на шаблоните (FE)</target>
+      </trans-unit>
+      <trans-unit id="settings.plugin.tx_klaroconsentmanager.view.layoutRootPath" approved="yes">
+        <source>Path to template layouts (FE)</source>
+        <target state="final">Патека до распоредите на шаблоните (FE)</target>
+      </trans-unit>
+      <trans-unit id="settings.plugin.tx_klaroconsentmanager.settings.css.klaro-default" approved="yes">
+        <source>Klaro CSS</source>
+        <target state="final">Klaro CSS</target>
+      </trans-unit>
+      <trans-unit id="settings.plugin.tx_klaroconsentmanager.settings.css.klaro-custom" approved="yes">
+        <source>Custom additions for Klaro CSS</source>
+        <target state="final">Прилагодени додатоци за Klaro CSS</target>
+      </trans-unit>
+      <trans-unit id="settings.plugin.tx_klaroconsentmanager.settings.javascript.klaro-default" approved="yes">
+        <source>Klaro JavaScript</source>
+        <target state="final">Klaro JavaScript</target>
+      </trans-unit>
+      <trans-unit id="settings.plugin.tx_klaroconsentmanager.settings.contextualconsent.replaceAttributes" approved="yes">
+        <source>Replace attributes</source>
+        <target state="final">Замени атрибути</target>
+      </trans-unit>
+      <trans-unit id="settings.description.plugin.tx_klaroconsentmanager.settings.contextualconsent.replaceAttributes" approved="yes">
+        <source>Comma-separated list of attributes that should be automatically replaced within the content element of the contextual consent</source>
+        <target state="final">Листа на атрибути одделени со запирки што треба автоматски да се заменат во елементот за содржина на контекстуалната согласност</target>
+      </trans-unit>
+      <trans-unit id="settings.plugin.tx_klaroconsentmanager.settings.contextualconsent.mainSectionOnly" approved="yes">
+        <source>Main section only</source>
+        <target state="final">Само главен дел</target>
+      </trans-unit>
+      <trans-unit id="settings.description.plugin.tx_klaroconsentmanager.settings.contextualconsent.mainSectionOnly" approved="yes">
+        <source>Activate this option if the contextual consent box should be limited to the main content only (without heading and footer).</source>
+        <target state="final">Активирајте ја оваа опција ако полето за контекстуална согласност треба да биде ограничено само на главната содржина (без наслов и подножје).</target>
+      </trans-unit>
+      <trans-unit id="settings.plugin.tx_klaroconsentmanager.settings.configuration.disabled" approved="yes">
+        <source>Disable Klaro Consent Management</source>
+        <target state="final">Оневозможи управување со согласности на Klaro</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

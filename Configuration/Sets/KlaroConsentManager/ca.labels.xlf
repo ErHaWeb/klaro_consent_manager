@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file source-language="en" original="EXT:klaro_consent_manager/Configuration/Sets/KlaroConsentManager/labels.xlf" datatype="plaintext" product-name="klaro_consent_manager" date="2025-07-10T17:20:02+02:00" target-language="ca">
+    <header/>
+    <body>
+      <trans-unit id="label" approved="yes">
+        <source>Klaro! Consent Manager</source>
+        <target state="final">Gestor de consentiment Klaro!</target>
+      </trans-unit>
+      <trans-unit id="categories.klaroconsentmanager" approved="yes">
+        <source>Klaro</source>
+        <target state="final">Klaro</target>
+      </trans-unit>
+      <trans-unit id="categories.klaroconsentmanager.templates" approved="yes">
+        <source>Templates</source>
+        <target state="final">Plantilles</target>
+      </trans-unit>
+      <trans-unit id="categories.klaroconsentmanager.resources" approved="yes">
+        <source>Resources</source>
+        <target state="final">Recursos</target>
+      </trans-unit>
+      <trans-unit id="categories.klaroconsentmanager.settings" approved="yes">
+        <source>Settings</source>
+        <target state="final">Configuració</target>
+      </trans-unit>
+      <trans-unit id="settings.plugin.tx_klaroconsentmanager.view.templateRootPath" approved="yes">
+        <source>Path to template root (FE)</source>
+        <target state="final">Camí a l’arrel de les plantilles (FE)</target>
+      </trans-unit>
+      <trans-unit id="settings.plugin.tx_klaroconsentmanager.view.partialRootPath" approved="yes">
+        <source>Path to template partials (FE)</source>
+        <target state="final">Camí als parcials de plantilla (FE)</target>
+      </trans-unit>
+      <trans-unit id="settings.plugin.tx_klaroconsentmanager.view.layoutRootPath" approved="yes">
+        <source>Path to template layouts (FE)</source>
+        <target state="final">Camí als layouts de plantilla (FE)</target>
+      </trans-unit>
+      <trans-unit id="settings.plugin.tx_klaroconsentmanager.settings.css.klaro-default" approved="yes">
+        <source>Klaro CSS</source>
+        <target state="final">Klaro CSS</target>
+      </trans-unit>
+      <trans-unit id="settings.plugin.tx_klaroconsentmanager.settings.css.klaro-custom" approved="yes">
+        <source>Custom additions for Klaro CSS</source>
+        <target state="final">Afegits personalitzats per a Klaro CSS</target>
+      </trans-unit>
+      <trans-unit id="settings.plugin.tx_klaroconsentmanager.settings.javascript.klaro-default" approved="yes">
+        <source>Klaro JavaScript</source>
+        <target state="final">Klaro JavaScript</target>
+      </trans-unit>
+      <trans-unit id="settings.plugin.tx_klaroconsentmanager.settings.contextualconsent.replaceAttributes" approved="yes">
+        <source>Replace attributes</source>
+        <target state="final">Substitueix atributs</target>
+      </trans-unit>
+      <trans-unit id="settings.description.plugin.tx_klaroconsentmanager.settings.contextualconsent.replaceAttributes" approved="yes">
+        <source>Comma-separated list of attributes that should be automatically replaced within the content element of the contextual consent</source>
+        <target state="final">Llista d’atributs separats per comes que s’han de substituir automàticament dins l’element de contingut del consentiment contextual</target>
+      </trans-unit>
+      <trans-unit id="settings.plugin.tx_klaroconsentmanager.settings.contextualconsent.mainSectionOnly" approved="yes">
+        <source>Main section only</source>
+        <target state="final">Només la secció principal</target>
+      </trans-unit>
+      <trans-unit id="settings.description.plugin.tx_klaroconsentmanager.settings.contextualconsent.mainSectionOnly" approved="yes">
+        <source>Activate this option if the contextual consent box should be limited to the main content only (without heading and footer).</source>
+        <target state="final">Activeu aquesta opció si el quadre de consentiment contextual s’ha de limitar només al contingut principal (sense capçalera ni peu).</target>
+      </trans-unit>
+      <trans-unit id="settings.plugin.tx_klaroconsentmanager.settings.configuration.disabled" approved="yes">
+        <source>Disable Klaro Consent Management</source>
+        <target state="final">Desactiva la gestió del consentiment de Klaro</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
