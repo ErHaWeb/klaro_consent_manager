@@ -1,0 +1,24 @@
+.. include:: /Includes.rst.txt
+
+3.0.8 - November 5, 2026
+========================
+
+
+.. contents::
+   :local:
+   :depth: 3
+
+Breaking changes
+----------------
+No breaking changes!
+
+All Changes
+-----------
+This is a list of all changes in this release: ::
+
+    2026-11-05 [BUGFIX] Avoid valuePicker migration warnings (Commit a7fd77ee by Eric Harrer)
+    2026-09-25 [BUGFIX] Handle unavailable TypoScript setup (Commit b8db2e7a by Eric Harrer)
+    2026-09-24 [BUGFIX] Handle unresolved site language in Klaro configuration (Commit 1ba23eec by Eric Harrer)
+    2026-08-20 [BUGFIX] Check if variable was initialized (Commit 9c642577 by Albrecht Köhnlein)
+
+This list has been created by using `git log $(git describe --tags --abbrev=0)..HEAD --abbrev-commit --pretty='%ad %s (Commit %h by %an)' --date=short`.
